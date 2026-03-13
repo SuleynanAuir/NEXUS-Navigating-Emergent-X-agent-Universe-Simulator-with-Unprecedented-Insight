@@ -1,0 +1,119 @@
+{
+  "keyword": "GraphRAG research",
+  "selected_urls": [
+    "https://www.dongascience.com/en/news/76741",
+    "https://www.microsoft.com/en-us/research/project/graphrag/",
+    "https://microsoft.github.io/graphrag/"
+  ],
+  "hl_content": [
+    {
+      "type": "!",
+      "text": "Particularly noteworthy were the advanced achievements where AI was not just a tool for simple data analysis but was used to design the very structure of the research problem-solving process.",
+      "note": "!",
+      "tags": [
+        "!"
+      ],
+      "url": "https://www.dongascience.com/en/news/76741",
+      "hypothesis_id": "N_JEyB1KEfG5f3enUW7X0w",
+      "timestamp": "2026-03-11T13:00:02.793110+00:00",
+      "source": "hypothesis"
+    },
+    {
+      "type": "!",
+      "text": "Shared on SNS",
+      "note": "!",
+      "tags": [
+        "!"
+      ],
+      "url": "https://www.dongascience.com/en/news/76741",
+      "hypothesis_id": "-BrvXh1IEfGoZevRbgZeHg",
+      "timestamp": "2026-03-11T12:51:06.197317+00:00",
+      "source": "hypothesis"
+    },
+    {
+      "type": "!",
+      "text": "comes. The total num",
+      "note": "!",
+      "tags": [
+        "!"
+      ],
+      "url": "https://www.dongascience.com/en/news/76741",
+      "hypothesis_id": "-H3_bh1HEfGC2o9HIz4TVQ",
+      "timestamp": "2026-03-11T12:43:57.352917+00:00",
+      "source": "hypothesis"
+    },
+    {
+      "type": "!",
+      "text": "The AI Education Completion Certification Program is a system that verifies and certifies the AI-driven research achievements and capabilities of non-AI major students who have completed AI-related courses.",
+      "note": "!",
+      "tags": [
+        "!"
+      ],
+      "url": "https://www.dongascience.com/en/news/76741",
+      "hypothesis_id": "53xEUB1HEfGf-7-twv3d9g",
+      "timestamp": "2026-03-11T12:43:28.809874+00:00",
+      "source": "hypothesis"
+    },
+    {
+      "type": "!",
+      "text": "The students with 'Excellence' certifications strategically integrated cutting-edge AI technologies into their respective fields of study. These technologies include large language models (LLMs) like Gemini and ChatGPT, Vision Foundation Models (VFMs) based on image and video data learning, and Knowledge Graph-based Retrieval-Augmented Generation (GraphRAG), which connects complex relationships between information to understand the overall context.",
+      "note": "!",
+      "tags": [
+        "!"
+      ],
+      "url": "https://www.dongascience.com/en/news/76741",
+      "hypothesis_id": "1ra7Lh1GEfGPDeuBELqArg",
+      "timestamp": "2026-03-11T12:35:51.182709+00:00",
+      "source": "hypothesis"
+    },
+    {
+      "type": "!",
+      "text": "Popular Articles1South Korea's ICT Ministry Appoints New Director for Technology Policy Division",
+      "note": "！",
+      "tags": [
+        "!"
+      ],
+      "url": "https://www.dongascience.com/en/news/76741",
+      "hypothesis_id": "e1TxPh1FEfGkJSvTMGkNEA",
+      "timestamp": "2026-03-11T12:26:08.378726+00:00",
+      "source": "hypothesis"
+    },
+    {
+      "type": "!",
+      "text": "University's AI training for scientists sparks surge in research publications",
+      "note": "!",
+      "tags": [
+        "!"
+      ],
+      "url": "https://www.dongascience.com/en/news/76741",
+      "hypothesis_id": "ft2rxh01EfG-0kviC_ge4A",
+      "timestamp": "2026-03-11T10:31:42.365898+00:00",
+      "source": "hypothesis"
+    },
+    {
+      "type": "!",
+      "text": "Seo Hyun-woo, a master's student in Aerospace Systems Engineering at the Korea Aerospace Research Institute (KARI) School, utilized VFMs to significantly improve the performance of accurately detecting ships in satellite images with contextual information and precisely describing the related situations in text. This research was presented at 'IEEE IGARSS 2025,' the world's most prestigious conference in the field of remote sensing and satellite imagery, and was highly praised as a successful case of applying AI to next-generation satellite image analysis.",
+      "note": "！",
+      "tags": [
+        "!"
+      ],
+      "url": "https://www.dongascience.com/en/news/76741",
+      "hypothesis_id": "_c7cKB0ZEfGMji9BN91OoQ",
+      "timestamp": "2026-03-11T07:14:49.428535+00:00",
+      "source": "hypothesis"
+    },
+    {
+      "type": "!",
+      "text": "Nine students from the University of Science and Technology (UST) have published a series of findings in international academic conferences and renowned journals by using artificial intelligence (AI) as a core part of their research design. They are all holders of an 'Excellence' certification from the university's 'AI Education Completion Certification Program'.",
+      "note": "da",
+      "tags": [
+        "!"
+      ],
+      "url": "https://www.dongascience.com/en/news/76741",
+      "hypothesis_id": "xR0PDB0VEfGB5_-WkW7wZg",
+      "timestamp": "2026-03-11T06:44:36.326022+00:00",
+      "source": "hypothesis"
+    }
+  ],
+  "exported_at": "2026-03-11T13:13:29.968060Z"
+}

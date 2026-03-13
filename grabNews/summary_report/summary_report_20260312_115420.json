@@ -1,0 +1,1865 @@
+{
+  "generated_at": "2026-03-12T11:54:20.223329Z",
+  "keyword": "GraphRAG research",
+  "report_count": 8,
+  "reports": [
+    {
+      "url": "https://www.google.com/search?q=GraphRAG+%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0",
+      "title": "Google Search",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "网页是Google搜索结果的页面，标题为'Google Search'，正文内容截断，仅显示'If you're having trouble accessing Google Search, please'，表明页面可能因访问问题或截断而未显示完整内容，无法获取与GraphRAG问答系统研究综述相关的具体信息。",
+      "key_points": [
+        "页面为Google搜索界面，未提供实质性内容",
+        "无法从给定正文中提取与GraphRAG相关的信息"
+      ],
+      "risk_flags": [
+        "内容不完整或截断",
+        "缺乏具体事实信息",
+        "可能无法进行有效核查"
+      ],
+      "keywords": [
+        "Google Search",
+        "GraphRAG",
+        "问答系统",
+        "研究综述"
+      ],
+      "reliability_assessment": {
+        "score": 0.0,
+        "rationale": "页面为搜索界面，正文截断且未提供任何与主题相关的内容，无法评估信息可靠性。"
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "正文仅显示'If you're having trouble accessing Google Search, please'，无具体内容，无法核查。"
+        },
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "3月10日下午，武穴市梅川镇食安办联合镇市场监管所，对辖区内网络餐饮单位开展突击检查。此次检查以火锅店、华莱士、精武鸭脖等热门外卖商户为重点，采取线上看证照、线下查后厨”的双线核查模式，从网络页面到实体后厨进行全链条体检”，全力守护市民指尖上的安全”。 下午两点半，检查组首先打开手机外卖平台，随机抽查了数家热门店铺的线上页面，逐一核对其公示的营业执照、食品经营许可证、量化分级等信息是否真实有效。网络餐饮的‘第一道门’就是资质公示，绝不允许无证或信息不符的商家‘挂羊头卖狗肉’。”市场监管所执法人员一边记录一边说道。线上排查结束后，检查组一行直奔实体门店。在镇区一家火锅店，执法人员走进后厨，对食材储存、加工流程、餐具消毒等环节进行细致检查。冰箱内的食材是否分类存放、消毒柜温度是否达标、外卖封签是否规范使用每一个细节都被仔细查验。现场还随机抽取了部分食材，要求店方当场提供进货票据和供应商资质证明。 在一家华莱士门店，执法人员重点检查了线上线下同质同标”落实情况。通过比对线上商品宣传图片与实际出品，查看是否存在虚假宣传。同时，对油炸用油的更换记录、半成品保存温度等关键控制点进行了核查。很多消费者是通过图片点餐，我们必须确保送到他们手中的食品和宣传承诺的品质一致。”检查组人员表示。 检查发现，大部分商户经营较为规范，但也存在个别商家健康证临近过期、外卖封签使用不规范、进货台账记录不完整等问题。针对发现的问题，执法人员当场下达责令整改通知书，要求限期整改到位，并将进行回头看”复查。 网络订餐看不见摸不着，监管必须更严更实。”梅川镇食安办负责人表示，此"
+        },
+        {
+          "claim": "Google Search",
+          "status": "supported",
+          "evidence_from_page": "Get started Google Search API Get accurate, real-time Google search and SERP results as JSON in seconds. Less bloat than alternatives. Get started Never get blocked by captcha again Get Google search"
+        },
+        {
+          "claim": "页面为Google搜索界面，未提供实质性内容",
+          "status": "unclear",
+          "evidence_from_page": "梦醒了！Google Canvas AI模式：搜索终结，你的工作将被AI重构？ 别再当信息搬运工了！Google这一刀，直接切断了传统搜索的命脉——从现在起，搜索不再是找答案，而是直接创造答案。技术人的饭碗，正在被AI亲手砸碎。 一、搜索已死：Google亲手埋葬了自己的摇钱树 2026年3月4日，Google做了一件疯狂的事：将Canvas in AI Mode全面开放给所有美国英语用户。这不是一次简单的功能更新，而是一场蓄谋已久的技术政变。 传统搜索的商业模式很简单：你提问，Google给你链接，你点击链接，广告商付钱。这套玩了25年的游戏，Google现在要亲手砸烂。 为什么？因为AI让找答案”变得廉价。当ChatGPT能在3秒内给你完整解决方案时，谁还需要翻10个网页拼凑信息？ 但Google比谁都清楚：与其被别人颠覆，不如自己颠覆自己。Canvas in AI Mode就是那把手术刀——它要把搜索从信息检索”彻底改造成内容创造”。 立场声明：我坚定站边Google这次改革。这不是选择题，而是生存题。任何还在教学生SEO优化技巧”的老师，都是在误人子弟。搜索的未来不是优化链接，而是生成代码。 二、技术架构解析：Canvas如何把搜索框变成开发工具 Canvas in AI Mode的技术架构，是一次典型的降维打击”。它把原本需要三个不同软件（IDE、文档编辑器、网页浏览器）完成的工作，压缩到了一个搜索框里。 2.1 多模态神经网络的协同工作流 plaintext 用户输入 Gemini 3理解意图 知识图谱检索 实时网络数据 代码"
+        }
+      ],
+      "generated_at": "2024-07-19T12:00:00Z",
+      "generator": "llm",
+      "_source_text_excerpt": "If you're having trouble accessing Google Search, please",
+      "web_content": "If you're having trouble accessing Google Search, please",
+      "priority_focus_marks": [],
+      "secondary_focus_marks": [],
+      "multi_agent_analysis": {
+        "analysis_mode": "hybrid_multi_agent",
+        "priority_focus_marks": [],
+        "secondary_focus_marks": [],
+        "analysis_claims": [
+          "请重点核查页面中与主题相关的事实信息",
+          "Google Search",
+          "页面为Google搜索界面，未提供实质性内容"
+        ],
+        "agent_claim_reports": [
+          {
+            "claim": "请重点核查页面中与主题相关的事实信息",
+            "confidence_score": 35.1,
+            "confidence_level": {
+              "name": "证据不足",
+              "name_en": "Insufficient Evidence",
+              "score_range": "30 - 45",
+              "description": "缺乏充分的支持证据，或有适度的反驳证据",
+              "emoji": "❌",
+              "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+              "color": "#e74c3c"
+            },
+            "verdict": "insufficient",
+            "score_breakdown": {
+              "factuality": 0.009,
+              "source_credibility": 0.334,
+              "evidence_consistency": 0.827,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [
+              {
+                "quote": "3月10日下午，武穴市梅川镇食安办联合镇市场监管所，对辖区内网络餐饮单位开展突击检查。此次检查以火锅店、华莱士、精武鸭脖等热门外卖商户为重点，采取线上看证照、线下查后厨”的双线核查模式，从网络页面到实体后厨进行全链条体检”，全力守护市民指尖上的安全”。 下午两点半，检查组首先打开手机外卖平台，随机抽查了数家热门店铺的线上页面，逐一核对其公示的营业执照、食品经营许可证、量化分级等信息是否真实有效。网络餐饮的‘第一道门’就是资质公示，绝不允许无证或信息不符的商家‘挂羊头卖狗肉’。”市场监管所执法人员一边记录一边说道。线上排查结束后，检查组一行直奔实体门店。在镇区一家火锅店，执法人员走进后厨，对食材储存、加工流程、餐具消毒等环节进行细致检查。冰箱内的食材是否分类存放、消毒柜温度是否达标、外卖封签是否规范使用每一个细节都被仔细查验。现场还随机抽取了部分食材，要求店方当场提供进货票据和供应商资质证明。 在一家华莱士门店，执法人员重点检查了线上线下同质同标”落实情况。通过比对线上商品宣传图片与实际出品，查看是否存在虚假宣传。同时，对油炸用油的更换记录、半成品保存温度等关键控制点进行了核查。很多消费者是通过图片点餐，我们必须确保送到他们手中的食品和宣传承诺的品质一致。”检查组人员表示。 检查发现，大部分商户经营较为规范，但也存在个别商家健康证临近过期、外卖封签使用不规范、进货台账记录不完整等问题。针对发现的问题，执法人员当场下达责令整改通知书，要求限期整改到位，并将进行回头看”复查。 网络订餐看不见摸不着，监管必须更严更实。”梅川镇食安办负责人表示，此",
+                "url": "https://finance.sina.cn/2026-03-11/detail-inhqrfcr5532125.d.html?vt=4&cid=76675&node_id=76675",
+                "source": "https://finance.sina.cn/2026-03-11/detail-inhqrfcr5532125.d.html?vt=4&cid=76675&node_id=76675",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "讲座预告” ·讲座主题 传播学国际顶刊Digital Journalism主编谈平台化与人工智能时代的新间业与事实核查 PART 01 时间&地点 时间：2026年3月12日 下午2:30 地点：科技楼503 PART 02 讲座嘉宾 Oscar Westlund Oscar Westlund（博士）自2018年起担任奥斯陆城市大学教授，共同领导该校数字新闻学研究小组。Westlund自2018年起担任Digital Journalism期刊主编，这是一本国际领先的传播学期刊，他为该期刊引入了多种新的文章形式。他撰写和编辑了多部著作，以及100多篇论文、章节和报告。他的获奖研究聚焦于新闻学、社交媒体、移动媒体、虚假信息、事实核查以及媒介与信息素养。Westlund曾在瑞典、丹麦和挪威多所知名大学工作。 PART 03 演讲内容 在本次演讲中，Oscar Westlund将介绍其关于平台化背景下新闻业与事实核查研究的一系列核心洞见，并分享新闻业与人工智能交叉领域研究的最新发现与思考。他将探讨人工智能在媒体中的兴起，以及媒体在人工智能中的角色，如何进一步加剧权力不对称的挑战。 往期回顾 讲政治、懂体育、尚科技、精传播——武汉体育学院新闻传播学院简介 圆满收官！武汉体育学院新闻传播学院成功举办2025年全国优秀大学生学术夏令营 海 报丨孔梁毓 美 编丨杨 瑜 责 编丨孔梁毓 复 审丨鲍 旭 终 审丨冯 婵",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.295,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "20 26 Case-based Risk Explanation 以 案 说 险 清朗金融网络 守护安心消费 钓鱼网站仿冒理赔 信息泄露遭盗划 01 案情回顾 Case review 龙某收到短信称其寿险理赔审核通过，需点击链接上传身份证、银行卡与病历材料完成赔付。龙某未核实真伪，直接在陌生页面填写敏感信息并上传证件照片。 次日发现银行卡被分多笔盗刷，保险公司核查确认该链接为钓鱼网站，非官方理赔通道。 02 案例分析 case analysis 1. 仿冒保险公司短信与页面，以理赔到账”诱导填写敏感信息。 2. 消费者未核验网址与官方渠道，轻信弹窗与短信链接，导致信息泄露。 3. 钓鱼页面窃取信息后快速盗划资金，追回难度大。 03 温馨提示 Tips 理赔、保全业务仅通过保险公司官方公众号、柜面办理，不点击陌生短信链接。 核验网址是否含官方标识，陌生页面绝不上传身份证、银行卡、户口本等材料。 发现异常立即挂失银行卡、修改密码，并报警与联系保险公司风控处置。",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.295,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "讲座预告” ·讲座主题 传播学国际顶刊Digital Journalism主编谈平台化与人工智能时代的新间业与事实核查 PART 01 时间&地点 时间：2026年3月12日 下午2:30 地点：科技楼503 PART 02 讲座嘉宾 Oscar Westlund Oscar Westlund（博士）自2018年起担任奥斯陆城市大学教授，共同领导该校数字新闻学研究小组。Westlund自2018年起担任Digital Journalism期刊主编，这是一本国际领先的传播学期刊，他为该期刊引入了多种新的文章形式。他撰写和编辑了多部著作，以及100多篇论文、章节和报告。他的获奖研究聚焦于新闻学、社交媒体、移动媒体、虚假信息、事实核查以及媒介与信息素养。Westlund曾在瑞典、丹麦和挪威多所知名大学工作。 PART 03 演讲内容 在本次演讲中，Oscar Westlund将介绍其关于平台化背景下新闻业与事实核查研究的一系列核心洞见，并分享新闻业与人工智能交叉领域研究的最新发现与思考。他将探讨人工智能在媒体中的兴起，以及媒体在人工智能中的角色，如何进一步加剧权力不对称的挑战。 往期回顾 讲政治、懂体育、尚科技、精传播——武汉体育学院新闻传播学院简介 圆满收官！武汉体育学院新闻传播学院成功举办2025年全国优秀大学生学术夏令营 海 报丨孔梁毓 美 编丨杨 瑜 责 编丨孔梁毓 复 审丨鲍 旭 终 审丨冯 婵",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.285,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.062
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：请重点核查页面中与主题相关的事实信息",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 7 条（支持 0 / 反驳 7）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 35.1，结论为 insufficient。",
+              "关键证据相关性：0.28, 0.28, 0.28"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "7",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "请重点核查页面中与主题相关的事实信息 | 请重点核查页面中与主题相关的事实信息 evidence | 请重点核查页面中与主题相关的事实信息 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "3",
+              "scholar_hits": "1",
+              "web_hits": "3",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "Google Search",
+            "confidence_score": 100.0,
+            "confidence_level": {
+              "name": "完全支持",
+              "name_en": "Fully Supported",
+              "score_range": "92 - 100",
+              "description": "有多个独立的高质量来源强有力支持，几乎没有反证或反证质量极低",
+              "emoji": "✅✅",
+              "interpretation": "该主张由权威来源强力支持。可以非常有信心地认为该主张是准确的。",
+              "color": "#27ae60"
+            },
+            "verdict": "fully_supported",
+            "score_breakdown": {
+              "factuality": 0.984,
+              "source_credibility": 0.603,
+              "evidence_consistency": 1.0,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [
+              {
+                "quote": "Get started Google Search API Get accurate, real-time Google search and SERP results as JSON in seconds. Less bloat than alternatives. Get started Never get blocked by captcha again Get Google search ",
+                "url": "https://serply.io/",
+                "source": "https://serply.io/",
+                "stance": "support",
+                "credibility": 0.627,
+                "relevance": 0.924,
+                "rationale": "token_overlap=2, bucket=scholar, search_score=0.805",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.96,
+                "evidence_strength": 0.443
+              },
+              {
+                "quote": "Filter My recent searches Filter by: Budget Fixed Price Projects to Hourly Projects Contests to Type Skills 2,000 google adsense privacy policy jobs found 15 Informative LinkedIn Finance Posts Ended ...fluff. Conteumentation Troubleshooting Virtualization Windows Server $31 Average bid $31 Avg Bid 9 bids Bid now Google Business Profile Optimization Ended My Google Business Profile is already live, yet it’s not yielding the visibility or engagement I know it can. I need a specialist to fine-tune every element for higher local search ranking and stronger customer trust. The focus is purely on optimization—no profile creation  audit and adjust my existing keywords, categories, and description to align with high-intent local searches. • Boost social proof: craft strategies to attract fresh, authentic customer reviews and eld publication process; you will drive local data collection so that we end up with rich, first-hand evidence rather than recycled desk research.Here is what collaboratio",
+                "url": "https://www.freelancer.com/job-search/google-adsense-privacy-policy/39/",
+                "source": "https://www.freelancer.com/job-search/google-adsense-privacy-policy/39/",
+                "stance": "support",
+                "credibility": 0.611,
+                "relevance": 0.87,
+                "rationale": "token_overlap=2, bucket=web, search_score=0.725",
+                "context_alignment": 0.5,
+                "semantic_depth": 1.0,
+                "evidence_strength": 0.435
+              },
+              {
+                "quote": "Country: World日本United States United Kingdom Canada Australia भारत Philippines Pakistan South Africa World Google Search > Facebook Share X Share Last Updated: Top Google Search Rankings! (World) You ",
+                "url": "https://top-rankings.net/",
+                "source": "https://top-rankings.net/",
+                "stance": "support",
+                "credibility": 0.611,
+                "relevance": 0.87,
+                "rationale": "token_overlap=2, bucket=web, search_score=0.725",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.96,
+                "evidence_strength": 0.418
+              },
+              {
+                "quote": "重点还是搜索。 封面图片由AI生成 Google 在 3 月 4 日更新博文表示，AI 生产力工具 Canvas 已经在美国市场的搜索功能（Google Search）中正式上线。所有美国用户都可以直接在 AI 搜索模式（AI Mode）下调用 Canvas，为自己生成详细的内容报告、学习计划，以及生成相应的 App。 在 Google 官方给出的演示视频中， 用户要求 Canvas 生成一个追踪自己 本科生奖学金进度的 App，Canvas 也 顺利生成了相应的产品 视频来源：Google Canvas 最早在 2025 年 7 月 29 日上线，当时还是 Google Labs 项目里的测试功能。Google 当时表示，Canvas 的主要功能是将整理好的信息搜集成一个详细的项目计划和报告，帮助用户能够以更系统的方式学习知识和掌握信息。另一个重要的功能则是编程，Canvas 可以直接将用户的创意转变为一个可分享、可复用的 App 或游戏，可以直接用自然语言调试。 编程是 Canvas 的一大特色功能 图片来源：Google 此前只有报名 Google Labs 的用户可以在 Gemini 中调用 Canvas，Google AI Pro 和 Google AI Ultra 订阅用户能使用 Gemini 3 模型，同时享有 100 万 Token 的使用额度。如今用户只要在 AI 搜索模式里打开功能菜单（输入框左下角的”图标），就能直接点选 Canvas 工具。用户可以直接输入要求。我们下面也进行了 2 个小测试。 Canvas 已收录",
+                "url": "",
+                "source": "",
+                "stance": "support",
+                "credibility": 0.471,
+                "relevance": 0.87,
+                "rationale": "token_overlap=2, bucket=web, search_score=0.725",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.75,
+                "evidence_strength": 0.326
+              }
+            ],
+            "refuting_evidence": [],
+            "reasoning_chain": [
+              "提取主张：Google Search",
+              "验证模式：fast，快速筛查结论：uncertain",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 18 条（支持 18 / 反驳 0）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 100.0，结论为 fully_supported。",
+              "关键证据相关性：0.92, 0.87, 0.87"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "18",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "uncertain",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "Google Search | Google Search evidence | Google Search benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "6",
+              "scholar_hits": "6",
+              "web_hits": "6",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "页面为Google搜索界面，未提供实质性内容",
+            "confidence_score": 33.87,
+            "confidence_level": {
+              "name": "证据不足",
+              "name_en": "Insufficient Evidence",
+              "score_range": "30 - 45",
+              "description": "缺乏充分的支持证据，或有适度的反驳证据",
+              "emoji": "❌",
+              "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+              "color": "#e74c3c"
+            },
+            "verdict": "insufficient",
+            "score_breakdown": {
+              "factuality": 0.008,
+              "source_credibility": 0.344,
+              "evidence_consistency": 0.763,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [
+              {
+                "quote": "梦醒了！Google Canvas AI模式：搜索终结，你的工作将被AI重构？ 别再当信息搬运工了！Google这一刀，直接切断了传统搜索的命脉——从现在起，搜索不再是找答案，而是直接创造答案。技术人的饭碗，正在被AI亲手砸碎。 一、搜索已死：Google亲手埋葬了自己的摇钱树 2026年3月4日，Google做了一件疯狂的事：将Canvas in AI Mode全面开放给所有美国英语用户。这不是一次简单的功能更新，而是一场蓄谋已久的技术政变。 传统搜索的商业模式很简单：你提问，Google给你链接，你点击链接，广告商付钱。这套玩了25年的游戏，Google现在要亲手砸烂。 为什么？因为AI让找答案”变得廉价。当ChatGPT能在3秒内给你完整解决方案时，谁还需要翻10个网页拼凑信息？ 但Google比谁都清楚：与其被别人颠覆，不如自己颠覆自己。Canvas in AI Mode就是那把手术刀——它要把搜索从信息检索”彻底改造成内容创造”。 立场声明：我坚定站边Google这次改革。这不是选择题，而是生存题。任何还在教学生SEO优化技巧”的老师，都是在误人子弟。搜索的未来不是优化链接，而是生成代码。 二、技术架构解析：Canvas如何把搜索框变成开发工具 Canvas in AI Mode的技术架构，是一次典型的降维打击”。它把原本需要三个不同软件（IDE、文档编辑器、网页浏览器）完成的工作，压缩到了一个搜索框里。 2.1 多模态神经网络的协同工作流 plaintext 用户输入 Gemini 3理解意图 知识图谱检索 实时网络数据 代码",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.295,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "重点还是搜索。 封面图片由AI生成 Google 在 3 月 4 日更新博文表示，AI 生产力工具 Canvas 已经在美国市场的搜索功能（Google Search）中正式上线。所有美国用户都可以直接在 AI 搜索模式（AI Mode）下调用 Canvas，为自己生成详细的内容报告、学习计划，以及生成相应的 App。 在 Google 官方给出的演示视频中， 用户要求 Canvas 生成一个追踪自己 本科生奖学金进度的 App，Canvas 也 顺利生成了相应的产品 视频来源：Google Canvas 最早在 2025 年 7 月 29 日上线，当时还是 Google Labs 项目里的测试功能。Google 当时表示，Canvas 的主要功能是将整理好的信息搜集成一个详细的项目计划和报告，帮助用户能够以更系统的方式学习知识和掌握信息。另一个重要的功能则是编程，Canvas 可以直接将用户的创意转变为一个可分享、可复用的 App 或游戏，可以直接用自然语言调试。 编程是 Canvas 的一大特色功能 图片来源：Google 此前只有报名 Google Labs 的用户可以在 Gemini 中调用 Canvas，Google AI Pro 和 Google AI Ultra 订阅用户能使用 Gemini 3 模型，同时享有 100 万 Token 的使用额度。如今用户只要在 AI 搜索模式里打开功能菜单（输入框左下角的”图标），就能直接点选 Canvas 工具。用户可以直接输入要求。我们下面也进行了 2 个小测试。 Canvas 已收录",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.295,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "梦醒了！Google Canvas AI模式：搜索终结，你的工作将被AI重构？ 别再当信息搬运工了！Google这一刀，直接切断了传统搜索的命脉——从现在起，搜索不再是找答案，而是直接创造答案。技术人的饭碗，正在被AI亲手砸碎。 一、搜索已死：Google亲手埋葬了自己的摇钱树 2026年3月4日，Google做了一件疯狂的事：将Canvas in AI Mode全面开放给所有美国英语用户。这不是一次简单的功能更新，而是一场蓄谋已久的技术政变。 传统搜索的商业模式很简单：你提问，Google给你链接，你点击链接，广告商付钱。这套玩了25年的游戏，Google现在要亲手砸烂。 为什么？因为AI让找答案”变得廉价。当ChatGPT能在3秒内给你完整解决方案时，谁还需要翻10个网页拼凑信息？ 但Google比谁都清楚：与其被别人颠覆，不如自己颠覆自己。Canvas in AI Mode就是那把手术刀——它要把搜索从信息检索”彻底改造成内容创造”。 立场声明：我坚定站边Google这次改革。这不是选择题，而是生存题。任何还在教学生SEO优化技巧”的老师，都是在误人子弟。搜索的未来不是优化链接，而是生成代码。 二、技术架构解析：Canvas如何把搜索框变成开发工具 Canvas in AI Mode的技术架构，是一次典型的降维打击”。它把原本需要三个不同软件（IDE、文档编辑器、网页浏览器）完成的工作，压缩到了一个搜索框里。 2.1 多模态神经网络的协同工作流 plaintext 用户输入 Gemini 3理解意图 知识图谱检索 实时网络数据 代码",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.285,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.062
+              },
+              {
+                "quote": "重点还是搜索。 封面图片由AI生成 Google 在 3 月 4 日更新博文表示，AI 生产力工具 Canvas 已经在美国市场的搜索功能（Google Search）中正式上线。所有美国用户都可以直接在 AI 搜索模式（AI Mode）下调用 Canvas，为自己生成详细的内容报告、学习计划，以及生成相应的 App。 在 Google 官方给出的演示视频中， 用户要求 Canvas 生成一个追踪自己 本科生奖学金进度的 App，Canvas 也 顺利生成了相应的产品 视频来源：Google Canvas 最早在 2025 年 7 月 29 日上线，当时还是 Google Labs 项目里的测试功能。Google 当时表示，Canvas 的主要功能是将整理好的信息搜集成一个详细的项目计划和报告，帮助用户能够以更系统的方式学习知识和掌握信息。另一个重要的功能则是编程，Canvas 可以直接将用户的创意转变为一个可分享、可复用的 App 或游戏，可以直接用自然语言调试。 编程是 Canvas 的一大特色功能 图片来源：Google 此前只有报名 Google Labs 的用户可以在 Gemini 中调用 Canvas，Google AI Pro 和 Google AI Ultra 订阅用户能使用 Gemini 3 模型，同时享有 100 万 Token 的使用额度。如今用户只要在 AI 搜索模式里打开功能菜单（输入框左下角的”图标），就能直接点选 Canvas 工具。用户可以直接输入要求。我们下面也进行了 2 个小测试。 Canvas 已收录",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.285,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.062
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：页面为Google搜索界面，未提供实质性内容",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 10 条（支持 0 / 反驳 10）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 33.87，结论为 insufficient。",
+              "关键证据相关性：0.28, 0.28, 0.25"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "10",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "页面为Google搜索界面，未提供实质性内容 | 页面为Google搜索界面，未提供实质性内容 evidence | 页面为Google搜索界面，未提供实质性内容 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "2",
+              "scholar_hits": "2",
+              "web_hits": "6",
+              "llm_enhanced": "False"
+            }
+          }
+        ],
+        "integrated_findings": {
+          "overall_confidence": 56.32,
+          "overall_confidence_level": {
+            "name": "不确定",
+            "name_en": "Uncertain",
+            "score_range": "45 - 65",
+            "description": "支持和反驳证据混杂，或证据质量不清晰",
+            "emoji": "❓",
+            "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+            "color": "#e67e22"
+          },
+          "overall_verdict": "uncertain",
+          "key_consensus_points": [
+            "Google Search（100.0）"
+          ],
+          "major_risks": [
+            "内容不完整或截断",
+            "缺乏具体事实信息",
+            "可能无法进行有效核查",
+            "请重点核查页面中与主题相关的事实信息（insufficient）",
+            "页面为Google搜索界面，未提供实质性内容（insufficient）"
+          ],
+          "logic_watchpoints": [
+            "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+          ],
+          "premise_gaps": [
+            "需要明确时间范围（实验时间/发布年份）。",
+            "需要明确数据范围（行业、样本规模、地域）。",
+            "需要明确比较基准（与谁对比、指标是什么）。"
+          ],
+          "evidence_highlights": [
+            "Get started Google Search API Get accurate, real-time Google search and SERP results as JSON in seconds. Less bloat than alternatives. Get started Never get blocked by captcha again Get Google search"
+          ],
+          "narrative_summary": "围绕页面核心结论与证据链展开核查；Google Search（100.0）；内容不完整或截断；缺乏具体事实信息；可能无法进行有效核查"
+        }
+      },
+      "fast_verification": {
+        "confidence_score": 48.21,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "keywords": [
+          "$31",
+          "...fluff.",
+          "100",
+          "2,000",
+          "2.1",
+          "2025",
+          "3理解意图",
+          "API",
+          "App",
+          "App。",
+          "App，Canvas",
+          "Average"
+        ]
+      },
+      "_relevance_threshold": 0.3,
+      "quant_metrics": {
+        "confidence_score": 59.07,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "support_ratio": 0.55,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 3,
+        "key_point_count": 2
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ]
+    },
+    {
+      "url": "https://blog.csdn.net/daqianai/article/details/149888158",
+      "title": "GraphRAG：基于知识图谱的检索增强生成技术解析_graph-r1-CSDN博客",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。\nFrom Local to Global: A Graph RAG Approach to Query-Focused Summarization\n本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！",
+      "key_points": [
+        "，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+        "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+        "本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！",
+        "（Graph Modularity）允许Leiden算法将相关实体聚类，形成语义连贯的社区（如“糖尿病治疗”社区包含胰岛素/血糖监测等节点）。",
+        "本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！"
+      ],
+      "risk_flags": [
+        "LLM unavailable: fallback summary used"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.58,
+        "rationale": "Fallback mode based on structural page extraction without LLM semantic validation."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。"
+        }
+      ],
+      "generated_at": "2026-03-12T10:30:56.887564Z",
+      "generator": "fallback",
+      "_source_text_excerpt": "（Graph-based Retrieval-Augmented Generation）由\n于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于\n将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合\n，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。\nEdge, D., Trinh, H., Cheng, N., et al. (2024).\nFrom Local to Global: A Graph RAG Approach to Query-Focused Summarization\narXiv preprint arXiv:2404.16130\n：https://arxiv.org/pdf/2404.16130\n：https://github.com/microsoft/graphrag\n将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）\n（节点=实体，边=关系，权重=关系实例的标准化计数）\n（Traag et al., 2019）检测图社区（基于模块度优化）\n生成层次化社区摘要（叶级社区→高层社区）\n本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！\n20.机器学习消融实验：方法论演进、跨领域应用与前沿趋势\n19.Agentic RAG：自主检索增强生成的范式演进与技术突破\n18.FEVER数据集：事实验证任务的大规模基准与评估框架\n17.噪声对比估计（NCE）：原理、演进与跨领域应用\n16.对比学习：原理演进、技术突破与跨领域应用全景\n15.掩码语言模型(MLM)技术解析：理论基础、演进脉络与应用创新\n14.RAG：检索增强生成的范式演进、技术突破与前沿挑战\n13.皮尔逊相关系数的理论基础、统计特性与应用局限\n12.编辑距离：理论基础、算法演进与跨领域应用\n11.ROUGE-WE：词向量化革新的文本生成评估框架\n10.互信息：理论框架、跨学科应用与前沿进展\n9.表征学习：机器认知世界的核心能力与前沿突破\n8.CodeBLEU：面向代码合成的多维度自动评估指标——原理、演进与开源实践\n7.Rouge：面向摘要自动评估的召回导向型指标——原理、演进与应用全景\n6.RoPE：相对位置编码的旋转革命——原理、演进与大模型应用全景\n5.KTO：基于行为经济学的大模型对齐新范式——原理、应用与性能突破\n4.OpenRLHF：面向超大语言模型的高性能RLHF训练框架\n3.LIMA：大语言模型对齐的“少即是多”革命——原理、实验与范式重构\n2.Crome：因果鲁棒奖励建模框架——破解LLM对齐中的奖励黑客难题\n1.CIRL：因果启发的表征学习框架——从域泛化到奖励分解的因果革命\n2.1 索引阶段（Indexing）\n实验表明600-token分块比2400-token分块的\n：LLM识别实体（名称/类型/描述）和关系（源/目标/描述）\n：若LLM检测到遗漏，触发“上次提取遗漏实体”提示补全\n：通过领域特定示例（如医学/法律术语）提升提取精度\n（例如：L0层=基础技术社区，L1层=NLP/CV子社区）\n按节点度排序生成摘要，优先整合高度数节点信息\n2.2 查询阶段（Querying）\n使用社区摘要回答全局问题（如研究趋势分析），通过\n按帮助分数（0-100）过滤低分答案\n针对实体关联问题（如“Scrooge的人际关系”），检索实体邻域子图生成响应\n表：GraphRAG与传统RAG的核心对比\n（Graph Modularity）允许Leiden算法将相关实体聚类，形成语义连贯的社区（如“糖尿病治疗”社区包含胰岛素/血糖监测等节点）。\n叶级社区摘要：直接整合实体/关系描述\n高层社区摘要：用子社区摘要替换冗余细节，突破LLM上下文限制\n“Transformer架构如何催生ChatGPT？”\nTransformer→BERT→GPT-3→ChatGPT\n，LLM将路径转化为自然语言解释。\nGraph-R1框架（Luo et al., 2025）引入\n，通过“Think→Retrieve→Rethink→Answer”循环迭代优化检索路径。\n4.1 优势场景（GraphRAG > 传统RAG）\n在HotpotQA多跳问答数据集上，F1分数达86.2%（SOTA），较朴素RAG提升22%。\n对AI文献的社区聚类成功识别趋势：\n2020-2021：Transformer架构优化\n2022-2023：大语言模型爆发\n在航空安全报告分析中，事实错误率降低37%（Yu et al., 2025）。\n4.2 局限场景（传统RAG更优）\n如“爱因斯坦的出生日期”，GraphRAG因检索延迟高（>300ms）逊于向量RAG。\n图谱重建成本高，增量更新仅支持小规模变更（如新实体添加），社区结构剧变时需全量重建。\n动态子图检索与GRPO奖励机制\nHotpotQA F1提升12%\nGMM检索Agent跨模态对齐\n查询时动态扩展图谱，减少预计算开销\nYu等（2025）结合GraphRAG与自学习智能体：\n（节点=机械故障/操作失误，边=责任链）\n生成预防建议报告，检索精度提升45%，推理时间缩短至2秒内。\n解决了传统RAG的全局理解瓶颈，但其应用需权衡：\n多跳推理、跨文档主题分析、长周期趋势总结（如学术/医疗/金融领域）。\n简单事实检索、高实时性要求系统、低关联性文本集。\n：图谱构建与社区检测的复杂度随节点数指数增长\n：厦门大学提出GraphRAG-Bench基准，需统一评估全局推理能力\n：当前仅支持局部实体新增，社区结构剧变时需全量重建\n，推动GraphRAG从静态知识库向动态决策系统演进。\n本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！",
+      "web_content": "（Graph-based Retrieval-Augmented Generation）由\n于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于\n将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合\n，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。\nEdge, D., Trinh, H., Cheng, N., et al. (2024).\nFrom Local to Global: A Graph RAG Approach to Query-Focused Summarization\narXiv preprint arXiv:2404.16130\n：https://arxiv.org/pdf/2404.16130\n：https://github.com/microsoft/graphrag\n将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）\n（节点=实体，边=关系，权重=关系实例的标准化计数）\n（Traag et al., 2019）检测图社区（基于模块度优化）\n生成层次化社区摘要（叶级社区→高层社区）\n本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！\n20.机器学习消融实验：方法论演进、跨领域应用与前沿趋势\n19.Agentic RAG：自主检索增强生成的范式演进与技术突破\n18.FEVER数据集：事实验证任务的大规模基准与评估框架\n17.噪声对比估计（NCE）：原理、演进与跨领域应用\n16.对比学习：原理演进、技术突破与跨领域应用全景\n15.掩码语言模型(MLM)技术解析：理论基础、演进脉络与应用创新\n14.RAG：检索增强生成的范式演进、技术突破与前沿挑战\n13.皮尔逊相关系数的理论基础、统计特性与应用局限\n12.编辑距离：理论基础、算法演进与跨领域应用\n11.ROUGE-WE：词向量化革新的文本生成评估框架\n10.互信息：理论框架、跨学科应用与前沿进展\n9.表征学习：机器认知世界的核心能力与前沿突破\n8.CodeBLEU：面向代码合成的多维度自动评估指标——原理、演进与开源实践\n7.Rouge：面向摘要自动评估的召回导向型指标——原理、演进与应用全景\n6.RoPE：相对位置编码的旋转革命——原理、演进与大模型应用全景\n5.KTO：基于行为经济学的大模型对齐新范式——原理、应用与性能突破\n4.OpenRLHF：面向超大语言模型的高性能RLHF训练框架\n3.LIMA：大语言模型对齐的“少即是多”革命——原理、实验与范式重构\n2.Crome：因果鲁棒奖励建模框架——破解LLM对齐中的奖励黑客难题\n1.CIRL：因果启发的表征学习框架——从域泛化到奖励分解的因果革命\n2.1 索引阶段（Indexing）\n实验表明600-token分块比2400-token分块的\n：LLM识别实体（名称/类型/描述）和关系（源/目标/描述）\n：若LLM检测到遗漏，触发“上次提取遗漏实体”提示补全\n：通过领域特定示例（如医学/法律术语）提升提取精度\n（例如：L0层=基础技术社区，L1层=NLP/CV子社区）\n按节点度排序生成摘要，优先整合高度数节点信息\n2.2 查询阶段（Querying）\n使用社区摘要回答全局问题（如研究趋势分析），通过\n按帮助分数（0-100）过滤低分答案\n针对实体关联问题（如“Scrooge的人际关系”），检索实体邻域子图生成响应\n表：GraphRAG与传统RAG的核心对比\n（Graph Modularity）允许Leiden算法将相关实体聚类，形成语义连贯的社区（如“糖尿病治疗”社区包含胰岛素/血糖监测等节点）。\n叶级社区摘要：直接整合实体/关系描述\n高层社区摘要：用子社区摘要替换冗余细节，突破LLM上下文限制\n“Transformer架构如何催生ChatGPT？”\nTransformer→BERT→GPT-3→ChatGPT\n，LLM将路径转化为自然语言解释。\nGraph-R1框架（Luo et al., 2025）引入\n，通过“Think→Retrieve→Rethink→Answer”循环迭代优化检索路径。\n4.1 优势场景（GraphRAG > 传统RAG）\n在HotpotQA多跳问答数据集上，F1分数达86.2%（SOTA），较朴素RAG提升22%。\n对AI文献的社区聚类成功识别趋势：\n2020-2021：Transformer架构优化\n2022-2023：大语言模型爆发\n在航空安全报告分析中，事实错误率降低37%（Yu et al., 2025）。\n4.2 局限场景（传统RAG更优）\n如“爱因斯坦的出生日期”，GraphRAG因检索延迟高（>300ms）逊于向量RAG。\n图谱重建成本高，增量更新仅支持小规模变更（如新实体添加），社区结构剧变时需全量重建。\n动态子图检索与GRPO奖励机制\nHotpotQA F1提升12%\nGMM检索Agent跨模态对齐\n查询时动态扩展图谱，减少预计算开销\nYu等（2025）结合GraphRAG与自学习智能体：\n（节点=机械故障/操作失误，边=责任链）\n生成预防建议报告，检索精度提升45%，推理时间缩短至2秒内。\n解决了传统RAG的全局理解瓶颈，但其应用需权衡：\n多跳推理、跨文档主题分析、长周期趋势总结（如学术/医疗/金融领域）。\n简单事实检索、高实时性要求系统、低关联性文本集。\n：图谱构建与社区检测的复杂度随节点数指数增长\n：厦门大学提出GraphRAG-Bench基准，需统一评估全局推理能力\n：当前仅支持局部实体新增，社区结构剧变时需全量重建\n，推动GraphRAG从静态知识库向动态决策系统演进。\n本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！",
+      "fast_verification": {
+        "confidence_score": 48.18,
+        "confidence_level": {
+          "name": "强烈支持",
+          "name_en": "Strongly Supported",
+          "score_range": "80 - 92",
+          "description": "有多个高质量来源支持，少量反证或低质量反证",
+          "emoji": "✅",
+          "interpretation": "该主张获得多个可靠来源的支持。可以有信心认为该主张是准确的。",
+          "color": "#2ecc71"
+        },
+        "verdict": "strongly_supported",
+        "keywords": [
+          "(1)简介",
+          ".github",
+          ".semversioner",
+          "1.1、本次分享介绍",
+          "1.2",
+          "1、项目介绍",
+          "455",
+          "ACL",
+          "AIP",
+          "Action。在",
+          "Causal",
+          "Code"
+        ]
+      },
+      "_relevance_threshold": 0.3,
+      "quant_metrics": {
+        "confidence_score": 68.01,
+        "confidence_level": {
+          "name": "中等支持",
+          "name_en": "Moderately Supported",
+          "score_range": "65 - 80",
+          "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+          "emoji": "⚠️",
+          "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+          "color": "#f39c12"
+        },
+        "verdict": "moderately_supported",
+        "support_ratio": 0.4,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 1,
+        "key_point_count": 5
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "priority_focus_marks": [],
+      "secondary_focus_marks": []
+    },
+    {
+      "url": "https://www.google.com/search?q=%E7%9F%A5%E8%AF%86%E5%A2%9E%E5%BC%BA%E5%A4%A7%E6%A8%A1%E5%9E%8B+GraphRAG",
+      "title": "Google Search",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "网页是Google搜索页面，查询为'知识增强大模型 GraphRAG'，但正文仅显示访问故障提示，无搜索结果或相关内容。",
+      "key_points": [
+        "页面为Google搜索界面，无实际内容输出",
+        "查询主题为知识增强大模型和GraphRAG，但未提供相关信息",
+        "页面提示访问故障，可能由于网络或技术问题"
+      ],
+      "risk_flags": [
+        "页面内容缺失，无法验证任何事实",
+        "可能为错误或受限访问页面，可靠性低"
+      ],
+      "keywords": [
+        "Google Search",
+        "知识增强大模型",
+        "GraphRAG",
+        "访问故障"
+      ],
+      "reliability_assessment": {
+        "score": 0.0,
+        "rationale": "页面仅显示访问故障提示，无与查询主题相关的实际内容，无法进行事实核查或评估信息可靠性。"
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "页面正文仅显示'If you're having trouble accessing Google Search, please'，无搜索结果或主题相关内容，无法核查事实。"
+        },
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "3月10日下午，武穴市梅川镇食安办联合镇市场监管所，对辖区内网络餐饮单位开展突击检查。此次检查以火锅店、华莱士、精武鸭脖等热门外卖商户为重点，采取线上看证照、线下查后厨”的双线核查模式，从网络页面到实体后厨进行全链条体检”，全力守护市民指尖上的安全”。 下午两点半，检查组首先打开手机外卖平台，随机抽查了数家热门店铺的线上页面，逐一核对其公示的营业执照、食品经营许可证、量化分级等信息是否真实有效。网络餐饮的‘第一道门’就是资质公示，绝不允许无证或信息不符的商家‘挂羊头卖狗肉’。”市场监管所执法人员一边记录一边说道。线上排查结束后，检查组一行直奔实体门店。在镇区一家火锅店，执法人员走进后厨，对食材储存、加工流程、餐具消毒等环节进行细致检查。冰箱内的食材是否分类存放、消毒柜温度是否达标、外卖封签是否规范使用每一个细节都被仔细查验。现场还随机抽取了部分食材，要求店方当场提供进货票据和供应商资质证明。 在一家华莱士门店，执法人员重点检查了线上线下同质同标”落实情况。通过比对线上商品宣传图片与实际出品，查看是否存在虚假宣传。同时，对油炸用油的更换记录、半成品保存温度等关键控制点进行了核查。很多消费者是通过图片点餐，我们必须确保送到他们手中的食品和宣传承诺的品质一致。”检查组人员表示。 检查发现，大部分商户经营较为规范，但也存在个别商家健康证临近过期、外卖封签使用不规范、进货台账记录不完整等问题。针对发现的问题，执法人员当场下达责令整改通知书，要求限期整改到位，并将进行回头看”复查。 网络订餐看不见摸不着，监管必须更严更实。”梅川镇食安办负责人表示，此"
+        },
+        {
+          "claim": "Google Search",
+          "status": "supported",
+          "evidence_from_page": "Get started Google Search API Get accurate, real-time Google search and SERP results as JSON in seconds. Less bloat than alternatives. Get started Never get blocked by captcha again Get Google search"
+        },
+        {
+          "claim": "页面为Google搜索界面，无实际内容输出",
+          "status": "unclear",
+          "evidence_from_page": "AI人工智能与软件测试 人工智能与软件测试的开源知识中心:免费工具、方法论、案例、趋势分享 | 当下最强免费爬虫工具! Scrapling保姆级实战教程 乙醇 发布于 2026-03-05 收录于AI爬虫 Scrapling应该是当下最强的爬虫工具了,关于它的特性和反爬能力这里就不赘述了,大家可以去项目主页了解一下。 Scrapling 提供了一套从单页请求到全站爬取、从普通站点到Cloudfla例目标:从豆瓣电影页面提取以下核心信息 - 电影中文名 - 上映年份 - 豆瓣评分 - IMDb id - 前几条热门短评 使用的技术特点: 1. 使用 StealthyFetcher 而非普通 requests(带真实浏览器指纹) 2. 等待关键元素 #info 加载完成(豆瓣很多数据是 js 渲染的) 3. 使用 css 选择器 + 简单正则进行字段提取 4. 对可能为空的字段做了简单容错处理 \"\"\" # 导入 StealthyFetcher 类,用于模拟真实浏览器行为来获取网页内容 # (相比普通 requests 更能绕过部分反爬机制) from scrapling.fetchers import StealthyFetcher # 目标网页:豆瓣电影的详情页面 url = 'https://movie.douban.com/subject/1296736' # 使用 StealthyFetcher 进行网页获取(模拟真实浏览器访问) page = StealthyFetcher . fetch ( url , # 要抓取的目标URL google_search = False , # 对于国内的站点,不使用 Google 搜索跳转(直接访问) real_chrome = True , # 尽量使用真实的 Chrome 浏览器指纹(更像真人) wait_selector = '#info' # 等待页面中 id=\"info\" 的元素加载出来再返回(重要!) # 防止过早返回导致关键信息还没加载 ) # 从div#info 块中提取 IMDb id(通常是 tt 开头的8位数字) # 写法:先选 #info → 取整个文本内容 → 清理 → 用正则匹配 tt 开头的数字 imdb = page . css ( '#info' ) . get () . clean ()"
+        }
+      ],
+      "generated_at": "2024-07-19T12:00:00Z",
+      "generator": "llm",
+      "_source_text_excerpt": "If you're having trouble accessing Google Search, please",
+      "web_content": "If you're having trouble accessing Google Search, please",
+      "priority_focus_marks": [],
+      "secondary_focus_marks": [],
+      "multi_agent_analysis": {
+        "analysis_mode": "hybrid_multi_agent",
+        "priority_focus_marks": [],
+        "secondary_focus_marks": [],
+        "analysis_claims": [
+          "请重点核查页面中与主题相关的事实信息",
+          "Google Search",
+          "页面为Google搜索界面，无实际内容输出"
+        ],
+        "agent_claim_reports": [
+          {
+            "claim": "请重点核查页面中与主题相关的事实信息",
+            "confidence_score": 35.1,
+            "confidence_level": {
+              "name": "证据不足",
+              "name_en": "Insufficient Evidence",
+              "score_range": "30 - 45",
+              "description": "缺乏充分的支持证据，或有适度的反驳证据",
+              "emoji": "❌",
+              "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+              "color": "#e74c3c"
+            },
+            "verdict": "insufficient",
+            "score_breakdown": {
+              "factuality": 0.009,
+              "source_credibility": 0.334,
+              "evidence_consistency": 0.827,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [
+              {
+                "quote": "3月10日下午，武穴市梅川镇食安办联合镇市场监管所，对辖区内网络餐饮单位开展突击检查。此次检查以火锅店、华莱士、精武鸭脖等热门外卖商户为重点，采取线上看证照、线下查后厨”的双线核查模式，从网络页面到实体后厨进行全链条体检”，全力守护市民指尖上的安全”。 下午两点半，检查组首先打开手机外卖平台，随机抽查了数家热门店铺的线上页面，逐一核对其公示的营业执照、食品经营许可证、量化分级等信息是否真实有效。网络餐饮的‘第一道门’就是资质公示，绝不允许无证或信息不符的商家‘挂羊头卖狗肉’。”市场监管所执法人员一边记录一边说道。线上排查结束后，检查组一行直奔实体门店。在镇区一家火锅店，执法人员走进后厨，对食材储存、加工流程、餐具消毒等环节进行细致检查。冰箱内的食材是否分类存放、消毒柜温度是否达标、外卖封签是否规范使用每一个细节都被仔细查验。现场还随机抽取了部分食材，要求店方当场提供进货票据和供应商资质证明。 在一家华莱士门店，执法人员重点检查了线上线下同质同标”落实情况。通过比对线上商品宣传图片与实际出品，查看是否存在虚假宣传。同时，对油炸用油的更换记录、半成品保存温度等关键控制点进行了核查。很多消费者是通过图片点餐，我们必须确保送到他们手中的食品和宣传承诺的品质一致。”检查组人员表示。 检查发现，大部分商户经营较为规范，但也存在个别商家健康证临近过期、外卖封签使用不规范、进货台账记录不完整等问题。针对发现的问题，执法人员当场下达责令整改通知书，要求限期整改到位，并将进行回头看”复查。 网络订餐看不见摸不着，监管必须更严更实。”梅川镇食安办负责人表示，此",
+                "url": "https://finance.sina.cn/2026-03-11/detail-inhqrfcr5532125.d.html?vt=4&cid=76675&node_id=76675",
+                "source": "https://finance.sina.cn/2026-03-11/detail-inhqrfcr5532125.d.html?vt=4&cid=76675&node_id=76675",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "讲座预告” ·讲座主题 传播学国际顶刊Digital Journalism主编谈平台化与人工智能时代的新间业与事实核查 PART 01 时间&地点 时间：2026年3月12日 下午2:30 地点：科技楼503 PART 02 讲座嘉宾 Oscar Westlund Oscar Westlund（博士）自2018年起担任奥斯陆城市大学教授，共同领导该校数字新闻学研究小组。Westlund自2018年起担任Digital Journalism期刊主编，这是一本国际领先的传播学期刊，他为该期刊引入了多种新的文章形式。他撰写和编辑了多部著作，以及100多篇论文、章节和报告。他的获奖研究聚焦于新闻学、社交媒体、移动媒体、虚假信息、事实核查以及媒介与信息素养。Westlund曾在瑞典、丹麦和挪威多所知名大学工作。 PART 03 演讲内容 在本次演讲中，Oscar Westlund将介绍其关于平台化背景下新闻业与事实核查研究的一系列核心洞见，并分享新闻业与人工智能交叉领域研究的最新发现与思考。他将探讨人工智能在媒体中的兴起，以及媒体在人工智能中的角色，如何进一步加剧权力不对称的挑战。 往期回顾 讲政治、懂体育、尚科技、精传播——武汉体育学院新闻传播学院简介 圆满收官！武汉体育学院新闻传播学院成功举办2025年全国优秀大学生学术夏令营 海 报丨孔梁毓 美 编丨杨 瑜 责 编丨孔梁毓 复 审丨鲍 旭 终 审丨冯 婵",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.295,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "20 26 Case-based Risk Explanation 以 案 说 险 清朗金融网络 守护安心消费 钓鱼网站仿冒理赔 信息泄露遭盗划 01 案情回顾 Case review 龙某收到短信称其寿险理赔审核通过，需点击链接上传身份证、银行卡与病历材料完成赔付。龙某未核实真伪，直接在陌生页面填写敏感信息并上传证件照片。 次日发现银行卡被分多笔盗刷，保险公司核查确认该链接为钓鱼网站，非官方理赔通道。 02 案例分析 case analysis 1. 仿冒保险公司短信与页面，以理赔到账”诱导填写敏感信息。 2. 消费者未核验网址与官方渠道，轻信弹窗与短信链接，导致信息泄露。 3. 钓鱼页面窃取信息后快速盗划资金，追回难度大。 03 温馨提示 Tips 理赔、保全业务仅通过保险公司官方公众号、柜面办理，不点击陌生短信链接。 核验网址是否含官方标识，陌生页面绝不上传身份证、银行卡、户口本等材料。 发现异常立即挂失银行卡、修改密码，并报警与联系保险公司风控处置。",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.295,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "讲座预告” ·讲座主题 传播学国际顶刊Digital Journalism主编谈平台化与人工智能时代的新间业与事实核查 PART 01 时间&地点 时间：2026年3月12日 下午2:30 地点：科技楼503 PART 02 讲座嘉宾 Oscar Westlund Oscar Westlund（博士）自2018年起担任奥斯陆城市大学教授，共同领导该校数字新闻学研究小组。Westlund自2018年起担任Digital Journalism期刊主编，这是一本国际领先的传播学期刊，他为该期刊引入了多种新的文章形式。他撰写和编辑了多部著作，以及100多篇论文、章节和报告。他的获奖研究聚焦于新闻学、社交媒体、移动媒体、虚假信息、事实核查以及媒介与信息素养。Westlund曾在瑞典、丹麦和挪威多所知名大学工作。 PART 03 演讲内容 在本次演讲中，Oscar Westlund将介绍其关于平台化背景下新闻业与事实核查研究的一系列核心洞见，并分享新闻业与人工智能交叉领域研究的最新发现与思考。他将探讨人工智能在媒体中的兴起，以及媒体在人工智能中的角色，如何进一步加剧权力不对称的挑战。 往期回顾 讲政治、懂体育、尚科技、精传播——武汉体育学院新闻传播学院简介 圆满收官！武汉体育学院新闻传播学院成功举办2025年全国优秀大学生学术夏令营 海 报丨孔梁毓 美 编丨杨 瑜 责 编丨孔梁毓 复 审丨鲍 旭 终 审丨冯 婵",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.285,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.062
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：请重点核查页面中与主题相关的事实信息",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 7 条（支持 0 / 反驳 7）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 35.1，结论为 insufficient。",
+              "关键证据相关性：0.28, 0.28, 0.28"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "7",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "请重点核查页面中与主题相关的事实信息 | 请重点核查页面中与主题相关的事实信息 evidence | 请重点核查页面中与主题相关的事实信息 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "3",
+              "scholar_hits": "1",
+              "web_hits": "3",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "Google Search",
+            "confidence_score": 100.0,
+            "confidence_level": {
+              "name": "完全支持",
+              "name_en": "Fully Supported",
+              "score_range": "92 - 100",
+              "description": "有多个独立的高质量来源强有力支持，几乎没有反证或反证质量极低",
+              "emoji": "✅✅",
+              "interpretation": "该主张由权威来源强力支持。可以非常有信心地认为该主张是准确的。",
+              "color": "#27ae60"
+            },
+            "verdict": "fully_supported",
+            "score_breakdown": {
+              "factuality": 0.984,
+              "source_credibility": 0.603,
+              "evidence_consistency": 1.0,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [
+              {
+                "quote": "Get started Google Search API Get accurate, real-time Google search and SERP results as JSON in seconds. Less bloat than alternatives. Get started Never get blocked by captcha again Get Google search ",
+                "url": "https://serply.io/",
+                "source": "https://serply.io/",
+                "stance": "support",
+                "credibility": 0.627,
+                "relevance": 0.924,
+                "rationale": "token_overlap=2, bucket=scholar, search_score=0.805",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.96,
+                "evidence_strength": 0.443
+              },
+              {
+                "quote": "Filter My recent searches Filter by: Budget Fixed Price Projects to Hourly Projects Contests to Type Skills 2,000 google adsense privacy policy jobs found 15 Informative LinkedIn Finance Posts Ended ...fluff. Conteumentation Troubleshooting Virtualization Windows Server $31 Average bid $31 Avg Bid 9 bids Bid now Google Business Profile Optimization Ended My Google Business Profile is already live, yet it’s not yielding the visibility or engagement I know it can. I need a specialist to fine-tune every element for higher local search ranking and stronger customer trust. The focus is purely on optimization—no profile creation  audit and adjust my existing keywords, categories, and description to align with high-intent local searches. • Boost social proof: craft strategies to attract fresh, authentic customer reviews and eld publication process; you will drive local data collection so that we end up with rich, first-hand evidence rather than recycled desk research.Here is what collaboratio",
+                "url": "https://www.freelancer.com/job-search/google-adsense-privacy-policy/39/",
+                "source": "https://www.freelancer.com/job-search/google-adsense-privacy-policy/39/",
+                "stance": "support",
+                "credibility": 0.611,
+                "relevance": 0.87,
+                "rationale": "token_overlap=2, bucket=web, search_score=0.725",
+                "context_alignment": 0.5,
+                "semantic_depth": 1.0,
+                "evidence_strength": 0.435
+              },
+              {
+                "quote": "Country: World日本United States United Kingdom Canada Australia भारत Philippines Pakistan South Africa World Google Search > Facebook Share X Share Last Updated: Top Google Search Rankings! (World) You ",
+                "url": "https://top-rankings.net/",
+                "source": "https://top-rankings.net/",
+                "stance": "support",
+                "credibility": 0.611,
+                "relevance": 0.87,
+                "rationale": "token_overlap=2, bucket=web, search_score=0.725",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.96,
+                "evidence_strength": 0.418
+              },
+              {
+                "quote": "重点还是搜索。 封面图片由AI生成 Google 在 3 月 4 日更新博文表示，AI 生产力工具 Canvas 已经在美国市场的搜索功能（Google Search）中正式上线。所有美国用户都可以直接在 AI 搜索模式（AI Mode）下调用 Canvas，为自己生成详细的内容报告、学习计划，以及生成相应的 App。 在 Google 官方给出的演示视频中， 用户要求 Canvas 生成一个追踪自己 本科生奖学金进度的 App，Canvas 也 顺利生成了相应的产品 视频来源：Google Canvas 最早在 2025 年 7 月 29 日上线，当时还是 Google Labs 项目里的测试功能。Google 当时表示，Canvas 的主要功能是将整理好的信息搜集成一个详细的项目计划和报告，帮助用户能够以更系统的方式学习知识和掌握信息。另一个重要的功能则是编程，Canvas 可以直接将用户的创意转变为一个可分享、可复用的 App 或游戏，可以直接用自然语言调试。 编程是 Canvas 的一大特色功能 图片来源：Google 此前只有报名 Google Labs 的用户可以在 Gemini 中调用 Canvas，Google AI Pro 和 Google AI Ultra 订阅用户能使用 Gemini 3 模型，同时享有 100 万 Token 的使用额度。如今用户只要在 AI 搜索模式里打开功能菜单（输入框左下角的”图标），就能直接点选 Canvas 工具。用户可以直接输入要求。我们下面也进行了 2 个小测试。 Canvas 已收录",
+                "url": "",
+                "source": "",
+                "stance": "support",
+                "credibility": 0.471,
+                "relevance": 0.87,
+                "rationale": "token_overlap=2, bucket=web, search_score=0.725",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.75,
+                "evidence_strength": 0.326
+              }
+            ],
+            "refuting_evidence": [],
+            "reasoning_chain": [
+              "提取主张：Google Search",
+              "验证模式：fast，快速筛查结论：uncertain",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 18 条（支持 18 / 反驳 0）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 100.0，结论为 fully_supported。",
+              "关键证据相关性：0.92, 0.87, 0.87"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "18",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "uncertain",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "Google Search | Google Search evidence | Google Search benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "6",
+              "scholar_hits": "6",
+              "web_hits": "6",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "页面为Google搜索界面，无实际内容输出",
+            "confidence_score": 33.83,
+            "confidence_level": {
+              "name": "证据不足",
+              "name_en": "Insufficient Evidence",
+              "score_range": "30 - 45",
+              "description": "缺乏充分的支持证据，或有适度的反驳证据",
+              "emoji": "❌",
+              "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+              "color": "#e74c3c"
+            },
+            "verdict": "insufficient",
+            "score_breakdown": {
+              "factuality": 0.009,
+              "source_credibility": 0.453,
+              "evidence_consistency": 0.65,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [
+              {
+                "quote": "AI人工智能与软件测试 人工智能与软件测试的开源知识中心:免费工具、方法论、案例、趋势分享 | 当下最强免费爬虫工具! Scrapling保姆级实战教程 乙醇 发布于 2026-03-05 收录于AI爬虫 Scrapling应该是当下最强的爬虫工具了,关于它的特性和反爬能力这里就不赘述了,大家可以去项目主页了解一下。 Scrapling 提供了一套从单页请求到全站爬取、从普通站点到Cloudfla例目标:从豆瓣电影页面提取以下核心信息 - 电影中文名 - 上映年份 - 豆瓣评分 - IMDb id - 前几条热门短评 使用的技术特点: 1. 使用 StealthyFetcher 而非普通 requests(带真实浏览器指纹) 2. 等待关键元素 #info 加载完成(豆瓣很多数据是 js 渲染的) 3. 使用 css 选择器 + 简单正则进行字段提取 4. 对可能为空的字段做了简单容错处理 \"\"\" # 导入 StealthyFetcher 类,用于模拟真实浏览器行为来获取网页内容 # (相比普通 requests 更能绕过部分反爬机制) from scrapling.fetchers import StealthyFetcher # 目标网页:豆瓣电影的详情页面 url = 'https://movie.douban.com/subject/1296736' # 使用 StealthyFetcher 进行网页获取(模拟真实浏览器访问) page = StealthyFetcher . fetch ( url , # 要抓取的目标URL google_search = False , # 对于国内的站点,不使用 Google 搜索跳转(直接访问) real_chrome = True , # 尽量使用真实的 Chrome 浏览器指纹(更像真人) wait_selector = '#info' # 等待页面中 id=\"info\" 的元素加载出来再返回(重要!) # 防止过早返回导致关键信息还没加载 ) # 从div#info 块中提取 IMDb id(通常是 tt 开头的8位数字) # 写法:先选 #info → 取整个文本内容 → 清理 → 用正则匹配 tt 开头的数字 imdb = page . css ( '#info' ) . get () . clean ()",
+                "url": "http://www.itest.info/",
+                "source": "http://www.itest.info/",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "  master Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit   History 61 Commits 61 Commits README.rst README.rst     View all files Repository files navigation 当···时发生了什么? 这个仓库试图回答一个古老的面试问题:当你在浏览器中输入 google.com 并且按下回车之后发生了什么? 不过我们不再局限于平常的回答,而是想办法回答地尽可能具体,不遗漏任何细节。 这将是一个协作的过程,所以深入挖掘吧,并且帮助我们一起完善它。仍然有大量的细节等待着你来添加,欢迎向我们发送 Pull Requset! 按下\"g\"键 接下来的内容介绍了物理键盘和系统中断的工作原理,但是有一部分内容却没有涉及。当你按下“g”键,浏览器接收到这个消息之后,会触发自动完成机制。浏览器根据自己的算法,以及你是否处于隐私浏览模式,会在浏览器的地址框下方给出输入建议。大部分算法会优先考虑根据你的搜索历史和书签等内容给出建议。你打算输入 \"google.com\",因此给出的建议并不匹配。但是输入过程中仍然有大量的代码在后台运行,你的每一次按键都会使得给出的建议更加准确。甚至有可能在你输入之前,浏览器就将 \"google.com\" 建议给你。 回车键按下 为了从零开始,我们选择键盘上的回车键被按到最低处作为起点。在这个时刻,一个专用于回车键的电流回路被直接地或者通过电容器间接地闭合了,使得少量的电流进入了断,返回给OS一个“按键按下”消息 这个消息又返回来向当前活跃的应用通知一个“按键按下”事件 产生中断[非USB键盘] 键盘在它的中断请求线(IRQ)上发送信号,信号会被中断控制器映射到一个中断向量,实际上就是一个整型数 。CPU使用中断描述符表(IDT)把中断向量映射到对应函数,这些函数被称为中断处理器,它们由操作系统内核提供。当一个中断到达时,CPU根据IDT和中断向量索引到对应的中断处理器, SendMessage(hWnd, WM_KEYDOWN, VK_RETURN, lParam) 函数, lPar",
+                "url": "https://github.com/skyline75489/what-happens-when-zh_CN",
+                "source": "https://github.com/skyline75489/what-happens-when-zh_CN",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "常用网址查看更多shopname 预付佣金,送网站,纯佣金计费,不限品。助力快速开启海外独立站,为中国跨境电商独立站卖家品牌出海提供一站式零编程的外贸建站平台; IMCART官网 IMCART月付建站系统,安全,省心,便宜!自助开店,自主域名,打造真正属于自己品牌之路! SHOPOEM (OEMSAAS) 站群零建站费,OEMSAAS站群建站系统,多站点的不二选择,支持独立部署专属建站品牌。 SHOPYY SHOPYY免佣金,长期精品DTC独立站专属系统,无论您是个人SOHO,小额批发商,传统实体,平台卖家,跨境营销专家等,SHOPYY 都能满足。 AI Chat Chat GPT国内API接口,无需翻墙,输入APIKES即可使用。 AdSpy 可搜索FB和Ins广告数据库 spy工具 。 Ahrefs 强大的SEO工具,可以分析关键词和外链等。t have to be an SEO pro to rank higher and get mor Join Ahrefs – we&#x27;re a powerful but easy to learn SEO toolset with a passionate community. Ecomhunt 寻找爆款。Ecomhunt allows you to easily find products that are already proven to sell or how we like to call them o stop guessing, start selling! Semrush 分析竞争对手的网站 SEM 和SEO分析。Semrush offers solutions for SEO, PPC, content, social media and competitive research. Trusted by over 7000000 marketers worldwide Paypal PayPal, 全球众多用户使用的国际贸易支付工具, 能够轻松完成境外收付款! 一,JS插件实时抓取亚马逊产品数据,验证每一个选品思路;JungleScout网页版从亚马逊选品到运营多维度打造热销爆款.junglescout独家AccuSales™专利技术支持10大站点全类目大数据搜索,数据精准度高达90%,选爆款,",
+                "url": "https://mikj.cc/",
+                "source": "https://mikj.cc/",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "本章节我们将学习如何使用 JS/CSS 实现下拉菜单 搜索 或 过滤 功能。 先看下效果如下: 基础 HTML 代码 实例 < div class = \" dropdown \" > < button onclick = \" myFunction() \" class = \" dropbtn \" > 下拉菜单 </ button > < div id = \" myDropdown \" class = \" dropdown-content \" > < input type = \" text \" placeholder = \" Search.. \" id = \" myInput \" onkeyup = \" filterFunction() \" > < a href = \" #about \" > Google </ a > < a href = \" #base \" > Runoob </ a > < a href = \" #blog \" > Taobao </ a > < a href = \" #contact \" > Wiki </ a > < a href = \" #custom \" > Zhihu </ a > < a href = \" #support \" > Tmall </ a > < a href = \" #tools \" > Weibo </ a > </ div > </ div > 以下搜索搜索框和联想菜单的样式: 实例 /* 下拉菜单按钮 */ .dropbtn { background-color: #04AA6D ; color: white ; padding: 16 px ; font-size: 16 px ; border: none ; cursor: pointer ; } /* 鼠标移动到下拉菜单按钮到样式 */ .dropbtn :hover , .dropbtn :focus { background-color: #3e8e41 ; } /* 搜索框 */ #myInput { box-sizing: border-box ; background-image: url (' searchicon . png ') ; background-position: 14 px 12 px ; background-repeat: no",
+                "url": "https://www.runoob.com/w3cnote/js-filter-dropdown.html",
+                "source": "https://www.runoob.com/w3cnote/js-filter-dropdown.html",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：页面为Google搜索界面，无实际内容输出",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 13 条（支持 0 / 反驳 13）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 33.83，结论为 insufficient。",
+              "关键证据相关性：0.28, 0.28, 0.28"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "13",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "页面为Google搜索界面，无实际内容输出 | 页面为Google搜索界面，无实际内容输出 evidence | 页面为Google搜索界面，无实际内容输出 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "5",
+              "scholar_hits": "6",
+              "web_hits": "2",
+              "llm_enhanced": "False"
+            }
+          }
+        ],
+        "integrated_findings": {
+          "overall_confidence": 56.31,
+          "overall_confidence_level": {
+            "name": "不确定",
+            "name_en": "Uncertain",
+            "score_range": "45 - 65",
+            "description": "支持和反驳证据混杂，或证据质量不清晰",
+            "emoji": "❓",
+            "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+            "color": "#e67e22"
+          },
+          "overall_verdict": "uncertain",
+          "key_consensus_points": [
+            "Google Search（100.0）"
+          ],
+          "major_risks": [
+            "页面内容缺失，无法验证任何事实",
+            "可能为错误或受限访问页面，可靠性低",
+            "请重点核查页面中与主题相关的事实信息（insufficient）",
+            "页面为Google搜索界面，无实际内容输出（insufficient）"
+          ],
+          "logic_watchpoints": [
+            "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+          ],
+          "premise_gaps": [
+            "需要明确时间范围（实验时间/发布年份）。",
+            "需要明确数据范围（行业、样本规模、地域）。",
+            "需要明确比较基准（与谁对比、指标是什么）。"
+          ],
+          "evidence_highlights": [
+            "Get started Google Search API Get accurate, real-time Google search and SERP results as JSON in seconds. Less bloat than alternatives. Get started Never get blocked by captcha again Get Google search"
+          ],
+          "narrative_summary": "围绕页面核心结论与证据链展开核查；Google Search（100.0）；页面内容缺失，无法验证任何事实；可能为错误或受限访问页面，可靠性低；请重点核查页面中与主题相关的事实信息（insufficient）"
+        }
+      },
+      "fast_verification": {
+        "confidence_score": 48.2,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "keywords": [
+          "\"\"\"",
+          "\"google.com\"",
+          "#info",
+          "$31",
+          "'#info'",
+          "(相比普通",
+          "...fluff.",
+          "2,000",
+          "2026-03-05",
+          "AI人工智能与软件测试",
+          "API",
+          "Average"
+        ]
+      },
+      "_relevance_threshold": 0.3,
+      "quant_metrics": {
+        "confidence_score": 62.55,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "support_ratio": 0.55,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 2,
+        "key_point_count": 3
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ]
+    },
+    {
+      "url": "https://www.google.com/search?q=GraphRAG",
+      "title": "Google Search",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "The page is a Google Search results page for the query 'GraphRAG', but the provided text is truncated and does not contain any substantive content related to the topic, only a generic message about access issues.",
+      "key_points": [
+        "No specific factual information about GraphRAG is present in the provided text.",
+        "The page appears to be a search interface rather than a content page."
+      ],
+      "risk_flags": [
+        "Insufficient content for fact-checking.",
+        "Truncated text limits analysis.",
+        "Potential for misleading if interpreted as authoritative content."
+      ],
+      "keywords": [
+        "GraphRAG",
+        "Google Search",
+        "access issues"
+      ],
+      "reliability_assessment": {
+        "score": 0.0,
+        "rationale": "The provided text lacks any factual claims or content related to GraphRAG, making it impossible to assess reliability for the highlighted claims."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "The page text is truncated and only contains a generic message about accessing Google Search, with no mention of GraphRAG or related facts."
+        },
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "3月10日下午，武穴市梅川镇食安办联合镇市场监管所，对辖区内网络餐饮单位开展突击检查。此次检查以火锅店、华莱士、精武鸭脖等热门外卖商户为重点，采取线上看证照、线下查后厨”的双线核查模式，从网络页面到实体后厨进行全链条体检”，全力守护市民指尖上的安全”。 下午两点半，检查组首先打开手机外卖平台，随机抽查了数家热门店铺的线上页面，逐一核对其公示的营业执照、食品经营许可证、量化分级等信息是否真实有效。网络餐饮的‘第一道门’就是资质公示，绝不允许无证或信息不符的商家‘挂羊头卖狗肉’。”市场监管所执法人员一边记录一边说道。线上排查结束后，检查组一行直奔实体门店。在镇区一家火锅店，执法人员走进后厨，对食材储存、加工流程、餐具消毒等环节进行细致检查。冰箱内的食材是否分类存放、消毒柜温度是否达标、外卖封签是否规范使用每一个细节都被仔细查验。现场还随机抽取了部分食材，要求店方当场提供进货票据和供应商资质证明。 在一家华莱士门店，执法人员重点检查了线上线下同质同标”落实情况。通过比对线上商品宣传图片与实际出品，查看是否存在虚假宣传。同时，对油炸用油的更换记录、半成品保存温度等关键控制点进行了核查。很多消费者是通过图片点餐，我们必须确保送到他们手中的食品和宣传承诺的品质一致。”检查组人员表示。 检查发现，大部分商户经营较为规范，但也存在个别商家健康证临近过期、外卖封签使用不规范、进货台账记录不完整等问题。针对发现的问题，执法人员当场下达责令整改通知书，要求限期整改到位，并将进行回头看”复查。 网络订餐看不见摸不着，监管必须更严更实。”梅川镇食安办负责人表示，此"
+        },
+        {
+          "claim": "Google Search",
+          "status": "supported",
+          "evidence_from_page": "Get started Google Search API Get accurate, real-time Google search and SERP results as JSON in seconds. Less bloat than alternatives. Get started Never get blocked by captcha again Get Google search"
+        },
+        {
+          "claim": "No specific factual information about GraphRAG is present in the provided text.",
+          "status": "partially_supported",
+          "evidence_from_page": "The default configuration mode may be configured by using a settings.yml or settings.json file in the data project root. If a .env file is present along with this config file, then it will be loaded,"
+        }
+      ],
+      "generated_at": "2025-07-10T12:00:00Z",
+      "generator": "llm",
+      "_source_text_excerpt": "If you're having trouble accessing Google Search, please",
+      "web_content": "If you're having trouble accessing Google Search, please",
+      "priority_focus_marks": [],
+      "secondary_focus_marks": [],
+      "multi_agent_analysis": {
+        "analysis_mode": "hybrid_multi_agent",
+        "priority_focus_marks": [],
+        "secondary_focus_marks": [],
+        "analysis_claims": [
+          "请重点核查页面中与主题相关的事实信息",
+          "Google Search",
+          "No specific factual information about GraphRAG is present in the provided text."
+        ],
+        "agent_claim_reports": [
+          {
+            "claim": "请重点核查页面中与主题相关的事实信息",
+            "confidence_score": 35.1,
+            "confidence_level": {
+              "name": "证据不足",
+              "name_en": "Insufficient Evidence",
+              "score_range": "30 - 45",
+              "description": "缺乏充分的支持证据，或有适度的反驳证据",
+              "emoji": "❌",
+              "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+              "color": "#e74c3c"
+            },
+            "verdict": "insufficient",
+            "score_breakdown": {
+              "factuality": 0.009,
+              "source_credibility": 0.334,
+              "evidence_consistency": 0.827,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [
+              {
+                "quote": "3月10日下午，武穴市梅川镇食安办联合镇市场监管所，对辖区内网络餐饮单位开展突击检查。此次检查以火锅店、华莱士、精武鸭脖等热门外卖商户为重点，采取线上看证照、线下查后厨”的双线核查模式，从网络页面到实体后厨进行全链条体检”，全力守护市民指尖上的安全”。 下午两点半，检查组首先打开手机外卖平台，随机抽查了数家热门店铺的线上页面，逐一核对其公示的营业执照、食品经营许可证、量化分级等信息是否真实有效。网络餐饮的‘第一道门’就是资质公示，绝不允许无证或信息不符的商家‘挂羊头卖狗肉’。”市场监管所执法人员一边记录一边说道。线上排查结束后，检查组一行直奔实体门店。在镇区一家火锅店，执法人员走进后厨，对食材储存、加工流程、餐具消毒等环节进行细致检查。冰箱内的食材是否分类存放、消毒柜温度是否达标、外卖封签是否规范使用每一个细节都被仔细查验。现场还随机抽取了部分食材，要求店方当场提供进货票据和供应商资质证明。 在一家华莱士门店，执法人员重点检查了线上线下同质同标”落实情况。通过比对线上商品宣传图片与实际出品，查看是否存在虚假宣传。同时，对油炸用油的更换记录、半成品保存温度等关键控制点进行了核查。很多消费者是通过图片点餐，我们必须确保送到他们手中的食品和宣传承诺的品质一致。”检查组人员表示。 检查发现，大部分商户经营较为规范，但也存在个别商家健康证临近过期、外卖封签使用不规范、进货台账记录不完整等问题。针对发现的问题，执法人员当场下达责令整改通知书，要求限期整改到位，并将进行回头看”复查。 网络订餐看不见摸不着，监管必须更严更实。”梅川镇食安办负责人表示，此",
+                "url": "https://finance.sina.cn/2026-03-11/detail-inhqrfcr5532125.d.html?vt=4&cid=76675&node_id=76675",
+                "source": "https://finance.sina.cn/2026-03-11/detail-inhqrfcr5532125.d.html?vt=4&cid=76675&node_id=76675",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "讲座预告” ·讲座主题 传播学国际顶刊Digital Journalism主编谈平台化与人工智能时代的新间业与事实核查 PART 01 时间&地点 时间：2026年3月12日 下午2:30 地点：科技楼503 PART 02 讲座嘉宾 Oscar Westlund Oscar Westlund（博士）自2018年起担任奥斯陆城市大学教授，共同领导该校数字新闻学研究小组。Westlund自2018年起担任Digital Journalism期刊主编，这是一本国际领先的传播学期刊，他为该期刊引入了多种新的文章形式。他撰写和编辑了多部著作，以及100多篇论文、章节和报告。他的获奖研究聚焦于新闻学、社交媒体、移动媒体、虚假信息、事实核查以及媒介与信息素养。Westlund曾在瑞典、丹麦和挪威多所知名大学工作。 PART 03 演讲内容 在本次演讲中，Oscar Westlund将介绍其关于平台化背景下新闻业与事实核查研究的一系列核心洞见，并分享新闻业与人工智能交叉领域研究的最新发现与思考。他将探讨人工智能在媒体中的兴起，以及媒体在人工智能中的角色，如何进一步加剧权力不对称的挑战。 往期回顾 讲政治、懂体育、尚科技、精传播——武汉体育学院新闻传播学院简介 圆满收官！武汉体育学院新闻传播学院成功举办2025年全国优秀大学生学术夏令营 海 报丨孔梁毓 美 编丨杨 瑜 责 编丨孔梁毓 复 审丨鲍 旭 终 审丨冯 婵",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.295,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "20 26 Case-based Risk Explanation 以 案 说 险 清朗金融网络 守护安心消费 钓鱼网站仿冒理赔 信息泄露遭盗划 01 案情回顾 Case review 龙某收到短信称其寿险理赔审核通过，需点击链接上传身份证、银行卡与病历材料完成赔付。龙某未核实真伪，直接在陌生页面填写敏感信息并上传证件照片。 次日发现银行卡被分多笔盗刷，保险公司核查确认该链接为钓鱼网站，非官方理赔通道。 02 案例分析 case analysis 1. 仿冒保险公司短信与页面，以理赔到账”诱导填写敏感信息。 2. 消费者未核验网址与官方渠道，轻信弹窗与短信链接，导致信息泄露。 3. 钓鱼页面窃取信息后快速盗划资金，追回难度大。 03 温馨提示 Tips 理赔、保全业务仅通过保险公司官方公众号、柜面办理，不点击陌生短信链接。 核验网址是否含官方标识，陌生页面绝不上传身份证、银行卡、户口本等材料。 发现异常立即挂失银行卡、修改密码，并报警与联系保险公司风控处置。",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.295,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "讲座预告” ·讲座主题 传播学国际顶刊Digital Journalism主编谈平台化与人工智能时代的新间业与事实核查 PART 01 时间&地点 时间：2026年3月12日 下午2:30 地点：科技楼503 PART 02 讲座嘉宾 Oscar Westlund Oscar Westlund（博士）自2018年起担任奥斯陆城市大学教授，共同领导该校数字新闻学研究小组。Westlund自2018年起担任Digital Journalism期刊主编，这是一本国际领先的传播学期刊，他为该期刊引入了多种新的文章形式。他撰写和编辑了多部著作，以及100多篇论文、章节和报告。他的获奖研究聚焦于新闻学、社交媒体、移动媒体、虚假信息、事实核查以及媒介与信息素养。Westlund曾在瑞典、丹麦和挪威多所知名大学工作。 PART 03 演讲内容 在本次演讲中，Oscar Westlund将介绍其关于平台化背景下新闻业与事实核查研究的一系列核心洞见，并分享新闻业与人工智能交叉领域研究的最新发现与思考。他将探讨人工智能在媒体中的兴起，以及媒体在人工智能中的角色，如何进一步加剧权力不对称的挑战。 往期回顾 讲政治、懂体育、尚科技、精传播——武汉体育学院新闻传播学院简介 圆满收官！武汉体育学院新闻传播学院成功举办2025年全国优秀大学生学术夏令营 海 报丨孔梁毓 美 编丨杨 瑜 责 编丨孔梁毓 复 审丨鲍 旭 终 审丨冯 婵",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.285,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.062
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：请重点核查页面中与主题相关的事实信息",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 7 条（支持 0 / 反驳 7）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 35.1，结论为 insufficient。",
+              "关键证据相关性：0.28, 0.28, 0.28"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "7",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "请重点核查页面中与主题相关的事实信息 | 请重点核查页面中与主题相关的事实信息 evidence | 请重点核查页面中与主题相关的事实信息 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "3",
+              "scholar_hits": "1",
+              "web_hits": "3",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "Google Search",
+            "confidence_score": 100.0,
+            "confidence_level": {
+              "name": "完全支持",
+              "name_en": "Fully Supported",
+              "score_range": "92 - 100",
+              "description": "有多个独立的高质量来源强有力支持，几乎没有反证或反证质量极低",
+              "emoji": "✅✅",
+              "interpretation": "该主张由权威来源强力支持。可以非常有信心地认为该主张是准确的。",
+              "color": "#27ae60"
+            },
+            "verdict": "fully_supported",
+            "score_breakdown": {
+              "factuality": 0.984,
+              "source_credibility": 0.603,
+              "evidence_consistency": 1.0,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [
+              {
+                "quote": "Get started Google Search API Get accurate, real-time Google search and SERP results as JSON in seconds. Less bloat than alternatives. Get started Never get blocked by captcha again Get Google search ",
+                "url": "https://serply.io/",
+                "source": "https://serply.io/",
+                "stance": "support",
+                "credibility": 0.627,
+                "relevance": 0.924,
+                "rationale": "token_overlap=2, bucket=scholar, search_score=0.805",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.96,
+                "evidence_strength": 0.443
+              },
+              {
+                "quote": "Filter My recent searches Filter by: Budget Fixed Price Projects to Hourly Projects Contests to Type Skills 2,000 google adsense privacy policy jobs found 15 Informative LinkedIn Finance Posts Ended ...fluff. Conteumentation Troubleshooting Virtualization Windows Server $31 Average bid $31 Avg Bid 9 bids Bid now Google Business Profile Optimization Ended My Google Business Profile is already live, yet it’s not yielding the visibility or engagement I know it can. I need a specialist to fine-tune every element for higher local search ranking and stronger customer trust. The focus is purely on optimization—no profile creation  audit and adjust my existing keywords, categories, and description to align with high-intent local searches. • Boost social proof: craft strategies to attract fresh, authentic customer reviews and eld publication process; you will drive local data collection so that we end up with rich, first-hand evidence rather than recycled desk research.Here is what collaboratio",
+                "url": "https://www.freelancer.com/job-search/google-adsense-privacy-policy/39/",
+                "source": "https://www.freelancer.com/job-search/google-adsense-privacy-policy/39/",
+                "stance": "support",
+                "credibility": 0.611,
+                "relevance": 0.87,
+                "rationale": "token_overlap=2, bucket=web, search_score=0.725",
+                "context_alignment": 0.5,
+                "semantic_depth": 1.0,
+                "evidence_strength": 0.435
+              },
+              {
+                "quote": "Country: World日本United States United Kingdom Canada Australia भारत Philippines Pakistan South Africa World Google Search > Facebook Share X Share Last Updated: Top Google Search Rankings! (World) You ",
+                "url": "https://top-rankings.net/",
+                "source": "https://top-rankings.net/",
+                "stance": "support",
+                "credibility": 0.611,
+                "relevance": 0.87,
+                "rationale": "token_overlap=2, bucket=web, search_score=0.725",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.96,
+                "evidence_strength": 0.418
+              },
+              {
+                "quote": "重点还是搜索。 封面图片由AI生成 Google 在 3 月 4 日更新博文表示，AI 生产力工具 Canvas 已经在美国市场的搜索功能（Google Search）中正式上线。所有美国用户都可以直接在 AI 搜索模式（AI Mode）下调用 Canvas，为自己生成详细的内容报告、学习计划，以及生成相应的 App。 在 Google 官方给出的演示视频中， 用户要求 Canvas 生成一个追踪自己 本科生奖学金进度的 App，Canvas 也 顺利生成了相应的产品 视频来源：Google Canvas 最早在 2025 年 7 月 29 日上线，当时还是 Google Labs 项目里的测试功能。Google 当时表示，Canvas 的主要功能是将整理好的信息搜集成一个详细的项目计划和报告，帮助用户能够以更系统的方式学习知识和掌握信息。另一个重要的功能则是编程，Canvas 可以直接将用户的创意转变为一个可分享、可复用的 App 或游戏，可以直接用自然语言调试。 编程是 Canvas 的一大特色功能 图片来源：Google 此前只有报名 Google Labs 的用户可以在 Gemini 中调用 Canvas，Google AI Pro 和 Google AI Ultra 订阅用户能使用 Gemini 3 模型，同时享有 100 万 Token 的使用额度。如今用户只要在 AI 搜索模式里打开功能菜单（输入框左下角的”图标），就能直接点选 Canvas 工具。用户可以直接输入要求。我们下面也进行了 2 个小测试。 Canvas 已收录",
+                "url": "",
+                "source": "",
+                "stance": "support",
+                "credibility": 0.471,
+                "relevance": 0.87,
+                "rationale": "token_overlap=2, bucket=web, search_score=0.725",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.75,
+                "evidence_strength": 0.326
+              }
+            ],
+            "refuting_evidence": [],
+            "reasoning_chain": [
+              "提取主张：Google Search",
+              "验证模式：fast，快速筛查结论：uncertain",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 18 条（支持 18 / 反驳 0）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 100.0，结论为 fully_supported。",
+              "关键证据相关性：0.92, 0.87, 0.87"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "18",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "uncertain",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "Google Search | Google Search evidence | Google Search benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "6",
+              "scholar_hits": "6",
+              "web_hits": "6",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "No specific factual information about GraphRAG is present in the provided text.",
+            "confidence_score": 69.88,
+            "confidence_level": {
+              "name": "中等支持",
+              "name_en": "Moderately Supported",
+              "score_range": "65 - 80",
+              "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+              "emoji": "⚠️",
+              "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+              "color": "#f39c12"
+            },
+            "verdict": "moderately_supported",
+            "score_breakdown": {
+              "factuality": 0.551,
+              "source_credibility": 0.54,
+              "evidence_consistency": 0.83,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [
+              {
+                "quote": "The default configuration mode may be configured by using a settings.yml or settings.json file in the data project root. If a .env file is present along with this config file, then it will be loaded, ",
+                "url": "https://microsoft.github.io/graphrag/config/yaml/#query",
+                "source": "https://microsoft.github.io/graphrag/config/yaml/#query",
+                "stance": "support",
+                "credibility": 0.519,
+                "relevance": 0.563,
+                "rationale": "token_overlap=5, bucket=trusted, search_score=0.483",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.567,
+                "evidence_strength": 0.16
+              },
+              {
+                "quote": "The default configuration mode may be configured by using a settings.yml or settings.json file in the data project root. If a .env file is present along with this config file, then it will be loaded, ",
+                "url": "https://microsoft.github.io/graphrag/config/yaml/#query",
+                "source": "https://microsoft.github.io/graphrag/config/yaml/#query",
+                "stance": "support",
+                "credibility": 0.509,
+                "relevance": 0.53,
+                "rationale": "token_overlap=5, bucket=scholar, search_score=0.443",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.567,
+                "evidence_strength": 0.15
+              },
+              {
+                "quote": "The default configuration mode may be configured by using a settings.yml or settings.json file in the data project root. If a .env file is present along with this config file, then it will be loaded, ",
+                "url": "https://microsoft.github.io/graphrag/config/yaml/#query",
+                "source": "https://microsoft.github.io/graphrag/config/yaml/#query",
+                "stance": "support",
+                "credibility": 0.493,
+                "relevance": 0.477,
+                "rationale": "token_overlap=5, bucket=web, search_score=0.363",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.567,
+                "evidence_strength": 0.135
+              },
+              {
+                "quote": "Grafische Visualisierung … wenn Worte nicht ausreichen , um Content schnell erfassbar und plakativ zu vermitteln, unterstütze ich Sie mit individuellen Bildwelten. Live oder nach Briefing gezeichnet, analog oder digital. Einen Trailer und eine kurze Übersicht über die Inhalte dieser Webseite finden Sie unten, detaillierte Infos und zahlreiche Bildbeispiele dann auf den entsprechenden Themenseiten. Zögern Sie nicht, bei Fragen unverbindlich Kontakt aufzunehmen!",
+                "url": "https://www.guidoschlaich.com/",
+                "source": "https://www.guidoschlaich.com/",
+                "stance": "support",
+                "credibility": 0.485,
+                "relevance": 0.451,
+                "rationale": "token_overlap=3, bucket=trusted, search_score=0.380",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.104
+              }
+            ],
+            "refuting_evidence": [
+              {
+                "quote": "Home Who We Are What We Do What We Do Meeting & Event Facilitation Graphic Facilitation & Visual Scribing Training in Graphic Facilitation FAQs Recent Projects Blog Gallery Contact Us Enabling ",
+                "url": "https://www.envision-uk.org/",
+                "source": "https://www.envision-uk.org/",
+                "stance": "refute",
+                "credibility": 0.608,
+                "relevance": 0.395,
+                "rationale": "token_overlap=2, bucket=trusted, search_score=0.328",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.36,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "Home Who We Are What We Do What We Do Meeting & Event Facilitation Graphic Facilitation & Visual Scribing Training in Graphic Facilitation FAQs Recent Projects Blog Gallery Contact Us Enabling ",
+                "url": "https://www.envision-uk.org/",
+                "source": "https://www.envision-uk.org/",
+                "stance": "refute",
+                "credibility": 0.599,
+                "relevance": 0.362,
+                "rationale": "token_overlap=2, bucket=scholar, search_score=0.288",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.36,
+                "evidence_strength": 0.065
+              },
+              {
+                "quote": "Home Who We Are What We Do What We Do Meeting & Event Facilitation Graphic Facilitation & Visual Scribing Training in Graphic Facilitation FAQs Recent Projects Blog Gallery Contact Us Enabling ",
+                "url": "https://www.envision-uk.org/",
+                "source": "https://www.envision-uk.org/",
+                "stance": "refute",
+                "credibility": 0.582,
+                "relevance": 0.308,
+                "rationale": "token_overlap=2, bucket=web, search_score=0.208",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.36,
+                "evidence_strength": 0.055
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：No specific factual information about GraphRAG is present in the provided text.",
+              "验证模式：fast，快速筛查结论：uncertain",
+              "生成检索查询 4 条，并执行多源检索。",
+              "汇总证据 10 条（支持 7 / 反驳 3）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 69.88，结论为 moderately_supported。",
+              "关键证据相关性：0.56, 0.53, 0.48"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "10",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "uncertain",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "No specific factual information about GraphRAG is present in the provided text. | \"No specific factual information about GraphRAG is present in the\" | No specific factual information about GraphRAG is present in the provided text. evidence | No specific factual information about GraphRAG is present in the provided text. benchmark OR study",
+              "query_count": "4",
+              "trusted_hits": "3",
+              "scholar_hits": "3",
+              "web_hits": "4",
+              "llm_enhanced": "False"
+            }
+          }
+        ],
+        "integrated_findings": {
+          "overall_confidence": 68.33,
+          "overall_confidence_level": {
+            "name": "中等支持",
+            "name_en": "Moderately Supported",
+            "score_range": "65 - 80",
+            "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+            "emoji": "⚠️",
+            "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+            "color": "#f39c12"
+          },
+          "overall_verdict": "moderately_supported",
+          "key_consensus_points": [
+            "Google Search（100.0）",
+            "No specific factual information about GraphRAG is present in the provided text.（69.9）"
+          ],
+          "major_risks": [
+            "Insufficient content for fact-checking.",
+            "Truncated text limits analysis.",
+            "Potential for misleading if interpreted as authoritative content.",
+            "请重点核查页面中与主题相关的事实信息（insufficient）"
+          ],
+          "logic_watchpoints": [
+            "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+          ],
+          "premise_gaps": [
+            "需要明确时间范围（实验时间/发布年份）。",
+            "需要明确数据范围（行业、样本规模、地域）。",
+            "需要明确比较基准（与谁对比、指标是什么）。"
+          ],
+          "evidence_highlights": [
+            "Get started Google Search API Get accurate, real-time Google search and SERP results as JSON in seconds. Less bloat than alternatives. Get started Never get blocked by captcha again Get Google search",
+            "The default configuration mode may be configured by using a settings.yml or settings.json file in the data project root. If a .env file is present along with this config file, then it will be loaded,"
+          ],
+          "narrative_summary": "围绕页面核心结论与证据链展开核查；Google Search（100.0）；No specific factual information about GraphRAG is present in the provided text.（69.9）；Insufficient content for fact-checking.；Truncated text limits analysis.；Potential for misleading if interpreted as authoritative content."
+        }
+      },
+      "fast_verification": {
+        "confidence_score": 55.62,
+        "confidence_level": {
+          "name": "中等支持",
+          "name_en": "Moderately Supported",
+          "score_range": "65 - 80",
+          "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+          "emoji": "⚠️",
+          "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+          "color": "#f39c12"
+        },
+        "verdict": "moderately_supported",
+        "keywords": [
+          "$31",
+          "...fluff.",
+          ".env",
+          "2,000",
+          "API",
+          "Average",
+          "Avg",
+          "Bid",
+          "Boost",
+          "Budget",
+          "Business",
+          "Contests"
+        ]
+      },
+      "_relevance_threshold": 0.3,
+      "quant_metrics": {
+        "confidence_score": 63.75,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "support_ratio": 0.63,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 3,
+        "key_point_count": 2
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ]
+    },
+    {
+      "url": "https://blog.csdn.net/qq_46094651/article/details/148870576",
+      "title": "RAG VS GraphRAG，到底什么时候用GraphRAG？一文给你搞懂！_coze graphrag-CSDN博客",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "最近的研究报告称，在许多实际任务中，GraphRAG的表现往往不如普通的RAG。因此产生一个问题：GraphRAG真的有效吗？在哪些场景下，GraphRAG有收益？为了解决这个问题，提出GraphRAG-Bench，这是一个评测GraphRAG的基准，目的是评估GraphRAG模型在层次知识检索和深度上下文推理方面的性能。文章指出的评测方式及评测结论可以参考。\nGraphRAG-Bench具有一个全面的数据集，任务难度逐渐增加，涵盖事实检索、复杂推理、上下文总结和创造性生成，并对整个流程进行系统评估，从图构建和知识检索到最终生成。\n现有评测都比较简单，因此提出一个比较全面的评测基准-GraphRAG-Bench，包括难度逐渐增加的任务，涵盖事实检索、多跳推理、上下文总结和创造性生成等。",
+      "key_points": [
+        "最近的研究报告称，在许多实际任务中，GraphRAG的表现往往不如普通的RAG。因此产生一个问题：GraphRAG真的有效吗？在哪些场景下，GraphRAG有收益？为了解决这个问题，提出GraphRAG-Bench，这是一个评测GraphRAG的基准，目的是评估GraphRAG模型在层次知识检索和深度上下文推理方面的性能。文章指出的评测方式及评测结论可以参考。",
+        "GraphRAG-Bench具有一个全面的数据集，任务难度逐渐增加，涵盖事实检索、复杂推理、上下文总结和创造性生成，并对整个流程进行系统评估，从图构建和知识检索到最终生成。",
+        "现有评测都比较简单，因此提出一个比较全面的评测基准-GraphRAG-Bench，包括难度逐渐增加的任务，涵盖事实检索、多跳推理、上下文总结和创造性生成等。",
+        "：通过计算每个节点的平均边数来衡量全局连接性。较高的平均度表示更集成的知识表示，支持高效的跨节点遍历。",
+        "：衡量检索内容与问题意图的对齐程度。通过计算问题和检索证据之间的语义相似性来量化，较高的值表示更集中和相关的信息。"
+      ],
+      "risk_flags": [
+        "LLM unavailable: fallback summary used"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.58,
+        "rationale": "Fallback mode based on structural page extraction without LLM semantic validation."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "最近的研究报告称，在许多实际任务中，GraphRAG的表现往往不如普通的RAG。因此产生一个问题：GraphRAG真的有效吗？在哪些场景下，GraphRAG有收益？为了解决这个问题，提出GraphRAG-Bench，这是一个评测GraphRAG的基准，目的是评估GraphRAG模型在层次知识检索和深度上下文推理方面的性能。文章指出的评测方式及评测结论可以参考。"
+        }
+      ],
+      "generated_at": "2026-03-12T10:33:50.008370Z",
+      "generator": "fallback",
+      "_source_text_excerpt": "最近的研究报告称，在许多实际任务中，GraphRAG的表现往往不如普通的RAG。因此产生一个问题：GraphRAG真的有效吗？在哪些场景下，GraphRAG有收益？为了解决这个问题，提出GraphRAG-Bench，这是一个评测GraphRAG的基准，目的是评估GraphRAG模型在层次知识检索和深度上下文推理方面的性能。文章指出的评测方式及评测结论可以参考。\nGraphRAG-Bench具有一个全面的数据集，任务难度逐渐增加，涵盖事实检索、复杂推理、上下文总结和创造性生成，并对整个流程进行系统评估，从图构建和知识检索到最终生成。\nRAG VS GraphRAG\n下面这张图可能更清晰的看出RAG和GraphRAG的区别。\n使用文本块（chunks），通过向量嵌入进行索引。\n使用图结构，节点代表实体、事件或主题，边定义逻辑、因果或关联关系。\n图遍历，检索直接相关节点及相互连接的子图。\n适用于需要快速访问离散信息的任务，但不擅长复杂逻辑推理。\n适用于需要深度上下文分析和复杂推理的任务，能够合成来自分散数据点的见解。\n简单问答系统，需要快速响应的任务。\n医学诊断、法律分析、科学推理等需要深度理解和复杂推理的任务。\n实现相对简单，依赖现有文本检索技术。\n实现较为复杂，需要构建和维护图结构，以及高效的图遍历算法。\n在不需要复杂推理的任务上表现良好。\n在需要复杂推理和上下文理解的任务上表现出色，但可能增加检索速度和资源消耗。\n现有评测都比较简单，因此提出一个比较全面的评测基准-GraphRAG-Bench，包括难度逐渐增加的任务，涵盖事实检索、多跳推理、上下文总结和创造性生成等。\n按复杂性分类的任务，从事实检索到创造性生成。\n需要检索孤立的知识点，最小化推理；主要测试精确的关键词匹配。\n蒙特圣米歇尔位于法国的哪个地区？\n需要通过文档中的逻辑连接链接多个知识点。\nHinze与Felicia的协议如何影响对英格兰统治者的看法？\n涉及将碎片化信息综合成一个连贯、有结构的答案；强调逻辑连贯性和上下文。\nJohn Curgenven作为康沃尔船夫在探索该地区的游客中扮演什么角色？\n需要超越检索内容的推理，通常涉及假设或新颖的场景。\n将亚瑟王与John Curgenven的比较以及康沃尔海岸线的探索重述为新闻文章。\n在评估GraphRAG系统时，引入了多种指标来全面评估系统在知识图谱构建、检索和生成过程中的表现：\n1. Graph Quality (图质量)\nNODE COUNT（节点数量）\n：衡量在知识图谱构建过程中提取的实体数量。较高的节点数量意味着更广泛的领域覆盖和更细粒度的知识表示。\nEdge Count（边数量）\n：衡量实体之间的关系数量。较高的边数量表明更密集的语义连接，有助于多跳推理和复杂查询处理。\nAverage Degree（平均度）\n：通过计算每个节点的平均边数来衡量全局连接性。较高的平均度表示更集成的知识表示，支持高效的跨节点遍历。\n其中， 是节点集合， 是节点 的度。\nAverage Clustering Coefficient（平均聚类系数）\n：通过三元组完成来评估局部邻域连接性。较高的值表明存在连贯的子图，支持局部推理。\n其中， 是节点 的聚类系数， 表示其中心三角形数。\n2. Retrieval Performance (检索性能)\nContext Relevance（上下文相关性）\n：衡量检索内容与问题意图的对齐程度。通过计算问题和检索证据之间的语义相似性来量化，较高的值表示更集中和相关的信息。\nEvidence Recall（证据召回率）\n：通过评估是否捕获了正确回答问题所需的所有关键组件来衡量检索的完整性。较高的值表示更全面的证据收集。\n3. Generation Accuracy (生成准确性)\nLexical Overlap（词汇重叠）\n：使用最长公共子序列匹配来衡量生成答案与参考答案之间的词级相似性。\nAnswer Accuracy（答案准确性）\n：评估生成答案与参考答案的语义相似性和事实一致性。\nFaithfulness（忠实度）\n：评估长篇答案中的相关知识点是否忠实于给定的上下文。\nEvidence Coverage（证据覆盖率）\n：衡量答案是否充分涵盖了与问题相关的所有知识。\nGraphRAG在需要多跳推理和上下文综合的任务中表现优异，但在简单事实检索任务中不如传统RAG。\n生成准确性: 基本RAG在简单事实检索任务中表现优于GraphRAG，但在复杂推理、上下文摘要和创造性生成任务中，GraphRAG表现出明显优势。\n检索性能: GraphRAG在复杂任务中表现出色，特别是在需要多跳推理和上下文综合的任务中，能够连接远距离文本片段，提供更全面的信息。\n图复杂性: 不同GraphRAG实现生成的索引图显示出显著的结构差异，HippoRAG2生成的图更为密集，提高了信息连接性和覆盖范围。\n效率: GraphRAG由于额外的知识检索和图聚合步骤，增加了提示长度，导致效率降低，尤其是在复杂任务中。\n那么，如何系统的去学习大模型LLM？\n作为一名从业五年的资深大模型算法工程师，我经常会收到一些评论和私信，我是小白，学习大模型该从哪里入手呢？我自学没有方向怎么办？这个地方我不会啊。如果你也有类似的经历，一定要继续看下去！这些问题啊，也不是三言两语啊就能讲明白的。\n所以我综合了大模型的所有知识点，给大家带来一套\n全网最全最细的大模型零基础教程\n。在做这套教程之前呢，我就曾放空大脑，以一个大模型小白的角度去重新解析它，采用基础知识和实战项目相结合的教学方式，历时3个月，终于完成了这样的课程，让你真正体会到什么是每一秒都在疯狂输出知识点。\n由于篇幅有限，⚡️ 朋友们如果有需要全套 《\n2025全新制作的大模型全套资料\n基础篇里面包括了Python快速入门、AI开发环境搭建及提示词工程，带你学习大模型核心原理、prompt使用技巧、Transformer架构和预训练、SFT、RLHF等一些基础概念，用最易懂的方式带你入门大模型。\n接下来是进阶篇，你将掌握RAG、Agent、Langchain、大模型微调和私有化部署，学习如何构建外挂知识库并和自己的企业相结合，学习如何使用langchain框架提高开发效率和代码质量、学习如何选择合适的基座模型并进行数据集的收集预处理以及具体的模型微调等等。\n实战篇会手把手带着大家练习企业级的落地项目（已脱敏），比如RAG医疗问答系统、Agent智能电商客服系统、数字人项目实战、教育行业智能助教等等，从而帮助大家更好的应对大模型时代的挑战。\n最后呢，会给大家一个小福利，课程视频中的所有素材，有搭建AI开发环境资料包，还有学习计划表，几十上百G素材、电子书和课件等等，只要你能想到的素材，我这里几乎都有。我已经全部上传到CSDN，朋友们如果需要可以微信扫描下方CSDN官方认证二维码免费领取【\n相信我，这套大模型系统教程将会是全网最齐全 最易懂的小白专用课！！",
+      "web_content": "最近的研究报告称，在许多实际任务中，GraphRAG的表现往往不如普通的RAG。因此产生一个问题：GraphRAG真的有效吗？在哪些场景下，GraphRAG有收益？为了解决这个问题，提出GraphRAG-Bench，这是一个评测GraphRAG的基准，目的是评估GraphRAG模型在层次知识检索和深度上下文推理方面的性能。文章指出的评测方式及评测结论可以参考。\nGraphRAG-Bench具有一个全面的数据集，任务难度逐渐增加，涵盖事实检索、复杂推理、上下文总结和创造性生成，并对整个流程进行系统评估，从图构建和知识检索到最终生成。\nRAG VS GraphRAG\n下面这张图可能更清晰的看出RAG和GraphRAG的区别。\n使用文本块（chunks），通过向量嵌入进行索引。\n使用图结构，节点代表实体、事件或主题，边定义逻辑、因果或关联关系。\n图遍历，检索直接相关节点及相互连接的子图。\n适用于需要快速访问离散信息的任务，但不擅长复杂逻辑推理。\n适用于需要深度上下文分析和复杂推理的任务，能够合成来自分散数据点的见解。\n简单问答系统，需要快速响应的任务。\n医学诊断、法律分析、科学推理等需要深度理解和复杂推理的任务。\n实现相对简单，依赖现有文本检索技术。\n实现较为复杂，需要构建和维护图结构，以及高效的图遍历算法。\n在不需要复杂推理的任务上表现良好。\n在需要复杂推理和上下文理解的任务上表现出色，但可能增加检索速度和资源消耗。\n现有评测都比较简单，因此提出一个比较全面的评测基准-GraphRAG-Bench，包括难度逐渐增加的任务，涵盖事实检索、多跳推理、上下文总结和创造性生成等。\n按复杂性分类的任务，从事实检索到创造性生成。\n需要检索孤立的知识点，最小化推理；主要测试精确的关键词匹配。\n蒙特圣米歇尔位于法国的哪个地区？\n需要通过文档中的逻辑连接链接多个知识点。\nHinze与Felicia的协议如何影响对英格兰统治者的看法？\n涉及将碎片化信息综合成一个连贯、有结构的答案；强调逻辑连贯性和上下文。\nJohn Curgenven作为康沃尔船夫在探索该地区的游客中扮演什么角色？\n需要超越检索内容的推理，通常涉及假设或新颖的场景。\n将亚瑟王与John Curgenven的比较以及康沃尔海岸线的探索重述为新闻文章。\n在评估GraphRAG系统时，引入了多种指标来全面评估系统在知识图谱构建、检索和生成过程中的表现：\n1. Graph Quality (图质量)\nNODE COUNT（节点数量）\n：衡量在知识图谱构建过程中提取的实体数量。较高的节点数量意味着更广泛的领域覆盖和更细粒度的知识表示。\nEdge Count（边数量）\n：衡量实体之间的关系数量。较高的边数量表明更密集的语义连接，有助于多跳推理和复杂查询处理。\nAverage Degree（平均度）\n：通过计算每个节点的平均边数来衡量全局连接性。较高的平均度表示更集成的知识表示，支持高效的跨节点遍历。\n其中， 是节点集合， 是节点 的度。\nAverage Clustering Coefficient（平均聚类系数）\n：通过三元组完成来评估局部邻域连接性。较高的值表明存在连贯的子图，支持局部推理。\n其中， 是节点 的聚类系数， 表示其中心三角形数。\n2. Retrieval Performance (检索性能)\nContext Relevance（上下文相关性）\n：衡量检索内容与问题意图的对齐程度。通过计算问题和检索证据之间的语义相似性来量化，较高的值表示更集中和相关的信息。\nEvidence Recall（证据召回率）\n：通过评估是否捕获了正确回答问题所需的所有关键组件来衡量检索的完整性。较高的值表示更全面的证据收集。\n3. Generation Accuracy (生成准确性)\nLexical Overlap（词汇重叠）\n：使用最长公共子序列匹配来衡量生成答案与参考答案之间的词级相似性。\nAnswer Accuracy（答案准确性）\n：评估生成答案与参考答案的语义相似性和事实一致性。\nFaithfulness（忠实度）\n：评估长篇答案中的相关知识点是否忠实于给定的上下文。\nEvidence Coverage（证据覆盖率）\n：衡量答案是否充分涵盖了与问题相关的所有知识。\nGraphRAG在需要多跳推理和上下文综合的任务中表现优异，但在简单事实检索任务中不如传统RAG。\n生成准确性: 基本RAG在简单事实检索任务中表现优于GraphRAG，但在复杂推理、上下文摘要和创造性生成任务中，GraphRAG表现出明显优势。\n检索性能: GraphRAG在复杂任务中表现出色，特别是在需要多跳推理和上下文综合的任务中，能够连接远距离文本片段，提供更全面的信息。\n图复杂性: 不同GraphRAG实现生成的索引图显示出显著的结构差异，HippoRAG2生成的图更为密集，提高了信息连接性和覆盖范围。\n效率: GraphRAG由于额外的知识检索和图聚合步骤，增加了提示长度，导致效率降低，尤其是在复杂任务中。\n那么，如何系统的去学习大模型LLM？\n作为一名从业五年的资深大模型算法工程师，我经常会收到一些评论和私信，我是小白，学习大模型该从哪里入手呢？我自学没有方向怎么办？这个地方我不会啊。如果你也有类似的经历，一定要继续看下去！这些问题啊，也不是三言两语啊就能讲明白的。\n所以我综合了大模型的所有知识点，给大家带来一套\n全网最全最细的大模型零基础教程\n。在做这套教程之前呢，我就曾放空大脑，以一个大模型小白的角度去重新解析它，采用基础知识和实战项目相结合的教学方式，历时3个月，终于完成了这样的课程，让你真正体会到什么是每一秒都在疯狂输出知识点。\n由于篇幅有限，⚡️ 朋友们如果有需要全套 《\n2025全新制作的大模型全套资料\n基础篇里面包括了Python快速入门、AI开发环境搭建及提示词工程，带你学习大模型核心原理、prompt使用技巧、Transformer架构和预训练、SFT、RLHF等一些基础概念，用最易懂的方式带你入门大模型。\n接下来是进阶篇，你将掌握RAG、Agent、Langchain、大模型微调和私有化部署，学习如何构建外挂知识库并和自己的企业相结合，学习如何使用langchain框架提高开发效率和代码质量、学习如何选择合适的基座模型并进行数据集的收集预处理以及具体的模型微调等等。\n实战篇会手把手带着大家练习企业级的落地项目（已脱敏），比如RAG医疗问答系统、Agent智能电商客服系统、数字人项目实战、教育行业智能助教等等，从而帮助大家更好的应对大模型时代的挑战。\n最后呢，会给大家一个小福利，课程视频中的所有素材，有搭建AI开发环境资料包，还有学习计划表，几十上百G素材、电子书和课件等等，只要你能想到的素材，我这里几乎都有。我已经全部上传到CSDN，朋友们如果需要可以微信扫描下方CSDN官方认证二维码免费领取【\n相信我，这套大模型系统教程将会是全网最齐全 最易懂的小白专用课！！",
+      "fast_verification": {
+        "confidence_score": 42.12,
+        "confidence_level": {
+          "name": "强烈支持",
+          "name_en": "Strongly Supported",
+          "score_range": "80 - 92",
+          "description": "有多个高质量来源支持，少量反证或低质量反证",
+          "emoji": "✅",
+          "interpretation": "该主张获得多个可靠来源的支持。可以有信心认为该主张是准确的。",
+          "color": "#2ecc71"
+        },
+        "verdict": "strongly_supported",
+        "keywords": [
+          "Agentic",
+          "Causal",
+          "DataFun",
+          "Design",
+          "Graph",
+          "GraphRAG",
+          "GraphRAG?",
+          "Hierarchical",
+          "HugRAG:",
+          "Knowledge",
+          "LLM",
+          "RAG"
+        ]
+      },
+      "_relevance_threshold": 0.3,
+      "quant_metrics": {
+        "confidence_score": 65.64,
+        "confidence_level": {
+          "name": "中等支持",
+          "name_en": "Moderately Supported",
+          "score_range": "65 - 80",
+          "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+          "emoji": "⚠️",
+          "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+          "color": "#f39c12"
+        },
+        "verdict": "moderately_supported",
+        "support_ratio": 0.4,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 1,
+        "key_point_count": 5
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "priority_focus_marks": [],
+      "secondary_focus_marks": []
+    },
+    {
+      "url": "https://m.blog.csdn.net/csdn122345/article/details/147838668",
+      "title": "GraphRAG：微软推出的图神经网络与检索增强生成系统_微软graphrag-CSDN博客",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "随着大型语言模型（LLM）的兴起，如何有效地利用这些模型处理私人数据并提升其推理能力成为了研究热点。微软推出的 GraphRAG 项目，作为一个模块化的基于图的检索增强生成（RAG）系统，旨在通过构建知识图谱记忆结构，增强 LLM 对非结构化文本数据的理解和推理能力。\n本文将深入探讨 GraphRAG 的核心概念、架构组成、使用方法以及应用场景，并结合代码示例和相关图表，帮助读者全面了解这一前沿技术工具。同时，我们也将探讨在使用 GraphRAG 时需要注意的事项，以及它在数据处理和 AI 应用开发中的巨大潜力。\nGraphRAG 是微软开发的一个数据处理和转换套件，专注于从非结构化文本中提取有意义的结构化数据。它利用先进的 LLM 技术，将文本信息转化为图神经网络（GNN）能够处理的知识图谱形式，从而实现对复杂文本数据关系的建模和推理。",
+      "key_points": [
+        "随着大型语言模型（LLM）的兴起，如何有效地利用这些模型处理私人数据并提升其推理能力成为了研究热点。微软推出的 GraphRAG 项目，作为一个模块化的基于图的检索增强生成（RAG）系统，旨在通过构建知识图谱记忆结构，增强 LLM 对非结构化文本数据的理解和推理能力。",
+        "本文将深入探讨 GraphRAG 的核心概念、架构组成、使用方法以及应用场景，并结合代码示例和相关图表，帮助读者全面了解这一前沿技术工具。同时，我们也将探讨在使用 GraphRAG 时需要注意的事项，以及它在数据处理和 AI 应用开发中的巨大潜力。",
+        "GraphRAG 是微软开发的一个数据处理和转换套件，专注于从非结构化文本中提取有意义的结构化数据。它利用先进的 LLM 技术，将文本信息转化为图神经网络（GNN）能够处理的知识图谱形式，从而实现对复杂文本数据关系的建模和推理。",
+        "GraphRAG 的核心在于其知识图谱记忆结构，这种结构能够有效地存储和关联从文本中提取的实体、概念及其之间的关系。通过将这些信息组织成图的形式，GraphRAG 能够为 LLM 提供更丰富的上下文和背景知识，使其在生成回答或进行推理时更加准确和连贯。",
+        "：对输入的文本进行预处理，包括分词、去除停用词、语法分析等操作，以便更好地提取关键信息和构建知识图谱。"
+      ],
+      "risk_flags": [
+        "LLM unavailable: fallback summary used"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.58,
+        "rationale": "Fallback mode based on structural page extraction without LLM semantic validation."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "随着大型语言模型（LLM）的兴起，如何有效地利用这些模型处理私人数据并提升其推理能力成为了研究热点。微软推出的 GraphRAG 项目，作为一个模块化的基于图的检索增强生成（RAG）系统，旨在通过构建知识图谱记忆结构，增强 LLM 对非结构化文本数据的理解和推理能力。"
+        }
+      ],
+      "generated_at": "2026-03-12T10:36:24.889001Z",
+      "generator": "fallback",
+      "_source_text_excerpt": "随着大型语言模型（LLM）的兴起，如何有效地利用这些模型处理私人数据并提升其推理能力成为了研究热点。微软推出的 GraphRAG 项目，作为一个模块化的基于图的检索增强生成（RAG）系统，旨在通过构建知识图谱记忆结构，增强 LLM 对非结构化文本数据的理解和推理能力。\n本文将深入探讨 GraphRAG 的核心概念、架构组成、使用方法以及应用场景，并结合代码示例和相关图表，帮助读者全面了解这一前沿技术工具。同时，我们也将探讨在使用 GraphRAG 时需要注意的事项，以及它在数据处理和 AI 应用开发中的巨大潜力。\nGraphRAG 是微软开发的一个数据处理和转换套件，专注于从非结构化文本中提取有意义的结构化数据。它利用先进的 LLM 技术，将文本信息转化为图神经网络（GNN）能够处理的知识图谱形式，从而实现对复杂文本数据关系的建模和推理。\nGraphRAG 的核心在于其知识图谱记忆结构，这种结构能够有效地存储和关联从文本中提取的实体、概念及其之间的关系。通过将这些信息组织成图的形式，GraphRAG 能够为 LLM 提供更丰富的上下文和背景知识，使其在生成回答或进行推理时更加准确和连贯。\nGraphRAG 主要由以下几个部分组成：\n：负责从各种数据源（如文本文件、数据库等）获取非结构化文本数据，并将其输入到系统中进行处理。\n：对输入的文本进行预处理，包括分词、去除停用词、语法分析等操作，以便更好地提取关键信息和构建知识图谱。\n：基于处理后的文本数据，利用实体识别、关系抽取等技术构建知识图谱。它会识别出文本中的实体（如人名、地名、组织名等）、概念以及它们之间的关系，并将其存储在图数据库中。\n：对构建好的知识图谱进行编码和表示学习，生成节点和边的嵌入向量。这些嵌入向量能够捕捉图中实体和关系的语义信息，为后续的检索和生成任务提供基础。\n：结合 LLM 和知识图谱，实现检索增强的文本生成。当给定一个查询时，RAG 组件会先在知识图谱中检索相关的实体和关系信息，然后将这些信息与查询一起输入到 LLM 中，生成更准确、更有依据的回答。\n：提供对外的接口，使得开发者能够方便地将 GraphRAG 集成到自己的应用程序中，实现对文本数据的智能查询和分析功能。\n以一个用户询问关于某个技术概念的问题为例，流程如下：\n：用户通过应用程序界面输入自然语言问题，例如 “请解释图神经网络（GNN）在知识图谱中的应用”。\n：应用程序将用户的查询发送到 GraphRAG 的 API 接口层。\n：GraphRAG 的检索增强生成组件接收到查询后，会在知识图谱中检索与 “图神经网络” 和 “知识图谱应用” 相关的实体和关系信息。它会查找图中相关的节点（如 GNN、知识图谱、实体关系提取等）以及它们之间的连接边（表示概念之间的关联）。\n：将检索到的知识图谱信息与用户的原始查询整合在一起，形成一个包含丰富上下文的输入，传递给 LLM。LM 会根据这个输入生成一个详细且准确的回答，例如解释 GNN 如何通过对知识图谱中实体关系的建模来提升信息检索、推荐系统等应用的性能。\n：GraphRAG 对 LLM 生成的回答进行格式化处理，使其符合应用程序的要求，然后通过 API 返回给用户。同时，GraphRAG 会记录本次查询和生成的回答，以便后续进一步优化知识图谱和模型。\n以下是一个简单的 GraphRAG 使用代码示例，展示了如何利用 GraphRAG 构建知识图谱并进行查询处理：\nfrom graphrag import GraphRAG\ngraph_rag = GraphRAG(data_dir=\"path/to/your/data\",\ngraph_database_uri=\"neo4j://localhost:7687\",\nllm_model_name=\"your_llm_model\")\n# 构建知识图谱（注意：实际 indexing 可能非常耗时和资源密集，请谨慎操作）\ngraph_rag.build_knowledge_graph()\nquery = \"请解释图神经网络（GNN）在知识图谱中的应用\"\nresponse = graph_rag.query(query)\nprint(response)\n在使用 GraphRAG 之前，需要确保已经安装了相关的依赖库，并且配置好了数据存储路径、图数据库连接 URI 以及 LLM 模型等参数。\nbuild_knowledge_graph\n方法会根据提供的数据构建知识图谱，这一步可能会消耗大量时间和计算资源，建议在开始之前仔细阅读官方文档，了解相关的配置和优化方法。\n方法则用于向 GraphRAG 发送查询请求并获取回答。\n：GraphRAG 可以用于构建企业级的智能问答系统，帮助员工快速获取公司内部文档、政策、技术资料等信息。例如，员工可以询问 “公司最新的休假政策是什么”，GraphRAG 能够从人力资源文档中提取相关信息，并给出准确的回答。\n：在学术研究领域，研究人员可以利用 GraphRAG 处理大量的科研文献，构建知识图谱，从而更好地理解不同研究主题之间的关系，发现新的研究方向和合作机会。例如，通过分析生物医学文献，GraphRAG 可以揭示基因、疾病和药物之间的关联。\n：将 GraphRAG 集成到客服系统中，能够使客服机器人更好地理解和回答客户的问题。它可以从产品文档、FAQ、客户反馈等多渠道数据中提取知识，为客户提供更准确、更个性化的解决方案，提高客户满意度。\n：金融机构可以使用 GraphRAG 分析市场新闻、公司财务报告、行业研究等文本数据，构建金融知识图谱。通过查询图谱，可以识别潜在的风险因素、预测市场趋势，辅助投资决策。\n：在教育领域，GraphRAG 可以帮助构建智能学习辅导系统。它可以从教材、在线课程、学术论文等多种教育资源中提取知识点和它们之间的关系，为学生提供个性化的学习路径建议和问题解答。\n：GraphRAG 的知识图谱构建和索引过程可能需要大量的计算资源和存储空间，尤其是处理大规模数据时。在开始使用之前，需要确保有足够的硬件资源（如内存、CPU、GPU 等），并根据数据规模和查询需求对系统进行性能优化，例如调整图数据库的配置、优化 LLM 的参数等。\n：GraphRAG 的表现高度依赖于输入数据的质量。如果数据包含错误、不一致或噪声信息，可能会影响知识图谱的构建和查询结果的准确性。在使用 GraphRAG 之前，需要对数据进行仔细的清洗、校验和预处理，确保数据的准确性和可靠性。\n：为了获得最佳的查询结果，可能需要对 LLM 进行微调，并优化提示（prompt）的设计。微软建议用户参考官方文档中的提示调优指南，根据具体的应用场景和数据特点，调整提示的格式、内容和参数，以引导 LLM 生成更符合预期的回答。\n：由于 GraphRAG 处理的数据可能包含敏感信息，如企业内部文档、客户数据等，因此数据的隐私和安全保护至关重要。需要采取加密、访问控制、数据匿名化等措施，确保数据在传输、存储和处理过程中的安全性，防止数据泄露或未授权访问。\nGraphRAG 作为微软推出的基于图的检索增强生成系统，为利用 LLM 处理非结构化文本数据提供了一个强大的框架。它通过构建知识图谱记忆结构，有效地增强了 LLM 的推理能力和回答准确性，在多个领域展现出了广泛的应用前景。尽管在使用过程中需要注意资源消耗、数据质量等挑战，但通过合理配置和优化，GraphRAG 有望成为数据驱动 AI 应用开发的重要工具之一，为用户带来更智能、更高效的文本分析和问答体验。\n[1] GraphRAG 官方 GitHub 仓库.\nGitHub - microsoft/graphrag: A modular graph-based Retrieval-Augmented Generation (RAG) system\nGraphRAG Blog Post\n（用于了解 GraphRAG 的背景和详细技术介绍）\n[3] GraphRAG Arxiv 论文.\nhttps://arxiv.org/abs/related_to_graphrag",
+      "web_content": "随着大型语言模型（LLM）的兴起，如何有效地利用这些模型处理私人数据并提升其推理能力成为了研究热点。微软推出的 GraphRAG 项目，作为一个模块化的基于图的检索增强生成（RAG）系统，旨在通过构建知识图谱记忆结构，增强 LLM 对非结构化文本数据的理解和推理能力。\n本文将深入探讨 GraphRAG 的核心概念、架构组成、使用方法以及应用场景，并结合代码示例和相关图表，帮助读者全面了解这一前沿技术工具。同时，我们也将探讨在使用 GraphRAG 时需要注意的事项，以及它在数据处理和 AI 应用开发中的巨大潜力。\nGraphRAG 是微软开发的一个数据处理和转换套件，专注于从非结构化文本中提取有意义的结构化数据。它利用先进的 LLM 技术，将文本信息转化为图神经网络（GNN）能够处理的知识图谱形式，从而实现对复杂文本数据关系的建模和推理。\nGraphRAG 的核心在于其知识图谱记忆结构，这种结构能够有效地存储和关联从文本中提取的实体、概念及其之间的关系。通过将这些信息组织成图的形式，GraphRAG 能够为 LLM 提供更丰富的上下文和背景知识，使其在生成回答或进行推理时更加准确和连贯。\nGraphRAG 主要由以下几个部分组成：\n：负责从各种数据源（如文本文件、数据库等）获取非结构化文本数据，并将其输入到系统中进行处理。\n：对输入的文本进行预处理，包括分词、去除停用词、语法分析等操作，以便更好地提取关键信息和构建知识图谱。\n：基于处理后的文本数据，利用实体识别、关系抽取等技术构建知识图谱。它会识别出文本中的实体（如人名、地名、组织名等）、概念以及它们之间的关系，并将其存储在图数据库中。\n：对构建好的知识图谱进行编码和表示学习，生成节点和边的嵌入向量。这些嵌入向量能够捕捉图中实体和关系的语义信息，为后续的检索和生成任务提供基础。\n：结合 LLM 和知识图谱，实现检索增强的文本生成。当给定一个查询时，RAG 组件会先在知识图谱中检索相关的实体和关系信息，然后将这些信息与查询一起输入到 LLM 中，生成更准确、更有依据的回答。\n：提供对外的接口，使得开发者能够方便地将 GraphRAG 集成到自己的应用程序中，实现对文本数据的智能查询和分析功能。\n以一个用户询问关于某个技术概念的问题为例，流程如下：\n：用户通过应用程序界面输入自然语言问题，例如 “请解释图神经网络（GNN）在知识图谱中的应用”。\n：应用程序将用户的查询发送到 GraphRAG 的 API 接口层。\n：GraphRAG 的检索增强生成组件接收到查询后，会在知识图谱中检索与 “图神经网络” 和 “知识图谱应用” 相关的实体和关系信息。它会查找图中相关的节点（如 GNN、知识图谱、实体关系提取等）以及它们之间的连接边（表示概念之间的关联）。\n：将检索到的知识图谱信息与用户的原始查询整合在一起，形成一个包含丰富上下文的输入，传递给 LLM。LM 会根据这个输入生成一个详细且准确的回答，例如解释 GNN 如何通过对知识图谱中实体关系的建模来提升信息检索、推荐系统等应用的性能。\n：GraphRAG 对 LLM 生成的回答进行格式化处理，使其符合应用程序的要求，然后通过 API 返回给用户。同时，GraphRAG 会记录本次查询和生成的回答，以便后续进一步优化知识图谱和模型。\n以下是一个简单的 GraphRAG 使用代码示例，展示了如何利用 GraphRAG 构建知识图谱并进行查询处理：\nfrom graphrag import GraphRAG\ngraph_rag = GraphRAG(data_dir=\"path/to/your/data\",\ngraph_database_uri=\"neo4j://localhost:7687\",\nllm_model_name=\"your_llm_model\")\n# 构建知识图谱（注意：实际 indexing 可能非常耗时和资源密集，请谨慎操作）\ngraph_rag.build_knowledge_graph()\nquery = \"请解释图神经网络（GNN）在知识图谱中的应用\"\nresponse = graph_rag.query(query)\nprint(response)\n在使用 GraphRAG 之前，需要确保已经安装了相关的依赖库，并且配置好了数据存储路径、图数据库连接 URI 以及 LLM 模型等参数。\nbuild_knowledge_graph\n方法会根据提供的数据构建知识图谱，这一步可能会消耗大量时间和计算资源，建议在开始之前仔细阅读官方文档，了解相关的配置和优化方法。\n方法则用于向 GraphRAG 发送查询请求并获取回答。\n：GraphRAG 可以用于构建企业级的智能问答系统，帮助员工快速获取公司内部文档、政策、技术资料等信息。例如，员工可以询问 “公司最新的休假政策是什么”，GraphRAG 能够从人力资源文档中提取相关信息，并给出准确的回答。\n：在学术研究领域，研究人员可以利用 GraphRAG 处理大量的科研文献，构建知识图谱，从而更好地理解不同研究主题之间的关系，发现新的研究方向和合作机会。例如，通过分析生物医学文献，GraphRAG 可以揭示基因、疾病和药物之间的关联。\n：将 GraphRAG 集成到客服系统中，能够使客服机器人更好地理解和回答客户的问题。它可以从产品文档、FAQ、客户反馈等多渠道数据中提取知识，为客户提供更准确、更个性化的解决方案，提高客户满意度。\n：金融机构可以使用 GraphRAG 分析市场新闻、公司财务报告、行业研究等文本数据，构建金融知识图谱。通过查询图谱，可以识别潜在的风险因素、预测市场趋势，辅助投资决策。\n：在教育领域，GraphRAG 可以帮助构建智能学习辅导系统。它可以从教材、在线课程、学术论文等多种教育资源中提取知识点和它们之间的关系，为学生提供个性化的学习路径建议和问题解答。\n：GraphRAG 的知识图谱构建和索引过程可能需要大量的计算资源和存储空间，尤其是处理大规模数据时。在开始使用之前，需要确保有足够的硬件资源（如内存、CPU、GPU 等），并根据数据规模和查询需求对系统进行性能优化，例如调整图数据库的配置、优化 LLM 的参数等。\n：GraphRAG 的表现高度依赖于输入数据的质量。如果数据包含错误、不一致或噪声信息，可能会影响知识图谱的构建和查询结果的准确性。在使用 GraphRAG 之前，需要对数据进行仔细的清洗、校验和预处理，确保数据的准确性和可靠性。\n：为了获得最佳的查询结果，可能需要对 LLM 进行微调，并优化提示（prompt）的设计。微软建议用户参考官方文档中的提示调优指南，根据具体的应用场景和数据特点，调整提示的格式、内容和参数，以引导 LLM 生成更符合预期的回答。\n：由于 GraphRAG 处理的数据可能包含敏感信息，如企业内部文档、客户数据等，因此数据的隐私和安全保护至关重要。需要采取加密、访问控制、数据匿名化等措施，确保数据在传输、存储和处理过程中的安全性，防止数据泄露或未授权访问。\nGraphRAG 作为微软推出的基于图的检索增强生成系统，为利用 LLM 处理非结构化文本数据提供了一个强大的框架。它通过构建知识图谱记忆结构，有效地增强了 LLM 的推理能力和回答准确性，在多个领域展现出了广泛的应用前景。尽管在使用过程中需要注意资源消耗、数据质量等挑战，但通过合理配置和优化，GraphRAG 有望成为数据驱动 AI 应用开发的重要工具之一，为用户带来更智能、更高效的文本分析和问答体验。\n[1] GraphRAG 官方 GitHub 仓库.\nGitHub - microsoft/graphrag: A modular graph-based Retrieval-Augmented Generation (RAG) system\nGraphRAG Blog Post\n（用于了解 GraphRAG 的背景和详细技术介绍）\n[3] GraphRAG Arxiv 论文.\nhttps://arxiv.org/abs/related_to_graphrag",
+      "fast_verification": {
+        "confidence_score": 59.66,
+        "confidence_level": {
+          "name": "强烈支持",
+          "name_en": "Strongly Supported",
+          "score_range": "80 - 92",
+          "description": "有多个高质量来源支持，少量反证或低质量反证",
+          "emoji": "✅",
+          "interpretation": "该主张获得多个可靠来源的支持。可以有信心认为该主张是准确的。",
+          "color": "#2ecc71"
+        },
+        "verdict": "strongly_supported",
+        "keywords": [
+          "(Agent)",
+          "(DeepSearch)",
+          "(KV",
+          "(LLM)",
+          "10:00",
+          "10:50（北京时间）",
+          "11:00（北京时间）",
+          "2025",
+          "60%。随着深度搜索",
+          "Abbasi-Asl",
+          "Augmented",
+          "Cache"
+        ]
+      },
+      "_relevance_threshold": 0.3,
+      "quant_metrics": {
+        "confidence_score": 72.66,
+        "confidence_level": {
+          "name": "中等支持",
+          "name_en": "Moderately Supported",
+          "score_range": "65 - 80",
+          "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+          "emoji": "⚠️",
+          "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+          "color": "#f39c12"
+        },
+        "verdict": "moderately_supported",
+        "support_ratio": 0.4,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 1,
+        "key_point_count": 5
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "priority_focus_marks": [],
+      "secondary_focus_marks": []
+    },
+    {
+      "url": "https://www.sohu.com/a/877527047_121119001",
+      "title": "港中大（深圳）、华为云联合突破！首次提出GraphRAG统一框架_方法_问题_数据",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。\nIn-depth Analysis of Graph-based RAG in a Unified Framework\n：首先，将大规模语料库分割成多个块，然后使用 LLM 或其他工具从这些块中提取节点和边，构建图。图的类型包括 passage graph、tree、knowledge graph、textual knowledge graph 和 rich knowledge graph。",
+      "key_points": [
+        "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。",
+        "In-depth Analysis of Graph-based RAG in a Unified Framework",
+        "：首先，将大规模语料库分割成多个块，然后使用 LLM 或其他工具从这些块中提取节点和边，构建图。图的类型包括 passage graph、tree、knowledge graph、textual knowledge graph 和 rich knowledge graph。",
+        "：为了支持高效的在线查询，构建索引以存储图中的实体或关系，并计算社区报告以实现高效的在线检索。索引类型包括节点索引、关系索引和社区索引。",
+        "：在统一框架下，任何现有的基于图的 RAG 方法都可以通过选择特定的操作符并将其组合来实现。操作符分为节点类型、关系类型、块类型、子图类型和社区类型。"
+      ],
+      "risk_flags": [
+        "LLM unavailable: fallback summary used"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.58,
+        "rationale": "Fallback mode based on structural page extraction without LLM semantic validation."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。"
+        }
+      ],
+      "generated_at": "2026-03-12T10:37:19.179823Z",
+      "generator": "fallback",
+      "_source_text_excerpt": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。\nIn-depth Analysis of Graph-based RAG in a Unified Framework\nhttps://arxiv.org/abs/2503.04338\nhttps://github.com/JayLZhou/GraphRAG\n这篇论文提出了一个统一的框架，用于解决基于图的 RAG 方法的系统比较和分析问题。具体来说：\n：首先，将大规模语料库分割成多个块，然后使用 LLM 或其他工具从这些块中提取节点和边，构建图。图的类型包括 passage graph、tree、knowledge graph、textual knowledge graph 和 rich knowledge graph。\n：为了支持高效的在线查询，构建索引以存储图中的实体或关系，并计算社区报告以实现高效的在线检索。索引类型包括节点索引、关系索引和社区索引。\n：在统一框架下，任何现有的基于图的 RAG 方法都可以通过选择特定的操作符并将其组合来实现。操作符分为节点类型、关系类型、块类型、子图类型和社区类型。\n：在检索与生成阶段，首先将用户输入的问题转换为检索原语，然后使用选定的操作符检索相关信息，并将其与问题一起输入 LLM 以生成答案。答案生成有两种范式：直接生成和 Map-Reduce。\n：实验使用了 11 个真实世界的数据集，包括特定问题和抽象问题的数据集。数据集如 MultihopQA、Quality、PopQA、MusiqueQA、HotpotQA、ALCE、Mix、MultihopSum、Agriculture、CS 和 Legal。\n：对于特定问题任务，使用准确率和召回率进行评估；对于抽象问题任务，使用包括全面性、多样性、赋能和总体质量在内的多维度比较方法进行评估。\n：所有算法在 Python 中实现，并使用提出的统一框架。实验在 350 集。数据集如 MultihopQA、Quality、PopQA、MusiqueQA、HotpotQA、ALCE、Mix、MultihopSum、Agriculture、CS 和 Legal。\n：对于需要 top-k 选择的每种方法（例如块或实体），设置 k=4 以适应令牌长度限制。使用最先进的文本编码模型 BGE-M3 生成图的节点和关系的嵌入向量。\n：RAG 技术显著提高了 LLM 在所有数据集上的性能，基于图的 RAG 方法通常比 Vanila RAG 具有更高的准确性。例如，在 Quality 数据集上，RAPTOR 相比 ZeroShot 提高了 53.80% 的准确性。然而，如果检索到的元素与给定问题不相关，RAG 可能会降低 LLM 的准确性。\n：构建树所需的令牌成本最低，而 TKG 和 RKG 的令牌成本最高。对于大型数据集，离线阶段的两种版本的 GraphRAG 通常比其他方法消耗更多的令牌。\n：ZeroShot 和 VanilaRAG 在时间和令牌消耗方面是最具成本效益的方法。KGP 和 ToG 是最昂贵的方法，因为它们依赖于 LLM 进行信息检索。\n复杂问题任务的新 SOTA 算法\n：基于上述分析，设计了新的 SOTA 方法 VGraphRAG，通过结合四种元素（实体、关系、社区和块）来有效地指导 LLM 生成准确的答案。在 ALCE 数据集上，VGraphRAG 在 STRREC、STREM 和 STRHIT 方面分别提高了 8.47%、13.18% 和 4.93%。\n：基于图的 RAG 方法通常优于 VanillaRAG，主要原因是它们有效地捕捉了块之间的相互连接。GGraphRAG 和 RAPTOR通常优于 HLightRAG 和 FastGraphRAG，因为它们将高层次的总结文本纳入提示中。\n：设计了一个成本效益更高的版本 CheapRAG，通过选择最有用的社区和块来显著减少令牌成本。在 MultihopSum 数据集上 CheapRAG 相比 GGraphRAG 减少了 100 倍的令牌成本，同时提高了答案质量。\n这篇论文提供了对现有基于图的 RAG 方法的深入实验评估和比较。首先，提出了一个新的统一框架，可以涵盖所有现有的基于图的 RAG 方法。然后，在统一框架下对各种基于图的 RAG 方法进行了深入分析和比较。\n此外，通过多种数据集从不同角度系统地评估了这些方法，并通过结合现有技术开发了变体，这些变体通常优于最先进的方法。\n：提出了一个新颖的统一框架，涵盖所有现有的基于图的检索增强生成（RAG）方法，从高层次角度抽象出几个关键操作。\n：在统一框架下系统地比较了 12 种代表性的基于图的 RAG 方法，提供了对这些方法的深入分析。\n：在多个广泛使用的问答（QA）数据集上进行了全面的实验，评估了这些方法处理不同类型查询的能力，并进行了深入分析。\n：框架的模块化设计允许不同算法在各个阶段无缝集成，确保每个阶段（如图构建、检索和生成）可以独立优化和重组。\n：通过调整检索阶段或交换组件，研究人员可以快速测试和实施新策略，显著加速检索增强模型的开发周期。\n：提供了一个标准化的方法来评估基于图的 RAG 方法，确保了可重复性，促进了公平的基准测试，并为未来的 RAG 基础 LLM 应用的创新提供了便利。\n如何才能让更多的优质内容以更短路径到达读者群体，缩短读者寻找优质内容的成本呢？\n总有一些你不认识的人，知道你想知道的东西。PaperWeekly 或许可以成为一座桥梁，促使不同背景、不同方向的学者和学术灵感相互碰撞，迸发出更多的可能性。\nPaperWeekly 鼓励高校实验室或个人，在我们的平台上分享各类优质内容，可以是\n等。我们的目的只有一个，让知识真正流动起来。\n，未曾在公开渠道发表，如为其他平台已发表或待发表的文章，请明确标注\n格式撰写，文中配图以附件形式发送，要求图片清晰，无版权问题\n• PaperWeekly 尊重原作者署名权，并将为每篇被采纳的原创首发稿件，提供\nhr@paperweekly.site\n• 来稿请备注即时联系方式（微信），以便我们在稿件选用的第一时间联系作者",
+      "web_content": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。\nIn-depth Analysis of Graph-based RAG in a Unified Framework\nhttps://arxiv.org/abs/2503.04338\nhttps://github.com/JayLZhou/GraphRAG\n这篇论文提出了一个统一的框架，用于解决基于图的 RAG 方法的系统比较和分析问题。具体来说：\n：首先，将大规模语料库分割成多个块，然后使用 LLM 或其他工具从这些块中提取节点和边，构建图。图的类型包括 passage graph、tree、knowledge graph、textual knowledge graph 和 rich knowledge graph。\n：为了支持高效的在线查询，构建索引以存储图中的实体或关系，并计算社区报告以实现高效的在线检索。索引类型包括节点索引、关系索引和社区索引。\n：在统一框架下，任何现有的基于图的 RAG 方法都可以通过选择特定的操作符并将其组合来实现。操作符分为节点类型、关系类型、块类型、子图类型和社区类型。\n：在检索与生成阶段，首先将用户输入的问题转换为检索原语，然后使用选定的操作符检索相关信息，并将其与问题一起输入 LLM 以生成答案。答案生成有两种范式：直接生成和 Map-Reduce。\n：实验使用了 11 个真实世界的数据集，包括特定问题和抽象问题的数据集。数据集如 MultihopQA、Quality、PopQA、MusiqueQA、HotpotQA、ALCE、Mix、MultihopSum、Agriculture、CS 和 Legal。\n：对于特定问题任务，使用准确率和召回率进行评估；对于抽象问题任务，使用包括全面性、多样性、赋能和总体质量在内的多维度比较方法进行评估。\n：所有算法在 Python 中实现，并使用提出的统一框架。实验在 350 集。数据集如 MultihopQA、Quality、PopQA、MusiqueQA、HotpotQA、ALCE、Mix、MultihopSum、Agriculture、CS 和 Legal。\n：对于需要 top-k 选择的每种方法（例如块或实体），设置 k=4 以适应令牌长度限制。使用最先进的文本编码模型 BGE-M3 生成图的节点和关系的嵌入向量。\n：RAG 技术显著提高了 LLM 在所有数据集上的性能，基于图的 RAG 方法通常比 Vanila RAG 具有更高的准确性。例如，在 Quality 数据集上，RAPTOR 相比 ZeroShot 提高了 53.80% 的准确性。然而，如果检索到的元素与给定问题不相关，RAG 可能会降低 LLM 的准确性。\n：构建树所需的令牌成本最低，而 TKG 和 RKG 的令牌成本最高。对于大型数据集，离线阶段的两种版本的 GraphRAG 通常比其他方法消耗更多的令牌。\n：ZeroShot 和 VanilaRAG 在时间和令牌消耗方面是最具成本效益的方法。KGP 和 ToG 是最昂贵的方法，因为它们依赖于 LLM 进行信息检索。\n复杂问题任务的新 SOTA 算法\n：基于上述分析，设计了新的 SOTA 方法 VGraphRAG，通过结合四种元素（实体、关系、社区和块）来有效地指导 LLM 生成准确的答案。在 ALCE 数据集上，VGraphRAG 在 STRREC、STREM 和 STRHIT 方面分别提高了 8.47%、13.18% 和 4.93%。\n：基于图的 RAG 方法通常优于 VanillaRAG，主要原因是它们有效地捕捉了块之间的相互连接。GGraphRAG 和 RAPTOR通常优于 HLightRAG 和 FastGraphRAG，因为它们将高层次的总结文本纳入提示中。\n：设计了一个成本效益更高的版本 CheapRAG，通过选择最有用的社区和块来显著减少令牌成本。在 MultihopSum 数据集上 CheapRAG 相比 GGraphRAG 减少了 100 倍的令牌成本，同时提高了答案质量。\n这篇论文提供了对现有基于图的 RAG 方法的深入实验评估和比较。首先，提出了一个新的统一框架，可以涵盖所有现有的基于图的 RAG 方法。然后，在统一框架下对各种基于图的 RAG 方法进行了深入分析和比较。\n此外，通过多种数据集从不同角度系统地评估了这些方法，并通过结合现有技术开发了变体，这些变体通常优于最先进的方法。\n：提出了一个新颖的统一框架，涵盖所有现有的基于图的检索增强生成（RAG）方法，从高层次角度抽象出几个关键操作。\n：在统一框架下系统地比较了 12 种代表性的基于图的 RAG 方法，提供了对这些方法的深入分析。\n：在多个广泛使用的问答（QA）数据集上进行了全面的实验，评估了这些方法处理不同类型查询的能力，并进行了深入分析。\n：框架的模块化设计允许不同算法在各个阶段无缝集成，确保每个阶段（如图构建、检索和生成）可以独立优化和重组。\n：通过调整检索阶段或交换组件，研究人员可以快速测试和实施新策略，显著加速检索增强模型的开发周期。\n：提供了一个标准化的方法来评估基于图的 RAG 方法，确保了可重复性，促进了公平的基准测试，并为未来的 RAG 基础 LLM 应用的创新提供了便利。\n如何才能让更多的优质内容以更短路径到达读者群体，缩短读者寻找优质内容的成本呢？\n总有一些你不认识的人，知道你想知道的东西。PaperWeekly 或许可以成为一座桥梁，促使不同背景、不同方向的学者和学术灵感相互碰撞，迸发出更多的可能性。\nPaperWeekly 鼓励高校实验室或个人，在我们的平台上分享各类优质内容，可以是\n等。我们的目的只有一个，让知识真正流动起来。\n，未曾在公开渠道发表，如为其他平台已发表或待发表的文章，请明确标注\n格式撰写，文中配图以附件形式发送，要求图片清晰，无版权问题\n• PaperWeekly 尊重原作者署名权，并将为每篇被采纳的原创首发稿件，提供\nhr@paperweekly.site\n• 来稿请备注即时联系方式（微信），以便我们在稿件选用的第一时间联系作者",
+      "fast_verification": {
+        "confidence_score": 49.37,
+        "confidence_level": {
+          "name": "强烈支持",
+          "name_en": "Strongly Supported",
+          "score_range": "80 - 92",
+          "description": "有多个高质量来源支持，少量反证或低质量反证",
+          "emoji": "✅",
+          "interpretation": "该主张获得多个可靠来源的支持。可以有信心认为该主张是准确的。",
+          "color": "#2ecc71"
+        },
+        "verdict": "strongly_supported",
+        "keywords": [
+          "(GraphRAG)",
+          "(i)",
+          "(reproduc",
+          "(reproduced",
+          ".gitattributes",
+          ".gitignore",
+          ".vsts-ci.yml",
+          "1.《申博咨询规划一次》",
+          "1\\dagger",
+          "2.《1000热门idea合集》",
+          "2022",
+          "2024"
+        ]
+      },
+      "_relevance_threshold": 0.3,
+      "quant_metrics": {
+        "confidence_score": 68.54,
+        "confidence_level": {
+          "name": "中等支持",
+          "name_en": "Moderately Supported",
+          "score_range": "65 - 80",
+          "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+          "emoji": "⚠️",
+          "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+          "color": "#f39c12"
+        },
+        "verdict": "moderately_supported",
+        "support_ratio": 0.4,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 1,
+        "key_point_count": 5
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "priority_focus_marks": [],
+      "secondary_focus_marks": []
+    },
+    {
+      "url": "https://blog.csdn.net/2301_81888214/article/details/147068282",
+      "title": "Awesome-GraphRAG：最全的GraphRAG资料集（不断更新中）-CSDN博客",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "GraphRAG 是 RAG 的一种新范式，它通过三项关键创新解决传统 RAG 的局限性，彻底改变了特定领域的 LLM 应用：\nAwesome-GraphRAG 这个项目包含了一份精选的基于 GraphRAG 的资源列表，按照《A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models》“定制大型语言模型的图检索增强生成综述”进行分类。\n但是LLM相关的内容很多，现在网上的老课程老教材关于LLM又太少。所以现在小白入门就只能靠自学，学习成本和门槛很高。",
+      "key_points": [
+        "GraphRAG 是 RAG 的一种新范式，它通过三项关键创新解决传统 RAG 的局限性，彻底改变了特定领域的 LLM 应用：",
+        "Awesome-GraphRAG 这个项目包含了一份精选的基于 GraphRAG 的资源列表，按照《A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models》“定制大型语言模型的图检索增强生成综述”进行分类。",
+        "但是LLM相关的内容很多，现在网上的老课程老教材关于LLM又太少。所以现在小白入门就只能靠自学，学习成本和门槛很高。",
+        "基于此，我用做产品的心态来打磨这份大模型教程，深挖痛点并持续修改了近70次后，终于把整个AI大模型的学习门槛，降到了最低！",
+        "LLM大模型书籍、640套大模型行业报告、LLM大模型学习视频、LLM大模型学习路线、开源大模型学习教程"
+      ],
+      "risk_flags": [
+        "LLM unavailable: fallback summary used"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.58,
+        "rationale": "Fallback mode based on structural page extraction without LLM semantic validation."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "GraphRAG 是 RAG 的一种新范式，它通过三项关键创新解决传统 RAG 的局限性，彻底改变了特定领域的 LLM 应用："
+        }
+      ],
+      "generated_at": "2026-03-12T10:41:05.171355Z",
+      "generator": "fallback",
+      "_source_text_excerpt": "GraphRAG 是 RAG 的一种新范式，它通过三项关键创新解决传统 RAG 的局限性，彻底改变了特定领域的 LLM 应用：\n（i）明确捕获实体关系和域层次结构的图结构知识表示，\n（ii）支持多跳推理和上下文保留知识获取的图感知检索机制，\n以及（iii）确保跨大规模语料库进行有效检索的结构引导知识搜索算法。\nAwesome-GraphRAG 这个项目包含了一份精选的基于 GraphRAG 的资源列表，按照《A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models》“定制大型语言模型的图检索增强生成综述”进行分类。\nhttps://arxiv.org/abs/2501.13958\n1-提供了 GraphRAG 研究论文的分类列表，根据综合调查进行结构化。\n2-涵盖了 GraphRAG 中的关键领域，包括知识组织、知识检索和知识集成技术。\n3-对传统 RAG 和 GraphRAG 进行了比较，阐明了基于图形的方法的优势。\n传统 RAG vs 典型 GraphRAG\nhttps://github.com/DEEP-PolyU/Awesome-GraphRAG\n如何系统的去学习大模型LLM ？\n大模型时代，火爆出圈的LLM大模型让程序员们开始重新评估自己的本领。 “\n抢你饭碗的不是AI，而是会利用AI的人。\n等巨头公司发布AI产品后，很多中小企业也陆续进场！\n超高年薪，挖掘AI大模型人才！\n如今大厂老板们，也更倾向于会AI的人，普通程序员，还有应对的机会吗？\n但是LLM相关的内容很多，现在网上的老课程老教材关于LLM又太少。所以现在小白入门就只能靠自学，学习成本和门槛很高。\n基于此，我用做产品的心态来打磨这份大模型教程，深挖痛点并持续修改了近70次后，终于把整个AI大模型的学习门槛，降到了最低！\n第一您不需要具备任何算法和数学的基础\n第三不必懂Python等任何编程语言\n您只需要听我讲，跟着我做即可，为了让学习的道路变得更简单，这份\n已经给大家整理并打包，现在将这份\nLLM大模型书籍、640套大模型行业报告、LLM大模型学习视频、LLM大模型学习路线、开源大模型学习教程\nAI大模型已经成为了当今科技领域的一大热点，那以下这些大模型书籍就是非常不错的学习资源。\n二、640套LLM大模型报告合集\n这套包含640份报告的合集，涵盖了大模型的理论研究、技术实现、行业应用等多个方面。无论您是科研人员、工程师，还是对AI大模型感兴趣的爱好者，这套报告合集都将为您提供宝贵的信息和启示。(几乎涵盖所有行业)\n四、LLM大模型开源教程（LLaLA/Meta/chatglm/chatgpt）\n阶段1：AI大模型时代的基础理解\n：了解AI大模型的基本概念、发展历程和核心原理。\nL1.1 人工智能简述与大模型起源\nL1.2 大模型与通用人工智能\nL1.3 GPT模型的发展历程\n阶段2：AI大模型API应用开发工程\n：掌握AI大模型API的使用和开发，以及相关的编程技能。\nL2.1.1 OpenAI API接口\nL2.1.2 Python接口接入\nL2.1.3 BOT工具类框架\n阶段3：AI大模型应用架构实践\n：深入理解AI大模型的应用架构，并能够进行私有化部署。\n：掌握多种AI大模型的私有化部署，包括多模态和特定领域模型。\nL4.2 模型私有化部署的关键技术\nL4.3 模型私有化部署的实施步骤\nL4.4 模型私有化部署的应用场景\nLLM大模型书籍、640套大模型行业报告、LLM大模型学习视频、LLM大模型学习路线、开源大模型学习教程",
+      "web_content": "GraphRAG 是 RAG 的一种新范式，它通过三项关键创新解决传统 RAG 的局限性，彻底改变了特定领域的 LLM 应用：\n（i）明确捕获实体关系和域层次结构的图结构知识表示，\n（ii）支持多跳推理和上下文保留知识获取的图感知检索机制，\n以及（iii）确保跨大规模语料库进行有效检索的结构引导知识搜索算法。\nAwesome-GraphRAG 这个项目包含了一份精选的基于 GraphRAG 的资源列表，按照《A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models》“定制大型语言模型的图检索增强生成综述”进行分类。\nhttps://arxiv.org/abs/2501.13958\n1-提供了 GraphRAG 研究论文的分类列表，根据综合调查进行结构化。\n2-涵盖了 GraphRAG 中的关键领域，包括知识组织、知识检索和知识集成技术。\n3-对传统 RAG 和 GraphRAG 进行了比较，阐明了基于图形的方法的优势。\n传统 RAG vs 典型 GraphRAG\nhttps://github.com/DEEP-PolyU/Awesome-GraphRAG\n如何系统的去学习大模型LLM ？\n大模型时代，火爆出圈的LLM大模型让程序员们开始重新评估自己的本领。 “\n抢你饭碗的不是AI，而是会利用AI的人。\n等巨头公司发布AI产品后，很多中小企业也陆续进场！\n超高年薪，挖掘AI大模型人才！\n如今大厂老板们，也更倾向于会AI的人，普通程序员，还有应对的机会吗？\n但是LLM相关的内容很多，现在网上的老课程老教材关于LLM又太少。所以现在小白入门就只能靠自学，学习成本和门槛很高。\n基于此，我用做产品的心态来打磨这份大模型教程，深挖痛点并持续修改了近70次后，终于把整个AI大模型的学习门槛，降到了最低！\n第一您不需要具备任何算法和数学的基础\n第三不必懂Python等任何编程语言\n您只需要听我讲，跟着我做即可，为了让学习的道路变得更简单，这份\n已经给大家整理并打包，现在将这份\nLLM大模型书籍、640套大模型行业报告、LLM大模型学习视频、LLM大模型学习路线、开源大模型学习教程\nAI大模型已经成为了当今科技领域的一大热点，那以下这些大模型书籍就是非常不错的学习资源。\n二、640套LLM大模型报告合集\n这套包含640份报告的合集，涵盖了大模型的理论研究、技术实现、行业应用等多个方面。无论您是科研人员、工程师，还是对AI大模型感兴趣的爱好者，这套报告合集都将为您提供宝贵的信息和启示。(几乎涵盖所有行业)\n四、LLM大模型开源教程（LLaLA/Meta/chatglm/chatgpt）\n阶段1：AI大模型时代的基础理解\n：了解AI大模型的基本概念、发展历程和核心原理。\nL1.1 人工智能简述与大模型起源\nL1.2 大模型与通用人工智能\nL1.3 GPT模型的发展历程\n阶段2：AI大模型API应用开发工程\n：掌握AI大模型API的使用和开发，以及相关的编程技能。\nL2.1.1 OpenAI API接口\nL2.1.2 Python接口接入\nL2.1.3 BOT工具类框架\n阶段3：AI大模型应用架构实践\n：深入理解AI大模型的应用架构，并能够进行私有化部署。\n：掌握多种AI大模型的私有化部署，包括多模态和特定领域模型。\nL4.2 模型私有化部署的关键技术\nL4.3 模型私有化部署的实施步骤\nL4.4 模型私有化部署的应用场景\nLLM大模型书籍、640套大模型行业报告、LLM大模型学习视频、LLM大模型学习路线、开源大模型学习教程",
+      "fast_verification": {
+        "confidence_score": 25.0,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "keywords": [
+          "1.《申博咨询规划一次》",
+          "2.《1000热门idea合集》",
+          "2026",
+          "3.《往期大牛热点分析直播课》",
+          "310018",
+          "311100",
+          "36000",
+          "4.《全方向顶会顶刊论文合集》",
+          "Allen",
+          "Assistant",
+          "Case",
+          "GraphRAG"
+        ]
+      },
+      "_relevance_threshold": 0.3,
+      "quant_metrics": {
+        "confidence_score": 58.79,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "support_ratio": 0.4,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 1,
+        "key_point_count": 5
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "priority_focus_marks": [],
+      "secondary_focus_marks": []
+    }
+  ]
+}

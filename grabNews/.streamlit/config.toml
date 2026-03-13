@@ -1,0 +1,11 @@
+[theme]
+base = "light"
+primaryColor = "#9b72ef"
+backgroundColor = "#faf8ff"
+secondaryBackgroundColor = "#f0ebff"
+textColor = "#3d3558"
+font = "sans serif"
+
+[server]
+address = "127.0.0.1"
+port = 8502

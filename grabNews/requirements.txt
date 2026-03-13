@@ -1,0 +1,8 @@
+streamlit
+requests
+beautifulsoup4
+google-search-results
+python-dotenv
+streamlit-autorefresh
+yake
+PyYAML

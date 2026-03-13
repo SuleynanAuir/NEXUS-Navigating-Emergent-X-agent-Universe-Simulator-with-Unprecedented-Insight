@@ -1,0 +1,51 @@
+{
+  "keyword": "GraphRAG research",
+  "selected_urls": [
+    "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1IRmxXcDB0bHJXOFNiVEMwbWt4bUJjVGl1MElwd3pCdjlHTFE2Q09odjdrbW1ocmJJbEZIVTlwd1Q0dlJHWEV6UnA2OXR1cXhCelE?oc=5",
+    "https://blog.csdn.net/daqianai/article/details/149888158",
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1OWU0N2pJMEVGa3BZLWEtZkpJRDRhNmhvdGY4Y2xpcGlHdlIyUUZxQW5wc2p1OUxXeGhpNnVBVWZaZzlpT3Z6c3pMMmlmYmJFYzByTWNiaV85TU5CaGcwbE9JWmpybE80NllNLTRvVzRTeHBJ?oc=5",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vd0F0ejJSb1hmRDU1ZkN4MXdOYTc5a2VCXzBnNHQ4TlAzWVc4UXV0LTNnQVNKSk1CN0JNdjJ3QVRyOExxTzF2aTN3eUYxdm5RVW54YnhtTmNmMGtLRnRPZjZiU2h3MGc?oc=5",
+    "https://blog.csdn.net/qq_46094651/article/details/148870576"
+  ],
+  "hl_content": [
+    {
+      "type": "!",
+      "text": "GraphRAG（Graph-based Retrieval-Augmented Generation）由微软研究院于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+      "note": "!",
+      "tags": [
+        "!"
+      ],
+      "url": "https://blog.csdn.net/daqianai/article/details/149888158",
+      "hypothesis_id": "cskoWh3gEfGO_38wtcGTCw",
+      "timestamp": "2026-03-12T06:55:26.048440+00:00",
+      "source": "hypothesis"
+    },
+    {
+      "type": "!",
+      "text": "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag \n \n该论文首次提出两阶段索引架构： \n图构建阶段： \n  将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）构建同质无向加权图（节点=实体，边=关系，权重=关系实例的标准化计数） 社区摘要阶段： \n  采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化）生成层次化社区摘要（叶级社区→高层社区）",
+      "note": "!",
+      "tags": [
+        "!"
+      ],
+      "url": "https://blog.csdn.net/daqianai/article/details/149888158",
+      "hypothesis_id": "Q1pA4B3gEfG3b-tRjPNLLw",
+      "timestamp": "2026-03-12T06:54:06.466906+00:00",
+      "source": "hypothesis"
+    },
+    {
+      "type": "!",
+      "text": "Treatment 摘要： 随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1OWU0N2pJMEVGa3BZLWEtZkpJRDRhNmhvdGY4Y2xpcGlHdlIyUUZxQW5wc2p1OUxXeGhpNnVBVWZaZzlpT3Z6c3pMMmlmYmJFYzByTWNiaV85TU5CaGcwbE9JWmpybE80NllNLTRvVzRTeHBJ?oc=5",
+      "timestamp": "2026-03-12T07:29:47.494680Z",
+      "source": "manual"
+    },
+    {
+      "type": "!",
+      "text": "关注更多怎么将 GraphRAG 技术用于医疗领域的进步",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1OWU0N2pJMEVGa3BZLWEtZkpJRDRhNmhvdGY4Y2xpcGlHdlIyUUZxQW5wc2p1OUxXeGhpNnVBVWZaZzlpT3Z6c3pMMmlmYmJFYzByTWNiaV85TU5CaGcwbE9JWmpybE80NllNLTRvVzRTeHBJ?oc=5",
+      "timestamp": "2026-03-12T07:30:09.701046Z",
+      "source": "manual"
+    }
+  ],
+  "exported_at": "2026-03-12T07:30:27.853339Z"
+}

@@ -1,0 +1,23 @@
+python3 -m streamlit run ui.py
+
+
+python3 -m streamlit run fact_verification/ui/streamlit_app.py
+
+------
+
+
+cd /Users/suleynan_suir/Desktop/grabNews
+
+pkill -9 -f "streamlit" 2>/dev/null
+sleep 2
+python3 -m streamlit run fact_verification/ui/streamlit_app.py --server.port 8502
+
+open http://127.0.0.1:8502
+
+
+
+pkill -9 -f "streamlit" 2>/dev/null; sleep 2 && cd /Users/suleynan_suir/Desktop/grabNews && python3 -m streamlit run fact_verification/ui/streamlit_app.py --server.port 8502 &
+sleep 3 && echo "App started"
+
+
+pkill -9 -f "streamlit run fact_verification/ui/streamlit_app.py" 2>/dev/null; sleep 1; python3 -m streamlit run fact_verification/ui/streamlit_app.py --server.port 8502 > /tmp/grabnews_streamlit.log 2>&1 & disown; sleep 3; (grep -n "Traceback\|Error\|Exception\|Local URL" /tmp/grabnews_streamlit.log | head -30 || true)

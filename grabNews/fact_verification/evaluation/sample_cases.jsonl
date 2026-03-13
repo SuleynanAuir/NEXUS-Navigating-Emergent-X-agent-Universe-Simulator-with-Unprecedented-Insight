@@ -1,0 +1,3 @@
+{"claim": "GraphRAG 在所有任务中都优于传统 RAG", "expected_verdict": "mixed"}
+{"claim": "水在标准大气压下于100摄氏度沸腾", "expected_verdict": "supported"}
+{"claim": "地球是平的", "expected_verdict": "refuted"}

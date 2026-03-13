@@ -1,0 +1,18 @@
+trusted_domains:
+  - nature.com
+  - science.org
+  - arxiv.org
+  - semanticscholar.org
+  - acm.org
+  - ieee.org
+  - who.int
+  - oecd.org
+  - un.org
+  - worldbank.org
+  - nasa.gov
+  - nih.gov
+
+high_weight_suffixes:
+  - .gov
+  - .edu
+  - .ac.uk
