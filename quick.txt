@@ -1,0 +1,7 @@
+chmod +x one_click_run.sh && ./one_click_run.sh
+
+
+cd /Users/suleynan_suir/Desktop/NEXUS
+source backend/.venv/bin/activate
+chmod +x one_click_run.sh
+./one_click_run.sh
