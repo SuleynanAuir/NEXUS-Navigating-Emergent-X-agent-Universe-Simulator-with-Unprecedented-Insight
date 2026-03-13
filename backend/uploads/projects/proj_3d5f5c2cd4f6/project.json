@@ -1,0 +1,408 @@
+{
+  "project_id": "proj_3d5f5c2cd4f6",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-03-13T16:12:38.879106",
+  "updated_at": "2026-03-13T16:21:49.276009",
+  "files": [
+    {
+      "filename": "agent_guide_20260313_154148.md",
+      "size": 38312
+    }
+  ],
+  "total_text_length": 15099,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Streamer",
+        "description": "A live-streaming content creator, often on platforms like Bilibili, who interacts with audiences ...",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The real or stage name of the streamer."
+          },
+          {
+            "name": "platform_handle",
+            "type": "text",
+            "description": "The username or handle used on streaming platforms."
+          }
+        ],
+        "examples": [
+          "清雨Tpor",
+          "炫神"
+        ]
+      },
+      {
+        "name": "Fan",
+        "description": "An individual who follows and supports a streamer, often participating in virtual communities and...",
+        "attributes": [
+          {
+            "name": "user_name",
+            "type": "text",
+            "description": "The username or identifier used in online communities."
+          },
+          {
+            "name": "favorite_streamer",
+            "type": "text",
+            "description": "The name of the streamer they primarily support."
+          }
+        ],
+        "examples": [
+          "受害者",
+          "支持清雨的粉丝"
+        ]
+      },
+      {
+        "name": "LegalProfessional",
+        "description": "A person involved in legal matters, such as lawyers or legal advisors, who may represent parties ...",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The name of the legal professional."
+          },
+          {
+            "name": "specialization",
+            "type": "text",
+            "description": "The area of law they specialize in, e.g., virtual property law."
+          }
+        ],
+        "examples": [
+          "律师代表",
+          "法律顾问"
+        ]
+      },
+      {
+        "name": "PolicyMaker",
+        "description": "An individual involved in government or regulatory bodies who influences or creates policies, suc...",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The name of the policy maker."
+          },
+          {
+            "name": "agency",
+            "type": "text",
+            "description": "The government or regulatory agency they belong to."
+          }
+        ],
+        "examples": [
+          "监管官员",
+          "政策制定者"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "An organization that produces and distributes news content, such as newspapers, TV stations, or o...",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "The name of the media organization."
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "The type of media, e.g., online news, television."
+          }
+        ],
+        "examples": [
+          "新闻机构",
+          "B站官方媒体"
+        ]
+      },
+      {
+        "name": "Platform",
+        "description": "A company or organization that operates a social media or streaming platform, such as Bilibili, w...",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "The name of the platform company."
+          },
+          {
+            "name": "platform_type",
+            "type": "text",
+            "description": "The type of platform, e.g., video streaming, social media."
+          }
+        ],
+        "examples": [
+          "Bilibili",
+          "Google"
+        ]
+      },
+      {
+        "name": "ResearchInstitution",
+        "description": "An organization focused on academic or technological research, such as universities or think tank...",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "The name of the research institution."
+          },
+          {
+            "name": "research_focus",
+            "type": "text",
+            "description": "The primary area of research, e.g., digital assets, technology."
+          }
+        ],
+        "examples": [
+          "大学研究团队",
+          "技术研究所"
+        ]
+      },
+      {
+        "name": "FinancialAnalyst",
+        "description": "A professional who analyzes market trends, such as digital asset valuations, and provides insight...",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The name of the financial analyst."
+          },
+          {
+            "name": "firm",
+            "type": "text",
+            "description": "The financial firm or organization they work for."
+          }
+        ],
+        "examples": [
+          "市场分析师",
+          "数字资产专家"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "A general individual not fitting into more specific types, such as ordinary users or bystanders i...",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The name of the person."
+          },
+          {
+            "name": "role_description",
+            "type": "text",
+            "description": "A brief description of their role or involvement."
+          }
+        ],
+        "examples": [
+          "普通网友",
+          "路人甲"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "A general organization not fitting into more specific types, such as small groups or temporary en...",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "The name of the organization."
+          },
+          {
+            "name": "org_type",
+            "type": "text",
+            "description": "The type of organization, e.g., community group, informal association."
+          }
+        ],
+        "examples": [
+          "粉丝团",
+          "维权群体"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "WORKS_FOR",
+        "description": "Indicates employment or affiliation with an organization.",
+        "source_targets": [
+          {
+            "source": "Streamer",
+            "target": "Platform"
+          },
+          {
+            "source": "LegalProfessional",
+            "target": "Organization"
+          },
+          {
+            "source": "PolicyMaker",
+            "target": "Organization"
+          },
+          {
+            "source": "FinancialAnalyst",
+            "target": "Organization"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "FOLLOWS",
+        "description": "Indicates a fan following or subscription to a streamer or media outlet.",
+        "source_targets": [
+          {
+            "source": "Fan",
+            "target": "Streamer"
+          },
+          {
+            "source": "Person",
+            "target": "Streamer"
+          },
+          {
+            "source": "Person",
+            "target": "MediaOutlet"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPRESENTS",
+        "description": "Indicates legal or official representation of an individual or group.",
+        "source_targets": [
+          {
+            "source": "LegalProfessional",
+            "target": "Fan"
+          },
+          {
+            "source": "LegalProfessional",
+            "target": "Person"
+          },
+          {
+            "source": "PolicyMaker",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Indicates media coverage or reporting on an event or entity.",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "Streamer"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Platform"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Person"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Indicates regulatory oversight or policy enforcement by an organization.",
+        "source_targets": [
+          {
+            "source": "Platform",
+            "target": "Streamer"
+          },
+          {
+            "source": "Organization",
+            "target": "Platform"
+          },
+          {
+            "source": "PolicyMaker",
+            "target": "Platform"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "RESEARCHES",
+        "description": "Indicates academic or technological research conducted on a topic or entity.",
+        "source_targets": [
+          {
+            "source": "ResearchInstitution",
+            "target": "Platform"
+          },
+          {
+            "source": "ResearchInstitution",
+            "target": "Streamer"
+          },
+          {
+            "source": "ResearchInstitution",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ANALYZES",
+        "description": "Indicates financial or market analysis of trends or entities.",
+        "source_targets": [
+          {
+            "source": "FinancialAnalyst",
+            "target": "Platform"
+          },
+          {
+            "source": "FinancialAnalyst",
+            "target": "Streamer"
+          },
+          {
+            "source": "FinancialAnalyst",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Indicates public support or endorsement in social media discussions.",
+        "source_targets": [
+          {
+            "source": "Streamer",
+            "target": "Streamer"
+          },
+          {
+            "source": "Fan",
+            "target": "Streamer"
+          },
+          {
+            "source": "Person",
+            "target": "Person"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "OPPOSES",
+        "description": "Indicates public opposition or criticism in social media discussions.",
+        "source_targets": [
+          {
+            "source": "Fan",
+            "target": "Streamer"
+          },
+          {
+            "source": "Person",
+            "target": "Streamer"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Platform"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "文本描述了清雨Tpor毁号事件在B站引发的舆论风波，涉及主播、粉丝、法律专业人士、政策制定者、媒体、平台、研究机构和金融分析师等多方主体。实体类型设计基于这些可发声的真实主体，包括8个具体类型和2个兜底类型，关系类型覆盖了工作、关注、代表、报道、监管、研究、分析、支持和反对等社交媒体互动。",
+  "graph_id": "nexus_3a2b35fb10224852",
+  "graph_build_task_id": "e82038db-518f-4e1a-b4d3-5cdea61a9449",
+  "simulation_requirement": "清雨Tpor毁号事件发生后，b站以及群众的发展势头是怎么样的？",
+  "focus_entities": null,
+  "focus_events": null,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

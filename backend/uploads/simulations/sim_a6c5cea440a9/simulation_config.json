@@ -1,0 +1,549 @@
+{
+  "simulation_id": "sim_a6c5cea440a9",
+  "project_id": "proj_d0d0f0782503",
+  "graph_id": "nexus_ea42902b99f24732",
+  "simulation_requirement": "\r\n1,857\r\n您是一位专注于英雄联盟LCK联赛的专业电竞分析师。\r\n\r\n您的任务是预测韩华生命电竞（HLE）在2026赛季LCK联赛中的表现。",
+  "time_config": {
+    "total_simulation_hours": 72,
+    "minutes_per_round": 60,
+    "agents_per_hour_min": 3,
+    "agents_per_hour_max": 15,
+    "peak_hours": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "peak_activity_multiplier": 1.5,
+    "off_peak_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "off_peak_activity_multiplier": 0.05,
+    "morning_hours": [
+      6,
+      7,
+      8
+    ],
+    "morning_activity_multiplier": 0.4,
+    "work_hours": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "work_activity_multiplier": 0.7
+  },
+  "agent_configs": [
+    {
+      "agent_id": 0,
+      "entity_uuid": "ee1bed97-7767-462e-abbf-b889379dfad5",
+      "entity_name": "LCK Cup",
+      "entity_type": "LeagueOrganization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.0,
+      "stance": "observer",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 1,
+      "entity_uuid": "e94fb18c-33c0-4b7b-8d25-73f2d291e78a",
+      "entity_name": "Kanavi",
+      "entity_type": "ProfessionalPlayer",
+      "activity_level": 0.5,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.6,
+      "active_hours": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 5,
+      "response_delay_max": 20,
+      "sentiment_bias": 0.3,
+      "stance": "supportive",
+      "influence_weight": 1.8
+    },
+    {
+      "agent_id": 2,
+      "entity_uuid": "e4253c58-c821-488a-b3a6-b898a5937764",
+      "entity_name": "Gumayusi",
+      "entity_type": "ProfessionalPlayer",
+      "activity_level": 0.5,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.6,
+      "active_hours": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 5,
+      "response_delay_max": 20,
+      "sentiment_bias": 0.2,
+      "stance": "supportive",
+      "influence_weight": 1.8
+    },
+    {
+      "agent_id": 3,
+      "entity_uuid": "d8425afe-6460-4545-8233-31dd79652792",
+      "entity_name": "Zeus",
+      "entity_type": "ProfessionalPlayer",
+      "activity_level": 0.5,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.6,
+      "active_hours": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 5,
+      "response_delay_max": 20,
+      "sentiment_bias": 0.3,
+      "stance": "supportive",
+      "influence_weight": 1.8
+    },
+    {
+      "agent_id": 4,
+      "entity_uuid": "c221d14a-431f-4b65-91dd-4ca67ec1e923",
+      "entity_name": "Chovy",
+      "entity_type": "ProfessionalPlayer",
+      "activity_level": 0.5,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.6,
+      "active_hours": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 5,
+      "response_delay_max": 20,
+      "sentiment_bias": 0.0,
+      "stance": "observer",
+      "influence_weight": 1.8
+    },
+    {
+      "agent_id": 5,
+      "entity_uuid": "aa208156-e3ee-4612-808d-5488b2350c93",
+      "entity_name": "LCK Cup 2026",
+      "entity_type": "LeagueOrganization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.0,
+      "stance": "observer",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 6,
+      "entity_uuid": "a170ab36-a40f-4017-b033-e8c4e9502300",
+      "entity_name": "Homme",
+      "entity_type": "Coach",
+      "activity_level": 0.5,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.6,
+      "active_hours": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 5,
+      "response_delay_max": 20,
+      "sentiment_bias": 0.4,
+      "stance": "supportive",
+      "influence_weight": 1.8
+    },
+    {
+      "agent_id": 7,
+      "entity_uuid": "8f6e88f3-39b6-44c6-8758-d6259eeeb325",
+      "entity_name": "Viper",
+      "entity_type": "ProfessionalPlayer",
+      "activity_level": 0.5,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.6,
+      "active_hours": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 5,
+      "response_delay_max": 20,
+      "sentiment_bias": 0.3,
+      "stance": "supportive",
+      "influence_weight": 1.8
+    },
+    {
+      "agent_id": 8,
+      "entity_uuid": "8e3c0918-8a69-4d56-b13e-b54d3589c31d",
+      "entity_name": "KDF",
+      "entity_type": "EsportsTeam",
+      "activity_level": 0.7,
+      "posts_per_hour": 0.5,
+      "comments_per_hour": 0.8,
+      "active_hours": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "response_delay_min": 1,
+      "response_delay_max": 15,
+      "sentiment_bias": -0.2,
+      "stance": "opposing",
+      "influence_weight": 1.0
+    },
+    {
+      "agent_id": 9,
+      "entity_uuid": "70b31949-075f-4950-a44d-73872a65193d",
+      "entity_name": "LCK Spring Split",
+      "entity_type": "LeagueOrganization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.0,
+      "stance": "observer",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 10,
+      "entity_uuid": "62aca373-a9d1-4ee2-8055-011261ad27d6",
+      "entity_name": "TES",
+      "entity_type": "EsportsTeam",
+      "activity_level": 0.7,
+      "posts_per_hour": 0.5,
+      "comments_per_hour": 0.8,
+      "active_hours": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "response_delay_min": 1,
+      "response_delay_max": 15,
+      "sentiment_bias": 0.0,
+      "stance": "observer",
+      "influence_weight": 1.0
+    },
+    {
+      "agent_id": 11,
+      "entity_uuid": "55d556e6-0e73-463e-b427-d2b21aa0602f",
+      "entity_name": "Hanwha Life Esports",
+      "entity_type": "EsportsTeam",
+      "activity_level": 0.7,
+      "posts_per_hour": 0.5,
+      "comments_per_hour": 0.8,
+      "active_hours": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "response_delay_min": 1,
+      "response_delay_max": 15,
+      "sentiment_bias": 0.5,
+      "stance": "supportive",
+      "influence_weight": 1.0
+    },
+    {
+      "agent_id": 12,
+      "entity_uuid": "521c7c22-89ac-4cf4-9ada-2cb3119de740",
+      "entity_name": "T1",
+      "entity_type": "EsportsTeam",
+      "activity_level": 0.7,
+      "posts_per_hour": 0.5,
+      "comments_per_hour": 0.8,
+      "active_hours": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "response_delay_min": 1,
+      "response_delay_max": 15,
+      "sentiment_bias": -0.3,
+      "stance": "opposing",
+      "influence_weight": 1.0
+    },
+    {
+      "agent_id": 13,
+      "entity_uuid": "504d6b00-1ed6-4b81-847b-8f137ed68cb0",
+      "entity_name": "Delight",
+      "entity_type": "ProfessionalPlayer",
+      "activity_level": 0.5,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.6,
+      "active_hours": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 5,
+      "response_delay_max": 20,
+      "sentiment_bias": 0.2,
+      "stance": "supportive",
+      "influence_weight": 1.8
+    },
+    {
+      "agent_id": 14,
+      "entity_uuid": "3f71ddf6-71de-4714-976a-0dea37bd3e80",
+      "entity_name": "LCK",
+      "entity_type": "LeagueOrganization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.0,
+      "stance": "observer",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 15,
+      "entity_uuid": "3ea939eb-a8ac-4441-8598-d6f8acb1d6d3",
+      "entity_name": "Gen.G",
+      "entity_type": "EsportsTeam",
+      "activity_level": 0.5,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.8,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 30,
+      "response_delay_max": 120,
+      "sentiment_bias": -0.3,
+      "stance": "opposing",
+      "influence_weight": 2.0
+    },
+    {
+      "agent_id": 16,
+      "entity_uuid": "2bddd1cd-5e2b-44a5-8310-9885a8ea2e2e",
+      "entity_name": "HLE",
+      "entity_type": "EsportsTeam",
+      "activity_level": 0.7,
+      "posts_per_hour": 0.5,
+      "comments_per_hour": 1.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 10,
+      "response_delay_max": 60,
+      "sentiment_bias": 0.8,
+      "stance": "supportive",
+      "influence_weight": 1.8
+    },
+    {
+      "agent_id": 17,
+      "entity_uuid": "07f8b41e-a898-4cce-bc7f-4d48c1062c2b",
+      "entity_name": "BRO",
+      "entity_type": "EsportsTeam",
+      "activity_level": 0.4,
+      "posts_per_hour": 0.2,
+      "comments_per_hour": 0.6,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 20,
+      "response_delay_max": 90,
+      "sentiment_bias": -0.2,
+      "stance": "opposing",
+      "influence_weight": 1.5
+    },
+    {
+      "agent_id": 18,
+      "entity_uuid": "05fd9a52-7df0-4766-b97a-9bdb93a5aabc",
+      "entity_name": "Zeka",
+      "entity_type": "ProfessionalPlayer",
+      "activity_level": 0.6,
+      "posts_per_hour": 0.4,
+      "comments_per_hour": 1.0,
+      "active_hours": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "response_delay_min": 5,
+      "response_delay_max": 20,
+      "sentiment_bias": 0.6,
+      "stance": "supportive",
+      "influence_weight": 1.7
+    }
+  ],
+  "event_config": {
+    "initial_posts": [
+      {
+        "content": "HLE在LCK Cup 2026小组赛仅2胜3负，最终垫底出局！这支银河战舰阵容包括Zeus、Zeka、Delight、Kanavi和Gumayusi，但团队协同问题严重，下路Gumayusi和Delight缺乏默契。作为LCK分析师，我认为他们必须尽快解决磨合问题，否则2026赛季前景堪忧。",
+        "poster_type": "LeagueOrganization",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "作为前T1选手，我Gumayusi加入HLE后，在LCK Cup的14场比赛中胜率仅35.7%，KDA 3.09，远未达到预期。团队需要更多时间建立化学反应，我会努力调整状态，在春季赛证明自己。",
+        "poster_type": "ProfessionalPlayer",
+        "poster_agent_id": 1
+      },
+      {
+        "content": "HLE在2026 LCK春季赛第一阶段以8-2战绩开局，但关键系列赛0:3惨败给Gen.G被淘汰。核心选手Viper使用艾希对阵Gen.G时打出5/0/8完美KDA，显示个人能力顶尖，但团队稳定性不足。作为战队，我们需从失败中学习，加强战术深度。",
+        "poster_type": "EsportsTeam",
+        "poster_agent_id": 8
+      },
+      {
+        "content": "Kanavi从TES转会HLE，在LCK首秀表现未达核心引援预期。详细统计显示他的打野影响力有限，英雄池和团队配合需提升。作为专业玩家，我认为他需要适应LCK节奏，与Zeus、Zeka等队友更好协作。",
+        "poster_type": "ProfessionalPlayer",
+        "poster_agent_id": 2
+      },
+      {
+        "content": "作为HLE主教练Homme，我承认团队在季初面临协同挑战。我们将专注于战术调整和选手磨合，利用Viper等选手的强势表现，争取在后续比赛中反弹。LCK竞争激烈，团队流程比依赖个人状态更重要。",
+        "poster_type": "Coach",
+        "poster_agent_id": 6
+      }
+    ],
+    "scheduled_events": [],
+    "hot_topics": [
+      "HLE 2026赛季表现",
+      "银河战舰阵容",
+      "团队协同问题",
+      "LCK Cup垫底",
+      "Gumayusi状态",
+      "Kanavi首秀",
+      "Viper完美KDA",
+      "Gen.G惨败",
+      "教练Homme",
+      "LCK竞争格局"
+    ],
+    "narrative_direction": "舆论将围绕HLE在2026赛季LCK联赛中高期望与低表现的矛盾展开。初期焦点集中在季前赛（LCK Cup）的糟糕战绩和团队协同问题，特别是明星选手如Gumayusi和Kanavi的磨合不足。随着春季赛进行，舆论可能转向分析个人亮点（如Viper的强势表现）与团队整体不稳定之间的反差，并讨论教练Homme的战术调整能力。最终，舆论可能形成对HLE能否兑现'超级团队'潜力的质疑，强调LCK中团队协同比个人天赋更关键的观点。"
+  },
+  "twitter_config": {
+    "platform": "twitter",
+    "recency_weight": 0.4,
+    "popularity_weight": 0.3,
+    "relevance_weight": 0.3,
+    "viral_threshold": 10,
+    "echo_chamber_strength": 0.5
+  },
+  "reddit_config": {
+    "platform": "reddit",
+    "recency_weight": 0.3,
+    "popularity_weight": 0.4,
+    "relevance_weight": 0.3,
+    "viral_threshold": 15,
+    "echo_chamber_strength": 0.6
+  },
+  "llm_model": "deepseek-chat",
+  "llm_base_url": "https://api.deepseek.com/v1",
+  "generated_at": "2026-03-06T00:25:00.639626",
+  "generation_reasoning": "时间配置: 该配置针对HLE在2026年LCK春季赛表现的分析预测话题。总时长72小时（3天）覆盖赛事报告发布后的持续讨论周期。每轮60分钟适合电竞话题的实时分析节奏。Agent数量设置较低（3-15/小时），因为这是专业电竞分析，参与群体主要为分析师、媒体和核心粉丝，而非大众热点。高峰时段19-22点符合中国电竞观众晚间活跃习惯（比赛直播、赛后讨论）。低谷时段0-5点保持极低活跃。早间6-8点和工作时段9-18点设置中等活跃，反映专业分析可能在白天工作时间进行。 | 事件配置: 热点话题基于文档中HLE在2026赛季的关键事件，如LCK Cup垫底、团队协同问题、明星选手表现和Gen.G惨败。舆论发展方向从季初失望转向分析个人与团队反差，最终强调协同重要性。初始帖子分配了可用实体类型：LeagueOrganization用于分析师视角，ProfessionalPlayer用于选手个人观点，EsportsTeam用于战队整体表现，Coach用于教练回应，确保帖子内容与发布者类型匹配。 | Agent配置: 成功生成 19 个 | 初始帖子分配: 5 个帖子已分配发布者"
+}

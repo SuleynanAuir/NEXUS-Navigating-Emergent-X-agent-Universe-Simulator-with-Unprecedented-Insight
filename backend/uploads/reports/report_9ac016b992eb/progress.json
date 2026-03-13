@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "progress": 100,
+  "message": "报告生成完成",
+  "current_section": null,
+  "completed_sections": [
+    "模拟预测的核心事件：HLE在2026赛季初期的表现与反应",
+    "Agent反应与行动：教练组、竞争对手和联赛官方的互动模式",
+    "未来趋势与风险：HLE面临的挑战与潜在突破点"
+  ],
+  "updated_at": "2026-03-06T10:46:30.056378"
+}

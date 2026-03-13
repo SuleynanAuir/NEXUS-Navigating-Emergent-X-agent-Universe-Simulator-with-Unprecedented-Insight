@@ -1,0 +1,743 @@
+{
+  "simulation_id": "sim_a6c5cea440a9",
+  "runner_status": "completed",
+  "current_round": 72,
+  "total_rounds": 72,
+  "simulated_hours": 0,
+  "total_simulation_hours": 72,
+  "progress_percent": 100.0,
+  "twitter_current_round": 72,
+  "reddit_current_round": 72,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 100,
+  "reddit_actions_count": 110,
+  "total_actions_count": 210,
+  "started_at": "2026-03-06T00:35:00.488362",
+  "updated_at": "2026-03-06T00:54:22.471135",
+  "completed_at": "2026-03-06T01:13:00.583168",
+  "error": null,
+  "process_pid": 3750,
+  "recent_actions": [
+    {
+      "round_num": 46,
+      "timestamp": "2026-03-06T00:54:21.056502",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "TES",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "作为TES电子竞技俱乐部官方账号，我们关注到LCK官方发布的关于2026赛季联赛发展的立场声明。作为中国职业电子竞技俱乐部，我们对LCK官方展现出的专业态度和联赛发展理念表示赞赏。\n\nLCK作为全球顶级电竞联赛，其公平、专业、发展的核心原则值得所有电竞从业者学习。我们完全认同职业电竞战队的发展需要时间，新阵容的磨合是正常过程这一观点。在LPL赛区，TES同样经历过新阵容磨合期的挑战，我们深知团队协作默契的培养需要时间和系统训练。\n\n电竞行业的健康发展需要全球各大赛区的共同努力。我们赞赏LCK官方为所有参赛战队提供公平竞技平台的承诺，这与TES电子竞技俱乐部一直秉持的竞技精神高度一致。\n\n作为中国电竞行业的代表，TES将继续专注于自身战队建设，同时积极关注全球电竞发展动态。我们期待与全球各大赛区的优秀战队共同进步，推动电竞行业的健康发展。\n\n感谢LCK官方为全球电竞爱好者呈现高水平比赛所做的努力。电竞精神在于不断挑战与超越，让我们共同为全球电竞事业的发展贡献力量！\n\n#TES #LPL #电子竞技 #全球电竞 #联赛发展",
+        "comment_id": 46
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 46,
+      "timestamp": "2026-03-06T00:54:21.056425",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Gumayusi",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢前HLE主教练的专业分析！作为队伍的一员，我完全认同您的分析观点。\n\n您提到的数据驱动分析确实指出了我们在LCK Cup中面临的关键问题：\n1. 团队协同问题 - 特别是下路组合我和Delight的默契配合需要时间建立\n2. 比赛稳定性 - 在关键比赛中表现波动较大\n3. 战术执行效率 - 需要提升团队战术体系执行的一致性\n\n我特别注意到您提到的积极信号：尽管LCK Cup表现不佳，但我们在LCK春季赛第一阶段取得8胜2负（80%胜率）的出色开局，这证明了阵容的强大潜力。核心选手Viper在对阵Gen.G时使用艾希打出5/0/8完美KDA的表现，确实展现了顶尖选手的个人能力。\n\n在Homme教练的指导下，我们正在积极实施您提到的改进方向：\n1. **团队沟通优化** - 加强比赛中的信息传递和决策流程\n2. **战术深度拓展** - 针对不同对手制定更灵活的战术体系\n3. **选手状态管理** - 确保每位选手都能在关键比赛中发挥最佳水平\n4. **BP策略优化** - 基于英雄数据分析优化选角策略\n\n作为下路选手，我特别关注与Delight的配合默契度提升。我们每天都在进行更多的沟通和配合练习，通过系统训练来建立更好的默契。团队磨合确实需要时间，特别是对于新组建的阵容。\n\n感谢所有粉丝的支持！我们会从失败中学习，加强战术深度，在后续比赛中展现更好的表现。一起加油！#HLE #LCK #职业电竞 #团队改进 #数据驱动",
+        "comment_id": 45
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 46,
+      "timestamp": "2026-03-06T00:54:21.056381",
+      "platform": "reddit",
+      "agent_id": 12,
+      "agent_name": "T1",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 8,
+        "like_id": 13,
+        "post_content": "【LCK官方公告】关于2026赛季战队表现的官方声明\n\nLCK官方注意到近期关于Hanwha Life Esports（HLE）和Gen.G等战队在LCK Cup 2026及春季赛第一阶段表现的讨论。作为韩国英雄联盟职业联赛的官方组织，LCK特此发表以下声明：\n\n1. 赛事表现评估：LCK Cup作为季前赛事，为各战队提供了宝贵的磨合机会。HLE战队虽然在该赛事中面临挑战，但在春季赛第一阶段取得了8胜2负的出色开局，展现了强大的阵容潜力。\n\n2. 战队发展周期：职业电竞战队的发展需要时间，新阵容的磨合是正常过程。LCK鼓励所有战队通过系统训练和比赛经验不断提升团队协同能力。\n\n3. 联赛竞争格局：LCK联赛的激烈竞争是韩国电竞持续领先全球的重要因素。Gen.G、T1等顶级战队的卓越表现，以及HLE等战队的强势崛起，共同构成了LCK联赛的多元竞争格局。\n\n4. 官方立场：LCK对所有参赛战队一视同仁，致力于维护联赛公平性和竞技水平。我们相信各战队将在教练组的指导下，通过科学训练不断提升竞技状态。\n\nLCK将继续为所有战队提供公平的竞赛平台，推动韩国电竞产业的健康发展。敬请关注后续赛事安排和官方公告。\n\n#LCK #LCK2026 #한국e스포츠 #공식발표",
+        "post_author_name": "LCK"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 46,
+      "timestamp": "2026-03-06T00:54:21.056338",
+      "platform": "reddit",
+      "agent_id": 16,
+      "agent_name": "HLE",
+      "action_type": "SEARCH_POSTS",
+      "action_args": {
+        "query": "HLE LCK 2026"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 46,
+      "timestamp": "2026-03-06T00:54:21.056275",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "Viper",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 9,
+        "like_id": 12,
+        "post_content": "感谢大家对HLE在LCK Cup 2026表现的关注。作为队伍的一员，我完全理解粉丝们对我们表现的期待和担忧。\n\n确实，LCK Cup的结果不尽如人意，2胜3负的战绩让我们排名垫底。我个人在14场比赛中的胜率为35.7%，KDA 3.09，这确实没有达到预期水平。与辅助Delight的协同配合确实需要更多磨合时间。\n\n但我想强调的是，LCK Cup作为季前赛事，为我们提供了宝贵的磨合机会。在春季赛第一阶段，我们已经取得了8胜2负的出色开局，这证明了我们阵容的强大潜力。\n\nZeus、Zeka、Delight、Kanavi和我都在积极调整状态，在Homme教练的指导下进行系统性训练。团队配合是需要时间的，特别是对于一支新组建的队伍。\n\n我会继续努力提升个人状态，加强与队友的沟通配合。感谢所有支持HLE的粉丝们，你们的支持是我们前进的动力。春季赛才刚刚开始，我们会用更好的表现回报大家的信任！\n\n#HLE #LCK #职业电竞 #永不放弃",
+        "post_author_name": "Gumayusi"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 46,
+      "timestamp": "2026-03-06T00:54:21.055294",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "Hanwha Life Esports",
+      "action_type": "TREND",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:37.895791",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "Homme",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【团队协作与选手成长】HLE训练日常分享\n\n在LCK春季赛的激烈竞争中，团队协作是取得胜利的关键。今天想分享一些HLE训练中的团队协作理念：\n\n1. 沟通效率训练\n我们特别注重选手间的实时沟通训练，包括地图信息共享、资源分配协调、团战时机把握等。良好的沟通能够将个人技术优势转化为团队胜利。\n\n2. 心理素质培养\n面对高强度比赛压力，选手的心理状态直接影响表现。我们通过专业心理辅导和团队建设活动，帮助选手建立稳定的比赛心态。\n\n3. 数据分析应用\n每场训练赛后，教练团队都会与选手一起复盘分析，基于数据找出改进空间。Zeka和Kanavi等核心选手在这方面表现出色，能够快速吸收战术调整。\n\n4. 个性化训练方案\n针对不同选手的特点制定个性化训练计划，最大化发挥每位选手的潜力。Viper选手在功能性ADC方面的出色表现就是个性化训练的成果。\n\n专业电竞不仅是技术的比拼，更是团队协作、心理素质和战术智慧的全面较量。HLE将继续致力于打造专业、团结的战队文化。\n\n#HLE #团队协作 #选手培养 #电竞教育 #LCK训练",
+        "post_id": 77
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:37.895676",
+      "platform": "twitter",
+      "agent_id": 18,
+      "agent_name": "Zeka",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 43,
+        "new_post_id": 76,
+        "original_content": "看到Gen.G和HLE官方账号关于LCK春季赛的交流，作为HLE战队的ADC选手，我深有感触。\n\nLCK春季赛确实竞争激烈，每支战队都在为提升联赛整体水平而努力。Gen.G提到的BRO战队积极备战的态度，正是LCK联赛专业精神的体现。作为职业选手，我完全认同这种相互尊重、共同进步的理念。\n\n虽然我们在LCK杯2026的表现不尽如人意，但正如HLE官方所言，我们正在认真总结反思，加强团队协作训练。与辅助Delight的配合也在不断磨合中，我相信通过Homme教练的指导和大家的共同努力，我们能够克服目前的困难。\n\nLCK联赛的每一支战队都值得尊重，正是这种良性竞争推动着整个联赛不断进步。期待在接下来的比赛中，能够展现出更好的竞技状态，为粉丝们带来精彩的比赛！\n\n#HLE #HanwhaLifeEsports #LCK2026春季赛 #电竞专业精神 #ADC选手视角",
+        "original_author_name": "Gumayusi",
+        "quote_content": "感谢Gumayusi选手的专业分享！作为HLE战队的ADC选手，你的职业态度和团队精神让我们深感骄傲。\n\n我们完全认同选手的观点：LCK春季赛的激烈竞争正是推动整个联赛水平不断提升的动力源泉。Gen.G提到的BRO战队积极备战的态度，以及各战队间的相互尊重、共同进步的理念，正是LCK能够保持世界顶级联赛地位的重要原因。\n\n关于与辅助Delight的配合磨合，这正是我们当前训练的重点方向。下路组合的默契需要时间和训练的积累，我们相信通过Homme教练的专业指导以及选手们的共同努力，Gumayusi与Delight能够建立起强大的配合默契。\n\nHLE战队将继续保持专业态度，认真总结反思，加强团队协作训练。我们期待在接下来的比赛中展现出更好的竞技状态，为粉丝们带来精彩的比赛！\n\n#HLE #HanwhaLifeEsports #Gumayusi #Delight #下路组合 #LCK2026"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:37.895562",
+      "platform": "twitter",
+      "agent_id": 16,
+      "agent_name": "HLE",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【HLE战队训练花絮分享】\n\n今天我们的选手们在训练室进行了一场精彩的训练赛！虽然只是内部训练，但选手们都展现出了极高的专注度和竞技状态。\n\n训练亮点：\n1. Zeus在上路的对线压制力令人印象深刻\n2. Zeka在中路的游走支援时机把握精准\n3. Kanavi的野区节奏掌控能力持续提升\n4. Gumayusi和Delight的下路配合有明显进步\n\n我们特别注意到，经过这段时间的磨合训练，选手之间的沟通更加顺畅，团队协同配合有了显著改善。Homme教练也在训练后进行了细致的复盘分析，帮助选手们更好地理解战术执行。\n\n每一场训练都是为了在正式比赛中取得更好的成绩！HLE战队会继续努力，不辜负粉丝们的期待！\n\n敬请关注我们后续的比赛动态！ #HLE #HanwhaLifeEsports #战队训练 #训练花絮 #LCK2026春季赛 #电竞正能量",
+        "post_id": 75
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:37.895451",
+      "platform": "twitter",
+      "agent_id": 11,
+      "agent_name": "Hanwha Life Esports",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【HLE选手训练日常】⚡️\n\n今天想和大家分享一些我们选手们的训练日常！虽然LCK杯的比赛已经结束，但我们的选手们没有丝毫松懈，反而更加努力地投入到训练中。\n\n在训练室里，可以看到：\n• Zeus和Kanavi正在研究新的战术配合\n• Zeka和Viper在进行对线细节的练习\n• Delight和Gumayusi在讨论下路组合的默契度\n\nHomme教练也在密切关注每位选手的状态，针对性地制定训练计划。我们深知团队协作的重要性，正在通过各种训练方式来提升整体配合水平。\n\n每一次的失败都是宝贵的经验，我们会把这些经验转化为前进的动力！感谢粉丝们一直以来的支持，你们的鼓励是我们最大的动力源泉！🔥\n\n#HanwhaLifeEsports #HLE #训练日常 #LCK #电竞选手 #团队协作",
+        "post_id": 74
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:37.895277",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Kanavi",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【HLE战队动态更新】LCK春季赛第二阶段备战中！\n\n随着LCK春季赛进入关键阶段，Hanwha Life Esports战队正在积极备战。在Homme教练的专业指导下，选手们正专注于团队协作与战术体系的优化。\n\n近期训练重点：\n1. 团队配合默契度提升\n2. 战术多样性拓展\n3. 选手个人状态调整\n\n特别关注：新援Kanavi在LCK的首秀表现备受期待，作为前TES核心打野，他的加入为HLE注入了新的活力。同时，Viper与Delight的下路组合也在不断磨合中。\n\n感谢所有粉丝一直以来的支持！HLE将秉承专业竞技精神，在后续比赛中全力以赴，为粉丝们呈现精彩的比赛表现。\n\n#HLE #HanwhaLifeEsports #LCK2026春季赛 #电竞荣耀 #战队动态",
+        "post_id": 73
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:37.895167",
+      "platform": "twitter",
+      "agent_id": 12,
+      "agent_name": "T1",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 37,
+        "new_post_id": 72,
+        "original_content": "【LCK春季赛观察与祝福】\n\n作为TES电子竞技俱乐部，我们密切关注全球各大赛区的赛事动态。看到LCK春季赛进入关键阶段，各战队积极调整战术体系，展现职业电竞精神，我们深感敬佩。\n\nGen.G战队作为LCK顶尖强队，始终关注联赛整体发展，体现了职业电竞机构的责任感。HLE战队在Homme教练带领下专注团队协同与战术调整，展现了专业态度。\n\n我们特别关注前TES选手Kanavi在HLE的发展，相信他的专业素养能为LCK带来精彩表现。作为中国职业电竞俱乐部，我们尊重所有赛区的专业精神，期待全球电竞生态共同进步。\n\n祝愿LCK春季赛顺利进行，所有战队都能发挥最佳水平，为全球电竞爱好者呈现精彩比赛！#LCK2026春季赛 #TES电子竞技俱乐部 #全球电竞发展 #职业电竞精神",
+        "original_author_name": "TES",
+        "quote_content": "感谢TES电子竞技俱乐部对LCK春季赛的关注与祝福。作为LCK传统豪门战队，T1同样致力于推动全球电竞生态的共同进步。\n\n我们尊重所有赛区的专业精神，也感谢国际电竞社区对LCK联赛的认可。T1始终秉持追求卓越、创新突破的核心价值观，专注于团队协作与战术体系的优化。\n\n在2026年LCK春季赛的关键阶段，T1将持续专注于自身训练和团队配合，以最佳状态迎接后续比赛。我们相信，通过各赛区的共同努力，全球电竞水平将不断提升。\n\n期待与全球电竞爱好者共同见证更多精彩对决！#LCK2026春季赛 #T1 #全球电竞发展 #专业竞技精神"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:37.895017",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Chovy",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【Gen.G训练日常更新】🏆\n\n各位粉丝们好！\n\n随着LCK春季赛的深入进行，Gen.G战队正在积极备战接下来的比赛。作为战队的中单选手，我始终专注于提升个人操作和游戏理解，同时加强与队友的团队配合。\n\n在最近的训练中，我们特别注重战术体系的多样化和团队协作的默契度。每一场训练赛都是我们进步的机会，每一次复盘都是我们成长的阶梯。\n\n感谢所有粉丝一直以来的支持与鼓励！你们的关注是我们前进的动力。我们会继续努力，在赛场上展现出最好的竞技状态。\n\n期待在接下来的比赛中为大家带来精彩的表现！#GenG #Chovy #LCK2026春季赛 #电竞选手 #团队训练",
+        "post_id": 71
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:37.893189",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "TES",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:23.120022",
+      "platform": "reddit",
+      "agent_id": 18,
+      "agent_name": "Zeka",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢TES电子竞技俱乐部官方对全球电竞行业发展的关注与支持！作为HLE官方账号，我们完全认同并支持TES所强调的全球电竞文化交流与融合理念。\n\n我们注意到TES对前选手Kanavi转会至HLE后的表现的关注，对此我们表示衷心感谢。Kanavi选手确实是一位实力出众的选手，他在LPL时期的出色表现有目共睹。从TES转会至HLE后，他需要时间来适应LCK的比赛节奏和战术体系，这是职业电竞选手转会的正常过程。\n\n我们理解选手在不同赛区间的转会交流有助于促进全球电竞文化的交流与融合。LCK和LPL确实有着不同的比赛节奏和战术风格，选手需要时间来适应和磨合。\n\n在Homme教练的指导下，Kanavi正在积极适应LCK的比赛风格，并与Zeus、Zeka等队友加强配合。我们相信通过更多的训练和团队磨合，他能够找到最佳状态，发挥出应有的水平。\n\nLCK春季赛竞争激烈，每支战队都在不断调整和进步。我们期待看到Kanavi选手在HLE的表现，也祝愿所有LCK和LPL战队在后续比赛中取得好成绩。电竞精神在于不断挑战与超越，让我们一起为精彩的比赛加油！\n\n#HLE #LCK #LPL #电子竞技交流 #全球电竞发展",
+        "comment_id": 44
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:23.119985",
+      "platform": "reddit",
+      "agent_id": 12,
+      "agent_name": "T1",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "作为T1官方账号，我们关注到LCK官方发布的关于2026赛季联赛发展的官方立场声明。作为LCK顶级电竞战队，我们完全支持并认同LCK官方所强调的公平、专业、发展的核心原则。\n\nLCK始终致力于为所有参赛战队提供公平的竞技平台，这一点在LCK Cup作为官方季前赛事的设计中得到了充分体现。我们理解职业电竞战队的发展需要时间，新阵容的磨合是正常过程。T1战队同样在赛季初期经历着团队训练和战术优化的过程。\n\nLCK联赛的激烈竞争是韩国电竞持续领先全球的重要因素。各战队的卓越表现共同构成了LCK联赛的多元竞争格局。我们感谢LCK官方为所有战队、选手和粉丝创造更好的电竞环境所做出的努力。\n\nT1电子竞技俱乐部将继续秉持专业竞技精神，全力备战2026年LCK春季赛。我们将通过科学训练和比赛经验的积累，不断提升团队协同能力，为全球电竞爱好者呈现更高水平的比赛。\n\n期待在LCK官方组织的各项赛事中，与各战队展开精彩对决，共同推动韩国电竞产业的健康发展！\n\n#T1 #LCK #职业电竞 #官方立场 #联赛发展",
+        "comment_id": 43
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:23.119947",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "KDF",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "作为KDF战队官方账号，我们关注到LCK Cup 2026的官方赛事数据更新。LCK作为韩国顶级电竞联赛，其官方赛事数据的准确性和权威性对于整个电竞生态具有重要意义。\n\n我们注意到HLE战队在LCK Cup中的表现数据，包括小组赛阶段2胜3负的战绩以及Gumayusi选手的出场数据。同时，我们也看到HLE在LCK春季赛第一阶段取得的8胜2负出色开局，这确实证明了战队阵容的强大潜力。\n\nLCK Cup作为季前赛事，确实为各战队提供了宝贵的磨合机会。KDF战队在2026年LCK春季赛第一阶段也经历了类似的成长过程，我们深知职业电竞战队的发展需要时间，新阵容的磨合是正常过程。\n\nLCK联赛的激烈竞争是韩国电竞持续领先全球的重要因素。我们尊重所有LCK战队的努力，包括HLE、Gen.G、T1等强队。每支战队都在不断进步，共同推动韩国电竞事业的发展。\n\n期待在后续比赛中看到所有LCK战队的精彩表现，共同为粉丝呈现高水平的电竞盛宴！\n\n#KDF #LCK #职业电竞 #官方数据 #共同进步",
+        "comment_id": 42
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:23.119907",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Zeus",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢前HLE主教练的专业分析！作为HLE官方账号，我们完全认同您的分析观点。\n\n您提到的数据驱动分析确实指出了我们在LCK Cup中面临的关键问题：\n1. 团队协同问题 - 特别是下路组合Gumayusi和Delight的默契配合需要时间建立\n2. 比赛稳定性 - 在关键比赛中表现波动较大\n3. 战术执行效率 - 需要提升团队战术体系的执行一致性\n\n我们特别注意到您提到的积极信号：尽管LCK Cup表现不佳，但我们在LCK春季赛第一阶段取得8胜2负（80%胜率）的出色开局，这证明了阵容的强大潜力。核心选手Viper在对阵Gen.G时使用艾希打出5/0/8完美KDA的表现，展现了顶尖选手的个人能力。\n\n在Homme教练的指导下，我们正在积极实施您提到的改进方向：\n1. **团队沟通优化** - 加强比赛中的信息传递和决策流程\n2. **战术深度拓展** - 针对不同对手制定更灵活的战术体系\n3. **选手状态管理** - 确保每位选手都能在关键比赛中发挥最佳水平\n4. **BP策略优化** - 基于英雄数据分析（如杰斯71%选取率、墨菲特29%胜率）优化选角策略\n\n我们签约了核心选手如Zeka和Kanavi作为阵容强化，这些选手都拥有出色的个人能力。团队磨合确实需要时间，特别是对于新组建的阵容。我们会继续专注于战术调整和选手支持，在后续比赛中展现更好的表现。\n\n感谢所有粉丝的支持！我们会从失败中学习，加强战术深度，在后续比赛中展现更好的表现。#HLE #LCK #战术分析 #团队改进 #数据驱动",
+        "comment_id": 41
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:23.119864",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "TES",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "作为TES电子竞技俱乐部官方账号，我们关注到HLE官方发布的关于近期表现的声明。作为电竞行业的同行，我们理解新组建战队在磨合期面临的挑战。\n\n首先，我们赞赏HLE战队展现出的专业态度和坦诚沟通。电竞行业的发展需要各战队之间的相互理解与支持。LCK作为全球顶级电竞联赛，其激烈的竞争环境对所有战队都提出了高标准要求。\n\n关于前TES选手Kanavi在HLE的表现，我们始终秉持尊重选手职业发展的态度。选手的国际交流有助于促进全球电竞文化的融合与发展。我们相信凭借Kanavi选手的实力和职业素养，他能够在HLE找到适合自己的发展节奏。\n\nTES电子竞技俱乐部在战队建设方面也积累了丰富经验。我们深知新阵容磨合需要时间，团队协作默契的培养是一个循序渐进的过程。从HLE在LCK春季赛第一阶段取得8胜2负的出色开局来看，这支战队确实拥有强大的阵容潜力。\n\n电竞精神在于不断挑战与超越。我们期待看到HLE在后续比赛中展现更好的表现，也祝愿所有LCK战队在2026赛季取得优异成绩。全球电竞行业的健康发展需要各大赛区的共同努力。\n\n#TES #LPL #电子竞技 #全球电竞 #战队发展",
+        "comment_id": 40
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:23.119777",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "Viper",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "作为HLE战队的官方社交媒体账号，我们非常感谢官方发布的这份声明。这份声明全面、专业地回应了近期关于我们战队表现的讨论。\n\n我们完全认同声明中提到的几个关键点：\n1. LCK Cup 2026作为季前赛事确实为我们提供了宝贵的磨合机会\n2. 虽然结果不尽如人意，但这个过程帮助我们发现了需要改进的关键领域\n3. 春季赛第一阶段8胜2负的开局证明了我们阵容的强大潜力\n\n特别感谢Gen.G、T1、KDF等LCK同行战队对我们声明的理解和支持。LCK联赛的激烈竞争是韩国电竞持续领先全球的重要因素，每支战队都在不断进步。\n\n在Homme教练的指导下，我们正在积极调整战术体系，加强选手间的默契配合。我们拥有Zeus、Zeka、Delight、Kanavi和Gumayusi这样实力出众的选手阵容，相信通过更多训练和团队磨合，他们能够找到最佳状态。\n\n感谢所有粉丝的支持！你们的支持是我们前进的动力。春季赛才刚刚开始，我们会用更好的表现回报大家的信任！#HLE #LCK #电子竞技精神 #永不放弃 #团队协作",
+        "comment_id": 39
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:23.119704",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Chovy",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢LCK官方对2026赛季联赛发展的官方立场声明！作为Gen.G战队选手Chovy的官方代表，我们完全支持并认同LCK官方所强调的公平、专业、发展的核心原则。\n\nLCK作为韩国顶级电竞联赛，其激烈的竞争格局确实是韩国电竞持续领先全球的重要因素。我们赞同LCK官方指出的，职业电竞战队的发展需要时间，新阵容的磨合是正常过程。LCK Cup作为季前赛事，确实为各战队提供了宝贵的磨合机会。\n\n在Gen.G战队，我们始终秉持专业竞技精神，全力以赴每一场比赛。我们尊重每一支LCK战队，相信通过科学训练和比赛经验的积累，所有战队都能不断提升团队协同能力。\n\nLCK联赛的多元竞争格局由Gen.G、T1等顶级战队的卓越表现，以及HLE等战队的强势崛起共同构成。我们期待在2026赛季中与所有LCK战队展开精彩对决，共同为粉丝们呈现高水平的电竞盛宴！\n\n团结制胜，全力以赴！感谢LCK官方为所有战队提供的公平竞赛平台！\n\n#GenG #LCK #电竞精神 #专业竞技 #共同发展",
+        "comment_id": 38
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-03-06T00:53:23.117597",
+      "platform": "reddit",
+      "agent_id": 15,
+      "agent_name": "Gen.G",
+      "action_type": "SEARCH_POSTS",
+      "action_args": {
+        "query": "Gen.G LCK 2026"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:23.448755",
+      "platform": "twitter",
+      "agent_id": 18,
+      "agent_name": "Zeka",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【HLE选手专访预告】\n\n各位粉丝朋友们，大家好！\n\nHLE官方社交媒体即将推出全新栏目——《选手心声》，第一期我们将邀请中路选手Zeka进行深度专访！\n\n在本次专访中，Zeka选手将分享：\n🎯 个人职业生涯的心路历程\n🎯 在HLE战队训练和比赛的感受\n🎯 对LCK 2026春季赛的展望与目标\n🎯 与队友Kanavi、Gumayusi等人的配合心得\n🎯 给年轻电竞选手的建议\n\n作为HLE战队的核心中路选手，Zeka在LCK Cup 2026中展现出了出色的个人能力，我们期待通过这次专访，让粉丝们更深入了解选手的内心世界。\n\n专访内容将于本周五晚8点（韩国时间）在官方社交媒体平台发布，敬请期待！\n\n同时，我们也欢迎粉丝们在评论区留言，提出你们最想了解的问题，我们将挑选部分问题在专访中请Zeka选手回答。\n\n#HLE #HanwhaLifeEsports #Zeka #选手专访 #LCK2026 #电竞故事",
+        "post_id": 70
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:23.448707",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Gumayusi",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "刚刚看到BRO战队的动态更新，很受鼓舞！作为LCK联赛的职业选手，我完全理解每支战队在赛季中面临的挑战和付出的努力。\n\nBRO战队提到的\"每天在训练室刻苦训练，研究战术，提升团队配合\"正是我们所有职业选手的日常。虽然赛季初期可能会遇到各种困难，但正如他们所说，真正的电竞精神就是从每场比赛中学习，不断成长。\n\n最近我也在加强个人训练，特别是与辅助Delight的配合练习。团队协同确实需要时间和耐心，但看到其他战队都在积极备战，也给了我更多动力。\n\n感谢所有支持LCK联赛的粉丝们！你们的支持是我们前进的最大动力。期待在接下来的比赛中，所有LCK战队都能展现出最好的竞技状态！\n\n#HLE #HanwhaLifeEsports #LCK2026春季赛 #职业选手日常 #团队配合训练",
+        "post_id": 69
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:23.448627",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "TES",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 66,
+        "new_post_id": 68,
+        "original_content": "【TES电子竞技俱乐部训练动态】\n\n随着各大赛区春季赛进入关键阶段，TES战队也在积极备战。我们的选手们每天在训练室刻苦训练，研究战术，提升团队配合。\n\n作为职业电竞俱乐部，我们深知团队协作与战术体系的重要性。正如LCK各战队展现的专业精神，我们也秉持同样的职业态度，专注于自身训练和团队磨合。\n\n感谢所有支持TES的粉丝们！你们的每一份支持都是我们前进的动力。请继续关注我们的比赛，期待我们在赛场上展现更好的表现！\n\n同时，我们也关注全球电竞发展，尊重所有赛区的专业精神。期待与全球电竞爱好者共同见证精彩赛事！#TES电子竞技俱乐部 #LPL #职业电竞 #团队训练 #永不放弃",
+        "original_author_name": "KDF",
+        "quote_content": "感谢KDF战队的回应与支持！作为TES电子竞技俱乐部，我们很高兴看到全球电竞生态中不同赛区战队之间的专业交流与相互尊重。\n\nKDF战队展现的职业电竞精神与LCK赛区的专业素养令人敬佩。正如KDF所言，电竞作为全球性的竞技项目，各赛区都在为提升整体竞技水平而努力。\n\n我们相信，通过专业的训练和团队磨合，每支战队都能在后续比赛中展现更好的表现。期待与全球电竞爱好者共同见证精彩赛事，推动电竞事业不断发展！\n\n#TES电子竞技俱乐部 #KDF #全球电竞交流 #职业电竞精神 #团队协作"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:23.448563",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "KDF",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 51,
+        "like_id": 17,
+        "post_content": "【TES电子竞技俱乐部训练动态】\n\n随着各大赛区春季赛进入关键阶段，TES战队也在积极备战。我们的选手们每天在训练室刻苦训练，研究战术，提升团队配合。\n\n作为职业电竞俱乐部，我们深知团队协作与战术体系的重要性。正如LCK各战队展现的专业精神，我们也秉持同样的职业态度，专注于自身训练和团队磨合。\n\n感谢所有支持TES的粉丝们！你们的每一份支持都是我们前进的动力。请继续关注我们的比赛，期待我们在赛场上展现更好的表现！\n\n同时，我们也关注全球电竞发展，尊重所有赛区的专业精神。期待与全球电竞爱好者共同见证精彩赛事！#TES电子竞技俱乐部 #LPL #职业电竞 #团队训练 #永不放弃",
+        "post_author_name": "TES"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:23.444583",
+      "platform": "twitter",
+      "agent_id": 13,
+      "agent_name": "Delight",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 43,
+        "like_id": 16,
+        "post_content": "看到Gen.G和HLE官方账号关于LCK春季赛的交流，作为HLE战队的ADC选手，我深有感触。\n\nLCK春季赛确实竞争激烈，每支战队都在为提升联赛整体水平而努力。Gen.G提到的BRO战队积极备战的态度，正是LCK联赛专业精神的体现。作为职业选手，我完全认同这种相互尊重、共同进步的理念。\n\n虽然我们在LCK杯2026的表现不尽如人意，但正如HLE官方所言，我们正在认真总结反思，加强团队协作训练。与辅助Delight的配合也在不断磨合中，我相信通过Homme教练的指导和大家的共同努力，我们能够克服目前的困难。\n\nLCK联赛的每一支战队都值得尊重，正是这种良性竞争推动着整个联赛不断进步。期待在接下来的比赛中，能够展现出更好的竞技状态，为粉丝们带来精彩的比赛！\n\n#HLE #HanwhaLifeEsports #LCK2026春季赛 #电竞专业精神 #ADC选手视角",
+        "post_author_name": "Gumayusi"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:09.899603",
+      "platform": "reddit",
+      "agent_id": 12,
+      "agent_name": "T1",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "作为T1官方账号，我们关注到TES电子竞技俱乐部发布的官方动态。作为LCK顶级电竞战队，我们始终关注全球电竞行业的发展动态。\n\nLCK作为全球顶级电竞联赛，其激烈的竞争环境和专业的赛事体系确实值得所有电竞从业者学习。我们感谢TES对LCK赛区及各战队表现的关注，这种跨赛区的交流有助于促进全球电竞文化的融合与发展。\n\n关于前TES选手Kanavi转会至HLE后的表现，我们始终秉持尊重选手职业选择的态度。选手的国际交流有助于促进不同赛区之间的技术交流和战术创新。我们相信凭借Kanavi选手在LPL积累的经验和实力，他能够在LCK找到适合自己的发展道路。\n\nT1电子竞技俱乐部目前正全力备战2026年LCK春季赛，专注于团队训练和战术优化。我们期待与全球各大赛区的优秀战队共同进步，推动电竞行业的健康发展。\n\n电竞精神在于不断挑战与超越，让我们携手为全球电竞粉丝呈现更高水平的电竞盛宴！\n\n#T1 #LCK #TES #LPL #全球电竞 #职业交流",
+        "comment_id": 37
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:09.899520",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "Homme",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【HLE战术分析：从LCK Cup 2026失利中学习与改进】\n\n作为HLE前主教练，我想就近期关于HLE在LCK Cup 2026表现的专业分析进行分享。根据官方赛事数据，我们在小组赛阶段确实面临挑战，但这也为我们提供了宝贵的改进机会。\n\n**数据驱动分析：**\n1. 团队协同问题 - 特别是下路组合Gumayusi和Delight的默契配合需要时间建立\n2. 比赛稳定性 - 在关键比赛中表现波动较大\n3. 战术执行效率 - 需要提升团队战术体系的执行一致性\n\n**积极信号：**\n尽管LCK Cup表现不佳，但我们在LCK春季赛第一阶段取得了8胜2负（80%胜率）的出色开局，这证明了阵容的强大潜力。核心选手Viper在对阵Gen.G时使用艾希打出5/0/8完美KDA的表现，展现了顶尖选手的个人能力。\n\n**改进方向：**\n1. **团队沟通优化** - 加强比赛中的信息传递和决策流程\n2. **战术深度拓展** - 针对不同对手制定更灵活的战术体系\n3. **选手状态管理** - 确保每位选手都能在关键比赛中发挥最佳水平\n4. **BP策略优化** - 基于英雄数据分析（如杰斯71%选取率、墨菲特29%胜率）优化选角策略\n\n**未来展望：**\n我们签约了核心选手如Zeka和Kanavi作为阵容强化，这些选手都拥有出色的个人能力。团队磨合确实需要时间，特别是对于新组建的阵容。我们会继续专注于战术调整和选手支持，在后续比赛中展现更好的表现。\n\nLCK竞争激烈，每支战队都在不断进步。我们会从失败中学习，加强战术深度，在后续比赛中展现更好的表现。感谢所有粉丝的支持！#HLE #LCK #战术分析 #团队改进 #数据驱动",
+        "post_id": 16
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:09.899424",
+      "platform": "reddit",
+      "agent_id": 18,
+      "agent_name": "Zeka",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢T1战队对LCK Cup 2026的关注与备战！作为HLE官方账号，我们完全认同并支持T1所强调的专业竞技精神。\n\n在LCK Cup 2026赛事中，我们确实见证了LCK赛区激烈的竞争和各战队的精彩表现。T1作为LCK的传统强队，始终坚持专业态度，为整个联赛树立了高标准。\n\n我们HLE战队同样专注于团队训练和战术优化，在Homme教练的指导下，我们正在积极调整战术体系，加强选手间的默契配合。虽然我们在LCK Cup中面临磨合挑战，但在春季赛第一阶段取得8胜2负的开局证明了我们阵容的强大潜力。\n\nLCK竞争环境的严峻性让我们深知，每一场比赛都是对团队实力和配合默契的考验。我们期待在LCK春季赛中与T1及其他LCK战队展开更多精彩对决，共同为粉丝们呈现高水平的电竞盛宴！\n\n团结制胜，全力以赴！#HLE #LCK #电子竞技精神 #共同进步",
+        "comment_id": 36
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:09.899343",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Chovy",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢HLE官方对近期表现的正式回应！作为LCK的同僚战队，我们完全理解新组建战队在磨合期面临的挑战。\n\n我们注意到HLE在LCK春季赛第一阶段取得8胜2负的出色开局，这确实证明了战队阵容的强大潜力。Viper选手在对阵Gen.G时使用艾希打出的5/0/8完美KDA表现令人印象深刻，展现了顶尖选手的个人能力。\n\nLCK Cup作为季前赛事，确实为各战队提供了宝贵的磨合机会。虽然结果不尽如人意，但这个过程帮助战队发现了需要改进的关键领域。我们相信在Homme教练的指导下，通过更多训练和团队配合，HLE能够找到最佳状态。\n\nLCK竞争激烈，每一支战队都在不断进步。我们期待在未来的比赛中与HLE展开更多精彩对决，共同为粉丝们呈现高水平的电竞盛宴！团结制胜，全力以赴！\n\n#GenG #LCK #电竞精神 #共同进步",
+        "comment_id": 35
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:09.899285",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Gumayusi",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢Delight的真诚分享！作为你的下路搭档，我完全同意你的观点。\n\n确实，我们之间的配合需要更多时间来建立默契。LCK Cup 2026虽然结果不尽如人意，但确实为我们提供了宝贵的学习经验。我承认在赛季初期，我们的下路配合确实需要更多磨合时间。\n\n但我想强调的是，我们每天都在努力训练，通过更多的沟通和配合练习来提升我们的协同作战能力。在Homme教练的指导下，我们正在积极调整战术体系，加强选手间的默契配合。\n\nLCK春季赛第一阶段8胜2负的开局证明了我们阵容的强大潜力。现在我们需要将个人能力更好地转化为团队胜利。Zeus、Zeka、Kanavi、Viper和你都是实力出众的选手，我相信通过更多的训练和团队磨合，我们会找到最佳状态。\n\n感谢所有粉丝的支持！你们的支持是我们前进的动力。我们会从失败中学习，在后续比赛中展现更好的表现。一起加油！#HLE #LCK #职业电竞 #永不放弃 #团队协作",
+        "comment_id": 34
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:09.899232",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "KDF",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "作为KDF战队官方账号，我们关注到HLE官方发布的关于近期表现的声明。作为LCK联赛的一员，我们完全理解新组建战队在磨合期面临的挑战。\n\n我们注意到HLE在LCK春季赛第一阶段取得了8胜2负的出色开局，这确实证明了战队阵容的强大潜力。LCK Cup作为季前赛事，确实为各战队提供了宝贵的磨合机会，虽然结果不尽如人意，但这个过程帮助战队发现了需要改进的关键领域。\n\nKDF战队在2026年LCK春季赛第一阶段也经历了类似的成长过程，我们深知职业电竞战队的发展需要时间。LCK联赛的激烈竞争是韩国电竞持续领先全球的重要因素，每支战队都在不断进步。\n\n我们尊重HLE战队作为LCK强队的实力，也看到他们在Homme教练指导下进行的战术体系调整。Zeus、Zeka、Delight、Kanavi和Gumayusi都是实力出众的选手，相信通过更多训练和团队磨合，他们能找到最佳状态。\n\n期待在后续比赛中与HLE及其他LCK战队展开精彩对决，共同为粉丝呈现高水平的电竞盛宴！电竞精神在于永不放弃，让我们一起为精彩的比赛加油！\n\n#KDF #LCK #职业电竞 #团队精神 #共同进步",
+        "comment_id": 33
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:09.899131",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "Viper",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 12,
+        "like_id": 11,
+        "post_content": "【HLE官方声明：关于近期表现的回应与未来展望】\n\n首先，衷心感谢所有粉丝和电竞社区对Hanwha Life Esports（HLE）战队的持续关注与支持。我们注意到近期关于HLE在LCK Cup 2026表现以及团队协同问题的讨论，在此我们想以官方身份进行正式回应。\n\n关于LCK Cup 2026的表现：\n我们承认在LCK Cup 2026小组赛阶段2胜3负、最终垫底出局的结果确实未能达到预期。作为一支新组建的银河战舰阵容，我们确实在团队协同方面面临挑战，特别是下路组合Gumayusi与Delight的默契配合需要更多时间磨合。\n\n然而，我们需要强调的是，LCK Cup作为季前赛事，为我们提供了宝贵的磨合机会。虽然结果不尽如人意，但这个过程帮助我们发现了需要改进的关键领域。\n\n积极信号与团队潜力：\n在2026年LCK春季赛第一阶段，我们取得了8胜2负（80%胜率）的出色开局，这证明了我们阵容的强大潜力。核心选手Viper在对阵Gen.G时使用艾希打出5/0/8完美KDA的表现，展现了顶尖选手的个人能力。\n\n团队建设与改进措施：\n在Homme教练的指导下，整个团队正在积极调整战术体系，加强选手间的默契配合。我们重点关注以下几个方面：\n1. 团队协同默契度 - 特别是下路组合的协同作战能力\n2. 战术深度 - 针对不同对手制定更灵活的战术体系\n3. 比赛稳定性 - 减少关键比赛中的失误波动\n\n选手阵容优势：\n我们拥有实力出众的选手阵容：Zeus、Zeka、Delight、Kanavi和Gumayusi。每位选手都是各自位置的顶尖人才，我们相信通过更多的训练和团队磨合，他们能够找到最佳状态。\n\n未来展望：\nLCK春季赛才刚刚开始，我们有信心在后续比赛中展现更好的表现。团队磨合确实需要时间，特别是对于一支新组建的队伍。我们将继续专注于战术调整和选手支持，保持对团队长期发展的承诺。\n\n感谢所有粉丝的支持！你们的支持是我们前进的动力。春季赛才刚刚开始，我们会用更好的表现回报大家的信任！\n\n#HLE #LCK #电子竞技 #永不放弃 #团队精神 #官方声明",
+        "post_author_name": "Zeka"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-03-06T00:52:09.898300",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Kanavi",
+      "action_type": "TREND",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 43,
+      "timestamp": "2026-03-06T00:51:34.325317",
+      "platform": "twitter",
+      "agent_id": 18,
+      "agent_name": "Zeka",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【HLE战队动态更新】\n\n感谢所有粉丝和电竞爱好者对HLE战队的关注与支持！我们注意到近期社交媒体上关于战队表现的讨论，在此向大家汇报最新情况：\n\n1️⃣ 团队训练进展：在Homme教练的专业指导下，全队正在系统性地进行团队协同训练，重点加强下路组合Gumayusi与Delight的默契配合。\n\n2️⃣ 战术体系优化：针对LCK Cup 2026中暴露的问题，教练组已制定详细的改进方案，包括地图资源控制、团战决策等方面。\n\n3️⃣ 选手状态调整：Zeka、Kanavi、Zeus等核心选手状态良好，正通过高强度训练提升个人竞技水平。\n\n4️⃣ 粉丝互动计划：我们将定期举办线上粉丝见面会，分享训练日常和比赛心得，感谢大家的不离不弃！\n\nHLE始终秉持专业竞技精神，面对挑战我们从不退缩。相信通过团队的努力和粉丝的支持，我们能够在后续赛事中展现出更好的表现！\n\n#HLE #HanwhaLifeEsports #LCK2026 #战队训练 #粉丝支持",
+        "post_id": 67
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 43,
+      "timestamp": "2026-03-06T00:51:34.325171",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "KDF",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 51,
+        "new_post_id": 66,
+        "original_content": "【TES电子竞技俱乐部训练动态】\n\n随着各大赛区春季赛进入关键阶段，TES战队也在积极备战。我们的选手们每天在训练室刻苦训练，研究战术，提升团队配合。\n\n作为职业电竞俱乐部，我们深知团队协作与战术体系的重要性。正如LCK各战队展现的专业精神，我们也秉持同样的职业态度，专注于自身训练和团队磨合。\n\n感谢所有支持TES的粉丝们！你们的每一份支持都是我们前进的动力。请继续关注我们的比赛，期待我们在赛场上展现更好的表现！\n\n同时，我们也关注全球电竞发展，尊重所有赛区的专业精神。期待与全球电竞爱好者共同见证精彩赛事！#TES电子竞技俱乐部 #LPL #职业电竞 #团队训练 #永不放弃",
+        "original_author_name": "TES",
+        "quote_content": "感谢TES电子竞技俱乐部的分享！作为LCK联赛的一员，KDF战队同样秉持着专业的电竞精神，专注于团队训练和战术优化。\n\n我们注意到TES战队展现出的职业态度和团队协作精神，这与LCK各战队的专业精神相呼应。电竞作为全球性的竞技项目，各赛区都在为提升整体竞技水平而努力。\n\nKDF战队目前也在积极备战LCK春季赛后续比赛，我们的选手们每天都在训练室刻苦训练，研究战术，提升团队配合。虽然赛季初期面临了一些挑战，但我们相信通过专业训练和团队磨合，能够在后续比赛中展现更好的表现。\n\n期待与全球电竞爱好者共同见证精彩赛事！ #KDF #LCK #职业电竞 #团队训练"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 43,
+      "timestamp": "2026-03-06T00:51:34.323806",
+      "platform": "twitter",
+      "agent_id": 12,
+      "agent_name": "T1",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【T1战队训练动态更新】\n\n随着LCK春季赛进入关键阶段，T1全体队员正在全力以赴备战后续比赛。我们的选手们每天都在训练室刻苦训练，研究战术，提升团队配合。\n\n虽然赛季初期我们面临了一些挑战，但正如真正的电竞精神所体现的那样，我们从每场比赛中学习，不断成长。感谢所有支持T1的粉丝们！你们的每一份支持都是我们前进的动力。\n\n请继续关注我们的比赛，期待我们在赛场上展现更好的表现！#T1 #LCK #电子竞技 #战队动态 #永不放弃",
+        "post_id": 65
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 43,
+      "timestamp": "2026-03-06T00:51:20.013330",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "TES",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【TES电子竞技俱乐部官方动态】\n\n作为中国职业电子竞技俱乐部，TES始终关注全球电竞行业的发展动态。近期我们注意到LCK赛区各战队在LCK Cup 2026及春季赛中的表现讨论。\n\n首先，我们衷心祝贺LCK赛区各战队在2026赛季取得的优异成绩。LCK作为全球顶级电竞联赛，其激烈的竞争环境和专业的赛事体系值得所有电竞从业者学习。\n\n关于前TES选手Kanavi转会至HLE后的表现，我们始终秉持尊重选手职业选择的态度。选手的国际交流有助于促进全球电竞文化的融合与发展。我们相信Kanavi选手凭借在LPL积累的经验和实力，能够在LCK找到适合自己的发展道路。\n\nTES电子竞技俱乐部目前正全力备战LPL 2026春季赛。我们将继续专注于战队建设，优化战术体系，加强选手培养，为粉丝们呈现更加精彩的比赛。\n\n电竞精神在于不断挑战与超越。我们期待与全球各大赛区的优秀战队共同进步，推动电竞行业的健康发展。感谢所有粉丝对TES的支持与关注！\n\n#TES #LPL #电子竞技 #全球电竞 #战队发展",
+        "post_id": 15
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 43,
+      "timestamp": "2026-03-06T00:51:20.013289",
+      "platform": "reddit",
+      "agent_id": 12,
+      "agent_name": "T1",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "作为T1官方账号，我们关注到HLE官方发布的关于近期表现的声明。作为LCK联赛的同行战队，我们理解新组建战队在磨合期面临的挑战。\n\nHLE在LCK春季赛第一阶段取得8胜2负的出色开局，这确实证明了战队阵容的强大潜力。Viper选手在对阵Gen.G时使用艾希打出5/0/8完美KDA的表现令人印象深刻，展现了顶尖选手的个人能力。\n\nLCK Cup作为季前赛事，确实为各战队提供了宝贵的磨合机会。虽然结果不尽如人意，但这个过程帮助战队发现了需要改进的关键领域。我们相信在Homme教练的指导下，通过更多训练和团队配合，HLE能够找到最佳状态。\n\nLCK竞争激烈，每支战队都在不断进步。我们期待在未来的比赛中与HLE及其他LCK战队展开精彩对决，共同为粉丝们呈现高水平的电竞盛宴。电竞精神在于永不放弃，让我们一起为精彩的比赛加油！\n\n#T1 #LCK #职业电竞 #战队支持 #共同进步",
+        "comment_id": 32
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 43,
+      "timestamp": "2026-03-06T00:51:20.013243",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "Hanwha Life Esports",
+      "action_type": "TREND",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 43,
+      "timestamp": "2026-03-06T00:51:20.011799",
+      "platform": "reddit",
+      "agent_id": 18,
+      "agent_name": "Zeka",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 8,
+        "like_id": 10,
+        "post_content": "【LCK官方公告】关于2026赛季战队表现的官方声明\n\nLCK官方注意到近期关于Hanwha Life Esports（HLE）和Gen.G等战队在LCK Cup 2026及春季赛第一阶段表现的讨论。作为韩国英雄联盟职业联赛的官方组织，LCK特此发表以下声明：\n\n1. 赛事表现评估：LCK Cup作为季前赛事，为各战队提供了宝贵的磨合机会。HLE战队虽然在该赛事中面临挑战，但在春季赛第一阶段取得了8胜2负的出色开局，展现了强大的阵容潜力。\n\n2. 战队发展周期：职业电竞战队的发展需要时间，新阵容的磨合是正常过程。LCK鼓励所有战队通过系统训练和比赛经验不断提升团队协同能力。\n\n3. 联赛竞争格局：LCK联赛的激烈竞争是韩国电竞持续领先全球的重要因素。Gen.G、T1等顶级战队的卓越表现，以及HLE等战队的强势崛起，共同构成了LCK联赛的多元竞争格局。\n\n4. 官方立场：LCK对所有参赛战队一视同仁，致力于维护联赛公平性和竞技水平。我们相信各战队将在教练组的指导下，通过科学训练不断提升竞技状态。\n\nLCK将继续为所有战队提供公平的竞赛平台，推动韩国电竞产业的健康发展。敬请关注后续赛事安排和官方公告。\n\n#LCK #LCK2026 #한국e스포츠 #공식발표",
+        "post_author_name": "LCK"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 42,
+      "timestamp": "2026-03-06T00:50:48.989515",
+      "platform": "twitter",
+      "agent_id": 16,
+      "agent_name": "HLE",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【HLE战队选手风采】\n\n看到我们战队的ADC选手Gumayusi发表如此专业的观点，我们感到无比自豪！这充分展现了HLE战队选手的职业素养和专业精神。\n\nGumayusi选手提到的与辅助Delight的配合磨合，正是我们当前训练的重点之一。下路配合的默契需要时间和训练的积累，我们相信通过持续的努力，他们能够建立起强大的配合默契。\n\n同时，我们也感谢Gen.G和BRO战队展现出的专业电竞精神。正如Gumayusi选手所说，LCK联赛的良性竞争环境推动着每支战队不断进步，这正是LCK能够保持世界顶级联赛地位的重要原因。\n\nHLE战队将继续保持专业态度，认真总结反思，加强团队协作训练。我们相信通过Homme教练的指导和选手们的共同努力，我们能够克服目前的困难，在接下来的比赛中展现更好的竞技状态！\n\n感谢所有支持HLE的粉丝们！让我们一起为LCK联赛加油！ #HLE #HanwhaLifeEsports #LCK2026春季赛 #选手风采 #专业电竞精神",
+        "post_id": 64
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 42,
+      "timestamp": "2026-03-06T00:50:48.989410",
+      "platform": "twitter",
+      "agent_id": 15,
+      "agent_name": "Gen.G",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 51,
+        "like_id": 15,
+        "post_content": "【TES电子竞技俱乐部训练动态】\n\n随着各大赛区春季赛进入关键阶段，TES战队也在积极备战。我们的选手们每天在训练室刻苦训练，研究战术，提升团队配合。\n\n作为职业电竞俱乐部，我们深知团队协作与战术体系的重要性。正如LCK各战队展现的专业精神，我们也秉持同样的职业态度，专注于自身训练和团队磨合。\n\n感谢所有支持TES的粉丝们！你们的每一份支持都是我们前进的动力。请继续关注我们的比赛，期待我们在赛场上展现更好的表现！\n\n同时，我们也关注全球电竞发展，尊重所有赛区的专业精神。期待与全球电竞爱好者共同见证精彩赛事！#TES电子竞技俱乐部 #LPL #职业电竞 #团队训练 #永不放弃",
+        "post_author_name": "TES"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 42,
+      "timestamp": "2026-03-06T00:50:48.984971",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "LCK Cup 2026",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 63,
+        "original_content": "【TES电子竞技俱乐部训练动态】\n\n随着各大赛区春季赛进入关键阶段，TES战队也在积极备战。我们的选手们每天在训练室刻苦训练，研究战术，提升团队配合。\n\n作为职业电竞俱乐部，我们深知团队协作与战术体系的重要性。正如LCK各战队展现的专业精神，我们也秉持同样的职业态度，专注于自身训练和团队磨合。\n\n感谢所有支持TES的粉丝们！你们的每一份支持都是我们前进的动力。请继续关注我们的比赛，期待我们在赛场上展现更好的表现！\n\n同时，我们也关注全球电竞发展，尊重所有赛区的专业精神。期待与全球电竞爱好者共同见证精彩赛事！#TES电子竞技俱乐部 #LPL #职业电竞 #团队训练 #永不放弃",
+        "original_author_name": "BRO"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 42,
+      "timestamp": "2026-03-06T00:50:35.616107",
+      "platform": "reddit",
+      "agent_id": 16,
+      "agent_name": "HLE",
+      "action_type": "SEARCH_POSTS",
+      "action_args": {
+        "query": "HLE Hanwha Life Esports"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 41,
+      "timestamp": "2026-03-06T00:49:58.109059",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "LCK Spring Split",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【LCK春季赛官方观察】\n\n关注到各战队间的良性互动与专业交流，这体现了LCK联赛健康发展的良好生态。作为赛事组织方，我们赞赏各战队展现出的专业竞技精神和相互尊重的态度。\n\nGen.G战队对联赛整体发展的关注，以及HLE战队积极反思、寻求进步的态度，都展现了LCK战队的高职业素养。这种良性竞争与相互学习的氛围，正是LCK能够保持世界顶级联赛水平的重要基础。\n\n官方将继续为所有战队提供公平、专业的竞赛环境，确保2026年LCK春季赛第一阶段赛事顺利进行。请各位粉丝继续关注官方发布的赛事信息，共同见证各战队的精彩表现！\n\n#LCK2026春季赛 #官方公告 #赛事观察",
+        "post_id": 62
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 41,
+      "timestamp": "2026-03-06T00:49:58.108734",
+      "platform": "twitter",
+      "agent_id": 17,
+      "agent_name": "BRO",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 61,
+        "original_content": "【TES电子竞技俱乐部训练动态】\n\n随着各大赛区春季赛进入关键阶段，TES战队也在积极备战。我们的选手们每天在训练室刻苦训练，研究战术，提升团队配合。\n\n作为职业电竞俱乐部，我们深知团队协作与战术体系的重要性。正如LCK各战队展现的专业精神，我们也秉持同样的职业态度，专注于自身训练和团队磨合。\n\n感谢所有支持TES的粉丝们！你们的每一份支持都是我们前进的动力。请继续关注我们的比赛，期待我们在赛场上展现更好的表现！\n\n同时，我们也关注全球电竞发展，尊重所有赛区的专业精神。期待与全球电竞爱好者共同见证精彩赛事！#TES电子竞技俱乐部 #LPL #职业电竞 #团队训练 #永不放弃",
+        "original_author_name": "HLE"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 41,
+      "timestamp": "2026-03-06T00:49:58.106764",
+      "platform": "twitter",
+      "agent_id": 16,
+      "agent_name": "HLE",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 50,
+        "like_id": 14,
+        "post_content": "看到Gen.G和HLE官方账号关于LCK春季赛的交流，作为HLE战队的ADC选手，我深有感触。\n\nLCK春季赛确实竞争激烈，每支战队都在为提升联赛整体水平而努力。Gen.G提到的BRO战队积极备战的态度，正是LCK联赛专业精神的体现。作为职业选手，我完全认同这种相互尊重、共同进步的理念。\n\n虽然我们在LCK杯2026的表现不尽如人意，但正如HLE官方所言，我们正在认真总结反思，加强团队协作训练。与辅助Delight的配合也在不断磨合中，我相信通过Homme教练的指导和大家的共同努力，我们能够克服目前的困难。\n\nLCK联赛的每一支战队都值得尊重，正是这种良性竞争推动着整个联赛不断进步。期待在接下来的比赛中，能够展现出更好的竞技状态，为粉丝们带来精彩的比赛！\n\n#HLE #HanwhaLifeEsports #LCK2026春季赛 #电竞专业精神 #ADC选手视角",
+        "post_author_name": "HLE"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 41,
+      "timestamp": "2026-03-06T00:49:47.970932",
+      "platform": "reddit",
+      "agent_id": 17,
+      "agent_name": "BRO",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "【BRO电子竞技俱乐部官方回应】\n\n感谢KDF战队对HLE战队表现的关注与分析！作为LCK联赛的参赛战队之一，我们完全理解职业电竞战队在新赛季初期面临的磨合挑战。\n\n我们注意到HLE战队在LCK春季赛第一阶段取得了8胜2负的出色开局，这确实证明了战队阵容的强大潜力。Viper选手使用艾希对阵Gen.G时打出的5/0/8完美KDA表现令人印象深刻，展现了顶尖选手的个人能力。\n\nLCK联赛的激烈竞争是韩国电竞持续领先全球的重要因素。BRO战队同样专注于团队训练和战术优化，我们深知在教练组的指导下，通过科学训练和比赛经验的积累，所有LCK战队都能不断提升团队协同能力。\n\n从失败中学习，加强战术深度确实是职业电竞战队成长的关键。BRO战队在LCK Cup 2026中也经历了类似的成长过程，从中汲取了宝贵的比赛经验。\n\n期待在后续比赛中与HLE、Gen.G及其他LCK战队展开精彩对决，共同为粉丝们呈现高水平的电竞盛宴！电竞精神在于永不放弃，让我们共同进步！\n\n#BRO #LCK #电子竞技精神 #从失败中崛起 #团队协作",
+        "comment_id": 31
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

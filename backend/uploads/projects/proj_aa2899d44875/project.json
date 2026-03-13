@@ -1,0 +1,401 @@
+{
+  "project_id": "proj_aa2899d44875",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-03-13T19:22:21.256782",
+  "updated_at": "2026-03-13T19:34:19.039438",
+  "files": [
+    {
+      "filename": "agent_guide_20260313_104312.md",
+      "size": 48851
+    }
+  ],
+  "total_text_length": 20184,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "ResearchInstitution",
+        "description": "Academic or corporate research organization conducting GraphRAG-related studies",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Official name of the research institution"
+          },
+          {
+            "name": "research_focus",
+            "type": "text",
+            "description": "Primary research areas or technologies"
+          }
+        ],
+        "examples": [
+          "Microsoft Research",
+          "港中大（深圳）"
+        ]
+      },
+      {
+        "name": "TechnologyCompany",
+        "description": "Corporation developing or applying GraphRAG technology",
+        "attributes": [
+          {
+            "name": "company_name",
+            "type": "text",
+            "description": "Legal name of the company"
+          },
+          {
+            "name": "industry_sector",
+            "type": "text",
+            "description": "Main industry or business sector"
+          }
+        ],
+        "examples": [
+          "华为云",
+          "Microsoft"
+        ]
+      },
+      {
+        "name": "AcademicResearcher",
+        "description": "University professor or scholar studying GraphRAG technology",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Researcher's full name"
+          },
+          {
+            "name": "affiliation",
+            "type": "text",
+            "description": "University or research institution affiliation"
+          }
+        ],
+        "examples": [
+          "AI领域教授",
+          "技术研究人员"
+        ]
+      },
+      {
+        "name": "MedicalProfessional",
+        "description": "Doctor, clinician, or healthcare expert involved in GraphRAG applications",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Professional's full name"
+          },
+          {
+            "name": "specialization",
+            "type": "text",
+            "description": "Medical specialty or field"
+          }
+        ],
+        "examples": [
+          "临床医生",
+          "医疗专家"
+        ]
+      },
+      {
+        "name": "FinancialAnalyst",
+        "description": "Finance industry expert analyzing GraphRAG applications in financial sector",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Analyst's full name"
+          },
+          {
+            "name": "firm_name",
+            "type": "text",
+            "description": "Financial institution or firm name"
+          }
+        ],
+        "examples": [
+          "金融分析师",
+          "投资专家"
+        ]
+      },
+      {
+        "name": "TechnologyJournalist",
+        "description": "Media professional reporting on GraphRAG technology developments",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Journalist's full name"
+          },
+          {
+            "name": "media_outlet",
+            "type": "text",
+            "description": "News organization or publication"
+          }
+        ],
+        "examples": [
+          "科技记者",
+          "行业分析师"
+        ]
+      },
+      {
+        "name": "GovernmentRegulator",
+        "description": "Official from regulatory agency overseeing technology or healthcare policies",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Regulator's full name"
+          },
+          {
+            "name": "agency_name",
+            "type": "text",
+            "description": "Government agency or department"
+          }
+        ],
+        "examples": [
+          "医疗监管官员",
+          "政策制定者"
+        ]
+      },
+      {
+        "name": "IndustryConsultant",
+        "description": "Independent expert providing analysis on GraphRAG market trends",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Consultant's full name"
+          },
+          {
+            "name": "consultancy_firm",
+            "type": "text",
+            "description": "Consulting firm or practice name"
+          }
+        ],
+        "examples": [
+          "趋势分析师",
+          "市场顾问"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Any individual not fitting the specific person types above",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Individual's full name"
+          },
+          {
+            "name": "occupation",
+            "type": "text",
+            "description": "General occupation or role"
+          }
+        ],
+        "examples": [
+          "普通网友",
+          "技术爱好者"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Any organization not fitting the specific organization types above",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Organization's official name"
+          },
+          {
+            "name": "org_type",
+            "type": "text",
+            "description": "General type of organization"
+          }
+        ],
+        "examples": [
+          "小型科技公司",
+          "临时研究小组"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "WORKS_FOR",
+        "description": "Employment relationship between person and organization",
+        "source_targets": [
+          {
+            "source": "AcademicResearcher",
+            "target": "ResearchInstitution"
+          },
+          {
+            "source": "MedicalProfessional",
+            "target": "Organization"
+          },
+          {
+            "source": "FinancialAnalyst",
+            "target": "Organization"
+          },
+          {
+            "source": "TechnologyJournalist",
+            "target": "Organization"
+          },
+          {
+            "source": "GovernmentRegulator",
+            "target": "Organization"
+          },
+          {
+            "source": "IndustryConsultant",
+            "target": "Organization"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Research or project collaboration between entities",
+        "source_targets": [
+          {
+            "source": "ResearchInstitution",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "ResearchInstitution",
+            "target": "ResearchInstitution"
+          },
+          {
+            "source": "TechnologyCompany",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "AcademicResearcher",
+            "target": "AcademicResearcher"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media coverage or analysis of technology developments",
+        "source_targets": [
+          {
+            "source": "TechnologyJournalist",
+            "target": "ResearchInstitution"
+          },
+          {
+            "source": "TechnologyJournalist",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "TechnologyJournalist",
+            "target": "AcademicResearcher"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Government oversight or regulation of technology applications",
+        "source_targets": [
+          {
+            "source": "GovernmentRegulator",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "GovernmentRegulator",
+            "target": "MedicalProfessional"
+          },
+          {
+            "source": "GovernmentRegulator",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ANALYZES",
+        "description": "Professional analysis of technology trends or applications",
+        "source_targets": [
+          {
+            "source": "FinancialAnalyst",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "IndustryConsultant",
+            "target": "ResearchInstitution"
+          },
+          {
+            "source": "IndustryConsultant",
+            "target": "TechnologyCompany"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "APPLIES_TECHNOLOGY",
+        "description": "Application of GraphRAG technology in professional practice",
+        "source_targets": [
+          {
+            "source": "MedicalProfessional",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "FinancialAnalyst",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "AcademicResearcher",
+            "target": "TechnologyCompany"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Endorsement or positive stance toward technology or research",
+        "source_targets": [
+          {
+            "source": "MedicalProfessional",
+            "target": "ResearchInstitution"
+          },
+          {
+            "source": "AcademicResearcher",
+            "target": "ResearchInstitution"
+          },
+          {
+            "source": "IndustryConsultant",
+            "target": "TechnologyCompany"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "CRITIQUES",
+        "description": "Critical analysis or concerns about technology limitations",
+        "source_targets": [
+          {
+            "source": "AcademicResearcher",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "MedicalProfessional",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "IndustryConsultant",
+            "target": "ResearchInstitution"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "文本内容聚焦于GraphRAG技术发展趋势分析，涉及多个领域主体。基于此，设计了8个具体实体类型：研究机构、科技公司、学术研究者、医疗专家、金融分析师、科技记者、政府监管者和行业顾问，覆盖了文本中提到的关键发声主体。最后2个为兜底类型Person和Organization。关系类型设计了8个，反映社媒互动中的工作、合作、报道、监管、分析、应用、支持和批评等关系。",
+  "graph_id": "nexus_5836e1a1a1e14134",
+  "graph_build_task_id": "2e3f4ff0-f489-42ab-a480-86fb0366102a",
+  "simulation_requirement": "未来GraphRAG的发展趋势是什么？有什么领域可以被快速推进的？",
+  "focus_entities": null,
+  "focus_events": null,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

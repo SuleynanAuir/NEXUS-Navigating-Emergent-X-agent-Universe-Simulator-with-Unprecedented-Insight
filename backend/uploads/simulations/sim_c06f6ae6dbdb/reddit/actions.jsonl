@@ -1,0 +1,78 @@
+{"timestamp": "2026-03-13T16:34:20.324466", "event_type": "simulation_start", "platform": "reddit", "total_rounds": 192, "agents_count": 30}
+{"round": 0, "timestamp": "2026-03-13T16:34:20.324584", "event_type": "round_start", "simulated_hour": 0}
+{"round": 0, "timestamp": "2026-03-13T16:34:20.324626", "agent_id": 10, "agent_name": "用户", "action_type": "CREATE_POST", "action_args": {"content": "B站主播清雨Tpor在直播中销毁粉丝游戏账号，涉及虚拟财产权益问题，引发用户强烈关注。受害者已准备提起民事诉讼，凸显数字资产保护的紧迫性。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T16:34:20.324666", "agent_id": 14, "agent_name": "政府公报", "action_type": "CREATE_POST", "action_args": {"content": "清雨Tpor事件相关视频播放量近600万，爆火背后反映用户对主播素质的广泛质疑。平台需加强行为规范监管，以维护社区信任。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T16:34:20.324702", "agent_id": 2, "agent_name": "主播", "action_type": "CREATE_POST", "action_args": {"content": "知名主播炫神公开支持清雨Tpor的行为，形成反向舆论，引发网友对主播道德标准的分歧讨论。这显示舆论场正快速分化。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T16:34:20.324735", "agent_id": 0, "agent_name": "平台监管政策", "action_type": "CREATE_POST", "action_args": {"content": "作为平台，我们已关注到清雨Tpor事件，正在评估相关行为是否符合社区规范。平台将加强监管，并配合法律程序处理虚拟财产权益问题。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T16:34:20.324769", "agent_id": 4, "agent_name": "政策制定者", "action_type": "CREATE_POST", "action_args": {"content": "清雨Tpor事件涉及虚拟财产法律边界，目前政策处于酝酿期。法律从业者和政策制定者应推动相关讨论，明确权益保护框架。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T16:34:20.324803", "agent_id": 1, "agent_name": "Gartner炒作周期", "action_type": "CREATE_POST", "action_args": {"content": "从Gartner炒作周期看，此事件处于技术触发期，用户对数字资产保护的关注上升。但虚拟财产保护技术仍处TRL 3实验阶段，需技术研究和法律支持。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T16:34:20.324834", "agent_id": 18, "agent_name": "金融定价模型 (Financial Pricing Model)", "action_type": "CREATE_POST", "action_args": {"content": "数字资产的价值日益凸显，清雨Tpor事件可能影响市场风险偏好。金融定价模型需纳入虚拟财产安全性和法律保护进展。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T16:34:26.106024", "event_type": "round_end", "actions_count": 7}
+{"round": 1, "timestamp": "2026-03-13T16:34:26.106283", "event_type": "round_start", "simulated_hour": 0}
+{"round": 1, "timestamp": "2026-03-13T16:34:26.106331", "event_type": "round_end", "actions_count": 0}
+{"round": 2, "timestamp": "2026-03-13T16:34:26.106380", "event_type": "round_start", "simulated_hour": 1}
+{"round": 2, "timestamp": "2026-03-13T16:34:26.106415", "event_type": "round_end", "actions_count": 0}
+{"round": 3, "timestamp": "2026-03-13T16:34:26.106463", "event_type": "round_start", "simulated_hour": 2}
+{"round": 3, "timestamp": "2026-03-13T16:34:26.106503", "event_type": "round_end", "actions_count": 0}
+{"round": 4, "timestamp": "2026-03-13T16:34:26.106547", "event_type": "round_start", "simulated_hour": 3}
+{"round": 4, "timestamp": "2026-03-13T16:34:26.106583", "event_type": "round_end", "actions_count": 0}
+{"round": 5, "timestamp": "2026-03-13T16:34:26.106636", "event_type": "round_start", "simulated_hour": 4}
+{"round": 5, "timestamp": "2026-03-13T16:34:26.106677", "event_type": "round_end", "actions_count": 0}
+{"round": 6, "timestamp": "2026-03-13T16:34:26.106720", "event_type": "round_start", "simulated_hour": 5}
+{"round": 6, "timestamp": "2026-03-13T16:34:26.106778", "event_type": "round_end", "actions_count": 0}
+{"round": 7, "timestamp": "2026-03-13T16:34:26.106829", "event_type": "round_start", "simulated_hour": 6}
+{"round": 7, "timestamp": "2026-03-13T16:34:26.106869", "event_type": "round_end", "actions_count": 0}
+{"round": 8, "timestamp": "2026-03-13T16:34:26.106917", "event_type": "round_start", "simulated_hour": 7}
+{"round": 8, "timestamp": "2026-03-13T16:34:26.106956", "event_type": "round_end", "actions_count": 0}
+{"round": 9, "timestamp": "2026-03-13T16:34:26.107041", "event_type": "round_start", "simulated_hour": 8}
+{"round": 9, "timestamp": "2026-03-13T16:34:27.777027", "agent_id": 10, "agent_name": "用户", "action_type": "CREATE_POST", "action_args": {"content": "B站主播清雨Tpor在直播中销毁粉丝游戏账号，涉及虚拟财产权益问题，引发用户强烈关注。受害者已准备提起民事诉讼，凸显数字资产保护的紧迫性。", "post_id": 1}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-03-13T16:34:27.777692", "agent_id": 14, "agent_name": "政府公报", "action_type": "CREATE_POST", "action_args": {"content": "清雨Tpor事件相关视频播放量近600万，爆火背后反映用户对主播素质的广泛质疑。平台需加强行为规范监管，以维护社区信任。", "post_id": 2}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-03-13T16:34:27.777877", "agent_id": 2, "agent_name": "主播", "action_type": "CREATE_POST", "action_args": {"content": "知名主播炫神公开支持清雨Tpor的行为，形成反向舆论，引发网友对主播道德标准的分歧讨论。这显示舆论场正快速分化。", "post_id": 3}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-03-13T16:34:27.778039", "agent_id": 0, "agent_name": "平台监管政策", "action_type": "CREATE_POST", "action_args": {"content": "作为平台，我们已关注到清雨Tpor事件，正在评估相关行为是否符合社区规范。平台将加强监管，并配合法律程序处理虚拟财产权益问题。", "post_id": 4}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-03-13T16:34:27.778225", "agent_id": 4, "agent_name": "政策制定者", "action_type": "CREATE_POST", "action_args": {"content": "清雨Tpor事件涉及虚拟财产法律边界，目前政策处于酝酿期。法律从业者和政策制定者应推动相关讨论，明确权益保护框架。", "post_id": 5}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-03-13T16:34:27.778380", "agent_id": 1, "agent_name": "Gartner炒作周期", "action_type": "CREATE_POST", "action_args": {"content": "从Gartner炒作周期看，此事件处于技术触发期，用户对数字资产保护的关注上升。但虚拟财产保护技术仍处TRL 3实验阶段，需技术研究和法律支持。", "post_id": 6}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-03-13T16:34:27.778491", "agent_id": 18, "agent_name": "金融定价模型 (Financial Pricing Model)", "action_type": "CREATE_POST", "action_args": {"content": "数字资产的价值日益凸显，清雨Tpor事件可能影响市场风险偏好。金融定价模型需纳入虚拟财产安全性和法律保护进展。", "post_id": 7}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-03-13T16:34:27.778637", "event_type": "round_end", "actions_count": 7}
+{"round": 10, "timestamp": "2026-03-13T16:34:27.778890", "event_type": "round_start", "simulated_hour": 9}
+{"round": 10, "timestamp": "2026-03-13T16:34:29.396714", "event_type": "round_end", "actions_count": 0}
+{"round": 11, "timestamp": "2026-03-13T16:34:29.397606", "event_type": "round_start", "simulated_hour": 10}
+{"round": 11, "timestamp": "2026-03-13T16:34:30.416241", "event_type": "round_end", "actions_count": 0}
+{"round": 12, "timestamp": "2026-03-13T16:34:30.417452", "event_type": "round_start", "simulated_hour": 11}
+{"round": 12, "timestamp": "2026-03-13T16:34:31.351299", "event_type": "round_end", "actions_count": 0}
+{"round": 13, "timestamp": "2026-03-13T16:34:31.351996", "event_type": "round_start", "simulated_hour": 12}
+{"round": 13, "timestamp": "2026-03-13T16:34:32.401636", "event_type": "round_end", "actions_count": 0}
+{"round": 14, "timestamp": "2026-03-13T16:34:32.402702", "event_type": "round_start", "simulated_hour": 13}
+{"round": 14, "timestamp": "2026-03-13T16:34:33.313870", "event_type": "round_end", "actions_count": 0}
+{"round": 15, "timestamp": "2026-03-13T16:34:33.315061", "event_type": "round_start", "simulated_hour": 14}
+{"round": 15, "timestamp": "2026-03-13T16:34:35.094499", "event_type": "round_end", "actions_count": 0}
+{"round": 16, "timestamp": "2026-03-13T16:34:35.094982", "event_type": "round_start", "simulated_hour": 15}
+{"round": 16, "timestamp": "2026-03-13T16:34:36.073089", "event_type": "round_end", "actions_count": 0}
+{"round": 17, "timestamp": "2026-03-13T16:34:36.073644", "event_type": "round_start", "simulated_hour": 16}
+{"round": 17, "timestamp": "2026-03-13T16:34:36.911677", "event_type": "round_end", "actions_count": 0}
+{"round": 18, "timestamp": "2026-03-13T16:34:36.912448", "event_type": "round_start", "simulated_hour": 17}
+{"round": 18, "timestamp": "2026-03-13T16:34:37.947047", "event_type": "round_end", "actions_count": 0}
+{"round": 19, "timestamp": "2026-03-13T16:34:37.947741", "event_type": "round_start", "simulated_hour": 18}
+{"round": 19, "timestamp": "2026-03-13T16:34:38.822418", "event_type": "round_end", "actions_count": 0}
+{"round": 20, "timestamp": "2026-03-13T16:34:38.823627", "event_type": "round_start", "simulated_hour": 19}
+{"round": 20, "timestamp": "2026-03-13T16:34:39.800472", "event_type": "round_end", "actions_count": 0}
+{"round": 21, "timestamp": "2026-03-13T16:34:39.801943", "event_type": "round_start", "simulated_hour": 20}
+{"round": 21, "timestamp": "2026-03-13T16:34:46.813511", "event_type": "round_end", "actions_count": 0}
+{"round": 22, "timestamp": "2026-03-13T16:34:46.814126", "event_type": "round_start", "simulated_hour": 21}
+{"round": 22, "timestamp": "2026-03-13T16:34:48.638976", "event_type": "round_end", "actions_count": 0}
+{"round": 23, "timestamp": "2026-03-13T16:34:48.640227", "event_type": "round_start", "simulated_hour": 22}
+{"round": 23, "timestamp": "2026-03-13T16:34:49.621835", "event_type": "round_end", "actions_count": 0}
+{"round": 24, "timestamp": "2026-03-13T16:34:49.622913", "event_type": "round_start", "simulated_hour": 23}
+{"round": 24, "timestamp": "2026-03-13T16:34:50.467476", "event_type": "round_end", "actions_count": 0}
+{"round": 25, "timestamp": "2026-03-13T16:34:50.468215", "event_type": "round_start", "simulated_hour": 0}
+{"round": 25, "timestamp": "2026-03-13T16:34:50.468408", "event_type": "round_end", "actions_count": 0}
+{"round": 26, "timestamp": "2026-03-13T16:34:50.468579", "event_type": "round_start", "simulated_hour": 1}
+{"round": 26, "timestamp": "2026-03-13T16:34:50.468717", "event_type": "round_end", "actions_count": 0}
+{"round": 27, "timestamp": "2026-03-13T16:34:50.468913", "event_type": "round_start", "simulated_hour": 2}
+{"round": 27, "timestamp": "2026-03-13T16:34:50.469097", "event_type": "round_end", "actions_count": 0}
+{"round": 28, "timestamp": "2026-03-13T16:34:50.469250", "event_type": "round_start", "simulated_hour": 3}
+{"round": 28, "timestamp": "2026-03-13T16:34:50.469372", "event_type": "round_end", "actions_count": 0}
+{"round": 29, "timestamp": "2026-03-13T16:34:50.469511", "event_type": "round_start", "simulated_hour": 4}
+{"round": 29, "timestamp": "2026-03-13T16:34:50.469632", "event_type": "round_end", "actions_count": 0}
+{"round": 30, "timestamp": "2026-03-13T16:34:50.469770", "event_type": "round_start", "simulated_hour": 5}
+{"round": 30, "timestamp": "2026-03-13T16:34:50.469890", "event_type": "round_end", "actions_count": 0}
+{"timestamp": "2026-03-13T16:34:50.470024", "event_type": "simulation_end", "platform": "reddit", "total_rounds": 30, "total_actions": 14}

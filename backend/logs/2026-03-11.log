@@ -1,0 +1,13 @@
+[2026-03-11 14:58:29] INFO [mirofish.create_app:38] ==================================================
+[2026-03-11 14:58:29] INFO [mirofish.create_app:39] MiroFish Backend 启动中...
+[2026-03-11 14:58:29] INFO [mirofish.create_app:40] ==================================================
+[2026-03-11 14:58:29] INFO [mirofish.create_app:49] 已注册模拟进程清理函数
+[2026-03-11 14:58:29] INFO [mirofish.create_app:77] MiroFish Backend 启动完成
+[2026-03-11 14:58:29] DEBUG [mirofish.request.log_request:55] 请求: GET /api/simulation/history
+[2026-03-11 14:58:29] DEBUG [mirofish.request.log_response:62] 响应: 200
+[2026-03-11 14:59:00] DEBUG [mirofish.request.log_request:55] 请求: GET /api/graph/project/proj_d0d0f0782503
+[2026-03-11 14:59:00] DEBUG [mirofish.request.log_response:62] 响应: 200
+[2026-03-11 14:59:00] DEBUG [mirofish.request.log_request:55] 请求: GET /api/graph/data/mirofish_ea42902b99f24732
+[2026-03-11 14:59:03] DEBUG [mirofish.request.log_response:62] 响应: 500
+[2026-03-11 14:59:08] DEBUG [mirofish.request.log_request:55] 请求: GET /api/simulation/history
+[2026-03-11 14:59:08] DEBUG [mirofish.request.log_response:62] 响应: 200

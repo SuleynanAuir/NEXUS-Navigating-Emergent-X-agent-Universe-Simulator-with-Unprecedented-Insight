@@ -1,0 +1,388 @@
+{
+  "project_id": "proj_242dd95a4ffe",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-03-13T11:15:12.596538",
+  "updated_at": "2026-03-13T11:26:40.010047",
+  "files": [
+    {
+      "filename": "summary_only_20260312_170235.md",
+      "size": 32031
+    }
+  ],
+  "total_text_length": 13870,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Researcher",
+        "description": "Individual conducting academic or industrial research, such as authors of GraphRAG papers or cont...",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the researcher."
+          },
+          {
+            "name": "affiliation",
+            "type": "text",
+            "description": "Institution or organization the researcher is associated with."
+          }
+        ],
+        "examples": [
+          "Edge, D.",
+          "Trinh, H.",
+          "Cheng, N.",
+          "Luo et al.",
+          "Yu et al."
+        ]
+      },
+      {
+        "name": "AcademicInstitution",
+        "description": "University or research institute involved in GraphRAG development or studies.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the academic institution."
+          },
+          {
+            "name": "location",
+            "type": "text",
+            "description": "Geographic location of the institution."
+          }
+        ],
+        "examples": [
+          "Microsoft Research",
+          "University of Washington",
+          "Xiamen University",
+          "The Chinese University of Hong Kong, Shenzhen"
+        ]
+      },
+      {
+        "name": "TechCompany",
+        "description": "Technology firm developing or applying GraphRAG, such as software companies or cloud providers.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the technology company."
+          },
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Primary industry or sector of the company."
+          }
+        ],
+        "examples": [
+          "Microsoft",
+          "Huawei Cloud",
+          "OpenAI"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News organization or blog publishing content about GraphRAG, like CSDN or Sohu.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the media outlet."
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "Type of media, e.g., blog, news website, social media platform."
+          }
+        ],
+        "examples": [
+          "CSDN Blog",
+          "Sohu",
+          "PaperWeekly"
+        ]
+      },
+      {
+        "name": "Developer",
+        "description": "Software engineer or programmer implementing GraphRAG in applications or contributing to open-sou...",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the developer."
+          },
+          {
+            "name": "expertise",
+            "type": "text",
+            "description": "Technical skills or areas of expertise."
+          }
+        ],
+        "examples": [
+          "Contributors to GitHub repositories",
+          "AI application developers"
+        ]
+      },
+      {
+        "name": "IndustryExpert",
+        "description": "Professional with specialized knowledge in fields applying GraphRAG, such as healthcare, finance,...",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the industry expert."
+          },
+          {
+            "name": "field",
+            "type": "text",
+            "description": "Industry or domain of expertise."
+          }
+        ],
+        "examples": [
+          "Medical professionals using GraphRAG for analysis",
+          "Financial analysts"
+        ]
+      },
+      {
+        "name": "Educator",
+        "description": "Teacher or academic instructor discussing or teaching GraphRAG concepts in educational settings.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the educator."
+          },
+          {
+            "name": "institution",
+            "type": "text",
+            "description": "Educational institution where they teach."
+          }
+        ],
+        "examples": [
+          "University professors",
+          "Online course instructors"
+        ]
+      },
+      {
+        "name": "OpenSourceContributor",
+        "description": "Individual contributing to open-source GraphRAG projects on platforms like GitHub.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the contributor."
+          },
+          {
+            "name": "project",
+            "type": "text",
+            "description": "Open-source project they contribute to."
+          }
+        ],
+        "examples": [
+          "GitHub users contributing to microsoft/graphrag",
+          "Open-source developers"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Any individual not fitting into the above specific types, such as general users or commentators.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the person."
+          },
+          {
+            "name": "role",
+            "type": "text",
+            "description": "General role or description."
+          }
+        ],
+        "examples": [
+          "General public users",
+          "Casual commentators on social media"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Any group or entity not covered by specific organizational types, such as small teams or informal...",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organization."
+          },
+          {
+            "name": "purpose",
+            "type": "text",
+            "description": "General purpose or function of the organization."
+          }
+        ],
+        "examples": [
+          "Small research groups",
+          "Temporary project teams"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "WORKS_FOR",
+        "description": "Employment or affiliation relationship between a person and an organization.",
+        "source_targets": [
+          {
+            "source": "Researcher",
+            "target": "AcademicInstitution"
+          },
+          {
+            "source": "Researcher",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Developer",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Educator",
+            "target": "AcademicInstitution"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Cooperative relationship between individuals or organizations on projects or research.",
+        "source_targets": [
+          {
+            "source": "Researcher",
+            "target": "Researcher"
+          },
+          {
+            "source": "AcademicInstitution",
+            "target": "TechCompany"
+          },
+          {
+            "source": "OpenSourceContributor",
+            "target": "OpenSourceContributor"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "PUBLISHES_WITH",
+        "description": "Relationship where an individual or organization publishes content through a media outlet.",
+        "source_targets": [
+          {
+            "source": "Researcher",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "Developer",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "Educator",
+            "target": "MediaOutlet"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "DEVELOPS",
+        "description": "Relationship where an individual or organization creates or contributes to technology or software.",
+        "source_targets": [
+          {
+            "source": "TechCompany",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Developer",
+            "target": "TechCompany"
+          },
+          {
+            "source": "OpenSourceContributor",
+            "target": "TechCompany"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "APPLIES_IN",
+        "description": "Relationship where an individual or organization uses GraphRAG in a specific industry or field.",
+        "source_targets": [
+          {
+            "source": "IndustryExpert",
+            "target": "TechCompany"
+          },
+          {
+            "source": "AcademicInstitution",
+            "target": "IndustryExpert"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "TEACHES",
+        "description": "Educational relationship where an educator instructs others on GraphRAG topics.",
+        "source_targets": [
+          {
+            "source": "Educator",
+            "target": "Person"
+          },
+          {
+            "source": "Educator",
+            "target": "Developer"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COMMENTS_ON",
+        "description": "Interaction where an individual provides feedback or opinions on content or developments.",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "Researcher",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Developer",
+            "target": "AcademicInstitution"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Relationship where an individual or organization endorses or promotes GraphRAG technologies.",
+        "source_targets": [
+          {
+            "source": "TechCompany",
+            "target": "AcademicInstitution"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Researcher"
+          },
+          {
+            "source": "Person",
+            "target": "TechCompany"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "文本内容聚焦于GraphRAG技术的发展、应用和研究，涉及多个实体如研究人员、学术机构、科技公司、媒体等。设计实体类型时，提取了关键角色如Researcher、AcademicInstitution、TechCompany等，并确保所有类型均为可发声的现实主体。关系类型反映了社交媒体互动中的合作、发布、应用等联系，适合舆论模拟场景。",
+  "graph_id": "nexus_9e1325b20aa44687",
+  "graph_build_task_id": "716db01e-23e7-4bb1-8d64-c613722070f7",
+  "simulation_requirement": "未来GraphRAG的发展趋势是什么？有什么领域可以被快速推进的？",
+  "focus_entities": null,
+  "focus_events": null,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

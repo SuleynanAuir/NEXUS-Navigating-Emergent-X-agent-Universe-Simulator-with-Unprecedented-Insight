@@ -1,0 +1,366 @@
+{
+  "project_id": "proj_e580f4cd5da5",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-03-06T10:14:26.652322",
+  "updated_at": "2026-03-06T10:21:25.389902",
+  "files": [
+    {
+      "filename": "report_20260305_205325.md",
+      "size": 7957
+    }
+  ],
+  "total_text_length": 3195,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "ProfessionalPlayer",
+        "description": "Professional esports player competing in leagues like LCK, can be active on social media",
+        "attributes": [
+          {
+            "name": "player_name",
+            "type": "text",
+            "description": "Full name or gaming handle of the player"
+          },
+          {
+            "name": "position",
+            "type": "text",
+            "description": "In-game role (e.g., Top, Jungle, Mid, ADC, Support)"
+          }
+        ],
+        "examples": [
+          "Zeus",
+          "Kanavi",
+          "Gumayusi"
+        ]
+      },
+      {
+        "name": "EsportsTeam",
+        "description": "Professional esports organization competing in leagues, with official social media accounts",
+        "attributes": [
+          {
+            "name": "team_name",
+            "type": "text",
+            "description": "Official name of the esports team"
+          },
+          {
+            "name": "league",
+            "type": "text",
+            "description": "Primary league the team competes in (e.g., LCK)"
+          }
+        ],
+        "examples": [
+          "Hanwha Life Esports (HLE)",
+          "T1",
+          "Gen.G"
+        ]
+      },
+      {
+        "name": "Coach",
+        "description": "Head coach or coaching staff of an esports team, involved in strategy and public statements",
+        "attributes": [
+          {
+            "name": "coach_name",
+            "type": "text",
+            "description": "Full name of the coach"
+          },
+          {
+            "name": "team_affiliation",
+            "type": "text",
+            "description": "Team the coach is currently affiliated with"
+          }
+        ],
+        "examples": [
+          "Homme"
+        ]
+      },
+      {
+        "name": "Analyst",
+        "description": "Esports analyst or commentator providing insights on matches and teams, active on media",
+        "attributes": [
+          {
+            "name": "analyst_name",
+            "type": "text",
+            "description": "Full name or professional alias of the analyst"
+          },
+          {
+            "name": "specialization",
+            "type": "text",
+            "description": "Area of expertise (e.g., LCK, team strategy)"
+          }
+        ],
+        "examples": [
+          "LCK专业电竞分析师"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News or media organization reporting on esports events, with social media presence",
+        "attributes": [
+          {
+            "name": "outlet_name",
+            "type": "text",
+            "description": "Name of the media outlet (e.g., website, channel)"
+          },
+          {
+            "name": "coverage_focus",
+            "type": "text",
+            "description": "Primary focus of coverage (e.g., esports, LCK)"
+          }
+        ],
+        "examples": [
+          "Esports news website",
+          "LCK broadcast channel"
+        ]
+      },
+      {
+        "name": "FanGroup",
+        "description": "Organized group of fans supporting a team or player, active on social platforms",
+        "attributes": [
+          {
+            "name": "group_name",
+            "type": "text",
+            "description": "Name of the fan group or community"
+          },
+          {
+            "name": "supported_entity",
+            "type": "text",
+            "description": "Team or player the group supports"
+          }
+        ],
+        "examples": [
+          "HLE fan club",
+          "Gumayusi粉丝团"
+        ]
+      },
+      {
+        "name": "TournamentOrganizer",
+        "description": "Organization that runs esports tournaments and leagues, with official communications",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organizing body"
+          },
+          {
+            "name": "event_type",
+            "type": "text",
+            "description": "Type of events organized (e.g., LCK, Worlds)"
+          }
+        ],
+        "examples": [
+          "LCK league organizers",
+          "Riot Games"
+        ]
+      },
+      {
+        "name": "Sponsor",
+        "description": "Company or brand sponsoring esports teams or events, with marketing accounts",
+        "attributes": [
+          {
+            "name": "sponsor_name",
+            "type": "text",
+            "description": "Name of the sponsoring company"
+          },
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Industry of the sponsor (e.g., insurance, tech)"
+          }
+        ],
+        "examples": [
+          "Hanwha Life Insurance",
+          "Other brand sponsors"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Any individual not covered by more specific types, such as casual fans or general public",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the individual"
+          },
+          {
+            "name": "role_description",
+            "type": "text",
+            "description": "Brief description of their role or identity"
+          }
+        ],
+        "examples": [
+          "普通网友",
+          "路人甲"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Any organization not covered by more specific types, such as small groups or temporary entities",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organization"
+          },
+          {
+            "name": "purpose",
+            "type": "text",
+            "description": "Brief description of the organization's purpose"
+          }
+        ],
+        "examples": [
+          "临时讨论组",
+          "小型电竞社区"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "PLAYS_FOR",
+        "description": "Player is a member of an esports team",
+        "source_targets": [
+          {
+            "source": "ProfessionalPlayer",
+            "target": "EsportsTeam"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COACHES",
+        "description": "Coach leads or trains an esports team",
+        "source_targets": [
+          {
+            "source": "Coach",
+            "target": "EsportsTeam"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ANALYZES",
+        "description": "Analyst provides analysis or commentary on teams or players",
+        "source_targets": [
+          {
+            "source": "Analyst",
+            "target": "EsportsTeam"
+          },
+          {
+            "source": "Analyst",
+            "target": "ProfessionalPlayer"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media outlet reports news or events related to esports entities",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "EsportsTeam"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "ProfessionalPlayer"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "TournamentOrganizer"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Fan group or individual supports a team or player",
+        "source_targets": [
+          {
+            "source": "FanGroup",
+            "target": "EsportsTeam"
+          },
+          {
+            "source": "FanGroup",
+            "target": "ProfessionalPlayer"
+          },
+          {
+            "source": "Person",
+            "target": "EsportsTeam"
+          },
+          {
+            "source": "Person",
+            "target": "ProfessionalPlayer"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ORGANIZES",
+        "description": "Tournament organizer runs events involving teams",
+        "source_targets": [
+          {
+            "source": "TournamentOrganizer",
+            "target": "EsportsTeam"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SPONSORS",
+        "description": "Sponsor provides financial or material support to a team or event",
+        "source_targets": [
+          {
+            "source": "Sponsor",
+            "target": "EsportsTeam"
+          },
+          {
+            "source": "Sponsor",
+            "target": "TournamentOrganizer"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "CRITICIZES",
+        "description": "Entity expresses criticism or negative opinion about another entity",
+        "source_targets": [
+          {
+            "source": "Analyst",
+            "target": "EsportsTeam"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "ProfessionalPlayer"
+          },
+          {
+            "source": "Person",
+            "target": "Coach"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Entities work together, such as in partnerships or joint events",
+        "source_targets": [
+          {
+            "source": "EsportsTeam",
+            "target": "Sponsor"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "TournamentOrganizer"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "文本内容聚焦于HLE战队在LCK联赛的表现分析，涉及选手、战队、教练、分析师、媒体、粉丝等多方实体。基于此，设计了8个具体实体类型（如ProfessionalPlayer、EsportsTeam）以覆盖关键发声主体，并包含2个兜底类型（Person、Organization）处理未明确分类的个体和组织。关系类型（如PLAYS_FOR、SUPPORTS）模拟社交媒体上的互动和影响，支持舆论传播模拟。",
+  "graph_id": "nexus_39abee6e5b3849cf",
+  "graph_build_task_id": "7cc8689e-7579-4006-9d62-063b9f2d2551",
+  "simulation_requirement": "您是一位专注于英雄联盟LCK联赛的专业电竞分析师。\r\n\r\n您的任务是预测韩华生命电竞（HLE）在2026赛季LCK联赛中的表现。\r\n\r\n请使用以下框架进行结构化分析，并撰写预测报告。\r\n\r\n1. 战队阵容评估\r\n\r\n分析HLE目前的阵容，包括以下几个方面：\r\n\r\n- 个人操作能力\r\n\r\n- 英雄池的灵活性\r\n\r\n- 宏观决策能力\r\n\r\n- 队员间的配合\r\n\r\n请分别评估以下位置：\r\n\r\n上单 / 打野 / 中单 / ADC / 辅助。\r\n\r\n2. LCK联赛竞争环境\r\n\r\n分析其他LCK强队的实力，并与HLE进行比较。\r\n\r\n考虑以下队伍：\r\n\r\n- T1\r\n\r\n- Gen.G\r\n\r\n- Dplus KIA\r\n\r\n- KT Rolster\r\n\r\n解释HLE的阵容与这些竞争对手相比如何。\r\n\r\n3. 版本适应性\r\n\r\n预测 HLE 在 2026 年可能的版本环境中表现：\r\n\r\n- 核心打野版本\r\n\r\n- 上单核心版本\r\n\r\n- 下路超核心版本\r\n\r\n- 以目标为导向的宏观版本\r\n\r\n评估 HLE 的阵容配置是否能从这些版本中受益。\r\n\r\n4. 常规赛预测\r\n\r\n提供常规赛战绩预测：\r\n\r\n- 预期胜负记录\r\n\r\n- LCK 联赛排名预测\r\n\r\n- 常规赛期间的优势和劣势。\r\n\r\n5. 季后赛预测\r\n\r\n预测：\r\n\r\n- 季后赛种子排名\r\n\r\n- 进入决赛的概率\r\n\r\n- 赢得 LCK 联赛冠军的概率。\r\n\r\n提供概率百分比。\r\n\r\n6. 国际赛事预测\r\n\r\n如果 HLE 获得国际赛事参赛资格，预测他们在以下赛事中的表现：\r\n\r\n- 季中邀请赛 (MSI)\r\n\r\n- 全球总决赛 (Worlds)\r\n\r\n提供以下各项的概率预测：\r\n\r\n冠军 / 决赛 / 半决赛 / 四分之一决赛。\r\n\r\n7. 关键风险因素\r\n\r\n找出可能对HLE表现产生重大影响的三个最重要变量：\r\n\r\n- 团队协同效应\r\n\r\n- 战术变化\r\n\r\n- 球员稳定性\r\n\r\n- 教练策略\r\n\r\n8. 总结\r\n\r\n简明扼要地总结HLE在2026赛季的合理上限和下限。",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

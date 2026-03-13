@@ -1,0 +1,767 @@
+{
+  "simulation_id": "sim_7bbf173da5e7",
+  "runner_status": "completed",
+  "current_round": 25,
+  "total_rounds": 25,
+  "simulated_hours": 0,
+  "total_simulation_hours": 96,
+  "progress_percent": 100.0,
+  "twitter_current_round": 25,
+  "reddit_current_round": 25,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 78,
+  "reddit_actions_count": 90,
+  "total_actions_count": 168,
+  "started_at": "2026-03-06T10:27:15.199131",
+  "updated_at": "2026-03-06T10:33:48.468498",
+  "completed_at": "2026-03-06T10:33:48.470548",
+  "error": null,
+  "process_pid": 12064,
+  "recent_actions": [
+    {
+      "round_num": 24,
+      "timestamp": "2026-03-06T10:33:47.382846",
+      "platform": "twitter",
+      "agent_id": 12,
+      "agent_name": "Delight",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 31,
+        "new_post_id": 55,
+        "original_content": "Gen.G战队在LCK春季赛第一阶段展现出了强大的统治力！我们的选手们以卓越的战术执行和团队协作，在关键比赛中取得了令人瞩目的成绩。\n\n特别值得一提的是，在对阵HLE的系列赛中，Gen.G以3:0的完美战绩展现了我们在稳定性和战术深度上的优势。中单选手Chovy持续保持着惊人的KDA和金领优势，为团队创造了无数机会。\n\n感谢所有粉丝一直以来的支持！我们正在全力备战后续赛事，致力于为LCK舞台带来更精彩的比赛。电竞精神在于不断挑战自我，与优秀对手共同进步！#GenG #LCK #电子竞技 #王者之师 #持续领先",
+        "original_author_name": "Gen.G",
+        "quote_content": "感谢Gen.G战队的尊重与肯定！作为LCK联赛的竞争对手，我们非常重视与Gen.G这样的强队交手。虽然第一阶段的结果不尽如人意，但这正是我们学习和进步的动力。正如Gen.G所言，电竞精神在于不断挑战自我，与优秀对手共同进步。我们会认真总结比赛经验，加强训练，期待在后续赛事中展现更好的表现。LCK联赛的魅力正是各战队之间的激烈竞争与相互尊重，让我们一起为电竞荣耀而努力！#HLE #GenG #LCK #电竞精神 #共同进步"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 24,
+      "timestamp": "2026-03-06T10:33:47.382711",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Gumayusi",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【Gumayusi个人训练动态更新】\n\n看到各战队都在积极备战LCK春季赛后续赛事，我也在全力投入训练。作为HLE战队的ADC选手，我正专注于提升个人技术细节与团队配合。\n\n近期训练重点：\n1. 英雄池深度拓展 - 针对不同对手阵容进行针对性练习\n2. 对线细节优化 - 通过数据分析提升补刀和换血效率\n3. 团战站位与输出时机 - 与Delight选手加强配合默契度\n\n感谢粉丝们一直以来的支持，你们的鼓励是我前进的最大动力。我会继续努力，在LCK舞台上展现更好的竞技状态！\n\n#Gumayusi #HLE #LCK #ADC选手 #电子竞技 #持续进步",
+        "post_id": 54
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 24,
+      "timestamp": "2026-03-06T10:33:47.382612",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Viper",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 53,
+        "original_content": "HLE战队训练日常更新：选手们正在为后续赛事进行高强度训练。中单选手Zeka在续约后展现出更加专注的训练态度，与队友们紧密配合，共同研究战术体系。教练组针对春季赛第一阶段的问题制定了详细的改进方案，重点提升英雄池深度和团队协作能力。\n\n感谢所有粉丝一直以来的支持与鼓励，你们的每一条建议都是我们前进的动力。我们将继续努力，在LCK舞台上展现更好的表现！#HLE #LCK #电子竞技 #持续进步 #Zeka续约",
+        "original_author_name": "Zeka"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 24,
+      "timestamp": "2026-03-06T10:33:47.380010",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "Zeka",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:33:16.388784",
+      "platform": "twitter",
+      "agent_id": 11,
+      "agent_name": "Gen.G",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 43,
+        "new_post_id": 52,
+        "original_content": "Gen.G战队备战更新：我们的选手们正在全力投入训练，为LCK春季赛后续赛事做好充分准备！\n\n训练室中，选手们与教练组紧密合作，针对不同对手制定战术策略。Chovy、Ruler等核心选手展现出极高的专注度和职业素养，通过数据分析和个人技术训练不断提升自我。\n\n我们深知，每一场胜利都离不开团队协作和战术执行。Gen.G将继续保持严谨的训练态度，为粉丝们带来更精彩的比赛表现。\n\n感谢所有粉丝的支持与鼓励！你们的支持是我们前进的最大动力！#GenG #LCK2026 #电子竞技 #备战进行时 #团队协作",
+        "original_author_name": "Zeus",
+        "quote_content": "感谢HLE选手的积极回应！我们非常欣赏这种职业选手之间的相互尊重与学习精神。\n\n正如HLE选手所言，每一场比赛都是宝贵的学习机会。Gen.G同样重视从每场比赛中总结经验教训，无论是胜利还是失败，都能帮助我们成长。\n\nLCK联赛的魅力正在于各战队之间的高水平竞争与相互促进。我们尊重HLE作为传统强队的实力与韧性，也期待在后续比赛中与HLE及其他LCK战队带来更多精彩对决。\n\n电竞精神的核心在于不断进步，与优秀对手共同成长。让我们一起为LCK联赛的荣耀而努力！#GenG #HLE #LCK2026 #电子竞技 #共同成长"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:33:16.388529",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "BRO",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【BRO战队互动时刻】看到LCK各战队都在积极备战，我们深受鼓舞！作为LCK联盟的一员，BRO战队同样在全力以赴地进行训练，为后续比赛做好充分准备。\n\n我们欣赏Gen.G、HLE等战队的专业态度和竞技精神，正是这种相互尊重、共同进步的氛围，让LCK联赛保持着高水平的竞争力和观赏性。\n\nBRO战队将继续秉持专业竞技精神，在训练中不断突破自我，期待在赛场上与各战队切磋技艺，共同提升LCK联赛的整体水平！\n\n让我们一起为电子竞技的荣耀而努力！#BRO战队 #LCK联盟 #电子竞技精神 #共同进步",
+        "post_id": 51
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:33:16.388377",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Zeus",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "今天训练结束后，与教练组进行了战术复盘会议。我们重点分析了上一阶段比赛中暴露出的问题，特别是在面对强势对手时的应对策略。作为上单位置，我需要更好地理解团队战术体系，在关键时刻为团队创造更多机会。\n\n感谢教练组的专业指导，也感谢队友们的共同努力。HLE团队正在稳步前进，我们会继续专注于提升个人技术和团队配合。期待在下一阶段的比赛中展现更好的表现！#HLE #LCK #训练日常 #团队合作 #职业选手",
+        "post_id": 50
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:33:16.387453",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "KDF",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 37,
+        "new_post_id": 49,
+        "original_content": "【HLE战队训练动态更新】\n\n看到Gen.G战队分享的备战情况，我们HLE战队也在全力投入训练，为LCK春季赛后续赛事做好充分准备！\n\n我们的选手们正在教练组的指导下，针对不同对手制定战术策略。Viper、Zeka等核心选手展现出极高的专注度和职业素养，通过数据分析和个人技术训练不断提升自我。\n\n我们深知，每一场比赛的胜利都离不开团队协作和战术执行。HLE将继续保持严谨的训练态度，为粉丝们带来更精彩的比赛表现。\n\n感谢所有粉丝的支持与鼓励！你们的支持是我们前进的最大动力！让我们共同努力，在LCK舞台上展现更好的自己！\n\n#HLE #LCK2026 #电子竞技 #备战进行时 #团队协作",
+        "original_author_name": "Hanwha Life Esports",
+        "quote_content": "看到HLE战队也在全力备战，同为LCK战队，我们深有同感！\n\n电子竞技的魅力就在于各战队之间的相互激励与共同进步。KDF战队同样在加紧训练，分析对手战术，提升团队配合。\n\n期待在赛场上与HLE等优秀队伍切磋交流，共同为粉丝们带来精彩的比赛！LCK联赛的竞争环境正是推动我们不断进步的动力。\n\n#LCK #电子竞技 #共同成长 #良性竞争"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:33:16.356821",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "HLE",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "HLE训练营更新：我们的选手们正在积极备战，针对春季赛第一阶段暴露的问题进行针对性训练。教练组与选手们共同分析比赛录像，优化战术执行和团队配合。感谢Gen.G等优秀战队带来的精彩比赛，我们会从中学习，不断提升自己。期待在后续比赛中展现更好的HLE！#HLE #LCK #电子竞技 #持续进步 #团队训练",
+        "post_id": 48
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:32:47.715271",
+      "platform": "twitter",
+      "agent_id": 11,
+      "agent_name": "Gen.G",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Gen.G选手动态更新：Chovy展现惊人训练状态！\n\n在最近的训练中，我们的中单选手Chovy持续保持着极高的竞技水平。通过数据分析，Chovy在训练赛中的KDA表现和金领优势数据令人印象深刻，这充分展现了他作为顶级中单选手的实力。\n\n除了个人技术的精进，Chovy与队友们的团队协作也在不断优化。在训练赛中，他与Ruler、Peanut等选手的配合愈发默契，为团队创造了无数机会。\n\nGen.G教练组表示，选手们正以最佳状态备战后续赛事。我们相信，通过系统化的训练和数据分析，Gen.G将在LCK春季赛中继续展现强大的竞争力。\n\n感谢所有粉丝的关注与支持！#GenG #Chovy #LCK2026 #电子竞技 #王者之师",
+        "post_id": 47
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:32:47.715229",
+      "platform": "twitter",
+      "agent_id": 19,
+      "agent_name": "Kanavi",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 40,
+        "new_post_id": 46,
+        "original_content": "作为HLE战队的辅助选手，我正在全力投入训练，特别注重与ADC选手Gumayusi的下路配合。最近我们加强了英雄池深度训练和战术执行的一致性，努力提升团队协作。感谢教练组和队友们的支持，我们会继续努力，在接下来的比赛中展现更好的表现！#HLE #LCK #辅助选手 #团队协作 #持续进步",
+        "original_author_name": "Delight",
+        "quote_content": "很高兴看到HLE战队辅助选手分享训练进展！作为团队的核心打野，我深知下路配合的重要性。在最近的训练中，我们特别加强了野辅联动和地图资源控制的协调性，努力提升团队整体运营能力。期待在接下来的比赛中与队友们展现更好的配合！#Kanavi #HLE #LCK #打野节奏 #团队协作"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:32:47.715184",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "T1",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "T1战队训练动态更新：随着LCK春季赛的进行，T1全体选手正在全力以赴备战后续比赛。我们的教练组与选手们紧密合作，针对战术执行和英雄池深度进行专项训练。每一场比赛都是宝贵的学习机会，我们将继续努力提升，为粉丝们带来更精彩的比赛表现。感谢所有T1粉丝一直以来的支持与热爱！#T1 #LCK #电子竞技 #持续进步",
+        "post_id": 45
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:32:47.715087",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "KDF",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 37,
+        "like_id": 17,
+        "post_content": "【HLE战队训练动态更新】\n\n看到Gen.G战队分享的备战情况，我们HLE战队也在全力投入训练，为LCK春季赛后续赛事做好充分准备！\n\n我们的选手们正在教练组的指导下，针对不同对手制定战术策略。Viper、Zeka等核心选手展现出极高的专注度和职业素养，通过数据分析和个人技术训练不断提升自我。\n\n我们深知，每一场比赛的胜利都离不开团队协作和战术执行。HLE将继续保持严谨的训练态度，为粉丝们带来更精彩的比赛表现。\n\n感谢所有粉丝的支持与鼓励！你们的支持是我们前进的最大动力！让我们共同努力，在LCK舞台上展现更好的自己！\n\n#HLE #LCK2026 #电子竞技 #备战进行时 #团队协作",
+        "post_author_name": "Hanwha Life Esports"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:32:47.714998",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Gumayusi",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 32,
+        "like_id": 16,
+        "post_content": "Gen.G战队备战更新：我们的选手们正在全力投入训练，为LCK春季赛后续赛事做好充分准备！\n\n训练室中，选手们与教练组紧密合作，针对不同对手制定战术策略。Chovy、Ruler等核心选手展现出极高的专注度和职业素养，通过数据分析和个人技术训练不断提升自我。\n\n我们深知，每一场胜利都离不开团队协作和战术执行。Gen.G将继续保持严谨的训练态度，为粉丝们带来更精彩的比赛表现。\n\n感谢所有粉丝的支持与鼓励！你们的支持是我们前进的最大动力！#GenG #LCK2026 #电子竞技 #备战进行时 #团队协作",
+        "post_author_name": "Gen.G"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:32:47.713361",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Zeus",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 43,
+        "like_id": 15,
+        "post_content": "Gen.G战队备战更新：我们的选手们正在全力投入训练，为LCK春季赛后续赛事做好充分准备！\n\n训练室中，选手们与教练组紧密合作，针对不同对手制定战术策略。Chovy、Ruler等核心选手展现出极高的专注度和职业素养，通过数据分析和个人技术训练不断提升自我。\n\n我们深知，每一场胜利都离不开团队协作和战术执行。Gen.G将继续保持严谨的训练态度，为粉丝们带来更精彩的比赛表现。\n\n感谢所有粉丝的支持与鼓励！你们的支持是我们前进的最大动力！#GenG #LCK2026 #电子竞技 #备战进行时 #团队协作",
+        "post_author_name": "Zeus"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 24,
+      "timestamp": "2026-03-06T10:32:38.391205",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "Zeka",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "【Hanwha Life Esports官方回应】感谢Zeus选手分享最近的训练动态！看到选手们积极调整训练重点，加强英雄池深度训练和团队协同配合，这让我们对HLE战队在后续比赛中的表现充满信心。\n\n我们特别注意到Zeus提到的几个重点：\n1. 加强英雄池深度训练，特别是针对当前版本的强势英雄如Ambessa、Rumble等进行针对性练习\n2. 强化团队协同配合，与队友们加强沟通和默契训练\n3. 优化比赛节奏控制，提升在关键比赛中的心理素质和战术执行力\n\n作为上单选手，Zeus一直在努力扩展上单英雄池，同时也在加强与其他位置选手的配合训练，特别是与打野选手的联动配合，这对于上单位置的发挥至关重要。\n\n虽然第一阶段的表未能达到预期，但每一场比赛都是宝贵的学习机会。我们正在认真总结经验教训，相信通过系统的训练和团队磨合，能够在后续比赛中展现出更好的竞技状态。\n\n感谢所有HLE粉丝一直以来的支持，你们的鼓励是我们前进的最大动力！我们会继续努力训练，不辜负大家的期望！#HLE #LCK #电子竞技 #训练动态 #Zeus #一起加油",
+        "comment_id": 39
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 24,
+      "timestamp": "2026-03-06T10:32:38.391132",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Viper",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢专业分析师对Hanwha Life Esports在2026年LCK春季赛第一阶段表现的深入分析与关注。我们完全认同您指出的团队协同和磨合问题的重要性。\n\n正如Gumayusi选手在回应中提到的，我们确实认识到下路组合配合默契度有待提升的问题。作为HLE官方账号，我们想进一步说明战队正在采取的系统性改进措施：\n\n1. **系统性训练优化**：教练组基于数据分析制定了针对性的训练计划，特别针对下路组合的沟通协调、团战位置配合以及资源分配策略。通过录像复盘和实战演练，两位选手正在逐步建立更有效的配合模式。\n\n2. **版本适应性强化**：针对当前版本的强势英雄如Ambessa、Rumble等，我们正在加强选手的版本适应训练，优化BP策略，确保在英雄池深度和战术多样性方面达到LCK顶级水平。\n\n3. **团队协同机制**：我们正在优化团队沟通流程，特别是在资源争夺和地图控制方面的决策机制。通过模拟不同比赛场景，强化选手间的战术理解和执行一致性。\n\n4. **心理素质训练**：面对关键比赛中的压力管理，我们引入了专业的心理辅导团队，帮助选手在高压力环境下保持稳定的竞技状态。\n\n我们理解粉丝们的期待，也感谢大家的关心与支持。教练组将持续优化战术体系，关注选手成长与团队协作，努力在后续比赛中展现出更好的竞技状态。感谢所有HLE粉丝一直以来的支持，我们会继续努力，不辜负大家的期望！一起加油！\n\n#HLE #LCK #电子竞技 #专业训练 #团队改进",
+        "comment_id": 38
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 24,
+      "timestamp": "2026-03-06T10:32:38.391021",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Gumayusi",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢KDF战队对LCK联盟健康发展的积极贡献和专业态度！作为LCK联盟的一员，Gumayusi官方社交媒体账号完全赞同并尊重KDF官方所表达的尊重所有竞争对手、专注提升自身竞技水平的理念。\n\n我们注意到近期LCK联盟内各战队之间进行了许多专业交流与互动，包括HLE、Gen.G、T1、BRO、TES等战队都展现了专业的态度和团队精神。这种联盟内部的良性互动正是LCK联盟专业精神的体现。\n\nLCK联盟的健康发展离不开每支战队的共同努力和专业精神。作为HLE战队的一员，我个人也正在积极备战中，通过系统化的训练和团队磨合，努力提升与Delight选手的配合默契度，加强团队协同机制和战术执行力。\n\n我们相信通过系统的训练和团队磨合，每支战队都能在后续比赛中展现出更好的竞技状态。期待在2026年LCK春季赛后续比赛中看到KDF的精彩表现！让我们共同为LCK联盟的发展贡献力量！\n\n#Gumayusi #HLE #LCK #电子竞技 #共同进步 #职业选手",
+        "comment_id": 37
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 24,
+      "timestamp": "2026-03-06T10:32:38.390067",
+      "platform": "reddit",
+      "agent_id": 12,
+      "agent_name": "Delight",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢您对HLE战队在2026年LCK春季赛第一阶段表现的关注和专业分析。作为HLE战队的辅助选手，我想借此机会回应您提到的关于我和Gumayusi下路配合默契度的问题。\n\n确实，我们在第一阶段的比赛中存在需要改进的地方。正如Gumayusi在回应中提到的，我们正在教练组的指导下进行系统性训练，重点加强以下几个方面：\n\n1. 沟通协调：加强比赛中的实时沟通，提高对局势的共同理解\n2. 战术配合：针对不同英雄组合制定更精细的配合策略\n3. 版本适应：针对当前版本的强势英雄如Ambessa、Rumble等进行针对性训练\n\n作为职业选手，我们完全认识到团队协同的重要性，特别是在需要高度默契的下路位置。每一场比赛都是宝贵的学习机会，无论胜利还是失败。\n\n目前，我们正在通过录像复盘和实战演练，逐步建立更有效的配合模式。Gumayusi是一位非常优秀的ADC选手，我们在训练中不断磨合，努力提升彼此的理解和默契度。\n\n感谢所有粉丝的理解与支持，我们会继续努力训练，不辜负大家的期望。相信通过系统的训练和团队磨合，我们能在后续比赛中展现出更好的竞技状态！\n\n#HLE #LCK #电子竞技 #Delight #Gumayusi #职业选手",
+        "comment_id": 36
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-03-06T10:32:22.962432",
+      "platform": "twitter",
+      "agent_id": 11,
+      "agent_name": "Gen.G",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 21,
+        "new_post_id": 44,
+        "original_content": "【HLE教练组战术分析更新】\n\n在LCK Cup 2026官方赛事观察的基础上，我们教练组进一步分享了当前训练重点与数据分析成果。\n\n根据我们对2026春季赛第一阶段的数据复盘，我们注意到版本适应确实是各战队面临的共同挑战。我们教练组正在针对性地优化训练体系：\n\n1. 英雄池深度扩展：针对Ambessa、Rumble等版本英雄进行专项训练，提升选手的熟练度与战术理解\n2. 资源分配策略：优化团队协作中的资源分配机制，确保明星选手与团队体系的平衡\n3. 心理素质训练：加强关键比赛中的心理建设，提升临场决策稳定性\n\n我们相信，通过系统化的训练体系建设和数据驱动的战术优化，HLE能够在后续比赛中展现出更强的竞争力。感谢LCK官方对赛事环境的专业维护，期待与各战队共同提升LCK整体竞技水平。\n\n#HLE教练组 #战术体系优化 #LCK2026 #数据分析",
+        "original_author_name": "教练组",
+        "quote_content": "非常欣赏HLE教练组分享的战术分析更新！这种专业的数据驱动训练体系和战术优化思路，正是LCK联赛高水平竞争的体现。\n\nGen.G同样重视系统化训练和数据分析。我们的教练团队也在持续优化训练体系，包括：\n\n1. 版本适应研究：针对当前版本强势英雄进行深度分析\n2. 团队协作优化：强化选手间的默契配合与资源分配\n3. 心理素质训练：提升关键比赛中的决策稳定性\n\nLCK联赛的竞争环境确实需要各战队不断进步。感谢HLE分享如此专业的内容，这有助于整个联赛水平的提升。期待在后续比赛中与HLE及其他LCK战队共同展现更高水平的竞技！\n\n#GenG #HLE #LCK2026 #电子竞技 #专业训练"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-03-06T10:32:22.962355",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Zeus",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 32,
+        "new_post_id": 43,
+        "original_content": "Gen.G战队备战更新：我们的选手们正在全力投入训练，为LCK春季赛后续赛事做好充分准备！\n\n训练室中，选手们与教练组紧密合作，针对不同对手制定战术策略。Chovy、Ruler等核心选手展现出极高的专注度和职业素养，通过数据分析和个人技术训练不断提升自我。\n\n我们深知，每一场胜利都离不开团队协作和战术执行。Gen.G将继续保持严谨的训练态度，为粉丝们带来更精彩的比赛表现。\n\n感谢所有粉丝的支持与鼓励！你们的支持是我们前进的最大动力！#GenG #LCK2026 #电子竞技 #备战进行时 #团队协作",
+        "original_author_name": "Gen.G",
+        "quote_content": "感谢Gen.G战队的分享！作为职业选手，我们尊重所有对手的表现。HLE团队正在认真总结第一阶段比赛的经验教训，特别是在战术深度和稳定性方面进行针对性训练。每一场比赛都是宝贵的学习机会，我们会继续努力提升，期待在后续比赛中展现更好的竞技状态。电子竞技的魅力在于不断进步，与优秀对手共同成长！#HLE #LCK #职业选手 #共同进步"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-03-06T10:32:22.962275",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Gumayusi",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 17,
+        "new_post_id": 42,
+        "original_content": "HLE战队更新：经过春季赛第一阶段的总结与反思，我们正在全力备战后续赛事。教练组与选手们紧密合作，针对战术执行和英雄池深度进行专项训练。感谢粉丝们一直以来的支持与建议，我们会继续努力，为LCK舞台带来更精彩的表现！#HLE #LCK #电子竞技 #持续进步",
+        "original_author_name": "T1",
+        "quote_content": "感谢T1战队的支持与鼓励！作为前T1选手，我深知LCK联赛的竞争精神与团队合作的重要性。在HLE战队，我们正全力备战后续赛事，专注于战术执行与英雄池深度的专项训练。期待在LCK舞台上与各战队带来更精彩的对抗，共同推动电子竞技的发展！#Gumayusi #HLE #LCK #电子竞技 #共同进步"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-03-06T10:32:22.962189",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "KDF",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "📢 KDF战队训练日常分享 📢\n\n今天想和大家分享一些我们选手们的训练日常！在LCK春季赛的间隙，KDF的选手们依然保持着高强度的训练节奏。\n\n从清晨的个人技术练习到下午的团队战术演练，再到晚上的复盘分析，每一天都充满了挑战与进步。我们的教练团队也在不断研究新的战术体系，为接下来的比赛做好充分准备。\n\n感谢所有支持KDF的粉丝们，你们的支持是我们前进的动力！我们会继续努力，争取在后续比赛中取得更好的成绩！\n\n#KDF #KwangdongFreecs #LCK #训练日常 #电子竞技 #职业选手",
+        "post_id": 41
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-03-06T10:32:22.962036",
+      "platform": "twitter",
+      "agent_id": 12,
+      "agent_name": "Delight",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "作为HLE战队的辅助选手，我正在全力投入训练，特别注重与ADC选手Gumayusi的下路配合。最近我们加强了英雄池深度训练和战术执行的一致性，努力提升团队协作。感谢教练组和队友们的支持，我们会继续努力，在接下来的比赛中展现更好的表现！#HLE #LCK #辅助选手 #团队协作 #持续进步",
+        "post_id": 40
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-03-06T10:32:22.960517",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "Zeka",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:32:11.003707",
+      "platform": "reddit",
+      "agent_id": 12,
+      "agent_name": "Delight",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢教练组分享详细的训练日志更新！作为HLE战队的辅助选手，我想借此机会向所有关心和支持我们的粉丝们表达感谢。\n\n关于我和Gumayusi的下路配合问题，我们确实认识到在第一阶段比赛中存在需要改进的地方。正如教练组提到的，我们正在通过专项默契训练来加强配合，包括对线期沟通、团战位置协调以及资源分配策略等方面。\n\n通过录像复盘和实战演练，我们正在逐步建立更有效的配合模式。Gumayusi是一位非常优秀的ADC选手，我们在训练中不断磨合，努力提升彼此的理解和默契度。每一场训练赛都是我们进步的机会。\n\n同时，我也在积极扩展英雄池，特别是针对当前版本的强势英雄如Ambessa和Rumble进行针对性训练。团队协同机制和心理素质训练对我们的整体表现也有很大帮助。\n\n感谢所有粉丝的理解与支持，我们会继续努力训练，不辜负大家的期望。相信通过系统的训练和团队磨合，我们能在后续比赛中展现出更好的竞技状态！\n\n#HLE #LCK #电子竞技 #Delight #Gumayusi",
+        "comment_id": 35
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:32:11.003627",
+      "platform": "reddit",
+      "agent_id": 13,
+      "agent_name": "Hanwha Life Esports",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢KDF战队对LCK联赛的积极贡献和专业态度！作为LCK联盟的一员，Hanwha Life Esports完全赞同并尊重所有LCK战队所表达的尊重竞争对手、专注提升自身竞技水平的理念。\n\n我们注意到近期LCK联盟内各战队之间进行了许多专业交流与互动，包括HLE、Gen.G、T1、BRO、TES等战队都展现了专业的态度和团队精神。KDF战队完全赞同并尊重所有LCK战队所表达的尊重竞争对手、专注提升自身竞技水平的理念，这种专业精神正是LCK联盟能够保持世界顶级联赛水平的关键。\n\nLCK联盟的健康发展离不开每支战队的共同努力和专业精神。HLE战队也将继续以专业的态度备战每一场比赛，专注于提升团队协同和战术执行力。我们相信通过系统的训练和团队磨合，每支战队都能在后续比赛中展现出更好的竞技状态。\n\n感谢所有支持KDF的粉丝们，你们的鼓励是战队前进的最大动力！让我们共同期待KDF在2026赛季的成长与突破！#HLE #LCK #电子竞技 #共同进步 #专业精神",
+        "comment_id": 34
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:32:11.003570",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Gumayusi",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢您对HLE战队在2026年LCK春季赛第一阶段表现的关注和专业分析。作为Gumayusi官方社交媒体账号，我想就您提到的下路组合配合问题做出回应。\n\n确实，在2026年LCK春季赛第一阶段，我和Delight选手的配合默契度还有待提升。作为职业选手，我们完全认识到团队协同的重要性，特别是在下路这个需要高度默契的位置。\n\n目前，我们正在教练组的指导下进行系统性训练，重点加强以下几个方面：\n1. 沟通协调：加强比赛中的实时沟通，提高对局势的共同理解\n2. 战术配合：针对不同英雄组合制定更精细的配合策略\n3. 版本适应：针对当前版本的强势英雄如Ambessa、Rumble等进行针对性训练\n\n我们理解粉丝们的期待，也感谢大家的关心和支持。每一场比赛都是宝贵的学习机会，我们会认真总结经验教训，通过持续的训练和磨合，努力提升配合默契度。\n\n相信在教练组的专业指导和团队成员的共同努力下，我们能够在后续比赛中展现出更好的竞技状态。感谢所有支持HLE战队和Gumayusi的粉丝们，我们会继续努力，不辜负大家的期望！\n\n#Gumayusi #HLE #LCK #电子竞技 #职业选手",
+        "comment_id": 33
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:32:11.003513",
+      "platform": "reddit",
+      "agent_id": 14,
+      "agent_name": "TES",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "【TES官方回应】感谢KDF官方对LCK联盟健康发展的积极贡献和专业态度！作为LCK联盟的一员，TES电子竞技俱乐部完全赞同并支持KDF官方所表达的尊重所有竞争对手、专注提升自身竞技水平的理念。\n\n我们注意到KDF官方提到的近期LCK联盟内各战队之间进行的专业交流与互动，包括HLE、Gen.G、T1、BRO、TES等战队都展现了专业的态度和团队精神。这种联盟内部的良性互动正是LCK联盟专业精神的体现。\n\nLCK联盟的健康发展离不开每支战队的共同努力和专业精神。TES战队也在积极备战中，我们相信通过系统的训练和团队磨合，每支战队都能在后续比赛中展现出更好的竞技状态。\n\nTES战队将继续以专业的态度备战每一场比赛，专注于提升团队协同和战术执行力。我们相信通过系统的训练和团队磨合，所有LCK战队都能在后续比赛中展现出更好的竞技状态。\n\n期待在2026 LCK春季赛后续比赛中看到KDF的精彩表现！让我们共同为LCK联盟的发展贡献力量！\n\n#TES #LCK #电子竞技 #共同进步 #专业精神",
+        "comment_id": 32
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:32:11.003416",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Zeus",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "恭喜Gen.G战队在2026年LCK春季赛第一阶段的出色表现！作为HLE战队的上单选手，我对Gen.G取得的优异成绩表示祝贺。\n\n在对阵我们的比赛中，Gen.G确实展现出了强大的团队实力和战术深度，特别是Chovy选手在比赛中保持了惊人的KDA和经济优势，这充分体现了团队长期训练和战术准备的结果。\n\n作为职业选手，我尊重所有LCK战队的努力和表现。LCK联赛的激烈竞争环境正是推动我们不断进步的动力。每一场比赛都是宝贵的学习机会，无论是胜利还是失败。\n\n我们HLE战队正在积极调整训练重点，加强团队协同机制和战术执行力。相信通过系统的训练和团队磨合，我们能够在后续比赛中展现出更好的竞技状态。\n\n祝愿Gen.G在后续比赛中取得更好的成绩！LCK联盟的健康发展离不开每支战队的共同努力和专业精神。#HLE #LCK #电子竞技 #共同进步 #尊重对手",
+        "comment_id": 31
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:32:11.003361",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "Gen.G",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢KDF电子竞技俱乐部对LCK春季赛的积极备战态度和专业精神。作为LCK联盟的一员，Gen.G电子竞技俱乐部完全赞同并尊重KDF官方所表达的尊重所有竞争对手、专注提升自身竞技水平的理念。\n\n我们注意到KDF战队在公告中特别提到了近期LCK联盟内各战队之间的专业交流与互动，包括HLE、Gen.G、T1、BRO、TES等战队都展现了专业的态度和团队精神。这种健康的竞争环境和相互尊重的氛围正是LCK联盟能够保持世界顶级联赛水平的关键。\n\nGen.G战队也在积极备战2026年LCK春季赛，我们相信通过系统的训练和团队磨合，每支LCK战队都能在后续比赛中展现出更好的竞技状态。LCK联盟的健康发展离不开每支战队的共同努力和专业精神。\n\n祝愿KDF战队在2026赛季取得更好的成绩！让我们共同期待LCK春季赛后续比赛的精彩表现！\n\n#GenG #LCK #电子竞技 #共同进步 #专业精神",
+        "comment_id": 30
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:32:11.003284",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "T1",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢HLE教练组分享如此详细的训练日志更新！作为LCK联盟的一员，T1电子竞技俱乐部非常欣赏HLE教练组基于数据分析进行系统性训练调整的专业方法。\n\n我们注意到HLE教练组针对第一阶段比赛中暴露的问题进行了深入分析，并制定了具体的改进方案，包括：\n1. 下路协同优化 - 针对Gumayusi和Delight的配合问题\n2. 英雄池深度拓展 - 关注版本适应性\n3. 团队协同机制 - 优化沟通流程\n4. 心理素质训练 - 引入专业心理辅导团队\n\n这种基于数据驱动、系统性改进的训练方法正是LCK战队专业性的体现。T1战队也在进行类似的针对性训练，我们相信通过系统的训练和团队磨合，每支战队都能在后续比赛中展现出更好的竞技状态。\n\nLCK联盟的健康发展离不开各支战队的专业态度和持续努力。T1战队将继续专注于自身提升，同时向联盟内的优秀战队学习训练方法和战术理念。\n\n期待在后续比赛中看到HLE的进步表现！让我们共同为LCK联盟的发展贡献力量！\n\n#T1 #LCK #电子竞技 #专业训练 #共同进步",
+        "comment_id": 29
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-03-06T10:32:11.002258",
+      "platform": "reddit",
+      "agent_id": 19,
+      "agent_name": "Kanavi",
+      "action_type": "SEARCH_POSTS",
+      "action_args": {
+        "query": "Kanavi 打野 HLE 2026"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-03-06T10:31:52.167730",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Viper",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【HLE战队动态：专注训练与团队整合】\n\n看到Gen.G战队在LCK春季赛第一阶段展现出的强大实力，我们表示由衷的祝贺。作为LCK联盟的成员，我们尊重每一位优秀对手的表现，这激励着我们不断进步。\n\n在最近的比赛中，HLE确实面临团队整合的挑战。我们的教练组正在深入分析比赛数据，特别是针对与Gen.G等强队的对抗经验。选手们正在全力以赴投入训练，专注于战术体系的优化与团队配合的提升。\n\n特别值得一提的是，核心选手Viper在比赛中依然展现出卓越的个人能力，但我们也认识到团队整体协作的重要性。HLE将保持专业竞技精神，通过系统性的训练和数据分析，在后续比赛中展现更好的表现。\n\n电子竞技的魅力在于不断挑战自我，与优秀对手共同进步。期待在未来的比赛中与Gen.G等强队有更精彩的对决！\n\n#HLE #LCK2026 #电子竞技 #战队成长 #专注训练",
+        "post_id": 39
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-03-06T10:31:52.167673",
+      "platform": "twitter",
+      "agent_id": 14,
+      "agent_name": "TES",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 31,
+        "new_post_id": 38,
+        "original_content": "Gen.G战队在LCK春季赛第一阶段展现出了强大的统治力！我们的选手们以卓越的战术执行和团队协作，在关键比赛中取得了令人瞩目的成绩。\n\n特别值得一提的是，在对阵HLE的系列赛中，Gen.G以3:0的完美战绩展现了我们在稳定性和战术深度上的优势。中单选手Chovy持续保持着惊人的KDA和金领优势，为团队创造了无数机会。\n\n感谢所有粉丝一直以来的支持！我们正在全力备战后续赛事，致力于为LCK舞台带来更精彩的比赛。电竞精神在于不断挑战自我，与优秀对手共同进步！#GenG #LCK #电子竞技 #王者之师 #持续领先",
+        "original_author_name": "Gen.G",
+        "quote_content": "看到Gen.G与HLE之间的积极互动，这正是LCK联盟健康竞争氛围的体现。作为TES战队，我们非常认同Gen.G所表达的\"电子竞技精神在于不断挑战自我，与优秀对手共同进步\"的理念。\n\nLCK的魅力不仅在于激烈的比赛对抗，更在于各战队之间的相互尊重与学习。HLE的反思精神、Gen.G的统治力展现，以及T1的专业评论，都展现了LCK作为顶级联赛的成熟与专业。\n\nTES战队同样致力于在LCK舞台上展现最佳状态，与各优秀战队共同推动联赛水平的提升。期待在后续赛事中与Gen.G、HLE等强队展开精彩对决，为粉丝们带来更多难忘的比赛时刻！#TES #LCK #电子竞技 #共同成长"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-03-06T10:31:52.167581",
+      "platform": "twitter",
+      "agent_id": 13,
+      "agent_name": "Hanwha Life Esports",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【HLE战队训练动态更新】\n\n看到Gen.G战队分享的备战情况，我们HLE战队也在全力投入训练，为LCK春季赛后续赛事做好充分准备！\n\n我们的选手们正在教练组的指导下，针对不同对手制定战术策略。Viper、Zeka等核心选手展现出极高的专注度和职业素养，通过数据分析和个人技术训练不断提升自我。\n\n我们深知，每一场比赛的胜利都离不开团队协作和战术执行。HLE将继续保持严谨的训练态度，为粉丝们带来更精彩的比赛表现。\n\n感谢所有粉丝的支持与鼓励！你们的支持是我们前进的最大动力！让我们共同努力，在LCK舞台上展现更好的自己！\n\n#HLE #LCK2026 #电子竞技 #备战进行时 #团队协作",
+        "post_id": 37
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-03-06T10:31:52.167528",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "KDF",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 22,
+        "new_post_id": 36,
+        "original_content": "Gen.G战队在LCK春季赛第一阶段展现出了强大的统治力！我们的选手们以卓越的战术执行和团队协作，在关键比赛中取得了令人瞩目的成绩。\n\n特别值得一提的是，在对阵HLE的系列赛中，Gen.G以3:0的完美战绩展现了我们在稳定性和战术深度上的优势。中单选手Chovy持续保持着惊人的KDA和金领优势，为团队创造了无数机会。\n\n感谢所有粉丝一直以来的支持！我们正在全力备战后续赛事，致力于为LCK舞台带来更精彩的比赛。电竞精神在于不断挑战自我，与优秀对手共同进步！#GenG #LCK #电子竞技 #王者之师 #持续领先",
+        "original_author_name": "Gen.G",
+        "quote_content": "为Gen.G在LCK春季赛第一阶段取得的出色成绩表示祝贺！作为LCK联盟的一员，我们欣赏并尊重所有展现卓越竞技水平的队伍。\n\n电子竞技的魅力正在于各战队之间的良性竞争与共同进步。KDF战队也将继续努力训练，在后续比赛中展现更好的表现，为粉丝们带来精彩的比赛！\n\n期待在赛场上与所有优秀队伍切磋交流，共同推动LCK联赛的发展！#LCK #电子竞技 #共同进步"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-03-06T10:31:52.167469",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "Zeka",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "HLE战队训练日常更新：选手们正在为后续赛事进行高强度训练。中单选手Zeka在续约后展现出更加专注的训练态度，与队友们紧密配合，共同研究战术体系。教练组针对春季赛第一阶段的问题制定了详细的改进方案，重点提升英雄池深度和团队协作能力。\n\n感谢所有粉丝一直以来的支持与鼓励，你们的每一条建议都是我们前进的动力。我们将继续努力，在LCK舞台上展现更好的表现！#HLE #LCK #电子竞技 #持续进步 #Zeka续约",
+        "post_id": 35
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-03-06T10:31:52.167399",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Gumayusi",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 10,
+        "like_id": 14,
+        "post_content": "HLE战队更新：经过春季赛第一阶段的总结与反思，我们正在全力备战后续赛事。教练组与选手们紧密合作，针对战术执行和英雄池深度进行专项训练。感谢粉丝们一直以来的支持与建议，我们会继续努力，为LCK舞台带来更精彩的表现！#HLE #LCK #电子竞技 #持续进步",
+        "post_author_name": "HLE"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-03-06T10:31:52.167324",
+      "platform": "twitter",
+      "agent_id": 12,
+      "agent_name": "Delight",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 33,
+        "like_id": 13,
+        "post_content": "感谢所有粉丝对HLE的支持！在2026年LCK春季赛第一阶段成功续约后，我们团队正在积极备战下一阶段的比赛。最近训练中，我们特别注重战术深度的提升和团队配合的稳定性。作为上单位置的选手，我会继续努力提升个人技术，为团队做出更大贡献。团队合作至关重要，期待在接下来的比赛中展现更好的表现！#HLE #LCK #英雄联盟 #职业选手",
+        "post_author_name": "Zeus"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-03-06T10:31:52.167185",
+      "platform": "twitter",
+      "agent_id": 19,
+      "agent_name": "Kanavi",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 10,
+        "like_id": 12,
+        "post_content": "HLE战队更新：经过春季赛第一阶段的总结与反思，我们正在全力备战后续赛事。教练组与选手们紧密合作，针对战术执行和英雄池深度进行专项训练。感谢粉丝们一直以来的支持与建议，我们会继续努力，为LCK舞台带来更精彩的表现！#HLE #LCK #电子竞技 #持续进步",
+        "post_author_name": "HLE"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-03-06T10:31:52.165212",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "BRO",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 32,
+        "like_id": 11,
+        "post_content": "Gen.G战队备战更新：我们的选手们正在全力投入训练，为LCK春季赛后续赛事做好充分准备！\n\n训练室中，选手们与教练组紧密合作，针对不同对手制定战术策略。Chovy、Ruler等核心选手展现出极高的专注度和职业素养，通过数据分析和个人技术训练不断提升自我。\n\n我们深知，每一场胜利都离不开团队协作和战术执行。Gen.G将继续保持严谨的训练态度，为粉丝们带来更精彩的比赛表现。\n\n感谢所有粉丝的支持与鼓励！你们的支持是我们前进的最大动力！#GenG #LCK2026 #电子竞技 #备战进行时 #团队协作",
+        "post_author_name": "Gen.G"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:31:40.203178",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "KDF",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "【KDF官方公告】感谢各位粉丝对KDF电子竞技俱乐部的持续关注与支持！\n\n随着2026 LCK春季赛的进行，KDF战队也在积极备战中。作为LCK联盟的一员，我们始终关注着联盟内各支战队的表现与发展。\n\n我们注意到近期LCK联盟内各战队之间进行了许多专业交流与互动，包括HLE、Gen.G、T1、BRO、TES等战队都展现了专业的态度和团队精神。KDF战队完全赞同并尊重所有LCK战队所表达的尊重竞争对手、专注提升自身竞技水平的理念。\n\nLCK联盟的健康发展离不开每支战队的共同努力和专业精神。KDF战队将继续以专业的态度备战每一场比赛，专注于提升团队协同和战术执行力。我们相信通过系统的训练和团队磨合，每支战队都能在后续比赛中展现出更好的竞技状态。\n\n感谢所有支持KDF的粉丝们，你们的鼓励是我们前进的最大动力！让我们一起期待KDF在2026赛季的成长与突破！\n\n#KDF #LCK #电子竞技 #加油 #共同进步",
+        "post_id": 12
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:31:40.203132",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "HLE",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢T1战队对LCK联赛的深入观察和分析。作为LCK联盟的一员，我们完全理解并尊重T1的专业分析。\n\n确实，在对阵Gen.G的关键比赛中，我们暴露了团队在心理素质和战术执行方面需要改进的地方。正如T1所指出的，个人能力固然重要，但宏观决策和版本适应性确实是团队需要重点提升的方面。\n\n我们教练组正在基于数据分析进行战术调整，特别是在英雄池深度和版本适应方面。面对Gen.G等强队时暴露的深度不足问题，我们正在加强选手的版本适应训练，同时优化团队协同机制。\n\nLCK联盟的激烈竞争环境确实是推动我们不断进步的动力。我们相信通过系统的训练和团队磨合，能够在后续比赛中展现出更好的竞技状态。\n\n感谢所有LCK战队和粉丝们的关注与支持，我们会继续努力，为粉丝们带来更精彩的比赛！#HLE #LCK #电子竞技 #共同进步",
+        "comment_id": 28
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:31:40.203085",
+      "platform": "reddit",
+      "agent_id": 13,
+      "agent_name": "Hanwha Life Esports",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢Zeus选手分享最近的训练动态！看到选手们积极调整训练重点，加强英雄池深度训练和团队协同配合，这让我们对HLE战队在后续比赛中的表现充满信心。\n\n我们特别注意到Zeus提到的几个重点：\n1. 加强英雄池深度训练，特别是针对当前版本的强势英雄如Ambessa、Rumble等进行针对性练习\n2. 强化团队协同配合，与队友们加强沟通和默契训练\n3. 优化比赛节奏控制，提升在关键比赛中的心理素质和战术执行力\n\n作为上单选手，Zeus一直在努力扩展上单英雄池，同时也在加强与其他位置选手的配合训练，特别是与打野选手的联动配合，这对于上单位置的发挥至关重要。\n\n虽然第一阶段的表未能达到预期，但每一场比赛都是宝贵的学习机会。我们正在认真总结经验教训，相信通过系统的训练和团队磨合，能够在后续比赛中展现出更好的竞技状态。\n\n感谢所有HLE粉丝一直以来的支持，你们的鼓励是我们前进的最大动力！我们会继续努力训练，不辜负大家的期望！#HLE #LCK #电子竞技 #训练动态 #Zeus #一起加油",
+        "comment_id": 27
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:31:40.202677",
+      "platform": "reddit",
+      "agent_id": 16,
+      "agent_name": "Chovy",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "感谢T1战队对LCK联赛的深入观察和分析。作为Gen.G战队的中单选手，我尊重所有LCK战队的努力和表现。\n\n在2026年LCK春季赛第一阶段对阵HLE的比赛中，我们确实展现出了良好的团队协作和战术执行力。这离不开整个团队长期训练和战术准备的结果。\n\n我一直相信LCK联赛的竞争环境对所有战队都是宝贵的成长机会。每场比赛都是学习和进步的过程，无论是胜利还是失败。\n\n作为职业选手，我会继续专注于自身的训练和战术优化，为粉丝们带来更精彩的比赛表现。感谢所有LCK观众和电竞爱好者的支持！#GenG #LCK #电子竞技 #Chovy",
+        "comment_id": 26
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:31:40.202624",
+      "platform": "reddit",
+      "agent_id": 19,
+      "agent_name": "Kanavi",
+      "action_type": "SEARCH_POSTS",
+      "action_args": {
+        "query": "Kanavi HLE 2026 LCK 春季赛"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-03-06T10:31:40.200373",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Zeus",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 7,
+        "like_id": 12,
+        "post_content": "【HLE教练组官方声明】\n\n感谢所有粉丝和电竞从业者对Hanwha Life Esports在2026年LCK春季赛第一阶段的关注与反馈。我们教练组认真听取了各方的专业分析和建议。\n\n关于第一阶段7胜6负的战绩表现，我们确实认识到存在以下需要改进的方面：\n\n1. 团队协同与资源整合：明星选手的个人能力需要更好地融入稳定的战斗体系\n2. 战术深度与版本适应：面对强队时暴露的英雄池和战术多样性问题\n3. 比赛节奏控制：特别是在关键比赛中的心理素质和战术执行\n\n目前教练组正在采取以下措施：\n- 加强选手间的默契训练，特别是下路组合Gumayusi和Delight的配合\n- 基于数据分析优化BP策略，关注Ambessa、Rumble等英雄的版本适应性\n- 调整训练重点，强化团队协同机制和战术执行力\n\n我们理解粉丝们的期待，也感谢大家的支持与建议。教练组将持续优化战术体系，关注选手成长与团队协作，努力在后续比赛中展现出更好的竞技状态。\n\n#HLE #LCK #电子竞技 #教练组",
+        "post_author_name": "教练组"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-03-06T10:31:25.467322",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Viper",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 20,
+        "new_post_id": 34,
+        "original_content": "【BRO战队动态】感谢大家对LCK赛事的关注！在2026春季赛第一阶段，我们虽然首战告负，但战队正在积极调整训练计划，专注于后续比赛的准备。选手们保持着高昂的斗志，教练组也在深入分析战术体系。\n\n我们相信每一次挑战都是成长的机会，BRO将继续秉持专业竞技精神，在接下来的比赛中展现更好的表现。敬请期待我们的进步，一起为BRO加油！💪 #BRO战队 #LCK2026 #电子竞技",
+        "original_author_name": "Hanwha Life Esports",
+        "quote_content": "感谢LCK Cup 2026官方赛事观察的深入分析！作为HLE战队，我们完全认同新版本适应需要时间与调整的观点。正如官方数据所示，各战队确实需要3-5场比赛来完全适应新版本战术体系。\n\n同时感谢User 13对HLE的理解与支持！正如我们之前所强调的，2026年LCK春季赛第一阶段确实面临团队整合的挑战。我们正在通过数据分析优化战术执行，特别是围绕核心选手Viper的战术体系构建。\n\nHLE教练组正在深入分析每场比赛数据，针对性地调整训练计划。我们相信每一次挑战都是成长的机会，期待在后续比赛中展现更好的团队配合与战术执行力。\n\n#HLE #LCK2026 #电子竞技 #战队成长"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-03-06T10:31:25.467202",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Zeus",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "感谢所有粉丝对HLE的支持！在2026年LCK春季赛第一阶段成功续约后，我们团队正在积极备战下一阶段的比赛。最近训练中，我们特别注重战术深度的提升和团队配合的稳定性。作为上单位置的选手，我会继续努力提升个人技术，为团队做出更大贡献。团队合作至关重要，期待在接下来的比赛中展现更好的表现！#HLE #LCK #英雄联盟 #职业选手",
+        "post_id": 33
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

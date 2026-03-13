@@ -1,0 +1,24 @@
+{
+  "simulation_id": "sim_a6c5cea440a9",
+  "project_id": "proj_d0d0f0782503",
+  "graph_id": "nexus_ea42902b99f24732",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "running",
+  "entities_count": 19,
+  "profiles_count": 19,
+  "entity_types": [
+    "Coach",
+    "ProfessionalPlayer",
+    "LeagueOrganization",
+    "EsportsTeam"
+  ],
+  "config_generated": true,
+  "config_reasoning": "时间配置: 该配置针对HLE在2026年LCK春季赛表现的分析预测话题。总时长72小时（3天）覆盖赛事报告发布后的持续讨论周期。每轮60分钟适合电竞话题的实时分析节奏。Agent数量设置较低（3-15/小时），因为这是专业电竞分析，参与群体主要为分析师、媒体和核心粉丝，而非大众热点。高峰时段19-22点符合中国电竞观众晚间活跃习惯（比赛直播、赛后讨论）。低谷时段0-5点保持极低活跃。早间6-8点和工作时段9-18点设置中等活跃，反映专业分析可能在白天工作时间进行。 | 事件配置: 热点话题基于文档中HLE在2026赛季的关键事件，如LCK Cup垫底、团队协同问题、明星选手表现和Gen.G惨败。舆论发展方向从季初失望转向分析个人与团队反差，最终强调协同重要性。初始帖子分配了可用实体类型：LeagueOrganization用于分析师视角，ProfessionalPlayer用于选手个人观点，EsportsTeam用于战队整体表现，Coach用于教练回应，确保帖子内容与发布者类型匹配。 | Agent配置: 成功生成 19 个 | 初始帖子分配: 5 个帖子已分配发布者",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-03-06T00:20:48.117467",
+  "updated_at": "2026-03-06T00:35:00.602792",
+  "error": null
+}

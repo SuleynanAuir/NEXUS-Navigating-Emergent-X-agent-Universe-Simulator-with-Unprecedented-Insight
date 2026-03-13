@@ -1,0 +1,29 @@
+[01:20:19] INFO: 报告已保存: report_a0da90ab8d1b
+[01:20:19] INFO: 开始规划报告大纲...
+[01:20:19] INFO: 获取模拟上下文: 
+1,857
+您是一位专注于英雄联盟LCK联赛的专业电竞分析师。
+
+您的任务是预测韩华生命电...
+[01:20:19] INFO: 图谱搜索: graph_id=nexus_ea42902b99f24732, query=
+1,857
+您是一位专注于英雄联盟LCK联赛的专业电竞分析师。
+
+您的任务是预测韩华生命电...
+[01:20:19] INFO: 搜索完成: 找到 30 条相关事实
+[01:20:19] INFO: 获取图谱 nexus_ea42902b99f24732 的统计信息...
+[01:20:19] INFO: 获取图谱 nexus_ea42902b99f24732 的所有节点...
+[01:20:20] INFO: 获取到 40 个节点
+[01:20:20] INFO: 获取图谱 nexus_ea42902b99f24732 的所有边...
+[01:20:25] INFO: 获取到 1144 条边
+[01:20:25] INFO: 获取图谱 nexus_ea42902b99f24732 的所有节点...
+[01:20:25] INFO: 获取到 40 个节点
+[01:20:33] ERROR: 大纲规划失败: LLM 请求失败（已重试 3 次）: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+[01:20:33] INFO: 大纲已保存: report_a0da90ab8d1b
+[01:20:33] INFO: 大纲已保存: report_a0da90ab8d1b
+[01:20:33] INFO: 报告已保存: report_a0da90ab8d1b
+[01:20:33] INFO: 大纲已保存到文件: report_a0da90ab8d1b/outline.json
+[01:20:33] INFO: ReACT生成章节: 预测场景与核心发现
+[01:20:40] ERROR: 报告生成失败: LLM 请求失败（已重试 3 次）: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+[01:20:40] INFO: 大纲已保存: report_a0da90ab8d1b
+[01:20:40] INFO: 报告已保存: report_a0da90ab8d1b

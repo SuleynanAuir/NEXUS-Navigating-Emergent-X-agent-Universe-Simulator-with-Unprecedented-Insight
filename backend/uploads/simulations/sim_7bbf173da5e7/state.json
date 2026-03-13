@@ -1,0 +1,24 @@
+{
+  "simulation_id": "sim_7bbf173da5e7",
+  "project_id": "proj_e580f4cd5da5",
+  "graph_id": "nexus_39abee6e5b3849cf",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "running",
+  "entities_count": 20,
+  "profiles_count": 20,
+  "entity_types": [
+    "EsportsTeam",
+    "ProfessionalPlayer",
+    "Coach",
+    "TournamentOrganizer"
+  ],
+  "config_generated": true,
+  "config_reasoning": "时间配置: 该事件涉及LCK电竞联赛分析，主要参与群体为中国电竞粉丝、分析师及媒体。LCK比赛通常在晚间进行，粉丝讨论高峰集中在赛后（19-22点）。模拟总时长设为96小时（约4天），覆盖赛前预测、赛后分析及持续讨论周期。每分钟Agent数较低，因专业分析内容较深，参与讨论群体相对集中。高峰时段为晚间，符合中国观众作息；低谷时段为凌晨；早间和工作时段活跃度适中，反映日常讨论节奏。 | 事件配置: 基于模拟需求，提取了HLE阵容评估、竞争环境、版本适应性等热点关键词；舆论方向从高期待转向质疑团队问题；初始帖子由ProfessionalPlayer、Coach、EsportsTeam和TournamentOrganizer类型发布，覆盖选手、教练、对手和赛事组织者视角，符合可用实体类型要求。 | Agent配置: 成功生成 20 个 | 初始帖子分配: 4 个帖子已分配发布者",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-03-06T10:22:33.105367",
+  "updated_at": "2026-03-06T10:27:15.335253",
+  "error": null
+}

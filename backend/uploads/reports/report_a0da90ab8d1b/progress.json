@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "progress": -1,
+  "message": "报告生成失败: LLM 请求失败（已重试 3 次）: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
+  "current_section": null,
+  "completed_sections": [],
+  "updated_at": "2026-03-06T01:20:40.929568"
+}

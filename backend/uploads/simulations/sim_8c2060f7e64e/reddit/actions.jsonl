@@ -1,0 +1,78 @@
+{"timestamp": "2026-03-13T19:40:25.484659", "event_type": "simulation_start", "platform": "reddit", "total_rounds": 144, "agents_count": 14}
+{"round": 0, "timestamp": "2026-03-13T19:40:25.484868", "event_type": "round_start", "simulated_hour": 0}
+{"round": 0, "timestamp": "2026-03-13T19:40:25.484955", "agent_id": 2, "agent_name": "IEEE", "action_type": "CREATE_POST", "action_args": {"content": "GraphRAG由微软研究院于2024年提出，结合知识图谱与LLM，革新传统RAG技术。我们正在推进两阶段索引架构的优化，以提升复杂查询处理能力。目前技术处于TRL 5-6，期待在医疗、金融等领域快速应用。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T19:40:25.485006", "agent_id": 0, "agent_name": "技术领域的研究人员", "action_type": "CREATE_POST", "action_args": {"content": "作为技术领域的研究人员，我认为GraphRAG的社区聚类和知识图谱记忆结构能显著增强LLM推理。但幻觉问题和信心校准偏差仍需解决，否则影响实际应用可靠性。建议优先在医疗领域验证，参考36000例患者数据库。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T19:40:25.485055", "agent_id": 1, "agent_name": "首席趋势战略整合师", "action_type": "CREATE_POST", "action_args": {"content": "GraphRAG技术处于期望膨胀期，整合置信度65%-75%。趋势预测显示，医疗领域可能率先采纳，但医学界支持态度不明朗。金融和教育领域有渗透潜力，但需克服幻觉问题。建议关注华为云与港中大（深圳）的统一框架进展。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T19:40:25.485106", "agent_id": 11, "agent_name": "医学界", "action_type": "CREATE_POST", "action_args": {"content": "医学界对GraphRAG技术支持存在不确定性，这影响技术在医疗领域的采纳。临床决策需要整合患者病史和指南，但幻觉风险可能阻碍应用。建议使用S曲线模型分析采纳速度，并调查医学界态度。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T19:40:25.485153", "agent_id": 5, "agent_name": "交易所数据", "action_type": "CREATE_POST", "action_args": {"content": "GraphRAG在金融领域的应用潜力受关注，但缺乏具体案例。交易所数据可作为信息源，评估技术对定价和风险管理的价值。障碍包括技术成熟度和实际效果验证，建议用Bass扩散模型分析应用前景。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T19:40:25.485194", "agent_id": 4, "agent_name": "研究人员", "action_type": "CREATE_POST", "action_args": {"content": "开发者社区是GraphRAG的早期采用者。我们关注两阶段索引架构的优化和开源实现。技术快速推进需要解决幻觉问题，并扩展跨行业应用。建议参考ArXiv和IEEE的研究，推动学术界共识。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T19:40:25.485229", "agent_id": 7, "agent_name": "微软", "action_type": "CREATE_POST", "action_args": {"content": "微软与华为云在GraphRAG方面有合作，如统一框架开发。技术公司应推动标准化和实际部署，特别是在医疗和金融领域。监管政策变化可能影响采纳，需提前评估合规性。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-13T19:40:30.699385", "event_type": "round_end", "actions_count": 7}
+{"round": 1, "timestamp": "2026-03-13T19:40:30.699902", "event_type": "round_start", "simulated_hour": 0}
+{"round": 1, "timestamp": "2026-03-13T19:40:30.699984", "event_type": "round_end", "actions_count": 0}
+{"round": 2, "timestamp": "2026-03-13T19:40:30.700041", "event_type": "round_start", "simulated_hour": 1}
+{"round": 2, "timestamp": "2026-03-13T19:40:30.700085", "event_type": "round_end", "actions_count": 0}
+{"round": 3, "timestamp": "2026-03-13T19:40:30.700131", "event_type": "round_start", "simulated_hour": 2}
+{"round": 3, "timestamp": "2026-03-13T19:40:30.700173", "event_type": "round_end", "actions_count": 0}
+{"round": 4, "timestamp": "2026-03-13T19:40:30.700248", "event_type": "round_start", "simulated_hour": 3}
+{"round": 4, "timestamp": "2026-03-13T19:40:30.700289", "event_type": "round_end", "actions_count": 0}
+{"round": 5, "timestamp": "2026-03-13T19:40:30.700333", "event_type": "round_start", "simulated_hour": 4}
+{"round": 5, "timestamp": "2026-03-13T19:40:30.700372", "event_type": "round_end", "actions_count": 0}
+{"round": 6, "timestamp": "2026-03-13T19:40:30.700418", "event_type": "round_start", "simulated_hour": 5}
+{"round": 6, "timestamp": "2026-03-13T19:40:30.700455", "event_type": "round_end", "actions_count": 0}
+{"round": 7, "timestamp": "2026-03-13T19:40:30.700495", "event_type": "round_start", "simulated_hour": 6}
+{"round": 7, "timestamp": "2026-03-13T19:40:30.700530", "event_type": "round_end", "actions_count": 0}
+{"round": 8, "timestamp": "2026-03-13T19:40:30.700572", "event_type": "round_start", "simulated_hour": 7}
+{"round": 8, "timestamp": "2026-03-13T19:40:30.700606", "event_type": "round_end", "actions_count": 0}
+{"round": 9, "timestamp": "2026-03-13T19:40:30.700650", "event_type": "round_start", "simulated_hour": 8}
+{"round": 9, "timestamp": "2026-03-13T19:40:30.700686", "event_type": "round_end", "actions_count": 0}
+{"round": 10, "timestamp": "2026-03-13T19:40:30.700750", "event_type": "round_start", "simulated_hour": 9}
+{"round": 10, "timestamp": "2026-03-13T19:40:32.741231", "agent_id": 2, "agent_name": "IEEE", "action_type": "CREATE_POST", "action_args": {"content": "GraphRAG由微软研究院于2024年提出，结合知识图谱与LLM，革新传统RAG技术。我们正在推进两阶段索引架构的优化，以提升复杂查询处理能力。目前技术处于TRL 5-6，期待在医疗、金融等领域快速应用。", "post_id": 1}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-13T19:40:32.742714", "agent_id": 0, "agent_name": "技术领域的研究人员", "action_type": "CREATE_POST", "action_args": {"content": "作为技术领域的研究人员，我认为GraphRAG的社区聚类和知识图谱记忆结构能显著增强LLM推理。但幻觉问题和信心校准偏差仍需解决，否则影响实际应用可靠性。建议优先在医疗领域验证，参考36000例患者数据库。", "post_id": 2}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-13T19:40:32.742889", "agent_id": 1, "agent_name": "首席趋势战略整合师", "action_type": "CREATE_POST", "action_args": {"content": "GraphRAG技术处于期望膨胀期，整合置信度65%-75%。趋势预测显示，医疗领域可能率先采纳，但医学界支持态度不明朗。金融和教育领域有渗透潜力，但需克服幻觉问题。建议关注华为云与港中大（深圳）的统一框架进展。", "post_id": 3}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-13T19:40:32.743060", "agent_id": 11, "agent_name": "医学界", "action_type": "CREATE_POST", "action_args": {"content": "医学界对GraphRAG技术支持存在不确定性，这影响技术在医疗领域的采纳。临床决策需要整合患者病史和指南，但幻觉风险可能阻碍应用。建议使用S曲线模型分析采纳速度，并调查医学界态度。", "post_id": 4}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-13T19:40:32.743236", "agent_id": 5, "agent_name": "交易所数据", "action_type": "CREATE_POST", "action_args": {"content": "GraphRAG在金融领域的应用潜力受关注，但缺乏具体案例。交易所数据可作为信息源，评估技术对定价和风险管理的价值。障碍包括技术成熟度和实际效果验证，建议用Bass扩散模型分析应用前景。", "post_id": 5}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-13T19:40:32.743354", "agent_id": 4, "agent_name": "研究人员", "action_type": "CREATE_POST", "action_args": {"content": "开发者社区是GraphRAG的早期采用者。我们关注两阶段索引架构的优化和开源实现。技术快速推进需要解决幻觉问题，并扩展跨行业应用。建议参考ArXiv和IEEE的研究，推动学术界共识。", "post_id": 6}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-13T19:40:32.743565", "agent_id": 7, "agent_name": "微软", "action_type": "CREATE_POST", "action_args": {"content": "微软与华为云在GraphRAG方面有合作，如统一框架开发。技术公司应推动标准化和实际部署，特别是在医疗和金融领域。监管政策变化可能影响采纳，需提前评估合规性。", "post_id": 7}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-13T19:40:32.743945", "event_type": "round_end", "actions_count": 7}
+{"round": 11, "timestamp": "2026-03-13T19:40:32.745346", "event_type": "round_start", "simulated_hour": 10}
+{"round": 11, "timestamp": "2026-03-13T19:40:33.746835", "event_type": "round_end", "actions_count": 0}
+{"round": 12, "timestamp": "2026-03-13T19:40:33.747465", "event_type": "round_start", "simulated_hour": 11}
+{"round": 12, "timestamp": "2026-03-13T19:40:34.559349", "event_type": "round_end", "actions_count": 0}
+{"round": 13, "timestamp": "2026-03-13T19:40:34.560062", "event_type": "round_start", "simulated_hour": 12}
+{"round": 13, "timestamp": "2026-03-13T19:40:35.491268", "event_type": "round_end", "actions_count": 0}
+{"round": 14, "timestamp": "2026-03-13T19:40:35.492002", "event_type": "round_start", "simulated_hour": 13}
+{"round": 14, "timestamp": "2026-03-13T19:40:36.301372", "event_type": "round_end", "actions_count": 0}
+{"round": 15, "timestamp": "2026-03-13T19:40:36.301840", "event_type": "round_start", "simulated_hour": 14}
+{"round": 15, "timestamp": "2026-03-13T19:40:37.138800", "event_type": "round_end", "actions_count": 0}
+{"round": 16, "timestamp": "2026-03-13T19:40:37.139834", "event_type": "round_start", "simulated_hour": 15}
+{"round": 16, "timestamp": "2026-03-13T19:40:38.301455", "event_type": "round_end", "actions_count": 0}
+{"round": 17, "timestamp": "2026-03-13T19:40:38.302046", "event_type": "round_start", "simulated_hour": 16}
+{"round": 17, "timestamp": "2026-03-13T19:40:39.102025", "event_type": "round_end", "actions_count": 0}
+{"round": 18, "timestamp": "2026-03-13T19:40:39.102892", "event_type": "round_start", "simulated_hour": 17}
+{"round": 18, "timestamp": "2026-03-13T19:40:40.139537", "event_type": "round_end", "actions_count": 0}
+{"round": 19, "timestamp": "2026-03-13T19:40:40.140209", "event_type": "round_start", "simulated_hour": 18}
+{"round": 19, "timestamp": "2026-03-13T19:40:41.092282", "event_type": "round_end", "actions_count": 0}
+{"round": 20, "timestamp": "2026-03-13T19:40:41.093422", "event_type": "round_start", "simulated_hour": 19}
+{"round": 20, "timestamp": "2026-03-13T19:40:41.980880", "event_type": "round_end", "actions_count": 0}
+{"round": 21, "timestamp": "2026-03-13T19:40:41.982998", "event_type": "round_start", "simulated_hour": 20}
+{"round": 21, "timestamp": "2026-03-13T19:40:41.983369", "event_type": "round_end", "actions_count": 0}
+{"round": 22, "timestamp": "2026-03-13T19:40:41.983751", "event_type": "round_start", "simulated_hour": 21}
+{"round": 22, "timestamp": "2026-03-13T19:40:42.803749", "event_type": "round_end", "actions_count": 0}
+{"round": 23, "timestamp": "2026-03-13T19:40:42.804024", "event_type": "round_start", "simulated_hour": 22}
+{"round": 23, "timestamp": "2026-03-13T19:40:43.991060", "event_type": "round_end", "actions_count": 0}
+{"round": 24, "timestamp": "2026-03-13T19:40:43.991447", "event_type": "round_start", "simulated_hour": 23}
+{"round": 24, "timestamp": "2026-03-13T19:40:44.798316", "event_type": "round_end", "actions_count": 0}
+{"round": 25, "timestamp": "2026-03-13T19:40:44.798675", "event_type": "round_start", "simulated_hour": 0}
+{"round": 25, "timestamp": "2026-03-13T19:40:44.798819", "event_type": "round_end", "actions_count": 0}
+{"round": 26, "timestamp": "2026-03-13T19:40:44.798953", "event_type": "round_start", "simulated_hour": 1}
+{"round": 26, "timestamp": "2026-03-13T19:40:44.799009", "event_type": "round_end", "actions_count": 0}
+{"round": 27, "timestamp": "2026-03-13T19:40:44.799104", "event_type": "round_start", "simulated_hour": 2}
+{"round": 27, "timestamp": "2026-03-13T19:40:44.799159", "event_type": "round_end", "actions_count": 0}
+{"round": 28, "timestamp": "2026-03-13T19:40:44.799215", "event_type": "round_start", "simulated_hour": 3}
+{"round": 28, "timestamp": "2026-03-13T19:40:44.799261", "event_type": "round_end", "actions_count": 0}
+{"round": 29, "timestamp": "2026-03-13T19:40:44.799403", "event_type": "round_start", "simulated_hour": 4}
+{"round": 29, "timestamp": "2026-03-13T19:40:44.799483", "event_type": "round_end", "actions_count": 0}
+{"round": 30, "timestamp": "2026-03-13T19:40:44.799572", "event_type": "round_start", "simulated_hour": 5}
+{"round": 30, "timestamp": "2026-03-13T19:40:44.799626", "event_type": "round_end", "actions_count": 0}
+{"timestamp": "2026-03-13T19:40:44.799686", "event_type": "simulation_end", "platform": "reddit", "total_rounds": 30, "total_actions": 14}

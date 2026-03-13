@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "progress": 100,
+  "message": "报告生成完成",
+  "current_section": null,
+  "completed_sections": [
+    "GraphRAG技术发展态势与核心预测",
+    "多领域Agent反应与行动模式分析",
+    "未来趋势洞察与潜在风险预警"
+  ],
+  "updated_at": "2026-03-13T20:16:55.903637"
+}

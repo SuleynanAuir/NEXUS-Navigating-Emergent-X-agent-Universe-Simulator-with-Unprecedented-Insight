@@ -1,0 +1,386 @@
+{
+  "project_id": "proj_dfcd8a9063a3",
+  "name": "Unnamed Project",
+  "status": "failed",
+  "created_at": "2026-03-13T13:34:57.672300",
+  "updated_at": "2026-03-13T13:36:29.103482",
+  "files": [
+    {
+      "filename": "summary_only_20260312_170235.md",
+      "size": 32031
+    }
+  ],
+  "total_text_length": 13870,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Researcher",
+        "description": "Academic or industry researcher working on AI, GraphRAG, or related technologies",
+        "attributes": [
+          {
+            "name": "affiliation",
+            "type": "text",
+            "description": "University, company, or institution the researcher is associated with"
+          },
+          {
+            "name": "research_focus",
+            "type": "text",
+            "description": "Primary research areas or topics of interest"
+          }
+        ],
+        "examples": [
+          "Edge, D.",
+          "Trinh, H.",
+          "Cheng, N.",
+          "Yu et al."
+        ]
+      },
+      {
+        "name": "University",
+        "description": "Higher education institution involved in GraphRAG research or education",
+        "attributes": [
+          {
+            "name": "location",
+            "type": "text",
+            "description": "Geographic location or country of the university"
+          },
+          {
+            "name": "specialization",
+            "type": "text",
+            "description": "Key academic strengths or departments relevant to AI"
+          }
+        ],
+        "examples": [
+          "Xiamen University",
+          "The Chinese University of Hong Kong, Shenzhen"
+        ]
+      },
+      {
+        "name": "TechCompany",
+        "description": "Technology company developing or applying GraphRAG solutions",
+        "attributes": [
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Primary industry sector, e.g., software, cloud services"
+          },
+          {
+            "name": "product_focus",
+            "type": "text",
+            "description": "Main products or services related to AI or GraphRAG"
+          }
+        ],
+        "examples": [
+          "Microsoft",
+          "Huawei Cloud"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News, blog, or content platform reporting on GraphRAG and AI trends",
+        "attributes": [
+          {
+            "name": "platform_type",
+            "type": "text",
+            "description": "Type of media, e.g., blog, news site, social media"
+          },
+          {
+            "name": "audience",
+            "type": "text",
+            "description": "Target audience or readership focus"
+          }
+        ],
+        "examples": [
+          "CSDN blog",
+          "Sohu.com"
+        ]
+      },
+      {
+        "name": "Developer",
+        "description": "Software developer or engineer implementing GraphRAG systems",
+        "attributes": [
+          {
+            "name": "expertise",
+            "type": "text",
+            "description": "Technical skills or programming languages used"
+          },
+          {
+            "name": "project_involvement",
+            "type": "text",
+            "description": "Specific GraphRAG projects or contributions"
+          }
+        ],
+        "examples": [
+          "Open-source contributors on GitHub",
+          "AI application developers"
+        ]
+      },
+      {
+        "name": "IndustryExpert",
+        "description": "Professional with expertise in applying GraphRAG in specific domains",
+        "attributes": [
+          {
+            "name": "domain",
+            "type": "text",
+            "description": "Industry domain, e.g., healthcare, finance, education"
+          },
+          {
+            "name": "role",
+            "type": "text",
+            "description": "Professional title or position in the industry"
+          }
+        ],
+        "examples": [
+          "Medical professionals using GraphRAG",
+          "Financial analysts"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "Government body involved in regulating or funding AI research",
+        "attributes": [
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Geographic or administrative scope of authority"
+          },
+          {
+            "name": "policy_focus",
+            "type": "text",
+            "description": "Key policy areas related to AI or technology"
+          }
+        ],
+        "examples": [
+          "Research funding agencies",
+          "Regulatory bodies for AI"
+        ]
+      },
+      {
+        "name": "EducationalInstitution",
+        "description": "School or training organization teaching GraphRAG or AI concepts",
+        "attributes": [
+          {
+            "name": "education_level",
+            "type": "text",
+            "description": "Level of education, e.g., K-12, vocational, corporate training"
+          },
+          {
+            "name": "curriculum_focus",
+            "type": "text",
+            "description": "Subjects or courses offered related to AI"
+          }
+        ],
+        "examples": [
+          "Online course platforms",
+          "Corporate training centers"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Any individual not fitting the specific person types above, e.g., general public, casual users",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the individual"
+          },
+          {
+            "name": "background",
+            "type": "text",
+            "description": "General background or interests"
+          }
+        ],
+        "examples": [
+          "Casual blog reader",
+          "Social media user discussing AI"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Any organization not fitting the specific organization types above, e.g., small groups, informal ...",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organization"
+          },
+          {
+            "name": "purpose",
+            "type": "text",
+            "description": "General purpose or activities of the organization"
+          }
+        ],
+        "examples": [
+          "AI enthusiast groups",
+          "Temporary project teams"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "WORKS_FOR",
+        "description": "Employment or affiliation relationship between a person and an organization",
+        "source_targets": [
+          {
+            "source": "Researcher",
+            "target": "University"
+          },
+          {
+            "source": "Researcher",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Developer",
+            "target": "TechCompany"
+          },
+          {
+            "source": "IndustryExpert",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Cooperation on projects or research between entities",
+        "source_targets": [
+          {
+            "source": "University",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Researcher",
+            "target": "Researcher"
+          },
+          {
+            "source": "Organization",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media coverage or analysis of entities or topics",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "Researcher"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "TechCompany"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "University"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "DEVELOPS",
+        "description": "Creation or implementation of technology, tools, or systems",
+        "source_targets": [
+          {
+            "source": "TechCompany",
+            "target": "Organization"
+          },
+          {
+            "source": "Developer",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "RESEARCHES",
+        "description": "Conducting studies or investigations on specific topics",
+        "source_targets": [
+          {
+            "source": "Researcher",
+            "target": "Organization"
+          },
+          {
+            "source": "University",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "APPLIES",
+        "description": "Using technology or methods in practical domains",
+        "source_targets": [
+          {
+            "source": "IndustryExpert",
+            "target": "Organization"
+          },
+          {
+            "source": "TechCompany",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Oversight or control by government bodies over organizations or activities",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "TechCompany"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "University"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "EDUCATES",
+        "description": "Teaching or training provided by institutions to individuals or groups",
+        "source_targets": [
+          {
+            "source": "EducationalInstitution",
+            "target": "Person"
+          },
+          {
+            "source": "University",
+            "target": "Researcher"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COMMENTS_ON",
+        "description": "Public expression of opinions or feedback on entities or topics",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "Researcher",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Developer",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "文本内容聚焦于GraphRAG技术的发展、研究、应用和媒体报道，涉及学术研究、企业开发、媒体传播和教育培训等多个领域。基于社交媒体舆论模拟的需求，实体类型设计涵盖了研究人员、高校、科技公司、媒体机构、开发者、行业专家、政府机构、教育机构等具体角色，并包含Person和Organization作为兜底类型，以覆盖文本中提及的各类个人和组织主体。关系类型反映了这些实体在社媒互动中的合作、报道、开发、研究、应用、监管、教育和评论等真实联系。",
+  "graph_id": "nexus_743973cfdd154cc5",
+  "graph_build_task_id": "4447d2f6-e74f-4024-9c00-5c1fd17cff08",
+  "simulation_requirement": "未来GraphRAG的发展趋势是什么？有什么领域可以被快速推进的？\r\n",
+  "focus_entities": null,
+  "focus_events": null,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": "Zep 账号配额不足：当前账号已超过 episode 使用上限，无法继续构建图谱，可在配额重置后重试（x-ratelimit-reset=1773380220）。请升级/更换 ZEP_API_KEY，或等待配额恢复后重试。"
+}

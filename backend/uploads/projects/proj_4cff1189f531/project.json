@@ -1,0 +1,381 @@
+{
+  "project_id": "proj_4cff1189f531",
+  "name": "Unnamed Project",
+  "status": "failed",
+  "created_at": "2026-03-13T13:29:27.657423",
+  "updated_at": "2026-03-13T13:30:51.317872",
+  "files": [
+    {
+      "filename": "summary_only_20260312_170235.md",
+      "size": 32031
+    }
+  ],
+  "total_text_length": 13870,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Researcher",
+        "description": "Academic or industry researcher working on GraphRAG or related AI technologies",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the researcher"
+          },
+          {
+            "name": "affiliation",
+            "type": "text",
+            "description": "Institution or company the researcher is associated with"
+          },
+          {
+            "name": "research_focus",
+            "type": "text",
+            "description": "Primary research area or specialization"
+          }
+        ],
+        "examples": [
+          "Edge, D.",
+          "Trinh, H.",
+          "Cheng, N.",
+          "Yu"
+        ]
+      },
+      {
+        "name": "University",
+        "description": "Higher education institution involved in GraphRAG research or education",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the university"
+          },
+          {
+            "name": "location",
+            "type": "text",
+            "description": "Geographic location or headquarters"
+          }
+        ],
+        "examples": [
+          "厦门大学",
+          "港中大（深圳）"
+        ]
+      },
+      {
+        "name": "TechCompany",
+        "description": "Technology company developing or applying GraphRAG solutions",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the company"
+          },
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Primary industry or sector"
+          }
+        ],
+        "examples": [
+          "Microsoft",
+          "华为云",
+          "OpenAI",
+          "Google"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News or media organization reporting on GraphRAG developments",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the media outlet"
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "Type of media (e.g., blog, news site, TV)"
+          }
+        ],
+        "examples": [
+          "CSDN博客",
+          "搜狐",
+          "PaperWeekly"
+        ]
+      },
+      {
+        "name": "Developer",
+        "description": "Software developer or engineer implementing GraphRAG systems",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the developer"
+          },
+          {
+            "name": "role",
+            "type": "text",
+            "description": "Job title or role in development"
+          }
+        ],
+        "examples": [
+          "大千AI助手",
+          "一线互联网企业工作者"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "Government body or regulatory agency related to AI or technology",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the agency"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Geographic or functional jurisdiction"
+          }
+        ],
+        "examples": []
+      },
+      {
+        "name": "IndustryAnalyst",
+        "description": "Analyst or consultant specializing in AI and GraphRAG trends",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the analyst"
+          },
+          {
+            "name": "firm",
+            "type": "text",
+            "description": "Analyst firm or consultancy"
+          }
+        ],
+        "examples": []
+      },
+      {
+        "name": "OpenSourceContributor",
+        "description": "Individual contributing to GraphRAG open-source projects",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the contributor"
+          },
+          {
+            "name": "github_username",
+            "type": "text",
+            "description": "GitHub or similar platform username"
+          }
+        ],
+        "examples": [
+          "JayLZhou"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Any individual not fitting the above specific types (e.g., general public, students, employees)",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the person"
+          },
+          {
+            "name": "occupation",
+            "type": "text",
+            "description": "General occupation or role"
+          }
+        ],
+        "examples": [
+          "普通网友",
+          "学生",
+          "企业员工"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Any organization not fitting the above specific types (e.g., small companies, temporary groups)",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organization"
+          },
+          {
+            "name": "description",
+            "type": "text",
+            "description": "Brief description of the organization's purpose"
+          }
+        ],
+        "examples": [
+          "小型研究团队",
+          "临时合作项目组"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "WORKS_FOR",
+        "description": "Employment or affiliation relationship between a person and an organization",
+        "source_targets": [
+          {
+            "source": "Researcher",
+            "target": "University"
+          },
+          {
+            "source": "Researcher",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Developer",
+            "target": "TechCompany"
+          },
+          {
+            "source": "IndustryAnalyst",
+            "target": "Organization"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Collaboration on projects or research between entities",
+        "source_targets": [
+          {
+            "source": "University",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Researcher",
+            "target": "Researcher"
+          },
+          {
+            "source": "OpenSourceContributor",
+            "target": "OpenSourceContributor"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media reporting on entities or events",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "Researcher"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "TechCompany"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "University"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COMMENTS_ON",
+        "description": "Public commentary or opinion on topics or other entities",
+        "source_targets": [
+          {
+            "source": "IndustryAnalyst",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Developer",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Support or endorsement of ideas, technologies, or entities",
+        "source_targets": [
+          {
+            "source": "Researcher",
+            "target": "TechCompany"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "University"
+          },
+          {
+            "source": "Person",
+            "target": "Researcher"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Regulatory oversight or governance by an agency",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "TechCompany"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "University"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COMPETES_WITH",
+        "description": "Competition between entities in the same domain",
+        "source_targets": [
+          {
+            "source": "TechCompany",
+            "target": "TechCompany"
+          },
+          {
+            "source": "University",
+            "target": "University"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "CONTRIBUTES_TO",
+        "description": "Contribution to open-source projects or collaborative efforts",
+        "source_targets": [
+          {
+            "source": "OpenSourceContributor",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Developer",
+            "target": "TechCompany"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "文本内容聚焦于GraphRAG技术的研究、开发和应用，涉及学术机构（如大学）、科技公司（如微软、华为）、研究人员、开发者、媒体等实体。设计实体类型时，提取了关键角色如研究者、大学、科技公司、媒体等，并确保所有实体均为可在社交媒体上发声的真实主体。关系类型反映了社媒互动中的工作、合作、报道、评论等联系，适合模拟舆论事件中的信息传播和影响。",
+  "graph_id": "nexus_2c827ce8572e440f",
+  "graph_build_task_id": "b4d4693f-5711-4a03-93d2-469b39b2e635",
+  "simulation_requirement": "未来GraphRAG的发展趋势是什么？有什么领域可以被快速推进的？\r\n",
+  "focus_entities": null,
+  "focus_events": null,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": "Zep 账号配额不足：当前账号已超过 episode 使用上限，无法继续构建图谱，可在配额重置后重试（x-ratelimit-reset=1773379860）。请升级/更换 ZEP_API_KEY，或等待配额恢复后重试。"
+}

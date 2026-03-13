@@ -1,0 +1,28 @@
+{
+  "simulation_id": "sim_8c2060f7e64e",
+  "project_id": "proj_aa2899d44875",
+  "graph_id": "nexus_5836e1a1a1e14134",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "stopped",
+  "entities_count": 14,
+  "profiles_count": 14,
+  "entity_types": [
+    "AcademicResearcher",
+    "FinancialAnalyst",
+    "Organization",
+    "GovernmentRegulator",
+    "TechnologyCompany",
+    "MedicalProfessional",
+    "Person",
+    "ResearchInstitution"
+  ],
+  "config_generated": true,
+  "config_reasoning": "时间配置: 该模拟针对GraphRAG发展趋势分析，涉及学术研究、技术开发和行业应用，属于持续话题而非突发事件，故设置72小时模拟时长。参与群体包括研究人员、开发者、企业和技术机构，其活动符合中国作息习惯：工作时间（9-18点）中等活跃，晚间（19-22点）为讨论高峰期，凌晨（0-5点）几乎无人活动。Agent激活数适中，反映专业讨论的集中性而非大众热点。 | 事件配置: 基于模拟需求，热点话题提取自文档中的关键技术、应用领域和实体信息。舆论发展方向综合了技术乐观与风险担忧，强调应用前景与挑战。初始帖子设计覆盖不同实体类型，确保多样视角：ResearchInstitution发布技术概述，AcademicResearcher讨论技术细节，Person（如首席趋势战略整合师）提供趋势分析，MedicalProfessional和FinancialAnalyst聚焦领域应用，TechnologyCompany强调商业合作。所有poster_type均从可用实体类型中选择，以匹配Agent发布角色。 | Agent配置: 成功生成 14 个 | 初始帖子分配: 7 个帖子已分配发布者",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-03-13T19:35:24.397716",
+  "updated_at": "2026-03-13T22:20:08.353238",
+  "error": null
+}

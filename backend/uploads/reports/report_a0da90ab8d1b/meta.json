@@ -1,0 +1,29 @@
+{
+  "report_id": "report_a0da90ab8d1b",
+  "simulation_id": "sim_a6c5cea440a9",
+  "graph_id": "nexus_ea42902b99f24732",
+  "simulation_requirement": "\r\n1,857\r\n您是一位专注于英雄联盟LCK联赛的专业电竞分析师。\r\n\r\n您的任务是预测韩华生命电竞（HLE）在2026赛季LCK联赛中的表现。",
+  "status": "failed",
+  "outline": {
+    "title": "未来预测报告",
+    "summary": "基于模拟预测的未来趋势与风险分析",
+    "sections": [
+      {
+        "title": "预测场景与核心发现",
+        "content": ""
+      },
+      {
+        "title": "人群行为预测分析",
+        "content": ""
+      },
+      {
+        "title": "趋势展望与风险提示",
+        "content": ""
+      }
+    ]
+  },
+  "markdown_content": "",
+  "created_at": "2026-03-06T01:20:19.128756",
+  "completed_at": "",
+  "error": "LLM 请求失败（已重试 3 次）: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+}

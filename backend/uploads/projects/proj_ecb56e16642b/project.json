@@ -1,0 +1,370 @@
+{
+  "project_id": "proj_ecb56e16642b",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-03-13T13:48:20.828621",
+  "updated_at": "2026-03-13T13:57:57.553426",
+  "files": [
+    {
+      "filename": "summary_only_20260312_170235.md",
+      "size": 32031
+    }
+  ],
+  "total_text_length": 13870,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Researcher",
+        "description": "Academic or industry researcher working on AI, GraphRAG, or related technologies.",
+        "attributes": [
+          {
+            "name": "affiliation",
+            "type": "text",
+            "description": "Institution or company the researcher is associated with"
+          },
+          {
+            "name": "research_focus",
+            "type": "text",
+            "description": "Primary research areas or topics of interest"
+          }
+        ],
+        "examples": [
+          "Edge, D.",
+          "Trinh, H.",
+          "Cheng, N.",
+          "Yu"
+        ]
+      },
+      {
+        "name": "University",
+        "description": "Higher education institution involved in research or education related to GraphRAG.",
+        "attributes": [
+          {
+            "name": "location",
+            "type": "text",
+            "description": "Geographic location of the university"
+          },
+          {
+            "name": "specialization",
+            "type": "text",
+            "description": "Key academic strengths or departments"
+          }
+        ],
+        "examples": [
+          "厦门大学",
+          "港中大（深圳）"
+        ]
+      },
+      {
+        "name": "Company",
+        "description": "Business entity developing or applying GraphRAG technology.",
+        "attributes": [
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Primary industry or sector of operation"
+          },
+          {
+            "name": "product_focus",
+            "type": "text",
+            "description": "Main products or services related to AI"
+          }
+        ],
+        "examples": [
+          "Microsoft",
+          "华为云"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News or content platform reporting on GraphRAG developments.",
+        "attributes": [
+          {
+            "name": "platform_type",
+            "type": "text",
+            "description": "Type of media platform (e.g., blog, news site)"
+          },
+          {
+            "name": "audience",
+            "type": "text",
+            "description": "Target audience or readership"
+          }
+        ],
+        "examples": [
+          "CSDN博客",
+          "搜狐"
+        ]
+      },
+      {
+        "name": "Developer",
+        "description": "Software developer or engineer working with GraphRAG tools or frameworks.",
+        "attributes": [
+          {
+            "name": "expertise",
+            "type": "text",
+            "description": "Technical skills or programming languages"
+          },
+          {
+            "name": "project_involvement",
+            "type": "text",
+            "description": "GraphRAG-related projects or contributions"
+          }
+        ],
+        "examples": [
+          "大千AI助手",
+          "JayLZhou"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "Government body involved in regulating or funding AI research.",
+        "attributes": [
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Geographic or administrative scope"
+          },
+          {
+            "name": "policy_focus",
+            "type": "text",
+            "description": "Key policy areas related to technology"
+          }
+        ],
+        "examples": []
+      },
+      {
+        "name": "NGO",
+        "description": "Non-governmental organization promoting AI ethics, education, or open-source initiatives.",
+        "attributes": [
+          {
+            "name": "mission",
+            "type": "text",
+            "description": "Primary goals or advocacy areas"
+          },
+          {
+            "name": "activities",
+            "type": "text",
+            "description": "Key programs or events organized"
+          }
+        ],
+        "examples": []
+      },
+      {
+        "name": "Educator",
+        "description": "Teacher or trainer involved in AI education, including GraphRAG tutorials or courses.",
+        "attributes": [
+          {
+            "name": "institution",
+            "type": "text",
+            "description": "Educational institution where they teach"
+          },
+          {
+            "name": "subject",
+            "type": "text",
+            "description": "Subjects or courses taught"
+          }
+        ],
+        "examples": []
+      },
+      {
+        "name": "Person",
+        "description": "Any individual not fitting into more specific person types, such as general users or commentators.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the individual"
+          },
+          {
+            "name": "occupation",
+            "type": "text",
+            "description": "General occupation or role"
+          }
+        ],
+        "examples": [
+          "普通网友",
+          "学习者"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Any organization not fitting into more specific organization types, such as small groups or infor...",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organization"
+          },
+          {
+            "name": "purpose",
+            "type": "text",
+            "description": "General purpose or activities"
+          }
+        ],
+        "examples": [
+          "研究团队",
+          "开源社区"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "WORKS_FOR",
+        "description": "Employment or affiliation relationship between a person and an organization.",
+        "source_targets": [
+          {
+            "source": "Researcher",
+            "target": "University"
+          },
+          {
+            "source": "Researcher",
+            "target": "Company"
+          },
+          {
+            "source": "Developer",
+            "target": "Company"
+          },
+          {
+            "source": "Educator",
+            "target": "University"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Cooperation on projects, research, or initiatives between entities.",
+        "source_targets": [
+          {
+            "source": "University",
+            "target": "Company"
+          },
+          {
+            "source": "Researcher",
+            "target": "Researcher"
+          },
+          {
+            "source": "Organization",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media coverage or analysis of entities, events, or technologies.",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "Researcher"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "University"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Company"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "DEVELOPS",
+        "description": "Creation or contribution to software, tools, or frameworks.",
+        "source_targets": [
+          {
+            "source": "Developer",
+            "target": "Company"
+          },
+          {
+            "source": "Researcher",
+            "target": "University"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Oversight or policy enforcement by government agencies.",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "Company"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "University"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "EDUCATES",
+        "description": "Teaching, training, or knowledge dissemination activities.",
+        "source_targets": [
+          {
+            "source": "Educator",
+            "target": "Person"
+          },
+          {
+            "source": "University",
+            "target": "Person"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Endorsement, funding, or advocacy for entities or causes.",
+        "source_targets": [
+          {
+            "source": "NGO",
+            "target": "Researcher"
+          },
+          {
+            "source": "Company",
+            "target": "University"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COMMENTS_ON",
+        "description": "Public expression of opinions or feedback on topics or entities.",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "Developer",
+            "target": "Company"
+          },
+          {
+            "source": "Researcher",
+            "target": "University"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "文本内容聚焦于GraphRAG技术的发展、研究和应用，涉及学术研究、企业开发、媒体报道和教育推广等多个方面。实体类型设计基于文本中出现的具体角色，如研究人员、大学、公司、媒体等，确保所有实体都是现实中可发声的主体。关系类型反映了社交媒体舆论模拟中的互动，如合作、报道、评论等，以支持信息传播和影响模拟。",
+  "graph_id": "nexus_2287b45fe0a542f8",
+  "graph_build_task_id": "cd609b05-976f-427b-b539-163250f9ff4d",
+  "simulation_requirement": "未来GraphRAG的发展趋势是什么？有什么领域可以被快速推进的？",
+  "focus_entities": null,
+  "focus_events": null,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "simulation_id": "sim_c06f6ae6dbdb",
+  "project_id": "proj_3d5f5c2cd4f6",
+  "graph_id": "nexus_3a2b35fb10224852",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "running",
+  "entities_count": 30,
+  "profiles_count": 30,
+  "entity_types": [
+    "Streamer",
+    "PolicyMaker",
+    "Person",
+    "LegalProfessional",
+    "MediaOutlet",
+    "ResearchInstitution",
+    "FinancialAnalyst",
+    "Platform"
+  ],
+  "config_generated": true,
+  "config_reasoning": "时间配置: 该事件涉及B站直播毁号、虚拟财产权益、平台监管等热点，用户关注度高，预计持续发酵。模拟时长96小时（4天），覆盖事件爆发、舆论扩散、政策讨论等阶段。高峰时段为晚间19-22点，符合中国网民活跃习惯；低谷为凌晨0-5点；早间6-8点和工作时段9-18点按常规设置。Agent数量范围较宽，以反映事件初期高热度及后续持续讨论。 | 事件配置: 基于模拟需求分析B站和群众发展势头，从Agent-A输出提取热点话题如事件本身、虚拟财产权益等；舆论方向描述综合了用户关注上升、舆论分化、政策酝酿等特点；初始帖子设计覆盖关键实体类型，如Person代表用户视角，MediaOutlet发布新闻，Streamer反映主播互动，Platform回应监管，PolicyMaker和法律相关方推动政策讨论，ResearchInstitution提供技术分析，FinancialAnalyst关注市场影响，确保帖子分配给合适Agent。 | Agent配置: 成功生成 30 个 | 初始帖子分配: 7 个帖子已分配发布者",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-03-13T16:22:01.187487",
+  "updated_at": "2026-03-13T16:34:09.811948",
+  "error": null
+}

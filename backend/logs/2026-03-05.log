@@ -1,0 +1,148 @@
+[2026-03-05 21:43:12] INFO [mirofish.create_app:38] ==================================================
+[2026-03-05 21:43:12] INFO [mirofish.create_app:39] MiroFish Backend 启动中...
+[2026-03-05 21:43:12] INFO [mirofish.create_app:40] ==================================================
+[2026-03-05 21:43:12] INFO [mirofish.create_app:49] 已注册模拟进程清理函数
+[2026-03-05 21:43:12] INFO [mirofish.create_app:77] MiroFish Backend 启动完成
+[2026-03-05 21:46:59] INFO [mirofish.create_app:38] ==================================================
+[2026-03-05 21:46:59] INFO [mirofish.create_app:39] MiroFish Backend 启动中...
+[2026-03-05 21:46:59] INFO [mirofish.create_app:40] ==================================================
+[2026-03-05 21:47:00] INFO [mirofish.create_app:49] 已注册模拟进程清理函数
+[2026-03-05 21:47:00] INFO [mirofish.create_app:77] MiroFish Backend 启动完成
+[2026-03-05 21:50:03] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 21:50:03] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 21:50:03] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 21:50:03] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: 你是一个具有丰富英雄联盟电竞赛事教练以及作战经验的专家，请你预测一下2026年赛季HLE战队的走势，以及对于最后S赛夺冠的概率预测...
+[2026-03-05 21:50:03] INFO [mirofish.api.generate_ontology:177] 创建项目: proj_9826196d46b4
+[2026-03-05 21:50:03] INFO [mirofish.api.generate_ontology:212] 文本提取完成，共 3195 字符
+[2026-03-05 21:50:03] INFO [mirofish.api.generate_ontology:215] 调用 LLM 生成本体定义...
+[2026-03-05 21:50:06] DEBUG [mirofish.request.log_response:62] 响应: 500
+[2026-03-05 21:50:07] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 21:50:07] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 21:50:07] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 21:50:07] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: 你是一个具有丰富英雄联盟电竞赛事教练以及作战经验的专家，请你预测一下2026年赛季HLE战队的走势，以及对于最后S赛夺冠的概率预测...
+[2026-03-05 21:50:07] INFO [mirofish.api.generate_ontology:177] 创建项目: proj_51c7ff520307
+[2026-03-05 21:50:07] INFO [mirofish.api.generate_ontology:212] 文本提取完成，共 3195 字符
+[2026-03-05 21:50:07] INFO [mirofish.api.generate_ontology:215] 调用 LLM 生成本体定义...
+[2026-03-05 21:50:07] DEBUG [mirofish.request.log_response:62] 响应: 500
+[2026-03-05 21:50:09] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 21:50:09] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 21:50:09] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 21:50:09] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: 你是一个具有丰富英雄联盟电竞赛事教练以及作战经验的专家，请你预测一下2026年赛季HLE战队的走势，以及对于最后S赛夺冠的概率预测...
+[2026-03-05 21:50:09] INFO [mirofish.api.generate_ontology:177] 创建项目: proj_bf361722585b
+[2026-03-05 21:50:09] INFO [mirofish.api.generate_ontology:212] 文本提取完成，共 3195 字符
+[2026-03-05 21:50:09] INFO [mirofish.api.generate_ontology:215] 调用 LLM 生成本体定义...
+[2026-03-05 21:50:09] DEBUG [mirofish.request.log_response:62] 响应: 500
+[2026-03-05 21:56:12] DEBUG [mirofish.request.log_request:55] 请求: GET /api/simulation/history
+[2026-03-05 21:56:12] DEBUG [mirofish.request.log_response:62] 响应: 200
+[2026-03-05 21:58:48] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 21:58:48] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 21:58:48] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 21:58:48] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: 您是一位专注于英雄联盟LCK联赛的专业电竞分析师。您的任务是预测韩华生命电竞（HLE）在2026赛季LCK联赛中的表现。...
+[2026-03-05 21:58:48] INFO [mirofish.api.generate_ontology:177] 创建项目: proj_3365b625b42a
+[2026-03-05 21:58:48] INFO [mirofish.api.generate_ontology:212] 文本提取完成，共 3195 字符
+[2026-03-05 21:58:48] INFO [mirofish.api.generate_ontology:215] 调用 LLM 生成本体定义...
+[2026-03-05 21:58:48] DEBUG [mirofish.request.log_response:62] 响应: 500
+[2026-03-05 21:58:49] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 21:58:49] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 21:58:49] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 21:58:49] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: 您是一位专注于英雄联盟LCK联赛的专业电竞分析师。您的任务是预测韩华生命电竞（HLE）在2026赛季LCK联赛中的表现。...
+[2026-03-05 21:58:49] INFO [mirofish.api.generate_ontology:177] 创建项目: proj_24ebba78de58
+[2026-03-05 21:58:49] INFO [mirofish.api.generate_ontology:212] 文本提取完成，共 3195 字符
+[2026-03-05 21:58:49] INFO [mirofish.api.generate_ontology:215] 调用 LLM 生成本体定义...
+[2026-03-05 21:58:49] DEBUG [mirofish.request.log_response:62] 响应: 500
+[2026-03-05 21:58:51] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 21:58:51] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 21:58:51] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 21:58:51] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: 您是一位专注于英雄联盟LCK联赛的专业电竞分析师。您的任务是预测韩华生命电竞（HLE）在2026赛季LCK联赛中的表现。...
+[2026-03-05 21:58:51] INFO [mirofish.api.generate_ontology:177] 创建项目: proj_b1f2b40c7e14
+[2026-03-05 21:58:51] INFO [mirofish.api.generate_ontology:212] 文本提取完成，共 3195 字符
+[2026-03-05 21:58:51] INFO [mirofish.api.generate_ontology:215] 调用 LLM 生成本体定义...
+[2026-03-05 21:58:52] DEBUG [mirofish.request.log_response:62] 响应: 500
+[2026-03-05 22:00:08] INFO [mirofish.create_app:38] ==================================================
+[2026-03-05 22:00:08] INFO [mirofish.create_app:39] MiroFish Backend 启动中...
+[2026-03-05 22:00:08] INFO [mirofish.create_app:40] ==================================================
+[2026-03-05 22:00:08] INFO [mirofish.create_app:49] 已注册模拟进程清理函数
+[2026-03-05 22:00:08] INFO [mirofish.create_app:77] MiroFish Backend 启动完成
+[2026-03-05 22:00:08] DEBUG [mirofish.request.log_request:55] 请求: GET /api/simulation/history
+[2026-03-05 22:00:08] DEBUG [mirofish.request.log_response:62] 响应: 200
+[2026-03-05 22:00:18] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 22:00:18] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 22:00:18] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 22:00:18] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: 您是一位专注于英雄联盟LCK联赛的专业电竞分析师。
+
+您的任务是预测韩华生命电竞（HLE）在2026赛季LCK联赛中的表现。...
+[2026-03-05 22:00:18] INFO [mirofish.api.generate_ontology:177] 创建项目: proj_7d4e5a7a30da
+[2026-03-05 22:00:18] INFO [mirofish.api.generate_ontology:212] 文本提取完成，共 3195 字符
+[2026-03-05 22:00:18] INFO [mirofish.api.generate_ontology:215] 调用 LLM 生成本体定义...
+[2026-03-05 22:00:19] DEBUG [mirofish.request.log_response:62] 响应: 500
+[2026-03-05 22:00:20] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 22:00:20] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 22:00:20] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 22:00:20] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: 您是一位专注于英雄联盟LCK联赛的专业电竞分析师。
+
+您的任务是预测韩华生命电竞（HLE）在2026赛季LCK联赛中的表现。...
+[2026-03-05 22:00:20] INFO [mirofish.api.generate_ontology:177] 创建项目: proj_8b955ffeded5
+[2026-03-05 22:00:20] INFO [mirofish.api.generate_ontology:212] 文本提取完成，共 3195 字符
+[2026-03-05 22:00:20] INFO [mirofish.api.generate_ontology:215] 调用 LLM 生成本体定义...
+[2026-03-05 22:00:20] DEBUG [mirofish.request.log_response:62] 响应: 500
+[2026-03-05 22:00:22] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 22:00:22] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 22:00:22] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 22:00:22] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: 您是一位专注于英雄联盟LCK联赛的专业电竞分析师。
+
+您的任务是预测韩华生命电竞（HLE）在2026赛季LCK联赛中的表现。...
+[2026-03-05 22:00:22] INFO [mirofish.api.generate_ontology:177] 创建项目: proj_8d5db3883039
+[2026-03-05 22:00:22] INFO [mirofish.api.generate_ontology:212] 文本提取完成，共 3195 字符
+[2026-03-05 22:00:22] INFO [mirofish.api.generate_ontology:215] 调用 LLM 生成本体定义...
+[2026-03-05 22:00:22] DEBUG [mirofish.request.log_response:62] 响应: 500
+[2026-03-05 22:00:49] DEBUG [mirofish.request.log_request:55] 请求: GET /api/health
+[2026-03-05 22:00:49] DEBUG [mirofish.request.log_response:62] 响应: 404
+[2026-03-05 22:02:48] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 22:02:48] DEBUG [mirofish.request.log_request:57] 请求体: {'files': [{'name': 'test.txt', 'content': '测试内容'}], 'simulation_requirement': '测试需求'}
+[2026-03-05 22:02:48] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 22:02:48] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 22:02:48] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: ...
+[2026-03-05 22:02:48] DEBUG [mirofish.request.log_response:62] 响应: 400
+[2026-03-05 22:02:57] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 22:02:57] DEBUG [mirofish.request.log_request:57] 请求体: {'uploaded_files': [{'name': 'test.txt', 'content': '这是一个测试文档。张三是一名工程师，他在ABC公司工作。'}], 'simulation_requirement': '分析人物关系'}
+[2026-03-05 22:02:57] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 22:02:57] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 22:02:57] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: ...
+[2026-03-05 22:02:57] DEBUG [mirofish.request.log_response:62] 响应: 400
+[2026-03-05 22:04:54] INFO [mirofish.create_app:38] ==================================================
+[2026-03-05 22:04:54] INFO [mirofish.create_app:39] MiroFish Backend 启动中...
+[2026-03-05 22:04:54] INFO [mirofish.create_app:40] ==================================================
+[2026-03-05 22:04:54] INFO [mirofish.create_app:49] 已注册模拟进程清理函数
+[2026-03-05 22:04:54] INFO [mirofish.create_app:77] MiroFish Backend 启动完成
+[2026-03-05 23:58:10] INFO [mirofish.create_app:38] ==================================================
+[2026-03-05 23:58:10] INFO [mirofish.create_app:39] MiroFish Backend 启动中...
+[2026-03-05 23:58:10] INFO [mirofish.create_app:40] ==================================================
+[2026-03-05 23:58:10] INFO [mirofish.create_app:49] 已注册模拟进程清理函数
+[2026-03-05 23:58:10] INFO [mirofish.create_app:77] MiroFish Backend 启动完成
+[2026-03-05 23:58:11] DEBUG [mirofish.request.log_request:55] 请求: GET /api/simulation/history
+[2026-03-05 23:58:11] DEBUG [mirofish.request.log_response:62] 响应: 200
+[2026-03-05 23:58:28] DEBUG [mirofish.request.log_request:55] 请求: POST /api/graph/ontology/generate
+[2026-03-05 23:58:28] INFO [mirofish.api.generate_ontology:150] === 开始生成本体定义 ===
+[2026-03-05 23:58:28] DEBUG [mirofish.api.generate_ontology:157] 项目名称: Unnamed Project
+[2026-03-05 23:58:28] DEBUG [mirofish.api.generate_ontology:158] 模拟需求: 您是一位专注于英雄联盟LCK联赛的专业电竞分析师。
+
+您的任务是预测韩华生命电竞（HLE）在2026赛季LCK联赛中的表现。...
+[2026-03-05 23:58:28] INFO [mirofish.api.generate_ontology:177] 创建项目: proj_e70f02e88189
+[2026-03-05 23:58:28] INFO [mirofish.api.generate_ontology:212] 文本提取完成，共 3195 字符
+[2026-03-05 23:58:28] INFO [mirofish.api.generate_ontology:215] 调用 LLM 生成本体定义...
+[2026-03-05 23:58:28] DEBUG [mirofish.llm.__init__:38] LLMClient 初始化: base_url=https://api.deepseek.com/v1, model=deepseek-chat
+[2026-03-05 23:58:29] INFO [mirofish.ontology.__init__:170] OntologyGenerator 初始化成功
+[2026-03-05 23:58:29] INFO [mirofish.api.generate_ontology:218] OntologyGenerator 初始化成功
+[2026-03-05 23:58:29] INFO [mirofish.ontology.generate:196] 开始生成本体，文档数: 1, 需求: 您是一位专注于英雄联盟LCK联赛的专业电竞分析师。
+
+您的任务是预测韩华生命电竞（HLE）在20...
+[2026-03-05 23:58:29] DEBUG [mirofish.ontology.generate:210] 消息构建完成，系统提示: 2763 字符，用户消息: 3466 字符
+[2026-03-05 23:58:29] INFO [mirofish.ontology.generate:213] 调用 LLM 生成本体定义...
+[2026-03-05 23:58:29] DEBUG [mirofish.llm.chat:72] LLM 请求 (尝试 1/3)
+[2026-03-06 00:00:48] DEBUG [mirofish.llm.chat:87] LLM 请求成功，返回 9919 字符
+[2026-03-06 00:00:48] DEBUG [mirofish.llm.chat_json:170] JSON 解析成功，包含 3 个顶级键
+[2026-03-06 00:00:48] INFO [mirofish.ontology.generate:220] LLM 返回成功，包含 10 个实体类型
+[2026-03-06 00:00:48] INFO [mirofish.ontology.generate:225] 本体生成完成: 10 个实体类型, 8 个关系类型
+[2026-03-06 00:00:48] INFO [mirofish.api.generate_ontology:237] 本体生成完成: 10 个实体类型, 8 个关系类型
+[2026-03-06 00:00:48] INFO [mirofish.api.generate_ontology:246] === 本体生成完成 === 项目ID: proj_e70f02e88189
+[2026-03-06 00:00:48] DEBUG [mirofish.request.log_response:62] 响应: 200

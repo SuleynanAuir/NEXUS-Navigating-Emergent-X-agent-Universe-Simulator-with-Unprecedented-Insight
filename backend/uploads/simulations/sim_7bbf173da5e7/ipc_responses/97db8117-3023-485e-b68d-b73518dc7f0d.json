@@ -1,0 +1,23 @@
+{
+  "command_id": "97db8117-3023-485e-b68d-b73518dc7f0d",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_16": {
+        "agent_id": 16,
+        "response": "今年我们会继续努力，争取更好的成绩。感谢粉丝一直以来的支持，Gen.G会全力以赴的！",
+        "timestamp": 22,
+        "platform": "twitter"
+      },
+      "reddit_16": {
+        "agent_id": 16,
+        "response": "作为职业电竞选手Chovy，我专注于当前的训练和比赛表现。关于过往的成绩和数据，我更愿意将注意力放在如何与Gen.G战队一起在2026年LCK春季赛中取得更好的成绩。每一年都是新的开始，我会继续努力提升自己的竞技水平，为团队做出贡献。感谢粉丝们的关心和支持！",
+        "timestamp": "2026-03-07 14:09:57.094013",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-03-06T10:55:21.106717"
+}

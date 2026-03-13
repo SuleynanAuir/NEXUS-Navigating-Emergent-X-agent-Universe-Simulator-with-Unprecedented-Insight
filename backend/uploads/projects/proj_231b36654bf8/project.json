@@ -1,0 +1,380 @@
+{
+  "project_id": "proj_231b36654bf8",
+  "name": "Unnamed Project",
+  "status": "failed",
+  "created_at": "2026-03-10T15:04:29.430757",
+  "updated_at": "2026-03-10T15:16:23.523297",
+  "files": [
+    {
+      "filename": "DensePose From WiFi.pdf",
+      "size": 11369233
+    }
+  ],
+  "total_text_length": 47856,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Researcher",
+        "description": "Academic or industry researcher involved in technology development, such as authors of the paper.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the researcher"
+          },
+          {
+            "name": "affiliation",
+            "type": "text",
+            "description": "Institution or company the researcher is associated with"
+          }
+        ],
+        "examples": [
+          "Jiaqi Geng",
+          "Dong Huang",
+          "Fernando De la Torre"
+        ]
+      },
+      {
+        "name": "University",
+        "description": "Higher education institution involved in research or academic discussions.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the university"
+          },
+          {
+            "name": "location",
+            "type": "text",
+            "description": "Geographic location of the university"
+          }
+        ],
+        "examples": [
+          "Carnegie Mellon University"
+        ]
+      },
+      {
+        "name": "TechCompany",
+        "description": "Technology company developing or using WiFi, sensors, or related hardware.",
+        "attributes": [
+          {
+            "name": "company_name",
+            "type": "text",
+            "description": "Name of the technology company"
+          },
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Primary industry sector, e.g., networking, hardware"
+          }
+        ],
+        "examples": [
+          "Intel",
+          "TP-Link"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News organization or publication reporting on technology and research.",
+        "attributes": [
+          {
+            "name": "outlet_name",
+            "type": "text",
+            "description": "Name of the media outlet"
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "Type of media, e.g., newspaper, online platform"
+          }
+        ],
+        "examples": [
+          "TechCrunch",
+          "Wired"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "Government body involved in regulation, funding, or privacy oversight.",
+        "attributes": [
+          {
+            "name": "agency_name",
+            "type": "text",
+            "description": "Name of the government agency"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Geographic or functional jurisdiction"
+          }
+        ],
+        "examples": [
+          "FCC",
+          "NIH"
+        ]
+      },
+      {
+        "name": "PrivacyAdvocate",
+        "description": "Individual or group advocating for privacy rights in technology contexts.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Name of the advocate or group representative"
+          },
+          {
+            "name": "focus_area",
+            "type": "text",
+            "description": "Primary focus, e.g., surveillance, data protection"
+          }
+        ],
+        "examples": [
+          "Electronic Frontier Foundation representative"
+        ]
+      },
+      {
+        "name": "HealthcareProvider",
+        "description": "Hospital, clinic, or healthcare organization using monitoring technologies.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the healthcare provider"
+          },
+          {
+            "name": "service_type",
+            "type": "text",
+            "description": "Type of healthcare services offered"
+          }
+        ],
+        "examples": [
+          "Local hospital implementing elder monitoring"
+        ]
+      },
+      {
+        "name": "TechJournalist",
+        "description": "Journalist specializing in technology reporting and analysis.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the journalist"
+          },
+          {
+            "name": "publication",
+            "type": "text",
+            "description": "Media outlet the journalist works for"
+          }
+        ],
+        "examples": [
+          "Reporter covering AI and privacy"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Any individual not fitting into more specific person types, e.g., general public, users.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the individual"
+          },
+          {
+            "name": "role",
+            "type": "text",
+            "description": "General role or context, e.g., consumer, concerned citizen"
+          }
+        ],
+        "examples": [
+          "John Doe",
+          "A concerned parent"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Any organization not fitting into more specific organization types, e.g., small business, communi...",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organization"
+          },
+          {
+            "name": "description",
+            "type": "text",
+            "description": "Brief description of the organization's purpose"
+          }
+        ],
+        "examples": [
+          "Local homeowners association",
+          "Small tech startup"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "AFFILIATED_WITH",
+        "description": "Entity is affiliated with an organization, e.g., researcher with university.",
+        "source_targets": [
+          {
+            "source": "Researcher",
+            "target": "University"
+          },
+          {
+            "source": "Researcher",
+            "target": "TechCompany"
+          },
+          {
+            "source": "TechJournalist",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "PUBLISHES",
+        "description": "Entity publishes research, news, or reports.",
+        "source_targets": [
+          {
+            "source": "Researcher",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "University",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Person"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Entity regulates or oversees another entity's activities.",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "TechCompany"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "University"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "HealthcareProvider"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "USES_TECHNOLOGY",
+        "description": "Entity uses or implements the technology discussed.",
+        "source_targets": [
+          {
+            "source": "HealthcareProvider",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Person",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Organization",
+            "target": "TechCompany"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ADVOCATES_FOR",
+        "description": "Entity advocates for or against issues related to the technology.",
+        "source_targets": [
+          {
+            "source": "PrivacyAdvocate",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "PrivacyAdvocate",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Person",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Entity reports on news or developments related to the technology.",
+        "source_targets": [
+          {
+            "source": "TechJournalist",
+            "target": "Researcher"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "University"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "TechCompany"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Entities collaborate on research, projects, or initiatives.",
+        "source_targets": [
+          {
+            "source": "University",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Researcher",
+            "target": "HealthcareProvider"
+          },
+          {
+            "source": "Organization",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COMMENTS_ON",
+        "description": "Entity comments on or discusses the technology or related issues.",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "PrivacyAdvocate",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "TechJournalist",
+            "target": "Person"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "文本内容是一篇关于使用WiFi信号进行密集人体姿态估计的学术论文，涉及研究人员、大学、技术公司、隐私问题、医疗应用等。针对社交媒体舆论模拟，设计了10个实体类型，包括8个具体类型（如Researcher、University、TechCompany等）和2个兜底类型（Person、Organization），以及8个关系类型，以反映相关主体在技术发展、隐私讨论、媒体报道等方面的互动。",
+  "graph_id": "nexus_038482ad3b004f8b",
+  "graph_build_task_id": "a41f1a38-0c55-41ab-9d34-6d0b596ff23a",
+  "simulation_requirement": "请你分析一下现在这篇论文的发展",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": "headers: {'date': 'Tue, 10 Mar 2026 07:16:23 GMT', 'content-type': 'text/plain; charset=utf-8', 'content-length': '34', 'connection': 'keep-alive', 'retry-after': '60', 'vary': 'Origin', 'x-content-type-options': 'nosniff', 'x-ratelimit-limit': '5', 'x-ratelimit-remaining': '-31', 'x-ratelimit-reset': '1773127020', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '9da0889d8ffc8261-TPE'}, status_code: 429, body: Rate limit exceeded for FREE plan\n"
+}

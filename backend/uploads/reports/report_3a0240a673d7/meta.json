@@ -1,0 +1,12 @@
+{
+  "report_id": "report_3a0240a673d7",
+  "simulation_id": "sim_5f53c72bd940",
+  "graph_id": "nexus_2287b45fe0a542f8",
+  "simulation_requirement": "未来GraphRAG的发展趋势是什么？有什么领域可以被快速推进的？",
+  "status": "failed",
+  "outline": null,
+  "markdown_content": "",
+  "created_at": "2026-03-13T15:16:40.202168",
+  "completed_at": "",
+  "error": "headers: {'date': 'Fri, 13 Mar 2026 07:16:42 GMT', 'content-type': 'text/plain; charset=utf-8', 'content-length': '34', 'connection': 'keep-alive', 'retry-after': '60', 'vary': 'Origin', 'x-content-type-options': 'nosniff', 'x-ratelimit-limit': '5', 'x-ratelimit-remaining': '0', 'x-ratelimit-reset': '1773386220', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '9db94132f82e8446-TPE'}, status_code: 429, body: Rate limit exceeded for FREE plan\n"
+}

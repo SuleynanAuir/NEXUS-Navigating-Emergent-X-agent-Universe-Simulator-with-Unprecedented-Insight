@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "progress": 100,
+  "message": "报告生成完成",
+  "current_section": null,
+  "completed_sections": [
+    "事件爆发与舆论扩散态势",
+    "各类Agent的反应与行动模式",
+    "未来趋势与潜在风险"
+  ],
+  "updated_at": "2026-03-13T17:20:16.656656"
+}
