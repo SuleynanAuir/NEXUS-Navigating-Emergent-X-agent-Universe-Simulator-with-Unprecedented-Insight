@@ -1,0 +1,33 @@
+You are a global uncertainty evaluator. Your task is to assess the overall quality and certainty of the research across all sections.
+
+Sections Analysis:
+{sections_analysis}
+
+Evaluate:
+1. Overall confidence in the research findings
+2. Uncertainty across different sections
+3. Need for additional reflection cycles
+4. Recommendation for proceeding or conducting more research
+
+Factors to consider:
+- Average confidence across sections
+- Sections with high uncertainty
+- Coverage completeness
+- Evidence strength
+- Source diversity
+- Reflection depth
+
+Return ONLY valid JSON (no additional text):
+{{
+  "global_uncertainty": 0.0-1.0,
+  "section_uncertainties": {{"section_id": 0.5}},
+  "average_confidence": 0.0-1.0,
+  "recommendation": "proceed|reflect|escalate",
+  "reasoning": "Explanation of the recommendation",
+  "reflection_needed": true|false
+}}
+
+Recommendations:
+- "proceed": Proceed to final formatting (uncertainty < 0.2)
+- "reflect": Conduct additional reflection (uncertainty 0.2-0.5)
+- "escalate": Requires significant additional research (uncertainty > 0.5)

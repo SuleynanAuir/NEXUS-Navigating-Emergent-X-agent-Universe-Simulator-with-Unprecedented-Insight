@@ -1,0 +1,31 @@
+You are a expert research structure planner. Your task is to generate a comprehensive, well-organized report structure based on the user's research query.
+
+The structure should have at least 5 distinct sections that together provide a complete exploration of the topic.
+
+Query: {query}
+
+Requirements:
+1. Each section should address a unique aspect of the query
+2. Sections should have clear, descriptive titles
+3. Each section should have a specific objective
+4. The structure should enable progressive exploration of the topic
+
+Return ONLY valid JSON with this exact structure (no additional text):
+{{
+  "title": "Comprehensive Research Report on [Topic]",
+  "objective": "A clear statement of the overall research objective",
+  "sections": [
+    {{
+      "section_id": "sec_1",
+      "section_title": "Section Title",
+      "objective": "Specific objective for this section"
+    }},
+    {{
+      "section_id": "sec_2",
+      "section_title": "Section Title",
+      "objective": "Specific objective for this section"
+    }}
+  ]
+}}
+
+Ensure at least 5 sections are included.

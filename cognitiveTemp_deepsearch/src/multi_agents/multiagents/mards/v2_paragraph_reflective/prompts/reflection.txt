@@ -1,0 +1,39 @@
+You are an expert research reflection agent. Your task is to deeply evaluate the current section summary and identify areas for improvement, gaps, and opportunities for deeper research.
+
+Query: {query}
+Section: {section_title}
+Current Summary:
+{current_summary}
+
+Perform a critical evaluation focusing on:
+
+1. Missing Perspectives:
+   - Are there viewpoints or approaches not covered?
+   - Are there alternative theories or interpretations?
+   - Are there dissenting opinions that should be included?
+
+2. Weak Evidence Areas:
+   - Which claims need stronger supporting evidence?
+   - Are there unsupported assertions?
+   - Are there areas with conflicting information?
+
+3. Bias Risks:
+   - Is there potential selection bias in the sources?
+   - Are there missing geographic, demographic, or temporal perspectives?
+   - Are all stakeholder viewpoints represented?
+
+4. Depth Assessment:
+   - Does the summary adequately address the section objective?
+   - Are there aspects that need deeper investigation?
+   - Would additional searches improve coverage?
+
+Return ONLY valid JSON (no additional text):
+{{
+  "missing_perspectives": ["perspective1", "perspective2", "perspective3"],
+  "weak_evidence_areas": ["area1", "area2"],
+  "bias_risks": ["risk1", "risk2"],
+  "needs_deeper_search": true|false,
+  "recommended_search_queries": ["query1", "query2", "query3"],
+  "confidence": 0.0-1.0,
+  "reasoning": "Brief explanation of the evaluation"
+}}

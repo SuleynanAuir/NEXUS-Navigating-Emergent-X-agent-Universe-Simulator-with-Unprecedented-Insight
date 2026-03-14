@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARDS - 多智能体深度搜索系统</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <h1>🔍 MARDS 深度搜索系统</h1>
+            <p>Multi-Agent Reflective Deep Search</p>
+        </header>
+
+        <!-- 主卡片 -->
+        <div class="card">
+            <!-- 输入区域 -->
+            <div class="input-section">
+                <h2>配置搜索参数</h2>
+
+                <!-- API Key 1 -->
+                <div class="form-group">
+                    <label for="api_key_1">DeepSeek API Key</label>
+                    <input 
+                        type="password" 
+                        id="api_key_1" 
+                        class="input-field"
+                        placeholder="sk-xxx"
+                        value="sk-1f72cfd14cb447f794cec45bad2e27ac"
+                    />
+                    <small>从 https://platform.deepseek.com/api_keys 获取</small>
+                </div>
+
+                <!-- API Key 2 -->
+                <div class="form-group">
+                    <label for="api_key_2">Tavily API Key</label>
+                    <input 
+                        type="password" 
+                        id="api_key_2" 
+                        class="input-field"
+                        placeholder="tvly-xxx"
+                        value="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"
+                    />
+                    <small>从 https://app.tavily.com/ 获取</small>
+                </div>
+
+                <!-- 搜索内容 -->
+                <div class="form-group">
+                    <label for="query">搜索内容</label>
+                    <textarea 
+                        id="query" 
+                        class="input-field textarea"
+                        placeholder="请输入你的研究问题..."
+                        rows="3"
+                    >人工智能在医疗领域的应用前景</textarea>
+                </div>
+
+                <!-- 按钮 -->
+                <button id="startBtn" class="btn btn-primary" onclick="startSearch()">
+                    开始搜索
+                </button>
+            </div>
+
+            <!-- 分隔线 -->
+            <div class="divider"></div>
+
+            <!-- 进度区域 -->
+            <div id="progressSection" class="progress-section" style="display: none;">
+                <h2>搜索进度</h2>
+
+                <!-- 进度条 -->
+                <div class="progress-container">
+                    <div class="progress-bar-bg">
+                        <div id="progressBar" class="progress-bar-fill"></div>
+                    </div>
+                    <div class="progress-text">
+                        <span id="progressPercent">0%</span>
+                    </div>
+                </div>
+
+                <!-- 状态消息 -->
+                <div class="status-message" id="statusMessage">
+                    准备就绪...
+                </div>
+
+                <!-- 加载动画 -->
+                <div class="loading-spinner" id="spinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+
+            <!-- 错误区域 -->
+            <div id="errorSection" class="error-section" style="display: none;">
+                <div class="error-box">
+                    <h3>❌ 错误信息</h3>
+                    <p id="errorMessage"></p>
+                    <button class="btn btn-secondary" onclick="resetForm()">返回重试</button>
+                </div>
+            </div>
+
+            <!-- 结果区域 -->
+            <div id="resultSection" class="result-section" style="display: none;">
+                <h2>搜索结果</h2>
+
+                <!-- 摘要 -->
+                <div id="resultSummary" class="result-summary">
+                    <p>
+                        <strong>搜索词:</strong> <span id="resultQuery"></span>
+                    </p>
+                    <p>
+                        <strong>结果数:</strong> <span id="resultCount"></span>
+                    </p>
+                </div>
+
+                <!-- 结果列表 -->
+                <div id="resultsList" class="results-list">
+                    <!-- 动态插入结果 -->
+                </div>
+
+                <!-- 操作按钮 -->
+                <div class="result-actions">
+                    <button id="downloadBtn" class="btn btn-primary" onclick="downloadResults()">
+                        📥 下载结果
+                    </button>
+                    <button id="newSearchBtn" class="btn btn-secondary" onclick="resetForm()">
+                        🔄 新建搜索
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <p>MARDS © 2026 | <a href="#">文档</a> | <a href="#">GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,715 @@
+
+<!-- Research Metrics Dashboard -->
+<section class="research-metrics-dashboard">
+    <div class="dashboard-header">
+        <h2>📊 研究指标仪表板</h2>
+        <p class="dashboard-subtitle">学术级别的研究质量和效率指标</p>
+    </div>
+    
+    <!-- Overall Score Card -->
+    <div class="overall-score-container">
+        <div class="overall-score-card">
+            <div class="score-display">
+                <div class="score-circle">
+                    <svg viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="50" class="score-background"/>
+                        <circle cx="60" cy="60" r="50" class="score-progress" 
+                                style="stroke-dashoffset: 33.54566666666665"/>
+                    </svg>
+                    <div class="score-text">
+                        <span class="score-number">89.3</span>
+                        <span class="score-label">综合评分</span>
+                    </div>
+                </div>
+            </div>
+            <div class="score-details">
+                <div class="detail-item">
+                    <span class="detail-label">质量</span>
+                    <span class="detail-value">54.9%</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">效率</span>
+                    <span class="detail-value">0.0s</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">覆盖率</span>
+                    <span class="detail-value">88.0%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Key Metrics Grid -->
+    <div class="metrics-grid">
+        <!-- Search Quality Metrics -->
+        <div class="metrics-section quality-section">
+            <h3>🎯 搜索质量指标</h3>
+            <div class="metric-cards">
+                <div class="metric-card primary">
+                    <div class="metric-value">1.0000</div>
+                    <div class="metric-name">NDCG</div>
+                    <div class="metric-desc">排名质量</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">1.0000</div>
+                    <div class="metric-name">MRR</div>
+                    <div class="metric-desc">首个相关排名</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">0.5833</div>
+                    <div class="metric-name">MAP</div>
+                    <div class="metric-desc">平均精度均值</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">1.0000</div>
+                    <div class="metric-name">BPref</div>
+                    <div class="metric-desc">二元偏好</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Precision@K Metrics -->
+        <div class="metrics-section precision-section">
+            <h3>📈 精度分析</h3>
+            <div class="precision-charts">
+                
+            <div class="precision-bar-item">
+                <div class="bar-label">P@1</div>
+                <div class="bar-container">
+                    <div class="bar-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="bar-value">1.000</div>
+            </div>
+            
+            <div class="precision-bar-item">
+                <div class="bar-label">P@3</div>
+                <div class="bar-container">
+                    <div class="bar-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="bar-value">1.000</div>
+            </div>
+            
+            <div class="precision-bar-item">
+                <div class="bar-label">P@5</div>
+                <div class="bar-container">
+                    <div class="bar-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="bar-value">1.000</div>
+            </div>
+            
+            <div class="precision-bar-item">
+                <div class="bar-label">P@10</div>
+                <div class="bar-container">
+                    <div class="bar-fill" style="width: 100.0%"></div>
+                </div>
+                <div class="bar-value">1.000</div>
+            </div>
+            
+            </div>
+        </div>
+        
+        <!-- Time Metrics -->
+        <div class="metrics-section time-section">
+            <h3>⏱️ 时间消耗</h3>
+            <div class="time-breakdown">
+                
+                <div class="time-item">
+                    <div class="time-label">报告结构生成</div>
+                    <div class="time-bar">
+                        <div class="time-fill" style="width: 6299.999999999999%"></div>
+                    </div>
+                    <div class="time-value">6.30s</div>
+                </div>
+                
+                <div class="time-item">
+                    <div class="time-label">搜索</div>
+                    <div class="time-bar">
+                        <div class="time-fill" style="width: 38500.0%"></div>
+                    </div>
+                    <div class="time-value">38.50s</div>
+                </div>
+                
+                <div class="time-item">
+                    <div class="time-label">反思</div>
+                    <div class="time-bar">
+                        <div class="time-fill" style="width: 42200.0%"></div>
+                    </div>
+                    <div class="time-value">42.20s</div>
+                </div>
+                
+                <div class="time-item">
+                    <div class="time-label">报告生成</div>
+                    <div class="time-bar">
+                        <div class="time-fill" style="width: 7800.0%"></div>
+                    </div>
+                    <div class="time-value">7.80s</div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Token & Cost Metrics -->
+        <div class="metrics-section cost-section">
+            <h3>💰 Token与成本</h3>
+            <div class="cost-breakdown">
+                
+        <div class="cost-item">
+            <div class="cost-icon">🔷</div>
+            <div class="cost-details">
+                <div class="cost-label">DeepSeek</div>
+                <div class="cost-values">
+                    <span>19600 tokens</span>
+                    <span>${metrics.token_metrics.deepseek_cost_usd:.4f} / ¥{metrics.token_metrics.deepseek_cost_usd * 7:.2f}</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cost-total">
+            <div class="total-label">总成本</div>
+            <div class="total-value">${metrics.token_metrics.total_cost_usd:.4f} / ¥{metrics.token_metrics.total_cost_rmb:.2f}</div>
+        </div>
+        
+            </div>
+        </div>
+    </div>
+    
+    <!-- Source & Coverage -->
+    <div class="metrics-row">
+        <div class="metrics-section source-section">
+            <h3>🌐 来源多样性</h3>
+            <div class="source-stats">
+                <div class="stat-item">
+                    <div class="stat-number">24</div>
+                    <div class="stat-label">唯一来源</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">92.0%</div>
+                    <div class="stat-label">多样性评分</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="metrics-section coverage-section">
+            <h3>📚 覆盖率</h3>
+            <div class="coverage-stats">
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">章节数</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">88.0%</div>
+                    <div class="stat-label">覆盖率评分</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="metrics-section efficiency-section">
+            <h3>⚡ 效率</h3>
+            <div class="efficiency-stats">
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">反思次数</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24</div>
+                    <div class="stat-label">总来源数</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Detailed Metrics Table -->
+    <div class="detailed-metrics">
+        <h3>📋 详细指标</h3>
+        
+        <table class="metrics-table">
+            <thead>
+                <tr>
+                    <th>指标</th>
+                    <th>数值</th>
+                    <th>描述</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>NDCG@10</td>
+                    <td><strong>1.0000</strong></td>
+                    <td>归一化折扣累积收益</td>
+                </tr>
+                <tr>
+                    <td>MRR</td>
+                    <td><strong>1.0000</strong></td>
+                    <td>平均倒数排名</td>
+                </tr>
+                <tr>
+                    <td>MAP</td>
+                    <td><strong>0.5833</strong></td>
+                    <td>平均精度均值</td>
+                </tr>
+                <tr>
+                    <td>BPref</td>
+                    <td><strong>1.0000</strong></td>
+                    <td>二元偏好指标</td>
+                </tr>
+                <tr>
+                    <td>平均相关性</td>
+                    <td><strong>0.5487</strong></td>
+                    <td>搜索结果平均相关性评分</td>
+                </tr>
+                <tr>
+                    <td>来源多样性</td>
+                    <td><strong>0.9200</strong></td>
+                    <td>信息来源的多样性程度</td>
+                </tr>
+                <tr>
+                    <td>覆盖率</td>
+                    <td><strong>0.8800</strong></td>
+                    <td>主题覆盖范围</td>
+                </tr>
+                <tr class="section-separator">
+                    <td colspan="3"><strong>时间消耗</strong></td>
+                </tr>
+                <tr>
+                    <td>总耗时</td>
+                    <td><strong>0.00s</strong></td>
+                    <td>整个研究过程的总耗时</td>
+                </tr>
+                <tr>
+                    <td>搜索</td>
+                    <td><strong>38.50s</strong></td>
+                    <td>所有搜索操作的总耗时</td>
+                </tr>
+                <tr class="section-separator">
+                    <td colspan="3"><strong>成本统计</strong></td>
+                </tr>
+                <tr>
+                    <td>总Token数</td>
+                    <td><strong>19600</strong></td>
+                    <td>LLM处理的总Token数</td>
+                </tr>
+                <tr>
+                    <td>总成本</td>
+                    <td><strong>${token_m.total_cost_usd:.4f}</strong></td>
+                    <td>总API成本（美元）</td>
+                </tr>
+                <tr>
+                    <td>总成本(人民币)</td>
+                    <td><strong>¥{2.20}</strong></td>
+                    <td>总API成本（人民币）</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+</section>
+
+
+<style>
+.research-metrics-dashboard {
+    margin: 3rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.dashboard-header h2 {
+    font-size: 2.5rem;
+    color: #1a1a2e;
+    margin-bottom: 0.5rem;
+}
+
+.dashboard-subtitle {
+    color: #666;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* Overall Score */
+.overall-score-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.overall-score-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    padding: 2rem;
+    color: white;
+    box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
+    max-width: 600px;
+    width: 100%;
+}
+
+.score-display {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.score-circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.score-circle svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.score-background {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.2);
+    stroke-width: 8;
+}
+
+.score-progress {
+    fill: none;
+    stroke: white;
+    stroke-width: 8;
+    stroke-dasharray: 314;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 1s ease;
+}
+
+.score-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.score-number {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.score-label {
+    display: block;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.score-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.detail-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.detail-label {
+    display: block;
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.detail-value {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+/* Metrics Grid */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.metrics-section {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #667eea;
+}
+
+.metrics-section h3 {
+    font-size: 1.3rem;
+    color: #1a1a2e;
+    margin-bottom: 1.5rem;
+}
+
+.metric-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.metric-card {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 1.2rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #667eea;
+}
+
+.metric-card.primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.metric-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: inherit;
+}
+
+.metric-name {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    opacity: 0.8;
+}
+
+.metric-desc {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    opacity: 0.7;
+}
+
+/* Precision Charts */
+.precision-charts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.precision-bar-item {
+    display: grid;
+    grid-template-columns: 40px 1fr 60px;
+    gap: 1rem;
+    align-items: center;
+}
+
+.bar-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.bar-container {
+    background: #e9ecef;
+    height: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #dee2e6;
+}
+
+.bar-fill {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    height: 100%;
+    border-radius: 15px;
+    transition: width 0.5s ease;
+}
+
+.bar-value {
+    text-align: right;
+    font-weight: 600;
+    color: #667eea;
+}
+
+/* Time Breakdown */
+.time-breakdown,
+.coverage-stats,
+.source-stats,
+.efficiency-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.time-item {
+    display: grid;
+    grid-template-columns: 80px 1fr 60px;
+    gap: 1rem;
+    align-items: center;
+}
+
+.time-label {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.time-bar {
+    background: #e9ecef;
+    height: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #dee2e6;
+}
+
+.time-fill {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    height: 100%;
+    border-radius: 12px;
+    transition: width 0.5s ease;
+}
+
+.time-value {
+    text-align: right;
+    font-weight: 600;
+    color: #667eea;
+}
+
+/* Cost Breakdown */
+.cost-breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cost-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+}
+
+.cost-icon {
+    font-size: 1.8rem;
+}
+
+.cost-details {
+    flex: 1;
+}
+
+.cost-label {
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+.cost-values {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+.cost-total {
+    padding: 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.total-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.total-value {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+/* Metrics Row */
+.metrics-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.stat-number {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #667eea;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+/* Detailed Table */
+.detailed-metrics {
+    margin-top: 3rem;
+}
+
+.detailed-metrics h3 {
+    font-size: 1.3rem;
+    color: #1a1a2e;
+    margin-bottom: 1.5rem;
+}
+
+.metrics-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.metrics-table thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.metrics-table th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.metrics-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.metrics-table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+.metrics-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.section-separator {
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #667eea;
+}
+
+@media (max-width: 768px) {
+    .metrics-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .metric-cards {
+        grid-template-columns: 1fr;
+    }
+    
+    .score-details {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
