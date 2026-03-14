@@ -501,49 +501,32 @@ NEXUS 通过以下关键机制构建认知推演系统：
 
 <a style="color:#f77f00; text-decoration:none;" target="_blank">Graph 发展、构建过程：一步步构建 [entity & relation]</a>
 
-<div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin:20px 0; padding:10px; border-radius:15px; background:#f9f9f9; box-shadow:0 6px 20px rgba(0,0,0,0.1);">
-
-  <!-- 左上 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step1/process1.png"
-         alt="Graph Process Step 1"
-         style="width:100%; height:220px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
+<table>
+  <tr>
+    <!-- 左上 -->
+    <td align="center">
+      <img src="assets/2_canyon/step1/process1.png" alt="Graph Process Step 1" width="280" /><br>
       <strong>Figure 10a:</strong> Graph 构建初始阶段 — 导入实体和关系数据。
-    </p>
-  </div>
-
-  <!-- 右上 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step1/process2.png"
-         alt="Graph Process Step 2"
-         style="width:100%; height:220px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
+    </td>
+    <!-- 右上 -->
+    <td align="center">
+      <img src="assets/2_canyon/step1/process2.png" alt="Graph Process Step 2" width="280" /><br>
       <strong>Figure 10b:</strong> Graph 扩展阶段 — 添加链接关系与多维联系。
-    </p>
-  </div>
-
-  <!-- 左下 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step1/overview1.png"
-         alt="Graph Process Step 3"
-         style="width:100%; height:220px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
+    </td>
+  </tr>
+  <tr>
+    <!-- 左下 -->
+    <td align="center">
+      <img src="assets/2_canyon/step1/overview1.png" alt="Graph Process Step 3" width="280" /><br>
       <strong>Figure 10c:</strong> Graph 可视化阶段 — 展示节点与关系结构。
-    </p>
-  </div>
-
-  <!-- 右下 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step1/overview2.png"
-         alt="Graph Process Step 4"
-         style="width:100%; height:220px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
+    </td>
+    <!-- 右下 -->
+    <td align="center">
+      <img src="assets/2_canyon/step1/overview2.png" alt="Graph Process Step 4" width="280" /><br>
       <strong>Figure 10d:</strong> Graph 完整概览 — 完整知识图谱，支持多维推理与查询。
-    </p>
-  </div>
-</div>
-
+    </td>
+  </tr>
+</table>
 
 #### Step 2: 构建虚拟数智孪生世界与虚拟 Agents
 基于 Step 1 的信息先验，初始化 高仿真虚拟世界 Canyon，包括热点话题、背景信息以及激活序列。随后生成多个虚拟个体的 Agents，每个 Agent 都拥有独特的知识库、认知结构、行为倾向和数据关联特性。用户可根据需求客制化 Agents 的知识、兴趣及行为模式，以精确模拟不同类型个体在虚拟环境中的认知行为。
