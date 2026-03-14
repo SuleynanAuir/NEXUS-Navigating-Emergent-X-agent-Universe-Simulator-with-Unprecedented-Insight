@@ -494,28 +494,9 @@ NEXUS 通过以下关键机制构建认知推演系统：
 ...
 ```
 
-<div style="display:flex; align-items:flex-start; gap:14px; margin:20px 0;">
-
-  <!-- 左侧图片 -->
-  <div style="flex:0 0 48%; text-align:center;">
-    <img src="assets/2_canyon/step1/entity_relation.png"
-         alt="Entity & Relation Extraction"
-         style="max-height:400px; width:auto; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
-    <p style="font-size:12px; color:#555; margin-top:6px;">
-      <strong>Figure 9a:</strong> Entity & Relation Extraction — 从文本与事件流中提取关键实体与关系，为后续 GraphRAG 构建提供高质量先验。
-    </p>
-  </div>
-
-  <!-- 右侧图片 -->
-  <div style="flex:0 0 48%; text-align:center;">
-    <img src="assets/2_canyon/step1/graphrag.png"
-         alt="GraphRAG Construction"
-         style="max-height:400px; width:auto; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
-    <p style="font-size:12px; color:#555; margin-top:6px;">
-      <strong>Figure 9b:</strong> GraphRAG 构建 — 将提取的实体与关系生成可推理的知识图谱，支持链接关系与多维联系。
-    </p>
-  </div>
-</div>
+| ![Entity & Relation Extraction](assets/2_canyon/step1/entity_relation.png) | ![GraphRAG Construction](assets/2_canyon/step1/graphrag.png) |
+|:--:|:--:|
+| **Figure 9a:** Entity & Relation Extraction — 从文本与事件流中提取关键实体与关系，为后续 GraphRAG 构建提供高质量先验。 | **Figure 9b:** GraphRAG 构建 — 将提取的实体与关系生成可推理的知识图谱，支持链接关系与多维联系。 |
 
 
 <a style="color:#f77f00; text-decoration:none;" target="_blank">Graph 发展、构建过程：一步步构建 [entity & relation]</a>
