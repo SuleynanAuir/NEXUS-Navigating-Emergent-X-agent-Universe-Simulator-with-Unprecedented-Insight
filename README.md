@@ -1,21 +1,19 @@
 # NEXUS: Networked Emergent X-agent Universe Simulator
 
-<!-- > 通过多视角模拟，实现真正的：\
->"Jump Outside the Box 🚀" + "Deep Insight 🧠" + "Multi-Views 🔍" 仿真认知推演预测 -->
-
 <p align="center">
   NEXUS 通过多视角模拟，构建名为 "Canyon" 的数智孪生世界，深入用户关注点、接地气分析、实现真正的：<br>
-  <span style="color:#e63946; font-weight:bold;">"Jump Outside the Box 🚀"</span> + 
-  <span style="color:#f77f00; font-weight:bold;">"Deep Insight 🧠"</span> + 
-  <span style="color:#2a9d8f; font-weight:bold;">"Multi-Views 🔍"</span> 
+  **"Jump Outside the Box 🚀"** + 
+  **"Deep Insight 🧠"** + 
+  **"Multi-Views 🔍"**  
   仿真认知推演预测
 </p>
 
 <p align="center">
-  <span style="font-size:20px; color:#e63946;">🌙✨</span>
-  <span style="font-size:20px; color:#f77f00; font-weight:bold;">棋局未展先知手</span><br>
-  <span style="font-size:20px; color:#2a9d8f; font-weight:bold;">月落星沉自有时 🌌</span>
+  🌙✨  
+  **棋局未展先知手**  
+  **月落星沉自有时 🌌**
 </p>
+
 
 ## 📊 1.Preview
 
