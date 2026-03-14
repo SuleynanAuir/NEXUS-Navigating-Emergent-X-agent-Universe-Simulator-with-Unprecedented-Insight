@@ -505,24 +505,24 @@ NEXUS 通过以下关键机制构建认知推演系统：
   <tr>
     <!-- 左上 -->
     <td align="center">
-      <img src="assets/2_canyon/step1/process1.png" alt="Graph Process Step 1" width="340" /><br>
+      <img src="assets/2_canyon/step1/process1.png" alt="Graph Process Step 1" width="360" /><br>
       <strong>Figure 10a:</strong> Graph 构建初始阶段 — 导入实体和关系数据。
     </td>
     <!-- 右上 -->
     <td align="center">
-      <img src="assets/2_canyon/step1/process2.png" alt="Graph Process Step 2" width="340" /><br>
+      <img src="assets/2_canyon/step1/process2.png" alt="Graph Process Step 2" width="360" /><br>
       <strong>Figure 10b:</strong> Graph 扩展阶段 — 添加链接关系与多维联系。
     </td>
   </tr>
   <tr>
     <!-- 左下 -->
     <td align="center">
-      <img src="assets/2_canyon/step1/overview1.png" alt="Graph Process Step 3" width="340" /><br>
+      <img src="assets/2_canyon/step1/overview1.png" alt="Graph Process Step 3" width="360" /><br>
       <strong>Figure 10c:</strong> Graph 可视化阶段 — 展示节点与关系结构。
     </td>
     <!-- 右下 -->
     <td align="center">
-      <img src="assets/2_canyon/step1/overview2.png" alt="Graph Process Step 4" width="340" /><br>
+      <img src="assets/2_canyon/step1/overview2.png" alt="Graph Process Step 4" width="360" /><br>
       <strong>Figure 10d:</strong> Graph 完整概览 — 完整知识图谱，支持多维推理与查询。
     </td>
   </tr>
