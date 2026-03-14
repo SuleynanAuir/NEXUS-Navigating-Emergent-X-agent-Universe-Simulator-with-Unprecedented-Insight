@@ -2,18 +2,17 @@
 
 <p align="center">
   NEXUS 通过多视角模拟，构建名为 "Canyon" 的数智孪生世界，深入用户关注点、接地气分析、实现真正的：<br>
-  **"Jump Outside the Box 🚀"** + 
-  **"Deep Insight 🧠"** + 
-  **"Multi-Views 🔍"**  
+  <span style="color:#e63946; font-weight:bold;">"Jump Outside the Box 🚀"</span> + 
+  <span style="color:#f77f00; font-weight:bold;">"Deep Insight 🧠"</span> + 
+  <span style="color:#2a9d8f; font-weight:bold;">"Multi-Views 🔍"</span> 
   仿真认知推演预测
 </p>
 
 <p align="center">
-  🌙✨  
-  **棋局未展先知手**  
-  **月落星沉自有时 🌌**
+  <span style="font-size:20px; color:#e63946;">🌙✨</span>
+  <span style="font-size:20px; color:#f77f00; font-weight:bold;">棋局未展先知手</span><br>
+  <span style="font-size:20px; color:#2a9d8f; font-weight:bold;">月落星沉自有时 🌌</span>
 </p>
-
 
 ## 📊 1.Preview
 
@@ -32,7 +31,7 @@
     - 建立 <u>"用户独享" Cognitive Map</u>，NO <del>"千人一面分析"</del> 
     - 📖 optional material：
         - Farshidi et al. (2024), *Understanding user intent modeling for conversational recommender systems*, [🔗 Springer Nature Link](https://link.springer.com/article/10.1007/s11257-024-09398-x)
-        - Nguyen et al. (2018), *A Capsule Network‑based Embedding Model for Search Personalization*, [🔗 arXiv Link](https://arxiv.org/abs/1804.04266) 
+        - Nguyen et al. (2018), *A Capsule Network‑based Embedding Model for Search Personalization*, [🔗 arXiv](https://arxiv.org/abs/1804.04266) 
 
 - 🔗 <span style="color:#FF9F1C">多源高质量信息整合</span>
 (深度搜索高度贴合 + 保真度的信息源)
@@ -73,20 +72,19 @@
     * 政策评估：评估政策调整的因果效应，支撑科学决策
 
 - For 企业与市场参与者 💰
-    * 市场趋势预测：基于多源信息及用户关注点，<span style="color:#f77f00">预测行业发展和消费者偏好变化</span>
-    * 竞争态势分析：<span style="color:#f77f00">实时分析竞争对手行为及市场反应</span>，评估新产品、营销策略或定价方案的潜在效果
+    * 市场趋势预测：基于多源信息及用户关注点，<u>预测行业发展和消费者偏好变化<u>
+    * 竞争态势分析：<u>实时分析竞争对手行为及市场反应</u>，评估新产品、营销策略或定价方案的潜在效果
     * 投资风险管理：提前识别舆情相关风险，提供风险应对策略。
-    * 战略规划验证：通过<span style="color:#f77f00">模拟不同市场决策方案</span>，预测其盈利、市场份额和舆情反馈效果
+    * 战略规划验证：通过<u>模拟不同市场决策方案</u>，预测其盈利、市场份额和舆情反馈效果
 
 - For 公众与社群舆论场 🧑‍🤝‍🧑
-    * 舆情动态监测：实时跟踪社交媒体、<span style="color:#f77f00">讨论热点及情绪趋势</span>。
+    * 舆情动态监测：实时跟踪社交媒体、<u>讨论热点及情绪趋势</u>
     * 意见影响力分析：识别关键意见领袖（KOL）及对事件的影响力大小
     * 舆论事件预测：预测可能爆发的舆情事件，判断其规模、传播和潜在风险
 
 - For 研究者与专家网络 🧑‍🔬
-    * 多源知识整合：将学术论文、政策报告、技术前沿<span style="color:#f77f00"> research 数据整合</span>，形成可检索、可分析知识网络
-    * 研究趋势预测：基于历史数据和信息流，<span style="color:#f77f00">预测新兴技术</span>、市场机会和研究热点
-
+    * 多源知识整合：将学术论文、政策报告、技术前沿<u> research 数据整合</u>，形成可检索、可分析知识网络
+    * 研究趋势预测：基于历史数据和信息流，<u>预测新兴技术</u>、市场机会和研究热点
 
 
 
