@@ -1,0 +1,57 @@
+### Step1: 填写 YOUR_DEEPSEEK_API_KEY (deepseek + )
+### Step2: query 填写需要深度搜索的内容
+### Step3: 命令行
+"""
+eval "$(CONDA_NO_PLUGINS=true conda shell.bash hook)"
+    - 禁用插件（避免 conda 插件干扰）, 确保可以正常使用 conda activate
+
+mkdir -p .bootstrap_pkg
+    - 创建一个隐藏目录，用于临时包结构
+
+ln -sfn .. .bootstrap_pkg/v2_paragraph_reflective
+    - 创建符号链接, 把当前项目伪装成一个可导入 Python 包
+
+export PYTHONPATH=".bootstrap_pkg:${PYTHONPATH}"
+    - 把 .bootstrap_pkg 加入 Python 模块路径
+
+### 设定模式 ###
+--deepseek_key / --tavily_key
+--query "查询内容"
+--results_dir "runs": 输出结果保存目录
+
+### 反思机制参数（核心部分）###
+--max_reflection_loops 1 最大反思次数 (max=1: 初始回答 → 最多反思 1 次 → 更新回答 | max=3: 初始 → 反思 → 更新 → 再反思 → 再更新)
+
+--min_reflection_loops 0
+
+--force_reflection 0 是否强制反思: 0 = 不强制, 1 = 即使很确定也要反思
+
+--reflection_sensitivity 1.0 反思敏感度:数值越大 --> 更容易触发反思
+
+--uncertainty_threshold 0.2 不确定性阈值: 如果模型评估自己不确定性过高，就触发反思
+
+--log_level "INFO" (DEBUG（最详细）| INFO（普通）| WARNING | ERROR)
+
+--deterministic 开启确定性模式
+"""
+
+
+cd .
+eval "$(CONDA_NO_PLUGINS=true conda shell.bash hook)"
+conda activate multiAgents
+mkdir -p .bootstrap_pkg
+ln -sfn .. .bootstrap_pkg/v2_paragraph_reflective
+export PYTHONPATH=".bootstrap_pkg:${PYTHONPATH}"
+python -m pip install -r requirements.txt
+python main.py \
+  --deepseek_key "YOUR_DEEPSEEK_API_KEY" \
+  --tavily_key "YOUR_TAVILY_API_KEY" \
+  --query "人工智能伦理" \
+  --results_dir "runs" \
+  --max_reflection_loops 1 \
+  --force_reflection 0 \
+  --min_reflection_loops 0 \
+  --reflection_sensitivity 1.0 \
+  --uncertainty_threshold 0.2 \
+  --log_level "INFO" \
+  --deterministic
