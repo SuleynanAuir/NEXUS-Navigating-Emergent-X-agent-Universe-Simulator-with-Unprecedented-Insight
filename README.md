@@ -114,41 +114,37 @@ NEXUS 通过以下关键机制构建认知推演系统：
 > 💡 **不止预测，更是推演——让认知快人一步，决策有据可依。**
 
 - 🎯 **Step 1: 领域适配微调模型**  
-**聚焦用户关注锚点，精准提升特定领域理解能力**  
-运用 [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 快速微调，集成数据增强与 Ollama 部署，让模型更懂你的领域。  
-`#精准微调` `#私有化部署` `#注意力锚点`
+**聚焦用户关注锚点，精准提升特定领域理解能力**  `#精准微调` `#私有化部署` `#注意力锚点`
+运用 个人项目整合EasyDataset + LLaMa 微调 + 部署架构的 [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 快速微调，集成数据增强与 Ollama 部署，让模型更懂你的领域。  
+
 
 - 🤖 **Step 2: 客制化深度搜索 Agents**  
-**挖掘高度符合用户认知目标的深度洞察**  
+**挖掘高度符合用户认知目标的深度洞察** `#深度搜索` `#用户可控` `#高保真洞察`
 接入 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 提升保真度、关联度、置信度；结合 [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents) 实现用户可控搜索，让信息深度与精准度兼得。  
-`#深度搜索` `#用户可控` `#高保真洞察`
 
 
 - 🤖 **Step 3: 用户注意力驱动的信息理解 Agents**  
-**实时勾取用户关注点，多Agent链式分析生成战略先验**  
+**实时勾取用户关注点，多Agent链式分析生成战略先验**  `#注意力驱动` `#链式推理` `#趋势战略`
 Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证据评审→关联推理→战略整合），将碎片信息转化为可执行的趋势战略。  
-`#注意力驱动` `#链式推理` `#趋势战略`
+
 
 - 🌍 **Step 4: 数智孪生世界 — Cayon 🏜**  
-**高仿真虚拟环境，模拟现实舆情与决策演化**  
+**高仿真虚拟环境，模拟现实舆情与决策演化**  `#数智孪生` `#舆情推演` `#虚拟访谈`
 基于 [GraphRAG](https://github.com/microsoft/graphrag) 构建知识图谱，生成多样化虚拟 Agents，引入环境因子引导舆情走向。支持多轮仿真、事件发展报告，并可对虚拟个体进行深度访谈，洞悉未来决策逻辑。  
-`#数智孪生` `#舆情推演` `#虚拟访谈`
-
 
 - 🔁 **Step 5: End-to-End 认知推理闭环**  
-**完整闭环实现从现实信息流到未来情境推演**  
+**完整闭环实现从现实信息流到未来情境推演**  `#端到端` `#未来推演` `#决策预演`
 整合上述模块，支撑多角色、多视角认知推演，让每一次决策都能在虚拟世界中预演，在现实世界中制胜。  
-`#端到端` `#未来推演` `#决策预演`
 
 
 ### 3.2 📦 模块总览
 
 | 模块                                         | 功能描述                                             | 实现路径 + 个人项目结合                                                                                                                                                                                                                                                                            |
 | ------------------------------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🎯 **领域适配微调模型**                            | 聚焦 **用户关注锚点（Attention Anchors）** <br> - 提升 **特定领域信息理解能力**                | 运用的个人流程化整合pipeline [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 来进行快捷微调（接入数据增强与Ollama部署支持 🐑）                                                                                                                        |
-| 🤖 **客制化深度搜索 Agents** | 挖掘 **高度符合用户认知目标** 的深度洞察 | - 接入个人的 **pressure-based 深度搜索 Agents** 框架 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 来提保真度、关联度、置信度 <br> - 结合用户搜索偏好驱动的 **CognitiveTemp Agents** [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)，实现用户自己控制搜索 |
-| 🤖 **用户注意力驱动的信息理解 Agents** | User-Attention-Driven，实时勾取用户对于搜索结果的关注点, 完成了：`Agent-A/B/C 趋势链式分析 + Agent-D 战略整合的架构, 协作深度分析生成系统先验 | - Google Hypethesis 实时勾取用户关注点及标注 ✍️ <br> - 多Agents协作：<br> - Agent-A  用户-趋势信号解析师🔥  → 从用户焦点挖掘趋势信号、关注热度 <br> - Agent-B  内容-关联证据评审师 🤔 → 提炼内容的演进过程、时间轴、关键节点及关联证据 <br> - Agent-C  事件-趋势关联推理师 🧠 → 从关联事件中推断技术扩散路径、行业采纳动态 <br> -Agent-D  首席趋势战略整合师 ✅ → 整合三份报告，生成供趋势预测Agent使用的战略文档|                                                                                            |
-| 🌍 **数智孪生世界 Digital Cognitive Twin — Cayon 🏜**      | 构建高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生, 并且结合现实复杂事件流，进行深度仿真推演 | - 初始化：融入高质量信息先验，提取 Entity & Relation 构建 🌟 **[GraphRAG](https://github.com/microsoft/graphrag)**, 支持自环关系及多维联系 <br> - 建模高仿真虚拟环境（Canyon）: 生成多样化带独特知识库、认知倾向的虚拟 Agents 个体 👹 <br> - Canyon复现现实舆情流: 引入环境因子引导舆情走向，探索事件发展与趋势，实现动态演化模拟 <br> - 多轮仿真 + 事件发展报告: 深入分析事件爆发、舆论扩散态势，并获取虚拟 Agents 行为模式以提供现实推演的 **仿真 interview** 🎤  <br> - 深度互动与洞察: 与仿真报告及虚拟 Agents 个体进行交互，洞悉未来想法与决策逻辑                                                                                                                                                                                                 |
+| 🎯 **领域适配微调**                            | 聚焦 **用户关注锚点（Attention Anchors）** <br> - 提升 **特定领域信息理解能力**                | 运用的个人流程化整合pipeline [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 来进行快捷微调（接入数据增强与Ollama部署支持 🐑）                                                                                                                        |
+| 🤖 **客制化深度搜索 Agents** | 挖掘 **高度符合用户认知目标** 的深度洞察 | - 接入个人的 **深度搜索 Agents** 框架 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 来提保真度、关联度、置信度 <br> - 用户锚点驱动的 **CognitiveTemp Agents** [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)，实现用户控制搜索 |
+| 🤖 **用户注意力驱动的信息理解 Agents** | User-Attention-Driven，实时勾取用户对于搜索结果的关注点, 完成了：`Agent-A/B/C 趋势链式分析 + Agent-D 战略整合架构, 协作深度分析生成系统先验 | - Google Hypethesis 实时勾取用户焦点 ✍️ <br>  - Agent-A  用户-趋势信号解析师🔥  → 从用户焦点挖掘趋势信号、关注热度 <br> - Agent-B  内容-关联证据评审师 🤔 → 集提炼演进过程、时间轴、及关联证据 <br> - Agent-C  事件-趋势关联推理师 🧠 → 从关联事件中推断扩散路径、行业动态 <br> -Agent-D  首席趋势战略整合师 ✅ → 整合生成供趋势预测Agent使用的战略文档|                                                                                            |
+| 🌍 **数智孪生世界 Digital Cognitive Twin — Cayon 🏜**      | 构建高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生, 并且结合现实复杂事件流，进行深度仿真推演 | - 初始化：融入高质量信息先验，提取 E&R 构建 🌟 **[GraphRAG](https://github.com/microsoft/graphrag)**, 支持多维联系 <br> - 建模高仿真虚拟环境（Canyon）: 生成多样化带独特知识库、认知倾向的虚拟 Agents 个体 👹 <br> - Canyon复现现实舆情流: 环境因子引导舆情走向，实现动态演化模拟 <br> - 多轮仿真 + 事件发展报告: 结合事件舆论扩散，并分析虚拟 Agents 行为模式以提供现实推演的 **仿真 interview** 🎤  <br> - 深度互动与洞察: 与仿真报告及虚拟 Agents 个体交互，洞悉未来与决策                                                                                                                                                                                                 |
 
 
 
@@ -198,75 +194,61 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 
 - > UPARIS-DS 提出了一种基于压力驱动（Pressure-Driven）的段落级迭代反思搜索架构，结合用户关注点锚定机制，通过迭代反思不断优化搜索结果的相关性和深度
 
-<div style="display:flex; align-items:flex-start; gap:14px; margin:20px 0;">
+<table>
+  <tr>
+    <!-- 左列：两张图片 -->
+    <td style="width:45%; vertical-align:top; padding-right:15px; text-align:center;">
+      <img src="assets/uparis_ds.png" 
+           alt="UPAIRS Deep Search Engine" 
+           style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-bottom:12px;" />
+      <img src="assets/con_ds.png" 
+           alt="CognitiveTemp Deep Search" 
+           style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+    </td>
 
-  <!-- 左侧图片组 -->
-  <div style="flex:0 0 38%; text-align:center;">
-    <!-- 第一张图 -->
-    <img src="assets/uparis_ds.png"
-         alt="UPAIRS Deep Search Engine"
-         style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
-    <p style="font-size:12px; color:#555; margin:6px 0 14px 0;">
-      <strong>Figure 1:</strong> UPAIRS-DS Architecture — Agents Collaboration with Iterative Reflection & Uncertainty Quantify
-    </p>
-    <!-- 第二张图 -->
-    <img src="assets/con_ds.png"
-         alt="CognitiveTemp Deep Search"
-         style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
-    <p style="font-size:12px; color:#555; margin-top:6px;">
-      <strong>Figure 2:</strong> CognitiveTemp Deep Search Agents Configs
-    </p>
-  </div>
+    <!-- 右列：文字整合 -->
+    <td style="width:55%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
+      <strong>🔎 深度搜索引擎（Deep Search Engine）</strong><br><br>
+      该搜索模块基于本人项目  
+      <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank"><strong>UPAIRS Agents</strong></a>  
+      构建，采用 <strong>Pressure-Driven 段落级迭代反思搜索架构</strong>，能够在复杂信息环境中持续反思与优化检索路径，从而获得更高的 <strong>Factuality（事实保真度）</strong>。  
 
-  <!-- 右侧文字 -->
-  <div style="flex:1; font-size:14px; line-height:1.6;">
-  <strong>🔎 深度搜索引擎（Deep Search Engine）</strong><br><br>
-  该搜索模块基于本人项目  
-  <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank">
-  <strong>UPAIRS Agents</strong>
-  </a>  
-  构建，采用 <strong>Pressure-Driven 段落级迭代反思搜索架构</strong>，能够在复杂信息环境中持续反思与优化检索路径，从而获得更高的 <strong>Factuality（事实保真度）</strong>。  
-  <br><br>
-  <strong>🔎 客制化搜索引擎（CognitiveTemp-DeepSearch）</strong><br><br>
-  用户还可以通过  
-  <a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank">
-  CognitiveTemp-DeepSearch-Agents
-  </a>  
-  自定义搜索策略，按需求客制化 Agents 的深度搜索能力，从而获得 <strong>关联性、可靠性与时效性更强</strong> 的信息结果。
-  <br><br>
-  系统结合多种关键机制：
-  <ul style="margin-top:6px;">
-  <li>🔄 段落级迭代反思（Iterative Reflection）</li>
-  <li>🎯 反思压力模型（Pressure Model）</li>
-  <li>🧠 多智能体协作推理</li>
-  <li>📊 不确定性量化</li>
-  <li>⚡ 智能预算分配</li>
-  <li>🎨 信息源质量评分</li>
-  <li>🔍 去噪重排序</li>
-  </ul>
-  通过上述机制，实现 <strong>高质量、高可信度、高效率</strong> 的深度搜索结果, 可以提供给用户良好的搜索质量
-  </div>
-</div>
+      <br><br>
+      <strong>🔎 客制化搜索引擎（CognitiveTemp-DeepSearch）</strong><br><br>
+      用户还可以通过  
+      <a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank">CognitiveTemp-DeepSearch-Agents</a>  
+      自定义搜索策略，按需求客制化 Agents 的深度搜索能力，从而获得 <strong>关联性、可靠性与时效性更强</strong> 的信息结果。
 
+      <br><br>
+      系统结合多种关键机制：
+      <ul style="margin-top:6px;">
+        <li>🔄 段落级迭代反思（Iterative Reflection）</li>
+        <li>🎯 反思压力模型（Pressure Model）</li>
+        <li>🧠 多智能体协作推理</li>
+        <li>📊 不确定性量化</li>
+        <li>⚡ 智能预算分配</li>
+        <li>🎨 信息源质量评分</li>
+        <li>🔍 去噪重排序</li>
+      </ul>
+      通过上述机制，实现 <strong>高质量、高可信度、高效率</strong> 的深度搜索结果，可提供给用户良好的搜索体验。
+    </td>
+  </tr>
 
-> 效果图：用户可以自定义 "时效性、关联性（通过严格阈值控制）、搜索源" 的搜索策略，获得更符合用户认知目标的搜索结果
-
-<div style="text-align:center; margin:20px 0;">
-  <!-- 图片行 -->
-  <div style="display:flex; justify-content:center; gap:12px;">
-    <img src="assets/1_search/search_page.png"
-         alt="Search Page"
-         style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
-    <img src="assets/1_search/search_result.png"
-         alt="Search Result"
-         style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
-  </div>
-  <!-- 图名 -->
-  <p style="font-size:12px; color:#555; margin-top:6px;">
-    <strong>Figure 3:</strong> Deep Search Interface (left) — Query Input and Search Result Exploration (right)
-  </p>
-</div>
-
+  <!-- 第二行：效果图 -->
+  <tr>
+    <td colspan="2" style="text-align:center; padding-top:20px;">
+      <img src="assets/1_search/search_page.png" 
+           alt="Search Page" 
+           style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-right:12px;" />
+      <img src="assets/1_search/search_result.png" 
+           alt="Search Result" 
+           style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+      <p style="font-size:12px; color:#555; margin-top:6px;">
+        <strong>Figure 3:</strong> Deep Search Interface (left) — Query Input and Search Result Exploration (right)
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
