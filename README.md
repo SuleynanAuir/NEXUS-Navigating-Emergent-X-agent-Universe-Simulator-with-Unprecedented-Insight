@@ -255,7 +255,6 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 - > 该模块通过 Google Hypothesis 实时勾取用户关注点及标注
 
 
-
 (1) 初步深度搜索：分别针对 <a style="color:#f77f00; text-decoration:none;" target="_blank">学术场景（GraphRAG）和 社交舆论场（以近期B站清雨Tpor毁号事件为例）</a> 的搜索，用户可以自定义 "时效性、关联性（通过严格阈值控制）、搜索源" 的搜索策略，获得更符合用户认知目标的搜索结果
 <div style="text-align:center; margin:20px 0;">
   <!-- 图片行 -->
@@ -285,14 +284,13 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     <!-- 右列：文字（保持原样） -->
     <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
       <strong>初步深度搜索量化指标</strong><br><br>
-      Deepsearch 保证高置信度与高相关性（支持率 / 标签命中率）：<br>
+      Deepsearch 保证高置信度与高支持率、标签命中率：<br>
       <ul style="margin-top:6px;">
-        <li>LLMs分析总结出 tags & labels, 辅助标签更准确命中</li>
+        <li>LLMs分析总结tags, 辅助标签准确命中</li>
         <li>通过动态阈值，避免搜索的时间过长、置信度过低问题</li>
         <li><strong>置信度判断标准：</strong> 判断内容是否含有多元化资料支持？</li>
       </ul>
-      <br>
-      <strong>Figure 5:</strong> 深度搜索量化结果 — 用户自定义 "时效性、严格阈值控制、搜索源" 的搜索策略
+      <strong>Figure 5:</strong> 深度搜索量化结果 — 用户自定义 "时效性、严格阈值控制、搜索源"
     </td>
   </tr>
 </table>
@@ -310,16 +308,15 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     </td>
     <!-- 右列：文字 -->
     <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
-      <strong>用户焦点标记（User Attention Annotation）</strong><br><br>
+      <strong>User Attention Annotation</strong><br><br>
       Google Plugin调用  
-      <a href="https://github.com/hypothesis/h-api" target="_blank">Hypethesis API</a>，实时勾取用户对于搜索结果的关注点。<br><br>
+      <a href="https://github.com/hypothesis/h-api" target="_blank">Hypethesis API</a>，实时勾取用户对于搜索结果关注点
       功能特点：
       <ul style="margin-top:6px;">
         <li>用户高亮他们感兴趣的内容 & 系统实时捕获</li>
         <li>针对选中句子做任意自然语言标注（注释、疑惑点等）</li>
         <li>输出为结构化的 <strong>JSON / JSONL</strong> 数据形式</li>
       </ul>
-      <br>
       <strong>Figure 6:</strong> Hypethesis API
     </td>
   </tr>
@@ -502,7 +499,7 @@ _953
   </thead>
   <tbody>
     <tr style="background-color:#E6F0FA; color:#000;">
-      <td>edged732 @Edge, D.</td>
+      <td>edged732@Edge,D.</td>
       <td>AI研究员，专注 GraphRAG</td>
       <td>年龄 35岁，研究员</td>
       <td>偏好逻辑推理与图结构分析，决策风格严谨，风险中</td>
@@ -510,15 +507,15 @@ _953
       <td>中高，GraphRAG 与知识图谱领域</td>
     </tr>
     <tr style="background-color:#DFF2E1; color:#000;">
-      <td>graphrag_arxiv_论文_953 @Arxiv</td>
+      <td>graphragArXiv论文_953@Arxiv</td>
       <td>GraphRAG 的研究推广平台</td>
-      <td>机构Agent，专注科研传播</td>
-      <td>信息处理方式偏向文献整合与摘要生成，决策风格中立</td>
-      <td>推送研究成果，关注学术圈</td>
+      <td>机构Agent，专注科研</td>
+      <td>信息处理方式偏向文献整合，决策风格中立</td>
+      <td>推送研究成果，关注学术</td>
       <td>高，面向 GraphRAG 社区</td>
     </tr>
     <tr style="background-color:#FFF7CC; color:#000;">
-      <td>开发者_808 @开发者</td>
+      <td>开发808@开发者</td>
       <td>大模型应用开发的技术社群</td>
       <td>社群Agent，专注 AI 技术分享</td>
       <td>重视实践与案例学习，偏向实验式决策</td>
@@ -528,13 +525,13 @@ _953
     <tr style="background-color:#FFE5D4; color:#000;">
       <td>neo4j_650 @neo4j</td>
       <td>图数据库技术提供商</td>
-      <td>企业Agent，数据库技术专家</td>
-      <td>数据结构导向，重视知识图谱完整性与应用优化</td>
+      <td>企业Agent，数据库专家</td>
+      <td>数据结构导向，重视知识图谱完整优化</td>
       <td>分享实践，提供技术咨询与工具支持</td>
       <td>高，影响力集中在知识图谱与企业应用场景</td>
     </tr>
     <tr style="background-color:#F0F0F0; color:#000;">
-      <td>读者群体_792 @读者</td>
+      <td>读者群_792 @读者</td>
       <td>AI 算法工程师</td>
       <td>面向用户型 Agent，聚焦算法研究</td>
       <td>偏算法理解与工程实现，决策受技术驱动</td>
@@ -711,11 +708,11 @@ The full reports provide extended analysis, agent reasoning traces, and deeper i
 
 | ![GraphRAG Analytical Report](assets/2_canyon/step4/report/report_graphrag.png) | ![Qingyu Event Report](assets/2_canyon/step4/report/report_qingyu.png) |
 |:--:|:--:|
-| **Figure 15a:** GraphRAG Analytical Report — 学术研究场景下生成的综合分析报告，结构化知识整合与多跳推理，对 GraphRAG 技术发展趋势、研究方向及潜在应用领域进行系统总结。 | **Figure 15b:** Qingyu Event Report — 针对 B站“清雨 Tpor 毁号事件”的舆情分析报告，汇总事件背景、舆论传播路径以及平台生态影响，对公众关注焦点进行结构化梳理。 |
+| **Figure 15a:** GraphRAG Analytical Report — 学术研究场景下生成的综合分析报告，结构化知识整合与多跳推理，对 GraphRAG 发展趋势、研究方向及应用领域系统总结。 | **Figure 15b:** Qingyu Event Report — 针对 B站“清雨 Tpor 毁号事件”的舆情分析报告，汇总事件背景、舆论传播及平台生态影响，对公众关注焦点结构化梳理。 |
 
 | ![GraphRAG Agent Mindset](assets/2_canyon/step4/report/mindset_graphrag1.png) | ![Qingyu Agent Mindset](assets/2_canyon/step4/report/mindset_qingyu1.png) |
 |:--:|:--:|
-| **Figure 15c:** GraphRAG Agent Mindset — 学术 Agent 在访谈后的内部思考与认知总结，展示其对 GraphRAG 技术未来发展的理解、潜在研究挑战以及可能的技术突破方向。 | **Figure 15d:** Qingyu Agent Mindset — 社交舆论 Agent 对事件的情绪与认知反应记录，体现不同虚拟个体在舆论环境中的态度差异以及对平台治理问题的思考。 |
+| **Figure 15c:** GraphRAG Agent Mindset — 学术 Agent 在访谈后的内部思考与认知总结，展示其对 GraphRAG 技术未来发展的理解、潜在研究挑战及可能的技术突破。 | **Figure 15d:** Qingyu Agent Mindset — 社交舆论 Agent 对事件的情绪与认知反应记录，体现不同虚拟个体在舆论环境中的态度差异及对平台治理问题思考。 |
 
 
 下面是根据你提供的 **论文链接 + 代码仓库** 整理的一份专业格式的 **References / 参考文献与资源列表**，适合用于项目、论文或 README 中的引用部分。我采用较为规范的学术引用布局，并在必要的位置附上仓库说明。
