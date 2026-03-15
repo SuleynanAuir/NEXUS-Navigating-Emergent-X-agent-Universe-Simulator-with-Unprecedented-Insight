@@ -496,18 +496,18 @@ NEXUS 通过以下关键机制构建认知推演系统：
 
 | ![Entity & Relation Extraction](assets/2_canyon/step1/entity_relation.png) | ![GraphRAG Construction](assets/2_canyon/step1/graphrag.png) |
 |:--:|:--:|
-| **Figure 9a:** Entity & Relation Extraction — 从文本与事件流中提取关键实体与关系，为后续 GraphRAG 构建提供高质量先验。 | **Figure 9b:** GraphRAG 构建 — 将提取的实体与关系生成可推理的知识图谱，支持链接关系与多维联系。 |
+| **Figure 9a:** Entity & Relation Extraction — 文本与事件流中提取实体与关系，为GraphRAG提供高质量先验。 | **Figure 9b:** GraphRAG 构建 — 将提取的实体与关系生成可推理的知识图谱，支持链接关系与多维联系。 |
 
 
 <a style="color:#f77f00; text-decoration:none;" target="_blank">Graph 发展、构建过程：一步步构建 [entity & relation]</a>
 
 | ![Graph Process Step 1](assets/2_canyon/step1/process1.png) | ![Graph Process Step 2](assets/2_canyon/step1/process2.png) |
 |:--:|:--:|
-| **Figure 10a:** Graph 构建初始阶段 — 导入实体和关系数据。 | **Figure 10b:** Graph 扩展阶段 — 添加链接关系与多维联系。 |
+| **Figure 10a:** Graph 构建初始阶段 — 导入实体和关系。 | **Figure 10b:** Graph 扩展阶段 — 添加链接与多维联系。 |
 
 | ![Graph Process Step 3](assets/2_canyon/step1/overview1.png) | ![Graph Process Step 4](assets/2_canyon/step1/overview2.png) |
 |:--:|:--:|
-| **Figure 10c:** Graph 可视化阶段 — 展示节点与关系结构。 | **Figure 10d:** Graph 完整概览 — 完整知识图谱，支持多维推理与查询。 |
+| **Figure 10c:** Graph 可视化阶段 — 展示全局所有节点与关系结构网络。 | **Figure 10d:** Graph 完整概览 — 完整的知识图谱，支持多维推理与查询。 |
 
 #### Step 2: 构建虚拟数智孪生世界与虚拟 Agents
 基于 Step 1 的信息先验，初始化 高仿真虚拟世界 Canyon，包括热点话题、背景信息以及激活序列。随后生成多个虚拟个体的 Agents，每个 Agent 都拥有独特的知识库、认知结构、行为倾向和数据关联特性。用户可根据需求客制化 Agents 的知识、兴趣及行为模式，以精确模拟不同类型个体在虚拟环境中的认知行为。
@@ -521,8 +521,8 @@ NEXUS 通过以下关键机制构建认知推演系统：
 
 以下截取了部分Agents人格进行展示 [assets/2_canyon/step2](assets/2_canyon/step2)：
 
-<!-- - edge_d_732 @Edge, D.
-[人工智能研究员，专注于图检索增强生成（GraphRAG）技术]
+<!-- - edged732 @Edge, D.
+[AI研究员，专注于图检索增强生成（GraphRAG）技术]
 
 - graphrag_arxiv_论文
 _953
@@ -540,7 +540,7 @@ _953
 [AI算法工程师] -->
 
 
-<table>
+<table style="font-size:13px; line-height:1.35;">
   <thead>
     <tr>
       <th style="background-color:#B3CDE0; color:#000; padding:6px;">虚拟 Agent</th>
@@ -551,7 +551,9 @@ _953
       <th style="background-color:#B3CDE0; color:#000; padding:6px;">影响力</th>
     </tr>
   </thead>
+
   <tbody>
+
     <tr style="background-color:#E6F0FA; color:#000;">
       <td>edge_d_732 @Edge, D.</td>
       <td>人工智能研究员，专注 GraphRAG 技术</td>
@@ -560,6 +562,7 @@ _953
       <td>高度社交化，常分享学术资源，积极参与技术社区讨论</td>
       <td>中高，GraphRAG 与知识图谱领域</td>
     </tr>
+
     <tr style="background-color:#DFF2E1; color:#000;">
       <td>graphrag_arxiv_论文_953 @GraphRAG Arxiv</td>
       <td>GraphRAG 技术研究推广机构</td>
@@ -568,6 +571,7 @@ _953
       <td>定期推送研究成果，关注学术影响力</td>
       <td>高，面向 GraphRAG 技术社区</td>
     </tr>
+
     <tr style="background-color:#FFF7CC; color:#000;">
       <td>开发者_808 @开发者</td>
       <td>大模型应用开发技术社群</td>
@@ -576,6 +580,7 @@ _953
       <td>频繁互动，活跃分享代码、模型与项目实践</td>
       <td>中高，社群内技术传播效率高</td>
     </tr>
+
     <tr style="background-color:#FFE5D4; color:#000;">
       <td>neo4j_650 @neo4j</td>
       <td>图数据库技术提供商</td>
@@ -584,6 +589,7 @@ _953
       <td>分享实践案例，提供技术咨询与工具支持</td>
       <td>高，影响力集中在知识图谱与企业应用场景</td>
     </tr>
+
     <tr style="background-color:#F0F0F0; color:#000;">
       <td>读者群体_792 @读者群体</td>
       <td>AI 算法工程师群体</td>
@@ -592,6 +598,7 @@ _953
       <td>关注技术资讯、参与讨论与学习</td>
       <td>中，作为信息接收与反馈者，对生态影响间接</td>
     </tr>
+
   </tbody>
 </table>
 
