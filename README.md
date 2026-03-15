@@ -193,28 +193,32 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 > Pressure-driven & CongnitiveTemp-DeepSearch Agents
 
 - > UPARIS-DS 提出了一种基于压力驱动（Pressure-Driven）的段落级迭代反思搜索架构，结合用户关注点锚定机制，通过迭代反思不断优化搜索结果的相关性和深度
+
 <table>
   <tr>
     <!-- 左列：两张图片 -->
-    <td style="width:45%; vertical-align:top; padding-right:15px; text-align:center;">
+    <td style="width:40%; vertical-align:top; padding-right:15px; text-align:center;">
       <img src="assets/uparis_ds.png" 
            alt="UPAIRS Deep Search Engine" 
-           style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-bottom:12px;" />
+           style="width:80%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-bottom:12px;" />
       <img src="assets/con_ds.png" 
            alt="CognitiveTemp Deep Search" 
-           style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+           style="width:80%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
     </td>
+
     <!-- 右列：文字整合 -->
-    <td style="width:55%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
+    <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
       <strong>🔎 深度搜索引擎（Deep Search Engine）</strong><br><br>
       该搜索模块基于本人项目  
       <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank"><strong>UPAIRS Agents</strong></a>  
       构建，采用 <strong>Pressure-Driven 段落级迭代反思搜索架构</strong>，能够在复杂信息环境中持续反思与优化检索路径，从而获得更高的 <strong>Factuality（事实保真度）</strong>。  
+
       <br><br>
       <strong>🔎 客制化搜索引擎（CognitiveTemp-DeepSearch）</strong><br><br>
       用户还可以通过  
       <a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank">CognitiveTemp-DeepSearch-Agents</a>  
       自定义搜索策略，按需求客制化 Agents 的深度搜索能力，从而获得 <strong>关联性、可靠性与时效性更强</strong> 的信息结果。
+
       <br><br>
       系统结合多种关键机制：
       <ul style="margin-top:6px;">
@@ -229,15 +233,16 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
       通过上述机制，实现 <strong>高质量、高可信度、高效率</strong> 的深度搜索结果，可提供给用户良好的搜索体验。
     </td>
   </tr>
+
   <!-- 第二行：效果图 -->
   <tr>
     <td colspan="2" style="text-align:center; padding-top:20px;">
       <img src="assets/1_search/search_page.png" 
            alt="Search Page" 
-           style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-right:12px;" />
+           style="width:40%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-right:12px;" />
       <img src="assets/1_search/search_result.png" 
            alt="Search Result" 
-           style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+           style="width:40%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
       <p style="font-size:12px; color:#555; margin-top:6px;">
         <strong>Figure 3:</strong> Deep Search Interface (left) — Query Input and Search Result Exploration (right)
       </p>
