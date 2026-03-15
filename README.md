@@ -1,7 +1,7 @@
 # NEXUS: Networked Emergent X-agent Universe Simulator
 
 <p align="center">
-  NEXUS Say NO! to "官味" 文章🙅，只做你真正想要、真实的信息✅ —— 融合现实因子动态变化，利用多视角跳出条条框框，催生另辟蹊径的新Idea💥。配合提速60%的极速分析引擎，让你在30分钟内，仅消耗低成本¥2，即可获得原本数日数据收集才能挖掘的深度洞见🔍
+  NEXUS Say NO! to "官味" 文章 / "高度重复" 内容🙅，只做你真正想要、真实的信息✅ —— 融合现实因子动态变化，利用多视角跳出条条框框，催生另辟蹊径的新Idea💥。配合提速60%的极速分析引擎，让你在30分钟内，仅消耗低成本¥2，即可获得原本数日数据收集才能挖掘的深度洞见🔍
 </p>
 
 <p align="center">
@@ -15,7 +15,6 @@
 > NEXUS 系统实现 从“信息分析” →“社会系统仿真” (融合现实世界的真实、经验证信息流)
 
 ### 🌟 NEXUS 新特点包括：
-> NEXUS **不做 "官味" 文章**，只做你**真正想要、真实的**信息 —— 融合现实因子动态变化，用多视角跳出条条框框，催生另辟蹊径的**新Idea**。配合**提速60%* 的极速分析引擎，让你在30分钟内，低成本¥2即可获得原本数日数据收集才能挖掘的深度洞见
 
 - 🚀 **告别“正确废话”，NEXUS 拒绝大众模板** 🔥🔥🔥
 (基于用户个人真正关注的认知突破)
@@ -67,21 +66,21 @@ So，`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演�
 支持`多领域、多角色、多视角、高保真`的复杂信息系统模拟与未来情境推演，帮助用户实现：
 
 #### 1️⃣ 为-`规则制定者`-打造的决策推演引擎 ⚖️
-<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/🧠 【规则制定者】B站官方就清雨Tpor事件_·_对主播的立规思考案例-orange?style=for-the-badge"> </a> </p>
+<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/🧠 且看案例_【规则制定者】B站官方就清雨Tpor事件_·_对主播的立规思考案例-orange?style=for-the-badge"> </a> </p>
 
 - 🔮 **预见政策涟漪**：动态模拟发布后的经济、舆情与公共安全连锁反应
 - ⚠️ **暗礁早预警**：识别潜在社会冲突与舆情危机，输出干预策略
 - 📊 **科学回溯评估**：精准剖析政策调整的因果效应，让每一次决策都有据可依
 
 #### 2️⃣ 为-`企业与市场决策者`-打造的商业推演实验室 💰
-<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/📈 【市场决策者】金融机构就GrapgRAG技术_·_预判竞争先机_+_风险-green?style=for-the-badge"> </a> </p>
+<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/📈 且看案例_【市场决策者】金融机构就GrapgRAG技术_·_预判竞争先机_+_风险-green?style=for-the-badge"> </a> </p>
 
 - 🔮 **趋势先知**：融合多源信息与用户锚点，*动态推演行业风口与消费者心智变迁*
 - ⚔️ **竞争透视**：实时模拟对手动作与市场反馈，*精准评估新品、定价、营销的引爆效应*
 - 🧪 **战略验真**：通过多方案市场仿真，<u>预演盈利、份额与口碑的真实博弈</u>
 
 #### 3️⃣ 为-`公众与社群`-打造的舆论风向标 🧑‍🤝‍🧑
-<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/📡 【社群及个体】清雨Tpor毁号事件_·_深入受害者心理_+_玩家社群情绪-blue?style=for-the-badge"> </a> </p>
+<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/📡 且看案例_【社群及个体】清雨Tpor毁号事件_·_深入受害者心理_+_玩家社群情绪-blue?style=for-the-badge"> </a> </p>
 
 - 📊 **情绪热力透视**：实时追踪社交媒体讨论热点与<u>公众情绪的动态演变过程</u>
 - 🎯 **关键声音识别**：锁定意见领袖（KOL）及其<u>对事件的真实影响力权重</u>
@@ -89,7 +88,7 @@ So，`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演�
 
 
 #### 4️⃣ 为-`研究者与专家`-打造的知识雷达网 🧑‍🔬
-<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/🔭 【研究学者】GraphRAG技术爆发_·_预研未来应用风口-purple?style=for-the-badge"> </a> </p>
+<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/🔭 且看案例_【研究学者】GraphRAG技术爆发_·_预研未来应用风口-purple?style=for-the-badge"> </a> </p>
 
 - 🧠 **知识图谱构建**：将学术论文、政策报告、技术前沿<u>融汇成可检索、可推理的动态知识网络</u>
 - 🔮 **前沿趋势预判**：基于历史数据与实时信息流，<u>精准捕捉新兴技术、市场机会与研究热点的萌芽</u>
@@ -111,54 +110,25 @@ NEXUS 通过以下关键机制构建认知推演系统：
 </p>
 
 
-| 模块                                         | 功能描述                                             | 实现路径 + 个人项目结合                                                                                                                                                                                                                                                                            |
-| ------------------------------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🎯 **领域适配微调模型**                            | 聚焦 **用户关注锚点（Attention Anchors）** <br> - 提升 **特定领域信息理解能力**                | 运用的个人流程化整合pipeline [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 来进行快捷微调（接入数据增强与Ollama部署支持 🐑）                                                                                                                        |
-| 🤖 **客制化深度搜索 Agents** | 挖掘 **高度符合用户认知目标** 的深度洞察 | - 接入个人的 **pressure-based 深度搜索 Agents** 框架 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 来提保真度、关联度、置信度 <br> - 结合用户搜索偏好驱动的 **CognitiveTemp Agents** [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)，实现用户自己控制搜索 |
-| 🤖 **用户注意力驱动的信息理解 Agents** | User-Attention-Driven，实时勾取用户对于搜索结果的关注点, 完成了：`Agent-A/B/C 趋势链式分析 + Agent-D 战略整合的架构, 协作深度分析生成系统先验 | - Google Hypethesis 实时勾取用户关注点及标注 ✍️ <br> - 多Agents协作：<br> - Agent-A  用户-趋势信号解析师🔥  → 从用户焦点挖掘趋势信号、关注热度 <br> - Agent-B  内容-关联证据评审师 🤔 → 提炼内容的演进过程、时间轴、关键节点及关联证据 <br> - Agent-C  事件-趋势关联推理师 🧠 → 从关联事件中推断技术扩散路径、行业采纳动态 <br> -Agent-D  首席趋势战略整合师 ✅ → 整合三份报告，生成供趋势预测Agent使用的战略文档|                                                                                            |
-| 🌍 **数智孪生世界 Digital Cognitive Twin — Cayon 🏜**      | 构建高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生, 并且结合现实复杂事件流，进行深度仿真推演 | - 初始化：融入高质量信息先验，提取 Entity & Relation 构建 🌟 **[GraphRAG](https://github.com/microsoft/graphrag)**, 支持自环关系及多维联系 <br> - 建模高仿真虚拟环境（Canyon）: 生成多样化带独特知识库、认知倾向的虚拟 Agents 个体 👹 <br> - Canyon复现现实舆情流: 引入环境因子引导舆情走向，探索事件发展与趋势，实现动态演化模拟 <br> - 多轮仿真 + 事件发展报告: 深入分析事件爆发、舆论扩散态势，并获取虚拟 Agents 行为模式以提供现实推演的 **仿真 interview** 🎤  <br> - 深度互动与洞察: 与仿真报告及虚拟 Agents 个体进行交互，洞悉未来想法与决策逻辑                                                                                                                                                                                                 |
-| 🔁 **End-to-End Cognitive Reasoning Loop** | E2E Cognitive Simulation Pipeline                | **流程示意**：完整闭环实现从 **现实信息流 → 未来情境推演** <br> - 支撑多角色、多视角认知推演 |
+| 模块 | 功能描述 | 实现路径 + 个人项目结合 |
+|:-----|:---------|:------------------------|
+| 🎯 **领域适配<br>微调模型** | 聚焦 **用户关注锚点**<br>（Attention Anchors）<br>- 提升特定领域信息<br>理解能力 | 运用个人流程化整合pipeline<br>[LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline)<br>进行快捷微调<br>（接入数据增强与Ollama部署支持 🐑） |
+| 🤖 **客制化深度<br>搜索 Agents** | 挖掘 **高度符合用户<br>认知目标** 的深度洞察 | - 接入 **pressure-based<br>深度搜索 Agents** 框架<br>[UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents)<br>提升保真度、关联度、置信度<br>- 结合用户搜索偏好驱动的<br>**CognitiveTemp Agents**<br>[CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)<br>实现用户自己控制搜索 |
+| 🤖 **用户注意力驱动的<br>信息理解 Agents** | User-Attention-Driven，<br>实时勾取用户关注点，完成：<br>`Agent-A/B/C 趋势链式分析 +<br>Agent-D 战略整合`架构，<br>协作深度分析生成系统先验 | - Google Hypothesis<br>实时勾取用户关注点及标注 ✍️<br>- 多Agents协作：<br>🔥 Agent-A 用户-趋势信号解析师：<br>从用户焦点挖掘趋势信号、关注热度<br>🤔 Agent-B 内容-关联证据评审师：<br>提炼内容演进过程、时间轴、关键节点及关联证据<br>🧠 Agent-C 事件-趋势关联推理师：<br>从关联事件推断技术扩散路径、行业采纳动态<br>✅ Agent-D 首席趋势战略整合师：<br>整合三份报告，生成供趋势预测Agent使用的战略文档 |
+| 🌍 **数智孪生世界<br>Digital Cognitive<br>Twin — Cayon 🏜** | 构建高仿真虚拟环境（Canyon），<br>模拟现实场景多种事件，<br>结合现实复杂事件流，<br>进行深度仿真推演 | - 初始化：融入高质量信息先验，<br>提取Entity & Relation构建<br>🌟 **[GraphRAG](https://github.com/microsoft/graphrag)**，<br>支持自环关系及多维联系<br>- 建模高仿真虚拟环境（Canyon）：<br>生成多样化带独特知识库、<br>认知倾向的虚拟Agents个体 👹<br>- Canyon复现现实舆情流：<br>引入环境因子引导舆情走向，<br>探索事件发展与趋势，<br>实现动态演化模拟<br>- 多轮仿真 + 事件发展报告：<br>深入分析事件爆发、舆论扩散态势，<br>获取虚拟Agents行为模式以提供<br>现实推演的**仿真interview** 🎤<br>- 深度互动与洞察：<br>与仿真报告及虚拟Agents个体交互，<br>洞悉未来想法与决策逻辑 |
+| 🔁 **End-to-End<br>Cognitive<br>Reasoning Loop** | E2E Cognitive Simulation Pipeline | **流程示意**：完整闭环实现<br>从 **现实信息流 → 未来情境推演**<br>- 支撑多角色、多视角认知推演 |
 
 
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+| ![Mareid Framework](assets/mermaid_ChatGPT%20Image%20Mar%2014,%202026,%2012_15_10%20PM.png) | **Steps Overview** |
+|:--:|:--|
+|  | 🎯 **Step1: 领域适配微调模型**<br>[LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) • Ollama Deploy |
+|  | 🤖 **Step2: 客制化深度搜索 Agents**<br>[UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) • [CognitiveTemp-DeepSearch](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents) |
+|  | 🤖 **Step3: 用户注意力驱动的信息理解 Agents**<br>Google Hypethesis + 多Agents协作 |
+|  | 🌍 **Step4: 数智孪生世界 Digital Cognitive Twin — Cayon 🏜**<br>高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生 |
+|  | 🔁 **Step5: End-to-End Cognitive Reasoning Loop**<br>完整闭环实现从现实信息流 → 未来情境推演 |
 
-  <!-- 左边大图 -->
-  <div style="flex: 0 0 45%;">
-    <img src="assets/mermaid_ChatGPT Image Mar 14, 2026, 12_15_10 PM.png" 
-         alt="Mareid Framework" 
-         style="width: 100%; border-radius: 14px; box-shadow: 0 6px 16px rgba(0,0,0,0.2);" />
-  </div>
-
-  <!-- 右边步骤 -->
-  <div style="flex: 1; font-size: 14px; line-height: 1.6;">
-    <ul style="margin:0; padding-left: 12px; list-style: none;">
-      <li style="margin-bottom: 12px;">
-        <span style="color:#e63946; font-weight:bold; font-size:15px;">🎯 Step1: 领域适配微调模型</span><br>
-        <a href="https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline" style="color:#f77f00; text-decoration:none;" target="_blank">LLaMa Foundary Pro</a> • Ollama Deploy
-      </li>
-      <li style="margin-bottom: 12px;">
-        <span style="color:#FF9F1C; font-weight:bold; font-size:15px;">🤖 Step2: 客制化深度搜索 Agents</span><br>
-        <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" style="color:#4ECDC4; text-decoration:none;" target="_blank">UPAIRS-Agents</a> • 
-        <a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" style="color:#4ECDC4; text-decoration:none;" target="_blank">CognitiveTemp-DeepSearch</a>
-      </li>
-      <li style="margin-bottom: 12px;">
-        <span style="color:#845EC2; font-weight:bold; font-size:15px;">🤖 Step3: 用户注意力驱动的信息理解 Agents</span><br>
-        Google Hypethesis + 多Agents协作
-      </li>
-      <li style="margin-bottom: 12px;">
-        <span style="color:#2a9d8f; font-weight:bold; font-size:15px;">🌍 Step4: 数智孪生世界 Digital Cognitive Twin — Cayon 🏜</span><br>
-        高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生
-      </li>
-      <li style="margin-bottom: 12px;">
-        <span style="color:#1A535C; font-weight:bold; font-size:15px;">🔁 Step5: End-to-End Cognitive Reasoning Loop</span><br>
-        完整闭环实现从现实信息流 → 未来情境推演
-      </li>
-    </ul>
-  </div>
-
-</div>
 
 ## 🛠 4.技术实现细节及展示（Implementation & Engineering）
 
