@@ -197,16 +197,16 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 <table>
   <tr>
     <!-- 左列：两张图片 -->
-    <td style="width:40%; vertical-align:top; padding-right:15px; text-align:center;">
+    <td style="width:45%; vertical-align:top; padding-right:15px; text-align:center;">
       <img src="assets/uparis_ds.png" 
            alt="UPAIRS Deep Search Engine" 
-           style="width:80%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-bottom:12px;" />
+           style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-bottom:12px;" />
       <img src="assets/con_ds.png" 
            alt="CognitiveTemp Deep Search" 
-           style="width:80%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+           style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
     </td>
     <!-- 右列：文字整合 -->
-    <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
+    <td style="width:55%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
       <strong>🔎 深度搜索引擎（Deep Search Engine）</strong><br><br>
       该搜索模块基于本人项目  
       <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank"><strong>UPAIRS Agents</strong></a>  
@@ -235,17 +235,16 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     <td colspan="2" style="text-align:center; padding-top:20px;">
       <img src="assets/1_search/search_page.png" 
            alt="Search Page" 
-           style="width:40%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-right:12px;" />
+           style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-right:12px;" />
       <img src="assets/1_search/search_result.png" 
            alt="Search Result" 
-           style="width:40%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+           style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
       <p style="font-size:12px; color:#555; margin-top:6px;">
         <strong>Figure 3:</strong> Deep Search Interface (left) — Query Input and Search Result Exploration (right)
       </p>
     </td>
   </tr>
 </table>
-
 ---
 
 ### 🤖 4.3 模块三 : 用户注意力驱动的信息理解 Agents
