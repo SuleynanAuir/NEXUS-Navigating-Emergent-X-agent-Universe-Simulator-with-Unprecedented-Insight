@@ -284,13 +284,13 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     <!-- 右列：文字（保持原样） -->
     <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
       <strong>初步深度搜索量化指标</strong><br><br>
-      Deepsearch 保证高置信度与高支持率、标签命中率：<br>
+      Deepsearch 保证高置信度与支持率、标签命中率：<br>
       <ul style="margin-top:6px;">
         <li>LLMs分析总结tags, 辅助标签准确命中</li>
         <li>通过动态阈值，避免搜索的时间过长、置信度过低问题</li>
         <li><strong>置信度判断标准：</strong> 判断内容是否含有多元化资料支持？</li>
       </ul>
-      <strong>Figure 5:</strong> 深度搜索量化结果 — 用户自定义 "时效性、严格阈值控制、搜索源"
+      <strong>Figure 5:</strong> 深度搜索量化结果 — 用户定制 "时效性、严格阈值控制、搜索源"
     </td>
   </tr>
 </table>
@@ -311,7 +311,6 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
       <strong>User Attention Annotation</strong><br><br>
       Google Plugin调用  
       <a href="https://github.com/hypothesis/h-api" target="_blank">Hypethesis API</a>，实时勾取用户对于搜索结果关注点
-      功能特点：
       <ul style="margin-top:6px;">
         <li>用户高亮他们感兴趣的内容 & 系统实时捕获</li>
         <li>针对选中句子做任意自然语言标注（注释、疑惑点等）</li>
