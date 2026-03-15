@@ -210,7 +210,7 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
       <strong>🔎 Deep Search Engine </strong><br><br>
       该搜索模块基于本人项目  
       <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank"><strong>UPAIRS Agents</strong></a>  
-      构建，采用 <strong>Pressure-Driven 段落级迭代反思搜索架构</strong>，能在复杂信息环境中持续反思与优化检索路径，更高<strong>Factuality事实保真度</strong>。  
+      构建，采用 <strong>Pressure-Driven 段落级迭代反思搜索架构</strong>，能在复杂信息环境中持续反思与优化检索路径，高<strong>Factuality事实保真度</strong>。  
       <br><br>
       <strong>🔎 CognitiveTemp-DeepSearch </strong><br><br>
       用户还可以通过  
@@ -227,7 +227,7 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
         <li>🎨 信息源质量评分</li>
         <li>🔍 去噪重排序</li>
       </ul>
-      通过上述机制，实现<strong>高质量</strong>的深度搜索
+      上述机制，实现<strong>高质量</strong>深度搜索
     </td>
   </tr>
   <!-- 第二行：效果图 -->
@@ -289,10 +289,10 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     <!-- 右列：文字 -->
     <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
       <strong>初步深度搜索量化指标</strong><br><br>
-      深度搜索Agents (deepsearch) 量化验证，保证高置信度与高相关性（支持率 / 标签命中率）指标包括：<br>
+      深度搜索Agents (deepsearch) 量化验证，保证高置信度与高相关性（支持率 / 标签命中率）：<br>
       <ul style="margin-top:6px;">
-        <li>LLMs分析总结出 tags & labels, 辅助标签更准确地命中</li>
-        <li>通过动态阈值，避免搜索的时间过长，及置信度过低问题</li>
+        <li>LLMs分析总结出 tags & labels, 辅助标签更准确命中</li>
+        <li>通过动态阈值，避免搜索的时间过长、置信度过低问题</li>
         <li><strong>置信度判断标准：</strong> 判断内容是否含有多元化资料支持？</li>
       </ul>
       <br>
@@ -316,16 +316,16 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     <!-- 右列：文字 -->
     <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
       <strong>用户焦点标记（User Attention Annotation）</strong><br><br>
-      使用Google Plugin，调用可进行 Web & PDF Annotation 的  
+      Google Plugin调用  
       <a href="https://github.com/hypothesis/h-api" target="_blank">Hypethesis API</a>，实时勾取用户对于搜索结果的关注点。<br><br>
       功能特点：
       <ul style="margin-top:6px;">
         <li>用户高亮他们感兴趣的内容 & 系统实时捕获</li>
-        <li>对选中句子做任意自然语言标注（注释、疑惑点等）</li>
-        <li>输出为结构化的 <strong>JSON / JSONL</strong> 数据，用于认知推演和分析</li>
+        <li>针对选中句子做任意自然语言标注（注释、疑惑点等）</li>
+        <li>输出为结构化的 <strong>JSON / JSONL</strong> 数据形式</li>
       </ul>
       <br>
-      <strong>Figure 6:</strong> 用户焦点标记 — Hypethesis Annotation Web API
+      <strong>Figure 6:</strong> Hypethesis API
     </td>
   </tr>
 </table>
@@ -351,7 +351,7 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
   <!-- 图名 -->
   <p style="font-size:12px; color:#555; margin-top:6px;">
     <strong>Figure 7:</strong> GraphRAG 搜索 Detail (left) — 学术场景搜索 Entity & Relation Visualization;  
-    Qingyu 搜索 Detail (right) — 社交舆论搜索 Semantic & Context Highlight
+    Qingyu毁号 搜索 Detail (right) — 社交舆论搜索 Semantic & Context Highlight
   </p>
 </div>
 
@@ -362,10 +362,10 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 
 | Agent       | 角色           | 职责作用                                     | 输入            | 输出                           |
 | ----------- | ------------ | -------------------------------------- | ------------- | ---------------------------- |
-| **Agent-A** | 用户焦点-趋势信号解析师 | 从用户关注点中挖掘趋势信号、演进脉络、关注热度                | 用户关注点数据（JSON） | 趋势信号报告                       |
-| **Agent-B** | 内容-趋势证据评审师   | 提取页面内容中的技术演进证据、时间轴、关键节点                | 页面真实信息（JSON）  | 技术演进证据报告                     |
-| **Agent-C** | 事件-趋势关联推理师   | 推断关联事件中的技术扩散路径与行业采纳动态                  | 关联事件信息（JSON）  | 事件趋势关联报告                     |
-| **Agent-D** | 首席趋势战略整合师    | 整合 Agent-A/B/C 输出，生成战略文档供趋势预测 Agent 使用 | 强化输出报告（A+B+C）   | 高质量战略报告（高相关性、高时效性、高真实度、高定制化） |
+| **🤖-A** | 焦点-趋势信号解析师 | 从用户关注点中挖掘趋势信号、演进脉络、关注热度                | 用户关注点数据（JSON） | 趋势信号报告                       |
+| **🤖-B** | 内容-趋势证据评审师   | 提取页面内容中的技术演进证据、时间轴、关键节点                | 页面真实信息（JSON）  | 技术演进证据报告                     |
+| **🤖-C** | 事件-趋势关联推理师   | 推断关联事件中的技术扩散路径与行业采纳动态                  | 关联事件信息（JSON）  | 事件趋势关联报告                     |
+| **🤖-D** | 首席趋势战略整合师    | 整合 Agent-A/B/C 输出，生成战略文档供趋势预测使用 | 强化输出报告（A+B+C）   | 高质量战略报告（高相关性、高时效性、高真实度、高定制化） |
 
 
 💡 **总结一句话**：
@@ -377,28 +377,21 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 - 控制 “分析模式”：极速 / 平衡 / 深度
 - 控制 “相关度阈值”
 
-<div style="display:flex; align-items:flex-start; gap:14px; margin:20px 0;">
-
-  <!-- 左侧图片 -->
-  <div style="flex:0 0 48%; text-align:center;">
+<div style="text-align:center; margin:20px 0;">
+  <!-- 图片行 -->
+  <div style="display:flex; justify-content:center; gap:12px;">
     <img src="assets/1_search/generate_report.png"
          alt="Generate Report Interface"
          style="max-height:400px; width:auto; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
-    <p style="font-size:12px; color:#555; margin-top:6px;">
-      <strong>Figure 8a:</strong> Report Generation Interface — User Input & Configuration
-    </p>
-  </div>
-
-  <!-- 右侧图片 -->
-  <div style="flex:0 0 48%; text-align:center;">
     <img src="assets/1_search/generate_report_result.png"
          alt="Generate Report Result"
          style="max-height:400px; width:auto; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
-    <p style="font-size:12px; color:#555; margin-top:6px;">
-      <strong>Figure 8b:</strong> Generated Report Result — Structured Summary & Insights
-    </p>
   </div>
-
+  <!-- 图名 -->
+  <p style="font-size:12px; color:#555; margin-top:6px;">
+    <strong>Figure 8:</strong> Report Generation Interface (left) — User Input & Configuration;  
+    Generated Report Result (right) — Structured Summary & Insights
+  </p>
 </div>
 
 
@@ -440,23 +433,10 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 ├─ Knowledge Graph
 │   ├─ is A ...
 │   └─ is Used In ...
-
 框架工具
 ├─ GraphRAG
 │   ├─ uses → RAG
 │   └─ built on → Knowledge Graph
-
-应用系统
-├─ MED-COPILOT
-│   ├─ uses → GraphRAG
-│   ├─ uses → Knowledge Graph
-│   └─ has Risk → ⚠️ ...
-
-框架工具
-├─ GraphRAG
-│   ├─ uses → RAG
-│   └─ built on → Knowledge Graph
-
 应用系统
 ├─ MED-COPILOT
 │   ├─ uses → GraphRAG
@@ -497,15 +477,15 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 
 - graphrag_arxiv_论文
 _953
-@GraphRAG Arxiv
+@Arxiv
 论文
-[GraphRAG技术研究推广机构]
+[GraphRAG的技术研究推广机构]
 
 - 开发者_808@开发者
 [大模型应用开发技术社群，专注于Al技术分享、开发者交流与项目实践支持]
 
 - neo4j_650 @neo4j
-[图数据库技术提供商，专注于知识图谱与AI应用支持]
+[图数据库技术应用提供商，专注于知识图谱与AI应用支持]
 
 - 读者群体_792@读者群体
 [AI算法工程师] -->
@@ -525,42 +505,42 @@ _953
   <tbody>
     <tr style="background-color:#E6F0FA; color:#000;">
       <td>edged732 @Edge, D.</td>
-      <td>人工智能研究员，专注 GraphRAG</td>
+      <td>AI研究员，专注 GraphRAG</td>
       <td>年龄 35岁，研究员</td>
       <td>偏好逻辑推理与图结构分析，决策风格严谨，风险中</td>
       <td>高度社交化，常分享学术资源，积极参与技术社区讨论</td>
       <td>中高，GraphRAG 与知识图谱领域</td>
     </tr>
     <tr style="background-color:#DFF2E1; color:#000;">
-      <td>graphrag_arxiv_论文_953 @GraphRAG Arxiv</td>
-      <td>GraphRAG 研究推广平台</td>
-      <td>机构型 Agent，专注科研传播</td>
+      <td>graphrag_arxiv_论文_953 @Arxiv</td>
+      <td>GraphRAG 的研究推广平台</td>
+      <td>机构Agent，专注科研传播</td>
       <td>信息处理方式偏向文献整合与摘要生成，决策风格中立</td>
-      <td>定期推送研究成果，关注学术影响</td>
-      <td>高，面向 GraphRAG 技术社区</td>
+      <td>推送研究成果，关注学术圈</td>
+      <td>高，面向 GraphRAG 社区</td>
     </tr>
     <tr style="background-color:#FFF7CC; color:#000;">
       <td>开发者_808 @开发者</td>
       <td>大模型应用开发的技术社群</td>
-      <td>社群型 Agent，专注 AI 技术分享</td>
-      <td>重视实践经验与案例学习，偏向快速实验式决策</td>
-      <td>频繁互动，活跃分享代码、模型与项目实践</td>
-      <td>中高，社群内技术传播效率高</td>
+      <td>社群Agent，专注 AI 技术分享</td>
+      <td>重视实践与案例学习，偏向实验式决策</td>
+      <td>频繁互动，活跃分享代码、模型与项目</td>
+      <td>中高，社群技术传播效率高</td>
     </tr>
     <tr style="background-color:#FFE5D4; color:#000;">
       <td>neo4j_650 @neo4j</td>
       <td>图数据库技术提供商</td>
-      <td>企业型 Agent，数据库技术专家</td>
+      <td>企业Agent，数据库技术专家</td>
       <td>数据结构导向，重视知识图谱完整性与应用优化</td>
-      <td>分享实践案例，提供技术咨询与工具支持</td>
+      <td>分享实践，提供技术咨询与工具支持</td>
       <td>高，影响力集中在知识图谱与企业应用场景</td>
     </tr>
     <tr style="background-color:#F0F0F0; color:#000;">
       <td>读者群体_792 @读者</td>
       <td>AI 算法工程师</td>
       <td>面向用户型 Agent，聚焦算法研究</td>
-      <td>偏算法理解与工程实现，决策受技术需求驱动</td>
-      <td>关注技术的资讯、参与讨论与学习</td>
+      <td>偏算法理解与工程实现，决策受技术驱动</td>
+      <td>关注技术资讯、参与讨论与学习</td>
       <td>中，作为信息接收与反馈者，对生态影响间接</td>
     </tr>
   </tbody>
@@ -629,7 +609,7 @@ _953
 
 > ##### 🔍 Deep Insight：
 
-<span style="color:#f77f00;">学术研究场景</span>（以 **GraphRAG 技术研究发展** 为例）与 <span style="color:#f77f00;">社交舆论场</span>（以 **B站清雨 Tpor 毁号事件** 为例）构成了两种具有显著差异的信息生态环境。通过在 Canyon 模拟环境中对不同类型虚拟 Agent 进行 **访谈式交互模拟（Agent Interview Simulation）**，我们观察到各类 Agent 在面对同一主题或事件时，在 **认知框架、信息理解方式、推理路径以及行为反应模式** 上表现出明显差异。学术场景中的 Agent 更倾向于进行 **结构化知识整合、技术演进分析与理论推理**，而社交舆论场中的 Agent 则更关注 **事件情绪传播、群体反应以及舆论演化趋势**。这种对比式模拟不仅揭示了不同信息场域中的认知与传播机制差异，也为后续的 **趋势洞察（Trend Insight）与事件演化预测（Scenario Forecasting）** 提供了重要参考基础。
+<span style="color:#f77f00;">学术研究场景</span>（以 **GraphRAG 技术研究发展** 为例）与 <span style="color:#f77f00;">社交舆论场</span>（以 **B站清雨 Tpor 毁号事件** 为例）构成了两种具有显著差异的信息生态环境。通过在 Canyon 模拟环境中对不同类型虚拟 Agent 进行 **访谈式交互模拟（Agent Interview Simulation）**，我们观察到各类 Agent 在面对同一主题或事件时，在 **认知框架、信息理解方式、推理路径以及行为反应模式** 上表现出明显差异。学术场景中的 Agent 更倾向于进行 **结构化知识整合、技术演进分析与理论推理**，而社交舆论场中的 Agent 则更关注 **事件情绪传播、群体反应以及舆论演化趋势**。这种对比式模拟不仅揭示了不同信息场域中的认知与传播机制差异，也为后续的 **趋势洞察与事件演化预测（Scenario Forecasting）** 提供了重要参考。
 
 * Academics: **GraphRAG Research**
 
@@ -653,8 +633,15 @@ _953
 - 发展阶段、关键驱动力
 - 行业影响、典型案例以及长期趋势等方面的对比分析
 
-> 报告简约版：
-<style> .canyon-table{ width:100%; border-collapse:collapse; font-size:14px; font-family:Arial, Helvetica, sans-serif; border-radius:10px; overflow:hidden; box-shadow:0 6px 20px rgba(0,0,0,0.08); } .canyon-table thead{ background:linear-gradient(90deg,#2b7de9,#6a5acd); color:white; } .canyon-table th{ padding:12px; text-align:center; } .canyon-table td{ padding:12px; border-bottom:1px solid #eee; vertical-align:top; } .canyon-table tr:nth-child(even){ background:#fafafa; } .canyon-table tr:hover{ background:#f1f7ff; transition:0.2s; } .academic{ background:linear-gradient(90deg,#eef5ff,#f8fbff); border-left:4px solid #2b7de9; } .social{ background:linear-gradient(90deg,#fff4ec,#fffaf7); border-left:4px solid #ff7a18; } .tag-academic{ color:#2b7de9; font-weight:600; } .tag-social{ color:#ff7a18; font-weight:600; } </style> <table class="canyon-table"> <thead> <tr> <th>分析维度</th> <th>Academic / GraphRAG 简约版</th> <th>Social Media / B站舆论 简约版</th> </tr> </thead> <tbody> <tr> <td><b>研究主题</b></td> <td class="academic"> <span class="tag-academic">GraphRAG 技术演进</span><br> 知识图谱（Knowledge Graph）与大语言模型（LLM）的深度融合路径，探索复杂知识推理、多跳检索与可解释 AI 的产业化落地。 </td> <td class="social"> <span class="tag-social">清雨 Tpor 毁号事件</span><br> 虚拟财产损失引发的社交平台治理问题，以及舆论传播机制与平台责任边界的讨论。 </td> </tr> <tr> <td><b>核心问题</b></td> <td class="academic"> 如何通过 GraphRAG 架构实现结构化知识检索、多跳推理与推理可解释性，从而提升 LLM 在专业领域的决策辅助能力。 </td> <td class="social"> 虚拟账号与数字资产的法律属性、主播行为规范以及平台治理责任如何界定。 </td> </tr> <tr> <td><b>当前阶段</b></td> <td class="academic"> 技术成熟度处于 <b>TRL 5–6 → TRL 6–7</b> 的过渡阶段，正从实验室验证逐步迈向企业级应用探索。 </td> <td class="social"> 舆论从早期情绪化谴责逐渐转向 <b>制度与法律层面的深度讨论</b>。 </td> </tr> <tr> <td><b>关键驱动力</b></td> <td class="academic"> • 多模态知识整合能力提升<br> • 强化学习（RL）优化检索与推理路径<br> • 知识图谱增量更新与实时数据融合 </td> <td class="social"> • 主播行为规范讨论<br> • 虚拟财产法律属性界定<br> • 平台治理责任与用户权益保护 </td> </tr> <tr> <td><b>行业影响</b></td> <td class="academic"> 优先在 <b>医疗、金融、法律</b> 等高知识密度领域实现应用，推动企业级知识系统与 AI 决策辅助平台的发展。 </td> <td class="social"> 推动平台更新 <b>直播行为规范</b>，建立虚拟资产纠纷处理机制，并强化用户权益保护。 </td> </tr> <tr> <td><b>典型案例</b></td> <td class="academic"> 某头部券商利用 <span class="tag-academic">GraphRAG</span> 构建合规审查系统，通过自动检索监管规则与历史案例，显著提升审查效率。 </td> <td class="social"> <span class="tag-social">清雨 Tpor 毁号事件</span> 导致粉丝账号数据清零，引发千万级舆论讨论。 </td> </tr> <tr> <td><b>长期趋势</b></td> <td class="academic"> GraphRAG 有望成为企业级 AI 知识系统的重要基础架构，推动 LLM 向 <b>可解释、可验证的专业决策系统</b> 演进。 </td> <td class="social"> 推动虚拟资产保护与平台治理制度完善，使数字平台生态向 <b>更规范化与制度化</b> 方向发展。 </td> </tr> </tbody> </table>
+| 分析维度 | Academic / GraphRAG 简约版 | Social Media / B站舆论 简约版 |
+|---|---|---|
+| **研究主题** | **[GraphRAG 技术演进]**<br>知识图谱（Knowledge Graph）与大语言模型（LLM）的深度融合路径，探索复杂知识推理、多跳检索与可解释 AI 的产业化落地。 | **[清雨 Tpor 毁号事件]**<br>虚拟财产损失引发的社交平台治理问题，以及舆论传播机制与平台责任边界的讨论。 |
+| **核心问题** | 如何通过 GraphRAG 架构实现结构化知识检索、多跳推理与推理可解释性，从而提升 LLM 在专业领域的决策辅助能力。 | 虚拟账号与数字资产的法律属性、主播行为规范以及平台治理责任如何界定。 |
+| **当前阶段** | 技术成熟度处于 **TRL 5–6 → TRL 6–7** 的过渡阶段，正从实验室验证逐步迈向企业级应用探索。 | 舆论从早期情绪化谴责逐渐转向 **制度与法律层面的深度讨论**。 |
+| **关键驱动力** | - 多模态知识整合能力提升<br>- 强化学习（RL）优化检索与推理路径<br>- 知识图谱增量更新与实时数据融合 | - 主播行为规范讨论<br>- 虚拟财产法律属性界定<br>- 平台治理责任与用户权益保护 |
+| **行业影响** | 优先在 **医疗、金融、法律** 等高知识密度领域实现应用，推动企业级知识系统与 AI 决策辅助平台的发展。 | 推动平台更新 **直播行为规范**，建立虚拟资产纠纷处理机制，并强化用户权益保护。 |
+| **典型案例** | 某头部券商利用 **GraphRAG** 构建合规审查系统，通过自动检索监管规则与历史案例，显著提升审查效率。 | **清雨 Tpor 毁号事件** 导致粉丝账号数据清零，引发千万级舆论讨论。 |
+| **长期趋势** | GraphRAG 有望成为企业级 AI 知识系统的重要基础架构，推动 LLM 向 **可解释、可验证的专业决策系统** 演进。 | 推动虚拟资产保护与平台治理制度完善，使数字平台生态向 **更规范化与制度化** 方向发展。 |
 
 ---
 
@@ -686,7 +673,7 @@ _953
     </tr>
     <!-- 平台监管政策 -->
     <tr style="border-bottom:1px solid #ccc; transition: background 0.3s;" onmouseover="this.style.background='#fff4e6';" onmouseout="this.style.background='';">
-      <td style="padding:10px; background:#ffad6e; color:white; font-weight:bold; text-align:center;">Social Media / Qingyu Event 官方 V.S 真心话 (洞悉更加复杂的内心)</td>
+      <td style="padding:10px; background:#ffad6e; color:white; font-weight:bold; text-align:center;">Social Media / B站官方 V.S 真心话 (洞悉更加复杂的内心)</td>
       <td style="padding:10px; vertical-align:top;">
         立场明确：不取消扫码上号，而是推动平台优化安全性，提升主播和用户风险意识。<br><br>
         扫码上号便利，但存在风险。因此，建议增加风险提示弹窗、建立临时授权机制、提供操作记录追溯功能。所以一刀切取消不现实，但必须规范：我们正在和几家主流平台沟通，建议他们：第一，增加扫码前的风险提示弹窗，明确告知可能的风险；第二，建立“临时授权”机制，限制扫码后的操作权限；第三，为主播提供操作记录追溯功能。
