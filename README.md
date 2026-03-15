@@ -109,46 +109,48 @@ NEXUS 通过以下关键机制构建认知推演系统：
   <img src="assets/mermaid.png" alt="示例图片" width="1200", height="180" />
 </p>
 
+### 🚀 3.1 核心流程：从现实信息流到未来情境推演
 
-| 模块 | 功能描述 | 实现路径 + 个人项目结合 |
-|:-----|:---------|:------------------------|
-| 🎯 **领域适配<br>微调模型** | 聚焦 **用户关注锚点**<br>（Attention Anchors）<br>- 提升特定领域信息<br>理解能力 | 运用个人流程化整合pipeline<br>[LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline)<br>进行快捷微调<br>（接入数据增强与Ollama部署支持 🐑） |
-| 🤖 **客制化深度<br>搜索 Agents** | 挖掘 **高度符合用户<br>认知目标** 的深度洞察 | - 接入 **pressure-based<br>深度搜索 Agents** 框架<br>[UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents)<br>提升保真度、关联度、置信度<br>- 结合用户搜索偏好驱动的<br>**CognitiveTemp Agents**<br>[CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)<br>实现用户自己控制搜索 |
-| 🤖 **用户注意力驱动的<br>信息理解 Agents** | User-Attention-Driven，<br>实时勾取用户关注点，完成：<br>`Agent-A/B/C 趋势链式分析 +<br>Agent-D 战略整合`架构，<br>协作深度分析生成系统先验 | - Google Hypothesis<br>实时勾取用户关注点及标注 ✍️<br>- 多Agents协作：<br>🔥 Agent-A 用户-趋势信号解析师：<br>从用户焦点挖掘趋势信号、关注热度<br>🤔 Agent-B 内容-关联证据评审师：<br>提炼内容演进过程、时间轴、关键节点及关联证据<br>🧠 Agent-C 事件-趋势关联推理师：<br>从关联事件推断技术扩散路径、行业采纳动态<br>✅ Agent-D 首席趋势战略整合师：<br>整合三份报告，生成供趋势预测Agent使用的战略文档 |
-| 🌍 **数智孪生世界<br>Digital Cognitive<br>Twin — Cayon 🏜** | 构建高仿真虚拟环境（Canyon），<br>模拟现实场景多种事件，<br>结合现实复杂事件流，<br>进行深度仿真推演 | - 初始化：融入高质量信息先验，<br>提取Entity & Relation构建<br>🌟 **[GraphRAG](https://github.com/microsoft/graphrag)**，<br>支持自环关系及多维联系<br>- 建模高仿真虚拟环境（Canyon）：<br>生成多样化带独特知识库、<br>认知倾向的虚拟Agents个体 👹<br>- Canyon复现现实舆情流：<br>引入环境因子引导舆情走向，<br>探索事件发展与趋势，<br>实现动态演化模拟<br>- 多轮仿真 + 事件发展报告：<br>深入分析事件爆发、舆论扩散态势，<br>获取虚拟Agents行为模式以提供<br>现实推演的**仿真interview** 🎤<br>- 深度互动与洞察：<br>与仿真报告及虚拟Agents个体交互，<br>洞悉未来想法与决策逻辑 |
-| 🔁 **End-to-End<br>Cognitive<br>Reasoning Loop** | E2E Cognitive Simulation Pipeline | **流程示意**：完整闭环实现<br>从 **现实信息流 → 未来情境推演**<br>- 支撑多角色、多视角认知推演 |
+> 💡 **不止预测，更是推演——让认知快人一步，决策有据可依。**
+
+- 🎯 **Step 1: 领域适配微调模型**  
+**聚焦用户关注锚点，精准提升特定领域理解能力**  
+运用 [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 快速微调，集成数据增强与 Ollama 部署，让模型更懂你的领域。  
+`#精准微调` `#私有化部署` `#注意力锚点`
+
+- 🤖 **Step 2: 客制化深度搜索 Agents**  
+**挖掘高度符合用户认知目标的深度洞察**  
+接入 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 提升保真度、关联度、置信度；结合 [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents) 实现用户可控搜索，让信息深度与精准度兼得。  
+`#深度搜索` `#用户可控` `#高保真洞察`
 
 
----
+- 🤖 **Step 3: 用户注意力驱动的信息理解 Agents**  
+**实时勾取用户关注点，多Agent链式分析生成战略先验**  
+Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证据评审→关联推理→战略整合），将碎片信息转化为可执行的趋势战略。  
+`#注意力驱动` `#链式推理` `#趋势战略`
 
-<table>
-  <tr>
-    <!-- 左边大图 -->
-    <td style="width:45%; vertical-align:top; padding-right:15px;">
-      <img src="assets/mermaid_ChatGPT Image Mar 14, 2026, 12_15_10 PM.png" 
-           alt="Mareid Framework" 
-           style="width:100%; border-radius:12px;"/>
-    </td>
-    <!-- 右边步骤 -->
-    <td style="width:55%; vertical-align:top; font-size:14px; line-height:1.6;">
-      <p>🎯 <strong>Step1: 领域适配微调模型</strong><br>
-      <a href="https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline" target="_blank">LLaMa Foundary Pro</a> • Ollama Deploy</p>
+- 🌍 **Step 4: 数智孪生世界 — Cayon 🏜**  
+**高仿真虚拟环境，模拟现实舆情与决策演化**  
+基于 [GraphRAG](https://github.com/microsoft/graphrag) 构建知识图谱，生成多样化虚拟 Agents，引入环境因子引导舆情走向。支持多轮仿真、事件发展报告，并可对虚拟个体进行深度访谈，洞悉未来决策逻辑。  
+`#数智孪生` `#舆情推演` `#虚拟访谈`
 
-      <p>🤖 <strong>Step2: 客制化深度搜索 Agents</strong><br>
-      <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank">UPAIRS-Agents</a> • 
-      <a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank">CognitiveTemp-DeepSearch</a></p>
 
-      <p>🤖 <strong>Step3: 用户注意力驱动的信息理解 Agents</strong><br>
-      Google Hypethesis + 多Agents协作</p>
+- 🔁 **Step 5: End-to-End 认知推理闭环**  
+**完整闭环实现从现实信息流到未来情境推演**  
+整合上述模块，支撑多角色、多视角认知推演，让每一次决策都能在虚拟世界中预演，在现实世界中制胜。  
+`#端到端` `#未来推演` `#决策预演`
 
-      <p>🌍 <strong>Step4: 数智孪生世界 Digital Cognitive Twin — Cayon 🏜</strong><br>
-      高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生</p>
 
-      <p>🔁 <strong>Step5: End-to-End Cognitive Reasoning Loop</strong><br>
-      完整闭环实现从现实信息流 → 未来情境推演</p>
-    </td>
-  </tr>
-</table>
+### 3.2 📦 模块总览
+
+| 模块                                         | 功能描述                                             | 实现路径 + 个人项目结合                                                                                                                                                                                                                                                                            |
+| ------------------------------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🎯 **领域适配微调模型**                            | 聚焦 **用户关注锚点（Attention Anchors）** <br> - 提升 **特定领域信息理解能力**                | 运用的个人流程化整合pipeline [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 来进行快捷微调（接入数据增强与Ollama部署支持 🐑）                                                                                                                        |
+| 🤖 **客制化深度搜索 Agents** | 挖掘 **高度符合用户认知目标** 的深度洞察 | - 接入个人的 **pressure-based 深度搜索 Agents** 框架 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 来提保真度、关联度、置信度 <br> - 结合用户搜索偏好驱动的 **CognitiveTemp Agents** [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)，实现用户自己控制搜索 |
+| 🤖 **用户注意力驱动的信息理解 Agents** | User-Attention-Driven，实时勾取用户对于搜索结果的关注点, 完成了：`Agent-A/B/C 趋势链式分析 + Agent-D 战略整合的架构, 协作深度分析生成系统先验 | - Google Hypethesis 实时勾取用户关注点及标注 ✍️ <br> - 多Agents协作：<br> - Agent-A  用户-趋势信号解析师🔥  → 从用户焦点挖掘趋势信号、关注热度 <br> - Agent-B  内容-关联证据评审师 🤔 → 提炼内容的演进过程、时间轴、关键节点及关联证据 <br> - Agent-C  事件-趋势关联推理师 🧠 → 从关联事件中推断技术扩散路径、行业采纳动态 <br> -Agent-D  首席趋势战略整合师 ✅ → 整合三份报告，生成供趋势预测Agent使用的战略文档|                                                                                            |
+| 🌍 **数智孪生世界 Digital Cognitive Twin — Cayon 🏜**      | 构建高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生, 并且结合现实复杂事件流，进行深度仿真推演 | - 初始化：融入高质量信息先验，提取 Entity & Relation 构建 🌟 **[GraphRAG](https://github.com/microsoft/graphrag)**, 支持自环关系及多维联系 <br> - 建模高仿真虚拟环境（Canyon）: 生成多样化带独特知识库、认知倾向的虚拟 Agents 个体 👹 <br> - Canyon复现现实舆情流: 引入环境因子引导舆情走向，探索事件发展与趋势，实现动态演化模拟 <br> - 多轮仿真 + 事件发展报告: 深入分析事件爆发、舆论扩散态势，并获取虚拟 Agents 行为模式以提供现实推演的 **仿真 interview** 🎤  <br> - 深度互动与洞察: 与仿真报告及虚拟 Agents 个体进行交互，洞悉未来想法与决策逻辑                                                                                                                                                                                                 |
+
+
 
 
 ## 🛠 4.技术实现细节及展示（Implementation & Engineering）
