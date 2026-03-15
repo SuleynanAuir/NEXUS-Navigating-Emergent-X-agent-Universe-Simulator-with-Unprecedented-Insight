@@ -501,32 +501,13 @@ NEXUS 通过以下关键机制构建认知推演系统：
 
 <a style="color:#f77f00; text-decoration:none;" target="_blank">Graph 发展、构建过程：一步步构建 [entity & relation]</a>
 
-<table>
-  <tr>
-    <!-- 左上 -->
-    <td align="center">
-      <img src="assets/2_canyon/step1/process1.png" alt="Graph Process Step 1" width="380" /><br>
-      <strong>Figure 10a:</strong> Graph 构建初始阶段 — 导入实体和关系数据。
-    </td>
-    <!-- 右上 -->
-    <td align="center">
-      <img src="assets/2_canyon/step1/process2.png" alt="Graph Process Step 2" width="380" /><br>
-      <strong>Figure 10b:</strong> Graph 扩展阶段 — 添加链接关系与多维联系。
-    </td>
-  </tr>
-  <tr>
-    <!-- 左下 -->
-    <td align="center">
-      <img src="assets/2_canyon/step1/overview1.png" alt="Graph Process Step 3" width="380" /><br>
-      <strong>Figure 10c:</strong> Graph 可视化阶段 — 展示节点与关系结构。
-    </td>
-    <!-- 右下 -->
-    <td align="center">
-      <img src="assets/2_canyon/step1/overview2.png" alt="Graph Process Step 4" width="380" /><br>
-      <strong>Figure 10d:</strong> Graph 完整概览 — 完整知识图谱，支持多维推理与查询。
-    </td>
-  </tr>
-</table>
+| ![Graph Process Step 1](assets/2_canyon/step1/process1.png) | ![Graph Process Step 2](assets/2_canyon/step1/process2.png) |
+|:--:|:--:|
+| **Figure 10a:** Graph 构建初始阶段 — 导入实体和关系数据。 | **Figure 10b:** Graph 扩展阶段 — 添加链接关系与多维联系。 |
+
+| ![Graph Process Step 3](assets/2_canyon/step1/overview1.png) | ![Graph Process Step 4](assets/2_canyon/step1/overview2.png) |
+|:--:|:--:|
+| **Figure 10c:** Graph 可视化阶段 — 展示节点与关系结构。 | **Figure 10d:** Graph 完整概览 — 完整知识图谱，支持多维推理与查询。 |
 
 #### Step 2: 构建虚拟数智孪生世界与虚拟 Agents
 基于 Step 1 的信息先验，初始化 高仿真虚拟世界 Canyon，包括热点话题、背景信息以及激活序列。随后生成多个虚拟个体的 Agents，每个 Agent 都拥有独特的知识库、认知结构、行为倾向和数据关联特性。用户可根据需求客制化 Agents 的知识、兴趣及行为模式，以精确模拟不同类型个体在虚拟环境中的认知行为。
