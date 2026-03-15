@@ -94,6 +94,29 @@ So，`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演�
 - 🔮 **前沿趋势预判**：基于历史数据与实时信息流，<u>精准捕捉新兴技术、市场机会与研究热点的萌芽</u>
 
 
+<div style="text-align:center; margin:30px 0;">
+  <!-- 图片 -->
+  <img src="assets/highlight.png"
+       alt="Highlight Interface"
+       style="width:70%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+  <br><br>
+  <!-- 按钮 -->
+  <a href="#step-1-构建信息先验">
+    <button style="
+      background:linear-gradient(90deg,#2b7de9,#6a5acd);
+      color:white;
+      border:none;
+      padding:10px 18px;
+      font-size:14px;
+      border-radius:8px;
+      cursor:pointer;
+      box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    ">
+      🔎 High Light Detail
+    </button>
+  </a>
+</div>
+
 
 ## 🧩 3.核心系统架构（Core Architecture）
 
