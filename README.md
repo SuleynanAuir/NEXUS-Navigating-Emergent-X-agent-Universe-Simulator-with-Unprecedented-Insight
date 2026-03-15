@@ -142,9 +142,9 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 | 模块                                         | 功能描述                                             | 实现路径 + 个人项目结合                                                                                                                                                                                                                                                                            |
 | ------------------------------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🎯 **领域适配微调**                            | 聚焦 **用户关注锚点（Attention Anchors）** <br> - 提升 **特定领域信息理解能力**                | 运用的个人流程化整合pipeline [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 来进行快捷微调（接入数据增强与Ollama部署支持 🐑）                                                                                                                        |
-| 🤖 **客制化深度搜索 Agents** | 挖掘 **高度符合用户认知目标** 的深度洞察 | - 接入个人的 **深度搜索 Agents** 框架 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 来提保真度、关联度、置信度 <br> - 用户锚点驱动的 **CognitiveTemp Agents** [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)，实现用户控制搜索 |
-| 🤖 **用户注意力驱动的信息理解 Agents** | User-Attention-Driven，实时勾取用户对于搜索结果的关注点, 完成了：`Agent-A/B/C 趋势链式分析 + Agent-D 战略整合架构, 协作深度分析生成系统先验 | - Google Hypethesis 实时勾取用户焦点 ✍️ <br>  - Agent-A  用户-趋势信号解析师🔥  → 从用户焦点挖掘趋势信号、关注热度 <br> - Agent-B  内容-关联证据评审师 🤔 → 集提炼演进过程、时间轴、及关联证据 <br> - Agent-C  事件-趋势关联推理师 🧠 → 从关联事件中推断扩散路径、行业动态 <br> -Agent-D  首席趋势战略整合师 ✅ → 整合生成供趋势预测Agent使用的战略文档|                                                                                            |
-| 🌍 **数智孪生世界 Digital Cognitive Twin — Cayon 🏜**      | 构建高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生, 并且结合现实复杂事件流，进行深度仿真推演 | - 初始化：融入高质量信息先验，提取 E&R 构建 🌟 **[GraphRAG](https://github.com/microsoft/graphrag)**, 支持多维联系 <br> - 建模高仿真虚拟环境（Canyon）: 生成多样化带独特知识库、认知倾向的虚拟 Agents 个体 👹 <br> - Canyon复现现实舆情流: 环境因子引导舆情走向，实现动态演化模拟 <br> - 多轮仿真 + 事件发展报告: 结合事件舆论扩散，并分析虚拟 Agents 行为模式以提供现实推演的 **仿真 interview** 🎤  <br> - 深度互动与洞察: 与仿真报告及虚拟 Agents 个体交互，洞悉未来与决策                                                                                                                                                                                                 |
+| 🤖 **客制化深度搜索 Agents协作框架** | 挖掘 **高度符合用户认知目标** 的深度洞察 | - 接入个人的 **深度搜索 Agents** 框架 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 提高关联度、置信度 <br> - 用户锚点驱动的 **CognitiveTemp Agents** [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)，实现用户控制搜索 |
+| 🤖 **用户注意力驱动的信息理解 Agents** | User-Attention-Driven，实时勾取用户对于搜索结果的关注点, 完成了：`Agent-A/B/C 趋势链式分析 + Agent-D 战略整合架构, 协作深度分析生成系统先验 | - Google Hypethesis 实时勾取焦点✍️ <br>  - Agent-A  用户-趋势信号解析师🔥  → 从用户焦点挖掘趋势信号、关注热度 <br> - Agent-B  内容-关联证据评审师 🤔 → 集提炼演进过程、时间轴、及关联证据 <br> - Agent-C  事件-趋势关联推理师 🧠 → 从关联事件中推断扩散路径、行业动态 <br> -Agent-D  首席趋势战略整合师 ✅ → 整合生成供趋势预测使用的战略文档|                                                                                            |
+| 🌍 **数智孪生世界 Digital Cognitive Twin — Cayon 🏜**      | 构建高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生, 并且结合现实复杂事件流，进行深度仿真推演 | - 初始化：融入高质量信息先验，提取 E&R 构建 🌟 **[GraphRAG](https://github.com/microsoft/graphrag)**, 支持多维联系 <br> - 建模高仿真Agents: 生成多样独特知识库、认知倾向的虚拟 Agents 个体 <br> - Canyon复现现实舆情流: 环境因子来引导舆情走向，实现动态演化模拟 <br> - 多轮仿真 + 事件发展报告: 结合事件舆论扩散，并分析虚拟 Agents 行为模式以提供现实推演的 **仿真 interview** 🎤  <br> - 深度互动与洞察: 与仿真报告及虚拟 Agents 个体交互，洞悉未来与决策                                                                                                                                                                                                 |
 
 
 
@@ -207,12 +207,12 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     </td>
     <!-- 右列：文字整合 -->
     <td style="width:55%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
-      <strong>🔎 深度搜索引擎（Deep Search Engine）</strong><br><br>
+      <strong>🔎 Deep Search Engine </strong><br><br>
       该搜索模块基于本人项目  
       <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank"><strong>UPAIRS Agents</strong></a>  
-      构建，采用 <strong>Pressure-Driven 段落级迭代反思搜索架构</strong>，能够在复杂信息环境中持续反思与优化检索路径，从而获得更高的 <strong>Factuality（事实保真度）</strong>。  
+      构建，采用 <strong>Pressure-Driven 段落级迭代反思搜索架构</strong>，能在复杂信息环境中持续反思与优化检索路径，获得更高的 <strong>Factuality（事实保真度）</strong>。  
       <br><br>
-      <strong>🔎 客制化搜索引擎（CognitiveTemp-DeepSearch）</strong><br><br>
+      <strong>🔎 CognitiveTemp-DeepSearch </strong><br><br>
       用户还可以通过  
       <a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank">CognitiveTemp-DeepSearch-Agents</a>  
       自定义搜索策略，按需求客制化 Agents 的深度搜索能力，从而获得 <strong>关联性、可靠性与时效性更强</strong> 的信息结果。
@@ -227,7 +227,7 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
         <li>🎨 信息源质量评分</li>
         <li>🔍 去噪重排序</li>
       </ul>
-      通过上述机制，实现 <strong>高质量、高可信度、高效率</strong> 的深度搜索结果，可提供给用户良好的搜索体验。
+      通过上述机制，实现 <strong>高质量、高可信度、高效率</strong> 的深度搜索结果
     </td>
   </tr>
   <!-- 第二行：效果图 -->
@@ -235,16 +235,18 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     <td colspan="2" style="text-align:center; padding-top:20px;">
       <img src="assets/1_search/search_page.png" 
            alt="Search Page" 
-           style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-right:12px;" />
+           style="width:48%; height:200px; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-right:12px;" />
       <img src="assets/1_search/search_result.png" 
            alt="Search Result" 
-           style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+           style="width:48%; height:200px; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
       <p style="font-size:12px; color:#555; margin-top:6px;">
         <strong>Figure 3:</strong> Deep Search Interface (left) — Query Input and Search Result Exploration (right)
       </p>
     </td>
   </tr>
 </table>
+
+  
 ---
 
 ### 🤖 4.3 模块三 : 用户注意力驱动的信息理解 Agents
@@ -276,59 +278,27 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 </div>
 
 
-<div style="display:flex; align-items:flex-start; gap:12px; margin:20px 0;">
-  <!-- 左侧图片 -->
-  <div style="flex:0 0 40%; text-align:center;">
-    <img src="assets/1_search/search_result.png"
-         alt="search_result"
-         style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
-    <p style="font-size:12px; color:#555; margin-top:6px;">
-      <strong>Figure 5:</strong> 深度搜索量化结果 — 用户可以自定义 "时效性、关联性（通过严格阈值控制）、搜索源" 的搜索策略，获得更符合用户认知目标的搜索结果
-    </p>
-  </div>
-
-  <!-- 右侧文字 -->
-  <div style="flex:1; font-size:14px; line-height:1.6;">
-    <strong>初步深度搜索量化指标</strong><br><br>
-    深度搜索Agents (deepsearch) 及量化验证，保证高质量（置信度）与高相关性（高支持率 / 高标签命中率）
-    指标包括：
-    <ul style="margin-top:6px;">
-      <li>LLMs分析总结出 tags & labels, 辅助标签命中</li>
-      <li>通过动态阈值，避免搜索事件过长，以及置信度过低问题</li>
-      <li><strong>置信度判断标准：</strong> 对于内容深入分析，判断内容含有否有其他多元化资料支持？</li>
-    </ul>
-  </div>
-</div>
+| ![search_result](assets/1_search/search_result.png) | **初步深度搜索量化指标**<br><br>
+深度搜索Agents (deepsearch) 及量化验证，保证高质量（置信度）与高相关性（高支持率 / 高标签命中率）指标包括：<br>
+- LLMs分析总结出 tags & labels, 辅助标签命中  
+- 通过动态阈值，避免搜索事件过长，以及置信度过低问题  
+- **置信度判断标准：** 对于内容深入分析，判断内容含有否有其他多元化资料支持？<br><br>
+**Figure 5:** 深度搜索量化结果 — 用户可以自定义 "时效性、关联性（通过严格阈值控制）、搜索源" 的搜索策略，获得更符合用户认知目标的搜索结果
+|
 
 
 
 (2) 用户焦点标记：使用 hypethesis 的 Google Plugin，调用可进行 Web & PDF Annotation的Hypethesis API (https://github.com/hypothesis/h-api) 来实时勾取用户对于搜索结果的“关注点标记”（例如：用户可以高亮他们感兴趣的内容【并且做出任何用户自然语言的标注】 / 或者对某句话写下疑惑点），接下来系统均会实时勾取用户所有高亮的内容/人为标注，最后输出为结构化的 json/jsonl 数据
 
-<div style="display:flex; align-items:flex-start; gap:14px; margin:20px 0;">
-  <!-- 左侧图片 -->
-  <div style="flex:0 0 40%; text-align:center;">
-    <img src="assets/1_search/web_notation.png"
-         alt="User Attention Annotation"
-         style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
-    <p style="font-size:12px; color:#555; margin-top:6px;">
-      <strong>Figure 6:</strong> 用户焦点标记 — Hypethesis Annotation Web API
-    </p>
-  </div>
-
-  <!-- 右侧文字 -->
-  <div style="flex:1; font-size:14px; line-height:1.6;">
-    <strong>用户焦点标记（User Attention Annotation）</strong><br><br>
-    使用Google Plugin，调用可进行 Web & PDF Annotation 的  
-    <a href="https://github.com/hypothesis/h-api" target="_blank">Hypethesis API</a>，实时勾取用户对于搜索结果的关注点。  
-    <br><br>
-    功能特点：
-    <ul style="margin-top:6px;">
-      <li>用户高亮他们感兴趣的内容 & 系统实时捕获</li>
-      <li>对选中句子做任意自然语言标注（注释、疑惑点等）</li>
-      <li>输出为结构化的 <strong>JSON / JSONL</strong> 数据，用于认知推演和分析</li>
-    </ul>
-  </div>
-</div>
+| ![User Attention Annotation](assets/1_search/web_notation.png) | **用户焦点标记（User Attention Annotation）**<br><br>
+使用Google Plugin，调用可进行 Web & PDF Annotation 的  
+[Hypethesis API](https://github.com/hypothesis/h-api) ，实时勾取用户对于搜索结果的关注点。<br><br>
+功能特点：<br>
+- 用户高亮他们感兴趣的内容 & 系统实时捕获  
+- 对选中句子做任意自然语言标注（注释、疑惑点等）  
+- 输出为结构化的 **JSON / JSONL** 数据，用于认知推演和分析<br><br>
+**Figure 6:** 用户焦点标记 — Hypethesis Annotation Web API
+|
 
 
 
