@@ -94,10 +94,6 @@ So，`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演�
 - 🔮 **前沿趋势预判**：基于历史数据与实时信息流，<u>精准捕捉新兴技术、市场机会与研究热点的萌芽</u>
 
 
-系统通过构建 领域适配及用户关注锚点聚焦的微调模型、用户注意力驱动的信息理解机制以及可演化、高仿真的数智孪生世界，实现从 现实世界信息流（Real-World Information Streams）到未来情境推演（Prospective Scenario Simulation） 的E2E认知推理闭环。
-
-
-
 
 ## 🧩 3.核心系统架构（Core Architecture）
 
@@ -125,7 +121,7 @@ NEXUS 通过以下关键机制构建认知推演系统：
 
 - 🤖 **Step 3: 用户注意力驱动的信息理解 Agents**  
 **实时勾取用户关注点，多Agent链式分析生成战略先验**  `#注意力驱动` `#链式推理` `#趋势战略`
-Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证据评审→关联推理→战略整合），将碎片信息转化为可执行的趋势战略。  
+Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证据评审→关联推理→战略整合），将碎片信息转为可执行趋势战略。  
 
 
 - 🌍 **Step 4: 数智孪生世界 — Cayon 🏜**  
@@ -153,7 +149,7 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 
 ### 🎯 4.1 模块一 : 领域适配微调模型
 
-> `目标：`用于聚焦用户关注锚点（Attention Anchors），提升特定领域 / 特定内容（e.g: 时政热点、社交舆论）信息理解能力
+> `目标：`聚焦用户关注锚点（Attention Anchors），提升特定领域 / 内容（e.g: 时政热点、社交舆论）理解能力
 
 > `一站式`：数据管理 → 数据增强 → 模型微调 → 模型量化 → 本地部署 ALL-IN-ONE 📦
 #### 4.1.1 实现路径
@@ -171,7 +167,7 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
                 </a>
                 </p>
     
-- 2️⃣ 数据工程：接入 [EasyDataset](https://github.com/ConardLi/easy-dataset), 自动检测多模态数据格式（文本/图像/混合输入）, 可自动生成高质量且上下文相关的问答对 (QA-Pairs)
+- 2️⃣ 数据工程：接入 [EasyDataset](https://github.com/ConardLi/easy-dataset), 自动检测多模态格式（文本/图像/混合）, 自动生成高质量且上下文相关问答对 (QA-Pairs)
     - 详见：个人项目 LLaMA Foundary Pro 的数据准备与增强部分 [https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline)
 
 - 3️⃣ 训练：根据需求搭配超参数 → AutoDL在线监督微调效果 → 训练完成后模型自动保存云端存储
@@ -210,12 +206,12 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
       <strong>🔎 Deep Search Engine </strong><br><br>
       该搜索模块基于本人项目  
       <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank"><strong>UPAIRS Agents</strong></a>  
-      构建，采用 <strong>Pressure-Driven 段落级迭代反思搜索架构</strong>，能在复杂信息环境中持续反思与优化检索路径，高<strong>Factuality事实保真度</strong>。  
+      构建，采用 <strong>Pressure-Driven 段落级迭代反思搜索架构</strong>，能在复杂信息环境中持续反思与优化检索路径，高<strong>Factuality事实保真</strong>  
       <br><br>
       <strong>🔎 CognitiveTemp-DeepSearch </strong><br><br>
       用户还可以通过  
       <a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank">CognitiveTemp-DeepSearch-Agents</a>  
-      自定义搜索策略，按需求客制化 Agents 的深度搜索能力，从而获得 <strong>关联性、可靠性与时效性更强</strong> 的信息结果。
+      自定义搜索策略，按需求客制化 Agents 的深度搜索能力，从而获得 <strong>关联性、可靠性与时效性更强</strong> 的信息结果
       <br><br>
       系统结合多种关键机制：
       <ul style="margin-top:6px;">
@@ -289,14 +285,14 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     <!-- 右列：文字 -->
     <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
       <strong>初步深度搜索量化指标</strong><br><br>
-      深度搜索Agents (deepsearch) 量化验证，保证高置信度与高相关性（支持率 / 标签命中率）：<br>
+      Deepsearch 保证高置信度与高相关性（支持率 / 标签命中率）：<br>
       <ul style="margin-top:6px;">
         <li>LLMs分析总结出 tags & labels, 辅助标签更准确命中</li>
         <li>通过动态阈值，避免搜索的时间过长、置信度过低问题</li>
         <li><strong>置信度判断标准：</strong> 判断内容是否含有多元化资料支持？</li>
       </ul>
       <br>
-      <strong>Figure 5:</strong> 深度搜索量化结果 — 用户自定义 "时效性、严格阈值控制、搜索源" 的搜索策略，更符合用户目标的搜索结果
+      <strong>Figure 5:</strong> 深度搜索量化结果 — 用户自定义 "时效性、严格阈值控制、搜索源" 的搜索策略
     </td>
   </tr>
 </table>
