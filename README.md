@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  NEXUS Say NO to "官味" 文章🙅，只做你真正想要、真实的信息✅ —— 融合现实因子动态变化，用多视角跳出条条框框，催生另辟蹊径的新Idea💥。配合提速60%的极速分析引擎，让你在30分钟内，低成本¥2即可获得原本数日数据收集才能挖掘的深度洞见
+</p>
+
+<p align="center">
   <span style="font-size:20px; color:#e63946;">🌙✨</span>
   <span style="font-size:20px; color:#f77f00; font-weight:bold;">棋局未展先知手</span><br>
   <span style="font-size:20px; color:#2a9d8f; font-weight:bold;">月落星沉自有时 🌌</span>
@@ -18,52 +22,59 @@
 
 > NEXUS 系统实现 从“信息分析” →“社会系统仿真” (融合现实世界的真实、经验证信息流)
 
-`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演框架（Multi-Agents Cognitive Simulation）。基于`用户偏好锚点`（Preference Anchors），NEXUS `主动挖掘最符合用户认知目标的深度洞察`和策略方案。系统性地整合`真正高度关联、高保真的社交舆情、政策动态与金融资讯等多源信号`，构建端到端智能分析与推演能力的simulation pipeline。通过对现实世界复杂信息环境的采集、语义理解与关联推理，构建在高维空间中`还原关键事件之间的因果脉络`，+`动态模拟与趋势推演`，获得更好仿真deep insight + `多方面视角洞察`, 实现jump outside of the box 认知突破：
+### 🌟 NEXUS 新特点包括：
+> NEXUS **不做 "官味" 文章**，只做你**真正想要、真实的**信息 —— 融合现实因子动态变化，用多视角跳出条条框框，催生另辟蹊径的**新Idea**。配合**提速60%* 的极速分析引擎，让你在30分钟内，低成本¥2即可获得原本数日数据收集才能挖掘的深度洞见
 
-
-
-### 🌟 1.1 特点包括：
-
-- 🚀 <span style="text-decoration: underline;">跳出 "大众化/官话" 的限制性回答与分析</span>
+- 🚀 **告别“正确废话”，NEXUS 拒绝大众模板** 🔥🔥🔥
 (基于用户个人真正关注的认知突破)
-    - 深度搜索<u>用户真正关心</u>的内容，NO <del>"大众化信息"</del> 🙅
-    - 信息源精筛与深度关联，NO <del>"泛泛而谈分析"</del> 🙅
+    - 深度搜索<u>用户真正关心</u>的内容，NO <del>"大众化、泛泛而谈信息"</del> 🙅
     - 建立 <u>"用户独享" Cognitive Map</u>，NO <del>"千人一面分析"</del> 
     - 📖 optional material：
         - Farshidi et al. (2024), *Understanding user intent modeling for conversational recommender systems*, [🔗 Springer Nature Link](https://link.springer.com/article/10.1007/s11257-024-09398-x)
         - Nguyen et al. (2018), *A Capsule Network‑based Embedding Model for Search Personalization*, [🔗 arXiv](https://arxiv.org/abs/1804.04266) 
 
-- 🔗 <span style="color:#FF9F1C">多源高质量信息整合</span>
+- 🔗 **不依赖单一、重复数据，NEXUS 整合高质量信源** 🔥🔥
 (深度搜索高度贴合 + 保真度的信息源)
     - <u>接入 domain-specific 的微调模型</u>，NO <del>"通用LLMs"</del> 🙅
-    - 用户关注锚点驱动的信息理解机制，NO <del>"无差别信息处理"</del> 
-    - 构建<u>高保真的数智孪生世界</u>，NO <del>"理想化假设的虚拟世界"</del> 🙅
+    - **用户关注锚点驱动**的信息理解机制，NO <del>"无差别信息处理"</del> 
 
-- 📈 <span style="color:#4ECDC4">动态模拟与趋势预测</span>
-(推演变化的潜在结果)
-    - 基于用户关注点的动态模拟，NO <del>"静态分析"</del>
-    - <u>考虑现实的真实影响因子</u>, NO <del>"理想化假设"</del> 🙅
-    - 进行<u>多维度的趋势推演</u>，NO <del>"单一维度分析"</del> 
+- 📈 **不限于预测，NEXUS 在动态推演未来的隐藏趋势**
+    - **考虑现实的、实时的真实、动态影响因子**🔥🔥, NO <del>"静态 or 理想化假设"</del> 🙅
+    - 构建<u>高保真的数智孪生世界</u>，NO <del>"理想化假设的虚拟世界"</del> 🙅
     - 📖 optional material：
         - Guo et al. (2025), *Beyond Static Retrieval: Opportunities and Pitfalls of Iterative Retrieval in GraphRAG*, [🔗 arXiv](https://arxiv.org/abs/2509.25530)  
         - Zhu et al. (2025), *Conversational Intent‑Driven GraphRAG*, [🔗 arXiv](https://arxiv.org/abs/2506.19385)  
 
-- 💡 <span style="color:#845EC2">深度洞察与创新认知</span>
+- 💡 **不搬运常识，NEXUS 生产深度创新认知, 卷！视角深度**
 (多视角呈现，支持 jump outside of the box 认知突破)
-    - <u>独特视角 insight，</u> NO <del>"大道理的死板分析"</del> 🙅
-    - <u>眼前一亮的新 idea</u>，NO <del>"老生常谈的生硬"</del> 
-    - <u>生动仿真的内心独白</u>，NO <del>"表面化的虚情假意分析"</del> 🙅
+    - **眼前一亮的新 idea**🔥🔥， NO <del>"大道理的死板分析 or 老生常谈的生硬"</del> 🙅
+    - **生动仿真的内心独白**🔥，NO <del>"表面化的虚情假意分析"</del> 🙅
     - 📖 optional material:
         - Zhong et al. (2023), *Beyond Sentiment: Cognitive and Narrative Open‑Ended Generation*, [🔗 arXiv](https://arxiv.org/html/2502.13925v1)
         - Saunders (2012), *Towards Autonomous Creative Systems: A Computational Approach*, *Cognitive Computation*, 4(3), 216–225.  [🔗 Article link](https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/) :contentReference[oaicite:0]{index=0}
 
-- 💡 <span style="color:#1A535C">多领域、多角色、高保真</span>的复杂信息模拟与未来推演，<u>多样化视角包括</u>:
+- 💡 **不只一个视角，NEXUS 保真模拟多面未来** 🔥🔥🔥
+<p align="left">
+<a href="#step-4-多轮仿真与事件发展分析">
+<img src="https://img.shields.io/badge/🔍且看多面视角模拟-orange?style=for-the-badge">
+</a>
+</p>
     - 政府与政策制定者 ⚖️ (e.g: 政策制定、监管机构 / 政策智库Think Tanks...)
     - 企业与市场参与者 💰 (e.g: 投资机构 / Corp企业 / 商业分析机构 VC, PE...)
     - 公众与社群舆论场 🧑‍🤝‍🧑 (e.g: 社媒用户KOL / 公众 / NGO / 舆论放大器...)
     - 研究者与专家网络 🧑‍🔬 (e.g: researcher / 行业专家 / 独立研究者)
+ 
+- 🌟 **不堆次数，NEXUS 堆视角、提速保深度** 🔥🔥🔥
+> 这一优化不仅让高频建模成为可能，更让在资源有限的情况下，依然能快速获取深刻洞见，抢占决策先机。
+- 相较于原来的 mirofish 架构，NEXUS得到了革命性效率提升：成本直降60%，模拟时间缩短至1/3
+- 我们通过深度融合**背景知识先验**与**用户关注锚点聚焦机制（attention anchors）**，并结合优化智能体人格设置，在保证深度分析能力的同时，大幅降低了推理过程中的令牌消耗。 
+- **智能加速配置**：采用 OpenAI GPT-4o 专属优化方案，显著减少计算开销，单次模拟成本从 $5 降至 **$2~3**，降幅达 **40%~60%**。  
+- **超快深度分析**：仅需 **30 次模拟**即可获得高质量洞察，相比原方案（mirofish 模拟 96 次），总分析时间由 **50 分钟**骤减至 **18~20 分钟**，效率提升 **超过 60%**。  
 
-## 🧑‍🍳 2.可以做什么？(What can we do?)
+So，`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演框架（Multi-Agents Cognitive Simulation）。基于`用户偏好锚点`（Preference Anchors），NEXUS `主动挖掘最符合用户认知目标的深度洞察`和策略方案。系统性地整合`真正高度关联、高保真的社交舆情、政策动态与金融资讯等多源信号`，构建端到端智能分析与推演能力的simulation pipeline。通过对现实世界复杂信息环境的采集、语义理解与关联推理，构建在高维空间中`还原关键事件之间的因果脉络`，+`动态模拟与趋势推演`，获得更好仿真deep insight + `多方面视角洞察`, 实现jump outside of the box 认知突破：
+
+
+## 🧑‍🍳 2.NEXUS 可以做什么？(What can NEXUS do?)
 
 ### 🎭 多角色认知模拟：假如你身处如下...这些位置，借助🛸NEXUS✨会看到什么？
 支持`多领域、多角色、多视角、高保真`的复杂信息系统模拟与未来情境推演，帮助用户实现：
