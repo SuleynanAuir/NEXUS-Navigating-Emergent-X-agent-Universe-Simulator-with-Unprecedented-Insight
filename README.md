@@ -121,13 +121,34 @@ NEXUS 通过以下关键机制构建认知推演系统：
 
 ---
 
-| ![Mareid Framework](assets/mermaid_ChatGPT%20Image%20Mar%2014,%202026,%2012_15_10%20PM.png) | **Steps Overview** |
-|:--:|:--|
-|  | 🎯 **Step1: 领域适配微调模型**<br>[LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) • Ollama Deploy |
-|  | 🤖 **Step2: 客制化深度搜索 Agents**<br>[UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) • [CognitiveTemp-DeepSearch](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents) |
-|  | 🤖 **Step3: 用户注意力驱动的信息理解 Agents**<br>Google Hypethesis + 多Agents协作 |
-|  | 🌍 **Step4: 数智孪生世界 Digital Cognitive Twin — Cayon 🏜**<br>高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生 |
-|  | 🔁 **Step5: End-to-End Cognitive Reasoning Loop**<br>完整闭环实现从现实信息流 → 未来情境推演 |
+<table>
+  <tr>
+    <!-- 左边大图 -->
+    <td style="width:45%; vertical-align:top; padding-right:15px;">
+      <img src="assets/mermaid_ChatGPT Image Mar 14, 2026, 12_15_10 PM.png" 
+           alt="Mareid Framework" 
+           style="width:100%; border-radius:12px;"/>
+    </td>
+    <!-- 右边步骤 -->
+    <td style="width:55%; vertical-align:top; font-size:14px; line-height:1.6;">
+      <p>🎯 <strong>Step1: 领域适配微调模型</strong><br>
+      <a href="https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline" target="_blank">LLaMa Foundary Pro</a> • Ollama Deploy</p>
+
+      <p>🤖 <strong>Step2: 客制化深度搜索 Agents</strong><br>
+      <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank">UPAIRS-Agents</a> • 
+      <a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank">CognitiveTemp-DeepSearch</a></p>
+
+      <p>🤖 <strong>Step3: 用户注意力驱动的信息理解 Agents</strong><br>
+      Google Hypethesis + 多Agents协作</p>
+
+      <p>🌍 <strong>Step4: 数智孪生世界 Digital Cognitive Twin — Cayon 🏜</strong><br>
+      高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生</p>
+
+      <p>🔁 <strong>Step5: End-to-End Cognitive Reasoning Loop</strong><br>
+      完整闭环实现从现实信息流 → 未来情境推演</p>
+    </td>
+  </tr>
+</table>
 
 
 ## 🛠 4.技术实现细节及展示（Implementation & Engineering）
