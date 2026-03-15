@@ -10,7 +10,7 @@
   <span style="font-size:20px; color:#2a9d8f; font-weight:bold;">月落星沉自有时 🌌</span>
 </p>
 
-## 📊 1.Preview
+## 📊 1. Preview
 
 > NEXUS 系统实现 从“信息分析” →“社会系统仿真” (融合现实世界的真实、经验证信息流)
 
@@ -60,7 +60,7 @@
 So，`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演框架（Multi-Agents Cognitive Simulation）。基于`用户偏好锚点`（Preference Anchors），NEXUS `主动挖掘最符合用户认知目标的深度洞察`和策略方案。系统性地整合`真正高度关联、高保真的社交舆情、政策动态与金融资讯等多源信号`，构建端到端智能分析与推演能力的simulation pipeline。通过对现实世界复杂信息环境的采集、语义理解与关联推理，构建在高维空间中`还原关键事件之间的因果脉络`，+`动态模拟与趋势推演`，获得更好仿真deep insight + `多方面视角洞察`, 实现jump outside of the box 认知突破：
 
 
-## 🧑‍🍳 2.NEXUS 可以做什么？(What can NEXUS do?)
+## 🧑‍🍳 2. NEXUS 可以做什么？(What can NEXUS do?)
 
 ### 🎭 多角色认知模拟：假如你身处如下...这些位置，借助🛸NEXUS✨会看到什么？
 支持`多领域、多角色、多视角、高保真`的复杂信息系统模拟与未来情境推演，帮助用户实现：
@@ -138,7 +138,7 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 | 模块                                         | 功能描述                                             | 实现路径 + 个人项目结合                                                                                                                                                                                                                                                                            |
 | ------------------------------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🎯 **领域适配微调**                            | 聚焦 **用户关注锚点（Attention Anchors）** <br> - 提升 **特定领域信息理解能力**                | 运用的个人流程化整合pipeline [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 来进行快捷微调（接入数据增强与Ollama部署支持 🐑）                                                                                                                        |
-| 🤖 **客制化深度搜索 Agents协作框架** | 挖掘 **高度符合用户认知目标** 的深度洞察 | - 接入个人的 **深度搜索 Agents** 框架 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 提高关联度、置信度 <br> - 用户锚点驱动的 **CognitiveTemp Agents** [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)，实现用户控制搜索 |
+| 🤖 **客制化深度搜索 Agents协作框架** | 挖掘 **高度符合用户认知目标** 的深度洞察 | - 接入个人的 **深度搜索 Agents** 框架 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 提高关联度、置信度 <br> - 用户锚点驱动[CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)，实现用户控制搜索 |
 | 🤖 **用户注意力驱动的信息理解 Agents** | User-Attention-Driven，实时勾取用户对于搜索结果的关注点, 完成了：`Agent-A/B/C 趋势链式分析 + Agent-D 战略整合架构, 协作深度分析生成系统先验 | - Google Hypethesis 实时勾取焦点✍️ <br>  - Agent-A  用户-趋势信号解析师🔥  → 从用户焦点挖掘趋势信号、关注热度 <br> - Agent-B  内容-关联证据评审师 🤔 → 集提炼演进过程、时间轴、及关联证据 <br> - Agent-C  事件-趋势关联推理师 🧠 → 从关联事件中推断扩散路径、行业动态 <br> -Agent-D  首席趋势战略整合师 ✅ → 整合生成供趋势预测使用的战略文档|                                                                                            |
 | 🌍 **数智孪生世界 Digital Cognitive Twin — Cayon 🏜**      | 构建高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生, 并且结合现实复杂事件流，进行深度仿真推演 | - 初始化：融入高质量信息先验，提取 E&R 构建 🌟 **[GraphRAG](https://github.com/microsoft/graphrag)**, 支持多维联系 <br> - 建模高仿真Agents: 生成多样独特知识库、认知倾向的虚拟 Agents 个体 <br> - Canyon复现现实舆情流: 环境因子来引导舆情走向，实现动态演化模拟 <br> - 多轮仿真 + 事件发展报告: 结合事件舆论扩散，并分析虚拟 Agents 行为模式以提供现实推演的 **仿真 interview** 🎤  <br> - 深度互动与洞察: 与仿真报告及虚拟 Agents 个体交互，洞悉未来与决策                                                                                                                                                                                                 |
 
@@ -274,15 +274,15 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 </div>
 
 
-<table>
+<table style="width:100%; border-collapse:collapse;">
   <tr>
-    <!-- 左列：图片 -->
-    <td style="width:40%; vertical-align:top; padding-right:15px; text-align:center;">
+    <!-- 左列：图片（去除上下留空） -->
+    <td style="width:40%; vertical-align:top; padding-right:15px; line-height:0;">
       <img src="assets/1_search/search_result.png"
            alt="search_result"
-           style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+           style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); display:block;" />
     </td>
-    <!-- 右列：文字 -->
+    <!-- 右列：文字（保持原样） -->
     <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
       <strong>初步深度搜索量化指标</strong><br><br>
       Deepsearch 保证高置信度与高相关性（支持率 / 标签命中率）：<br>
@@ -296,7 +296,6 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     </td>
   </tr>
 </table>
-
 
 
 (2) 用户焦点标记：使用 hypethesis 的 Google Plugin，调用可进行 Web & PDF Annotation的Hypethesis API (https://github.com/hypothesis/h-api) 来实时勾取用户对于搜索结果的“关注点标记”（例如：用户可以高亮他们感兴趣的内容【并且做出任何用户自然语言的标注】 / 或者对某句话写下疑惑点），接下来系统均会实时勾取用户所有高亮的内容/人为标注，最后输出为结构化的 json/jsonl 数据
