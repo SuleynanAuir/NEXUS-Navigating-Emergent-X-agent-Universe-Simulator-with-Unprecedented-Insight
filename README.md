@@ -601,66 +601,28 @@ _953
 
 | ![Agent Personality Step 1](assets/2_canyon/step2/agent1.png) | ![Agent Personality Step 2](assets/2_canyon/step2/agent2.png) |
 |:--:|:--:|
-| **Figure 11a:** Agent 人格构建初始阶段 — 基础属性定义。 | **Figure 11b:** Agent 人格扩展阶段 — 添加偏好与行为倾向。 |
+| **Figure 11a:** Agent 人格构建初始阶段 — 基础属性 | **Figure 11b:** Agent 人格扩展阶段 — 添加偏好与倾向 |
 
 | ![Agent Personality Step 3](assets/2_canyon/step2/agent3.png) | ![Agent Personality Step 4](assets/2_canyon/step2/agent4.png) |
 |:--:|:--:|
-| **Figure 11c:** Agent 人格优化阶段 — 调整认知策略与交互方式。 | **Figure 11d:** Agent 人格完成阶段 — 完整认知与行为模式建立。 |
+| **Figure 11c:** Agent 人格优化阶段 — 调整认知策略、人格认知倾向与交互方式 | **Figure 11d:** Agent 人格完成阶段 — 基于现实种子的完整认知与健全的行为模式 |
 
 | ![Agent Character Config](assets/2_canyon/step2/agent_char1.png) | ![Agent Character Lookup](assets/2_canyon/step2/agent_char2.png) |
 |:--:|:--:|
-| **Figure 11e:** Agent 人格配置 — 属性与偏好设定。 | **Figure 11f:** Agent 人格查阅 — 查看各个 Agent 的认知与行为特征。 |
+| **Figure 11e:** Agent 人格配置 — 后期根据用户特殊需求设定属性与偏好 | **Figure 11f:** Agent 人格查阅 — 查看各个 Agent 的事件认知与行为特征 |
 
 
 
 #### Step 3: 模拟虚拟环境 & 仿生交流
 在 Canyon 数智孪生世界中，系统模拟现实舆情的发展过程，同时注入环境因子引导信息流和舆论走向，力求还原真实场景中的信息传播路径和舆论场动态。该步骤不仅考虑现实事件因素，还对舆情的演化、热点聚集和信息扩散规律进行建模，为后续趋势分析提供可靠基础。
 
-<!-- Figure 12: Canyon Step 3 — Hot Topics & Simulation -->
-<div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin:20px 0; padding:10px; border-radius:15px; background:#f9f9f9; box-shadow:0 6px 20px rgba(0,0,0,0.1);">
+| ![Hot Topics Detection](assets/2_canyon/step3/hot_topic.png) | ![Simulation Overview](assets/2_canyon/step3/overview.png) |
+|:--:|:--:|
+| **Figure 12a:** 热点主题识别 — Canyon 虚拟世界中识别高关注话题。 | **Figure 12b:** Canyon 仿真概览 — 展示系统整体运行和事件流结构。 |
 
-  <!-- 左上 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step3/hot_topic.png"
-         alt="Hot Topics Detection"
-         style="width:100%; height:220px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 12a:</strong> 热点主题识别 — Canyon 虚拟世界中识别高关注话题。
-    </p>
-  </div>
-
-  <!-- 右上 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step3/overview.png"
-         alt="Simulation Overview"
-         style="width:100%; height:220px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 12b:</strong> Canyon 仿真概览 — 展示系统整体运行和事件流结构。
-    </p>
-  </div>
-
-  <!-- 左下 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step3/sim_talk1.png"
-         alt="Simulation Talk 1"
-         style="width:100%; height:220px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 12c:</strong> 虚拟 Agent 对话示例1 — 展现 Agent 间讨论热点主题的行为。
-    </p>
-  </div>
-
-  <!-- 右下 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step3/sim_talk2.png"
-         alt="Simulation Talk 2"
-         style="width:100%; height:220px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 12d:</strong> 虚拟 Agent 对话示例2 — 展示不同 Agent 对事件反应与认知推演。
-    </p>
-  </div>
-
-</div>
-
+| ![Simulation Talk 1](assets/2_canyon/step3/sim_talk1.png) | ![Simulation Talk 2](assets/2_canyon/step3/sim_talk2.png) |
+|:--:|:--:|
+| **Figure 12c:** 虚拟 Agent 对话示例1 — 展现 Agent 间讨论热点主题的行为。 | **Figure 12d:** 虚拟 Agent 对话示例2 — 展示不同 Agent 对事件反应与认知推演。 |
 
 #### Step 4: 多轮仿真与事件发展分析
 系统对虚拟世界进行多轮迭代仿真，生成事件发展报告，包括事件爆发态势、舆论扩散趋势及关键节点分析。同时记录每个虚拟 Agent 的反应和行为模式，提供深度洞察（deep insight）与交互式查询能力。通过仿真得到的多视角数据可用于预测未来可能走势，并生成多份基于现实推演的虚拟访谈（simulated interviews），帮助理解个体决策逻辑和信息响应模式。
@@ -674,82 +636,21 @@ _953
 - Academics: GraphRAG Research
 - Social Media: B站清雨Tpor毁号事件
 
-<!-- Figure 13: Canyon Agent Interviews — Academic (Graphrag) vs Social Opinion (Qingyu) -->
-<div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin:20px 0; padding:10px; border-radius:15px; background:#f9f9f9; box-shadow:0 6px 20px rgba(0,0,0,0.1);">
+| ![Academic Interview 1](assets/2_canyon/step4/interview/interview_graphrag1.png) | ![Social Opinion Interview 1](assets/2_canyon/step4/interview/interview_qingyu1.png) |
+|:--:|:--:|
+| **Figure 13a:** Academic 技术领域-Agent Interview — 学术场景对话 1：未来五年GraphRAG技术发展趋势及受益场景 | **Figure 13b:** Social Opinion 主播-Agent Interview — 社交舆论 对话 1: 谈论平台培训必要性及技术层面防止主播违规行为的可能措施 |
 
-  <!-- Row 1 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/interview/interview_graphrag1.png"
-         alt="Academic Interview 1"
-         style="width:100%; height:180px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 13a:</strong> Academic <span style="color:#f77f00;">技术领域-Agent</span> Interview — <span style="color:#f77f00;">学术场景</span>对话 1：未来五年GraphRAG技术发展趋势及受益场景
-    </p>
-  </div>
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/interview/interview_qingyu1.png"
-         alt="Social Opinion Interview 1"
-         style="width:100%; height:180px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 13b:</strong> Social Opinion <span style="color:#f77f00;">主播-Agent</span> Interview — <span style="color:#f77f00;">社交舆论</span> 对话 1: 谈论平台培训必要性及技术层面防止主播违规行为的可能措施
-    </p>
-  </div>
+| ![Academic Interview 2](assets/2_canyon/step4/interview/interview_graphrag2.png) | ![Social Opinion Interview 2](assets/2_canyon/step4/interview/interview_qingyu3.png) |
+|:--:|:--:|
+| **Figure 13c:** Academic 技术领域-Agent Interview — 学术场景对话 2: GraphRAG技术在医疗领域的挑战及业内专家优先关注RAG的哪方面技术 | **Figure 13d:** Social Opinion 受害者-Agent Interview — 社交舆论 对话 2: 用户对于主播的信任危机及保护虚拟财产政策制定的预热 |
 
-  <!-- Row 2 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/interview/interview_graphrag2.png"
-         alt="Academic Interview 2"
-         style="width:100%; height:180px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 13c:</strong> Academic <span style="color:#f77f00;">技术领域-Agent</span> Interview — <span style="color:#f77f00;">学术场景</span>对话 2: GraphRAG技术在医疗领域的挑战及业内专家优先关注RAG的哪方面技术
-    </p>
-  </div>
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/interview/interview_qingyu3.png"
-         alt="Social Opinion Interview 2"
-         style="width:100%; height:180px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 13d:</strong> Social Opinion <span style="color:#f77f00;">受害者-Agent</span> Interview — <span style="color:#f77f00;">社交舆论</span> 对话 2: 用户对于主播的信任危机及保护虚拟财产政策制定的预热
-    </p>
-  </div>
+| ![Academic Interview 3](assets/2_canyon/step4/interview/interview_graphrag3.png) | ![Social Opinion Interview 3](assets/2_canyon/step4/interview/interview_qingyu5.png) |
+|:--:|:--:|
+| **Figure 13e:** Academic 机构-Agent Interview — 学术场景对话示例 3: 金融机构的GraphRAG技术应用展望与潜在风险分析 | **Figure 13f:** Social Opinion 政策制定者-Agent Interview — 社交舆论 对话示例 3: 政策进一步明确虚拟道具所有权归属及物权、债权的定性问题 |
 
-  <!-- Row 3 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/interview/interview_graphrag3.png"
-         alt="Academic Interview 3"
-         style="width:100%; height:180px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 13e:</strong> Academic <span style="color:#f77f00;">机构-Agent</span> Interview — <span style="color:#f77f00;">学术场景</span>对话示例 3: 金融机构的GraphRAG技术应用展望与潜在风险分析
-    </p>
-  </div>
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/interview/interview_qingyu5.png"
-         alt="Social Opinion Interview 3"
-         style="width:100%; height:180px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 13f:</strong> Social Opinion <span style="color:#f77f00;">政策制定者-Agent</span> Interview — <span style="color:#f77f00;">社交舆论</span> 对话示例 3: 政策进一步明确虚拟道具所有权归属及物权、债权的定性问题
-    </p>
-  </div>
-
-  <!-- Row 4 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/interview/interview_graphrag4.png"
-         alt="Academic Interview 4"
-         style="width:100%; height:180px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 13g:</strong> Academic <span style="color:#f77f00;">机构-Agent</span> Interview — <span style="color:#f77f00;">学术场景</span>对话示例4: GraphRAG对信息领域的长期影响分析及推荐研究者优先考虑要素
-    </p>
-  </div>
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/interview/interview_qingyu6.png"
-         alt="Social Opinion Interview 4"
-         style="width:100%; height:180px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 13h:</strong> Social Opinion <span style="color:#f77f00;">政策制定者-Agent</span> Interview — </strong> Social Opinion <span style="color:#f77f00;">社交舆论</span> 对话示例 4: 内容创作自由与平台责任的平衡问题及法务员评估责任划分
-    </p>
-  </div>
-
-</div>
+| ![Academic Interview 4](assets/2_canyon/step4/interview/interview_graphrag4.png) | ![Social Opinion Interview 4](assets/2_canyon/step4/interview/interview_qingyu6.png) |
+|:--:|:--:|
+| **Figure 13g:** Academic 机构-Agent Interview — 学术场景对话示例4: GraphRAG对信息领域的长期影响分析及推荐研究者优先考虑要素 | **Figure 13h:** Social Opinion 政策制定者-Agent Interview — Social Opinion 社交舆论 对话示例 4: 内容创作自由与平台责任的平衡问题及法务员评估责任划分 |
 
 
 ---
@@ -764,53 +665,13 @@ _953
 * Social Media: **B站清雨 Tpor 毁号事件**
 
 
+| ![Academic Entity Insight](assets/2_canyon/step4/deepinsight/deep_insight_entity_graphrag.png) | ![Social Entity Insight](assets/2_canyon/step4/deepinsight/deep_insight_entity_qingyu.png) |
+|:--:|:--:|
+| **Figure 14a:** Entity-Level Insight (Academic – GraphRAG). 在学术研究场景中，通过 GraphRAG 对关键实体及其关系进行分析，揭示研究主题之间的结构化知识关联与潜在研究脉络。 | **Figure 14b:** Entity-Level Insight (Social Opinion – 清雨). 在社交舆论环境中，通过实体级分析识别热点人物、事件或组织，并观察其在舆论传播中的影响力与关联关系。 |
 
-<!-- Figure 14: Deep Insight Analysis — Academic vs Social Opinion -->
-<div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin:20px 0; padding:10px; border-radius:15px; background:#f9f9f9; box-shadow:0 6px 20px rgba(0,0,0,0.1);">
-
-  <!-- Row 1 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/deepinsight/deep_insight_entity_graphrag.png"
-         alt="Academic Entity Insight"
-         style="width:100%; height:200px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 14a:</strong> Entity-Level Insight (Academic – GraphRAG).  
-      在学术研究场景中，通过 GraphRAG 对关键实体及其关系进行分析，揭示研究主题之间的结构化知识关联与潜在研究脉络。
-    </p>
-  </div>
-
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/deepinsight/deep_insight_entity_qingyu.png"
-         alt="Social Entity Insight"
-         style="width:100%; height:200px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 14b:</strong> Entity-Level Insight (Social Opinion – 清雨).  
-      在社交舆论环境中，通过实体级分析识别热点人物、事件或组织，并观察其在舆论传播中的影响力与关联关系。
-    </p>
-  </div>
-
-  <!-- Row 2 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/deepinsight/deep_insight_que_graphrag.png"
-         alt="Academic Question Insight"
-         style="width:100%; height:200px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 14c:</strong> Question-Level Insight (Academic – GraphRAG).  
-      通过问题驱动的推理分析，对学术问题进行多跳知识检索与整合，从而得到更加深入的研究洞察与理论解释。
-    </p>
-  </div>
-
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step4/deepinsight/deep_insight_que_qingyu.png"
-         alt="Social Question Insight"
-         style="width:100%; height:200px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 14d:</strong> Question-Level Insight (Social Opinion – 清雨).  
-      在社交舆论分析中，通过问题导向的推理来理解公众关注的核心议题，并分析不同观点之间的互动与传播趋势。
-    </p>
-  </div>
-
-</div>
+| ![Academic Question Insight](assets/2_canyon/step4/deepinsight/deep_insight_que_graphrag.png) | ![Social Question Insight](assets/2_canyon/step4/deepinsight/deep_insight_que_qingyu.png) |
+|:--:|:--:|
+| **Figure 14c:** Question-Level Insight (Academic – GraphRAG). 通过问题驱动的推理分析，对学术问题进行多跳知识检索与整合，从而得到更加深入的研究洞察与理论解释。 | **Figure 14d:** Question-Level Insight (Social Opinion – 清雨). 在社交舆论分析中，通过问题导向的推理来理解公众关注的核心议题，并分析不同观点之间的互动与传播趋势。 |
 
 
 #### Step 5: 深度交互与洞察
@@ -892,8 +753,13 @@ The full reports provide extended analysis, agent reasoning traces, and deeper i
     🔥 View Full Social Analysis (Qingyu Event)
   </a>
 
-</div>
-<div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin:20px 0; padding:12px; border-radius:14px; background:#f9fafc; box-shadow:0 6px 20px rgba(0,0,0,0.08);"> <!-- Row 1 --> <div style="flex:0 0 45%; text-align:center;"> <img src="assets/2_canyon/step4/report/report_graphrag.png" style="width:100%; height:210px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" /> <p style="font-size:12px; color:#555; margin-top:5px;"> <strong>Figure 15a:</strong> GraphRAG Analytical Report — 学术研究场景下生成的综合分析报告，结构化知识整合与多跳推理，对 GraphRAG 技术发展趋势、研究方向及潜在应用领域进行系统总结。 </p> </div> <div style="flex:0 0 45%; text-align:center;"> <img src="assets/2_canyon/step4/report/report_qingyu.png" style="width:100%; height:210px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" /> <p style="font-size:12px; color:#555; margin-top:5px;"> <strong>Figure 15b:</strong> Qingyu Event Report — 针对 B站“清雨 Tpor 毁号事件”的舆情分析报告，汇总事件背景、舆论传播路径以及平台生态影响，对公众关注焦点进行结构化梳理。 </p> </div> <!-- Row 2 --> <div style="flex:0 0 45%; text-align:center;"> <img src="assets/2_canyon/step4/report/mindset_graphrag1.png" style="width:100%; height:210px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" /> <p style="font-size:12px; color:#555; margin-top:5px;"> <strong>Figure 15c:</strong> GraphRAG Agent Mindset — 学术 Agent 在访谈后的内部思考与认知总结，展示其对 GraphRAG 技术未来发展的理解、潜在研究挑战以及可能的技术突破方向。 </p> </div> <div style="flex:0 0 45%; text-align:center;"> <img src="assets/2_canyon/step4/report/mindset_qingyu1.png" style="width:100%; height:210px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" /> <p style="font-size:12px; color:#555; margin-top:5px;"> <strong>Figure 15d:</strong> Qingyu Agent Mindset — 社交舆论 Agent 对事件的情绪与认知反应记录，体现不同虚拟个体在舆论环境中的态度差异以及对平台治理问题的思考。 </p> </div> </div>
+| ![GraphRAG Analytical Report](assets/2_canyon/step4/report/report_graphrag.png) | ![Qingyu Event Report](assets/2_canyon/step4/report/report_qingyu.png) |
+|:--:|:--:|
+| **Figure 15a:** GraphRAG Analytical Report — 学术研究场景下生成的综合分析报告，结构化知识整合与多跳推理，对 GraphRAG 技术发展趋势、研究方向及潜在应用领域进行系统总结。 | **Figure 15b:** Qingyu Event Report — 针对 B站“清雨 Tpor 毁号事件”的舆情分析报告，汇总事件背景、舆论传播路径以及平台生态影响，对公众关注焦点进行结构化梳理。 |
+
+| ![GraphRAG Agent Mindset](assets/2_canyon/step4/report/mindset_graphrag1.png) | ![Qingyu Agent Mindset](assets/2_canyon/step4/report/mindset_qingyu1.png) |
+|:--:|:--:|
+| **Figure 15c:** GraphRAG Agent Mindset — 学术 Agent 在访谈后的内部思考与认知总结，展示其对 GraphRAG 技术未来发展的理解、潜在研究挑战以及可能的技术突破方向。 | **Figure 15d:** Qingyu Agent Mindset — 社交舆论 Agent 对事件的情绪与认知反应记录，体现不同虚拟个体在舆论环境中的态度差异以及对平台治理问题的思考。 |
 
 
 下面是根据你提供的 **论文链接 + 代码仓库** 整理的一份专业格式的 **References / 参考文献与资源列表**，适合用于项目、论文或 README 中的引用部分。我采用较为规范的学术引用布局，并在必要的位置附上仓库说明。
