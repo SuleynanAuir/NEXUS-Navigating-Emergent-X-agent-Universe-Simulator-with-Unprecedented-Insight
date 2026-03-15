@@ -540,7 +540,7 @@ _953
 [AI算法工程师] -->
 
 
-<table style="font-size:13px; line-height:1.35;">
+<table>
   <thead>
     <tr>
       <th style="background-color:#B3CDE0; color:#000; padding:6px;">虚拟 Agent</th>
@@ -551,36 +551,31 @@ _953
       <th style="background-color:#B3CDE0; color:#000; padding:6px;">影响力</th>
     </tr>
   </thead>
-
   <tbody>
-
     <tr style="background-color:#E6F0FA; color:#000;">
-      <td>edge_d_732 @Edge, D.</td>
-      <td>人工智能研究员，专注 GraphRAG 技术</td>
+      <td>edged732 @Edge, D.</td>
+      <td>人工智能研究员，专注 GraphRAG</td>
       <td>年龄 35岁，研究员</td>
-      <td>偏好逻辑推理与图结构分析，决策风格严谨，风险偏好中等</td>
+      <td>偏好逻辑推理与图结构分析，决策风格严谨，风险中</td>
       <td>高度社交化，常分享学术资源，积极参与技术社区讨论</td>
       <td>中高，GraphRAG 与知识图谱领域</td>
     </tr>
-
     <tr style="background-color:#DFF2E1; color:#000;">
       <td>graphrag_arxiv_论文_953 @GraphRAG Arxiv</td>
-      <td>GraphRAG 技术研究推广机构</td>
-      <td>机构型 Agent，专注科研成果传播</td>
-      <td>信息处理方式偏向文献整合与摘要生成，决策风格偏中立</td>
-      <td>定期推送研究成果，关注学术影响力</td>
+      <td>GraphRAG 研究推广平台</td>
+      <td>机构型 Agent，专注科研传播</td>
+      <td>信息处理方式偏向文献整合与摘要生成，决策风格中立</td>
+      <td>定期推送研究成果，关注学术影响</td>
       <td>高，面向 GraphRAG 技术社区</td>
     </tr>
-
     <tr style="background-color:#FFF7CC; color:#000;">
       <td>开发者_808 @开发者</td>
-      <td>大模型应用开发技术社群</td>
+      <td>大模型应用开发的技术社群</td>
       <td>社群型 Agent，专注 AI 技术分享</td>
       <td>重视实践经验与案例学习，偏向快速实验式决策</td>
       <td>频繁互动，活跃分享代码、模型与项目实践</td>
       <td>中高，社群内技术传播效率高</td>
     </tr>
-
     <tr style="background-color:#FFE5D4; color:#000;">
       <td>neo4j_650 @neo4j</td>
       <td>图数据库技术提供商</td>
@@ -589,82 +584,34 @@ _953
       <td>分享实践案例，提供技术咨询与工具支持</td>
       <td>高，影响力集中在知识图谱与企业应用场景</td>
     </tr>
-
     <tr style="background-color:#F0F0F0; color:#000;">
-      <td>读者群体_792 @读者群体</td>
-      <td>AI 算法工程师群体</td>
-      <td>用户型 Agent，聚焦算法研究与应用</td>
-      <td>偏向算法理解与工程实现，决策受技术需求驱动</td>
-      <td>关注技术资讯、参与讨论与学习</td>
+      <td>读者群体_792 @读者</td>
+      <td>AI 算法工程师</td>
+      <td>面向用户型 Agent，聚焦算法研究</td>
+      <td>偏算法理解与工程实现，决策受技术需求驱动</td>
+      <td>关注技术的资讯、参与讨论与学习</td>
       <td>中，作为信息接收与反馈者，对生态影响间接</td>
     </tr>
-
   </tbody>
 </table>
-
 
 ---
 
 > 接下来是逐渐建立虚拟Agents的人格特征、认知结构、行为模式的过程
-<!-- 六张图展示：每行两张图 -->
-<div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin:20px 0; padding:10px; border-radius:15px; background:#f9f9f9; box-shadow:0 6px 20px rgba(0,0,0,0.1);">
 
-  <!-- 第一行 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step2/agent1.png"
-         alt="Agent Personality Step 1"
-         style="width:100%; height:200px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 11a:</strong> Agent 人格构建初始阶段 — 基础属性定义。
-    </p>
-  </div>
+| ![Agent Personality Step 1](assets/2_canyon/step2/agent1.png) | ![Agent Personality Step 2](assets/2_canyon/step2/agent2.png) |
+|:--:|:--:|
+| **Figure 11a:** Agent 人格构建初始阶段 — 基础属性定义。 | **Figure 11b:** Agent 人格扩展阶段 — 添加偏好与行为倾向。 |
 
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step2/agent2.png"
-         alt="Agent Personality Step 2"
-         style="width:100%; height:200px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 11b:</strong> Agent 人格扩展阶段 — 添加偏好与行为倾向。
-    </p>
-  </div>
+| ![Agent Personality Step 3](assets/2_canyon/step2/agent3.png) | ![Agent Personality Step 4](assets/2_canyon/step2/agent4.png) |
+|:--:|:--:|
+| **Figure 11c:** Agent 人格优化阶段 — 调整认知策略与交互方式。 | **Figure 11d:** Agent 人格完成阶段 — 完整认知与行为模式建立。 |
 
-  <!-- 第二行 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step2/agent3.png"
-         alt="Agent Personality Step 3"
-         style="width:100%; height:200px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 11c:</strong> Agent 人格优化阶段 — 调整认知策略与交互方式。
-    </p>
-  </div>
+| ![Agent Character Config](assets/2_canyon/step2/agent_char1.png) | ![Agent Character Lookup](assets/2_canyon/step2/agent_char2.png) |
+|:--:|:--:|
+| **Figure 11e:** Agent 人格配置 — 属性与偏好设定。 | **Figure 11f:** Agent 人格查阅 — 查看各个 Agent 的认知与行为特征。 |
 
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step2/agent4.png"
-         alt="Agent Personality Step 4"
-         style="width:100%; height:200px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 11d:</strong> Agent 人格完成阶段 — 完整认知与行为模式建立。
-    </p>
-  </div>
 
-  <!-- 第三行 -->
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step2/agent_char1.png"
-         alt="Agent Character Config"
-         style="width:100%; height:200px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 11e:</strong> Agent 人格配置 — 属性与偏好设定。
-    </p>
-  </div>
-  <div style="flex:0 0 45%; text-align:center;">
-    <img src="assets/2_canyon/step2/agent_char2.png"
-         alt="Agent Character Lookup"
-         style="width:100%; height:200px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
-    <p style="font-size:12px; color:#555; margin-top:4px;">
-      <strong>Figure 11f:</strong> Agent 人格查阅 — 查看各个 Agent 的认知与行为特征。
-    </p>
-  </div>
-</div>
 
 #### Step 3: 模拟虚拟环境 & 仿生交流
 在 Canyon 数智孪生世界中，系统模拟现实舆情的发展过程，同时注入环境因子引导信息流和舆论走向，力求还原真实场景中的信息传播路径和舆论场动态。该步骤不仅考虑现实事件因素，还对舆情的演化、热点聚集和信息扩散规律进行建模，为后续趋势分析提供可靠基础。
