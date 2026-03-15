@@ -284,10 +284,10 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     <!-- 右列：文字（保持原样） -->
     <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
       <strong>初步深度搜索量化指标</strong><br><br>
-      Deepsearch保证高置信度与支持率、标签命中：<br>
+      Deepsearch高置信度与支持率、标签命中：<br>
       <ul style="margin-top:6px;">
         <li>LLMs分析总结tags, 辅助标签准确命中</li>
-        <li>通过动态阈值，避免搜索的时间过长、置信度过低问题</li>
+        <li>动态阈值，避免搜索时间长、置信度低问题</li>
         <li><strong>置信度判断标准：</strong> 判断内容是否含有多元化资料支持？</li>
       </ul>
       <strong>Figure 5:</strong> 深度搜索量化结果 — 定制 "时效性、严格阈值控制、搜索源"
@@ -629,13 +629,13 @@ _953
 
 | 分析维度 | Academic / GraphRAG 简约版 | Social Media / B站舆论 简约版 |
 |---|---|---|
-| **研究主题** | **[GraphRAG 技术演进]**<br>知识图谱（Knowledge Graph）与大语言模型（LLM）的深度融合路径，探索复杂知识推理、多跳检索与可解释 AI 的产业化落地。 | **[清雨 Tpor 毁号事件]**<br>虚拟财产损失引发的社交平台治理问题，以及舆论传播机制与平台责任边界的讨论。 |
+| **研究主题** | **[GraphRAG 技术演进]**<br>Knowledge Graph 与 LLM 的深度融合路径，探索复杂知识推理、多跳检索与可解释 AI 产业化落地。 | **[清雨 Tpor 毁号事件]**<br>虚拟财产损失引发的社交平台治理问题，舆论传播机制与平台责任边界的讨论。 |
 | **核心问题** | 如何通过 GraphRAG 架构实现结构化知识检索、多跳推理与推理可解释性，从而提升 LLM 在专业领域的决策辅助能力。 | 虚拟账号与数字资产的法律属性、主播行为规范以及平台治理责任如何界定。 |
 | **当前阶段** | 技术成熟度处于 **TRL 5–6 → TRL 6–7** 的过渡阶段，正从实验室验证逐步迈向企业级应用探索。 | 舆论从早期情绪化谴责逐渐转向 **制度与法律层面的深度讨论**。 |
 | **关键驱动力** | - 多模态知识整合能力提升<br>- 强化学习（RL）优化检索与推理路径<br>- 知识图谱增量更新与实时数据融合 | - 主播行为规范讨论<br>- 虚拟财产法律属性界定<br>- 平台治理责任与用户权益保护 |
-| **行业影响** | 优先在 **医疗、金融、法律** 等高知识密度领域实现应用，推动企业级知识系统与 AI 决策辅助平台的发展。 | 推动平台更新 **直播行为规范**，建立虚拟资产纠纷处理机制，并强化用户权益保护。 |
+| **行业影响** | 优先在 **医疗、金融、法律** 等高知识密度领域实现应用，推动企业级知识系统与 AI 决策辅助平台的发展。 | 推动平台 **直播行为规范**，建立虚拟资产纠纷处理机制，强化用户权益保护。 |
 | **典型案例** | 某头部券商利用 **GraphRAG** 构建合规审查系统，通过自动检索监管规则与历史案例，显著提升审查效率。 | **清雨 Tpor 毁号事件** 导致粉丝账号数据清零，引发千万级舆论讨论。 |
-| **长期趋势** | GraphRAG 有望成为企业级 AI 知识系统的重要基础架构，推动 LLM 向 **可解释、可验证的专业决策系统** 演进。 | 推动虚拟资产保护与平台治理制度完善，使数字平台生态向 **更规范化与制度化** 方向发展。 |
+| **长期趋势** | GraphRAG 有望成为企业级 AI 知识系统的重要基础架构，推动 LLM 向 **可解释、可验证的专业决策系统** 演进。 | 推动虚拟资产保护与平台治理制度完善，使数字平台生态 **更规范化与制度化** 方向发展。 |
 
 ---
 
@@ -654,29 +654,29 @@ _953
   <tbody>
     <!-- GraphRAG 金融案例 -->
     <tr style="border-bottom:1px solid #ccc; transition: background 0.3s;" onmouseover="this.style.background='#f0f8ff';" onmouseout="this.style.background='';">
-      <td style="padding:10px; background:#79b0f5; color:white; font-weight:bold; text-align:center;">Academic / GraphRAG 官方 V.S 真心话 (洞悉更加复杂的内心)</td>
+      <td style="padding:10px; background:#79b0f5; color:white; font-weight:bold; text-align:center;">Academic / GraphRAG 官方 V.S 真心话 (洞悉更复杂内心💗)</td>
       <td style="padding:10px; vertical-align:top;">
-        从交易所数据的专业角度看，GraphRAG在金融领域确实有实际创收案例，但主要集中在头部机构。业内态度是谨慎乐观——看好技术潜力，但对大规模商业化落地持审慎态度。例如：某头部券商使用GraphRAG优化合规审查系统，人工审查3-5天缩短为2小时，准确率从78%提升至92%，节省30%的人力成本。<br><br>
+        从交易所数据的专业角度看，GraphRAG在金融领域确实有实际创收案例，但主要集中在头部机构。业内态度是谨慎乐观——看好技术潜力，但对大规模商业化落地持审慎态度。例如：某头部券商用GraphRAG优化合规审查系统，人工审查3-5天缩短为2小时，准确率从78%提升至92%，节省30%的人力成本。<br><br>
         从我们接触的机构反馈看，专业态度分三层：1）技术团队最积极，已经在测试跨市场套利、产业链风险传导等场景；2）风控合规部门比较务实，关注准确率和可解释性，我们之前分享的那个“监管规则匹配准确率提升28%”的数据就是他们最看重的；3）业务部门相对保守，要看到明确的ROI才愿意投入。
       </td>
       <td style="padding:10px; vertical-align:top; color:#f77f00;">
-        说实话，看到这个问题我有点感慨。作为做交易所数据服务的，我们这行对新技术总是又爱又怕。<br><br>
-        <span style="color:#f77f00;">公司从去年开始就在内部测试GraphRAG，说实话直接说“创收”可能有点早，但确实看到了商业价值</span>。例如，中型券商部署后能快速识别上下游公司风险传导路径，分析师效率提升30%，这算间接创收。<br><br>
-        <span style="color:#f77f00;">上个月参加金融科技闭门会，大家普遍觉得GraphRAG还在“技术验证期”</span>，有朋友说：“这东西概念很性感，但真要放进实盘交易系统，我晚上睡不着觉。” 我担心幻觉率问题——金融领域对准确率要求太高。
+        说实话，看到这个问题我有点感慨😮‍💨。作为做交易所数据服务的，我们这行对新技术总是又爱又怕😨。<br><br>
+        <span style="color:#f77f00;">公司从去年开始就在内部测试GraphRAG，说实话直接说“创收”可能有点早，但确实看到了商业价值</span>。例如，中型券商部署后能快速识别上下游公司风险传导路径，分析师效率提升30%，这算间接创收。
+        <span style="color:#f77f00;">上个月参加金融科技闭门会，大家普遍觉得GraphRAG还在“技术验证期”</span>，有朋友说：“这东西概念很性感，但真要放进实盘交易系统，我晚上睡不着觉。” 我担心幻觉率问题——金融领域对准确率要求太高😓。
       </td>
     </tr>
     <!-- 平台监管政策 -->
     <tr style="border-bottom:1px solid #ccc; transition: background 0.3s;" onmouseover="this.style.background='#fff4e6';" onmouseout="this.style.background='';">
-      <td style="padding:10px; background:#ffad6e; color:white; font-weight:bold; text-align:center;">Social Media / B站官方 V.S 真心话 (洞悉更加复杂的内心)</td>
+      <td style="padding:10px; background:#ffad6e; color:white; font-weight:bold; text-align:center;">Social Media / B站官方 V.S 真心话 (洞悉更复杂内心💗)</td>
       <td style="padding:10px; vertical-align:top;">
         立场明确：不取消扫码上号，而是推动平台优化安全性，提升主播和用户风险意识。<br><br>
         扫码上号便利，但存在风险。因此，建议增加风险提示弹窗、建立临时授权机制、提供操作记录追溯功能。所以一刀切取消不现实，但必须规范：我们正在和几家主流平台沟通，建议他们：第一，增加扫码前的风险提示弹窗，明确告知可能的风险；第二，建立“临时授权”机制，限制扫码后的操作权限；第三，为主播提供操作记录追溯功能。
       </td>
       <td style="padding:10px; vertical-align:top; color:#ff9e3b;">
-        唉，说实话这个问题真的挺纠结的。<br><br>
-        <span style="color:#ff9e3b;">所有打赏、粉丝数据一夜清零，哭都没地方哭</span>。我们当时发声明呼吁平台明确责任，但效果有限。<br><br>
+        唉，说实话这个问题真的挺纠结的😮‍💨。
+        <span style="color:#ff9e3b;">所有打赏、粉丝数据一夜清零，哭都没地方哭</span>。我们当时发声明呼吁平台明确责任，但效果有限🏳️。<br><br>
         我认识很多小主播，刚起步就靠扫码积累粉丝。<span style="color:#ff9e3b;">小薇说靠扫码互动一个月涨五千粉，这是她吃饭的本钱啊！</span><br><br>
-        我希望平台建立完善保护机制，而不是简单取消功能，保障虚拟财产安全。
+        我希望平台建立完善保护机制，而不是简单取消，保障虚拟财产安全。
       </td>
     </tr>
   </tbody>
