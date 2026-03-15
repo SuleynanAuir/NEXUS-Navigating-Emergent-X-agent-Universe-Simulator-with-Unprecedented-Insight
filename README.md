@@ -278,13 +278,28 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
 </div>
 
 
-| ![search_result](assets/1_search/search_result.png) | **初步深度搜索量化指标**<br><br>
-深度搜索Agents (deepsearch) 及量化验证，保证高质量（置信度）与高相关性（高支持率 / 高标签命中率）指标包括：<br>
-- LLMs分析总结出 tags & labels, 辅助标签命中  
-- 通过动态阈值，避免搜索事件过长，以及置信度过低问题  
-- **置信度判断标准：** 对于内容深入分析，判断内容含有否有其他多元化资料支持？<br><br>
-**Figure 5:** 深度搜索量化结果 — 用户可以自定义 "时效性、关联性（通过严格阈值控制）、搜索源" 的搜索策略，获得更符合用户认知目标的搜索结果
-|
+<table>
+  <tr>
+    <!-- 左列：图片 -->
+    <td style="width:40%; vertical-align:top; padding-right:15px; text-align:center;">
+      <img src="assets/1_search/search_result.png"
+           alt="search_result"
+           style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+    </td>
+    <!-- 右列：文字 -->
+    <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
+      <strong>初步深度搜索量化指标</strong><br><br>
+      深度搜索Agents (deepsearch) 及量化验证，保证高质量（置信度）与高相关性（高支持率 / 高标签命中率）指标包括：<br>
+      <ul style="margin-top:6px;">
+        <li>LLMs分析总结出 tags & labels, 辅助标签命中</li>
+        <li>通过动态阈值，避免搜索事件过长，以及置信度过低问题</li>
+        <li><strong>置信度判断标准：</strong> 对于内容深入分析，判断内容含有否有其他多元化资料支持？</li>
+      </ul>
+      <br>
+      <strong>Figure 5:</strong> 深度搜索量化结果 — 用户可以自定义 "时效性、关联性（通过严格阈值控制）、搜索源" 的搜索策略，获得更符合用户认知目标的搜索结果
+    </td>
+  </tr>
+</table>
 
 
 
