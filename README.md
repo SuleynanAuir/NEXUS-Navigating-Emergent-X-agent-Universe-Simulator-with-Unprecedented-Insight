@@ -18,13 +18,13 @@
 
 > NEXUS 系统实现 从“信息分析” →“社会系统仿真” (融合现实世界的真实、经验证信息流)
 
-`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演框架（Multi-Agents Cognitive Simulation）。基于`用户偏好锚点`（Preference Anchors），NEXUS `主动挖掘最符合用户认知目标的深度洞察`和策略方案。系统性地整合`真正高度关联、高保真的社交舆情、政策动态与金融资讯等多源信号`，构建端到端智能分析与推演能力的simulation pipeline。通过对现实世界复杂信息环境的采集、语义理解与关联推理，构建在高维空间中`还原关键事件之间的因果脉络`，在此基础上进行`动态模拟与趋势推演`，获得更好仿真deep insight + `多方面视角洞察`, 实现jump outside of the box 的认知突破：
+`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演框架（Multi-Agents Cognitive Simulation）。基于`用户偏好锚点`（Preference Anchors），NEXUS `主动挖掘最符合用户认知目标的深度洞察`和策略方案。系统性地整合`真正高度关联、高保真的社交舆情、政策动态与金融资讯等多源信号`，构建端到端智能分析与推演能力的simulation pipeline。通过对现实世界复杂信息环境的采集、语义理解与关联推理，构建在高维空间中`还原关键事件之间的因果脉络`，+`动态模拟与趋势推演`，获得更好仿真deep insight + `多方面视角洞察`, 实现jump outside of the box 认知突破：
 
 
 
 ### 🌟 1.1 特点包括：
 
-- 🚀 <span style="color:#FF6B6B">跳出 "大众化/官话" 的限制性回答与分析</span>
+- 🚀 <span style="text-decoration: underline;">跳出 "大众化/官话" 的限制性回答与分析</span>
 (基于用户个人真正关注的认知突破)
     - 深度搜索<u>用户真正关心</u>的内容，NO <del>"大众化信息"</del> 🙅
     - 信息源精筛与深度关联，NO <del>"泛泛而谈分析"</del> 🙅
