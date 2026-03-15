@@ -10,6 +10,33 @@
   <span style="font-size:20px; color:#2a9d8f; font-weight:bold;">月落星沉自有时 🌌</span>
 </p>
 
+<div align="center" style="margin:40px 0;">
+  <!-- 图片 -->
+  <img src="assets/highlight.png"
+       alt="Highlight Interface"
+       style="width:75%; max-width:900px; border-radius:12px; 
+       box-shadow:0 8px 22px rgba(0,0,0,0.18);" />
+  <br><br>
+  <!-- 按钮 -->
+  <a href="#step-1-构建信息先验">
+    <button style="
+      background:linear-gradient(90deg,#ff7a18,#ffb347);
+      color:white;
+      border:none;
+      padding:12px 22px;
+      font-size:15px;
+      font-weight:600;
+      border-radius:10px;
+      cursor:pointer;
+      box-shadow:0 6px 16px rgba(0,0,0,0.18);
+      transition:all 0.25s ease;
+    ">
+      🔍 View Highlight Detail
+    </button>
+  </a>
+</div>
+
+
 ## 📊 1. Preview
 
 > NEXUS 系统实现 从“信息分析” →“社会系统仿真” (融合现实世界的真实、经验证信息流)
@@ -94,25 +121,28 @@ So，`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演�
 - 🔮 **前沿趋势预判**：基于历史数据与实时信息流，<u>精准捕捉新兴技术、市场机会与研究热点的萌芽</u>
 
 
-<div style="text-align:center; margin:30px 0;">
+<div align="center" style="margin:40px 0;">
   <!-- 图片 -->
   <img src="assets/highlight.png"
        alt="Highlight Interface"
-       style="width:70%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+       style="width:75%; max-width:900px; border-radius:12px; 
+       box-shadow:0 8px 22px rgba(0,0,0,0.18);" />
   <br><br>
   <!-- 按钮 -->
   <a href="#step-1-构建信息先验">
     <button style="
-      background:linear-gradient(90deg,#2b7de9,#6a5acd);
+      background:linear-gradient(90deg,#ff7a18,#ffb347);
       color:white;
       border:none;
-      padding:10px 18px;
-      font-size:14px;
-      border-radius:8px;
+      padding:12px 22px;
+      font-size:15px;
+      font-weight:600;
+      border-radius:10px;
       cursor:pointer;
-      box-shadow:0 4px 10px rgba(0,0,0,0.15);
+      box-shadow:0 6px 16px rgba(0,0,0,0.18);
+      transition:all 0.25s ease;
     ">
-      🔎 High Light Detail
+      🔍 View Highlight Detail
     </button>
   </a>
 </div>
