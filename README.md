@@ -381,11 +381,11 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
   <!-- 图片行 -->
   <div style="display:flex; justify-content:center; gap:12px;">
     <img src="assets/1_search/generate_report.png"
-         alt="Generate Report Interface"
-         style="max-height:400px; width:auto; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+         alt="Report Generation Interface"
+         style="width:48%; max-height:400px; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
     <img src="assets/1_search/generate_report_result.png"
-         alt="Generate Report Result"
-         style="max-height:400px; width:auto; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
+         alt="Generated Report Result"
+         style="width:48%; max-height:400px; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
   </div>
   <!-- 图名 -->
   <p style="font-size:12px; color:#555; margin-top:6px;">
@@ -393,6 +393,9 @@ Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证
     Generated Report Result (right) — Structured Summary & Insights
   </p>
 </div>
+
+
+
 
 
 #### 4.3.3 子模块三：Structured Knowledge Output
