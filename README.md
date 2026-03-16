@@ -5,34 +5,62 @@
 </p>
 
 <p align="center">
-  <span style="font-size:20px; color:#e63946;">🌙✨</span>
-  <span style="font-size:20px; color:#f77f00; font-weight:bold;">棋局未展先知手</span><br>
-  <span style="font-size:20px; color:#2a9d8f; font-weight:bold;">月落星沉自有时 🌌</span>
+  <!-- 诗歌部分：使用 flex 布局使三行紧凑且美观，表情与文字融合 -->
+  <span style="display:inline-flex; flex-wrap:wrap; justify-content:center; gap:0 0.5rem; font-size:1.8rem; line-height:1.4; background:linear-gradient(145deg, #fef9f0, #fff); padding:1.2rem 2rem; border-radius:50px; box-shadow:0 8px 20px rgba(0,0,0,0.05);">
+    <span style="color:#e63946;">🌙✨</span>
+    <span style="color:#f77f00; font-weight:600; white-space:nowrap;">棋局未展先知手</span>
+    <span style="color:#2a9d8f; font-weight:600; white-space:nowrap;">月落星沉自有时 🌌</span>
+  </span>
 </p>
 
-<div align="center" style="margin:40px 0;">
-  <!-- 图片 -->
+
+<p align="center">
+  <!-- 图片：固定宽度 1000 确保清晰，同时添加圆角与阴影，max-width 适配移动端 -->
+  <img src="assets/framework.png" 
+       alt="NEXUS Framework" 
+       width="1000"
+       style="max-width:100%; height:auto; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,0.15);">
+</p>
+<p align="center">
+  <!-- 描述：用卡片式背景突出关键信息，关键词加粗 -->
+  <span style="display:inline-block; background:#f8fafc; padding:1rem 2.2rem; border-radius:60px; font-size:1.2rem; color:#1e293b; border:1px solid #e2e8f0; box-shadow:0 4px 10px rgba(0,0,0,0.03);">
+    <b>NEXUS Framework:</b> 由领域适配微调模型、客制化深度搜索 Agents、用户注意力驱动 Agents、数智孪生世界 Canyon 组成，<span style="background:#fee2e2; color:#b91c1c; padding:0.2rem 0.6rem; border-radius:40px; font-weight:600; margin-left:0.3rem;">NEXUS Say NO! to "官味" 文章</span>。
+  </span>
+</p>
+
+
+<div align="center">
+  <!-- 
+    图片清晰度提示：
+    - 为保证清晰，请使用宽度至少 1800px 的高分辨率图片（适配 2 倍屏）。
+    - 此处设置 width="900"（固定像素），同时用 max-width:100% 保证移动端不溢出。
+    - 如果原始图片宽度不足 900px，显示会模糊，请务必使用足够大的图片。
+  -->
   <img src="assets/highlight.png"
        alt="Highlight Interface"
-       style="width:75%; max-width:900px; border-radius:12px; 
-       box-shadow:0 8px 22px rgba(0,0,0,0.18);" />
+       width="900"
+       style="max-width:100%; height:auto; border-radius:12px; box-shadow:0 8px 22px rgba(0,0,0,0.18);">
   <br><br>
-  <!-- 按钮 -->
-  <a href="#step-1-构建信息先验">
-    <button style="
-      background:linear-gradient(90deg,#ff7a18,#ffb347);
-      color:white;
-      border:none;
-      padding:12px 22px;
-      font-size:15px;
-      font-weight:600;
-      border-radius:10px;
-      cursor:pointer;
-      box-shadow:0 6px 16px rgba(0,0,0,0.18);
-      transition:all 0.25s ease;
-    ">
-      🔍 View Highlight Detail
-    </button>
+  <a href="#step-1-构建信息先验"
+     style="display:inline-block;
+            background:linear-gradient(135deg, #ff7a18, #ffb347, #ffa751);
+            background-size:200% 200%;
+            color:white;
+            font-family:'Segoe UI', Roboto, system-ui, sans-serif;
+            font-weight:600;
+            font-size:1.2rem;
+            letter-spacing:0.02em;
+            padding:1rem 2.8rem;
+            border-radius:60px;
+            text-decoration:none;
+            border:none;
+            box-shadow:0 15px 25px -8px rgba(255,122,24,0.4),
+                       0 4px 8px rgba(0,0,0,0.1),
+                       inset 0 1px 2px rgba(255,255,255,0.6);
+            cursor:pointer;
+            transition:all 0.3s cubic-bezier(0.2,0.9,0.4,1);
+            background-position:0% 0%;">
+    🔍 View Highlight Detail
   </a>
 </div>
 
