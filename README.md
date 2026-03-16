@@ -1,5 +1,17 @@
 # NEXUS: Navigating  Emergent X-agent Universe Simulator with Unprecedented Insight「涌现」！从 NEXUS 开始 🚀
 
+<div align="left">
+
+  <img src="https://img.shields.io/badge/Deep%20Search-AI%20Driven-blueviolet" />
+  <img src="https://img.shields.io/badge/User%20Oriented-Attention%20First-orange" />
+  <img src="https://img.shields.io/badge/Multi%20Agents-Collaboration-red" />
+  <img src="https://img.shields.io/badge/Twin%20Worlds-Canyon%20Simulation-blue" />
+  <img src="https://img.shields.io/badge/Deep%20Insight-Cognitive%20Analysis-purple" />
+  <img src="https://img.shields.io/badge/Simulation-Information%20Dynamics-green" />
+  <img src="https://img.shields.io/badge/Reject-Template%20Answers-black" />
+
+</div>
+
 <p align="center">
   NEXUS Say NO! to "官味" 文章 / "高度重复" 内容🙅，只做你真正想要、真实的信息✅ —— 融合现实因子动态变化，利用多视角跳出条条框框，催生另辟蹊径的新Idea💥。配合提速60%的极速分析引擎，让你在30分钟内，仅消耗低成本¥2，即可获得原本数日数据收集才能挖掘的深度洞见🔍
 </p>
