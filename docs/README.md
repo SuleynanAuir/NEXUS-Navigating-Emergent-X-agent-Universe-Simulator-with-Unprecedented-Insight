@@ -15,4 +15,4 @@
 仓库已配置 `/.github/workflows/deploy-pages.yml`，推送到 `main` 后会自动部署。
 
 默认访问地址：
-- `https://SuleynanAuir.github.io/NEXUS1/`
+- `https://SuleynanAuir.github.io/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/`
