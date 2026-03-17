@@ -1,0 +1,16 @@
+name: grabnews
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - streamlit
+      - requests
+      - beautifulsoup4
+      - google-search-results
+      - python-dotenv
+      - streamlit-autorefresh
+      - yake
+      - PyYAML

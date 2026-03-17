@@ -1,0 +1,12 @@
+name: json2txt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip: []
+# 说明：
+# 1. `backend/json2txt.py` 当前必需依赖仅为 Python 标准库。
+# 2. 若启用 use_llm=True，请在该环境中手动安装你实际使用的 DeepSeek SDK。
+# 3. 仓库未固定 DeepSeek SDK 的发行包名，因此此处不预设第三方包名。

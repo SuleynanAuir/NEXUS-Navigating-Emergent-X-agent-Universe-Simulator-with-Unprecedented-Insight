@@ -1,0 +1,4 @@
+# json2txt 模块当前仅依赖 Python 标准库：json、os
+# 如需启用 use_llm=True，请额外安装你实际使用的 DeepSeek SDK。
+# 代码中的导入形式为：from deepseek import DeepSeekLLM
+# 仓库中未固定该 SDK 的 PyPI 包名，因此这里不做强绑定。
