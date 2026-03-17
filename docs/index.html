@@ -54,12 +54,15 @@
     }
     .btn.active{border-color:var(--brand2);color:#fff}
 
-    .hero{padding:62px 0 24px}
+    .hero{padding:62px 0 30px}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.95fr);gap:24px;align-items:center}
+    .hero-copy{min-width:0}
     .badge{
       display:inline-block;padding:6px 10px;border-radius:999px;
       border:1px solid rgba(94,234,212,.35);background:rgba(94,234,212,.12);
       color:var(--brand);font-size:12px;font-weight:700;
     }
+    .hero-kicker{margin:14px 0 0;color:#8fdcff;font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
     h1{
       margin:14px 0 12px;
       font-size:clamp(30px,5vw,58px);
@@ -67,6 +70,16 @@
       letter-spacing:-.02em;
     }
     .lead{max-width:920px;color:var(--muted);font-size:18px}
+    .motto{
+      margin:18px 0 0;padding:14px 16px;border-radius:16px;
+      border:1px solid rgba(255,255,255,.08);
+      background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));
+      display:inline-block;
+      box-shadow:0 10px 30px rgba(0,0,0,.18);
+    }
+    .motto .moon{font-size:20px;color:#e63946}
+    .motto .line1{font-size:20px;color:#f77f00;font-weight:800}
+    .motto .line2{font-size:20px;color:#2a9d8f;font-weight:800}
     .hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
     .hero-cta a{
       text-decoration:none;padding:11px 14px;border-radius:12px;font-weight:700;font-size:14px;
@@ -74,6 +87,18 @@
     }
     .hero-cta .primary{background:linear-gradient(90deg,var(--brand),var(--brand2));color:#031022;border:none}
     .hero-cta .ghost{color:#d8e3ff;background:rgba(96,165,250,.08)}
+    .hero-stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .hero-stats .pill{background:rgba(14,22,50,.88);color:#dbe6ff}
+    .hero-visual{
+      background:linear-gradient(180deg,rgba(96,165,250,.12),rgba(167,139,250,.08));
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:22px;padding:16px;
+      box-shadow:0 18px 50px rgba(0,0,0,.28);
+    }
+    .hero-visual img{width:100%;display:block;border-radius:16px;border:1px solid var(--line)}
+    .visual-caption{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-top:12px;flex-wrap:wrap}
+    .visual-caption strong{font-size:15px}
+    .visual-caption span{font-size:13px;color:var(--muted)}
 
     section{padding:28px 0}
     .sec-title{font-size:30px;margin:0 0 8px}
@@ -86,6 +111,17 @@
     }
     .card h3{margin:0 0 8px;font-size:16px}
     .card p{margin:0;color:var(--muted);font-size:14px}
+    .card ul{margin:10px 0 0 18px;padding:0;color:var(--muted);font-size:14px}
+    .card li{margin:6px 0}
+    .card a{color:#91d3ff;text-decoration:none}
+    .card a:hover{text-decoration:underline}
+    .card .eyebrow{display:inline-block;margin-bottom:10px;padding:4px 8px;border-radius:999px;background:rgba(94,234,212,.1);border:1px solid rgba(94,234,212,.25);color:#91fff0;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+    .card-spotlight{padding:18px;min-height:100%}
+    .card-spotlight h3{font-size:18px;line-height:1.35}
+    .card-spotlight p{margin-top:6px}
+    .card-spotlight .quote{margin-top:10px;padding:10px 12px;border-left:3px solid var(--brand2);background:rgba(96,165,250,.08);border-radius:12px;color:#dce8ff;font-size:13px}
+    .spotlight-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+    .spotlight-grid .wide{grid-column:span 2}
 
     .arch-img{width:100%;border-radius:14px;border:1px solid var(--line);display:block}
 
@@ -127,7 +163,9 @@
     @media (max-width:780px){
       .links{display:none}
       .hero{padding-top:40px}
+      .hero-grid{grid-template-columns:1fr}
       .shot img{height:180px}
+      .spotlight-grid .wide{grid-column:span 1}
     }
   </style>
 </head>
@@ -136,7 +174,7 @@
     <div class="wrap nav-inner">
       <div class="logo">NEXUS <span>Product</span></div>
       <div class="links">
-        <a href="#value" data-i18n="navValue"></a>
+        <a href="#spotlight" data-i18n="navValue"></a>
         <a href="#architecture" data-i18n="navArch"></a>
         <a href="#workflow" data-i18n="navFlow"></a>
         <a href="#gallery" data-i18n="navGallery"></a>
@@ -150,16 +188,72 @@
   </nav>
 
   <header class="hero wrap reveal">
-    <span class="badge" data-i18n="badge"></span>
-    <h1 data-i18n="heroTitle"></h1>
-    <p class="lead" data-i18n="heroLead"></p>
-    <div class="hero-cta">
-      <a class="primary" href="https://github.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight" target="_blank" rel="noopener" data-i18n="ctaRepo"></a>
-      <a class="ghost" href="https://github.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/blob/main/README.md" target="_blank" rel="noopener" data-i18n="ctaReadme"></a>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="badge" data-i18n="badge"></span>
+        <div class="hero-kicker" data-i18n="heroKicker"></div>
+        <h1 data-i18n="heroTitle"></h1>
+        <p class="lead" data-i18n="heroLead"></p>
+        <div class="motto" data-i18n-html="heroMotto"></div>
+        <div class="hero-stats">
+          <span class="pill" data-i18n="heroStat1"></span>
+          <span class="pill" data-i18n="heroStat2"></span>
+          <span class="pill" data-i18n="heroStat3"></span>
+        </div>
+        <div class="hero-cta">
+          <a class="primary" href="https://github.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight" target="_blank" rel="noopener" data-i18n="ctaRepo"></a>
+          <a class="ghost" href="https://github.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/blob/main/README.md" target="_blank" rel="noopener" data-i18n="ctaReadme"></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/framework.png" alt="NEXUS Framework" loading="eager" />
+        <div class="visual-caption">
+          <strong data-i18n="heroVisualTitle"></strong>
+          <span data-i18n="heroVisualDesc"></span>
+        </div>
+      </div>
     </div>
   </header>
 
   <main class="wrap">
+    <section id="spotlight" class="reveal">
+      <h2 class="sec-title" data-i18n="spotlightTitle"></h2>
+      <p class="sec-sub" data-i18n="spotlightSub"></p>
+      <div class="spotlight-grid">
+        <article class="card card-spotlight">
+          <span class="eyebrow" data-i18n="sp1Tag"></span>
+          <h3 data-i18n="sp1Title"></h3>
+          <p data-i18n="sp1Desc"></p>
+          <div data-i18n-html="sp1List"></div>
+        </article>
+        <article class="card card-spotlight">
+          <span class="eyebrow" data-i18n="sp2Tag"></span>
+          <h3 data-i18n="sp2Title"></h3>
+          <p data-i18n="sp2Desc"></p>
+          <div data-i18n-html="sp2List"></div>
+        </article>
+        <article class="card card-spotlight">
+          <span class="eyebrow" data-i18n="sp3Tag"></span>
+          <h3 data-i18n="sp3Title"></h3>
+          <p data-i18n="sp3Desc"></p>
+          <div data-i18n-html="sp3List"></div>
+        </article>
+        <article class="card card-spotlight">
+          <span class="eyebrow" data-i18n="sp4Tag"></span>
+          <h3 data-i18n="sp4Title"></h3>
+          <p data-i18n="sp4Desc"></p>
+          <div data-i18n-html="sp4List"></div>
+        </article>
+        <article class="card card-spotlight wide">
+          <span class="eyebrow" data-i18n="sp5Tag"></span>
+          <h3 data-i18n="sp5Title"></h3>
+          <p data-i18n="sp5Desc"></p>
+          <div class="quote" data-i18n="sp5Quote"></div>
+          <div data-i18n-html="sp5List"></div>
+        </article>
+      </div>
+    </section>
+
     <section id="value" class="reveal">
       <h2 class="sec-title" data-i18n="valueTitle"></h2>
       <p class="sec-sub" data-i18n="valueSub"></p>
@@ -186,7 +280,7 @@
     <section id="architecture" class="reveal">
       <h2 class="sec-title" data-i18n="archTitle"></h2>
       <p class="sec-sub" data-i18n="archSub"></p>
-      <img class="arch-img" src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS1/main/assets/mermaid.png" alt="NEXUS Architecture" loading="lazy" />
+      <img class="arch-img" src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/mermaid.png" alt="NEXUS Architecture" loading="lazy" />
     </section>
 
     <section id="workflow" class="reveal">
@@ -205,19 +299,19 @@
       <p class="sec-sub" data-i18n="gallerySub"></p>
       <div class="gallery">
         <article class="shot">
-          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS1/main/assets/1_search/search_page.png" alt="Search Page" loading="lazy" />
+          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/1_search/search_page.png" alt="Search Page" loading="lazy" />
           <div class="meta"><b data-i18n="g1Title"></b><p data-i18n="g1Desc"></p></div>
         </article>
         <article class="shot">
-          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS1/main/assets/1_search/generate_report_result.png" alt="Report" loading="lazy" />
+          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/1_search/generate_report_result.png" alt="Report" loading="lazy" />
           <div class="meta"><b data-i18n="g2Title"></b><p data-i18n="g2Desc"></p></div>
         </article>
         <article class="shot">
-          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS1/main/assets/2_canyon/step3/overview.png" alt="Canyon Overview" loading="lazy" />
+          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step3/overview.png" alt="Canyon Overview" loading="lazy" />
           <div class="meta"><b data-i18n="g3Title"></b><p data-i18n="g3Desc"></p></div>
         </article>
         <article class="shot">
-          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS1/main/assets/2_canyon/step4/report/report_graphrag.png" alt="GraphRAG Report" loading="lazy" />
+          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step4/report/report_graphrag.png" alt="GraphRAG Report" loading="lazy" />
           <div class="meta"><b data-i18n="g4Title"></b><p data-i18n="g4Desc"></p></div>
         </article>
       </div>
@@ -245,16 +339,46 @@
   <script>
     const i18n = {
       zh: {
-        navValue:"产品价值", navArch:"系统架构", navFlow:"工作流", navGallery:"截图画廊", navMetrics:"性能指标",
+        navValue:"高亮亮点", navArch:"系统架构", navFlow:"工作流", navGallery:"截图画廊", navMetrics:"性能指标",
         badge:"NEXUS Product Page",
-        heroTitle:"更像产品官网的一页式 NEXUS 展示",
-        heroLead:"NEXUS 聚焦用户真实关注点，通过 Attention Anchors、深度搜索、GraphRAG 和 Canyon 数智孪生世界，完成从现实信息流到未来情境推演的端到端闭环。",
+        heroKicker:"Navigating Emergent X-agent Universe Simulator with Unprecedented Insight",
+        heroTitle:"NEXUS：从真实信息流，到可推演的未来情境",
+        heroLead:"NEXUS Say NO! to \"官味\" 文章与高度重复内容，围绕用户真正关心的焦点，融合 Attention Anchors、深度搜索、GraphRAG 与 Canyon 数智孪生世界，在更低成本下生产更深、更真、更有策略价值的洞察。",
+        heroMotto:'<span class="moon">🌙✨</span> <span class="line1">棋局未展先知手</span><br><span class="line2">月落星沉自有时 🌌</span>',
+        heroStat1:"拒绝模板答案",
+        heroStat2:"约 40%~60% 成本下降",
+        heroStat3:"30 次模拟产出高质量洞察",
+        heroVisualTitle:"NEXUS Framework",
+        heroVisualDesc:"领域精调 × 深度搜索 × 注意力驱动 × 数智孪生多智能体协同框架",
         ctaRepo:"查看 GitHub 仓库", ctaReadme:"阅读完整 README",
-        valueTitle:"核心能力", valueSub:"不做模板答案，做可推演的个性化决策洞察。",
-        f1Title:"🎯 用户独享 Cognitive Map", f1Desc:"将用户锚点注入建模链路，输出与你任务目标强相关的分析路径。",
-        f2Title:"🔍 高保真深度搜索", f2Desc:"Pressure-Driven + Iterative Reflection + Uncertainty-aware，减少冲突与幻觉。",
-        f3Title:"🌍 Canyon 数智孪生", f3Desc:"在多角色交互环境中模拟事件演化，逼近真实世界传播逻辑。",
-        f4Title:"🧠 多视角推演", f4Desc:"覆盖政策、企业、公众、专家四类主体，形成可对照策略空间。",
+        spotlightTitle:"为什么 NEXUS 更抓眼球，也更抓重点",
+        spotlightSub:"把 README 里最有攻击力的卖点，变成一眼能看懂的官网高亮模块。",
+        sp1Tag:"Break Templates",
+        sp1Title:"🚀 告别“正确废话”，NEXUS 拒绝大众模板",
+        sp1Desc:"基于用户个人真正关注的认知突破，不再输出千篇一律的泛泛分析。",
+        sp1List:'<ul><li>深度搜索 <u>用户真正关心</u> 的内容，NO <del>“大众化、泛泛而谈信息”</del> 🙅</li><li>建立 <u>“用户独享” Cognitive Map</u>，NO <del>“千人一面分析”</del></li><li>📖 <a href="https://link.springer.com/article/10.1007/s11257-024-09398-x" target="_blank" rel="noopener">Farshidi et al. (2024)</a> · <a href="https://arxiv.org/abs/1804.04266" target="_blank" rel="noopener">Nguyen et al. (2018)</a></li></ul>',
+        sp2Tag:"Source Quality",
+        sp2Title:"🔗 不依赖单一、重复数据，NEXUS 整合高质量信源",
+        sp2Desc:"深度搜索高度贴合 + 保真度的信息源，避免被通用模板和低质量重复内容带偏。",
+        sp2List:'<ul><li><u>接入 domain-specific 的微调模型</u>，NO <del>“通用 LLMs”</del> 🙅</li><li><strong>用户关注锚点驱动</strong> 的信息理解机制，NO <del>“无差别信息处理”</del></li></ul>',
+        sp3Tag:"Future Simulation",
+        sp3Title:"📈 不限于预测，NEXUS 在动态推演未来的隐藏趋势",
+        sp3Desc:"把现实动态因素放进模型里，不再依赖静态、理想化的简化假设。",
+        sp3List:'<ul><li><strong>考虑现实的、实时的真实、动态影响因子</strong> 🔥🔥，NO <del>“静态 or 理想化假设”</del> 🙅</li><li>构建 <u>高保真的数智孪生世界</u>，NO <del>“理想化假设的虚拟世界”</del> 🙅</li><li>📖 <a href="https://arxiv.org/abs/2509.25530" target="_blank" rel="noopener">Guo et al. (2025)</a> · <a href="https://arxiv.org/abs/2506.19385" target="_blank" rel="noopener">Zhu et al. (2025)</a></li></ul>',
+        sp4Tag:"Creative Insight",
+        sp4Title:"💡 不搬运常识，NEXUS 生产深度创新认知",
+        sp4Desc:"通过多视角呈现与仿生推演，支持 jump outside of the box 的认知突破。",
+        sp4List:'<ul><li><strong>眼前一亮的新 idea</strong> 🔥🔥，NO <del>“大道理的死板分析 or 老生常谈的生硬”</del> 🙅</li><li><strong>生动仿真的内心独白</strong> 🔥，NO <del>“表面化的虚情假意分析”</del> 🙅</li><li>📖 <a href="https://arxiv.org/html/2502.13925v1" target="_blank" rel="noopener">Zhong et al. (2023)</a> · <a href="https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/" target="_blank" rel="noopener">Saunders (2012)</a></li></ul>',
+        sp5Tag:"Efficiency + Coverage",
+        sp5Title:"🌟 不堆次数，NEXUS 堆视角、提速保深度",
+        sp5Desc:"在资源有限的情况下，依然快速拿到深刻洞见，并同时覆盖政策、企业、公众、研究者四类主体。",
+        sp5Quote:"这一优化不仅让高频建模成为可能，更让在资源有限的情况下，依然能快速获取深刻洞见，抢占决策先机。",
+        sp5List:'<ul><li>多视角覆盖：政府与政策制定者 ⚖️ / 企业与市场参与者 💰 / 公众与社群舆论场 🧑‍🤝‍🧑 / 研究者与专家网络 🧑‍🔬</li><li>相较原始 mirofish 架构，NEXUS 成本直降约 60%，模拟时间缩短至约 1/3</li><li>通过 <strong>背景知识先验</strong> + <strong>用户关注锚点聚焦机制</strong> + 优化人格设定，显著降低推理令牌消耗</li><li><strong>智能加速配置</strong>：单次模拟成本从 $5 降至 <strong>$2~3</strong>，降幅约 <strong>40%~60%</strong></li><li><strong>超快深度分析</strong>：仅需 <strong>30 次模拟</strong> 即可获得高质量洞察，总时长由 <strong>50 分钟</strong> 缩短至 <strong>18~20 分钟</strong></li></ul>',
+        valueTitle:"多面未来角色覆盖", valueSub:"不只一个视角，NEXUS 把不同立场、不同利益结构的认知反应一起放进模拟里。",
+        f1Title:"⚖️ 政府与政策制定者", f1Desc:"用于政策制定、监管机构与智库推演，观察制度变化的连锁效应。",
+        f2Title:"💰 企业与市场参与者", f2Desc:"服务投资机构、企业与商业分析场景，预判竞争动作与市场回响。",
+        f3Title:"🧑‍🤝‍🧑 公众与社群舆论场", f3Desc:"模拟 KOL、社媒用户、NGO 与情绪传播节点，评估舆情放大路径。",
+        f4Title:"🧑‍🔬 研究者与专家网络", f4Desc:"让研究者、行业专家与独立分析者进入同一知识与推演空间。",
         archTitle:"系统架构总览", archSub:"对应 README 的核心架构图。",
         flowTitle:"五步工作流",
         s1:"Step 1：领域适配微调与先验注入，构建任务相关知识底座。",
@@ -274,16 +398,46 @@
         foot:"Built with README narrative · NEXUS © 2026"
       },
       en: {
-        navValue:"Value", navArch:"Architecture", navFlow:"Workflow", navGallery:"Gallery", navMetrics:"Metrics",
+        navValue:"Highlights", navArch:"Architecture", navFlow:"Workflow", navGallery:"Gallery", navMetrics:"Metrics",
         badge:"NEXUS Product Page",
-        heroTitle:"A Product-Like One-Page NEXUS Website",
-        heroLead:"NEXUS anchors to real user intent via Attention Anchors, Deep Search, GraphRAG, and the Canyon digital cognitive twin, forming an end-to-end loop from real-world streams to future scenario simulation.",
+        heroKicker:"Navigating Emergent X-agent Universe Simulator with Unprecedented Insight",
+        heroTitle:"NEXUS: From Real Information Streams to Simulatable Futures",
+        heroLead:"NEXUS says no to generic, repetitive analysis. It centers real user intent, combines Attention Anchors, Deep Search, GraphRAG, and the Canyon digital cognitive twin, and produces deeper, truer, strategy-ready insight at lower cost.",
+        heroMotto:'<span class="moon">🌙✨</span> <span class="line1">Foresee the move before the board unfolds</span><br><span class="line2">When stars fade, the timing still arrives 🌌</span>',
+        heroStat1:"No template answers",
+        heroStat2:"40%~60% lower cost",
+        heroStat3:"High-quality insight in 30 runs",
+        heroVisualTitle:"NEXUS Framework",
+        heroVisualDesc:"Domain tuning × Deep Search × Attention-driven understanding × Digital twin agents",
         ctaRepo:"Open GitHub Repo", ctaReadme:"Read Full README",
-        valueTitle:"Core Capabilities", valueSub:"From generic answers to simulation-ready, personalized decision insight.",
-        f1Title:"🎯 User-Exclusive Cognitive Map", f1Desc:"Inject user anchors into modeling pipelines for highly task-aligned analysis paths.",
-        f2Title:"🔍 High-Fidelity Deep Search", f2Desc:"Pressure-Driven + Iterative Reflection + Uncertainty-aware to reduce conflicts and hallucinations.",
-        f3Title:"🌍 Canyon Digital Twin", f3Desc:"Simulates event evolution in multi-role interactions, closer to real-world dynamics.",
-        f4Title:"🧠 Multi-View Reasoning", f4Desc:"Covers policy, enterprise, public, and experts for comparative strategy space.",
+        spotlightTitle:"Why NEXUS Looks Sharper — and Thinks Deeper",
+        spotlightSub:"The most attention-grabbing claims from the README, reworked into a product-page narrative.",
+        sp1Tag:"Break Templates",
+        sp1Title:"🚀 Goodbye to generic correctness — NEXUS rejects mass-produced narratives",
+        sp1Desc:"Built around the user's real concerns, instead of producing broad and interchangeable summaries.",
+        sp1List:'<ul><li>Deep-searches what the user <u>actually cares about</u>, not broad generic information.</li><li>Builds a <u>user-exclusive Cognitive Map</u> instead of one-size-fits-all analysis.</li><li>📖 <a href="https://link.springer.com/article/10.1007/s11257-024-09398-x" target="_blank" rel="noopener">Farshidi et al. (2024)</a> · <a href="https://arxiv.org/abs/1804.04266" target="_blank" rel="noopener">Nguyen et al. (2018)</a></li></ul>',
+        sp2Tag:"Source Quality",
+        sp2Title:"🔗 NEXUS avoids single-source repetition and integrates high-quality evidence",
+        sp2Desc:"Relevance and fidelity come from stronger sources, not from repeated low-signal content.",
+        sp2List:'<ul><li>Uses <u>domain-specific tuned models</u>, not only generic LLMs.</li><li>Employs <strong>user-attention-anchor-driven</strong> understanding rather than undifferentiated processing.</li></ul>',
+        sp3Tag:"Future Simulation",
+        sp3Title:"📈 NEXUS goes beyond forecasting and simulates hidden future dynamics",
+        sp3Desc:"Reality is dynamic, so the model includes real-time factors instead of idealized static assumptions.",
+        sp3List:'<ul><li>Includes <strong>realistic, real-time, dynamic factors</strong> rather than static assumptions.</li><li>Builds a <u>high-fidelity digital twin world</u> instead of an idealized toy environment.</li><li>📖 <a href="https://arxiv.org/abs/2509.25530" target="_blank" rel="noopener">Guo et al. (2025)</a> · <a href="https://arxiv.org/abs/2506.19385" target="_blank" rel="noopener">Zhu et al. (2025)</a></li></ul>',
+        sp4Tag:"Creative Insight",
+        sp4Title:"💡 NEXUS does not recycle common sense — it produces creative cognitive insight",
+        sp4Desc:"Multi-view presentation and agent simulation help users break outside conventional frames.",
+        sp4List:'<ul><li>Produces <strong>fresh, surprising ideas</strong> rather than rigid cliché analysis.</li><li>Generates <strong>vivid simulated inner monologues</strong> rather than shallow emotional summaries.</li><li>📖 <a href="https://arxiv.org/html/2502.13925v1" target="_blank" rel="noopener">Zhong et al. (2023)</a> · <a href="https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/" target="_blank" rel="noopener">Saunders (2012)</a></li></ul>',
+        sp5Tag:"Efficiency + Coverage",
+        sp5Title:"🌟 NEXUS stacks perspectives, not just repetitions — faster while staying deep",
+        sp5Desc:"It maintains depth under limited resources while covering policy, market, public, and research perspectives together.",
+        sp5Quote:"This optimization makes high-frequency modeling practical while still delivering deep insight under limited resources.",
+        sp5List:'<ul><li>Perspective coverage: policymakers ⚖️ / markets 💰 / public communities 🧑‍🤝‍🧑 / researchers 🧑‍🔬</li><li>Compared with the earlier mirofish setup, cost drops by roughly 60% and runtime shrinks to about one-third.</li><li><strong>Background priors</strong> + <strong>attention anchors</strong> + optimized personas significantly reduce token cost.</li><li><strong>Accelerated configuration</strong>: single-run cost drops from $5 to <strong>$2~3</strong>.</li><li><strong>Fast deep analysis</strong>: high-quality insight in <strong>30 runs</strong>, with total time cut from <strong>50 minutes</strong> to <strong>18~20 minutes</strong>.</li></ul>',
+        valueTitle:"Perspective Coverage", valueSub:"NEXUS simulates not one viewpoint, but multiple stakeholders with different incentives and cognitive frames.",
+        f1Title:"⚖️ Policymakers & Regulators", f1Desc:"Useful for policy design, regulatory reasoning, and think-tank style scenario analysis.",
+        f2Title:"💰 Enterprises & Market Actors", f2Desc:"Supports investors, companies, and commercial analysts in simulating strategic reactions.",
+        f3Title:"🧑‍🤝‍🧑 Public Opinion & Communities", f3Desc:"Models KOLs, social users, NGOs, and amplification paths in public discourse.",
+        f4Title:"🧑‍🔬 Researchers & Expert Networks", f4Desc:"Places researchers and domain experts into the same simulation-ready knowledge space.",
         archTitle:"Architecture Overview", archSub:"The key architecture map adapted from README.",
         flowTitle:"Five-Step Workflow",
         s1:"Step 1: Domain-adaptive tuning and prior injection for a task-specific knowledge base.",
@@ -309,6 +463,10 @@
       document.querySelectorAll('[data-i18n]').forEach(el=>{
         const key = el.getAttribute('data-i18n');
         el.textContent = i18n[lang][key] || '';
+      });
+      document.querySelectorAll('[data-i18n-html]').forEach(el=>{
+        const key = el.getAttribute('data-i18n-html');
+        el.innerHTML = i18n[lang][key] || '';
       });
       document.getElementById('langZh').classList.toggle('active', lang==='zh');
       document.getElementById('langEn').classList.toggle('active', lang==='en');
