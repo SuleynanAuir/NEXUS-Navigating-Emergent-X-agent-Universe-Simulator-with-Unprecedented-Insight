@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NEXUS·推演即洞察</title>
+  <title>NEXUS · 推演即洞察</title>
   <meta name="description" content="NEXUS 多智能体认知推演：告别模板化分析，用注意力锚点 + 深度搜索 + 数智孪生，在真实信息流中推演未来策略。" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,6 +40,10 @@
                        radial-gradient(80% 60% at 100% 20%, rgba(123, 66, 240, 0.06) 0%, transparent 80%),
                        var(--bg);
       --gradient-card: linear-gradient(145deg, #ffffff 0%, #fafdff 100%);
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -126,7 +130,7 @@
       background: transparent;
     }
     .links a:hover {
-      background: rgba(43, 89, 255, 0.06);
+      background: rgba(43, 89, 255, 0.08);
       color: var(--brand-accent);
     }
 
@@ -139,7 +143,7 @@
       border: 1px solid var(--border-light);
       background: rgba(255,255,255,0.5);
       color: var(--text-secondary);
-      padding: 6px 12px;
+      padding: 6px 14px;
       border-radius: 32px;
       font-size: 0.8rem;
       font-weight: 600;
@@ -147,6 +151,9 @@
       backdrop-filter: blur(2px);
       transition: all 0.15s ease;
       box-shadow: var(--shadow-sm);
+      display: flex;
+      align-items: center;
+      gap: 4px;
     }
     .btn.active {
       border-color: var(--brand-accent);
@@ -157,6 +164,7 @@
     .btn:hover {
       background: white;
       border-color: var(--border-focus);
+      transform: translateY(-1px);
     }
 
     /* ----- 通用标题/卡片样式 ----- */
@@ -209,6 +217,14 @@
     .card p, .card li {
       color: var(--text-secondary);
       font-size: 0.95rem;
+    }
+    
+    .card ul {
+      margin-top: 8px;
+      margin-left: 20px;
+    }
+    .card li {
+      margin: 6px 0;
     }
 
     .eyebrow {
@@ -297,6 +313,9 @@
       font-weight: 700;
       font-size: 1rem;
       transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
     }
     .hero-cta .primary {
       background: linear-gradient(135deg, var(--brand-primary), var(--brand-accent));
@@ -368,6 +387,10 @@
       border: 1px solid white;
       box-shadow: var(--shadow-md);
       width: 100%;
+      transition: box-shadow 0.3s;
+    }
+    .arch-img:hover {
+      box-shadow: var(--shadow-lg);
     }
 
     /* 步骤手风琴 */
@@ -473,6 +496,53 @@
       .step-body { padding-left: 20px; }
     }
 
+    /* 工作流图片样式 */
+    .step-img {
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid var(--border-light);
+      box-shadow: var(--shadow-sm);
+      margin: 16px 0 8px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .step-img:hover {
+      transform: scale(1.01);
+      box-shadow: var(--shadow-md);
+    }
+    .img-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin: 16px 0;
+    }
+    .img-grid img {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid var(--border-light);
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .img-grid img:hover {
+      transform: scale(1.02);
+      box-shadow: var(--shadow-sm);
+    }
+    .report-link {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 8px 16px;
+      background: var(--brand-accent-soft);
+      border-radius: 40px;
+      color: var(--brand-accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      border: 1px solid var(--border-focus);
+    }
+    .report-link:hover {
+      background: white;
+    }
+
     /* 画廊 */
     .gallery {
       display: grid;
@@ -522,6 +592,22 @@
       font-size: 0.9rem;
       border-top: 1px solid var(--border-light);
       margin-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .footer-links {
+      display: flex;
+      gap: 20px;
+    }
+    .footer-links a {
+      color: var(--text-tertiary);
+      text-decoration: none;
+    }
+    .footer-links a:hover {
+      color: var(--brand-accent);
     }
 
     /* 揭示动画 */
@@ -562,6 +648,8 @@
       border: none;
       font-size: 1rem;
       padding: 12px 24px;
+      border-radius: 40px;
+      font-weight: 600;
     }
 
     /* 移动端优化 */
@@ -571,6 +659,7 @@
       .hero-grid { grid-template-columns: 1fr; }
       h1 { font-size: 2.8rem; }
       .sec-title { font-size: 2.4rem; }
+      footer { flex-direction: column; align-items: flex-start; }
     }
   </style>
 </head>
@@ -586,8 +675,8 @@
         <a href="#metrics" data-i18n="navMetrics"></a>
       </div>
       <div class="controls">
-        <button class="btn active" id="langZh">中</button>
-        <button class="btn" id="langEn">EN</button>
+        <button class="btn active" id="langZh">🇨🇳 中</button>
+        <button class="btn" id="langEn">🇬🇧 EN</button>
       </div>
     </div>
   </nav>
@@ -663,7 +752,7 @@
     <section id="value" class="reveal">
       <h2 class="sec-title" data-i18n="valueTitle"></h2>
       <p class="sec-sub" data-i18n="valueSub"></p>
-      <div class="grid">
+      <div class="grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px;">
         <article class="card"><h3 data-i18n="f1Title"></h3><p data-i18n="f1Desc"></p></article>
         <article class="card"><h3 data-i18n="f2Title"></h3><p data-i18n="f2Desc"></p></article>
         <article class="card"><h3 data-i18n="f3Title"></h3><p data-i18n="f3Desc"></p></article>
@@ -682,6 +771,7 @@
       <p class="sec-sub" data-i18n="flowSub"></p>
       <div class="steps">
 
+        <!-- 步骤1: 领域适配微调 -->
         <details class="step-card">
           <summary>
             <div class="step-num">01</div>
@@ -691,9 +781,14 @@
             </div>
             <span class="step-chevron">›</span>
           </summary>
-          <div class="step-body" data-i18n-html="s1Body"></div>
+          <div class="step-body">
+            <!-- 嵌入图片: GraphRAG构建过程 (overview2.png) -->
+            <img class="step-img" src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step1/overview2.png" alt="GraphRAG构建: 235个实体, 273个关系" loading="lazy">
+            <div data-i18n-html="s1Body"></div>
+          </div>
         </details>
 
+        <!-- 步骤2: 客制化深度搜索 -->
         <details class="step-card">
           <summary>
             <div class="step-num">02</div>
@@ -703,9 +798,14 @@
             </div>
             <span class="step-chevron">›</span>
           </summary>
-          <div class="step-body" data-i18n-html="s2Body"></div>
+          <div class="step-body">
+            <!-- 嵌入图片: 深度搜索结果量化验证 (search_result.png) -->
+            <img class="step-img" src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/1_search/search_result.png" alt="深度搜索结果量化验证" loading="lazy">
+            <div data-i18n-html="s2Body"></div>
+          </div>
         </details>
 
+        <!-- 步骤3: 用户注意力驱动 -->
         <details class="step-card">
           <summary>
             <div class="step-num">03</div>
@@ -715,9 +815,14 @@
             </div>
             <span class="step-chevron">›</span>
           </summary>
-          <div class="step-body" data-i18n-html="s3Body"></div>
+          <div class="step-body">
+            <!-- 嵌入图片: search_detail_graphrag.png (注意力驱动细节) -->
+            <img class="step-img" src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/1_search/search_detail_graphrag.png" alt="注意力驱动 - GraphRAG 搜索细节" loading="lazy">
+            <div data-i18n-html="s3Body"></div>
+          </div>
         </details>
 
+        <!-- 步骤4: Canyon 数智孪生仿真推演 -->
         <details class="step-card">
           <summary>
             <div class="step-num">04</div>
@@ -727,9 +832,18 @@
             </div>
             <span class="step-chevron">›</span>
           </summary>
-          <div class="step-body" data-i18n-html="s4Body"></div>
+          <div class="step-body">
+            <!-- 多张图片: GraphRAG总览, Agent人格配置, 虚拟对话 -->
+            <div class="img-grid">
+              <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/overview/graphrag.png" alt="GraphRAG 总览" loading="lazy">
+              <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step2/agent_char2.png" alt="Agent人格配置" loading="lazy">
+              <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step3/sim_talk2.png" alt="虚拟Agent对话" loading="lazy">
+            </div>
+            <div data-i18n-html="s4Body"></div>
+          </div>
         </details>
 
+        <!-- 步骤5: 报告生成与可追问洞察 -->
         <details class="step-card">
           <summary>
             <div class="step-num">05</div>
@@ -739,7 +853,19 @@
             </div>
             <span class="step-chevron">›</span>
           </summary>
-          <div class="step-body" data-i18n-html="s5Body"></div>
+          <div class="step-body">
+            <!-- 真心话报告图片 (两张) -->
+            <div class="img-grid">
+              <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step4/report/mindset_graphrag1.png" alt="真心话报告 GraphRAG" loading="lazy">
+              <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step4/report/mindset_qingyu1.png" alt="真心话报告 青雨" loading="lazy">
+            </div>
+            <!-- 附加两个访谈报告链接 (md文件) -->
+            <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:12px;">
+              <a class="report-link" href="https://github.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/blob/main/assets/ans_report_interview/ansInterview_GraphRAG.md" target="_blank" rel="noopener">📄 GraphRAG 访谈报告 (Markdown)</a>
+              <a class="report-link" href="https://github.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/blob/main/assets/ans_report_interview/ansInterview_Tpor.md" target="_blank" rel="noopener">📄 Tpor 访谈报告 (Markdown)</a>
+            </div>
+            <div data-i18n-html="s5Body"></div>
+          </div>
         </details>
 
       </div>
@@ -767,6 +893,11 @@
 
     <footer class="reveal">
       <span data-i18n="foot"></span>
+      <div class="footer-links">
+        <a href="https://github.com/SuleynanAuir" target="_blank" rel="noopener">GitHub</a>
+        <a href="#">产品文档</a>
+        <a href="#">社区</a>
+      </div>
     </footer>
   </main>
 
@@ -777,7 +908,7 @@
 
   <script>
     (function() {
-      // ----- 国际化文案 (优化版：更锋利、更用户导向) -----
+      // ----- 国际化文案 (优化版：更锋利、更用户导向，修复emoji乱码) -----
       const i18n = {
         zh: {
           navValue:"破局点", navArch:"架构", navFlow:"工作流", navGallery:"实况", navMetrics:"效率",
@@ -793,23 +924,23 @@
           heroVisualDesc:"领域调优 × 深度搜索 × 注意力锚点 × 多智能体推演",
           ctaRepo:"⚡ 查看 GitHub 仓库", ctaReadme:"📘 阅读完整 README",
           spotlightTitle:"为什么 NEXUS 让你看得更深、更准",
-          spotlightSub:"告别"正确废话"与平庸报告——每一个卖点都精准直击真实痛点。",
+          spotlightSub:"告别“正确废话”与平庸报告——每一个卖点都精准直击真实痛点。",
           sp1Tag:"反模板",
-          sp1Title:"🚀 彻底告别"正确废话"",
+          sp1Title:"🚀 彻底告别“正确废话”",
           sp1Desc:"围绕你个人真正关注的认知突破，生成只属于你的洞察地图——而非千篇一律的摘要。",
-          sp1List:'<ul><li>深度搜索你<u>真正关心的内容</u>，主动过滤"大众化泛泛信息" 🙅</li><li>构建<u>用户独享 Cognitive Map</u>，拒绝千人一面的分析模式</li><li>📖 <a href="https://link.springer.com/article/10.1007/s11257-024-09398-x" target="_blank" rel="noopener">Farshidi et al. (2024)</a> · <a href="https://arxiv.org/abs/1804.04266" target="_blank" rel="noopener">Nguyen et al. (2018)</a></li></ul>',
+          sp1List:'<ul><li>深度搜索你<u>真正关心的内容</u>，主动过滤“大众化泛泛信息” 🙅</li><li>构建<u>用户独享 Cognitive Map</u>，拒绝千人一面的分析模式</li><li>📖 <a href="https://link.springer.com/article/10.1007/s11257-024-09398-x" target="_blank" rel="noopener">Farshidi et al. (2024)</a> · <a href="https://arxiv.org/abs/1804.04266" target="_blank" rel="noopener">Nguyen et al. (2018)</a></li></ul>',
           sp2Tag:"信源进化",
           sp2Title:"🔗 摆脱单一、重复数据，聚合高保真信源",
           sp2Desc:"深度搜索 + 领域微调双重保障，在每条信息上确保相关性、时效性与证据质量。",
-          sp2List:'<ul><li>接入<u>领域专属微调模型</u>，NO <del>"通用LLMs模糊答案"</del> 🙅</li><li><strong>用户注意力锚点</strong>驱动信息理解机制，而非无差别信息处理</li></ul>',
+          sp2List:'<ul><li>接入<u>领域专属微调模型</u>，NO <del>“通用LLMs模糊答案”</del> 🙅</li><li><strong>用户注意力锚点</strong>驱动信息理解机制，而非无差别信息处理</li></ul>',
           sp3Tag:"动态推演",
           sp3Title:"📈 不只是预测，而是推演未来的隐藏变量",
           sp3Desc:"把现实动态因子真正融入数智孪生世界，拒绝静态理想化假设的廉价预测。",
-          sp3List:'<ul><li>考虑<strong>现实的、实时的动态影响因子</strong> 🔥🔥，NO <del>"静态or理想化假设"</del> 🙅</li><li>构建<u>高保真数智孪生世界</u>，NO <del>"理想化假设的玩具环境"</del> 🙅</li><li>📖 <a href="https://arxiv.org/abs/2509.25530" target="_blank" rel="noopener">Guo et al. (2025)</a> · <a href="https://arxiv.org/abs/2506.19385" target="_blank" rel="noopener">Zhu et al. (2025)</a></li></ul>',
+          sp3List:'<ul><li>考虑<strong>现实的、实时的动态影响因子</strong> 🔥🔥，NO <del>“静态or理想化假设”</del> 🙅</li><li>构建<u>高保真数智孪生世界</u>，NO <del>“理想化假设的玩具环境”</del> 🙅</li><li>📖 <a href="https://arxiv.org/abs/2509.25530" target="_blank" rel="noopener">Guo et al. (2025)</a> · <a href="https://arxiv.org/abs/2506.19385" target="_blank" rel="noopener">Zhu et al. (2025)</a></li></ul>',
           sp4Tag:"创意突破",
           sp4Title:"💡 拒绝搬运常识，生产超预期的深度创新认知",
           sp4Desc:"多视角呈现 + 仿生推演，帮你彻底跳出思维定势，挖掘别人看不到的洞察。",
-          sp4List:'<ul><li><strong>眼前一亮的新idea</strong> 🔥🔥，NO <del>"大道理的死板分析or老生常谈"</del> 🙅</li><li><strong>生动仿真的内心独白</strong> 🔥，NO <del>"表面化的虚情假意分析"</del> 🙅</li><li>📖 <a href="https://arxiv.org/html/2502.13925v1" target="_blank" rel="noopener">Zhong et al. (2023)</a> · <a href="https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/" target="_blank" rel="noopener">Saunders (2012)</a></li></ul>',
+          sp4List:'<ul><li><strong>眼前一亮的新idea</strong> 🔥🔥，NO <del>“大道理的死板分析or老生常谈”</del> 🙅</li><li><strong>生动仿真的内心独白</strong> 🔥，NO <del>“表面化的虚情假意分析”</del> 🙅</li><li>📖 <a href="https://arxiv.org/html/2502.13925v1" target="_blank" rel="noopener">Zhong et al. (2023)</a> · <a href="https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/" target="_blank" rel="noopener">Saunders (2012)</a></li></ul>',
           sp5Tag:"全维覆盖 · 极速",
           sp5Title:"🌟 不堆次数，堆视角——提速保深度、省成本",
           sp5Desc:"政策·企业·公众·研究者，四类主体同时推演；资源有限时依然抢占战略先机。",
@@ -818,7 +949,7 @@
           valueTitle:"多面角色 · 同一推演场", valueSub:"政府、市场、舆论、研究者——在同一模拟框架中碰撞出真实的博弈格局。",
           f1Title:"⚖️ 政府 / 智库", f1Desc:"推演政策落地的连锁效应，预判制度变化引发的社会与市场反馈。",
           f2Title:"💰 企业 / 投资者", f2Desc:"模拟竞争对手动作与市场回响，精准评估战略时机与潜在风险。",
-          f3Title:"🧑‍🤝‍�� 舆论 / KOL", f3Desc:"追踪情绪传播路径与社群放大机制，提前评估舆情爆发风险等级。",
+          f3Title:"🧑‍🤝‍🧑 舆论 / KOL", f3Desc:"追踪情绪传播路径与社群放大机制，提前评估舆情爆发风险等级。",
           f4Title:"🧑‍🔬 专家 / 研究者", f4Desc:"将专业知识注入多智能体推演空间，获得学术与实战双重视角。",
           archTitle:"体系架构 · 一目了然", archSub:"NEXUS 核心管线架构图——支撑从信息采集到未来推演的全链路逻辑。",
           flowTitle:"五步推演工作流",
@@ -831,13 +962,13 @@
           s2Body:'<p>不依赖单一来源，通过<strong>压力驱动（Pressure-Driven）段落级迭代反思搜索架构</strong>主动优化检索路径，确保信息的相关性、时效性与证据可信度。</p><ul><li><a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank" rel="noopener"><strong>UPAIRS Agents</strong></a>：压力驱动迭代反思搜索，高 Factuality 事实保真，持续反思直至结果可信</li><li><a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank" rel="noopener"><strong>CognitiveTemp-DeepSearch</strong></a>：用户可自定义搜索策略，按需客制化深度搜索能力</li><li>核心机制：段落级迭代反思 / 不确定性量化 / 智能预算分配 / 信源质量评分 / 去噪重排序</li><li>动态阈值控制，避免搜索时间过长或置信度过低的双重问题</li></ul><div class="tag-row"><span class="step-tag">深度搜索</span><span class="step-tag">迭代反思</span><span class="step-tag green">高保真洞察</span><span class="step-tag purple">用户可控</span></div>',
           s3Title:"用户注意力驱动 · 信息理解与先验生成",
           s3Sub:"Google Hypothesis 实时标注 + 四智能体链式协作，把碎片变战略",
-          s3Body:'<p>通过 Google Hypothesis 插件实时捕获用户在搜索结果中的高亮与标注（用户关注锚点），再经四个链式 Agent 协作深度分析，生成高质量系统先验供后续推演使用。</p><ul><li><strong>🤖 Agent-A（焦点-趋势信号解析师）</strong>：从用户高亮中提取趋势信号、演进脉络与关注热度</li><li><strong>🤖 Agent-B（内容-趋势证据评审师）</strong>：提炼页面内容中的技术演进证据、时间轴与关键节点</li><li><strong>🤖 Agent-C（事件-趋势关联推理师）</strong>：推断关联事件的技术扩散路径与行业采纳动态</li><li><strong>🤖 Agent-D（首席趋势战略整合师）</strong>：整合 A/B/C 输出，生成高相关性、高时效性战略报告</li><li>支持控制"分析模式"（极速 / 平衡 / 深度）与相关度阈值</li></ul><div class="tag-row"><span class="step-tag purple">注意力驱动</span><span class="step-tag">链式推理</span><span class="step-tag green">趋势战略</span><span class="step-tag">Hypothesis API</span></div>',
+          s3Body:'<p>通过 Google Hypothesis 插件实时捕获用户在搜索结果中的高亮与标注（用户关注锚点），再经四个链式 Agent 协作深度分析，生成高质量系统先验供后续推演使用。</p><ul><li><strong>🤖 Agent-A（焦点-趋势信号解析师）</strong>：从用户高亮中提取趋势信号、演进脉络与关注热度</li><li><strong>🤖 Agent-B（内容-趋势证据评审师）</strong>：提炼页面内容中的技术演进证据、时间轴与关键节点</li><li><strong>🤖 Agent-C（事件-趋势关联推理师）</strong>：推断关联事件的技术扩散路径与行业采纳动态</li><li><strong>🤖 Agent-D（首席趋势战略整合师）</strong>：整合 A/B/C 输出，生成高相关性、高时效性战略报告</li><li>支持控制“分析模式”（极速 / 平衡 / 深度）与相关度阈值</li></ul><div class="tag-row"><span class="step-tag purple">注意力驱动</span><span class="step-tag">链式推理</span><span class="step-tag green">趋势战略</span><span class="step-tag">Hypothesis API</span></div>',
           s4Title:"Canyon 数智孪生 · 多智能体仿真推演",
           s4Sub:"GraphRAG 知识图谱 + 高保真虚拟世界，模拟真实舆情与事件演化",
           s4Body:'<p>基于前三步产出的高质量先验，初始化高保真虚拟世界 Canyon，生成具有独特认知结构的多个虚拟 Agent，模拟现实事件在不同利益主体下的传播与反应。</p><ul><li><strong>信息先验构建</strong>：融合用户锚点，通过 <a href="https://github.com/microsoft/graphrag" target="_blank" rel="noopener">GraphRAG</a> 提取实体与关系，构建可推理知识图谱，引入自环关系与多维联系</li><li><strong>虚拟 Agent 建模</strong>：每个 Agent 拥有独特的知识库、认知倾向、行为模式与影响力权重（年龄、职业、决策风格、风险偏好等）</li><li><strong>现实舆情复现</strong>：注入环境因子引导舆情走向，动态模拟信息传播路径与热点聚集规律</li><li><strong>多轮迭代仿真</strong>：支持 30+ 轮多智能体交互，生成事件爆发态势报告与关键节点分析</li><li><strong>仿真访谈（Face2Face-Talk）</strong>：与虚拟 Agent 进行深度对话，洞悉个体决策逻辑与内心关注</li></ul><div class="tag-row"><span class="step-tag green">数智孪生</span><span class="step-tag">GraphRAG</span><span class="step-tag purple">舆情推演</span><span class="step-tag">仿真访谈</span></div>',
           s5Title:"报告生成 · 可追问的深度洞察交付",
           s5Sub:"结构化输出 + 交互式解读，让每一份报告都能被追问与复盘",
-          s5Body:'<p>仿真完成后，系统输出多维度结构化报告，并支持用户与报告及虚拟 Agent 进行深度追问交互，确保洞察可理解、可验证、可用于决策。</p><ul><li><strong>多维结构化报告</strong>：研究主题 / 核心问题 / 发展阶段 / 关键驱动力 / 行业影响 / 长期趋势对比分析</li><li><strong>官方版 vs. 真心话</strong>：通过"内心独白"机制，揭示虚拟 Agent 对外表态与真实认知之间的差异</li><li><strong>Entity &amp; Question Level Insight</strong>：分别从实体层和问题层深度挖掘学术与舆论场景中的洞察</li><li><strong>交互式追问</strong>：用户可对任意分析结论继续提问，系统结合知识图谱给出可追溯的解释链路</li><li><strong>支持跨场景对比</strong>：如学术 GraphRAG 场景 vs. 社交舆论场景的认知差异可视化</li></ul><div class="tag-row"><span class="step-tag green">结构化报告</span><span class="step-tag">可追问交互</span><span class="step-tag purple">深度洞察</span><span class="step-tag">决策支持</span></div>',
+          s5Body:'<p>仿真完成后，系统输出多维度结构化报告，并支持用户与报告及虚拟 Agent 进行深度追问交互，确保洞察可理解、可验证、可用于决策。</p><ul><li><strong>多维结构化报告</strong>：研究主题 / 核心问题 / 发展阶段 / 关键驱动力 / 行业影响 / 长期趋势对比分析</li><li><strong>官方版 vs. 真心话</strong>：通过“内心独白”机制，揭示虚拟 Agent 对外表态与真实认知之间的差异</li><li><strong>Entity &amp; Question Level Insight</strong>：分别从实体层和问题层深度挖掘学术与舆论场景中的洞察</li><li><strong>交互式追问</strong>：用户可对任意分析结论继续提问，系统结合知识图谱给出可追溯的解释链路</li><li><strong>支持跨场景对比</strong>：如学术 GraphRAG 场景 vs. 社交舆论场景的认知差异可视化</li></ul><div class="tag-row"><span class="step-tag green">结构化报告</span><span class="step-tag">可追问交互</span><span class="step-tag purple">深度洞察</span><span class="step-tag">决策支持</span></div>',
           galleryTitle:"模块实况 · 所见即所得", gallerySub:"点击截图放大预览，感受真实推演界面。",
           g1Title:"⚙️ 深度搜索配置", g1Desc:"精细控制检索策略与信源质量。",
           g2Title:"📄 结构化报告", g2Desc:"多智能体协作摘要输出。",
@@ -855,7 +986,7 @@
           heroKicker:"Navigating Emergent X-agent Universe Simulator with Unprecedented Insight",
           heroTitle:"NEXUS: From Information Streams to Simulatable Futures",
           heroLead:"No generic templates, no shallow summaries. Anchored to your real concerns — Deep Search + GraphRAG + Canyon digital twin simulate hidden strategies and future dynamics at 40–60% lower cost.",
-          heroMotto:'<span class="moon">��✨</span> <span class="line1">Foresee the move before the board unfolds</span><br><span class="line2">When stars fade, the timing still arrives 🌌</span>',
+          heroMotto:'<span class="moon">🌙✨</span> <span class="line1">Foresee the move before the board unfolds</span><br><span class="line2">When stars fade, the timing still arrives 🌌</span>',
           heroStat1:"✗ Zero boilerplate answers",
           heroStat2:"⬇ 40%–60% lower cost",
           heroStat3:"⚡ 30 runs → 18 min deep insight",
@@ -884,7 +1015,7 @@
           sp5Title:"🌟 Stack perspectives, not repetitions — faster, deeper, cheaper",
           sp5Desc:"Policy, enterprise, public opinion, researchers — all four stakeholder groups simulated simultaneously; strategic advantage even under resource constraints.",
           sp5Quote:"This optimization makes high-frequency modeling practical: ~60% cost reduction, runtime cut by two-thirds — without sacrificing analytical depth.",
-          sp5List:'<ul><li>Full stakeholder coverage: policy/gov ⚖️ / enterprise/market 💰 / public/community 🧑‍🤝‍🧑 / research/expert 🧑‍��</li><li>vs. original mirofish architecture: cost down ~60%, runtime compressed to 1/3</li><li>Deep fusion of <strong>domain background priors</strong> + <strong>user attention-anchor focusing</strong> slashes token consumption</li><li><strong>Accelerated configuration</strong>: per-run cost drops from $5 → <strong>$2–3</strong> (40–60% reduction)</li><li><strong>Ultra-fast deep analysis</strong>: just <strong>30 simulation runs</strong> for high-quality insight, total time 50 min → <strong>18–20 min</strong></li></ul>',
+          sp5List:'<ul><li>Full stakeholder coverage: policy/gov ⚖️ / enterprise/market 💰 / public/community 🧑‍🤝‍🧑 / research/expert 🧑‍🔬</li><li>vs. original mirofish architecture: cost down ~60%, runtime compressed to 1/3</li><li>Deep fusion of <strong>domain background priors</strong> + <strong>user attention-anchor focusing</strong> slashes token consumption</li><li><strong>Accelerated configuration</strong>: per-run cost drops from $5 → <strong>$2–3</strong> (40–60% reduction)</li><li><strong>Ultra-fast deep analysis</strong>: just <strong>30 simulation runs</strong> for high-quality insight, total time 50 min → <strong>18–20 min</strong></li></ul>',
           valueTitle:"Multi-Stakeholder · One Simulation Arena", valueSub:"Government, market actors, public communities, and researchers — all colliding in a single realistic simulation sandbox.",
           f1Title:"⚖️ Government / Think-tank", f1Desc:"Simulate policy ripple effects and predict institutional feedback from regulatory changes.",
           f2Title:"💰 Enterprise / Investor", f2Desc:"Model competitive moves and market responses — seize strategic timing before rivals do.",
@@ -945,14 +1076,15 @@
       }, { threshold: 0.15, rootMargin: "0px 0px -40px 0px" });
       document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-      // 灯箱
+      // 灯箱 - 支持所有 .step-img 和 .img-grid img
       const lightbox = document.getElementById('lightbox');
       const lightboxImg = document.getElementById('lightboxImg');
-      document.querySelectorAll('.shot img').forEach(img => {
-        img.addEventListener('click', () => {
-          lightboxImg.src = img.src;
-          lightbox.classList.add('on');
-        });
+      function openLightbox(src) {
+        lightboxImg.src = src;
+        lightbox.classList.add('on');
+      }
+      document.querySelectorAll('.shot img, .step-img, .img-grid img').forEach(img => {
+        img.addEventListener('click', () => openLightbox(img.src));
       });
       function closeLightbox(){ lightbox.classList.remove('on'); }
       document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
