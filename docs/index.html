@@ -1,185 +1,585 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NEXUS | Product Page</title>
-  <meta name="description" content="NEXUS 多智能体认知推演官网：用户锚点、深度搜索、Canyon 数智孪生、多视角推演。" />
+  <title>NEXUS · 推演即洞察</title>
+  <meta name="description" content="NEXUS 多智能体认知推演：告别模板化分析，用注意力锚点 + 深度搜索 + 数智孪生，在真实信息流中推演未来策略。" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
   <style>
+    /* ----- 设计令牌 & 现代化重置 ----- */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     :root {
-      --bg:#070b17;
-      --panel:#0f1630;
-      --text:#e8edff;
-      --muted:#aab5d6;
-      --line:#27345f;
-      --brand:#5eead4;
-      --brand2:#60a5fa;
-      --brand3:#a78bfa;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;
-      font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-      color:var(--text);
-      background:
-        radial-gradient(900px 500px at -10% -20%, rgba(96,165,250,.22), transparent 60%),
-        radial-gradient(1000px 700px at 110% -20%, rgba(167,139,250,.22), transparent 60%),
-        var(--bg);
-      line-height:1.65;
-    }
-    .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
-
-    .nav{
-      position:sticky;top:0;z-index:20;
-      backdrop-filter: blur(10px);
-      background:rgba(7,11,23,.72);
-      border-bottom:1px solid rgba(255,255,255,.08);
-    }
-    .nav-inner{
-      height:66px;display:flex;align-items:center;justify-content:space-between;gap:16px;
-    }
-    .logo{font-weight:800;letter-spacing:.3px}
-    .logo span{color:var(--brand)}
-    .links{display:flex;gap:16px;flex-wrap:wrap}
-    .links a{color:var(--muted);text-decoration:none;font-size:14px}
-    .links a:hover{color:#fff}
-    .controls{display:flex;gap:8px}
-    .btn{
-      border:1px solid var(--line);background:#0b1230;color:#dbe6ff;
-      padding:7px 10px;border-radius:10px;cursor:pointer;font-size:13px;font-weight:600;
-    }
-    .btn.active{border-color:var(--brand2);color:#fff}
-
-    .hero{padding:62px 0 24px}
-    .badge{
-      display:inline-block;padding:6px 10px;border-radius:999px;
-      border:1px solid rgba(94,234,212,.35);background:rgba(94,234,212,.12);
-      color:var(--brand);font-size:12px;font-weight:700;
-    }
-    h1{
-      margin:14px 0 12px;
-      font-size:clamp(30px,5vw,58px);
-      line-height:1.05;
-      letter-spacing:-.02em;
-    }
-    .lead{max-width:920px;color:var(--muted);font-size:18px}
-    .hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
-    .hero-cta a{
-      text-decoration:none;padding:11px 14px;border-radius:12px;font-weight:700;font-size:14px;
-      border:1px solid var(--line);
-    }
-    .hero-cta .primary{background:linear-gradient(90deg,var(--brand),var(--brand2));color:#031022;border:none}
-    .hero-cta .ghost{color:#d8e3ff;background:rgba(96,165,250,.08)}
-
-    section{padding:28px 0}
-    .sec-title{font-size:30px;margin:0 0 8px}
-    .sec-sub{margin:0 0 16px;color:var(--muted)}
-
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-    .card{
-      background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01));
-      border:1px solid var(--line);border-radius:16px;padding:16px;
-    }
-    .card h3{margin:0 0 8px;font-size:16px}
-    .card p{margin:0;color:var(--muted);font-size:14px}
-
-    .arch-img{width:100%;border-radius:14px;border:1px solid var(--line);display:block}
-
-    .steps{display:grid;gap:10px}
-    .step{
-      border-left:3px solid var(--brand3);
-      background:rgba(167,139,250,.12);
-      border-radius:10px;padding:10px 12px;font-size:15px;
+      --bg: #f4f7fd;
+      --bg-soft: #ffffff;
+      --surface: #ffffffcc;
+      --surface-solid: #ffffff;
+      --text-primary: #0b1b33;
+      --text-secondary: #2e405b;
+      --text-tertiary: #5d6f88;
+      --brand-primary: #0f6f6b;
+      --brand-primary-light: #d0f0ee;
+      --brand-accent: #2b59ff;
+      --brand-accent-soft: #e5ecfe;
+      --brand-purple: #7b42f0;
+      --border-light: #e0e7f0;
+      --border-focus: #b5c8ff;
+      --shadow-sm: 0 4px 12px rgba(0, 20, 40, 0.03), 0 1px 3px rgba(0, 0, 0, 0.02);
+      --shadow-md: 0 10px 28px -8px rgba(0, 35, 60, 0.12), 0 4px 12px rgba(0, 0, 0, 0.02);
+      --shadow-lg: 0 24px 48px -16px rgba(15, 111, 107, 0.25);
+      --glass-bg: rgba(255, 255, 255, 0.75);
+      --grid-color: rgba(43, 89, 255, 0.03);
+      --gradient-hero: radial-gradient(100% 50% at 0% 30%, rgba(43, 89, 255, 0.08) 0%, transparent 80%),
+                       radial-gradient(80% 60% at 100% 20%, rgba(123, 66, 240, 0.06) 0%, transparent 80%),
+                       var(--bg);
+      --gradient-card: linear-gradient(145deg, #ffffff 0%, #fafdff 100%);
     }
 
-    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
-    .shot{
-      position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--line);
-      background:#0b1228;
-      transition:transform .35s ease, box-shadow .35s ease;
+    body {
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+      background: var(--gradient-hero);
+      color: var(--text-primary);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      position: relative;
     }
-    .shot:hover{transform:translateY(-4px);box-shadow:0 14px 28px rgba(0,0,0,.28)}
-    .shot img{width:100%;height:200px;object-fit:cover;display:block}
-    .shot .meta{padding:10px 11px;background:#0d1530}
-    .shot .meta b{font-size:14px}
-    .shot .meta p{font-size:12px;color:var(--muted);margin:4px 0 0}
 
-    .metrics{display:flex;gap:10px;flex-wrap:wrap}
-    .pill{padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:#0d1634;color:var(--muted);font-size:13px}
-
-    .reveal{opacity:0;transform:translateY(18px);transition:all .75s cubic-bezier(.2,.65,.2,1)}
-    .reveal.on{opacity:1;transform:translateY(0)}
-
-    .lightbox{
-      position:fixed;inset:0;display:none;place-items:center;z-index:30;
-      background:rgba(0,0,0,.75);padding:20px;
+    /* 微网格背景 */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: 
+        radial-gradient(circle at 1px 1px, var(--grid-color) 1.2px, transparent 0);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index: -1;
     }
-    .lightbox.on{display:grid}
-    .lightbox img{max-width:min(1100px,95vw);max-height:86vh;border-radius:12px;border:1px solid #3b4f86}
-    .lightbox button{position:absolute;top:14px;right:18px}
 
-    footer{padding:34px 0 40px;color:var(--muted);font-size:13px}
+    .wrap {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
 
-    @media (max-width:780px){
-      .links{display:none}
-      .hero{padding-top:40px}
-      .shot img{height:180px}
+    /* ----- 导航栏 (更精致) ----- */
+    .nav {
+      position: sticky;
+      top: 18px;
+      z-index: 50;
+      margin-top: 18px;
+      border-radius: 60px;
+      backdrop-filter: blur(16px) saturate(180%);
+      background: var(--glass-bg);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      box-shadow: var(--shadow-sm);
+      width: fit-content;
+      max-width: 90%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0 10px;
+    }
+
+    .nav-inner {
+      height: 58px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: nowrap;
+    }
+
+    .logo {
+      font-weight: 800;
+      font-size: 1.4rem;
+      letter-spacing: -0.02em;
+      background: linear-gradient(145deg, #0b1b33, #1d3a5c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding: 0 8px;
+    }
+    .logo span {
+      background: linear-gradient(145deg, var(--brand-primary), var(--brand-accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .links {
+      display: flex;
+      gap: 6px;
+    }
+    .links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 560;
+      padding: 8px 14px;
+      border-radius: 40px;
+      transition: all 0.2s ease;
+      background: transparent;
+    }
+    .links a:hover {
+      background: rgba(43, 89, 255, 0.06);
+      color: var(--brand-accent);
+    }
+
+    .controls {
+      display: flex;
+      gap: 6px;
+      margin-left: auto;
+    }
+    .btn {
+      border: 1px solid var(--border-light);
+      background: rgba(255,255,255,0.5);
+      color: var(--text-secondary);
+      padding: 6px 12px;
+      border-radius: 32px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      backdrop-filter: blur(2px);
+      transition: all 0.15s ease;
+      box-shadow: var(--shadow-sm);
+    }
+    .btn.active {
+      border-color: var(--brand-accent);
+      color: var(--brand-accent);
+      background: white;
+      box-shadow: 0 2px 8px rgba(43,89,255,0.15);
+    }
+    .btn:hover {
+      background: white;
+      border-color: var(--border-focus);
+    }
+
+    /* ----- 通用标题/卡片样式 ----- */
+    section {
+      padding: 44px 0 32px;
+    }
+
+    .sec-title {
+      font-size: 2.8rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      background: linear-gradient(165deg, #0b1b33, #1a3857);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+    }
+
+    .sec-sub {
+      font-size: 1.2rem;
+      color: var(--text-tertiary);
+      max-width: 720px;
+      margin-bottom: 32px;
+      font-weight: 400;
+    }
+
+    .card {
+      background: var(--gradient-card);
+      border: 1px solid #ffffff;
+      border-radius: 28px;
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      backdrop-filter: blur(2px);
+      transition: all 0.3s cubic-bezier(0.2,0,0,1);
+      height: 100%;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--border-focus);
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--text-primary);
+    }
+
+    .card p, .card li {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 40px;
+      background: var(--brand-primary-light);
+      color: var(--brand-primary);
+      border: 1px solid rgba(15,111,107,0.2);
+      margin-bottom: 16px;
+    }
+
+    /* hero 区域 */
+    .hero {
+      padding-top: 40px;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.95fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .hero-kicker {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--brand-accent);
+      margin: 10px 0 8px;
+    }
+    h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      background: linear-gradient(148deg, #0b1b33 20%, #1f4172 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 10px 0 20px;
+    }
+    .lead {
+      font-size: 1.2rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+    }
+    .motto {
+      margin: 24px 0 16px;
+      padding: 18px 24px;
+      border-radius: 40px;
+      background: rgba(255,255,255,0.8);
+      border: 1px solid rgba(43,89,255,0.2);
+      box-shadow: 0 8px 22px -12px var(--brand-primary);
+      width: fit-content;
+      font-size: 1.3rem;
+      line-height: 1.4;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 24px 0 16px;
+    }
+    .pill {
+      padding: 8px 18px;
+      border-radius: 60px;
+      background: white;
+      border: 1px solid var(--border-light);
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      font-weight: 500;
+      box-shadow: var(--shadow-sm);
+    }
+    .hero-cta {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .hero-cta a {
+      text-decoration: none;
+      padding: 14px 32px;
+      border-radius: 48px;
+      font-weight: 700;
+      font-size: 1rem;
+      transition: all 0.2s ease;
+    }
+    .hero-cta .primary {
+      background: linear-gradient(135deg, var(--brand-primary), var(--brand-accent));
+      color: white;
+      box-shadow: 0 12px 28px -12px var(--brand-primary);
+      border: none;
+    }
+    .hero-cta .primary:hover {
+      transform: scale(1.02);
+      box-shadow: 0 18px 32px -10px var(--brand-accent);
+    }
+    .hero-cta .ghost {
+      background: white;
+      color: var(--brand-accent);
+      border: 1px solid var(--border-focus);
+    }
+    .hero-cta .ghost:hover {
+      background: var(--brand-accent-soft);
+    }
+
+    .hero-visual {
+      background: rgba(255,255,255,0.4);
+      border-radius: 36px;
+      padding: 14px;
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.7);
+      box-shadow: var(--shadow-lg);
+    }
+    .hero-visual img {
+      border-radius: 24px;
+      width: 100%;
+      display: block;
+      border: 1px solid white;
+    }
+    .visual-caption {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 10px 4px;
+      color: var(--text-tertiary);
+      font-size: 0.85rem;
+    }
+
+    /* spotlight 区域 (宽卡片) */
+    .spotlight-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+    .wide {
+      grid-column: span 2;
+    }
+    @media (max-width: 900px) {
+      .wide { grid-column: span 1; }
+    }
+
+    .card-spotlight .quote {
+      margin: 16px 0 10px;
+      padding: 16px 18px;
+      background: var(--brand-accent-soft);
+      border-left: 4px solid var(--brand-accent);
+      border-radius: 20px;
+      font-style: italic;
+      color: #0b2b4f;
+    }
+
+    /* 架构图 */
+    .arch-img {
+      border-radius: 28px;
+      border: 1px solid white;
+      box-shadow: var(--shadow-md);
+      width: 100%;
+    }
+
+    /* 步骤条 */
+    .steps {
+      display: grid;
+      gap: 12px;
+    }
+    .step {
+      border-left: 4px solid var(--brand-purple);
+      background: rgba(123, 66, 240, 0.04);
+      border-radius: 0 24px 24px 0;
+      padding: 18px 24px;
+      font-weight: 500;
+      color: var(--text-primary);
+      backdrop-filter: blur(2px);
+    }
+
+    /* 画廊 */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+    .shot {
+      border-radius: 24px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.6);
+      background: white;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+    }
+    .shot:hover {
+      transform: translateY(-6px) scale(1.01);
+      box-shadow: var(--shadow-lg);
+    }
+    .shot img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 1px solid var(--border-light);
+    }
+    .meta {
+      padding: 16px;
+      background: white;
+    }
+
+    /* metrics 标签组 */
+    .metrics {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .metrics .pill {
+      background: white;
+      font-size: 1rem;
+      padding: 12px 24px;
+    }
+
+    /* 页脚 */
+    footer {
+      padding: 40px 0;
+      color: var(--text-tertiary);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--border-light);
+      margin-top: 24px;
+    }
+
+    /* 揭示动画 */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: all 0.9s cubic-bezier(0.18, 0.96, 0.3, 1);
+    }
+    .reveal.on {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* lightbox */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      display: none;
+      place-items: center;
+      z-index: 100;
+      background: rgba(10, 20, 40, 0.8);
+      backdrop-filter: blur(12px);
+      padding: 32px;
+    }
+    .lightbox.on { display: grid; }
+    .lightbox img {
+      max-width: min(1200px, 90vw);
+      max-height: 85vh;
+      border-radius: 28px;
+      border: 2px solid white;
+      box-shadow: var(--shadow-lg);
+    }
+    .lightbox .btn {
+      position: absolute;
+      top: 28px;
+      right: 32px;
+      background: white;
+      border: none;
+      font-size: 1rem;
+      padding: 12px 24px;
+    }
+
+    /* 移动端优化 */
+    @media (max-width: 780px) {
+      .nav { top: 8px; margin-top: 8px; }
+      .links { display: none; }
+      .hero-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 2.8rem; }
+      .sec-title { font-size: 2.4rem; }
     }
   </style>
 </head>
 <body>
   <nav class="nav">
     <div class="wrap nav-inner">
-      <div class="logo">NEXUS <span>Product</span></div>
+      <div class="logo">NEXUS <span>⏣</span></div>
       <div class="links">
-        <a href="#value" data-i18n="navValue"></a>
+        <a href="#spotlight" data-i18n="navValue"></a>
         <a href="#architecture" data-i18n="navArch"></a>
         <a href="#workflow" data-i18n="navFlow"></a>
         <a href="#gallery" data-i18n="navGallery"></a>
         <a href="#metrics" data-i18n="navMetrics"></a>
       </div>
       <div class="controls">
-        <button class="btn active" id="langZh">中文</button>
+        <button class="btn active" id="langZh">中</button>
         <button class="btn" id="langEn">EN</button>
       </div>
     </div>
   </nav>
 
   <header class="hero wrap reveal">
-    <span class="badge" data-i18n="badge"></span>
-    <h1 data-i18n="heroTitle"></h1>
-    <p class="lead" data-i18n="heroLead"></p>
-    <div class="hero-cta">
-      <a class="primary" href="https://github.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight" target="_blank" rel="noopener" data-i18n="ctaRepo"></a>
-      <a class="ghost" href="https://github.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/blob/main/README.md" target="_blank" rel="noopener" data-i18n="ctaReadme"></a>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="badge" data-i18n="badge"></span>
+        <div class="hero-kicker" data-i18n="heroKicker"></div>
+        <h1 data-i18n="heroTitle"></h1>
+        <p class="lead" data-i18n="heroLead"></p>
+        <div class="motto" data-i18n-html="heroMotto"></div>
+        <div class="hero-stats">
+          <span class="pill" data-i18n="heroStat1"></span>
+          <span class="pill" data-i18n="heroStat2"></span>
+          <span class="pill" data-i18n="heroStat3"></span>
+        </div>
+        <div class="hero-cta">
+          <a class="primary" href="https://github.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight" target="_blank" rel="noopener" data-i18n="ctaRepo"></a>
+          <a class="ghost" href="https://github.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/blob/main/README.md" target="_blank" rel="noopener" data-i18n="ctaReadme"></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/framework.png" alt="NEXUS Framework" loading="eager" />
+        <div class="visual-caption">
+          <strong data-i18n="heroVisualTitle"></strong>
+          <span data-i18n="heroVisualDesc"></span>
+        </div>
+      </div>
     </div>
   </header>
 
   <main class="wrap">
+    <!-- spotlight: 核心攻击点 -->
+    <section id="spotlight" class="reveal">
+      <h2 class="sec-title" data-i18n="spotlightTitle"></h2>
+      <p class="sec-sub" data-i18n="spotlightSub"></p>
+      <div class="spotlight-grid">
+        <article class="card card-spotlight">
+          <span class="eyebrow" data-i18n="sp1Tag"></span>
+          <h3 data-i18n="sp1Title"></h3>
+          <p data-i18n="sp1Desc"></p>
+          <div data-i18n-html="sp1List"></div>
+        </article>
+        <article class="card card-spotlight">
+          <span class="eyebrow" data-i18n="sp2Tag"></span>
+          <h3 data-i18n="sp2Title"></h3>
+          <p data-i18n="sp2Desc"></p>
+          <div data-i18n-html="sp2List"></div>
+        </article>
+        <article class="card card-spotlight">
+          <span class="eyebrow" data-i18n="sp3Tag"></span>
+          <h3 data-i18n="sp3Title"></h3>
+          <p data-i18n="sp3Desc"></p>
+          <div data-i18n-html="sp3List"></div>
+        </article>
+        <article class="card card-spotlight">
+          <span class="eyebrow" data-i18n="sp4Tag"></span>
+          <h3 data-i18n="sp4Title"></h3>
+          <p data-i18n="sp4Desc"></p>
+          <div data-i18n-html="sp4List"></div>
+        </article>
+        <article class="card card-spotlight wide">
+          <span class="eyebrow" data-i18n="sp5Tag"></span>
+          <h3 data-i18n="sp5Title"></h3>
+          <p data-i18n="sp5Desc"></p>
+          <div class="quote" data-i18n="sp5Quote"></div>
+          <div data-i18n-html="sp5List"></div>
+        </article>
+      </div>
+    </section>
+
     <section id="value" class="reveal">
       <h2 class="sec-title" data-i18n="valueTitle"></h2>
       <p class="sec-sub" data-i18n="valueSub"></p>
       <div class="grid">
-        <article class="card">
-          <h3 data-i18n="f1Title"></h3>
-          <p data-i18n="f1Desc"></p>
-        </article>
-        <article class="card">
-          <h3 data-i18n="f2Title"></h3>
-          <p data-i18n="f2Desc"></p>
-        </article>
-        <article class="card">
-          <h3 data-i18n="f3Title"></h3>
-          <p data-i18n="f3Desc"></p>
-        </article>
-        <article class="card">
-          <h3 data-i18n="f4Title"></h3>
-          <p data-i18n="f4Desc"></p>
-        </article>
+        <article class="card"><h3 data-i18n="f1Title"></h3><p data-i18n="f1Desc"></p></article>
+        <article class="card"><h3 data-i18n="f2Title"></h3><p data-i18n="f2Desc"></p></article>
+        <article class="card"><h3 data-i18n="f3Title"></h3><p data-i18n="f3Desc"></p></article>
+        <article class="card"><h3 data-i18n="f4Title"></h3><p data-i18n="f4Desc"></p></article>
       </div>
     </section>
 
@@ -204,22 +604,10 @@
       <h2 class="sec-title" data-i18n="galleryTitle"></h2>
       <p class="sec-sub" data-i18n="gallerySub"></p>
       <div class="gallery">
-        <article class="shot">
-          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/1_search/search_page.png" alt="Search Page" loading="lazy" />
-          <div class="meta"><b data-i18n="g1Title"></b><p data-i18n="g1Desc"></p></div>
-        </article>
-        <article class="shot">
-          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/1_search/generate_report_result.png" alt="Report" loading="lazy" />
-          <div class="meta"><b data-i18n="g2Title"></b><p data-i18n="g2Desc"></p></div>
-        </article>
-        <article class="shot">
-          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step3/overview.png" alt="Canyon Overview" loading="lazy" />
-          <div class="meta"><b data-i18n="g3Title"></b><p data-i18n="g3Desc"></p></div>
-        </article>
-        <article class="shot">
-          <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step4/report/report_graphrag.png" alt="GraphRAG Report" loading="lazy" />
-          <div class="meta"><b data-i18n="g4Title"></b><p data-i18n="g4Desc"></p></div>
-        </article>
+        <article class="shot"><img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/1_search/search_page.png" alt="Search" loading="lazy" /><div class="meta"><b data-i18n="g1Title"></b><p data-i18n="g1Desc"></p></div></article>
+        <article class="shot"><img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/1_search/generate_report_result.png" alt="Report" loading="lazy" /><div class="meta"><b data-i18n="g2Title"></b><p data-i18n="g2Desc"></p></div></article>
+        <article class="shot"><img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step3/overview.png" alt="Canyon" loading="lazy" /><div class="meta"><b data-i18n="g3Title"></b><p data-i18n="g3Desc"></p></div></article>
+        <article class="shot"><img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/2_canyon/step4/report/report_graphrag.png" alt="GraphRAG" loading="lazy" /><div class="meta"><b data-i18n="g4Title"></b><p data-i18n="g4Desc"></p></div></article>
       </div>
     </section>
 
@@ -238,109 +626,176 @@
   </main>
 
   <div class="lightbox" id="lightbox" aria-hidden="true">
-    <button class="btn" id="lightboxClose">Close</button>
+    <button class="btn" id="lightboxClose">✕ 关闭</button>
     <img id="lightboxImg" alt="Preview" />
   </div>
 
   <script>
-    const i18n = {
-      zh: {
-        navValue:"产品价值", navArch:"系统架构", navFlow:"工作流", navGallery:"截图画廊", navMetrics:"性能指标",
-        badge:"NEXUS Product Page",
-        heroTitle:"更像产品官网的一页式 NEXUS 展示",
-        heroLead:"NEXUS 聚焦用户真实关注点，通过 Attention Anchors、深度搜索、GraphRAG 和 Canyon 数智孪生世界，完成从现实信息流到未来情境推演的端到端闭环。",
-        ctaRepo:"查看 GitHub 仓库", ctaReadme:"阅读完整 README",
-        valueTitle:"核心能力", valueSub:"不做模板答案，做可推演的个性化决策洞察。",
-        f1Title:"🎯 用户独享 Cognitive Map", f1Desc:"将用户锚点注入建模链路，输出与你任务目标强相关的分析路径。",
-        f2Title:"🔍 高保真深度搜索", f2Desc:"Pressure-Driven + Iterative Reflection + Uncertainty-aware，减少冲突与幻觉。",
-        f3Title:"🌍 Canyon 数智孪生", f3Desc:"在多角色交互环境中模拟事件演化，逼近真实世界传播逻辑。",
-        f4Title:"🧠 多视角推演", f4Desc:"覆盖政策、企业、公众、专家四类主体，形成可对照策略空间。",
-        archTitle:"系统架构总览", archSub:"对应 README 的核心架构图。",
-        flowTitle:"五步工作流",
-        s1:"Step 1：领域适配微调与先验注入，构建任务相关知识底座。",
-        s2:"Step 2：客制化深度搜索，优先保证相关性、时效性与证据质量。",
-        s3:"Step 3：用户注意力驱动理解，采集高亮/标注并结构化。",
-        s4:"Step 4：Canyon 仿真推演，多 Agent 动态互动与环境反馈。",
-        s5:"Step 5：报告生成与访谈交互，输出可追问、可解释的洞察。",
-        galleryTitle:"模块截图画廊", gallerySub:"点击任意截图可放大预览。",
-        g1Title:"搜索与检索配置", g1Desc:"深度搜索入口与策略控制。",
-        g2Title:"结构化报告输出", g2Desc:"多 Agent 结果整合与摘要。",
-        g3Title:"Canyon 仿真总览", g3Desc:"虚拟环境中的动态推演过程。",
-        g4Title:"最终分析报告", g4Desc:"可用于决策支持与复盘。",
-        mTitle:"性能与效率（项目口径）",
-        m1:"成本下降约 40%~60%",
-        m2:"总时长压缩至约 1/3",
-        m3:"支持 LLM_BOOST 并行加速配置",
-        foot:"Built with README narrative · NEXUS © 2026"
-      },
-      en: {
-        navValue:"Value", navArch:"Architecture", navFlow:"Workflow", navGallery:"Gallery", navMetrics:"Metrics",
-        badge:"NEXUS Product Page",
-        heroTitle:"A Product-Like One-Page NEXUS Website",
-        heroLead:"NEXUS anchors to real user intent via Attention Anchors, Deep Search, GraphRAG, and the Canyon digital cognitive twin, forming an end-to-end loop from real-world streams to future scenario simulation.",
-        ctaRepo:"Open GitHub Repo", ctaReadme:"Read Full README",
-        valueTitle:"Core Capabilities", valueSub:"From generic answers to simulation-ready, personalized decision insight.",
-        f1Title:"🎯 User-Exclusive Cognitive Map", f1Desc:"Inject user anchors into modeling pipelines for highly task-aligned analysis paths.",
-        f2Title:"🔍 High-Fidelity Deep Search", f2Desc:"Pressure-Driven + Iterative Reflection + Uncertainty-aware to reduce conflicts and hallucinations.",
-        f3Title:"🌍 Canyon Digital Twin", f3Desc:"Simulates event evolution in multi-role interactions, closer to real-world dynamics.",
-        f4Title:"🧠 Multi-View Reasoning", f4Desc:"Covers policy, enterprise, public, and experts for comparative strategy space.",
-        archTitle:"Architecture Overview", archSub:"The key architecture map adapted from README.",
-        flowTitle:"Five-Step Workflow",
-        s1:"Step 1: Domain-adaptive tuning and prior injection for a task-specific knowledge base.",
-        s2:"Step 2: Customized deep search with relevance, recency, and evidence quality first.",
-        s3:"Step 3: User-attention-driven understanding from highlights/annotations.",
-        s4:"Step 4: Canyon simulation with multi-agent interaction and environment feedback.",
-        s5:"Step 5: Report generation and interview interaction for explainable insights.",
-        galleryTitle:"Module Screenshot Gallery", gallerySub:"Click any screenshot to preview in full size.",
-        g1Title:"Search & Retrieval Setup", g1Desc:"Entry and strategy controls for deep search.",
-        g2Title:"Structured Report Output", g2Desc:"Consolidated summaries from multi-agent collaboration.",
-        g3Title:"Canyon Simulation Overview", g3Desc:"Dynamic reasoning process in the virtual world.",
-        g4Title:"Final Analytical Report", g4Desc:"Ready for decision support and post-analysis.",
-        mTitle:"Efficiency & Throughput (Project-level)",
-        m1:"Estimated 40%~60% cost reduction",
-        m2:"Total runtime reduced to around one-third",
-        m3:"Supports parallel acceleration via LLM_BOOST config",
-        foot:"Built with README narrative · NEXUS © 2026"
-      }
-    };
-
-    function setLang(lang){
-      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-      document.querySelectorAll('[data-i18n]').forEach(el=>{
-        const key = el.getAttribute('data-i18n');
-        el.textContent = i18n[lang][key] || '';
-      });
-      document.getElementById('langZh').classList.toggle('active', lang==='zh');
-      document.getElementById('langEn').classList.toggle('active', lang==='en');
-      localStorage.setItem('nexus_lang', lang);
-    }
-
-    document.getElementById('langZh').addEventListener('click', ()=>setLang('zh'));
-    document.getElementById('langEn').addEventListener('click', ()=>setLang('en'));
-
-    const observer = new IntersectionObserver((entries)=>{
-      entries.forEach(entry=>{
-        if(entry.isIntersecting){
-          entry.target.classList.add('on');
-          observer.unobserve(entry.target);
+    (function() {
+      // ----- 国际化文案 (优化版：更锋利、更用户导向) -----
+      const i18n = {
+        zh: {
+          navValue:"破局点", navArch:"架构", navFlow:"工作流", navGallery:"实况", navMetrics:"效率",
+          badge:"NEXUS 认知推演",
+          heroKicker:"Navigating Emergent X‑agent Universe Simulator",
+          heroTitle:"NEXUS：从信息洪流，到可推演的战局",
+          heroLead:"拒绝模板答案，拒绝泛泛分析。围绕你真正关注的锚点，用深度搜索 + GraphRAG + Canyon数智孪生，以更低成本推演隐藏策略与未来格局。",
+          heroMotto:'<span class="moon">🌙✨</span> <span class="line1">棋局未展先知手</span><br><span class="line2">月落星沉自有时 🌌</span>',
+          heroStat1:"拒绝“官味”废话",
+          heroStat2:"成本直降40%~60%",
+          heroStat3:"30次模拟 → 高质量洞察",
+          heroVisualTitle:"NEXUS 协同框架",
+          heroVisualDesc:"领域调优 × 深度搜索 × 注意力锚点 × 多智能体推演",
+          ctaRepo:"⚡ 抢鲜体验 (GitHub)", ctaReadme:"📘 战术手册 (README)",
+          spotlightTitle:"为什么NEXUS让你看得更深、更准",
+          spotlightSub:"所有卖点都直击痛点 — 不再制造平庸报告。",
+          sp1Tag:"反模板",
+          sp1Title:"🚀 彻底告别“正确废话”",
+          sp1Desc:"围绕你个人真正关注的认知突破，生成只属于你的洞察地图。",
+          sp1List:'<ul><li>深度搜索你<u>真正关心的内容</u>，屏蔽“大众化泛泛信息” 🙅</li><li>建立<u>用户独享认知图谱</u>，拒绝千人一面</li><li>📖 <a href="https://link.springer.com/article/10.1007/s11257-024-09398-x" target="_blank">Farshidi (2024)</a> · <a href="https://arxiv.org/abs/1804.04266" target="_blank">Nguyen (2018)</a></li></ul>',
+          sp2Tag:"信源进化",
+          sp2Title:"🔗 摆脱单一、重复数据，聚合高保真信源",
+          sp2Desc:"深度搜索+领域微调，确保相关性、时效性与证据质量。",
+          sp2List:'<ul><li><u>领域专属模型</u>加持，NO <del>“通用LLMs模糊答案”</del></li><li><strong>用户注意力锚点</strong>驱动信息理解，而非无差别处理</li></ul>',
+          sp3Tag:"动态推演",
+          sp3Title:"📈 不只是预测，而是推演未来的隐藏变量",
+          sp3Desc:"把现实动态因子融入数智孪生，拒绝静态理想化假设。",
+          sp3List:'<ul><li><strong>实时、真实动态影响因子</strong> 🔥🔥，NO <del>“理想化简化”</del></li><li>构建<u>高保真数智孪生世界</u>，NO <del>“玩具虚拟环境”</del></li><li>📖 <a href="https://arxiv.org/abs/2509.25530" target="_blank">Guo (2025)</a> · <a href="https://arxiv.org/abs/2506.19385" target="_blank">Zhu (2025)</a></li></ul>',
+          sp4Tag:"创意突破",
+          sp4Title:"💡 拒绝搬运常识，产出超预期认知",
+          sp4Desc:"多视角呈现+仿生推演，帮你跳出思维定势。",
+          sp4List:'<ul><li><strong>眼前一亮的新idea</strong> 🔥🔥，NO <del>“老生常谈”</del></li><li><strong>生动仿真的内心独白</strong> 🔥，NO <del>“表面化分析”</del></li><li>📖 <a href="https://arxiv.org/html/2502.13925v1" target="_blank">Zhong (2023)</a> · <a href="https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/" target="_blank">Saunders (2012)</a></li></ul>',
+          sp5Tag:"全维覆盖·极速",
+          sp5Title:"🌟 不堆次数，堆视角——更快、更深、更省",
+          sp5Desc:"政策·企业·公众·研究者，四类主体同时推演，资源有限依然抢占先机。",
+          sp5Quote:"高频建模成为可能，成本直降约60%，深度不减。",
+          sp5List:'<ul><li>四重视角：政府⚖️ / 企业💰 / 舆论场🧑‍🤝‍🧑 / 专家🧑‍🔬</li><li>相较原架构，成本降~60%，时长缩至1/3</li><li><strong>背景先验+注意力聚焦</strong>大幅降低令牌消耗</li><li>单次模拟成本 $5 → <strong>$2~3</strong>，降幅40%~60%</li><li><strong>30次模拟</strong>产出高质量洞察，50min → <strong>18min</strong></li></ul>',
+          valueTitle:"多面角色·同一推演场", valueSub:"政府、市场、舆论、研究 —— 在同一模拟中碰撞出真实博弈。",
+          f1Title:"⚖️ 政府/智库", f1Desc:"推演政策落地连锁效应，预判制度反馈。",
+          f2Title:"💰 企业/投资者", f2Desc:"模拟竞争动作、市场回响，抢占战略先机。",
+          f3Title:"🧑‍🤝‍🧑 舆论/KOL", f3Desc:"观察情绪传播、社群放大，评估舆情路径。",
+          f4Title:"🧑‍🔬 专家/研究者", f4Desc:"把专业知识注入多智能体推演空间。",
+          archTitle:"体系架构 · 一目了然", archSub:"READEME 核心架构图，支撑所有推演逻辑。",
+          flowTitle:"五步推演工作流",
+          s1:"Step 1 · 领域微调 + 先验注入，构建任务知识底座",
+          s2:"Step 2 · 客制化深度搜索：优先相关性、时效、证据强度",
+          s3:"Step 3 · 注意力驱动理解：采集高亮标注，结构化",
+          s4:"Step 4 · Canyon仿真：多智能体互动+环境反馈",
+          s5:"Step 5 · 报告生成+访谈式交互，可追问的洞察",
+          galleryTitle:"模块实况 · 所见即所得", gallerySub:"点击截图放大预览，感受真实推演界面。",
+          g1Title:"⚙️ 深度搜索配置", g1Desc:"精细控制检索策略与信源。",
+          g2Title:"📄 结构化报告", g2Desc:"多智能体协作摘要。",
+          g3Title:"🌄 Canyon总览", g3Desc:"动态推演过程可视化。",
+          g4Title:"📌 最终分析报告", g4Desc:"决策级复盘。",
+          mTitle:"性能·效率·成本",
+          m1:"成本锐减 40%~60%",
+          m2:"总时长压缩至 ~1/3",
+          m3:"LLM_BOOST 并行加速",
+          foot:"NEXUS · 从真实信息流到可推演未来 © 2026"
+        },
+        en: {
+          navValue:"Breakthrough", navArch:"Architecture", navFlow:"Workflow", navGallery:"Live", navMetrics:"Efficiency",
+          badge:"NEXUS Cognitive Wargame",
+          heroKicker:"Navigating Emergent X‑agent Universe Simulator",
+          heroTitle:"NEXUS: From Info Streams to Simulatable Futures",
+          heroLead:"No generic templates, no shallow summaries. Centered on your real concerns, Deep Search + GraphRAG + Canyon digital twin simulate hidden strategies at 40–60% lower cost.",
+          heroMotto:'<span class="moon">🌙✨</span> <span class="line1">Foresee the move before the board unfolds</span><br><span class="line2">When stars fade, timing still arrives 🌌</span>',
+          heroStat1:"Zero boilerplate",
+          heroStat2:"40%–60% lower cost",
+          heroStat3:"30 runs → deep insight",
+          heroVisualTitle:"NEXUS Core",
+          heroVisualDesc:"Domain tuning × Deep Search × Attention anchors × Multi‑agent",
+          ctaRepo:"⚡ Early Access (GitHub)", ctaReadme:"📘 Playbook (README)",
+          spotlightTitle:"Why NEXUS Cuts Deeper",
+          spotlightSub:"Every claim hits a pain point — no more平庸 reports.",
+          sp1Tag:"Anti‑Template",
+          sp1Title:"🚀 Goodbye to “correct but useless” analysis",
+          sp1Desc:"Builds a cognitive map exclusive to your real concerns.",
+          sp1List:'<ul><li>Deep‑searches <u>what you actually care about</u>, ignoring generic info</li><li>User‑exclusive cognitive map, not one‑size‑fits‑all</li><li>📖 <a href="https://link.springer.com/article/10.1007/s11257-024-09398-x" target="_blank">Farshidi (2024)</a> · <a href="https://arxiv.org/abs/1804.04266" target="_blank">Nguyen (2018)</a></li></ul>',
+          sp2Tag:"Source Evolution",
+          sp2Title:"🔗 Escape single‑source repetition, fuse high‑fidelity evidence",
+          sp2Desc:"Domain tuning + deep search ensure relevance, recency, evidence quality.",
+          sp2List:'<ul><li><u>Domain‑specific models</u>, not generic LLM blur</li><li><strong>Attention‑anchor driven</strong> understanding, not undifferentiated processing</li></ul>',
+          sp3Tag:"Dynamic Simulation",
+          sp3Title:"📈 Not just forecast — simulate hidden future dynamics",
+          sp3Desc:"Real‑time factors embedded in digital twin, no static idealized assumptions.",
+          sp3List:'<ul><li><strong>Real, dynamic factors</strong> 🔥🔥, not idealized assumptions</li><li><u>High‑fidelity digital twin</u>, not a toy environment</li><li>📖 <a href="https://arxiv.org/abs/2509.25530" target="_blank">Guo (2025)</a> · <a href="https://arxiv.org/abs/2506.19385" target="_blank">Zhu (2025)</a></li></ul>',
+          sp4Tag:"Creative Leap",
+          sp4Title:"💡 Refuse common sense recycling, generate unexpected insight",
+          sp4Desc:"Multi‑view + bio‑inspired simulation help you跳出框框.",
+          sp4List:'<ul><li><strong>Fresh, surprising ideas</strong> 🔥🔥, no clichés</li><li><strong>Vivid simulated monologues</strong> 🔥, no shallow summaries</li><li>📖 <a href="https://arxiv.org/html/2502.13925v1" target="_blank">Zhong (2023)</a> · <a href="https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/" target="_blank">Saunders (2012)</a></li></ul>',
+          sp5Tag:"Full‑Coverage & Speed",
+          sp5Title:"🌟 Stack perspectives, not iterations — faster, deeper, cheaper",
+          sp5Desc:"Policy, enterprise, public, researcher — all simulated together, even with limited resources.",
+          sp5Quote:"High‑frequency modeling now possible: ~60% cost cut, depth preserved.",
+          sp5List:'<ul><li>Four perspectives: gov⚖️ / biz💰 / public🧑‍🤝‍🧑 / expert🧑‍🔬</li><li>vs. old arch: cost‑60%, time 1/3</li><li><strong>Prior knowledge + attention focus</strong> slash token use</li><li>Per run $5 → <strong>$2–3</strong> (40–60% off)</li><li><strong>30 runs</strong> → deep insight, 50min → <strong>18min</strong></li></ul>',
+          valueTitle:"Multi‑Stakeholder · Same Simulation", valueSub:"Government, market, public, research — real博弈 in one sandbox.",
+          f1Title:"⚖️ Gov/Think‑tank", f1Desc:"Simulate policy ripple effects, regulatory feedback.",
+          f2Title:"💰 Enterprise/Investor", f2Desc:"Anticipate competitive moves, market response.",
+          f3Title:"🧑‍🤝‍🧑 Public/KOL", f3Desc:"Track sentiment spread, amplification paths.",
+          f4Title:"🧑‍🔬 Researcher/Expert", f4Desc:"Inject domain expertise into multi‑agent space.",
+          archTitle:"Architecture · At a Glance", archSub:"Core diagram from README powers all logic.",
+          flowTitle:"Five‑Step Workflow",
+          s1:"Step 1 · Domain tuning + prior injection → knowledge base",
+          s2:"Step 2 · Custom deep search: relevance, recency, evidence",
+          s3:"Step 3 · Attention‑driven understanding → structured highlights",
+          s4:"Step 4 · Canyon simulation: multi‑agent + environment feedback",
+          s5:"Step 5 · Report + interview‑style interaction, explainable insights",
+          galleryTitle:"Live Modules · What You See Is What You Get", gallerySub:"Click to enlarge, feel the real interface.",
+          g1Title:"⚙️ Deep Search Config", g1Desc:"Fine‑control sources & strategy.",
+          g2Title:"📄 Structured Report", g2Desc:"Multi‑agent summary.",
+          g3Title:"🌄 Canyon Overview", g3Desc:"Dynamic simulation visualization.",
+          g4Title:"📌 Final Analysis", g4Desc:"Decision‑ready复盘.",
+          mTitle:"Performance · Efficiency · Cost",
+          m1:"40%–60% cost reduction",
+          m2:"Total time ~1/3",
+          m3:"LLM_BOOST parallel ready",
+          foot:"NEXUS · From real streams to simulable futures © 2026"
         }
-      });
-    },{threshold:.12});
-    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+      };
 
-    const lightbox = document.getElementById('lightbox');
-    const lightboxImg = document.getElementById('lightboxImg');
-    document.querySelectorAll('.shot img').forEach(img=>{
-      img.addEventListener('click', ()=>{
-        lightboxImg.src = img.src;
-        lightbox.classList.add('on');
-      });
-    });
-    function closeLightbox(){ lightbox.classList.remove('on'); }
-    document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
-    lightbox.addEventListener('click', (e)=>{ if(e.target===lightbox) closeLightbox(); });
+      // 语言切换函数
+      function setLang(lang){
+        document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (i18n[lang][key]) el.textContent = i18n[lang][key];
+        });
+        document.querySelectorAll('[data-i18n-html]').forEach(el => {
+          const key = el.getAttribute('data-i18n-html');
+          if (i18n[lang][key]) el.innerHTML = i18n[lang][key];
+        });
+        document.getElementById('langZh').classList.toggle('active', lang==='zh');
+        document.getElementById('langEn').classList.toggle('active', lang==='en');
+        localStorage.setItem('nexus_lang', lang);
+      }
 
-    setLang(localStorage.getItem('nexus_lang') || 'zh');
+      document.getElementById('langZh').addEventListener('click', ()=>setLang('zh'));
+      document.getElementById('langEn').addEventListener('click', ()=>setLang('en'));
+
+      // 滚动揭示动画
+      const observer = new IntersectionObserver((entries)=>{
+        entries.forEach(e => { if(e.isIntersecting) { e.target.classList.add('on'); observer.unobserve(e.target); } });
+      }, { threshold: 0.15, rootMargin: "0px 0px -40px 0px" });
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+      // 灯箱
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightboxImg');
+      document.querySelectorAll('.shot img').forEach(img => {
+        img.addEventListener('click', () => {
+          lightboxImg.src = img.src;
+          lightbox.classList.add('on');
+        });
+      });
+      function closeLightbox(){ lightbox.classList.remove('on'); }
+      document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+      lightbox.addEventListener('click', e => { if(e.target === lightbox) closeLightbox(); });
+
+      // 初始语言
+      const saved = localStorage.getItem('nexus_lang') || 'zh';
+      setLang(saved);
+    })();
   </script>
 </body>
 </html>
