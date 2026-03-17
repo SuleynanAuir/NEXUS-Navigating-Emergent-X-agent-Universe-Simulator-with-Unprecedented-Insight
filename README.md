@@ -1,16 +1,16 @@
 # NEXUS: Navigating  Emergent X-agent Universe Simulator with Unprecedented Insight「涌现」！从 NEXUS 开始 🚀
 
 <div align="left">
+  <a href="https://suleynanauir.github.io/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/">
+    <img src="https://img.shields.io/badge/🚀%20Explore-NEXUS%20Simulation%20World-8A2BE2" />
+  </a>
   <img src="https://img.shields.io/badge/Deep%20Search-AI%20Driven-blueviolet" />
   <img src="https://img.shields.io/badge/User%20Oriented-Attention%20First-orange" />
   <img src="https://img.shields.io/badge/Multi%20Agents-Collaboration-red" />
   <img src="https://img.shields.io/badge/Twin%20Worlds-Canyon%20Simulation-blue" />
   <img src="https://img.shields.io/badge/Deep%20Insight-Cognitive%20Analysis-purple" />
   <img src="https://img.shields.io/badge/Simulation-Information%20Dynamics-green" />
-
-  <a href="https://suleynanauir.github.io/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/">
-    <img src="https://img.shields.io/badge/Project%20Page-NEXUS%20Live%20Demo-0A66C2" />
-  </a>
+  <img src="https://img.shields.io/badge/Reject-Template%20Answers-black" />
 </div>
 
 <p align="center">
