@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "progress": 100,
+  "message": "报告生成完成",
+  "current_section": null,
+  "completed_sections": [
+    "模拟世界状态：技术真空与自主演化",
+    "Agent反应缺失下的技术失控风险",
+    "快速推进领域：自动化知识整合与决策支持",
+    "未来趋势：技术自治与人类角色的重新定义"
+  ],
+  "updated_at": "2026-03-18T16:17:34.615206"
+}

@@ -1,0 +1,72 @@
+{"timestamp": "2026-03-18T13:30:25.041444", "event_type": "simulation_start", "platform": "reddit", "total_rounds": 144, "agents_count": 6}
+{"round": 0, "timestamp": "2026-03-18T13:30:25.041655", "event_type": "round_start", "simulated_hour": 0}
+{"round": 0, "timestamp": "2026-03-18T13:30:25.041720", "agent_id": 0, "agent_name": "港中大", "action_type": "CREATE_POST", "action_args": {"content": "港中大与华为云联合提出的GraphRAG统一框架，预计将推动生成式AI在临床诊断辅助领域的标准化，特别是在复杂疾病如阿尔茨海默病的知识图谱应用中，未来三年可能实现技术整合和试点部署。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-18T13:30:25.041779", "agent_id": 1, "agent_name": "华为云", "action_type": "CREATE_POST", "action_args": {"content": "微软开源的GraphRAG项目降低了技术门槛，其结构化理解和全局洞察能力有望加速AI在临床诊断的细分方向突破，如医学影像分析和病理报告生成，优先在资源丰富的医疗中心落地。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-18T13:30:25.041821", "agent_id": 2, "agent_name": "Cedars-Sinai医学中心", "action_type": "CREATE_POST", "action_args": {"content": "Cedars-Sinai医学中心的AlzKB知识库展示了知识图谱与AI在阿尔茨海默病研究中的潜力，未来三年生成式AI可能最先在神经退行性疾病诊断辅助中突破，通过增强数据整合和病因发现。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-18T13:30:25.041858", "agent_id": 4, "agent_name": "微软研究团队", "action_type": "CREATE_POST", "action_args": {"content": "微软研究团队开发的GraphRAG技术，通过两阶段索引架构提升多跳推理能力，在临床诊断辅助中可能优先突破实时病例分析和个性化治疗建议方向，解决传统AI的黑盒问题。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-03-18T13:30:29.230159", "event_type": "round_end", "actions_count": 4}
+{"round": 1, "timestamp": "2026-03-18T13:30:29.230654", "event_type": "round_start", "simulated_hour": 0}
+{"round": 1, "timestamp": "2026-03-18T13:30:29.230738", "event_type": "round_end", "actions_count": 0}
+{"round": 2, "timestamp": "2026-03-18T13:30:29.230790", "event_type": "round_start", "simulated_hour": 1}
+{"round": 2, "timestamp": "2026-03-18T13:30:29.230833", "event_type": "round_end", "actions_count": 0}
+{"round": 3, "timestamp": "2026-03-18T13:30:29.230874", "event_type": "round_start", "simulated_hour": 2}
+{"round": 3, "timestamp": "2026-03-18T13:30:29.230911", "event_type": "round_end", "actions_count": 0}
+{"round": 4, "timestamp": "2026-03-18T13:30:29.230951", "event_type": "round_start", "simulated_hour": 3}
+{"round": 4, "timestamp": "2026-03-18T13:30:29.230986", "event_type": "round_end", "actions_count": 0}
+{"round": 5, "timestamp": "2026-03-18T13:30:29.231025", "event_type": "round_start", "simulated_hour": 4}
+{"round": 5, "timestamp": "2026-03-18T13:30:29.231059", "event_type": "round_end", "actions_count": 0}
+{"round": 6, "timestamp": "2026-03-18T13:30:29.231096", "event_type": "round_start", "simulated_hour": 5}
+{"round": 6, "timestamp": "2026-03-18T13:30:29.231130", "event_type": "round_end", "actions_count": 0}
+{"round": 7, "timestamp": "2026-03-18T13:30:29.231168", "event_type": "round_start", "simulated_hour": 6}
+{"round": 7, "timestamp": "2026-03-18T13:30:29.231201", "event_type": "round_end", "actions_count": 0}
+{"round": 8, "timestamp": "2026-03-18T13:30:29.231238", "event_type": "round_start", "simulated_hour": 7}
+{"round": 8, "timestamp": "2026-03-18T13:30:29.231273", "event_type": "round_end", "actions_count": 0}
+{"round": 9, "timestamp": "2026-03-18T13:30:29.231313", "event_type": "round_start", "simulated_hour": 8}
+{"round": 9, "timestamp": "2026-03-18T13:30:29.231359", "event_type": "round_end", "actions_count": 0}
+{"round": 10, "timestamp": "2026-03-18T13:30:29.231457", "event_type": "round_start", "simulated_hour": 9}
+{"round": 10, "timestamp": "2026-03-18T13:30:31.149604", "agent_id": 0, "agent_name": "港中大", "action_type": "CREATE_POST", "action_args": {"content": "港中大与华为云联合提出的GraphRAG统一框架，预计将推动生成式AI在临床诊断辅助领域的标准化，特别是在复杂疾病如阿尔茨海默病的知识图谱应用中，未来三年可能实现技术整合和试点部署。", "post_id": 1}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-18T13:30:31.150126", "agent_id": 1, "agent_name": "华为云", "action_type": "CREATE_POST", "action_args": {"content": "微软开源的GraphRAG项目降低了技术门槛，其结构化理解和全局洞察能力有望加速AI在临床诊断的细分方向突破，如医学影像分析和病理报告生成，优先在资源丰富的医疗中心落地。", "post_id": 2}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-18T13:30:31.150344", "agent_id": 2, "agent_name": "Cedars-Sinai医学中心", "action_type": "CREATE_POST", "action_args": {"content": "Cedars-Sinai医学中心的AlzKB知识库展示了知识图谱与AI在阿尔茨海默病研究中的潜力，未来三年生成式AI可能最先在神经退行性疾病诊断辅助中突破，通过增强数据整合和病因发现。", "post_id": 3}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-18T13:30:31.150497", "agent_id": 4, "agent_name": "微软研究团队", "action_type": "CREATE_POST", "action_args": {"content": "微软研究团队开发的GraphRAG技术，通过两阶段索引架构提升多跳推理能力，在临床诊断辅助中可能优先突破实时病例分析和个性化治疗建议方向，解决传统AI的黑盒问题。", "post_id": 4}, "result": null, "success": true}
+{"round": 10, "timestamp": "2026-03-18T13:30:31.150623", "event_type": "round_end", "actions_count": 4}
+{"round": 11, "timestamp": "2026-03-18T13:30:31.150795", "event_type": "round_start", "simulated_hour": 10}
+{"round": 11, "timestamp": "2026-03-18T13:30:31.150922", "event_type": "round_end", "actions_count": 0}
+{"round": 12, "timestamp": "2026-03-18T13:30:31.151050", "event_type": "round_start", "simulated_hour": 11}
+{"round": 12, "timestamp": "2026-03-18T13:30:31.151158", "event_type": "round_end", "actions_count": 0}
+{"round": 13, "timestamp": "2026-03-18T13:30:31.151326", "event_type": "round_start", "simulated_hour": 12}
+{"round": 13, "timestamp": "2026-03-18T13:30:32.454376", "event_type": "round_end", "actions_count": 0}
+{"round": 14, "timestamp": "2026-03-18T13:30:32.454736", "event_type": "round_start", "simulated_hour": 13}
+{"round": 14, "timestamp": "2026-03-18T13:30:32.971141", "event_type": "round_end", "actions_count": 0}
+{"round": 15, "timestamp": "2026-03-18T13:30:32.971622", "event_type": "round_start", "simulated_hour": 14}
+{"round": 15, "timestamp": "2026-03-18T13:30:33.497265", "event_type": "round_end", "actions_count": 0}
+{"round": 16, "timestamp": "2026-03-18T13:30:33.498149", "event_type": "round_start", "simulated_hour": 15}
+{"round": 16, "timestamp": "2026-03-18T13:30:33.498375", "event_type": "round_end", "actions_count": 0}
+{"round": 17, "timestamp": "2026-03-18T13:30:33.498557", "event_type": "round_start", "simulated_hour": 16}
+{"round": 17, "timestamp": "2026-03-18T13:30:34.089843", "event_type": "round_end", "actions_count": 0}
+{"round": 18, "timestamp": "2026-03-18T13:30:34.090508", "event_type": "round_start", "simulated_hour": 17}
+{"round": 18, "timestamp": "2026-03-18T13:30:34.750478", "event_type": "round_end", "actions_count": 0}
+{"round": 19, "timestamp": "2026-03-18T13:30:34.751200", "event_type": "round_start", "simulated_hour": 18}
+{"round": 19, "timestamp": "2026-03-18T13:30:34.751534", "event_type": "round_end", "actions_count": 0}
+{"round": 20, "timestamp": "2026-03-18T13:30:34.751996", "event_type": "round_start", "simulated_hour": 19}
+{"round": 20, "timestamp": "2026-03-18T13:30:34.752253", "event_type": "round_end", "actions_count": 0}
+{"round": 21, "timestamp": "2026-03-18T13:30:34.752742", "event_type": "round_start", "simulated_hour": 20}
+{"round": 21, "timestamp": "2026-03-18T13:30:34.753140", "event_type": "round_end", "actions_count": 0}
+{"round": 22, "timestamp": "2026-03-18T13:30:34.753618", "event_type": "round_start", "simulated_hour": 21}
+{"round": 22, "timestamp": "2026-03-18T13:30:34.753993", "event_type": "round_end", "actions_count": 0}
+{"round": 23, "timestamp": "2026-03-18T13:30:34.754379", "event_type": "round_start", "simulated_hour": 22}
+{"round": 23, "timestamp": "2026-03-18T13:30:34.754604", "event_type": "round_end", "actions_count": 0}
+{"round": 24, "timestamp": "2026-03-18T13:30:34.754853", "event_type": "round_start", "simulated_hour": 23}
+{"round": 24, "timestamp": "2026-03-18T13:30:34.755090", "event_type": "round_end", "actions_count": 0}
+{"round": 25, "timestamp": "2026-03-18T13:30:34.755311", "event_type": "round_start", "simulated_hour": 0}
+{"round": 25, "timestamp": "2026-03-18T13:30:34.755534", "event_type": "round_end", "actions_count": 0}
+{"round": 26, "timestamp": "2026-03-18T13:30:34.755811", "event_type": "round_start", "simulated_hour": 1}
+{"round": 26, "timestamp": "2026-03-18T13:30:34.755909", "event_type": "round_end", "actions_count": 0}
+{"round": 27, "timestamp": "2026-03-18T13:30:34.756025", "event_type": "round_start", "simulated_hour": 2}
+{"round": 27, "timestamp": "2026-03-18T13:30:34.756196", "event_type": "round_end", "actions_count": 0}
+{"round": 28, "timestamp": "2026-03-18T13:30:34.756292", "event_type": "round_start", "simulated_hour": 3}
+{"round": 28, "timestamp": "2026-03-18T13:30:34.756354", "event_type": "round_end", "actions_count": 0}
+{"round": 29, "timestamp": "2026-03-18T13:30:34.756409", "event_type": "round_start", "simulated_hour": 4}
+{"round": 29, "timestamp": "2026-03-18T13:30:34.756464", "event_type": "round_end", "actions_count": 0}
+{"round": 30, "timestamp": "2026-03-18T13:30:34.756522", "event_type": "round_start", "simulated_hour": 5}
+{"round": 30, "timestamp": "2026-03-18T13:30:34.756573", "event_type": "round_end", "actions_count": 0}
+{"timestamp": "2026-03-18T13:30:34.756634", "event_type": "simulation_end", "platform": "reddit", "total_rounds": 30, "total_actions": 8}

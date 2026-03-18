@@ -1,0 +1,11 @@
+{"timestamp": "2026-03-18T12:20:18", "stage": "step1_start", "status": "running", "detail": {"message": "{}}"}}
+{"timestamp": "2026-03-18T13:05:14", "stage": "step1_done", "status": "done", "detail": {"message": "{\"step1_output\": \"/Users/suleynan_suir/Desktop/NEXUS1/container/original_news/summary_report_20260318_050454.json\"}}"}}
+{"timestamp": "2026-03-18T13:05:14", "stage": "step2_start", "status": "running", "detail": {"message": "{}}"}}
+{"timestamp": "2026-03-18T13:08:44", "stage": "2.1_load_summary", "status": "done", "detail": {"message": "{\"summary\": \"/Users/suleynan_suir/Desktop/NEXUS1/container/original_news/summary_report_20260318_050454.json\"}}"}}
+{"timestamp": "2026-03-18T13:08:44", "stage": "step2_substeps_measured", "status": "done", "detail": {"message": "{\"step2_substeps_json\": \"/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/pipeline_metrics/20260318_122017/step2_substeps.json\"}}"}}
+{"timestamp": "2026-03-18T13:08:44", "stage": "step2_done", "status": "done", "detail": {"message": "{\"step2_output\": \"/Users/suleynan_suir/Desktop/NEXUS1/container/enhanced_news/agent_guide_20260318_130844.md\", \"step2_metrics\": \"/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/pipeline_metrics/20260318_122017/step2_metrics.json\"}}"}}
+{"timestamp": "2026-03-18T13:08:44", "stage": "step3_start", "status": "running", "detail": {"message": "{}}"}}
+{"timestamp": "2026-03-18T13:08:46", "stage": "step3_watch_started", "status": "done", "detail": {"message": "{\"watch_jsonl\": \"/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/pipeline_metrics/20260318_122017/step3_metrics_stream.jsonl\", \"watch_pid\": \"68706\"}}"}}
+{"timestamp": "2026-03-18T14:12:48", "stage": "step3_runtime_done", "status": "done", "detail": {"message": "{\"step3_exit_code\": \"130\"}}"}}
+{"timestamp": "2026-03-18T14:12:49", "stage": "step3_substeps_measured", "status": "done", "detail": {"message": "{\"step3_substeps_json\": \"/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/pipeline_metrics/20260318_122017/step3_substeps.json\"}}"}}
+{"timestamp": "2026-03-18T14:12:49", "stage": "workflow_finalize", "status": "done", "detail": {"message": "{\"final_metrics\": \"/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/pipeline_metrics/20260318_122017/pipeline_metrics.json\"}}"}}

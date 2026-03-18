@@ -1,0 +1,400 @@
+{
+  "project_id": "proj_8add2c8775d1",
+  "name": "Unnamed Project",
+  "status": "failed",
+  "created_at": "2026-03-18T00:34:15.672500",
+  "updated_at": "2026-03-18T00:35:42.937193",
+  "files": [
+    {
+      "filename": "agent_guide_20260318_003235.md",
+      "size": 32458
+    }
+  ],
+  "total_text_length": 13699,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "TechnologyCompany",
+        "description": "A company that develops or provides technology products or services, such as AI or software tools.",
+        "attributes": [
+          {
+            "name": "company_name",
+            "type": "text",
+            "description": "The official name of the technology company."
+          },
+          {
+            "name": "industry_focus",
+            "type": "text",
+            "description": "The primary industry or sector the company operates in, e.g., AI, software, privacy tech."
+          }
+        ],
+        "examples": [
+          "Google",
+          "PrivPRISM developer company"
+        ]
+      },
+      {
+        "name": "ResearchTeam",
+        "description": "A group of researchers or developers working on specific projects, such as GraphRAG or privacy to...",
+        "attributes": [
+          {
+            "name": "team_name",
+            "type": "text",
+            "description": "The name or identifier of the research team."
+          },
+          {
+            "name": "research_focus",
+            "type": "text",
+            "description": "The main area of research or development, e.g., GraphRAG, privacy detection."
+          }
+        ],
+        "examples": [
+          "GraphRAG research team",
+          "PrivPRISM development team"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "A government body involved in policy-making, regulation, or oversight, such as for privacy or tec...",
+        "attributes": [
+          {
+            "name": "agency_name",
+            "type": "text",
+            "description": "The name of the government agency."
+          },
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "The geographic or functional area of authority, e.g., national, regional."
+          }
+        ],
+        "examples": [
+          "Data protection authority",
+          "Tech regulation agency"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "A news or media organization that reports on technology trends, events, or policies.",
+        "attributes": [
+          {
+            "name": "outlet_name",
+            "type": "text",
+            "description": "The name of the media outlet, e.g., newspaper, TV station, online platform."
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "The type of media, e.g., print, broadcast, digital."
+          }
+        ],
+        "examples": [
+          "Google News",
+          "Tech news website"
+        ]
+      },
+      {
+        "name": "AcademicInstitution",
+        "description": "A university or research institute involved in academic studies or publications on technology.",
+        "attributes": [
+          {
+            "name": "institution_name",
+            "type": "text",
+            "description": "The name of the academic institution."
+          },
+          {
+            "name": "research_domain",
+            "type": "text",
+            "description": "The primary domain of research, e.g., computer science, privacy studies."
+          }
+        ],
+        "examples": [
+          "University publishing GraphRAG research",
+          "Research institute"
+        ]
+      },
+      {
+        "name": "IndustryAnalyst",
+        "description": "An individual or firm that analyzes technology trends, markets, or adoption, such as Gartner or s...",
+        "attributes": [
+          {
+            "name": "analyst_name",
+            "type": "text",
+            "description": "The name of the analyst or firm."
+          },
+          {
+            "name": "specialization",
+            "type": "text",
+            "description": "The area of expertise, e.g., AI trends, market adoption."
+          }
+        ],
+        "examples": [
+          "Gartner analyst",
+          "Trend prediction firm"
+        ]
+      },
+      {
+        "name": "Developer",
+        "description": "A software developer or engineer involved in creating or using technology tools like GraphRAG.",
+        "attributes": [
+          {
+            "name": "developer_role",
+            "type": "text",
+            "description": "The role or position, e.g., software engineer, app developer."
+          },
+          {
+            "name": "tech_stack",
+            "type": "text",
+            "description": "The technologies or tools the developer works with, e.g., GraphRAG, privacy tools."
+          }
+        ],
+        "examples": [
+          "App developer using GraphRAG",
+          "Privacy tool developer"
+        ]
+      },
+      {
+        "name": "UserGroup",
+        "description": "A collective of users or consumers with shared interests, such as privacy advocates or tech enthu...",
+        "attributes": [
+          {
+            "name": "group_name",
+            "type": "text",
+            "description": "The name or identifier of the user group."
+          },
+          {
+            "name": "group_focus",
+            "type": "text",
+            "description": "The main interest or concern of the group, e.g., privacy, tech reliability."
+          }
+        ],
+        "examples": [
+          "Privacy advocacy group",
+          "Tech user community"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "A natural person not fitting into more specific types, such as individual users, commentators, or...",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The full name of the person."
+          },
+          {
+            "name": "occupation",
+            "type": "text",
+            "description": "The person's job or role, if known."
+          }
+        ],
+        "examples": [
+          "Individual tech user",
+          "Commentator on social media"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "An organization not fitting into more specific types, such as small businesses, informal groups, ...",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "The name of the organization."
+          },
+          {
+            "name": "org_type",
+            "type": "text",
+            "description": "The general type of organization, e.g., small business, community group."
+          }
+        ],
+        "examples": [
+          "Small tech startup",
+          "Informal research group"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "DEVELOPS",
+        "description": "Indicates that an entity develops or creates a technology, tool, or product.",
+        "source_targets": [
+          {
+            "source": "TechnologyCompany",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "ResearchTeam",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "Developer",
+            "target": "TechnologyCompany"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Indicates that an entity reports on or covers news, trends, or events related to technology.",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "ResearchTeam"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Indicates that an entity regulates, oversees, or sets policies for technology or related areas.",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "AcademicInstitution"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "RESEARCHES",
+        "description": "Indicates that an entity conducts research or studies on technology topics.",
+        "source_targets": [
+          {
+            "source": "AcademicInstitution",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "ResearchTeam",
+            "target": "AcademicInstitution"
+          },
+          {
+            "source": "IndustryAnalyst",
+            "target": "TechnologyCompany"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ANALYZES",
+        "description": "Indicates that an entity analyzes trends, markets, or adoption of technology.",
+        "source_targets": [
+          {
+            "source": "IndustryAnalyst",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "IndustryAnalyst",
+            "target": "UserGroup"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "IndustryAnalyst"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "USES",
+        "description": "Indicates that an entity uses or adopts a technology, tool, or service.",
+        "source_targets": [
+          {
+            "source": "Developer",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "UserGroup",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "Person",
+            "target": "TechnologyCompany"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ADVOCATES_FOR",
+        "description": "Indicates that an entity advocates for or supports a cause, such as privacy or tech standards.",
+        "source_targets": [
+          {
+            "source": "UserGroup",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "UserGroup",
+            "target": "TechnologyCompany"
+          },
+          {
+            "source": "Person",
+            "target": "UserGroup"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Indicates that entities work together on projects, research, or initiatives.",
+        "source_targets": [
+          {
+            "source": "ResearchTeam",
+            "target": "AcademicInstitution"
+          },
+          {
+            "source": "TechnologyCompany",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Developer",
+            "target": "ResearchTeam"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COMMENTS_ON",
+        "description": "Indicates that an entity comments on or discusses topics related to technology or trends.",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "IndustryAnalyst",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "UserGroup",
+            "target": "Person"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "文本内容聚焦于GraphRAG技术的发展趋势，涉及技术验证、自动化能力、隐私保护、政策协调等议题。实体类型设计基于文本中出现的角色，如技术公司、研究团队、政府机构、媒体、学术机构、行业分析师、开发者、用户群体，并包含Person和Organization作为兜底类型。关系类型反映了社交媒体舆论模拟中的互动，如开发、报道、监管、研究、分析、使用、倡导、合作和评论。",
+  "graph_id": "nexus_34b743fa7e4f4c99",
+  "graph_build_task_id": "8763f01a-f307-471e-b35f-a26be706eb3d",
+  "simulation_requirement": "GraphRAG的发展趋势",
+  "focus_entities": null,
+  "focus_events": null,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": "Zep 账号配额不足：当前账号已超过 episode 使用上限，无法继续构建图谱，可在配额重置后重试（x-ratelimit-reset=1773765360）。请升级/更换 ZEP_API_KEY，或等待配额恢复后重试。"
+}

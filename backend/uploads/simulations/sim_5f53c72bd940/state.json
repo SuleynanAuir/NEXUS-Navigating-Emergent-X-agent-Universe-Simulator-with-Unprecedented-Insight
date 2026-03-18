@@ -4,7 +4,7 @@
   "graph_id": "nexus_2287b45fe0a542f8",
   "enable_twitter": true,
   "enable_reddit": true,
-  "status": "stopped",
+  "status": "running",
   "entities_count": 32,
   "profiles_count": 32,
   "entity_types": [
@@ -22,6 +22,6 @@
   "twitter_status": "not_started",
   "reddit_status": "not_started",
   "created_at": "2026-03-13T14:01:24.654895",
-  "updated_at": "2026-03-13T15:23:24.499527",
+  "updated_at": "2026-03-18T16:17:37.779547",
   "error": null
 }

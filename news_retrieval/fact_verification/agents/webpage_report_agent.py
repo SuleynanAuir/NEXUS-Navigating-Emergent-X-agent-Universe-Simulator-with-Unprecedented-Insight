@@ -24,6 +24,26 @@ class WebpageReportAgent:
         except Exception:
             claim_limit = 3
         self.analysis_claim_limit = max(1, min(5, claim_limit))
+        self.llm_strategy_default = self._normalize_llm_strategy(os.getenv("WEB_REPORT_LLM_STRATEGY", "assist"))
+        try:
+            assist_tokens = int(str(os.getenv("WEB_REPORT_AUX_MAX_TOKENS", "700") or "700").strip())
+        except Exception:
+            assist_tokens = 700
+        self.aux_max_tokens = max(220, min(2200, assist_tokens))
+        try:
+            deep_tokens = int(str(os.getenv("WEB_REPORT_DEEP_MAX_TOKENS", "1400") or "1400").strip())
+        except Exception:
+            deep_tokens = 1400
+        self.deep_max_tokens = max(600, min(4200, deep_tokens))
+
+    @staticmethod
+    def _normalize_llm_strategy(strategy: Optional[str]) -> str:
+        normalized = str(strategy or "").strip().lower()
+        if normalized in {"off", "none", "disable", "disabled", "0"}:
+            return "off"
+        if normalized in {"deep", "full", "comprehensive"}:
+            return "deep"
+        return "assist"
 
     @property
     def page_orchestrator(self):
@@ -229,7 +249,7 @@ class WebpageReportAgent:
             f"网页原文（完整内容）：\n{text_excerpt}"
         )
 
-        result = self.llm.json_call(prompt_system, prompt_user)
+        result = self.llm.json_call(prompt_system, prompt_user, max_tokens=self.deep_max_tokens)
         if not result or not isinstance(result, dict):
             return None
 
@@ -272,6 +292,73 @@ class WebpageReportAgent:
             "reliability_assessment": {"score": rel_score, "rationale": rel_rationale},
             "structured_claim_checks": structured_checks,
             "generator": "llm_deep",
+        }
+
+    def _llm_assist_summary(
+        self,
+        url: str,
+        title: str,
+        text: str,
+        marked_claims: List[str],
+    ) -> Optional[Dict[str, Any]]:
+        if not self.llm.enabled:
+            return None
+
+        compact_context = self._select_focus_context(text, marked_claims, max_chars=2200)
+        if not compact_context:
+            return None
+
+        prompt_system = (
+            "你是网页事实核查辅助助手。"
+            "目标是在低成本条件下输出高相关、可复核的结构化摘要。"
+            "必须只输出一个合法 JSON 对象，不要 Markdown，不要解释。"
+            "字段固定：page_summary,key_points,keywords,reliability_assessment,structured_claim_checks。"
+            "其中 page_summary 控制在 120-220 字；key_points 4-6 条；keywords 6-10 个；"
+            "structured_claim_checks 对每条标记输出 claim/status/evidence_from_page，"
+            "status 仅 allowed: supported|partially_supported|unclear|contradicted。"
+        )
+        prompt_user = (
+            f"网页 URL：{url}\n"
+            f"网页标题：{title}\n"
+            f"重点标记：{json.dumps(marked_claims[:8], ensure_ascii=False)}\n\n"
+            f"网页核心上下文（已压缩）：\n{compact_context}"
+        )
+
+        aux_model = self.llm.aux_model or None
+        result = self.llm.json_call(
+            prompt_system,
+            prompt_user,
+            temperature=0.1,
+            model_override=aux_model,
+            max_tokens=self.aux_max_tokens,
+        )
+        if not result or not isinstance(result, dict):
+            return None
+
+        page_summary = str(result.get("page_summary", "")).strip()
+        if not page_summary:
+            return None
+
+        key_points = self._dedupe_list(result.get("key_points") or [], limit=8)
+        keywords = self._dedupe_list(result.get("keywords") or [], limit=12)
+        reliability = result.get("reliability_assessment") or {}
+        if not isinstance(reliability, dict):
+            reliability = {}
+        try:
+            rel_score = max(0.0, min(1.0, float(reliability.get("score", 0.66) or 0.66)))
+        except Exception:
+            rel_score = 0.66
+        rel_rationale = str(reliability.get("rationale", "LLM assist summary generated.")).strip()
+        structured_checks = self._dedupe_claim_checks(result.get("structured_claim_checks") or [], limit=12)
+
+        return {
+            "page_summary": page_summary,
+            "key_points": key_points,
+            "deep_analysis": {},
+            "keywords": keywords,
+            "reliability_assessment": {"score": rel_score, "rationale": rel_rationale},
+            "structured_claim_checks": structured_checks,
+            "generator": "llm_assist",
         }
 
     @staticmethod
@@ -731,12 +818,16 @@ class WebpageReportAgent:
         enable_multi_agent_analysis: bool = True,
         snippet: str = "",
         use_llm: Optional[bool] = None,
+        llm_strategy: Optional[str] = None,
     ) -> Dict[str, Any]:
         llm_enabled_for_report = self.enable_llm_report_generation if use_llm is None else bool(use_llm)
+        strategy = self._normalize_llm_strategy(llm_strategy or self.llm_strategy_default)
+        if not llm_enabled_for_report:
+            strategy = "off"
         title, text = self.fetch_page_text(url)
         if not text.strip():
             # 正文抓取失败 → 优先用 LLM 基于标题+snippet 做推断分析
-            if self.llm.enabled and llm_enabled_for_report:
+            if self.llm.enabled and llm_enabled_for_report and strategy != "off":
                 inferred = self._llm_title_only_analysis(url, title, marked_claims, snippet=snippet)
             else:
                 inferred = None
@@ -791,7 +882,7 @@ class WebpageReportAgent:
                 )
             return result
 
-        if not self.llm.enabled or not llm_enabled_for_report:
+        if not self.llm.enabled or strategy == "off":
             result = self._fallback_report(url, title, text, marked_claims)
             result["priority_focus_marks"] = self._dedupe_list(priority_focus_marks or [], limit=15)
             result["secondary_focus_marks"] = self._dedupe_list(secondary_focus_marks or [], limit=15)
@@ -807,8 +898,12 @@ class WebpageReportAgent:
                 )
             return result
 
-        # ── LLM 深度分析模式 ──────────────────────────────────────────────────
-        deep_result = self._llm_deep_summary(url, title, text, marked_claims)
+        # ── LLM 分层策略：assist 优先，deep 按需 ────────────────────────────────
+        deep_result = None
+        if strategy == "assist":
+            deep_result = self._llm_assist_summary(url, title, text, marked_claims)
+        if deep_result is None and strategy == "deep":
+            deep_result = self._llm_deep_summary(url, title, text, marked_claims)
         if deep_result:
             result: Dict[str, Any] = {
                 "url": url,
@@ -822,7 +917,7 @@ class WebpageReportAgent:
                 "reliability_assessment": deep_result["reliability_assessment"],
                 "structured_claim_checks": deep_result["structured_claim_checks"],
                 "generated_at": datetime.utcnow().isoformat() + "Z",
-                "generator": "llm_deep",
+                "generator": str(deep_result.get("generator") or "llm"),
                 "_source_text_excerpt": text[:4000],
                 "web_content": text,
             }
@@ -845,7 +940,13 @@ class WebpageReportAgent:
                 f"重点标记内容（必须突出分析）：{json.dumps(marked_claims, ensure_ascii=False)}\n"
                 f"网页正文（截断）：\n{text}"
             )
-            result = self.llm.json_call(prompt_system, prompt_user)
+            result = self.llm.json_call(
+                prompt_system,
+                prompt_user,
+                temperature=0.15,
+                model_override=self.llm.aux_model or None,
+                max_tokens=self.aux_max_tokens,
+            )
             if not result:
                 return self._fallback_report(url, title, text, marked_claims)
 

@@ -1,0 +1,1010 @@
+{
+  "generated_at": "2026-03-17T23:52:24.903152Z",
+  "keyword": "GraphRAG research",
+  "report_count": 3,
+  "reports": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLSWlkdVdieGRwVGk4TlBBVkxINy1laGdhUlBpcG5wMnRVM3NLZWJmai12U050bWpOWGVmSGFSSmRDa0d6Sm5JQlVFR1pIY01K?oc=5",
+      "title": "Google 新聞",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "",
+      "key_points": [],
+      "risk_flags": [
+        "No extractable text from page",
+        "LLM inference also unavailable"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.2,
+        "rationale": "Page text could not be extracted and LLM is unavailable."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "contradicted",
+          "evidence_from_page": ""
+        },
+        {
+          "claim": "Google 新聞",
+          "status": "partially_supported",
+          "evidence_from_page": "PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies &nbsp;&nbsp; arXiv"
+        }
+      ],
+      "generated_at": "2026-03-17T23:47:29.551530Z",
+      "generator": "empty",
+      "_source_text_excerpt": "",
+      "web_content": "",
+      "priority_focus_marks": [],
+      "secondary_focus_marks": [],
+      "multi_agent_analysis": {
+        "analysis_mode": "hybrid_multi_agent",
+        "priority_focus_marks": [],
+        "secondary_focus_marks": [],
+        "analysis_claims": [
+          "请重点核查页面中与主题相关的事实信息",
+          "Google 新聞"
+        ],
+        "agent_claim_reports": [
+          {
+            "claim": "请重点核查页面中与主题相关的事实信息",
+            "confidence_score": 16.4,
+            "confidence_level": {
+              "name": "强烈反驳",
+              "name_en": "Strongly Refuted",
+              "score_range": "0 - 30",
+              "description": "有强有力的反证或缺乏任何支持",
+              "emoji": "❌❌",
+              "interpretation": "该主张有多个可靠来源的反驳。可以有信心认为该主张是不准确的。",
+              "color": "#c0392b"
+            },
+            "verdict": "strongly_refuted",
+            "score_breakdown": {
+              "factuality": 0.25,
+              "source_credibility": 0.25,
+              "evidence_consistency": 0.25,
+              "logical_rigor": 0.5,
+              "premise_coverage": 0.4
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [],
+            "reasoning_chain": [
+              "提取主张：请重点核查页面中与主题相关的事实信息",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 0 条（支持 0 / 反驳 0）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 16.4，结论为 strongly_refuted。"
+            ],
+            "trace": {
+              "claims_extracted": "2",
+              "evidence_total": "0",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "请重点核查页面中与主题相关的事实信息 | 请重点核查页面中与主题相关的事实信息 evidence | 请重点核查页面中与主题相关的事实信息 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "0",
+              "scholar_hits": "0",
+              "web_hits": "0",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "Google 新聞",
+            "confidence_score": 72.52,
+            "confidence_level": {
+              "name": "中等支持",
+              "name_en": "Moderately Supported",
+              "score_range": "65 - 80",
+              "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+              "emoji": "⚠️",
+              "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+              "color": "#f39c12"
+            },
+            "verdict": "moderately_supported",
+            "score_breakdown": {
+              "factuality": 0.609,
+              "source_credibility": 0.497,
+              "evidence_consistency": 0.865,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [
+              {
+                "quote": "PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies &nbsp;&nbsp; arXiv",
+                "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XemVtTEl0ZGFESXRkc0lPaV9XbzlKcU5wRDdEckZXa1gya1U0c29wV2dINkw0cVFDMFJIZXpqR3hQeXRVZXlVWTh5Yw?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XemVtTEl0ZGFESXRkc0lPaV9XbzlKcU5wRDdEckZXa1gya1U0c29wV2dINkw0cVFDMFJIZXpqR3hQeXRVZXlVWTh5Yw?oc=5",
+                "stance": "support",
+                "credibility": 0.526,
+                "relevance": 0.587,
+                "rationale": "token_overlap=1, bucket=scholar, search_score=0.495",
+                "context_alignment": 0.5,
+                "semantic_depth": 1.0,
+                "evidence_strength": 0.293
+              },
+              {
+                "quote": "Introducing Groundsource: Turning news reports into data with Gemini &nbsp;&nbsp; Research at Google",
+                "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNkgxZUV5Mkh0ZElpeFM3b0pnM0ZlMW5TMHEza09ra1Rac1BSVDUxY09rOWFjUXJOZVdteVFkTGtidkMxUC0xMndkdU0tcmJvVnoxODcxaVVvTXpiT29KSjJMcmhQSF9zTDZNck81SXRHdEE2ajdMUUF0SVRyb2pTZk1LVU9UOE1iRHEtbElfRUxzZzQta3NfWnpGWUd3QQ?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNkgxZUV5Mkh0ZElpeFM3b0pnM0ZlMW5TMHEza09ra1Rac1BSVDUxY09rOWFjUXJOZVdteVFkTGtidkMxUC0xMndkdU0tcmJvVnoxODcxaVVvTXpiT29KSjJMcmhQSF9zTDZNck81SXRHdEE2ajdMUUF0SVRyb2pTZk1LVU9UOE1iRHEtbElfRUxzZzQta3NfWnpGWUd3QQ?oc=5",
+                "stance": "support",
+                "credibility": 0.51,
+                "relevance": 0.533,
+                "rationale": "token_overlap=1, bucket=web, search_score=0.415",
+                "context_alignment": 0.5,
+                "semantic_depth": 1.0,
+                "evidence_strength": 0.267
+              },
+              {
+                "quote": "Google News Support Team Still Advices You Go To Search Liaison For Updates &nbsp;&nbsp; Search Engine Roundtable",
+                "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSUEFqeVFqLVVlWk5QNHRyRXU1R0M4c3N4bDhYTmhPYTM3SkpVeVhoY3ZDZWx5c3FhWmpKUDZPcTVGZWdQNHloVDhPTUZFbTJTN1pUY0JBYnZobS1kaElLcWFRSy1wYWJscFhzQlpXbk1vSHlCUU8yNmtha24xbDA?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSUEFqeVFqLVVlWk5QNHRyRXU1R0M4c3N4bDhYTmhPYTM3SkpVeVhoY3ZDZWx5c3FhWmpKUDZPcTVGZWdQNHloVDhPTUZFbTJTN1pUY0JBYnZobS1kaElLcWFRSy1wYWJscFhzQlpXbk1vSHlCUU8yNmtha24xbDA?oc=5",
+                "stance": "support",
+                "credibility": 0.51,
+                "relevance": 0.533,
+                "rationale": "token_overlap=1, bucket=web, search_score=0.415",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.96,
+                "evidence_strength": 0.256
+              }
+            ],
+            "refuting_evidence": [
+              {
+                "quote": "Earth Observatory &nbsp;&nbsp; NASA Science (.gov)",
+                "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45c2VhREhrU0pDaEVSTzRHZlBjYmRVYmE5cHVlMjM2NFVydmdKSzJlTUd5dnN3UDJ2Yi1YZk92Rmc0Nms5SWJQNUNvcVdTc0R4anpFeGtBeE9GUHV2dGc?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45c2VhREhrU0pDaEVSTzRHZlBjYmRVYmE5cHVlMjM2NFVydmdKSzJlTUd5dnN3UDJ2Yi1YZk92Rmc0Nms5SWJQNUNvcVdTc0R4anpFeGtBeE9GUHV2dGc?oc=5",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.065
+              },
+              {
+                "quote": "Individual Arrested for Little Round Top Monument Vandalism &nbsp;&nbsp; National Park Service (.gov)",
+                "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FVWFuQmU4bXB6cW52UEFORXhqRkl0THBpclhTNXpRNnRuZFk1OG1YM01tS21rSWktNk5JUGl4X3VBU2N6cURNWXBMT2JYVU8yZll2djRGbWpPeTdaR2FITVFURlNRbnM?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FVWFuQmU4bXB6cW52UEFORXhqRkl0THBpclhTNXpRNnRuZFk1OG1YM01tS21rSWktNk5JUGl4X3VBU2N6cURNWXBMT2JYVU8yZll2djRGbWpPeTdaR2FITVFURlNRbnM?oc=5",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.065
+              },
+              {
+                "quote": "[2603.09172] Reinforced Generation of Combinatorial Structures: Ramsey Numbers &nbsp;&nbsp; arXiv",
+                "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB3eFYxUE9pazJlNXZGZFlocnM4VGQ5Y1I0NTR4VlgxcXA4bkdTRm5xSHg3NHhyNUxBRlBfUGd2Z2w3UGhEb05j?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB3eFYxUE9pazJlNXZGZFlocnM4VGQ5Y1I0NTR4VlgxcXA4bkdTRm5xSHg3NHhyNUxBRlBfUGd2Z2w3UGhEb05j?oc=5",
+                "stance": "refute",
+                "credibility": 0.425,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.062
+              },
+              {
+                "quote": "Context Engineering: From Prompts to Corporate Multi-Agent Architecture Vera V. Vishnyakova Director, Center for Technology Tran &nbsp;&nbsp; arXiv",
+                "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NaTVrUDAtTTdFaUNzaENPMUhEQVNFRVRWNThwMmVvN3pfYTVJYTEyZWU5WG9zUWVhYllDSGN6UXF2a3FoU2Nr?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NaTVrUDAtTTdFaUNzaENPMUhEQVNFRVRWNThwMmVvN3pfYTVJYTEyZWU5WG9zUWVhYllDSGN6UXF2a3FoU2Nr?oc=5",
+                "stance": "refute",
+                "credibility": 0.425,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.057
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：Google 新聞",
+              "验证模式：fast，快速筛查结论：uncertain",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 7 条（支持 3 / 反驳 4）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 72.52，结论为 moderately_supported。",
+              "关键证据相关性：0.59, 0.53, 0.53"
+            ],
+            "trace": {
+              "claims_extracted": "2",
+              "evidence_total": "7",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "uncertain",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "Google 新聞 | Google 新聞 evidence | Google 新聞 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "2",
+              "scholar_hits": "3",
+              "web_hits": "2",
+              "llm_enhanced": "False"
+            }
+          }
+        ],
+        "integrated_findings": {
+          "overall_confidence": 44.46,
+          "overall_confidence_level": {
+            "name": "证据不足",
+            "name_en": "Insufficient Evidence",
+            "score_range": "30 - 45",
+            "description": "缺乏充分的支持证据，或有适度的反驳证据",
+            "emoji": "❌",
+            "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+            "color": "#e74c3c"
+          },
+          "overall_verdict": "insufficient",
+          "key_consensus_points": [
+            "Google 新聞（72.5）"
+          ],
+          "major_risks": [
+            "No extractable text from page",
+            "LLM inference also unavailable",
+            "请重点核查页面中与主题相关的事实信息（strongly_refuted）"
+          ],
+          "logic_watchpoints": [
+            "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+          ],
+          "premise_gaps": [
+            "需要明确时间范围（实验时间/发布年份）。",
+            "需要明确数据范围（行业、样本规模、地域）。",
+            "需要明确比较基准（与谁对比、指标是什么）。"
+          ],
+          "evidence_highlights": [
+            "PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies &nbsp;&nbsp; arXiv"
+          ],
+          "narrative_summary": "围绕页面核心结论与证据链展开核查；Google 新聞（72.5）；No extractable text from page；LLM inference also unavailable；请重点核查页面中与主题相关的事实信息（strongly_refuted）"
+        }
+      },
+      "fast_verification": {
+        "confidence_score": 30.95,
+        "confidence_level": {
+          "name": "证据不足",
+          "name_en": "Insufficient Evidence",
+          "score_range": "30 - 45",
+          "description": "缺乏充分的支持证据，或有适度的反驳证据",
+          "emoji": "❌",
+          "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+          "color": "#e74c3c"
+        },
+        "verdict": "insufficient",
+        "keywords": [
+          "&nbsp;&nbsp;",
+          "Automatically",
+          "Between",
+          "Data",
+          "Declarations",
+          "Detecting",
+          "Developer",
+          "Discrepancies",
+          "Gemini",
+          "Google",
+          "Groundsource:",
+          "Introducing"
+        ]
+      },
+      "_relevance_threshold": 0.4,
+      "quant_metrics": {
+        "confidence_score": 47.95,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "support_ratio": 0.36,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 2,
+        "key_point_count": 0
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ]
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsdkNvcTctMlFPZ256MnBMWXFxazNBNnhUOWVOQ0F3eGJ2Mkh6Yi1nZWUzZ0FZUEstY0toS2dyTFNmTjFTTVJ3YmhZeXU1VG1kd2c4?oc=5",
+      "title": "Google 新聞",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "",
+      "key_points": [],
+      "risk_flags": [
+        "No extractable text from page",
+        "LLM inference also unavailable"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.2,
+        "rationale": "Page text could not be extracted and LLM is unavailable."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "We'll look at some of the best fact-checking sites to fight misinformation, focusing on sites that are evidence -based and grounded in science so that you can be confident that the information you're reading and sharing is true."
+        },
+        {
+          "claim": "Google 新聞",
+          "status": "partially_supported",
+          "evidence_from_page": "PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies &nbsp;&nbsp; arXiv"
+        }
+      ],
+      "generated_at": "2026-03-17T23:47:29.613006Z",
+      "generator": "empty",
+      "_source_text_excerpt": "",
+      "web_content": "",
+      "priority_focus_marks": [],
+      "secondary_focus_marks": [],
+      "multi_agent_analysis": {
+        "analysis_mode": "hybrid_multi_agent",
+        "priority_focus_marks": [],
+        "secondary_focus_marks": [],
+        "analysis_claims": [
+          "请重点核查页面中与主题相关的事实信息",
+          "Google 新聞"
+        ],
+        "agent_claim_reports": [
+          {
+            "claim": "请重点核查页面中与主题相关的事实信息",
+            "confidence_score": 39.49,
+            "confidence_level": {
+              "name": "证据不足",
+              "name_en": "Insufficient Evidence",
+              "score_range": "30 - 45",
+              "description": "缺乏充分的支持证据，或有适度的反驳证据",
+              "emoji": "❌",
+              "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+              "color": "#e74c3c"
+            },
+            "verdict": "insufficient",
+            "score_breakdown": {
+              "factuality": 0.007,
+              "source_credibility": 0.418,
+              "evidence_consistency": 0.946,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [
+              {
+                "quote": "We'll look at some of the best fact-checking sites to fight misinformation, focusing on sites that are evidence -based and grounded in science so that you can be confident that the information you're reading and sharing is true.",
+                "url": "https://zh.101-help.com/ec20201514-10ge-zui-jia-shi-shi-jian-cha-zhan-dian-dao-fight-misinformation/",
+                "source": "https://zh.101-help.com/ec20201514-10ge-zui-jia-shi-shi-jian-cha-zhan-dian-dao-fight-misinformation/",
+                "stance": "refute",
+                "credibility": 0.409,
+                "relevance": 0.196,
+                "rationale": "token_overlap=0, bucket=web, search_score=0.105",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.045
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：请重点核查页面中与主题相关的事实信息",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 1 条（支持 0 / 反驳 1）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 39.49，结论为 insufficient。",
+              "关键证据相关性：0.20"
+            ],
+            "trace": {
+              "claims_extracted": "2",
+              "evidence_total": "1",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "请重点核查页面中与主题相关的事实信息 | 请重点核查页面中与主题相关的事实信息 evidence | 请重点核查页面中与主题相关的事实信息 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "0",
+              "scholar_hits": "0",
+              "web_hits": "1",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "Google 新聞",
+            "confidence_score": 72.52,
+            "confidence_level": {
+              "name": "中等支持",
+              "name_en": "Moderately Supported",
+              "score_range": "65 - 80",
+              "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+              "emoji": "⚠️",
+              "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+              "color": "#f39c12"
+            },
+            "verdict": "moderately_supported",
+            "score_breakdown": {
+              "factuality": 0.609,
+              "source_credibility": 0.497,
+              "evidence_consistency": 0.865,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [
+              {
+                "quote": "PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies &nbsp;&nbsp; arXiv",
+                "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XemVtTEl0ZGFESXRkc0lPaV9XbzlKcU5wRDdEckZXa1gya1U0c29wV2dINkw0cVFDMFJIZXpqR3hQeXRVZXlVWTh5Yw?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XemVtTEl0ZGFESXRkc0lPaV9XbzlKcU5wRDdEckZXa1gya1U0c29wV2dINkw0cVFDMFJIZXpqR3hQeXRVZXlVWTh5Yw?oc=5",
+                "stance": "support",
+                "credibility": 0.526,
+                "relevance": 0.587,
+                "rationale": "token_overlap=1, bucket=scholar, search_score=0.495",
+                "context_alignment": 0.5,
+                "semantic_depth": 1.0,
+                "evidence_strength": 0.293
+              },
+              {
+                "quote": "Introducing Groundsource: Turning news reports into data with Gemini &nbsp;&nbsp; Research at Google",
+                "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNkgxZUV5Mkh0ZElpeFM3b0pnM0ZlMW5TMHEza09ra1Rac1BSVDUxY09rOWFjUXJOZVdteVFkTGtidkMxUC0xMndkdU0tcmJvVnoxODcxaVVvTXpiT29KSjJMcmhQSF9zTDZNck81SXRHdEE2ajdMUUF0SVRyb2pTZk1LVU9UOE1iRHEtbElfRUxzZzQta3NfWnpGWUd3QQ?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNkgxZUV5Mkh0ZElpeFM3b0pnM0ZlMW5TMHEza09ra1Rac1BSVDUxY09rOWFjUXJOZVdteVFkTGtidkMxUC0xMndkdU0tcmJvVnoxODcxaVVvTXpiT29KSjJMcmhQSF9zTDZNck81SXRHdEE2ajdMUUF0SVRyb2pTZk1LVU9UOE1iRHEtbElfRUxzZzQta3NfWnpGWUd3QQ?oc=5",
+                "stance": "support",
+                "credibility": 0.51,
+                "relevance": 0.533,
+                "rationale": "token_overlap=1, bucket=web, search_score=0.415",
+                "context_alignment": 0.5,
+                "semantic_depth": 1.0,
+                "evidence_strength": 0.267
+              },
+              {
+                "quote": "Google News Support Team Still Advices You Go To Search Liaison For Updates &nbsp;&nbsp; Search Engine Roundtable",
+                "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSUEFqeVFqLVVlWk5QNHRyRXU1R0M4c3N4bDhYTmhPYTM3SkpVeVhoY3ZDZWx5c3FhWmpKUDZPcTVGZWdQNHloVDhPTUZFbTJTN1pUY0JBYnZobS1kaElLcWFRSy1wYWJscFhzQlpXbk1vSHlCUU8yNmtha24xbDA?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSUEFqeVFqLVVlWk5QNHRyRXU1R0M4c3N4bDhYTmhPYTM3SkpVeVhoY3ZDZWx5c3FhWmpKUDZPcTVGZWdQNHloVDhPTUZFbTJTN1pUY0JBYnZobS1kaElLcWFRSy1wYWJscFhzQlpXbk1vSHlCUU8yNmtha24xbDA?oc=5",
+                "stance": "support",
+                "credibility": 0.51,
+                "relevance": 0.533,
+                "rationale": "token_overlap=1, bucket=web, search_score=0.415",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.96,
+                "evidence_strength": 0.256
+              }
+            ],
+            "refuting_evidence": [
+              {
+                "quote": "Earth Observatory &nbsp;&nbsp; NASA Science (.gov)",
+                "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45c2VhREhrU0pDaEVSTzRHZlBjYmRVYmE5cHVlMjM2NFVydmdKSzJlTUd5dnN3UDJ2Yi1YZk92Rmc0Nms5SWJQNUNvcVdTc0R4anpFeGtBeE9GUHV2dGc?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45c2VhREhrU0pDaEVSTzRHZlBjYmRVYmE5cHVlMjM2NFVydmdKSzJlTUd5dnN3UDJ2Yi1YZk92Rmc0Nms5SWJQNUNvcVdTc0R4anpFeGtBeE9GUHV2dGc?oc=5",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.065
+              },
+              {
+                "quote": "Individual Arrested for Little Round Top Monument Vandalism &nbsp;&nbsp; National Park Service (.gov)",
+                "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FVWFuQmU4bXB6cW52UEFORXhqRkl0THBpclhTNXpRNnRuZFk1OG1YM01tS21rSWktNk5JUGl4X3VBU2N6cURNWXBMT2JYVU8yZll2djRGbWpPeTdaR2FITVFURlNRbnM?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FVWFuQmU4bXB6cW52UEFORXhqRkl0THBpclhTNXpRNnRuZFk1OG1YM01tS21rSWktNk5JUGl4X3VBU2N6cURNWXBMT2JYVU8yZll2djRGbWpPeTdaR2FITVFURlNRbnM?oc=5",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.065
+              },
+              {
+                "quote": "[2603.09172] Reinforced Generation of Combinatorial Structures: Ramsey Numbers &nbsp;&nbsp; arXiv",
+                "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB3eFYxUE9pazJlNXZGZFlocnM4VGQ5Y1I0NTR4VlgxcXA4bkdTRm5xSHg3NHhyNUxBRlBfUGd2Z2w3UGhEb05j?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB3eFYxUE9pazJlNXZGZFlocnM4VGQ5Y1I0NTR4VlgxcXA4bkdTRm5xSHg3NHhyNUxBRlBfUGd2Z2w3UGhEb05j?oc=5",
+                "stance": "refute",
+                "credibility": 0.425,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.062
+              },
+              {
+                "quote": "Context Engineering: From Prompts to Corporate Multi-Agent Architecture Vera V. Vishnyakova Director, Center for Technology Tran &nbsp;&nbsp; arXiv",
+                "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NaTVrUDAtTTdFaUNzaENPMUhEQVNFRVRWNThwMmVvN3pfYTVJYTEyZWU5WG9zUWVhYllDSGN6UXF2a3FoU2Nr?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NaTVrUDAtTTdFaUNzaENPMUhEQVNFRVRWNThwMmVvN3pfYTVJYTEyZWU5WG9zUWVhYllDSGN6UXF2a3FoU2Nr?oc=5",
+                "stance": "refute",
+                "credibility": 0.425,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.057
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：Google 新聞",
+              "验证模式：fast，快速筛查结论：uncertain",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 7 条（支持 3 / 反驳 4）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 72.52，结论为 moderately_supported。",
+              "关键证据相关性：0.59, 0.53, 0.53"
+            ],
+            "trace": {
+              "claims_extracted": "2",
+              "evidence_total": "7",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "uncertain",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "Google 新聞 | Google 新聞 evidence | Google 新聞 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "2",
+              "scholar_hits": "3",
+              "web_hits": "2",
+              "llm_enhanced": "False"
+            }
+          }
+        ],
+        "integrated_findings": {
+          "overall_confidence": 56.0,
+          "overall_confidence_level": {
+            "name": "不确定",
+            "name_en": "Uncertain",
+            "score_range": "45 - 65",
+            "description": "支持和反驳证据混杂，或证据质量不清晰",
+            "emoji": "❓",
+            "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+            "color": "#e67e22"
+          },
+          "overall_verdict": "uncertain",
+          "key_consensus_points": [
+            "Google 新聞（72.5）"
+          ],
+          "major_risks": [
+            "No extractable text from page",
+            "LLM inference also unavailable",
+            "请重点核查页面中与主题相关的事实信息（insufficient）"
+          ],
+          "logic_watchpoints": [
+            "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+          ],
+          "premise_gaps": [
+            "需要明确时间范围（实验时间/发布年份）。",
+            "需要明确数据范围（行业、样本规模、地域）。",
+            "需要明确比较基准（与谁对比、指标是什么）。"
+          ],
+          "evidence_highlights": [
+            "PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies &nbsp;&nbsp; arXiv"
+          ],
+          "narrative_summary": "围绕页面核心结论与证据链展开核查；Google 新聞（72.5）；No extractable text from page；LLM inference also unavailable；请重点核查页面中与主题相关的事实信息（insufficient）"
+        }
+      },
+      "fast_verification": {
+        "confidence_score": 48.05,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "keywords": [
+          "&nbsp;&nbsp;",
+          "-based",
+          "Automatically",
+          "Between",
+          "Data",
+          "Declarations",
+          "Detecting",
+          "Developer",
+          "Discrepancies",
+          "Gemini",
+          "Google",
+          "Groundsource:"
+        ]
+      },
+      "_relevance_threshold": 0.4,
+      "quant_metrics": {
+        "confidence_score": 63.09,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "support_ratio": 0.56,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 2,
+        "key_point_count": 0
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ]
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqZGVUOFNGNkExRVVkcVNtb25XTDN1ekd4ZUtPUWFZV2g4a3ZuYl9fTmVXdWlycTZLUkZBNHRpV2FQN3JRRDJUMVA1WWpKRWtMNzExUm9HcExSZkF2Y1NxYWgtS1dHSGV5X0psVzd0a3Azd00?oc=5",
+      "title": "Google 新聞",
+      "highlighted_claims": [
+        "请重点核查页面中与主题相关的事实信息"
+      ],
+      "page_summary": "",
+      "key_points": [],
+      "risk_flags": [
+        "No extractable text from page",
+        "LLM inference also unavailable"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.2,
+        "rationale": "Page text could not be extracted and LLM is unavailable."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "请重点核查页面中与主题相关的事实信息",
+          "status": "unclear",
+          "evidence_from_page": "We'll look at some of the best fact-checking sites to fight misinformation, focusing on sites that are evidence -based and grounded in science so that you can be confident that the information you're reading and sharing is true."
+        },
+        {
+          "claim": "Google 新聞",
+          "status": "partially_supported",
+          "evidence_from_page": "PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies &nbsp;&nbsp; arXiv"
+        }
+      ],
+      "generated_at": "2026-03-17T23:47:29.565720Z",
+      "generator": "empty",
+      "_source_text_excerpt": "",
+      "web_content": "",
+      "priority_focus_marks": [],
+      "secondary_focus_marks": [],
+      "multi_agent_analysis": {
+        "analysis_mode": "hybrid_multi_agent",
+        "priority_focus_marks": [],
+        "secondary_focus_marks": [],
+        "analysis_claims": [
+          "请重点核查页面中与主题相关的事实信息",
+          "Google 新聞"
+        ],
+        "agent_claim_reports": [
+          {
+            "claim": "请重点核查页面中与主题相关的事实信息",
+            "confidence_score": 39.49,
+            "confidence_level": {
+              "name": "证据不足",
+              "name_en": "Insufficient Evidence",
+              "score_range": "30 - 45",
+              "description": "缺乏充分的支持证据，或有适度的反驳证据",
+              "emoji": "❌",
+              "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+              "color": "#e74c3c"
+            },
+            "verdict": "insufficient",
+            "score_breakdown": {
+              "factuality": 0.007,
+              "source_credibility": 0.418,
+              "evidence_consistency": 0.946,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [
+              {
+                "quote": "We'll look at some of the best fact-checking sites to fight misinformation, focusing on sites that are evidence -based and grounded in science so that you can be confident that the information you're reading and sharing is true.",
+                "url": "https://zh.101-help.com/ec20201514-10ge-zui-jia-shi-shi-jian-cha-zhan-dian-dao-fight-misinformation/",
+                "source": "https://zh.101-help.com/ec20201514-10ge-zui-jia-shi-shi-jian-cha-zhan-dian-dao-fight-misinformation/",
+                "stance": "refute",
+                "credibility": 0.409,
+                "relevance": 0.196,
+                "rationale": "token_overlap=0, bucket=web, search_score=0.105",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.045
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：请重点核查页面中与主题相关的事实信息",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 1 条（支持 0 / 反驳 1）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 39.49，结论为 insufficient。",
+              "关键证据相关性：0.20"
+            ],
+            "trace": {
+              "claims_extracted": "2",
+              "evidence_total": "1",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "请重点核查页面中与主题相关的事实信息 | 请重点核查页面中与主题相关的事实信息 evidence | 请重点核查页面中与主题相关的事实信息 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "0",
+              "scholar_hits": "0",
+              "web_hits": "1",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "Google 新聞",
+            "confidence_score": 72.52,
+            "confidence_level": {
+              "name": "中等支持",
+              "name_en": "Moderately Supported",
+              "score_range": "65 - 80",
+              "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+              "emoji": "⚠️",
+              "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+              "color": "#f39c12"
+            },
+            "verdict": "moderately_supported",
+            "score_breakdown": {
+              "factuality": 0.609,
+              "source_credibility": 0.497,
+              "evidence_consistency": 0.865,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [
+              {
+                "quote": "PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies &nbsp;&nbsp; arXiv",
+                "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XemVtTEl0ZGFESXRkc0lPaV9XbzlKcU5wRDdEckZXa1gya1U0c29wV2dINkw0cVFDMFJIZXpqR3hQeXRVZXlVWTh5Yw?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XemVtTEl0ZGFESXRkc0lPaV9XbzlKcU5wRDdEckZXa1gya1U0c29wV2dINkw0cVFDMFJIZXpqR3hQeXRVZXlVWTh5Yw?oc=5",
+                "stance": "support",
+                "credibility": 0.526,
+                "relevance": 0.587,
+                "rationale": "token_overlap=1, bucket=scholar, search_score=0.495",
+                "context_alignment": 0.5,
+                "semantic_depth": 1.0,
+                "evidence_strength": 0.293
+              },
+              {
+                "quote": "Introducing Groundsource: Turning news reports into data with Gemini &nbsp;&nbsp; Research at Google",
+                "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNkgxZUV5Mkh0ZElpeFM3b0pnM0ZlMW5TMHEza09ra1Rac1BSVDUxY09rOWFjUXJOZVdteVFkTGtidkMxUC0xMndkdU0tcmJvVnoxODcxaVVvTXpiT29KSjJMcmhQSF9zTDZNck81SXRHdEE2ajdMUUF0SVRyb2pTZk1LVU9UOE1iRHEtbElfRUxzZzQta3NfWnpGWUd3QQ?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNkgxZUV5Mkh0ZElpeFM3b0pnM0ZlMW5TMHEza09ra1Rac1BSVDUxY09rOWFjUXJOZVdteVFkTGtidkMxUC0xMndkdU0tcmJvVnoxODcxaVVvTXpiT29KSjJMcmhQSF9zTDZNck81SXRHdEE2ajdMUUF0SVRyb2pTZk1LVU9UOE1iRHEtbElfRUxzZzQta3NfWnpGWUd3QQ?oc=5",
+                "stance": "support",
+                "credibility": 0.51,
+                "relevance": 0.533,
+                "rationale": "token_overlap=1, bucket=web, search_score=0.415",
+                "context_alignment": 0.5,
+                "semantic_depth": 1.0,
+                "evidence_strength": 0.267
+              },
+              {
+                "quote": "Google News Support Team Still Advices You Go To Search Liaison For Updates &nbsp;&nbsp; Search Engine Roundtable",
+                "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSUEFqeVFqLVVlWk5QNHRyRXU1R0M4c3N4bDhYTmhPYTM3SkpVeVhoY3ZDZWx5c3FhWmpKUDZPcTVGZWdQNHloVDhPTUZFbTJTN1pUY0JBYnZobS1kaElLcWFRSy1wYWJscFhzQlpXbk1vSHlCUU8yNmtha24xbDA?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSUEFqeVFqLVVlWk5QNHRyRXU1R0M4c3N4bDhYTmhPYTM3SkpVeVhoY3ZDZWx5c3FhWmpKUDZPcTVGZWdQNHloVDhPTUZFbTJTN1pUY0JBYnZobS1kaElLcWFRSy1wYWJscFhzQlpXbk1vSHlCUU8yNmtha24xbDA?oc=5",
+                "stance": "support",
+                "credibility": 0.51,
+                "relevance": 0.533,
+                "rationale": "token_overlap=1, bucket=web, search_score=0.415",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.96,
+                "evidence_strength": 0.256
+              }
+            ],
+            "refuting_evidence": [
+              {
+                "quote": "Earth Observatory &nbsp;&nbsp; NASA Science (.gov)",
+                "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45c2VhREhrU0pDaEVSTzRHZlBjYmRVYmE5cHVlMjM2NFVydmdKSzJlTUd5dnN3UDJ2Yi1YZk92Rmc0Nms5SWJQNUNvcVdTc0R4anpFeGtBeE9GUHV2dGc?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45c2VhREhrU0pDaEVSTzRHZlBjYmRVYmE5cHVlMjM2NFVydmdKSzJlTUd5dnN3UDJ2Yi1YZk92Rmc0Nms5SWJQNUNvcVdTc0R4anpFeGtBeE9GUHV2dGc?oc=5",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.065
+              },
+              {
+                "quote": "Individual Arrested for Little Round Top Monument Vandalism &nbsp;&nbsp; National Park Service (.gov)",
+                "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FVWFuQmU4bXB6cW52UEFORXhqRkl0THBpclhTNXpRNnRuZFk1OG1YM01tS21rSWktNk5JUGl4X3VBU2N6cURNWXBMT2JYVU8yZll2djRGbWpPeTdaR2FITVFURlNRbnM?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FVWFuQmU4bXB6cW52UEFORXhqRkl0THBpclhTNXpRNnRuZFk1OG1YM01tS21rSWktNk5JUGl4X3VBU2N6cURNWXBMT2JYVU8yZll2djRGbWpPeTdaR2FITVFURlNRbnM?oc=5",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.065
+              },
+              {
+                "quote": "[2603.09172] Reinforced Generation of Combinatorial Structures: Ramsey Numbers &nbsp;&nbsp; arXiv",
+                "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB3eFYxUE9pazJlNXZGZFlocnM4VGQ5Y1I0NTR4VlgxcXA4bkdTRm5xSHg3NHhyNUxBRlBfUGd2Z2w3UGhEb05j?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB3eFYxUE9pazJlNXZGZFlocnM4VGQ5Y1I0NTR4VlgxcXA4bkdTRm5xSHg3NHhyNUxBRlBfUGd2Z2w3UGhEb05j?oc=5",
+                "stance": "refute",
+                "credibility": 0.425,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.062
+              },
+              {
+                "quote": "Context Engineering: From Prompts to Corporate Multi-Agent Architecture Vera V. Vishnyakova Director, Center for Technology Tran &nbsp;&nbsp; arXiv",
+                "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NaTVrUDAtTTdFaUNzaENPMUhEQVNFRVRWNThwMmVvN3pfYTVJYTEyZWU5WG9zUWVhYllDSGN6UXF2a3FoU2Nr?oc=5",
+                "source": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NaTVrUDAtTTdFaUNzaENPMUhEQVNFRVRWNThwMmVvN3pfYTVJYTEyZWU5WG9zUWVhYllDSGN6UXF2a3FoU2Nr?oc=5",
+                "stance": "refute",
+                "credibility": 0.425,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.057
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：Google 新聞",
+              "验证模式：fast，快速筛查结论：uncertain",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 7 条（支持 3 / 反驳 4）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 72.52，结论为 moderately_supported。",
+              "关键证据相关性：0.59, 0.53, 0.53"
+            ],
+            "trace": {
+              "claims_extracted": "2",
+              "evidence_total": "7",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "uncertain",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "Google 新聞 | Google 新聞 evidence | Google 新聞 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "2",
+              "scholar_hits": "3",
+              "web_hits": "2",
+              "llm_enhanced": "False"
+            }
+          }
+        ],
+        "integrated_findings": {
+          "overall_confidence": 56.0,
+          "overall_confidence_level": {
+            "name": "不确定",
+            "name_en": "Uncertain",
+            "score_range": "45 - 65",
+            "description": "支持和反驳证据混杂，或证据质量不清晰",
+            "emoji": "❓",
+            "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+            "color": "#e67e22"
+          },
+          "overall_verdict": "uncertain",
+          "key_consensus_points": [
+            "Google 新聞（72.5）"
+          ],
+          "major_risks": [
+            "No extractable text from page",
+            "LLM inference also unavailable",
+            "请重点核查页面中与主题相关的事实信息（insufficient）"
+          ],
+          "logic_watchpoints": [
+            "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+          ],
+          "premise_gaps": [
+            "需要明确时间范围（实验时间/发布年份）。",
+            "需要明确数据范围（行业、样本规模、地域）。",
+            "需要明确比较基准（与谁对比、指标是什么）。"
+          ],
+          "evidence_highlights": [
+            "PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies &nbsp;&nbsp; arXiv"
+          ],
+          "narrative_summary": "围绕页面核心结论与证据链展开核查；Google 新聞（72.5）；No extractable text from page；LLM inference also unavailable；请重点核查页面中与主题相关的事实信息（insufficient）"
+        }
+      },
+      "fast_verification": {
+        "confidence_score": 48.05,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "keywords": [
+          "&nbsp;&nbsp;",
+          "-based",
+          "Automatically",
+          "Between",
+          "Data",
+          "Declarations",
+          "Detecting",
+          "Developer",
+          "Discrepancies",
+          "Gemini",
+          "Google",
+          "Groundsource:"
+        ]
+      },
+      "_relevance_threshold": 0.4,
+      "quant_metrics": {
+        "confidence_score": 63.09,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "support_ratio": 0.56,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 2,
+        "key_point_count": 0
+      },
+      "focused_hl_content": [
+        "请重点核查页面中与主题相关的事实信息"
+      ]
+    }
+  ]
+}

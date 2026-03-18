@@ -1,0 +1,389 @@
+{
+  "project_id": "proj_eed708a88667",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-03-18T13:12:46.256819",
+  "updated_at": "2026-03-18T13:19:53.775745",
+  "files": [
+    {
+      "filename": "agent_guide_20260318_130844.md",
+      "size": 36985
+    }
+  ],
+  "total_text_length": 16085,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "ResearchTeam",
+        "description": "A team or group within a research institution focused on AI or technology development.",
+        "attributes": [
+          {
+            "name": "team_name",
+            "type": "text",
+            "description": "The name of the research team."
+          },
+          {
+            "name": "research_focus",
+            "type": "text",
+            "description": "The primary research area or technology focus."
+          }
+        ],
+        "examples": [
+          "Microsoft Research Team",
+          "CUHK-Shenzhen Research Team"
+        ]
+      },
+      {
+        "name": "University",
+        "description": "An academic institution involved in research and education.",
+        "attributes": [
+          {
+            "name": "university_name",
+            "type": "text",
+            "description": "The full name of the university."
+          },
+          {
+            "name": "location",
+            "type": "text",
+            "description": "The geographical location of the university."
+          }
+        ],
+        "examples": [
+          "CUHK-Shenzhen",
+          "Harvard University"
+        ]
+      },
+      {
+        "name": "TechCompany",
+        "description": "A company that develops or provides technology products and services.",
+        "attributes": [
+          {
+            "name": "company_name",
+            "type": "text",
+            "description": "The full name of the technology company."
+          },
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "The primary industry or sector the company operates in."
+          }
+        ],
+        "examples": [
+          "Microsoft",
+          "Huawei Cloud"
+        ]
+      },
+      {
+        "name": "MedicalCenter",
+        "description": "A healthcare institution involved in medical research and patient care.",
+        "attributes": [
+          {
+            "name": "center_name",
+            "type": "text",
+            "description": "The full name of the medical center."
+          },
+          {
+            "name": "specialization",
+            "type": "text",
+            "description": "The medical specialization or focus area."
+          }
+        ],
+        "examples": [
+          "Cedars-Sinai Medical Center",
+          "Mayo Clinic"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "A government body involved in regulation, policy-making, or funding.",
+        "attributes": [
+          {
+            "name": "agency_name",
+            "type": "text",
+            "description": "The full name of the government agency."
+          },
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "The geographical or functional jurisdiction of the agency."
+          }
+        ],
+        "examples": [
+          "FDA",
+          "NIH"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "A media organization that reports news and information.",
+        "attributes": [
+          {
+            "name": "outlet_name",
+            "type": "text",
+            "description": "The full name of the media outlet."
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "The type of media (e.g., newspaper, TV, online)."
+          }
+        ],
+        "examples": [
+          "Reuters",
+          "TechCrunch"
+        ]
+      },
+      {
+        "name": "Investor",
+        "description": "An individual or entity that invests in technology or startups.",
+        "attributes": [
+          {
+            "name": "investor_name",
+            "type": "text",
+            "description": "The full name of the investor or investment firm."
+          },
+          {
+            "name": "investment_focus",
+            "type": "text",
+            "description": "The primary focus area for investments."
+          }
+        ],
+        "examples": [
+          "Sequoia Capital",
+          "Individual Venture Capitalist"
+        ]
+      },
+      {
+        "name": "IndustryExpert",
+        "description": "An individual with expertise in AI, technology, or specific industries.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The full name of the expert."
+          },
+          {
+            "name": "expertise_area",
+            "type": "text",
+            "description": "The area of expertise or specialization."
+          }
+        ],
+        "examples": [
+          "AI Researcher",
+          "Healthcare Technology Analyst"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "A natural person not fitting into more specific person types.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The full name of the person."
+          },
+          {
+            "name": "role",
+            "type": "text",
+            "description": "The role or occupation of the person."
+          }
+        ],
+        "examples": [
+          "John Doe",
+          "Jane Smith"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "An organization not fitting into more specific organization types.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "The full name of the organization."
+          },
+          {
+            "name": "description",
+            "type": "text",
+            "description": "A brief description of the organization's purpose."
+          }
+        ],
+        "examples": [
+          "Small NGO",
+          "Local Community Group"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "WORKS_FOR",
+        "description": "Indicates employment or affiliation with an organization.",
+        "source_targets": [
+          {
+            "source": "ResearchTeam",
+            "target": "University"
+          },
+          {
+            "source": "ResearchTeam",
+            "target": "TechCompany"
+          },
+          {
+            "source": "IndustryExpert",
+            "target": "University"
+          },
+          {
+            "source": "IndustryExpert",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Indicates collaboration between entities on projects or research.",
+        "source_targets": [
+          {
+            "source": "University",
+            "target": "TechCompany"
+          },
+          {
+            "source": "ResearchTeam",
+            "target": "MedicalCenter"
+          },
+          {
+            "source": "TechCompany",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Indicates reporting or coverage of topics by media.",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "TechCompany"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "University"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "MedicalCenter"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "INVESTS_IN",
+        "description": "Indicates financial investment in an entity or technology.",
+        "source_targets": [
+          {
+            "source": "Investor",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Investor",
+            "target": "University"
+          },
+          {
+            "source": "Investor",
+            "target": "MedicalCenter"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Indicates regulatory oversight or policy-making authority.",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "TechCompany"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "MedicalCenter"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "University"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COMMENTS_ON",
+        "description": "Indicates public commentary or opinion on topics.",
+        "source_targets": [
+          {
+            "source": "IndustryExpert",
+            "target": "TechCompany"
+          },
+          {
+            "source": "IndustryExpert",
+            "target": "MedicalCenter"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Indicates support or endorsement of ideas or entities.",
+        "source_targets": [
+          {
+            "source": "University",
+            "target": "ResearchTeam"
+          },
+          {
+            "source": "TechCompany",
+            "target": "ResearchTeam"
+          },
+          {
+            "source": "Investor",
+            "target": "TechCompany"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "RESPONDS_TO",
+        "description": "Indicates a response to statements or events.",
+        "source_targets": [
+          {
+            "source": "TechCompany",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "文本内容聚焦于GraphRAG技术在AI领域的趋势分析，涉及研究团队、大学、科技公司、医疗机构等实体。基于此，设计了8个具体实体类型（如ResearchTeam、University、TechCompany等）和2个兜底类型（Person、Organization），以覆盖文本中提到的各类发声主体。关系类型反映了社交媒体上的互动，如合作、报道、投资等。",
+  "graph_id": "nexus_9b90ddca57c2433f",
+  "graph_build_task_id": "30b76da5-44a7-4df5-af3b-130fbf25ffc3",
+  "simulation_requirement": "未来三年内，生成式 AI 在临床诊断辅助领域的应用将如何发展？哪些细分方向可能最先突破？",
+  "focus_entities": null,
+  "focus_events": null,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

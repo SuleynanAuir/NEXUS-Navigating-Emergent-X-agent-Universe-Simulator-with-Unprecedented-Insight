@@ -637,14 +637,17 @@ def _build_and_verify_single_item(
     mode = str(step3_mode or "平衡模式").strip()
     if mode == "极速模式":
         use_llm = False
+        llm_strategy = "off"
         enable_multi_agent_analysis = False
         skip_external_verify = True
     elif mode == "深度模式":
         use_llm = True
+        llm_strategy = "deep"
         enable_multi_agent_analysis = True
         skip_external_verify = False
     else:
         use_llm = True
+        llm_strategy = "assist"
         enable_multi_agent_analysis = False
         skip_external_verify = True
     url = _resolve_result_url(picked_item)
@@ -664,6 +667,7 @@ def _build_and_verify_single_item(
                 enable_multi_agent_analysis=enable_multi_agent_analysis,
                 snippet=item_snippet,
                 use_llm=use_llm,
+                llm_strategy=llm_strategy,
             )
         except Exception as error:
             report_json = {
@@ -1869,7 +1873,7 @@ def main() -> None:
             if st.session_state.get("step3_mode", "平衡模式") in {"极速模式", "平衡模式", "深度模式"}
             else 1,
             horizontal=True,
-            help="极速：最快（禁用LLM与多Agent）；平衡：默认推荐（LLM + 快速校验）；深度：最全面（LLM + 多Agent + 外部校验）。",
+            help="极速：最快（禁用LLM与多Agent）；平衡：默认推荐（辅助LLM低token策略）；深度：最全面（深度LLM + 多Agent + 外部校验）。",
         )
         st.session_state.step3_mode = step3_mode
 

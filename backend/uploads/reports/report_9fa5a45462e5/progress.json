@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "progress": 100,
+  "message": "主流程失败，已自动生成应急报告（可正常查看）",
+  "current_section": null,
+  "completed_sections": [
+    "应急执行摘要",
+    "本地数据快照",
+    "稳定性结论与重试建议"
+  ],
+  "updated_at": "2026-03-18T16:18:03.755295"
+}

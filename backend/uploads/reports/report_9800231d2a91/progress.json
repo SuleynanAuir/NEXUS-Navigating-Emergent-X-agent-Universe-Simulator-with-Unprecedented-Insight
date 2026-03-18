@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "progress": 100,
+  "message": "报告生成完成",
+  "current_section": null,
+  "completed_sections": [
+    "技术突破方向与优先领域预测",
+    "各类Agent的反应与行动模式",
+    "未来趋势与潜在风险揭示"
+  ],
+  "updated_at": "2026-03-18T13:39:12.959772"
+}

@@ -26,16 +26,28 @@ class LLMClient:
         )
         self.base_url = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com").rstrip("/")
         self.model = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
+        self.aux_model = os.getenv("DEEPSEEK_AUX_MODEL", "").strip()
         try:
             self.timeout = max(8, min(120, int(str(os.getenv("DEEPSEEK_TIMEOUT", "22") or "22").strip())))
         except Exception:
             self.timeout = 22
+        try:
+            env_max_tokens = int(str(os.getenv("DEEPSEEK_MAX_TOKENS", "0") or "0").strip())
+        except Exception:
+            env_max_tokens = 0
+        self.default_max_tokens = env_max_tokens if env_max_tokens > 0 else None
 
     @property
     def enabled(self) -> bool:
         return bool(self.api_key)
 
-    def _chat(self, messages: List[Dict[str, str]], temperature: float = 0.2) -> Optional[str]:
+    def _chat(
+        self,
+        messages: List[Dict[str, str]],
+        temperature: float = 0.2,
+        model_override: Optional[str] = None,
+        max_tokens: Optional[int] = None,
+    ) -> Optional[str]:
         if not self.enabled:
             return None
         url = f"{self.base_url}/chat/completions"
@@ -44,10 +56,13 @@ class LLMClient:
             "Content-Type": "application/json",
         }
         payload = {
-            "model": self.model,
+            "model": model_override or self.model,
             "temperature": temperature,
             "messages": messages,
         }
+        final_max_tokens = max_tokens if isinstance(max_tokens, int) and max_tokens > 0 else self.default_max_tokens
+        if final_max_tokens:
+            payload["max_tokens"] = int(final_max_tokens)
         try:
             response = requests.post(url, headers=headers, json=payload, timeout=self.timeout)
             response.raise_for_status()
@@ -61,10 +76,18 @@ class LLMClient:
         system_prompt: str,
         user_prompt: str,
         temperature: float = 0.2,
+        model_override: Optional[str] = None,
+        max_tokens: Optional[int] = None,
     ) -> Optional[Dict[str, Any]]:
         """调用 LLM 并强制解析为 JSON。优先使用 response_format=json_object。"""
         # 尝试带 response_format 的请求（DeepSeek 支持）
-        raw = self._chat_json_mode(system_prompt, user_prompt, temperature)
+        raw = self._chat_json_mode(
+            system_prompt,
+            user_prompt,
+            temperature,
+            model_override=model_override,
+            max_tokens=max_tokens,
+        )
         if raw is None:
             # 降级到普通 chat
             raw = self._chat(
@@ -73,6 +96,8 @@ class LLMClient:
                     {"role": "user", "content": user_prompt},
                 ],
                 temperature=temperature,
+                model_override=model_override,
+                max_tokens=max_tokens,
             )
         if not raw:
             return None
@@ -83,6 +108,8 @@ class LLMClient:
         system_prompt: str,
         user_prompt: str,
         temperature: float = 0.2,
+        model_override: Optional[str] = None,
+        max_tokens: Optional[int] = None,
     ) -> Optional[str]:
         """使用 response_format=json_object 模式调用，强制输出纯 JSON。"""
         if not self.enabled:
@@ -93,7 +120,7 @@ class LLMClient:
             "Content-Type": "application/json",
         }
         payload = {
-            "model": self.model,
+            "model": model_override or self.model,
             "temperature": temperature,
             "response_format": {"type": "json_object"},
             "messages": [
@@ -101,6 +128,9 @@ class LLMClient:
                 {"role": "user", "content": user_prompt},
             ],
         }
+        final_max_tokens = max_tokens if isinstance(max_tokens, int) and max_tokens > 0 else self.default_max_tokens
+        if final_max_tokens:
+            payload["max_tokens"] = int(final_max_tokens)
         try:
             response = requests.post(url, headers=headers, json=payload, timeout=self.timeout)
             response.raise_for_status()

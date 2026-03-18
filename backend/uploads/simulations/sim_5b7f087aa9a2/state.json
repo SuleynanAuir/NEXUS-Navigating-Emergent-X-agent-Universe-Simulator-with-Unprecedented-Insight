@@ -1,0 +1,24 @@
+{
+  "simulation_id": "sim_5b7f087aa9a2",
+  "project_id": "proj_eed708a88667",
+  "graph_id": "nexus_9b90ddca57c2433f",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "running",
+  "entities_count": 6,
+  "profiles_count": 6,
+  "entity_types": [
+    "MedicalCenter",
+    "ResearchTeam",
+    "TechCompany",
+    "University"
+  ],
+  "config_generated": true,
+  "config_reasoning": "时间配置: 模拟未来三年内生成式AI在临床诊断辅助领域的发展趋势，涉及学术研究、企业合作和医疗应用。总时长72小时（3天）覆盖典型讨论周期，每轮60分钟便于跟踪进展。参与群体包括大学、科技公司和医学中心，主要在工作和晚间高峰活跃（如研究人员和开发者），凌晨低谷。Agent激活数适中（2-5个/小时），反映专业讨论而非大众热点，符合中国人作息习惯。 | 事件配置: 基于模拟需求和实体信息，热点话题聚焦GraphRAG、临床诊断辅助等关键词；舆论方向从技术能力、标准化和医学应用展开；初始帖子分配了可用实体类型，确保发布者匹配其角色（如大学讨论合作、科技公司推广工具、医疗中心分享案例、研究团队解析技术），以模拟多元视角讨论未来三年发展。 | Agent配置: 成功生成 6 个 | 初始帖子分配: 4 个帖子已分配发布者",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-03-18T13:26:19.847525",
+  "updated_at": "2026-03-18T13:29:41.241436",
+  "error": null
+}

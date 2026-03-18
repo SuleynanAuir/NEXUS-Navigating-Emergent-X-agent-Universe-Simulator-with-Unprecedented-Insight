@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "progress": 100,
+  "message": "报告生成完成",
+  "current_section": null,
+  "completed_sections": [
+    "模拟世界状态：技术孤岛与零演化",
+    "Agent反应与行动：集体缺席与无响应",
+    "未来趋势与风险：生态真空与技术潜力冻结"
+  ],
+  "updated_at": "2026-03-18T15:21:16.837990"
+}

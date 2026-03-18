@@ -1,0 +1,255 @@
+{
+  "simulation_id": "sim_5b7f087aa9a2",
+  "project_id": "proj_eed708a88667",
+  "graph_id": "nexus_9b90ddca57c2433f",
+  "simulation_requirement": "未来三年内，生成式 AI 在临床诊断辅助领域的应用将如何发展？哪些细分方向可能最先突破？",
+  "time_config": {
+    "total_simulation_hours": 72,
+    "minutes_per_round": 60,
+    "agents_per_hour_min": 2,
+    "agents_per_hour_max": 5,
+    "peak_hours": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "peak_activity_multiplier": 1.5,
+    "off_peak_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "off_peak_activity_multiplier": 0.05,
+    "morning_hours": [
+      6,
+      7,
+      8
+    ],
+    "morning_activity_multiplier": 0.4,
+    "work_hours": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "work_activity_multiplier": 0.7
+  },
+  "agent_configs": [
+    {
+      "agent_id": 0,
+      "entity_uuid": "db157183-fa76-4680-929f-5038d733fe28",
+      "entity_name": "港中大",
+      "entity_type": "University",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.3,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 1,
+      "entity_uuid": "b2f114fd-b2dd-4d7c-bce6-5f0d9b69d987",
+      "entity_name": "华为云",
+      "entity_type": "TechCompany",
+      "activity_level": 0.3,
+      "posts_per_hour": 0.2,
+      "comments_per_hour": 0.3,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.4,
+      "stance": "supportive",
+      "influence_weight": 2.7
+    },
+    {
+      "agent_id": 2,
+      "entity_uuid": "a3b50c48-a05d-4802-887e-829ea07588d8",
+      "entity_name": "Cedars-Sinai医学中心",
+      "entity_type": "MedicalCenter",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.2,
+      "stance": "neutral",
+      "influence_weight": 2.6
+    },
+    {
+      "agent_id": 3,
+      "entity_uuid": "7a7ac999-7361-4493-ad57-278652b22f24",
+      "entity_name": "microsoft",
+      "entity_type": "TechCompany",
+      "activity_level": 0.3,
+      "posts_per_hour": 0.2,
+      "comments_per_hour": 0.3,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.5,
+      "stance": "supportive",
+      "influence_weight": 2.9
+    },
+    {
+      "agent_id": 4,
+      "entity_uuid": "26972b04-1510-4da0-b004-717cdcd461e9",
+      "entity_name": "微软研究团队",
+      "entity_type": "ResearchTeam",
+      "activity_level": 0.3,
+      "posts_per_hour": 0.2,
+      "comments_per_hour": 0.3,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.4,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 5,
+      "entity_uuid": "15dd3697-bc5f-4c46-8758-1d27fd7c289d",
+      "entity_name": "港中大（深圳）",
+      "entity_type": "University",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.3,
+      "stance": "supportive",
+      "influence_weight": 2.7
+    }
+  ],
+  "event_config": {
+    "initial_posts": [
+      {
+        "content": "港中大与华为云联合提出的GraphRAG统一框架，预计将推动生成式AI在临床诊断辅助领域的标准化，特别是在复杂疾病如阿尔茨海默病的知识图谱应用中，未来三年可能实现技术整合和试点部署。",
+        "poster_type": "University",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "微软开源的GraphRAG项目降低了技术门槛，其结构化理解和全局洞察能力有望加速AI在临床诊断的细分方向突破，如医学影像分析和病理报告生成，优先在资源丰富的医疗中心落地。",
+        "poster_type": "TechCompany",
+        "poster_agent_id": 1
+      },
+      {
+        "content": "Cedars-Sinai医学中心的AlzKB知识库展示了知识图谱与AI在阿尔茨海默病研究中的潜力，未来三年生成式AI可能最先在神经退行性疾病诊断辅助中突破，通过增强数据整合和病因发现。",
+        "poster_type": "MedicalCenter",
+        "poster_agent_id": 2
+      },
+      {
+        "content": "微软研究团队开发的GraphRAG技术，通过两阶段索引架构提升多跳推理能力，在临床诊断辅助中可能优先突破实时病例分析和个性化治疗建议方向，解决传统AI的黑盒问题。",
+        "poster_type": "ResearchTeam",
+        "poster_agent_id": 4
+      }
+    ],
+    "scheduled_events": [],
+    "hot_topics": [
+      "GraphRAG",
+      "临床诊断辅助",
+      "知识图谱",
+      "AI标准化",
+      "医学AI应用",
+      "开源工具",
+      "多跳推理",
+      "阿尔茨海默病"
+    ],
+    "narrative_direction": "舆论将围绕生成式AI在临床诊断辅助领域的快速技术演进和标准化进程发展，强调GraphRAG等图增强技术如何解决传统AI的透明性和推理缺陷，推动在医学细分领域（如神经退行性疾病）的突破性应用，同时关注产学研合作（如港中大与华为云）和开源生态（如微软）对技术扩散的影响。"
+  },
+  "twitter_config": {
+    "platform": "twitter",
+    "recency_weight": 0.4,
+    "popularity_weight": 0.3,
+    "relevance_weight": 0.3,
+    "viral_threshold": 10,
+    "echo_chamber_strength": 0.5
+  },
+  "reddit_config": {
+    "platform": "reddit",
+    "recency_weight": 0.3,
+    "popularity_weight": 0.4,
+    "relevance_weight": 0.3,
+    "viral_threshold": 15,
+    "echo_chamber_strength": 0.6
+  },
+  "llm_model": "deepseek-chat",
+  "llm_base_url": "https://api.deepseek.com",
+  "generated_at": "2026-03-18T13:27:50.201717",
+  "generation_reasoning": "时间配置: 模拟未来三年内生成式AI在临床诊断辅助领域的发展趋势，涉及学术研究、企业合作和医疗应用。总时长72小时（3天）覆盖典型讨论周期，每轮60分钟便于跟踪进展。参与群体包括大学、科技公司和医学中心，主要在工作和晚间高峰活跃（如研究人员和开发者），凌晨低谷。Agent激活数适中（2-5个/小时），反映专业讨论而非大众热点，符合中国人作息习惯。 | 事件配置: 基于模拟需求和实体信息，热点话题聚焦GraphRAG、临床诊断辅助等关键词；舆论方向从技术能力、标准化和医学应用展开；初始帖子分配了可用实体类型，确保发布者匹配其角色（如大学讨论合作、科技公司推广工具、医疗中心分享案例、研究团队解析技术），以模拟多元视角讨论未来三年发展。 | Agent配置: 成功生成 6 个 | 初始帖子分配: 4 个帖子已分配发布者"
+}

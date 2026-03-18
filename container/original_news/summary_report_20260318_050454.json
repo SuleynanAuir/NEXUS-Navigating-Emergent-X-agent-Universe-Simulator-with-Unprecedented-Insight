@@ -1,0 +1,847 @@
+{
+  "generated_at": "2026-03-18T05:04:54.184993Z",
+  "keyword": "GraphRAG research",
+  "report_count": 4,
+  "reports": [
+    {
+      "url": "https://blog.csdn.net/daqianai/article/details/149888158",
+      "title": "GraphRAG：基于知识图谱的检索增强生成技术解析_graph-r1-CSDN博客",
+      "highlighted_claims": [
+        "GraphRAG（Graph-based Retrieval-Augmented Generation）由微软研究院于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）构建同质无向加权图（节点=实体，边=关系，权重=关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化）生成层次化社区摘要（叶级社区→高层社区）",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims） 构建同质无向加权图（节点实体，边关系，权重关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化） 生成层次化社区摘要（叶级社区高层社区）"
+      ],
+      "page_summary": "，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。\nFrom Local to Global: A Graph RAG Approach to Query-Focused Summarization\n本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！",
+      "key_points": [
+        "，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+        "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+        "本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！",
+        "（Graph Modularity）允许Leiden算法将相关实体聚类，形成语义连贯的社区（如“糖尿病治疗”社区包含胰岛素/血糖监测等节点）。",
+        "本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！"
+      ],
+      "risk_flags": [
+        "LLM unavailable: fallback summary used"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.58,
+        "rationale": "Fallback mode based on structural page extraction without LLM semantic validation."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "GraphRAG（Graph-based Retrieval-Augmented Generation）由微软研究院于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+          "status": "partially_supported",
+          "evidence_from_page": "，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。"
+        },
+        {
+          "claim": "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）构建同质无向加权图（节点=实体，边=关系，权重=关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化）生成层次化社区摘要（叶级社区→高层社区）",
+          "status": "supported",
+          "evidence_from_page": "，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。"
+        },
+        {
+          "claim": "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims） 构建同质无向加权图（节点实体，边关系，权重关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化） 生成层次化社区摘要（叶级社区高层社区）",
+          "status": "supported",
+          "evidence_from_page": "，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。"
+        }
+      ],
+      "generated_at": "2026-03-18T04:25:03.451895Z",
+      "generator": "fallback",
+      "_source_text_excerpt": "（Graph-based Retrieval-Augmented Generation）由\n于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于\n将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合\n，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。\nEdge, D., Trinh, H., Cheng, N., et al. (2024).\nFrom Local to Global: A Graph RAG Approach to Query-Focused Summarization\narXiv preprint arXiv:2404.16130\n：https://arxiv.org/pdf/2404.16130\n：https://github.com/microsoft/graphrag\n将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）\n（节点=实体，边=关系，权重=关系实例的标准化计数）\n（Traag et al., 2019）检测图社区（基于模块度优化）\n生成层次化社区摘要（叶级社区→高层社区）\n本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！\n20.机器学习消融实验：方法论演进、跨领域应用与前沿趋势\n19.Agentic RAG：自主检索增强生成的范式演进与技术突破\n18.FEVER数据集：事实验证任务的大规模基准与评估框架\n17.噪声对比估计（NCE）：原理、演进与跨领域应用\n16.对比学习：原理演进、技术突破与跨领域应用全景\n15.掩码语言模型(MLM)技术解析：理论基础、演进脉络与应用创新\n14.RAG：检索增强生成的范式演进、技术突破与前沿挑战\n13.皮尔逊相关系数的理论基础、统计特性与应用局限\n12.编辑距离：理论基础、算法演进与跨领域应用\n11.ROUGE-WE：词向量化革新的文本生成评估框架\n10.互信息：理论框架、跨学科应用与前沿进展\n9.表征学习：机器认知世界的核心能力与前沿突破\n8.CodeBLEU：面向代码合成的多维度自动评估指标——原理、演进与开源实践\n7.Rouge：面向摘要自动评估的召回导向型指标——原理、演进与应用全景\n6.RoPE：相对位置编码的旋转革命——原理、演进与大模型应用全景\n5.KTO：基于行为经济学的大模型对齐新范式——原理、应用与性能突破\n4.OpenRLHF：面向超大语言模型的高性能RLHF训练框架\n3.LIMA：大语言模型对齐的“少即是多”革命——原理、实验与范式重构\n2.Crome：因果鲁棒奖励建模框架——破解LLM对齐中的奖励黑客难题\n1.CIRL：因果启发的表征学习框架——从域泛化到奖励分解的因果革命\n2.1 索引阶段（Indexing）\n实验表明600-token分块比2400-token分块的\n：LLM识别实体（名称/类型/描述）和关系（源/目标/描述）\n：若LLM检测到遗漏，触发“上次提取遗漏实体”提示补全\n：通过领域特定示例（如医学/法律术语）提升提取精度\n（例如：L0层=基础技术社区，L1层=NLP/CV子社区）\n按节点度排序生成摘要，优先整合高度数节点信息\n2.2 查询阶段（Querying）\n使用社区摘要回答全局问题（如研究趋势分析），通过\n按帮助分数（0-100）过滤低分答案\n针对实体关联问题（如“Scrooge的人际关系”），检索实体邻域子图生成响应\n表：GraphRAG与传统RAG的核心对比\n（Graph Modularity）允许Leiden算法将相关实体聚类，形成语义连贯的社区（如“糖尿病治疗”社区包含胰岛素/血糖监测等节点）。\n叶级社区摘要：直接整合实体/关系描述\n高层社区摘要：用子社区摘要替换冗余细节，突破LLM上下文限制\n“Transformer架构如何催生ChatGPT？”\nTransformer→BERT→GPT-3→ChatGPT\n，LLM将路径转化为自然语言解释。\nGraph-R1框架（Luo et al., 2025）引入\n，通过“Think→Retrieve→Rethink→Answer”循环迭代优化检索路径。\n4.1 优势场景（GraphRAG > 传统RAG）\n在HotpotQA多跳问答数据集上，F1分数达86.2%（SOTA），较朴素RAG提升22%。\n对AI文献的社区聚类成功识别趋势：\n2020-2021：Transformer架构优化\n2022-2023：大语言模型爆发\n在航空安全报告分析中，事实错误率降低37%（Yu et al., 2025）。\n4.2 局限场景（传统RAG更优）\n如“爱因斯坦的出生日期”，GraphRAG因检索延迟高（>300ms）逊于向量RAG。\n图谱重建成本高，增量更新仅支持小规模变更（如新实体添加），社区结构剧变时需全量重建。\n动态子图检索与GRPO奖励机制\nHotpotQA F1提升12%\nGMM检索Agent跨模态对齐\n查询时动态扩展图谱，减少预计算开销\nYu等（2025）结合GraphRAG与自学习智能体：\n（节点=机械故障/操作失误，边=责任链）\n生成预防建议报告，检索精度提升45%，推理时间缩短至2秒内。\n解决了传统RAG的全局理解瓶颈，但其应用需权衡：\n多跳推理、跨文档主题分析、长周期趋势总结（如学术/医疗/金融领域）。\n简单事实检索、高实时性要求系统、低关联性文本集。\n：图谱构建与社区检测的复杂度随节点数指数增长\n：厦门大学提出GraphRAG-Bench基准，需统一评估全局推理能力\n：当前仅支持局部实体新增，社区结构剧变时需全量重建\n，推动GraphRAG从静态知识库向动态决策系统演进。\n本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！",
+      "web_content": "（Graph-based Retrieval-Augmented Generation）由\n于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于\n将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合\n，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。\nEdge, D., Trinh, H., Cheng, N., et al. (2024).\nFrom Local to Global: A Graph RAG Approach to Query-Focused Summarization\narXiv preprint arXiv:2404.16130\n：https://arxiv.org/pdf/2404.16130\n：https://github.com/microsoft/graphrag\n将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）\n（节点=实体，边=关系，权重=关系实例的标准化计数）\n（Traag et al., 2019）检测图社区（基于模块度优化）\n生成层次化社区摘要（叶级社区→高层社区）\n本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！\n20.机器学习消融实验：方法论演进、跨领域应用与前沿趋势\n19.Agentic RAG：自主检索增强生成的范式演进与技术突破\n18.FEVER数据集：事实验证任务的大规模基准与评估框架\n17.噪声对比估计（NCE）：原理、演进与跨领域应用\n16.对比学习：原理演进、技术突破与跨领域应用全景\n15.掩码语言模型(MLM)技术解析：理论基础、演进脉络与应用创新\n14.RAG：检索增强生成的范式演进、技术突破与前沿挑战\n13.皮尔逊相关系数的理论基础、统计特性与应用局限\n12.编辑距离：理论基础、算法演进与跨领域应用\n11.ROUGE-WE：词向量化革新的文本生成评估框架\n10.互信息：理论框架、跨学科应用与前沿进展\n9.表征学习：机器认知世界的核心能力与前沿突破\n8.CodeBLEU：面向代码合成的多维度自动评估指标——原理、演进与开源实践\n7.Rouge：面向摘要自动评估的召回导向型指标——原理、演进与应用全景\n6.RoPE：相对位置编码的旋转革命——原理、演进与大模型应用全景\n5.KTO：基于行为经济学的大模型对齐新范式——原理、应用与性能突破\n4.OpenRLHF：面向超大语言模型的高性能RLHF训练框架\n3.LIMA：大语言模型对齐的“少即是多”革命——原理、实验与范式重构\n2.Crome：因果鲁棒奖励建模框架——破解LLM对齐中的奖励黑客难题\n1.CIRL：因果启发的表征学习框架——从域泛化到奖励分解的因果革命\n2.1 索引阶段（Indexing）\n实验表明600-token分块比2400-token分块的\n：LLM识别实体（名称/类型/描述）和关系（源/目标/描述）\n：若LLM检测到遗漏，触发“上次提取遗漏实体”提示补全\n：通过领域特定示例（如医学/法律术语）提升提取精度\n（例如：L0层=基础技术社区，L1层=NLP/CV子社区）\n按节点度排序生成摘要，优先整合高度数节点信息\n2.2 查询阶段（Querying）\n使用社区摘要回答全局问题（如研究趋势分析），通过\n按帮助分数（0-100）过滤低分答案\n针对实体关联问题（如“Scrooge的人际关系”），检索实体邻域子图生成响应\n表：GraphRAG与传统RAG的核心对比\n（Graph Modularity）允许Leiden算法将相关实体聚类，形成语义连贯的社区（如“糖尿病治疗”社区包含胰岛素/血糖监测等节点）。\n叶级社区摘要：直接整合实体/关系描述\n高层社区摘要：用子社区摘要替换冗余细节，突破LLM上下文限制\n“Transformer架构如何催生ChatGPT？”\nTransformer→BERT→GPT-3→ChatGPT\n，LLM将路径转化为自然语言解释。\nGraph-R1框架（Luo et al., 2025）引入\n，通过“Think→Retrieve→Rethink→Answer”循环迭代优化检索路径。\n4.1 优势场景（GraphRAG > 传统RAG）\n在HotpotQA多跳问答数据集上，F1分数达86.2%（SOTA），较朴素RAG提升22%。\n对AI文献的社区聚类成功识别趋势：\n2020-2021：Transformer架构优化\n2022-2023：大语言模型爆发\n在航空安全报告分析中，事实错误率降低37%（Yu et al., 2025）。\n4.2 局限场景（传统RAG更优）\n如“爱因斯坦的出生日期”，GraphRAG因检索延迟高（>300ms）逊于向量RAG。\n图谱重建成本高，增量更新仅支持小规模变更（如新实体添加），社区结构剧变时需全量重建。\n动态子图检索与GRPO奖励机制\nHotpotQA F1提升12%\nGMM检索Agent跨模态对齐\n查询时动态扩展图谱，减少预计算开销\nYu等（2025）结合GraphRAG与自学习智能体：\n（节点=机械故障/操作失误，边=责任链）\n生成预防建议报告，检索精度提升45%，推理时间缩短至2秒内。\n解决了传统RAG的全局理解瓶颈，但其应用需权衡：\n多跳推理、跨文档主题分析、长周期趋势总结（如学术/医疗/金融领域）。\n简单事实检索、高实时性要求系统、低关联性文本集。\n：图谱构建与社区检测的复杂度随节点数指数增长\n：厦门大学提出GraphRAG-Bench基准，需统一评估全局推理能力\n：当前仅支持局部实体新增，社区结构剧变时需全量重建\n，推动GraphRAG从静态知识库向动态决策系统演进。\n本文由「大千AI助手」原创发布，专注用真话讲AI，回归技术本质。拒绝神话或妖魔化。搜索「大千AI助手」关注我，一起撕掉过度包装，学习真实的AI技术！",
+      "fast_verification": {
+        "confidence_score": 45.28,
+        "confidence_level": {
+          "name": "强烈支持",
+          "name_en": "Strongly Supported",
+          "score_range": "80 - 92",
+          "description": "有多个高质量来源支持，少量反证或低质量反证",
+          "emoji": "✅",
+          "interpretation": "该主张获得多个可靠来源的支持。可以有信心认为该主张是准确的。",
+          "color": "#2ecc71"
+        },
+        "verdict": "strongly_supported",
+        "keywords": [
+          "\"bypass\"]",
+          "\"global\",",
+          "\"hybrid\",",
+          "\"mix\",",
+          "\"naive\",",
+          "'Bullet",
+          "'Multiple",
+          "'Single",
+          ".api.utils_api",
+          "Agent编排",
+          "BaseModel,",
+          "ColBERT"
+        ]
+      },
+      "_relevance_threshold": 0.4,
+      "quant_metrics": {
+        "confidence_score": 87.66,
+        "confidence_level": {
+          "name": "强烈支持",
+          "name_en": "Strongly Supported",
+          "score_range": "80 - 92",
+          "description": "有多个高质量来源支持，少量反证或低质量反证",
+          "emoji": "✅",
+          "interpretation": "该主张获得多个可靠来源的支持。可以有信心认为该主张是准确的。",
+          "color": "#2ecc71"
+        },
+        "verdict": "strongly_supported",
+        "support_ratio": 0.907,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 1,
+        "key_point_count": 5
+      },
+      "focused_hl_content": [
+        "GraphRAG（Graph-based Retrieval-Augmented Generation）由微软研究院于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）构建同质无向加权图（节点=实体，边=关系，权重=关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化）生成层次化社区摘要（叶级社区→高层社区）",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims） 构建同质无向加权图（节点实体，边关系，权重关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化） 生成层次化社区摘要（叶级社区高层社区）"
+      ],
+      "priority_focus_marks": [
+        "GraphRAG（Graph-based Retrieval-Augmented Generation）由微软研究院于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）构建同质无向加权图（节点=实体，边=关系，权重=关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化）生成层次化社区摘要（叶级社区→高层社区）",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims） 构建同质无向加权图（节点实体，边关系，权重关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化） 生成层次化社区摘要（叶级社区高层社区）"
+      ],
+      "secondary_focus_marks": []
+    },
+    {
+      "url": "https://blog.csdn.net/haidizym/article/details/149345752",
+      "title": "微软的GraphRAG实战_微软graphrag-CSDN博客",
+      "highlighted_claims": [
+        "GraphRAG不仅仅是检索生成”，它引入了图结构，使得RAG具备以下关键能力： 能力 描述 结构化理解 构建文档内的实体-关系图谱 全局洞察 对文档中的知识点进行社区聚类和语义总结 精确查询 提供局部语义搜索与全局知识总结两种方式 可解释性强 每个结论都可以回溯原始实体、文本、社区 代码实战 代码"
+      ],
+      "page_summary": "官方文档：https://github.com/microsoft/graphrag?tab=readme-ov-file\nGraphRAG（Graph Retrieval-Augmented Generation）是微软研究团队发布的开源项目，它是一种“图增强的检索生成系统”。与传统的RAG不同，GraphRAG不仅仅是“检索+生成”，它引入了图结构，使得RAG具备以下关键能力：\n#将你需要处理的文档放入 ragtest/input/ 目录中，input/ # 数据输入目录（需手动创建），支持.txt,.pdf,.docx等多种格式。",
+      "key_points": [
+        "官方文档：https://github.com/microsoft/graphrag?tab=readme-ov-file",
+        "GraphRAG（Graph Retrieval-Augmented Generation）是微软研究团队发布的开源项目，它是一种“图增强的检索生成系统”。与传统的RAG不同，GraphRAG不仅仅是“检索+生成”，它引入了图结构，使得RAG具备以下关键能力：",
+        "#将你需要处理的文档放入 ragtest/input/ 目录中，input/ # 数据输入目录（需手动创建），支持.txt,.pdf,.docx等多种格式。",
+        "#该命令会自动完成以下过程：文本分块，实体识别与关系提取（调用大模型），构建实体-关系图谱，社区检测（Leiden算法），生成社区摘要（调用大模型），嵌入计算 + 向量索引构建",
+        "#3、运行查询命令，需要在包含 settings.yaml 配置文件的目录中运行，也就是 ragtest 目录。"
+      ],
+      "risk_flags": [
+        "LLM unavailable: fallback summary used"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.58,
+        "rationale": "Fallback mode based on structural page extraction without LLM semantic validation."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "GraphRAG不仅仅是检索生成”，它引入了图结构，使得RAG具备以下关键能力： 能力 描述 结构化理解 构建文档内的实体-关系图谱 全局洞察 对文档中的知识点进行社区聚类和语义总结 精确查询 提供局部语义搜索与全局知识总结两种方式 可解释性强 每个结论都可以回溯原始实体、文本、社区 代码实战 代码",
+          "status": "partially_supported",
+          "evidence_from_page": "官方文档：https://github.com/microsoft/graphrag?tab=readme-ov-file"
+        }
+      ],
+      "generated_at": "2026-03-18T04:25:03.989382Z",
+      "generator": "fallback",
+      "_source_text_excerpt": "项目地址：https://github.com/microsoft/graphrag\n官方文档：https://github.com/microsoft/graphrag?tab=readme-ov-file\nGraphRAG（Graph Retrieval-Augmented Generation）是微软研究团队发布的开源项目，它是一种“图增强的检索生成系统”。与传统的RAG不同，GraphRAG不仅仅是“检索+生成”，它引入了图结构，使得RAG具备以下关键能力：\n对文档中的知识点进行社区聚类和语义总结\n提供局部语义搜索与全局知识总结两种方式\n每个结论都可以回溯原始实体、文本、社区\nconda create -n graphRAGg\nconda activate graphRAGg\ngraphrag init --root ./ragtest\nDASHSCOPE_API_KEY\n#在settings.yaml中设置 API 提供方\n#将你需要处理的文档放入 ragtest/input/ 目录中，input/ # 数据输入目录（需手动创建），支持.txt,.pdf,.docx等多种格式。\ngraphrag index --root\n#该命令会自动完成以下过程：文本分块，实体识别与关系提取（调用大模型），构建实体-关系图谱，社区检测（Leiden算法），生成社区摘要（调用大模型），嵌入计算 + 向量索引构建\n#3、运行查询命令，需要在包含 settings.yaml 配置文件的目录中运行，也就是 ragtest 目录。\n# 切换到包含settings.yaml的目录\n#graphrag query --root . --method global \"公司的核心项目是什么？\"\ngraphrag query --root\n--method global --query\n#graphrag query --root . --method local \"张三的职责是什么？\"\n#1、在settings.yaml中设置 API 提供方\ndefault_chat_model\nopenai_chat    api_base\nhttps://api.siliconflow.cn/v1    api_key\nGRAPHRAG_API_KEY\ndeepseek-ai/DeepSeek-V3    encoding_model\ncl100k_base    concurrent_requests\n3    requests_per_minute\ndefault_embedding_model\nopenai_embedding    api_base\nhttps://api.siliconflow.cn/v1    api_key\nGRAPHRAG_API_KEY\nBAAI/bge-large-zh-v1.5    encoding_model\ncl100k_base    concurrent_requests\n3    requests_per_minute\n### LLM settings ###\n## There are a number of settings to tune the threading and token limits for LLM calls - check the docs.\ndefault_chat_model\n# Using openai_chat to connect to the Qwen API\n//dashscope.aliyuncs.com/compatible\n# Official Qwen API endpoint for OpenAI compatibility\nDASHSCOPE_API_KEY\n# Set this in your .env file\n# Or another Qwen model you have access to, e.g., qwen-plus, qwen-max\n# Explicitly set the encoding model\nmodel_supports_json\n# recommended if this is available for your model.\nconcurrent_requests\n# max number of simultaneous LLM requests allowed\ntokens_per_minute\n# set to null to disable rate limiting\nrequests_per_minute\n# set to null to disable rate limiting\ndefault_embedding_model\nopenai_embedding\n# Using openai_embedding to connect to the Qwen API\n//dashscope.aliyuncs.com/compatible\n# Official Qwen API endpoint for OpenAI compatibility\nDASHSCOPE_API_KEY\n# Set this in your .env file\n# DashScope text embedding model",
+      "web_content": "项目地址：https://github.com/microsoft/graphrag\n官方文档：https://github.com/microsoft/graphrag?tab=readme-ov-file\nGraphRAG（Graph Retrieval-Augmented Generation）是微软研究团队发布的开源项目，它是一种“图增强的检索生成系统”。与传统的RAG不同，GraphRAG不仅仅是“检索+生成”，它引入了图结构，使得RAG具备以下关键能力：\n对文档中的知识点进行社区聚类和语义总结\n提供局部语义搜索与全局知识总结两种方式\n每个结论都可以回溯原始实体、文本、社区\nconda create -n graphRAGg\nconda activate graphRAGg\ngraphrag init --root ./ragtest\nDASHSCOPE_API_KEY\n#在settings.yaml中设置 API 提供方\n#将你需要处理的文档放入 ragtest/input/ 目录中，input/ # 数据输入目录（需手动创建），支持.txt,.pdf,.docx等多种格式。\ngraphrag index --root\n#该命令会自动完成以下过程：文本分块，实体识别与关系提取（调用大模型），构建实体-关系图谱，社区检测（Leiden算法），生成社区摘要（调用大模型），嵌入计算 + 向量索引构建\n#3、运行查询命令，需要在包含 settings.yaml 配置文件的目录中运行，也就是 ragtest 目录。\n# 切换到包含settings.yaml的目录\n#graphrag query --root . --method global \"公司的核心项目是什么？\"\ngraphrag query --root\n--method global --query\n#graphrag query --root . --method local \"张三的职责是什么？\"\n#1、在settings.yaml中设置 API 提供方\ndefault_chat_model\nopenai_chat    api_base\nhttps://api.siliconflow.cn/v1    api_key\nGRAPHRAG_API_KEY\ndeepseek-ai/DeepSeek-V3    encoding_model\ncl100k_base    concurrent_requests\n3    requests_per_minute\ndefault_embedding_model\nopenai_embedding    api_base\nhttps://api.siliconflow.cn/v1    api_key\nGRAPHRAG_API_KEY\nBAAI/bge-large-zh-v1.5    encoding_model\ncl100k_base    concurrent_requests\n3    requests_per_minute\n### LLM settings ###\n## There are a number of settings to tune the threading and token limits for LLM calls - check the docs.\ndefault_chat_model\n# Using openai_chat to connect to the Qwen API\n//dashscope.aliyuncs.com/compatible\n# Official Qwen API endpoint for OpenAI compatibility\nDASHSCOPE_API_KEY\n# Set this in your .env file\n# Or another Qwen model you have access to, e.g., qwen-plus, qwen-max\n# Explicitly set the encoding model\nmodel_supports_json\n# recommended if this is available for your model.\nconcurrent_requests\n# max number of simultaneous LLM requests allowed\ntokens_per_minute\n# set to null to disable rate limiting\nrequests_per_minute\n# set to null to disable rate limiting\ndefault_embedding_model\nopenai_embedding\n# Using openai_embedding to connect to the Qwen API\n//dashscope.aliyuncs.com/compatible\n# Official Qwen API endpoint for OpenAI compatibility\nDASHSCOPE_API_KEY\n# Set this in your .env file\n# DashScope text embedding model",
+      "fast_verification": {
+        "confidence_score": 38.93,
+        "confidence_level": {
+          "name": "不确定",
+          "name_en": "Uncertain",
+          "score_range": "45 - 65",
+          "description": "支持和反驳证据混杂，或证据质量不清晰",
+          "emoji": "❓",
+          "interpretation": "该主张的真伪尚不确定。支持和反驳证据都存在，需要深度分析或等待更多信息。",
+          "color": "#e67e22"
+        },
+        "verdict": "uncertain",
+        "keywords": [
+          "\"\"\"",
+          "\"Accept-Language\":",
+          "\"Chrome/139.0.0.0",
+          "\"Mozilla/5.0",
+          "(KHTML,",
+          "(Windows",
+          "(str):",
+          ".gitattributes",
+          ".github",
+          ".gitignore",
+          ".semversioner",
+          ".vscode"
+        ]
+      },
+      "_relevance_threshold": 0.4,
+      "quant_metrics": {
+        "confidence_score": 70.77,
+        "confidence_level": {
+          "name": "中等支持",
+          "name_en": "Moderately Supported",
+          "score_range": "65 - 80",
+          "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+          "emoji": "⚠️",
+          "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+          "color": "#f39c12"
+        },
+        "verdict": "moderately_supported",
+        "support_ratio": 0.72,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 1,
+        "key_point_count": 5
+      },
+      "focused_hl_content": [
+        "GraphRAG不仅仅是检索生成”，它引入了图结构，使得RAG具备以下关键能力： 能力 描述 结构化理解 构建文档内的实体-关系图谱 全局洞察 对文档中的知识点进行社区聚类和语义总结 精确查询 提供局部语义搜索与全局知识总结两种方式 可解释性强 每个结论都可以回溯原始实体、文本、社区 代码实战 代码"
+      ],
+      "priority_focus_marks": [
+        "GraphRAG不仅仅是检索生成”，它引入了图结构，使得RAG具备以下关键能力： 能力 描述 结构化理解 构建文档内的实体-关系图谱 全局洞察 对文档中的知识点进行社区聚类和语义总结 精确查询 提供局部语义搜索与全局知识总结两种方式 可解释性强 每个结论都可以回溯原始实体、文本、社区 代码实战 代码"
+      ],
+      "secondary_focus_marks": []
+    },
+    {
+      "url": "https://www.google.com/search?q=%E7%9F%A5%E8%AF%86%E5%A2%9E%E5%BC%BA%E5%A4%A7%E6%A8%A1%E5%9E%8B+GraphRAG",
+      "title": "",
+      "highlighted_claims": [
+        "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。"
+      ],
+      "page_summary": "网页内容因编码问题无法正常解析，呈现为大量乱码字符，无法提取任何关于阿尔茨海默病、Cedars-Sinai医学中心、AlzKB知识库、知识图谱或AI技术结合应用的实质性信息。因此，无法对用户标记的关于阿尔茨海默病流行病学数据及AI知识库应用的前沿内容进行任何事实核查或深度分析。网页内容完全不可读，不具备信息价值。",
+      "key_points": [
+        "网页内容为乱码，无法提取任何有效信息点。",
+        "无法确认Cedars-Sinai医学中心或AlzKB知识库的存在。",
+        "无法核实阿尔茨海默病在美国或全球的患病率数据（如690万、1380万、1.39亿）。",
+        "无法分析知识图谱与AI技术如何结合用于疾病研究。",
+        "无法评估任何科研转化或领域突破的声称。",
+        "无任何可追溯的数据、实验或来源线索。",
+        "无任何研究方法论描述。",
+        "网页本身作为信息来源完全失效。"
+      ],
+      "deep_analysis": {
+        "core_claims": [
+          "无",
+          "。",
+          "网",
+          "页",
+          "内"
+        ],
+        "evidence_chain": [
+          "无",
+          "。",
+          "缺",
+          "乏",
+          "任",
+          "何"
+        ],
+        "background_context": "无。无法建立任何主题背景。",
+        "implications": [
+          "无",
+          "。",
+          "法",
+          "推"
+        ],
+        "limitations": [
+          "主",
+          "要",
+          "限",
+          "制"
+        ],
+        "data_points": [
+          "无",
+          "。"
+        ],
+        "methodology": "无。"
+      },
+      "risk_flags": [],
+      "keywords": [
+        "数据损坏",
+        "乱码",
+        "编码错误",
+        "无法解析",
+        "信息缺失",
+        "网页抓取失败",
+        "内容不可读",
+        "无效URL",
+        "无信息",
+        "空白分析",
+        "无法核查",
+        "无主题"
+      ],
+      "reliability_assessment": {
+        "score": 0.72,
+        "rationale": "可靠性得分为0。因为网页内容完全由不可读的乱码字符组成，无法提供任何与标记主题相关或任何其他主题的可验证信息。证据充分度为零，不确定性来源是技术性的数据完整性问题。"
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。",
+          "status": "unclear",
+          "evidence_from_page": "网页内容为乱码，无法找到支持或反驳此声明的任何证据。"
+        },
+        {
+          "claim": "据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。",
+          "status": "unclear",
+          "evidence_from_page": "网页内容为乱码，无法找到支持或反驳此数据的任何证据。"
+        },
+        {
+          "claim": "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。",
+          "status": "unclear",
+          "evidence_from_page": "阿尔茨海默病( Alzheimer's disease , AD ),俗称老年痴呆症,是一种发病进程缓慢､随着时间不断恶化的神经退化性疾病｡ AD 以记忆障碍､失语､失认等为早期主要症状,当情况恶化时,患者逐渐丧失身体机能并最终死亡｡ AD 已经成为越来越严重的公共卫生问题和社会问题:据国际阿尔茨海默病协会的报告显示,每 3 秒钟,全球就有一位 AD 患者产生,而我国每年平均有 30 万新发病例｡ 2021 年 3 月 16 日,浙江大学定量生物中心周如鸿教授课题组在国际权威期刊 Chemical Science 发表题为 Molecular Mechanism of Secreted Amyloid-β Precursor Protein in Binding and Modulating GABABR1a 的论文,为相关疾病治疗学的未来发展提供了启示｡ AD 患者的特征是大脑中存在具有神经毒性的 β 淀粉样蛋白 (Aβ) 沉积物｡ Aβ 由淀粉样蛋白前体蛋白( APP )的正常水解裂解产生｡最近的一项惊人研究发现( Science 2019, 363, 143 【 1 】),成熟 APP 分泌的 sAPP 的延伸域可与 γ- 氨基丁酸 B 型受体 1a 型亚基( GABABR1a )的固有紊乱的 Sushi 1 域结合并调节其突触传递｡"
+        },
+        {
+          "claim": "网页内容为乱码，无法提取任何有效信息点。",
+          "status": "unclear",
+          "evidence_from_page": "defuddle 一个智能的网页内容提取工具，能够将任意网页的杂乱 HTML 净化为结构清晰的 Markdown 或干净 HTML，专为阅读优化和知识管理而生。 Github地址 https://github.com/kepano/defuddle 在线体验 https://defuddle.md/ 功能特性 核心能力 Defuddle 的核心使命是 \"去芜存菁\" ——它深入解析网页 DOM 结构，精准识别并剥离广告栏、评论区、侧边导航、页脚链接等干扰元素，仅保留文章主体内容。与 Mozilla 经典的 Readability 相比，Defuddle 采取了更为宽容的提取策略，宁可保留疑似内容也不轻易丢弃，同时输出格式更加规范统一。 标准化输出 工具内置强大的 HTML 标准化引擎，确保不同来源的内容呈现一致： 标题层级 ：自动将孤立 H1 转为 H2，移除标题中的锚点链接 代码块 ：清理语法高亮和行号，保留语言标识为 data-lang 属性 数学公式 ：将 MathJax、KaTeX 渲染结果统一转换为标准 MathML 脚注系统 ：规范化内联引用与文末注释的关联格式 提示框 ：整合 GitHub Alerts、Obsidian Callouts、Bootstrap 等多种来源为统一的 Obsidian 风格标注 元数据提取 Defuddle 不仅抓取正文，更深度挖掘页面信息：作者署名、发布日期、网站域名、文章摘要、封面图片、语言编码，甚至完整的 Schema.org 结构化数据，为后续归档和检索提供丰富上下文。 多场景适配 项目提供"
+        },
+        {
+          "claim": "无法确认Cedars-Sinai医学中心或AlzKB知识库的存在。",
+          "status": "unclear",
+          "evidence_from_page": "我爱瓣膜 A- A+ 在2023年,仅有89家儿童医院在U.S.News评估的10个儿科专科中获得了至少一项排名,其中十家医院在其所属类别中名列前茅,并入选了2023-2024年度的最佳儿童医院荣誉榜｡ 《美国新闻与世界报道(U.S News & World Report)》自1990年以来,每年都会对全美的顶级医院进行排名｡目前,该榜单已经连续发布了34期｡"
+        }
+      ],
+      "generated_at": "2026-03-18T04:29:11.724415Z",
+      "generator": "llm_deep",
+      "_source_text_excerpt": "'��Pd��\u0017�p�H��!�j��y��_���/\u0002�&>�y���������iYz���4\u00136kA-M1�CH��M0N@l�!c)V\"K�Ҳ\u0012G�_\u0017͢.z�[��?��j��\u001b��h�z�8/\u000e��\u0011m�l�]�k�y����\u0011Yń$�>\b�����뷥���3\n��=C� �!�&�[���L|�113��=��=��bO\\�F���\u0007�\u0013��\u0012\u0000&��_���ϗL��{�d�IW&7\n�E�{K-sQ#UI��#����:*��-\u0007���w�\u001b�o�A\u0003d�M0h��r7��A��\u0006g���\u0001Hk\u0003�\n\u0000�SErf}5HV-()�F\n��\t43���\u00049�U�Ҟ3>�#\b�9\n�\u000e��\u0012�\u0018Yu1��fD(���*cI�?���Ж$n3\u0019\n��\"�\"��̤=\u001b�Q��jc#�w����Z�u�Q�(17��\u0003\u0002�M�\u000f�q��U'���vq5�<.�5�r%׋I��~Y/�\n�Mx\b��e|�����n{�|�,�?��L�~<�$�[���pW����f�i\u00174�{7��&�v��Yͦ����\u000f?�_\n'�Y^�ҳ�yiZˮ;;���z[���צ�|\u0017\u0018=/�����LG~��=��ꈇ�|���\u0001�0��ǅ�\u0013};c��_�o\u000fR�\n�mu��\u0017r����>���z\b\u000f�\u0015٫Gg~�T]|~\u0012ǽ�I�����mx� �N[���:�p�X�\u0017��!�q��z�޶߆���/���\u000f��������������\u0017����/���o�����s�������K������_�����w���������_�������������=\u0001z���\u0010������������o��_����\u0013T\u0015�x�\u0017W���P��|vh�#-���b��sh壢���!W�76\\o��C\n��\u000e\u00079�Q\u000fz;_��|X\n`ԃH| ��,���?:;l�����|�[m���t?��`����z�nF��|XHz�K�\u001b��\u000f\n���s*fe�s��z�u�����U+|�>^���wΧ�w��:�=0��w�|}����}}X��H�//ҧ�\u0013�����]���/�u�v�T}��H����x�*��1Y����'{�>�s�}{\u0013}���\u000f7o�\u000f��>ܼ�~7>��Z~ �@\u0014\u0016!R>��3Qa�\t\u0016��\u000e3���\n�VK�\u0011���r�t����y�8�\u000ep �n /��C�m׫�\u0019N3�Fw����ټ���SF�lV�)���x\u0019DX\u0000�Y0(i�M~\u0019D=�\by�)�VK���vsخ\u0017�V^�7l�_��+�3���\n���_\u0004π�\u0018K:\u0017\u0014\u0017&$\u0014�%��\nfT`K��u�T���@�ws6j���(��\n���h\u0011�.+9+\u0019��Ca��&V�cJ�au��b�\n1\u0003\u0017��\u001a��@�q+#,���~�\u0004\u000e�\n�8\\����\u00107O�5��T��8_�X��vlȇ\u0000D�Ö���Lg�/�@\u001f��@\n�j��,\u0005�j��?���������\u0019�ݮ6l��f\bj��fl�\u0015��W���o��_��+�կg*�j^���\"��^g�K�r�.6����~����j�\u000f�^����B\u0013��+�կ�����\u0006\u000f}d0��\n����c���\u0014s,p�3���#���_�\u001b�\u0010��#rM�Q�(Y��4�\u0019x\u0016k��\n�m�:\u0007�8쨝L�↶\u00118��\u0010;\"\u0017v���\u0013�F�nl\u0007XN���X�\u0012K�\u0002(J4g�e�}B\u0017\n�,���~��Ab\u0000�#�w޻e��u\u0003�\n��&|\u0013��~��,��{6|�y0����\u001f��l�V0��Y6�T8��0\u0003ܑ���c,����\u0014\n�\u0004F;\"�\u000fw�����2�\n�V��\u0000�6���������PUܑ�C�#2C��\u001f\u001f�zGv-���\u0017&\u0001c�bI9(�N8!+?2�AZO��.\u001a�p\u0000wě|�=+�Q\u0016Zv`\u001b���u�\n0�c=mh�$�6��)U�Q��\u0004�����\u0002VK\u0016�tjd�\u000e2J\u0015r{��v�i�Rv��L�Q\u0011�\u000f�XDlJlFj�Z�yt\n�c\u0004\u001a���<��v<��3�ۆu.�#��\nΏjV���*ns.Ϗ�y.���\u0011�z�\u0000\n���3\u00030���(U����v���v�.��\u0012E@CS̠NU���D\u0011���D\u0011,��V3\u0001\u001a�L��\nM\u0007$��\u0006��H�\u0004��L�8ȇա�\u000f��:\nS�Nj��ÔX{���V<���4Ku�\u000eL�UŘ\nEa��(��\t\u0019!\u000fzH�>�t�XCl��|A,'&�.ֳ����~�:1\u0014%�3E��$\u0007E���똸�\n\u001bT�\u0018��Ԓ\t\u0007E�߶O���ԟ]��\u0013\u0019�J���+�\u0005]����� ��u\u0006Xh���\u0018��*E�\t�&\u0006ƠG��b=�%\u0016�_U>�\b8g�x,��.�d\"\u0006dt]���\u0012�.�X_gT`m��j�\u00069�f\u0002��!w�Z�BcS�b�ñ�?:\u001f�\u0014�ǯ����\u000eƱ~���,\u0014�\n��\u000e\u00044��\u0007b��\u0006�M�Қ��b��\u0012��0x �\u0005��>\n���/������GLQ��ʃ\u0004c}��^4��\u001b�\u0019��Ӣ��i�}��#�\n7O��\u0010�\u0014\u0011e]\u0017\u0011U��\u000e\u0015�͈\u0012��\nֿiF�y���\u0019�m�3b��\b=�\u0002�\u000ef�v�\u0012+��u�釧���ݛ�&����\u0006e�0\u0001\u0013�f�\u0015\u0004O�����\n��y5\\\u0010%aRMP�^�\n��a�!t]�3���++d�~$�*�\u0018V�Q\n��T35�\u000fr�~\u0003��^�\n�t�\u0003�\u00063\"'��m\u00053\"� \\��⇞\u0017p��r\u0015��V]�:�\b\\�\n\u0007�r<~=�ӼOw�q!���*�\u000e�\u0010\u000e\u0006%ְJd3�v�|�\u0001����վ�\u0019m\u0016�ϖ�,\u0006�)����=����\u0011&\u0011\u0004�oG���p\u0003��l;�����b�9��/}�E(��5�\u0003��\u0014�������Q*3�\u0012\u00037��2����5w�`q�:VR\u000eX\u0012�zظ���\u0012��\u00078���ҵ\u0019`\u0001\u0002�ވ[z&��LN\t>@�����\u0002G|SX�\"\\\n8\u0004��V��\u00186�/Ξ6^ǔ>\u0004�\u0017�\u0000\u0019\u0017U���nQ<e���}�Z�\u0001�Uf0��\u001a\u0004��v3\u0004,Ȱ�m��z\u0018|x��\u0011�A\u0017��Ξ����\n;��\u0016�`l��]�\u0014\u001b&$B�\bL��\u0011\u000e\u0014��\u001f�0\u0000��n���L\u0005\u0016�a�R���&�*h�;\u0012�?�Î�\bm;\u0010β}�L\u001bv�jb2�Bn[U{�&�H��\u001b��J�mB̆�2��=I���-^�[A3����l�ݳ��Q4N���\u001a�j\u0004�%+)��\u0006\u0007���BQ�Y\u000e�T��y+D�A�(��zI���H�J*<���\n��/fdG�m{�[|\\\u000e7\u0003�61vm)\n)9[m\u000er�i\u0017����:L\u0002\u0013�ܑ+i^�/7\bS{|\u0005�Ψ\u0018�e�`�d\u0005�kC��X�+vΚ\u0005�p���iW\u0010�PP��cL\u00046#\u0005����6:[m�b���\u0017��,)�/�$F�(\n��2���\u0006F���B.�2�����L�0j��8�N�T\u0010q�y>*�\\\u0011\u0016������\u0014\nJ&\u0013��!��\u0005\u0005�\u0010!�)\n\u0012.\u0004\u0005�i��$\u0003#�\u001b����|\u001b���wCVj�a\u0004\u0017��ɤT�m\u0003\u0016ڮSAĝ��\u0014aA������ Wt\n�\u0005�\u00137����k�o���\n{\u00051\u0016p�PL,Q=E�0N\u0014�%��\t\u0017&���\u001f8+����� )�xCb�5���Ŀ��>T��\u0016��¶�o��sK����<�\n:X�ALm�\t\u0007n����\u000f�~\n�F19q�\u000f�u��FN�}ȉA�aN�BN�VM&Uȭ��W�)*\"I��\u0013�\u0005;\t�F\u000e����=�y���\u0012lc�\u0007�(�~��2����Tus���Y���qa:�b�IY3'�\nP\u0002�ĝP_�\u0013��('r\u0014�����X8l?�qEa��*\u000e���\n\\�{�(\bv�Z�j2a�x�'$\n$�~ �lSQX�\u0012�\u001a��֏�K���>2A�gZf� ��\u0018$���\u0017\u001b\u0019$xحW��mwA��|�\u000e\u0012�i\n\u0006\t6j\u0006\t�|$}�n����\u000e�k#��\u000e\b��0\t�\nP�)�����\u0002��Y�����\u0015L\u0007\n��v\u001f�ۇ��\u0004]x;���/l�\n�s4��=\u0004_������GVk��\u001f9/�zd�n����Ȋ�̀�?1_ �\u0004�0!\u0003�C��φ�-`A�˸.�8\"���z��9�$AvQg\u0005EI�#k1\u0001,ȵ{��6\u0014�*�s\u001b���6\u0002A�ml\u0003N�`�dR�w\u0003'&�$'&�LQ�A�!�oܐ\u0001&�\u0012��ӳۑ�?�J��\u0013\u0003���;*Q�\u001f�d���YJo�W20��'�\u0005*���-��N\tJ����\b��q�G�ݣ�\u001f^�\u0014��?}V\u0014���bM�9J}�R/�\u001b\u0002���l\u0018�^�u�r20\nG]'�ݥ����:\u0016��1��_�ƪ7:�6�\u0003a[\u0000�r�����'�g���>��q�� a�D�I�}ф�\u0000�\b]7X\u0006\u0005�\\j���h�\u0007����l\u001f�\u0002L�\n��;�S;?,�6O�5\u0011\u001b\n�\u0003\u001a�(\u000f\u0010\u0019����Q9�nhm���\u001a�H���\u00138�g\u0019��)��\n��\u0003��̠o���'���[�������$\u0016QV'�x,,�)��?\u0015*o�c��K�U�/,�bPY��Ġ���6\u0006�J\u001bU� �\\Vk���%�\tZu�\u0012E�@5�Yrk�Z����,h�E�z7dW��d�R\u0002\u0000�=��3Q�d���;���\t\u001bz\\=\n�2�������X��_ѻ#c���5}q1�߿&��7��\u001f�\u0006_��\n�\u001bx���g��P@a\u0010uڙA�c�����:�Ӧ�~<�\u0012!=�y{}�\u0003�\u00018��\u0019�c�5F��´�\u001b�tҗ�����|��_�ܫ2!��\u0012K�k\u0012\u0005��\u0005d�>%\u0003S�_���A����n0\u0005���'蟈�z��5+�",
+      "web_content": "'��Pd��\u0017�p�H��!�j��y��_���/\u0002�&>�y���������iYz���4\u00136kA-M1�CH��M0N@l�!c)V\"K�Ҳ\u0012G�_\u0017͢.z�[��?��j��\u001b��h�z�8/\u000e��\u0011m�l�]�k�y����\u0011Yń$�>\b�����뷥���3\n��=C� �!�&�[���L|�113��=��=��bO\\�F���\u0007�\u0013��\u0012\u0000&��_���ϗL��{�d�IW&7\n�E�{K-sQ#UI��#����:*��-\u0007���w�\u001b�o�A\u0003d�M0h��r7��A��\u0006g���\u0001Hk\u0003�\n\u0000�SErf}5HV-()�F\n��\t43���\u00049�U�Ҟ3>�#\b�9\n�\u000e��\u0012�\u0018Yu1��fD(���*cI�?���Ж$n3\u0019\n��\"�\"��̤=\u001b�Q��jc#�w����Z�u�Q�(17��\u0003\u0002�M�\u000f�q��U'���vq5�<.�5�r%׋I��~Y/�\n�Mx\b��e|�����n{�|�,�?��L�~<�$�[���pW����f�i\u00174�{7��&�v��Yͦ����\u000f?�_\n'�Y^�ҳ�yiZˮ;;���z[���צ�|\u0017\u0018=/�����LG~��=��ꈇ�|���\u0001�0��ǅ�\u0013};c��_�o\u000fR�\n�mu��\u0017r����>���z\b\u000f�\u0015٫Gg~�T]|~\u0012ǽ�I�����mx� �N[���:�p�X�\u0017��!�q��z�޶߆���/���\u000f��������������\u0017����/���o�����s�������K������_�����w���������_�������������=\u0001z���\u0010������������o��_����\u0013T\u0015�x�\u0017W���P��|vh�#-���b��sh壢���!W�76\\o��C\n��\u000e\u00079�Q\u000fz;_��|X\n`ԃH| ��,���?:;l�����|�[m���t?��`����z�nF��|XHz�K�\u001b��\u000f\n���s*fe�s��z�u�����U+|�>^���wΧ�w��:�=0��w�|}����}}X��H�//ҧ�\u0013�����]���/�u�v�T}��H����x�*��1Y����'{�>�s�}{\u0013}���\u000f7o�\u000f��>ܼ�~7>��Z~ �@\u0014\u0016!R>��3Qa�\t\u0016��\u000e3���\n�VK�\u0011���r�t����y�8�\u000ep �n /��C�m׫�\u0019N3�Fw����ټ���SF�lV�)���x\u0019DX\u0000�Y0(i�M~\u0019D=�\by�)�VK���vsخ\u0017�V^�7l�_��+�3���\n���_\u0004π�\u0018K:\u0017\u0014\u0017&$\u0014�%��\nfT`K��u�T���@�ws6j���(��\n���h\u0011�.+9+\u0019��Ca��&V�cJ�au��b�\n1\u0003\u0017��\u001a��@�q+#,���~�\u0004\u000e�\n�8\\����\u00107O�5��T��8_�X��vlȇ\u0000D�Ö���Lg�/�@\u001f��@\n�j��,\u0005�j��?���������\u0019�ݮ6l��f\bj��fl�\u0015��W���o��_��+�կg*�j^���\"��^g�K�r�.6����~����j�\u000f�^����B\u0013��+�կ�����\u0006\u000f}d0��\n����c���\u0014s,p�3���#���_�\u001b�\u0010��#rM�Q�(Y��4�\u0019x\u0016k��\n�m�:\u0007�8쨝L�↶\u00118��\u0010;\"\u0017v���\u0013�F�nl\u0007XN���X�\u0012K�\u0002(J4g�e�}B\u0017\n�,���~��Ab\u0000�#�w޻e��u\u0003�\n��&|\u0013��~��,��{6|�y0����\u001f��l�V0��Y6�T8��0\u0003ܑ���c,����\u0014\n�\u0004F;\"�\u000fw�����2�\n�V��\u0000�6���������PUܑ�C�#2C��\u001f\u001f�zGv-���\u0017&\u0001c�bI9(�N8!+?2�AZO��.\u001a�p\u0000wě|�=+�Q\u0016Zv`\u001b���u�\n0�c=mh�$�6��)U�Q��\u0004�����\u0002VK\u0016�tjd�\u000e2J\u0015r{��v�i�Rv��L�Q\u0011�\u000f�XDlJlFj�Z�yt\n�c\u0004\u001a���<��v<��3�ۆu.�#��\nΏjV���*ns.Ϗ�y.���\u0011�z�\u0000\n���3\u00030���(U����v���v�.��\u0012E@CS̠NU���D\u0011���D\u0011,��V3\u0001\u001a�L��\nM\u0007$��\u0006��H�\u0004��L�8ȇա�\u000f��:\nS�Nj��ÔX{���V<���4Ku�\u000eL�UŘ\nEa��(��\t\u0019!\u000fzH�>�t�XCl��|A,'&�.ֳ����~�:1\u0014%�3E��$\u0007E���똸�\n\u001bT�\u0018��Ԓ\t\u0007E�߶O���ԟ]��\u0013\u0019�J���+�\u0005]����� ��u\u0006Xh���\u0018��*E�\t�&\u0006ƠG��b=�%\u0016�_U>�\b8g�x,��.�d\"\u0006dt]���\u0012�.�X_gT`m��j�\u00069�f\u0002��!w�Z�BcS�b�ñ�?:\u001f�\u0014�ǯ����\u000eƱ~���,\u0014�\n��\u000e\u00044��\u0007b��\u0006�M�Қ��b��\u0012��0x �\u0005��>\n���/������GLQ��ʃ\u0004c}��^4��\u001b�\u0019��Ӣ��i�}��#�\n7O��\u0010�\u0014\u0011e]\u0017\u0011U��\u000e\u0015�͈\u0012��\nֿiF�y���\u0019�m�3b��\b=�\u0002�\u000ef�v�\u0012+��u�釧���ݛ�&����\u0006e�0\u0001\u0013�f�\u0015\u0004O�����\n��y5\\\u0010%aRMP�^�\n��a�!t]�3���++d�~$�*�\u0018V�Q\n��T35�\u000fr�~\u0003��^�\n�t�\u0003�\u00063\"'��m\u00053\"� \\��⇞\u0017p��r\u0015��V]�:�\b\\�\n\u0007�r<~=�ӼOw�q!���*�\u000e�\u0010\u000e\u0006%ְJd3�v�|�\u0001����վ�\u0019m\u0016�ϖ�,\u0006�)����=����\u0011&\u0011\u0004�oG���p\u0003��l;�����b�9��/}�E(��5�\u0003��\u0014�������Q*3�\u0012\u00037��2����5w�`q�:VR\u000eX\u0012�zظ���\u0012��\u00078���ҵ\u0019`\u0001\u0002�ވ[z&��LN\t>@�����\u0002G|SX�\"\\\n8\u0004��V��\u00186�/Ξ6^ǔ>\u0004�\u0017�\u0000\u0019\u0017U���nQ<e���}�Z�\u0001�Uf0��\u001a\u0004��v3\u0004,Ȱ�m��z\u0018|x��\u0011�A\u0017��Ξ����\n;��\u0016�`l��]�\u0014\u001b&$B�\bL��\u0011\u000e\u0014��\u001f�0\u0000��n���L\u0005\u0016�a�R���&�*h�;\u0012�?�Î�\bm;\u0010β}�L\u001bv�jb2�Bn[U{�&�H��\u001b��J�mB̆�2��=I���-^�[A3����l�ݳ��Q4N���\u001a�j\u0004�%+)��\u0006\u0007���BQ�Y\u000e�T��y+D�A�(��zI���H�J*<���\n��/fdG�m{�[|\\\u000e7\u0003�61vm)\n)9[m\u000er�i\u0017����:L\u0002\u0013�ܑ+i^�/7\bS{|\u0005�Ψ\u0018�e�`�d\u0005�kC��X�+vΚ\u0005�p���iW\u0010�PP��cL\u00046#\u0005����6:[m�b���\u0017��,)�/�$F�(\n��2���\u0006F���B.�2�����L�0j��8�N�T\u0010q�y>*�\\\u0011\u0016������\u0014\nJ&\u0013��!��\u0005\u0005�\u0010!�)\n\u0012.\u0004\u0005�i��$\u0003#�\u001b����|\u001b���wCVj�a\u0004\u0017��ɤT�m\u0003\u0016ڮSAĝ��\u0014aA������ Wt\n�\u0005�\u00137����k�o���\n{\u00051\u0016p�PL,Q=E�0N\u0014�%��\t\u0017&���\u001f8+����� )�xCb�5���Ŀ��>T��\u0016��¶�o��sK����<�\n:X�ALm�\t\u0007n����\u000f�~\n�F19q�\u000f�u��FN�}ȉA�aN�BN�VM&Uȭ��W�)*\"I��\u0013�\u0005;\t�F\u000e����=�y���\u0012lc�\u0007�(�~��2����Tus���Y���qa:�b�IY3'�\nP\u0002�ĝP_�\u0013��('r\u0014�����X8l?�qEa��*\u000e���\n\\�{�(\bv�Z�j2a�x�'$\n$�~ �lSQX�\u0012�\u001a��֏�K���>2A�gZf� ��\u0018$���\u0017\u001b\u0019$xحW��mwA��|�\u000e\u0012�i\n\u0006\t6j\u0006\t�|$}�n����\u000e�k#��\u000e\b��0\t�\nP�)�����\u0002��Y�����\u0015L\u0007\n��v\u001f�ۇ��\u0004]x;���/l�\n�s4��=\u0004_������GVk��\u001f9/�zd�n����Ȋ�̀�?1_ �\u0004�0!\u0003�C��φ�-`A�˸.�8\"���z��9�$AvQg\u0005EI�#k1\u0001,ȵ{��6\u0014�*�s\u001b���6\u0002A�ml\u0003N�`�dR�w\u0003'&�$'&�LQ�A�!�oܐ\u0001&�\u0012��ӳۑ�?�J��\u0013\u0003���;*Q�\u001f�d���YJo�W20��'�\u0005*���-��N\tJ����\b��q�G�ݣ�\u001f^�\u0014��?}V\u0014���bM�9J}�R/�\u001b\u0002���l\u0018�^�u�r20\nG]'�ݥ����:\u0016��1��_�ƪ7:�6�\u0003a[\u0000�r�����'�g���>��q�� a�D�I�}ф�\u0000�\b]7X\u0006\u0005�\\j���h�\u0007����l\u001f�\u0002L�\n��;�S;?,�6O�5\u0011\u001b\n�\u0003\u001a�(\u000f\u0010\u0019����Q9�nhm���\u001a�H���\u00138�g\u0019��)��\n��\u0003��̠o���'���[�������$\u0016QV'�x,,�)��?\u0015*o�c��K�U�/,�bPY��Ġ���6\u0006�J\u001bU� �\\Vk���%�\tZu�\u0012E�@5�Yrk�Z����,h�E�z7dW��d�R\u0002\u0000�=��3Q�d���;���\t\u001bz\\=\n�2�������X��_ѻ#c���5}q1�߿&��7��\u001f�\u0006_��\n�\u001bx���g��P@a\u0010uڙA�c�����:�Ӧ�~<�\u0012!=�y{}�\u0003�\u00018��\u0019�c�5F��´�\u001b�tҗ�����|��_�ܫ2!��\u0012K�k\u0012\u0005��\u0005d�>%\u0003S�_���A����n0\u0005���'蟈�z��5+��~.3�g_\u001b�^�\u0000r\u0007R�\n�#��ƭR�g4`,գ�cR��\u0019�T ���9\u0010\n\u0010���\u0006 ��\u0013vn�*�/�n��U����X�_�&VP`�\u0018�vW���c�_^�i\u0018\u0006G���q��e\n\u001b0տ���y<\u0007L���kԙ'v!�D\u00030տ��8�����\u0017���=P��\n5i?�&�\u000eF�GctxA��B����3�2��%���|�S\u000f���j��\\��^v�A[�$\u000e�\u0005!q�ϔ��\u0002�3�o\u0017S\u0019�\u0014%r� E�\u0000\u001b�Qm4㊍j�\u0000J���S�s���W�+\nJ1\u0019�c� ����N\u0018�\u001aD\u0003��Y�B\u0005��\n��\u0001�(�7�\u0003�+�3\u000fّ��-�#���\u0002��3�\u0019\u0000�\u00036�%ੇ\n�0�fW8Çz�@����\u0013�8.{�\u001aN��Ђ\n�'��5c��r�\u000e��2|L���,ߪ\u001f5G�;8]<2\u0003m��[�v��f���Pp\u0000{.ְp���\nM�h�\u0006N�I�'��+��G<��{��s���\u000fx����\n�\u0017|\u001f\u0006�����,���rG��\n�\u000fD�\b��NU�\u0003\t#�͝�\u0003\t��n��\u0003]����\u0004�\u0017| �x���w.7�@��N��}b��s6���\nr��ŀ\\{\u0004\u0017D�\bY;�ĩ�y�\u0017d�\u0010\\\u0010��\u0005��\t%����B_\u0004�\b.�|/� ;� \u0012ot�x!K\n\u0012}�L#� ��\u00117d�z�9�\u0005�m�{�\u0005ݍ���\u0007����������\n\u0012Η8�\bٝ��\u0005y�� ���n�&�����j��(웞���ٸ95i\u0003��7�o�u^��Q��\n�n�\u0003���g�\u001f�[�\u0007\"���8�E\"Ks�����\b~t$o�\n��9�U����9�P�\\�o��x�\n4\u000e�c2�o��{��kf�\n�\u0007���\u0007b�93Aq�\u0006�t�3\u001b�=\u0019xCu��;2�\u0003qgV��N�n�FQر�j�5���ㇰ�\u001b�@d���ԏMױc���qΞ��y�g��ٓ�Y�Z\nj�!��l����q��\u0003]\\kZ軁����C���s�\u0001oXe�W��Uz\u0015\u001a\u0001�\u000fd��-/d��D�G�Y\u0018�\u0007:܍���\u0003�\u000e>�]\\�\u0003n\u0016�{��n}GQ�\u0007z\n\u0012�\u0013���Kf;�p:m��\u0014�{3 ۇMx���\n�c1I�Sg��>2�$��3\u0000�r�;����~j\u001a��\u0011�l��6d�`Cd�pC\u000f�\u0016:V��\u0017Jѧ�;8\u0003|��L�i�\n��\u0010҉@*�1���Z�Crk߇��)X�EBS~N�\u0003��\u0001\u0006�\u0004�1\u0014��\n4�\u0001DB%�J�/(�AI��FJ\u001a�P��lwg��\n7�Ze�\u001b��TR\u0019|Fj8ֹI�\nɒ\u0002�U}ep]\u001555|�o���\u001a\nw�0�6MD�0'\"��\u00126l���aMC��y߃���2��o�2�\u0016\nj��n�aNt\u0006\u0003���?��\u0003��Uq'\t}\u001f��'��%��t�\u0007wٔ�V4�oY$��\u0019[y���][�6݆u�m�?+��&�q�e6I\u0006�|N[�\u0016�-�H2h�\u0003hy��\u0016OmT��\n6�PI��=\u0019^C�-[Y�ʭ�}ps��=�\\T}M\n������\u0002\u0011iˆ.����Ks\"2'�����$�\u0011\"\u0005�!u��g��-\u0017g�7�i\"ӭ֝�0�w�r_\u00155���7h_�Y\nxk\u0007=a\u000e��BH9z\u0014\u0013\u001f�L\u0006b6�o�!��@c�������H\u0003{\n\u0015B�˘x�D�><��8\u0005C���$�2\u0017�\u0014]rq\ns6Z���3V�3�8˅�KƩM�>W�&N�H\b\u000e݆I\t#7P�\u00154\u0013��O?fCrL?N9��\\��\u0006\nd�A��J\u001f \u0002�u7P�-�\u0017r\u000eŷ\u0016�?�\u0006%�F�#\n�����B\u0012��BZ��v!�o\u0004\u0019\nZ�e\u0007I)[J\u0010�\u0014\u0003NR8!i#�P���ǹ\u0002o�?�\u001f=��������\u000e��\b�=1�#u�fl�):f�9�ΆL����c�T\u0006�\u0013\u0014\b\bd ��6Bj���q\"1u�6ʠ���q�N��\n9�\u0011NHB��B�G�=��*(I�DBN����AO\u0007ЈTՈ�ŤA�\u0013�0`�\n\u0000�S��qC&\u0018�MI\u000fPR����܃\u0013�(�{�d��\u001aI\n���J\u0018M!�����������J\tl��q<�bj<(T\nX\u0005�aK�\u000f�B�>�˚\u0014���AhhK%\t��!u\u0001\u001b�����\u0013�$#�\\�\u0000����\u0005g6�jw\u0013�\u0006��TRՑ��F:�Gk\"�\u00166�u�\nH�&y�\u0003RW��\u0000�]%j�*Y\u000fc\nOO�LC�\u0003-� ؀��� �P[\n���,\u0001he*m��� )�}\u0007\"��v\n�`\u0003�(Z��&��\u000e8n\u0000\u001a�\u0004�28I;\u0004=\u0003\nP|\u0000r\u001a\u0000�MR�h�\u0000\u0011�\u0018\u000f�\nC%R������\tLG�^�p\"\u0000�����ڟ�Sr�y8�\nK�v73�16�� K@��.�q�\u0013~Tf�p^.����p��\u0004~���@D�\u0006t;\n��xþ�\u0006a�j�$�$�\u0013K���S\nOX{R'w@��q\u0019|d.__\u001b�2�����\\f\"Lu�:c�]�\u000f\n\u0017���ȱ\u0012�Ѵ�\u001b�sV]�$U�c\u0016���\u0006�����.�u��/\u0018�\brD*��K.}�\u001bv�\u0013�H,\u0003�р\u001b�$\u0004-�\t�{Ϲ�\t�\ni1����8�0��\t�P�)��ısf���tTRUs��4�i~�W\u0000\u0003�<�R*�|�z���hMk\u0019���`\u00032q]X\u001b\u0010jO�k�!�\u0011�\u0016��q�9�3�B?c\u0013ὃ��H�9vec\u001f�������Y,R��\u000f\u001a\u001b\n�w�̘����_��{�?\u0006���ˏ\u0016\nj��lʩc���#g��\u001b��1x����?�=�G\u0018��k�?AH*i\b�.\u0013��3�\u001f������gwV\u0006.ǀ��&UQ�3�(�L/�Գ�j���Μz�7ʨ�\u0004��\u0016l@��\u0016TR��j\n� \u000e��\u0019���a&ARU�b����\u00008�F־\u0001'$����\u0007�s\u000eI�P����/�_����p\nw,LS{7�8�\u001f\u0002�2�\u0010\u0016��� ��\n��!�\u000e�p\u0017gذci��\u0012�;IP���\u0010\u001fw�T\u001b�q�f&έ\u0017\n\u000f�@p�1\u001a�,�/A��cV��`���b\u0019fE*h��`�\b_��zX!58&�\u0013\t�ۅHZ4��[�U�~\"��\u0012��\u0010j��\n�9\u0017D\u0011-\u000e\b;r\u0000'nz�\n�nz�Ӂaǉ�<�¿c\u0016���NJ�\u0017�|f�ω�4�@�G?�\u0015�5�d�\u0015;\u0011l��J[�d�nf�\u0002�Q:\u0015�4$*C���.��Tp\u0013�p�r\u0013�99n��\u0006G­7���(�9�ڻ\u001f'm����,R�\u0003\\\u0015֘\u000e�2�&W���lr�,�\\�v�*Uc*\u0001�/�!Gڲ�8Q���sl#U!\n4�4����b���ZVXc3���1�L�-Ǩ8�2xǏ\u0003v���+����S�t�I\n�I�A�Ic�X�>r�� ��\u0012��3[�QSZ�٩i0a�H\"R�3�P�X8B��&\u0015�\u0001��+߽!�?�B�\n��'2|\u0005�/�O��0���C��L��{\u000e�G��8�/\u0000:Bji��P�0\tj�3\u0006\u0018�\n(,\u0011:���\u001bAF�V�4�$��̠�qzf#)e��� ��H����+\u000eI*�M\u0011��8\u000e\n\u0017k�\\\u0016fk��F�qB:}E�#+���tn��(��Hճ��\u001a�D\n,D\u0004�۰~��\u0012ye�Y�\u0019\n�6>��̜��/$\u00180��0����\u0012�5�0K\\Ǘw���\n���nc�\u000e�v�sx�|�E�5��?�kf-p�p�P~�g��_,�b�\n'�\u0018�|sv�#j2\u0019i\u0010\u0012�80�҃x�\n��t���\b�i/���A�.�!��걤r7\u001bK���۔�\nH�ޖ-�����R��C����߻V��]�ދ���6�\u0004ݿ���C��޵Ǔ���x���f;��C�\u0004ϫw�y�GZ�Qg�7!q���m&mjPR�\u0006��)r\u0000y\u000eI�AN����\n\u0017b\u0001�o�����B�\b�\\rL�\u0000��\u000e�:+>�u|��5s$3��w��s�jZ\u0007gq=ud�\u0019.�)�\u0017�\u0015�M�5�]e/�7�����B���%_d�LU������|1�˥A�f/�I�Ys[�j����֚E�M���f>�5�xGcE�fc�5��\u0000x��`\u001f^��#�@_!�~��\u0007Jw\u000e����?\u001au��cv�aO��HE5��-��\bbj�����\u0003���uuQ�T����\n:�Kĉ^\u0004y��0\u0000�W��\u0010\u0004��M\u0004��|\u0011Z�Q�>U.D���J�*�1\n':�(o|ǟ\u000f�-�Gl_r$N�\u0019k}��f]��3Vp�9�\u0015 ��ۭ���<�Hp�v\\eI�j�\u0013�f�H�)k���\u000e�y<>vi��\u0010F\nT�K0\u001a>x�!�\u001b�˒Ȁ%š\u0010��-�8,i\u0016\u001a�#6h0}x��P,��\tN��E��Ӕ=A\u000f=��%�r[{\u000e\\Q��\u001aî\u0018��\u0006��6\u0001;�pP�w�H��\u0000��2eG�c��Ee\n:�>Ĕa|K�x���t1�p\u0017YL,���c\u001b\u0014I��!\u000e�Sr\u001b#�B̨�\u0015P��X��VA�\u0012\u0010\u0000\u0018U�Ƀ����I�\u0016�\nO9�T\u001bh4]��\u0013���\u0017���˪�\u0016E��VSm�\u0003�C��e���J�u\u0006��L��M��S��D����C+5=�����d�\n){*ȧ=�\u0016\u0003�\u0016��Q���ծf e5�\u00126K\u0000���K\u0011�l��X\u0010o?\u0016\n\"˅��o0>[m��P�\u0004'���q\u0003�\nB�=&ۇ�N=��\u0010����>�Z\\OY��KM�\n#�~��=0MX4�a~�mwO��z[��\n\u001an��!F�+�8�^m\u0016I`)\u0019��w�u��VE\u001a�Dh�!F�~1��n�ϩ�\u0016W\n=��p&\u0017?������j��O\u001f��}��{:dC�y!i�S+P\u0016��a�)�q� �\u0011��z}\u000f�2n)X�\u0015F�\u0016V�1�g���Ѕ�JE)���]��\u0017��i�W<\"\u001fIF���N=J�\u0000`C��\u0014~�ʊ�i�ݬ�C^\u0017\n:�V�v�p\b\u0018C��)���\b�gCU\u0006r��ݓ�0�\n� Ǽ�\u0016s](D\u001b�� 4�@\u0018�<�V�V��\u0019V0C�\n�m\u0001[l\u001a��/�ɶC6����X�g�p\bx���8S٬\n\u0001�ix�\u0004&A{���=�>Z��ہc�S\bm7�m�Rn\u001f�>\u0014��h�\u000f��oBnV�\u0011�򕒀�|�a\u0019&�:0 �(l�2�擒@�e�\\���U��߰\nM��Ǆ�\u0002%&\u0000�(�L��j\n(\u0004Z�\u0005�kAʛ�:�\u000ec\u001bPP;\ns����4Y\b����|T��w� ��[S��\n];d��1a�5y\u0006fu�x1��F�g�7ݐ��`��^}A$���������m{aA���s\n3���UF��K�6�T\u0014)�cJ�#��Lh��B�(\n������sX\u0012�֦޼\u0003i�ħ}4��>c�o#)�.�Q�\u001bg\n��\u0019E$����\u0003\u0005\"u�\u001ang\u001b�R6g\u0015&��\u00199^\u00154�\u000e�H�8c:�\u0000��\n:�2�\t|c;��C�?�\u0019�A`$�\u0019�\u000el�=��Z�+�\n��LM�<��j�X\b%\t�\u000f\u0006�T�/�d\u0003NB���5\u0006T�\u001a\u000f���P��Ah������$\n�TU\u0018�|��$�l�\u0004��\u0005�#Ebf~�\nj\u0007p�6$��{���yO\u0015�$��/�!̴�bn�K\u0016C\u0010cјbv�L\u0002�ȶ�\u0013��IA�i�-7ekb�d��mh\u0004�,�˱�\u0019Yj\b~�\bg$x0s\u000f�:#֪�b\u0003\u0011\u000f\n\u000f�T����R/ߑt\u0019��bw�Y|?+��\u0002s \u0007�\n��/�\t\u000e�l\u0002ʥ(ɀڑX(E�8��\u001b�d���1ÜXIW�u�@���tJp�0';ޔ6��.C�<�_\u001623��~_2i�H^�i�Y�$�\nY�O_�D\u001aZ�|\u0017\"��jL�O_��>}\u0015l�f��~���\u0013�I��;�̣^�\u0000[=\u0004_�|H���elo���\bHI�!x��\u000f�yL�\u0019IiR)�\u0017v]tEw�\u0019s�]��/p�y��m�3�\"뇻b��,P�\u0005c�(\n�\u0013�TUqVq8Ӫ3f�gu�_(ʫ\u001bf���~Q�\u0006\u0013\b\u0005\u000f����\n\u0015�_��8�D2�\u0006U$4\u0014G�Bs�j��RM\u0006�\b�\u0017�)%v���N���lL���\u0010�GyӞ~��k��/�uu3fѡ�I\u0017Y�\u0017�\n��\u0018�偫�c�ጎ��S\u000e�\u0011��a�#��I���d�)�TI���@yKr2qpF�3b:���\u0007�z�F�S�i�\nY�#�}KU�y��\u0000+��S�3\u0012C<z�:r<6�@v�r2�\n�ʤ�\u0012�*�ًT\"�\u0017F��NRer<�6L&\u0013\u0003�V��zz�[�\u0019+�ݝ��\u0004Y�q��s\u0016+\n��f��<��;M\u0000���\u0004M��Bya\u001f��m�J+�d���\u0010+&�I\u0002�pJ9�H��\u0002\\Ř\b$p���&̈L_Q\u0018쁶+��a�ȁl��1���V�Y��L�MZ&�SOYP�;�%\u0003l\u001b\u0013�h8D\u0003F�;p�X�\n`4#VR�\"�g��T����?�P��Cm\b˗���\u0017L>���\u00178Z\t����n�\u0000w:\n��4\u0003�\u0005�\u0019�ky$��,#`���:��\u001b�Q\u0002�fT�Ό�~G�Q\b��I+�k[W�\u0002M'�6�\u0007XL��\u0018�0I,!\u0012�x\u0006c���Q6�G�������:kF3{�\u0007̨n�\n��2'�p\u0007�����2P\\x���c���;�ԥbR>�Zg��\u001fXujX~\u0012n;��\u001b�\u00067���q�9�p;��\n��6\u0019����Q���^'�\u0006��\u0000���?0�\u0012�Id\u0011���Z�\n�RB��v\u0010fM�zS�����a�bDS�\u001bǩ��P��Gf���\u0014��\u0011����xJ�`@ѽ�\u0015��ь\n��^�ʻ��wd���\u000f�/�'\t0����1�\u0005!�u��\n�ho�ɏL\"��\u00008���a%\u0017�\u0016GŮ[M�J�\n\u000e^��������ѧ�P��\u0011\u0013�{VL\n\u000e��\u0019�a̙\u0010X�\u0001A\u0001�s��/Ć����fZ\b\"_��>ʱ\u0015\u0013�H��\bs\u0006\u0010���RB�O\u0011�\n;;\u000e�%�cFW�ݑ8\u0001p��\tq���`G��R*t勩�YB����Hx�\u0015�(�l'�s�(,V�[��8\u000e�@h�:>\u000fY.\u0018\u0017�dlA��Z�\u0015�h0?2W`�\u0015�i\u0004\n���Y`\u0001�R����x�-&0f�\u0014�m3d3�.�\u0017��J�pG,V���(\u000e]7p�qUWtO��ƣ��7��M |t��a�\n��}�og7\u0006r��q�<\u001f�\u0003��e�\u0003�\\9�\u0003�\u0011��&\u0013\u0015r\u0000#����\u0015$U}�(\u0011��\u0016\u001aX�r\u0000\n\u0005x!--\u0017r��O>7!�tLk\u0005\u000e����w�-�vI���&�U�\nN͊��Z.�@�B�%�E-�� �V�\n�\u0011(JUo���ؿ�$UMM�\n����d]�\u0011K�.�O��y�\u0004�npn�l+��\" �\nl��0�=��ǀe�}����(�+���?���ω���Ȳ %c�^���\u0004�\\�y�\bB��jѮ���L��9\u0010���g��6\u0014Ȁ��1 I֭�\u001f\u0017��\u0005�uƀ2��\u001a�hz#�\u0012\u0013\u0014��<��q:�,�{���,�Z\u0019Ƙ\u0000�\u0014\u0016'R^��[��ЍvT\u001a�\u0000\u000685�\u000f��^���\u0015.\u0006pH�=?d�~�d\u0019@�S5�TE\u0012��^5�y]fh���8\u0000�ڕS��1с���l��\u0019z~ ���K��*\u0007N����`(\n���vҶM�4P\u0017�\"�@���h��1Q�G�e� � D�=���f\u0011�-�L(�j��M\u001f�\u0005i�Ez��īp\u0003bJ4s2�B���ԓD[���KF�-�\u0000��Z���pd�\u0016DT�U��p��>=()%ʃHU�� t�\u000e��\n���cr�!2�W\u0018-b�\u0017�dۣr@@\u0005,�v�\n���+Ҷ�L�#�C�6�`�\n&$�PX�e|�z&$���\u0006\u0016Jd�2-&_�\u0016\u0013�����诗�bI�U�����'�[:9\u001f�\n��$'Ԃ��\u001a�I�%��a\u0012��\u0001#��$�9���<��\n_xkS��<\u0003�U��`���\u0012�8�X�;�^�G>�\u0016Ժ����\u001a-��/��W�\u0003+��w3�ۍ$]raN\ncy=b\u0019\bv��yP��ޒ\u0018�:R�1x�Ri���\u001bzf�ZA��\u0000\u0007\u0019�T\u001f�^����\u0017���\n6O�����\u0010�#\u0003N���L\u0012h����n�%D�o���\u000eYܲ\u0014cV��\u0012\u000f\u0012@�y&�0\u001a����D�\u0001�İ\u000e�D�~�ˀ�B�\u000f\n<^\u0011+:\u00034k21��Զ�C�!��v\u0014����P�\u00065��ڛ�KN<�w]\u000ee)\u0017=���>�.�������\u0015�E��/t�SbG�\u001a�M�b7GU���cg�ʎ�\u0016\u0000�@)�Ŵ�\n��h\u001a|\"����6\u0003K\"\u0011\\�f�$�}¯��'2u.���;֢�}��T%�tl�\nz�\u0014%f�oq��m�e��mx��f$\u0019�ح�q\t1�j�\u0000JU�WK&�_��R)N�J�\n�-H��;U��\u0007�I;\u0016�ªN������2��8\"�:M9��.������;\u0012���\u0019��Js&)Q���k�p\u0001E�\u0010��H ��\n���\u0012}?�N\u0019rP�_�\u0017��\nEa��a\t$�g\u0019\u0000JJ0&�)��y\u0018��$H\u0007۞�T �\u000e�\nzn`�ALd;�o��X��̣B8��d-2&�t[,&�P�X�\t8��\u0017Vu&��R���L���ZP���G�R��5k/4�\u0000��{���CU*~�\u0000cP����L��=L�L��ʠ�oc�0,��<Ž�\nO@I��\u0019S{C1�R%\u0002/�AƤH&�\np\u001f!MJ��l<�\u0005��}�Rg\n%�%��=�\\�3!�3\u00067\b�,\u001b��;�\u001f,\n\u0001���\u0019\u0014���6�6p�A��#0~h�\u0007�K�Cw\u0003:�r�t�\u0000x\u0014��0��\u0017�L_/\u0013�.�,���?��3�0�7��G(U3&�p/\u0007�\u0006iN�\u0012�0���6�,\n]�F��S\"ǅY�Ӓ��/�w\nO�k�)��S��nʲZƦ$\u0004�ȵD\\;����)ѵ/TM��\u001b��?�\u0019��D��f���Z�{,/c�\u0014χ�r�FU�$n�A\n�D\u000fA;���k�0��)%\u001b��\u0003r�,R\u0001�\u000f)�J\u0015{I\u0015\n38hL����̜��1�L0\n\"\u0012�\u0017��lqoML��Hl�\n�\u0016��*����-]�M��� o�2����x��p\u0017Yl_�����潏\n9�.��;wxX-咒��S�V����3�\u0002���!�G\u001a�zw\u001f��\n����b&����Z�\u001fwS\u0003Ƨ�٘��,sV��dfc$%�a*ɝ�\u0012�nM��\"e�Bc`�0צ�o�Z4���/�F��G��n�1\u000f��\n\u0018�a\u0019��[����js`1`\u001av�T��\u001b��#\u0013��a��֟��a�\u0011�0QE\n���BJ����R\u0004)��B΃\u0003�1!ݗ�k\u0005fv0\u001b�XbJ\n6�i�_R���<$��cr@�=��\u0003Iv��\u0004�M��Zվ�&¾\\�r^g\u001b�k\\��;C����1CI��K�{D�X�����\u0004=\u0018S�\n�!��\u000ez\u0000&�O�^�Ul?|M&�ݎ\u0015J�*�����P�JO\n�d?K\u0004�,I��>�'X\u0013���0%�\u001bM\u0007���`ս0V�B�\tnu���`J��\nӇ��n7�e\u00006\u0012G�0�z�$Y\u0002A�)e8m�Δ���u\nS\u0012���l\u0007���1�S��>�\u000e\n� ����4c\t�9�MD�V��\nW��\u001b���s�ć�l�9+\u0015%$G'�=e�6�*?G��D�\\�u����C�[�4�\u001a\"+tEP,�2�fU�u�Q~�\u0003�:�e\u0005\n��pG\u0006�C���3�1��\u001as*���]U�rJ��\b�:'�R�Z\u0013-��\u0007Ӊ�6SJ�Q�����q�)�E�967X�]\u0000,��;��h�E���\u0017�u�Y���\nX#;܁�GQ=-1�\u000e\u0011�\u001fX@\u0018�\u0017T��'dw���\u0005�\tQL�\u0013Dx\n)Ld����-y,�\u0014���8\bb�~��\u0011\nAL�R�NeG�\u0002>�h\u001a�T8�6�E�_, ����Rʈ��1��c\t\u000e�\u0011kԿ���\u0000��#Rx�\u0011���\"\u0015e ��3��y|\u0013b�5��HP�װ��@��\u0006��,9a����o_�Z�ǜ-\u001f��c]5��6@�ZaAֹp\u0013&�/bq�U��9|=2�+\tXˊ\u000eq`n\nZV�\u0004�[��o���(����\u00017��\\�!����ك9�媐è��2\n*��m͠ �x�b\u001a�ٕ���q������Z�ak�5��v��\t|\u0018\u0002�?\u0006Mn�š��\u0016�a�����H?� ��������M���b�9�\n���a�\u000eP�A���0?bg�\u0011���c\u0000��\u0015+J�vv�\u0013\bq^�v�2�\u0018\t�U\u0013Ń�v�\u0006��u�\u0018z�]����w\u000e\u0016$����\\�I�\n,Cb�)��\u001a���Xrk9�����\bxBG�\u0005�\u0004\n�Oב�Ɲ�+����{ܙ�\u0014:D��k�D�[]�\u0012\t�c\n����E�n�Jo�*J; �Y��+\u0019D�� �\\ͯ��\u0002��i�\u001a4\u0017.�a@��\t�d�c�o��#����\u0012Y��o��DW%\n�\u0005͏I�S�,��k����n'u`�V�5s�@n{�`�\u0015@�\u0011�83ܲ��g@�N�L���3��D�\u001b\u0000�\n�zg@��s�z\u0015��GQRG�ʠ\n\u0013��M_��ӓ����O����צ�$�|\u0018K�x6ZX�U��㟏{fO\t��N2 ˙t*MȄ̬F�\t�+!n\u0006�P�-v4y�*�\u001bL�\n\b\u0012�I�U��\u0000�C����\u0000L��\u0012�T�ĄZM\n]+P�Dv�S�\u0002�=�]��h��\u0013L�i�3�Ȅ�)���zdc\u0013�:kTj��LU{I��P�M����\u0005r\u0007m4�\u001b��f��ʱ\u000fUm6�B�\u0017\u0013\u0013%�E�\n!`ʏ\u000f��4����V�R�FCD?{�y�\u0011U�h�\"�<��\u0012�\u0012��\u000f�ɧ��,Aap�LL��ݶ-擉�\b�Ɯ[(\u0019\n\u001a\u000eю�M;�S\u0014V���\u0010��\u000fr�~�64\n���.\u00000�5K�rm��6\u001a.�[L�7�\n*8�v�bJk�A�Ŋ\t�fi�%�5Aeq�Y4!\n�uBg�jb\u0001D{�)%�\u001bL\u0000V��\u0013�.\nYI��w,A��\u0001\u0014��9��h��:�F6+�Z�\t�(�z�&��캷�,���\n���ؘ<�K��\u0017f&��@\n\u0010q��=\u0013h��C\u001b�F\u0001�]\u00173���;��д�{�w���$�}��\\�6�\\�ǼZ��~�\u0011�e@���&�\u000e20��\"7��gzW���SB�����Q?�H|\u0006�>H0f\"\nM\u0003+'��~��u�Q��C��\u0007��\u0010�iGFr�\u001a�hP\u000f�\u0014�B�\n�s�R5S�W��i6�\u001b�����\u0016�~��\\>j�Q)\u0003}\nH�L��y�Y��6�UK���*<�U\u0018,�R�/,\tL\u0003��n�L#\u0019��.g+ҫ~�a-��R�\n�p$г���}Ǥ�\u0007\u0019�_�A\u0017�\n�\u0013\u0019r'Ĺ���>���\u0010���'�YJ���6h\n2][�\u001783jk�O��^X�̌E���\n�\u0014ʷM��d���63h�O�\n\u0000���/!����<8���?�i\\{٩�e�L�\u00192m�`�De��\"Ac/ɭ̹���\u0000][�M�`\u0011�nk��\u001brjk�N���.�` ��J�\n^��'�9�A�\u0004�\u0014�\\G���dvA��87�\u0005�5(�\u0006��h�]\n7_8��yo\"�ۦ3Ѐѩ��6�NL�.\ns\u0007*�&���U�q�%�+���J%�\u0019(-�o����D�X�\u0014u\u0006V�\u0014���\u0011E��E\t��*,o)��{K%ƪJ���d2�z�qr2�pg1�m@#I�J|Ju�:V�����|2ٌW���%���6���ɥc޳j.�H����R�\u0015F\n}UUΛs\u0011��\b4�~$���5�i�ty�I)�����@D�_X�'�@#j��\u0005�P�`B%'9F=��$0\u0019g?�wcS�\u0004\u0000%@Ϩ�]\u0014���7\"\u0004�\nKt�j°|\b#�`\u0005��\u001330A�\u0010\nNrY;Ç��\t���<��j7.�\n���j�'�6���\u0018\u0010��Q�\bjg\nH��\u0003�.\u001f���cx��q��&�D��j\u001a& \bR\n�D^I��D\u001f7�\u0004\u001a���Tv\u001a\u0012F�\u0002N�#k1�\u0002��\u0010�(��&�c�]\u0000f�iJ�\u0012~����d��\n#A���*����(��a�pi\t�Gh$�,62�$�H��p�A2���Y\u0007��\u000ev���$�\b|���\nlX�O�e��\u0015�3�VE�\u0011\u001b�2b\u0015�\n�Z�mm4ɮ% Qi�i������\u0005��=`��\u001aP�:Sy�\u0015Y��M|\u001b*�\"SHy��I=e-8���O�7��D0�J�,$�֦ٶ6���\n�f��@E#��d��k��TD�q�C������8��|g��Q\u0004�{�{��L���8\n���Z'�n��c��\u001f�߾���?6C��\nd����\u0019��j\"*�zn1\u0007��\\xa\\OU��(`ѸZ�8'\u0013��\b\u0018�\u0014ǲ�\u0000\"�\u0016��(��s\u0007Nހ\u001f\\�5Z�kVe����",
+      "priority_focus_marks": [
+        "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。"
+      ],
+      "secondary_focus_marks": [],
+      "multi_agent_analysis": {
+        "analysis_mode": "hybrid_multi_agent",
+        "priority_focus_marks": [
+          "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。"
+        ],
+        "secondary_focus_marks": [],
+        "analysis_claims": [
+          "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。",
+          "网页内容为乱码，无法提取任何有效信息点。",
+          "无法确认Cedars-Sinai医学中心或AlzKB知识库的存在。"
+        ],
+        "agent_claim_reports": [
+          {
+            "claim": "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。",
+            "confidence_score": 34.01,
+            "confidence_level": {
+              "name": "证据不足",
+              "name_en": "Insufficient Evidence",
+              "score_range": "30 - 45",
+              "description": "缺乏充分的支持证据，或有适度的反驳证据",
+              "emoji": "❌",
+              "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+              "color": "#e74c3c"
+            },
+            "verdict": "insufficient",
+            "score_breakdown": {
+              "factuality": 0.007,
+              "source_credibility": 0.465,
+              "evidence_consistency": 0.65,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [
+              {
+                "quote": "阿尔茨海默病( Alzheimer's disease , AD ),俗称老年痴呆症,是一种发病进程缓慢､随着时间不断恶化的神经退化性疾病｡ AD 以记忆障碍､失语､失认等为早期主要症状,当情况恶化时,患者逐渐丧失身体机能并最终死亡｡ AD 已经成为越来越严重的公共卫生问题和社会问题:据国际阿尔茨海默病协会的报告显示,每 3 秒钟,全球就有一位 AD 患者产生,而我国每年平均有 30 万新发病例｡ 2021 年 3 月 16 日,浙江大学定量生物中心周如鸿教授课题组在国际权威期刊 Chemical Science 发表题为 Molecular Mechanism of Secreted Amyloid-β Precursor Protein in Binding and Modulating GABABR1a 的论文,为相关疾病治疗学的未来发展提供了启示｡ AD 患者的特征是大脑中存在具有神经毒性的 β 淀粉样蛋白 (Aβ) 沉积物｡ Aβ 由淀粉样蛋白前体蛋白( APP )的正常水解裂解产生｡最近的一项惊人研究发现( Science 2019, 363, 143 【 1 】),成熟 APP 分泌的 sAPP 的延伸域可与 γ- 氨基丁酸 B 型受体 1a 型亚基( GABABR1a )的固有紊乱的 Sushi 1 域结合并调节其突触传递｡",
+                "url": "http://www.zju.edu.cn/2021/0401/c32861a2273432/page.htm",
+                "source": "http://www.zju.edu.cn/2021/0401/c32861a2273432/page.htm",
+                "stance": "refute",
+                "credibility": 0.706,
+                "relevance": 0.254,
+                "rationale": "token_overlap=1, bucket=web, search_score=0.199",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.064
+              },
+              {
+                "quote": "生物谷BIOON/ --对高风险谱系的序列数据进行分析是检测罕见易感突变体的有力方法;近日,一篇发表在国际杂志Alzheimer's & Dementia上题为“Analysis of high‐risk pedigrees identifies 12 candidate variants for Alzheimer's 2021年7月15日讯/生物谷BIOON/ --对高风险谱系的序列数据进行分析是检测罕见易感突变体的有力方法;近日,一篇发表在国际杂志 Alzheimer's & Dementia 上题为“Analysis of high‐risk pedigrees identifies 12 candidate variants for Alzheimer's disease”的研究报告中, 来自犹他大学等机构的科学家们通过研究识别出了11个罕见的阿尔兹海默病候选突变体,研究人员在犹他州发现了19个不同的家族,其家族成员患阿尔兹海默病的频率要高于人们认为的正常水平｡ 图片来源:https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.12397 这篇研究报告中,研究人员对19个家庭中每个家庭的两个表兄弟进行了全基因组测序,结果发现,其二者机体之间共享着一定的遗传突变体;随后研究人员利用一系列筛选标准来识别罕见的遗传突变,这些遗传突变最有可能会导致每个家庭出现过多的阿尔兹海默病患者｡ ",
+                "url": "http://news.bioon.com/article/6788910.html",
+                "source": "http://news.bioon.com/article/6788910.html",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.38,
+                "evidence_strength": 0.054
+              },
+              {
+                "quote": "点击蓝字关注offer先生并 星标 ，每天获取最新招聘信息 01关于世和基因 世和基因于2013年由海归科学家团队创立，总部位于南京江北新区，致力于高通量基因测序技术的临床转化应用，主要开展肿瘤精准医疗基因检测，通过明确基因分型指导临床用药选择、提示耐药机制、监测术后复发，同时探索风险人群早筛早诊，为肿瘤精准医疗提供分子诊断服务和产品。世和基因是国家级高新技术企业，同时也是江苏省发改委、科技厅及工信厅三认证的精准医学中心，检测实验室具备CAP/ CLIA/ ISO15189资质。目前，世和基因已累计检测肿瘤样本数十万例。 02招聘岗位 AI医学算法专家 岗位详情 算法研发与创新：主导肿瘤早筛领域AI算法的前瞻性研究与核心开发，包括但不限于基于cfDNA片段组学、甲基化、基因突变等多组学数据的深度学习模型构建、优化与迭代；精通CNN、Transformer、GAN等前沿模型架构，结合临床需求突破低丰度信号检测、组织溯源等技术难点，打造性能达到行业顶尖水平的早筛算法体系 多模态数据深度挖掘：负责整合临床信息、基因测序数据、医学影像等多源异构数据，开展数据清洗、特征工程、信号提取与规律挖掘，构建标准化的数据处理流程与特征库；基于MERCURY等核心技术平台，挖掘多组学数据间的关联特征，为早筛模型优化提供核心数据支撑 临床需求转化与技术落地：深度对接临床专家团队，精准拆解肿瘤早筛临床痛点，将医学问题转化为可落地的AI技术方案；参与早筛产品（如鹰眼CanScan系列）的研发迭代，负责算法的临床验证、性能评估与优化调整，推动AI技术从科研成果向临床应",
+                "url": "https://m.liepin.com/job/1980037493.shtml",
+                "source": "https://m.liepin.com/job/1980037493.shtml",
+                "stance": "refute",
+                "credibility": 0.449,
+                "relevance": 0.331,
+                "rationale": "token_overlap=1, bucket=trusted, search_score=0.269",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.32,
+                "evidence_strength": 0.053
+              },
+              {
+                "quote": "阿尔茨海默病是 痴呆症 的一种,通常影响65岁以上的人｡痴呆症是一个脑部问题,导致难以记忆､思考､理解语言和学习｡ 随着时间的推移,脑问题会变得越来越严重｡阿尔茨海默病患者最终需要其他人的帮助来进行日常活动｡ 每个人的大脑随年龄增长而变化,但阿尔茨海默病会损伤脑组织 65岁以上的人､女性以及家族中有人罹患此病的人更容易患上阿尔茨海默病 起初,最近的事件可能会被遗忘,随着时间的推移,记忆会逐渐地变得更差 大多数人在诊断患有阿尔茨海默病后能活大约 7 年 医生根据症状､检查和其他测试怀疑阿尔茨海默病 使用药物可能有助于某些人提高记忆力 什么导致阿尔兹海默病?",
+                "url": "https://www.msdmanuals.cn/home/quick-facts-brain-spinal-cord-and-nerve-disorders/dementia/alzheimer-disease",
+                "source": "https://www.msdmanuals.cn/home/quick-facts-brain-spinal-cord-and-nerve-disorders/dementia/alzheimer-disease",
+                "stance": "refute",
+                "credibility": 0.449,
+                "relevance": 0.331,
+                "rationale": "token_overlap=1, bucket=trusted, search_score=0.269",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.31,
+                "evidence_strength": 0.051
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 4 条，并执行多源检索。",
+              "汇总证据 12 条（支持 0 / 反驳 12）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 34.01，结论为 insufficient。",
+              "关键证据相关性：0.25, 0.28, 0.33"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "12",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。 | \"随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到\" | 随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。 evidence | 随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。 benchmark OR study",
+              "query_count": "4",
+              "trusted_hits": "4",
+              "scholar_hits": "4",
+              "web_hits": "4",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "网页内容为乱码，无法提取任何有效信息点。",
+            "confidence_score": 38.31,
+            "confidence_level": {
+              "name": "证据不足",
+              "name_en": "Insufficient Evidence",
+              "score_range": "30 - 45",
+              "description": "缺乏充分的支持证据，或有适度的反驳证据",
+              "emoji": "❌",
+              "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+              "color": "#e74c3c"
+            },
+            "verdict": "insufficient",
+            "score_breakdown": {
+              "factuality": 0.009,
+              "source_credibility": 0.528,
+              "evidence_consistency": 0.779,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [
+              {
+                "quote": "defuddle 一个智能的网页内容提取工具，能够将任意网页的杂乱 HTML 净化为结构清晰的 Markdown 或干净 HTML，专为阅读优化和知识管理而生。 Github地址 https://github.com/kepano/defuddle 在线体验 https://defuddle.md/ 功能特性 核心能力 Defuddle 的核心使命是 \"去芜存菁\" ——它深入解析网页 DOM 结构，精准识别并剥离广告栏、评论区、侧边导航、页脚链接等干扰元素，仅保留文章主体内容。与 Mozilla 经典的 Readability 相比，Defuddle 采取了更为宽容的提取策略，宁可保留疑似内容也不轻易丢弃，同时输出格式更加规范统一。 标准化输出 工具内置强大的 HTML 标准化引擎，确保不同来源的内容呈现一致： 标题层级 ：自动将孤立 H1 转为 H2，移除标题中的锚点链接 代码块 ：清理语法高亮和行号，保留语言标识为 data-lang 属性 数学公式 ：将 MathJax、KaTeX 渲染结果统一转换为标准 MathML 脚注系统 ：规范化内联引用与文末注释的关联格式 提示框 ：整合 GitHub Alerts、Obsidian Callouts、Bootstrap 等多种来源为统一的 Obsidian 风格标注 元数据提取 Defuddle 不仅抓取正文，更深度挖掘页面信息：作者署名、发布日期、网站域名、文章摘要、封面图片、语言编码，甚至完整的 Schema.org 结构化数据，为后续归档和检索提供丰富上下文。 多场景适配 项目提供",
+                "url": "",
+                "source": "",
+                "stance": "refute",
+                "credibility": 0.295,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": " Economics Theoretical Economics General information How to Submit to arXiv Membership & Giving Who We Are Subscribe Privacy Policy Web Accessibility Assistance arXiv Operational ",
+                "url": "https://export.arxiv.org/",
+                "source": "https://export.arxiv.org/",
+                "stance": "refute",
+                "credibility": 0.708,
+                "relevance": 0.26,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.235",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.06
+              },
+              {
+                "quote": "Skip to search form Skip to main content Skip to account menu Semantic Scholar's Logo A free, AI-powered research tool for scientific literature Try: Noam Chomsky Reforestation Cognition New & ",
+                "url": "http://semanticscholar.org/",
+                "source": "http://semanticscholar.org/",
+                "stance": "refute",
+                "credibility": 0.743,
+                "relevance": 0.259,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.230",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.059
+              },
+              {
+                "quote": "Skip to main content BMC journals have moved to Springer Nature Link. Learn more about website changes. Home Irish Veterinary Journal Irish Veterinary Journal Publishing model : Open access Submit ",
+                "url": "http://www.irishvetjournal.org/",
+                "source": "http://www.irishvetjournal.org/",
+                "stance": "refute",
+                "credibility": 0.565,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.46,
+                "evidence_strength": 0.057
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：网页内容为乱码，无法提取任何有效信息点。",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 5 条（支持 0 / 反驳 5）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 38.31，结论为 insufficient。",
+              "关键证据相关性：0.28, 0.26, 0.26"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "5",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "网页内容为乱码，无法提取任何有效信息点。 | 网页内容为乱码，无法提取任何有效信息点。 evidence | 网页内容为乱码，无法提取任何有效信息点。 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "1",
+              "scholar_hits": "3",
+              "web_hits": "1",
+              "llm_enhanced": "False"
+            }
+          },
+          {
+            "claim": "无法确认Cedars-Sinai医学中心或AlzKB知识库的存在。",
+            "confidence_score": 35.24,
+            "confidence_level": {
+              "name": "证据不足",
+              "name_en": "Insufficient Evidence",
+              "score_range": "30 - 45",
+              "description": "缺乏充分的支持证据，或有适度的反驳证据",
+              "emoji": "❌",
+              "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+              "color": "#e74c3c"
+            },
+            "verdict": "insufficient",
+            "score_breakdown": {
+              "factuality": 0.008,
+              "source_credibility": 0.429,
+              "evidence_consistency": 0.74,
+              "logical_rigor": 0.95,
+              "premise_coverage": 0.95
+            },
+            "logic_conditions": [
+              "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+            ],
+            "hidden_premises": [
+              "需要明确时间范围（实验时间/发布年份）。",
+              "需要明确数据范围（行业、样本规模、地域）。",
+              "需要明确比较基准（与谁对比、指标是什么）。"
+            ],
+            "supporting_evidence": [],
+            "refuting_evidence": [
+              {
+                "quote": "我爱瓣膜 A- A+ 在2023年,仅有89家儿童医院在U.S.News评估的10个儿科专科中获得了至少一项排名,其中十家医院在其所属类别中名列前茅,并入选了2023-2024年度的最佳儿童医院荣誉榜｡ 《美国新闻与世界报道(U.S News & World Report)》自1990年以来,每年都会对全美的顶级医院进行排名｡目前,该榜单已经连续发布了34期｡",
+                "url": "https://www.cn-healthcare.com/articlewm/20230904/content-1601077.html",
+                "source": "https://www.cn-healthcare.com/articlewm/20230904/content-1601077.html",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "Aiva Nurse Assistant featured in Becker's: The ROI on AI for nurses at Cedars-Sinai ￫ AI Superpowers for Nurses Reduce OT by 50% and improve patient satisfaction with voice charting and ",
+                "url": "https://aivahealth.com/",
+                "source": "https://aivahealth.com/",
+                "stance": "refute",
+                "credibility": 0.435,
+                "relevance": 0.282,
+                "rationale": "token_overlap=0, bucket=trusted, search_score=0.225",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.071
+              },
+              {
+                "quote": "我爱瓣膜 A- A+ 在2023年,仅有89家儿童医院在U.S.News评估的10个儿科专科中获得了至少一项排名,其中十家医院在其所属类别中名列前茅,并入选了2023-2024年度的最佳儿童医院荣誉榜｡ 《美国新闻与世界报道(U.S News & World Report)》自1990年以来,每年都会对全美的顶级医院进行排名｡目前,该榜单已经连续发布了34期｡",
+                "url": "https://www.cn-healthcare.com/articlewm/20230904/content-1601077.html",
+                "source": "https://www.cn-healthcare.com/articlewm/20230904/content-1601077.html",
+                "stance": "refute",
+                "credibility": 0.425,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.062
+              },
+              {
+                "quote": "Aiva Nurse Assistant featured in Becker's: The ROI on AI for nurses at Cedars-Sinai ￫ AI Superpowers for Nurses Reduce OT by 50% and improve patient satisfaction with voice charting and ",
+                "url": "https://aivahealth.com/",
+                "source": "https://aivahealth.com/",
+                "stance": "refute",
+                "credibility": 0.425,
+                "relevance": 0.249,
+                "rationale": "token_overlap=0, bucket=scholar, search_score=0.185",
+                "context_alignment": 0.5,
+                "semantic_depth": 0.5,
+                "evidence_strength": 0.062
+              }
+            ],
+            "reasoning_chain": [
+              "提取主张：无法确认Cedars-Sinai医学中心或AlzKB知识库的存在。",
+              "验证模式：fast，快速筛查结论：unsupported",
+              "生成检索查询 3 条，并执行多源检索。",
+              "汇总证据 9 条（支持 0 / 反驳 9）。",
+              "进行逻辑条件检查 1 条，识别隐含前提 3 条。",
+              "综合评分得到置信度 35.24，结论为 insufficient。",
+              "关键证据相关性：0.28, 0.28, 0.25"
+            ],
+            "trace": {
+              "claims_extracted": "3",
+              "evidence_total": "9",
+              "source_type": "webpage_analysis",
+              "mode": "fast",
+              "screening_label": "unsupported",
+              "deep_verification_required": "False",
+              "input_source_url": "",
+              "queries_used": "无法确认Cedars-Sinai医学中心或AlzKB知识库的存在。 | 无法确认Cedars-Sinai医学中心或AlzKB知识库的存在。 evidence | 无法确认Cedars-Sinai医学中心或AlzKB知识库的存在。 benchmark OR study",
+              "query_count": "3",
+              "trusted_hits": "2",
+              "scholar_hits": "2",
+              "web_hits": "5",
+              "llm_enhanced": "False"
+            }
+          }
+        ],
+        "integrated_findings": {
+          "overall_confidence": 35.85,
+          "overall_confidence_level": {
+            "name": "证据不足",
+            "name_en": "Insufficient Evidence",
+            "score_range": "30 - 45",
+            "description": "缺乏充分的支持证据，或有适度的反驳证据",
+            "emoji": "❌",
+            "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+            "color": "#e74c3c"
+          },
+          "overall_verdict": "insufficient",
+          "key_consensus_points": [],
+          "major_risks": [
+            "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。（insufficient）",
+            "网页内容为乱码，无法提取任何有效信息点。（insufficient）",
+            "无法确认Cedars-Sinai医学中心或AlzKB知识库的存在。（insufficient）"
+          ],
+          "logic_watchpoints": [
+            "逻辑结构基本可判定，但仍需证据覆盖关键因果链。"
+          ],
+          "premise_gaps": [
+            "需要明确时间范围（实验时间/发布年份）。",
+            "需要明确数据范围（行业、样本规模、地域）。",
+            "需要明确比较基准（与谁对比、指标是什么）。"
+          ],
+          "evidence_highlights": [],
+          "narrative_summary": "重点核查 ! 标记 1 条；随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。（insufficient）；网页内容为乱码，无法提取任何有效信息点。（insufficient）；无法确认Cedars-Sinai医学中心或AlzKB知识库的存在。（insufficient）"
+        }
+      },
+      "fast_verification": {
+        "confidence_score": 35.15,
+        "confidence_level": {
+          "name": "证据不足",
+          "name_en": "Insufficient Evidence",
+          "score_range": "30 - 45",
+          "description": "缺乏充分的支持证据，或有适度的反驳证据",
+          "emoji": "❌",
+          "interpretation": "该主张缺乏充分的支持证据。根据可用信息，不足以支持该主张。",
+          "color": "#e74c3c"
+        },
+        "verdict": "insufficient",
+        "keywords": [
+          "\"去芜存菁\"",
+          "(Aβ)",
+          ")的固有紊乱的",
+          "143",
+          "2019,",
+          "2021",
+          "363,",
+          "50%",
+          "APP",
+          "Accessibility",
+          "Aiva",
+          "Alerts、Obsidian"
+        ]
+      },
+      "_relevance_threshold": 0.4,
+      "quant_metrics": {
+        "confidence_score": 70.53,
+        "confidence_level": {
+          "name": "中等支持",
+          "name_en": "Moderately Supported",
+          "score_range": "65 - 80",
+          "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+          "emoji": "⚠️",
+          "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+          "color": "#f39c12"
+        },
+        "verdict": "moderately_supported",
+        "support_ratio": 0.4,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 0,
+        "key_point_count": 8
+      },
+      "focused_hl_content": [
+        "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。"
+      ]
+    },
+    {
+      "url": "https://www.sohu.com/a/877527047_121119001",
+      "title": "港中大（深圳）、华为云联合突破！首次提出GraphRAG统一框架_方法_问题_数据",
+      "highlighted_claims": [
+        "针对大模型知识更新难、答案透明度差、幻觉等问题的解决思路与系统架构。系统在Wikidata、DBpedia和本地KG等多知识库上验证了效果，并对问答管线、组件、实验结果及提升建议进行了全面阐述。适合专业知识图谱与LLM领域人士参考",
+        "究背景 近年来，大型语言模型（LLM, 如ChatGPT、Gemini、Copilot等）在信息检索与自然语言理解领域取得了重大突破，实现了问答、摘要等多项复杂任务。然而，LLM 仍然存在三大核心挑战： 知识更新难度大 ——模型知识难以动态追踪现实世界变化。 推理过程不透明 ——黑盒”操作难以",
+        "GraphRAG（Graph-based Retrieval-Augmented Generation）由微软研究院于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）构建同质无向加权图（节点=实体，边=关系，权重=关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化）生成层次化社区摘要（叶级社区→高层社区）",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims） 构建同质无向加权图（节点实体，边关系，权重关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化） 生成层次化社区摘要（叶级社区高层社区）",
+        "GraphRAG不仅仅是检索生成”，它引入了图结构，使得RAG具备以下关键能力： 能力 描述 结构化理解 构建文档内的实体-关系图谱 全局洞察 对文档中的知识点进行社区聚类和语义总结 精确查询 提供局部语义搜索与全局知识总结两种方式 可解释性强 每个结论都可以回溯原始实体、文本、社区 代码实战 代码",
+        "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。"
+      ],
+      "page_summary": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。\nIn-depth Analysis of Graph-based RAG in a Unified Framework\n：首先，将大规模语料库分割成多个块，然后使用 LLM 或其他工具从这些块中提取节点和边，构建图。图的类型包括 passage graph、tree、knowledge graph、textual knowledge graph 和 rich knowledge graph。",
+      "key_points": [
+        "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。",
+        "In-depth Analysis of Graph-based RAG in a Unified Framework",
+        "：首先，将大规模语料库分割成多个块，然后使用 LLM 或其他工具从这些块中提取节点和边，构建图。图的类型包括 passage graph、tree、knowledge graph、textual knowledge graph 和 rich knowledge graph。",
+        "：为了支持高效的在线查询，构建索引以存储图中的实体或关系，并计算社区报告以实现高效的在线检索。索引类型包括节点索引、关系索引和社区索引。",
+        "：在统一框架下，任何现有的基于图的 RAG 方法都可以通过选择特定的操作符并将其组合来实现。操作符分为节点类型、关系类型、块类型、子图类型和社区类型。"
+      ],
+      "risk_flags": [
+        "LLM unavailable: fallback summary used"
+      ],
+      "keywords": [],
+      "reliability_assessment": {
+        "score": 0.58,
+        "rationale": "Fallback mode based on structural page extraction without LLM semantic validation."
+      },
+      "structured_claim_checks": [
+        {
+          "claim": "针对大模型知识更新难、答案透明度差、幻觉等问题的解决思路与系统架构。系统在Wikidata、DBpedia和本地KG等多知识库上验证了效果，并对问答管线、组件、实验结果及提升建议进行了全面阐述。适合专业知识图谱与LLM领域人士参考",
+          "status": "unclear",
+          "evidence_from_page": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。"
+        },
+        {
+          "claim": "究背景 近年来，大型语言模型（LLM, 如ChatGPT、Gemini、Copilot等）在信息检索与自然语言理解领域取得了重大突破，实现了问答、摘要等多项复杂任务。然而，LLM 仍然存在三大核心挑战： 知识更新难度大 ——模型知识难以动态追踪现实世界变化。 推理过程不透明 ——黑盒”操作难以",
+          "status": "unclear",
+          "evidence_from_page": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。"
+        },
+        {
+          "claim": "GraphRAG（Graph-based Retrieval-Augmented Generation）由微软研究院于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+          "status": "unclear",
+          "evidence_from_page": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。"
+        },
+        {
+          "claim": "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）构建同质无向加权图（节点=实体，边=关系，权重=关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化）生成层次化社区摘要（叶级社区→高层社区）",
+          "status": "unclear",
+          "evidence_from_page": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。"
+        },
+        {
+          "claim": "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims） 构建同质无向加权图（节点实体，边关系，权重关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化） 生成层次化社区摘要（叶级社区高层社区）",
+          "status": "unclear",
+          "evidence_from_page": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。"
+        },
+        {
+          "claim": "GraphRAG不仅仅是检索生成”，它引入了图结构，使得RAG具备以下关键能力： 能力 描述 结构化理解 构建文档内的实体-关系图谱 全局洞察 对文档中的知识点进行社区聚类和语义总结 精确查询 提供局部语义搜索与全局知识总结两种方式 可解释性强 每个结论都可以回溯原始实体、文本、社区 代码实战 代码",
+          "status": "unclear",
+          "evidence_from_page": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。"
+        },
+        {
+          "claim": "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。",
+          "status": "unclear",
+          "evidence_from_page": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。"
+        }
+      ],
+      "generated_at": "2026-03-18T04:30:53.279576Z",
+      "generator": "fallback",
+      "_source_text_excerpt": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。\nIn-depth Analysis of Graph-based RAG in a Unified Framework\nhttps://arxiv.org/abs/2503.04338\nhttps://github.com/JayLZhou/GraphRAG\n这篇论文提出了一个统一的框架，用于解决基于图的 RAG 方法的系统比较和分析问题。具体来说：\n：首先，将大规模语料库分割成多个块，然后使用 LLM 或其他工具从这些块中提取节点和边，构建图。图的类型包括 passage graph、tree、knowledge graph、textual knowledge graph 和 rich knowledge graph。\n：为了支持高效的在线查询，构建索引以存储图中的实体或关系，并计算社区报告以实现高效的在线检索。索引类型包括节点索引、关系索引和社区索引。\n：在统一框架下，任何现有的基于图的 RAG 方法都可以通过选择特定的操作符并将其组合来实现。操作符分为节点类型、关系类型、块类型、子图类型和社区类型。\n：在检索与生成阶段，首先将用户输入的问题转换为检索原语，然后使用选定的操作符检索相关信息，并将其与问题一起输入 LLM 以生成答案。答案生成有两种范式：直接生成和 Map-Reduce。\n：实验使用了 11 个真实世界的数据集，包括特定问题和抽象问题的数据集。数据集如 MultihopQA、Quality、PopQA、MusiqueQA、HotpotQA、ALCE、Mix、MultihopSum、Agriculture、CS 和 Legal。\n：对于特定问题任务，使用准确率和召回率进行评估；对于抽象问题任务，使用包括全面性、多样性、赋能和总体质量在内的多维度比较方法进行评估。\n：所有算法在 Python 中实现，并使用提出的统一框架。实验在 350 集。数据集如 MultihopQA、Quality、PopQA、MusiqueQA、HotpotQA、ALCE、Mix、MultihopSum、Agriculture、CS 和 Legal。\n：对于需要 top-k 选择的每种方法（例如块或实体），设置 k=4 以适应令牌长度限制。使用最先进的文本编码模型 BGE-M3 生成图的节点和关系的嵌入向量。\n：RAG 技术显著提高了 LLM 在所有数据集上的性能，基于图的 RAG 方法通常比 Vanila RAG 具有更高的准确性。例如，在 Quality 数据集上，RAPTOR 相比 ZeroShot 提高了 53.80% 的准确性。然而，如果检索到的元素与给定问题不相关，RAG 可能会降低 LLM 的准确性。\n：构建树所需的令牌成本最低，而 TKG 和 RKG 的令牌成本最高。对于大型数据集，离线阶段的两种版本的 GraphRAG 通常比其他方法消耗更多的令牌。\n：ZeroShot 和 VanilaRAG 在时间和令牌消耗方面是最具成本效益的方法。KGP 和 ToG 是最昂贵的方法，因为它们依赖于 LLM 进行信息检索。\n复杂问题任务的新 SOTA 算法\n：基于上述分析，设计了新的 SOTA 方法 VGraphRAG，通过结合四种元素（实体、关系、社区和块）来有效地指导 LLM 生成准确的答案。在 ALCE 数据集上，VGraphRAG 在 STRREC、STREM 和 STRHIT 方面分别提高了 8.47%、13.18% 和 4.93%。\n：基于图的 RAG 方法通常优于 VanillaRAG，主要原因是它们有效地捕捉了块之间的相互连接。GGraphRAG 和 RAPTOR通常优于 HLightRAG 和 FastGraphRAG，因为它们将高层次的总结文本纳入提示中。\n：设计了一个成本效益更高的版本 CheapRAG，通过选择最有用的社区和块来显著减少令牌成本。在 MultihopSum 数据集上 CheapRAG 相比 GGraphRAG 减少了 100 倍的令牌成本，同时提高了答案质量。\n这篇论文提供了对现有基于图的 RAG 方法的深入实验评估和比较。首先，提出了一个新的统一框架，可以涵盖所有现有的基于图的 RAG 方法。然后，在统一框架下对各种基于图的 RAG 方法进行了深入分析和比较。\n此外，通过多种数据集从不同角度系统地评估了这些方法，并通过结合现有技术开发了变体，这些变体通常优于最先进的方法。\n：提出了一个新颖的统一框架，涵盖所有现有的基于图的检索增强生成（RAG）方法，从高层次角度抽象出几个关键操作。\n：在统一框架下系统地比较了 12 种代表性的基于图的 RAG 方法，提供了对这些方法的深入分析。\n：在多个广泛使用的问答（QA）数据集上进行了全面的实验，评估了这些方法处理不同类型查询的能力，并进行了深入分析。\n：框架的模块化设计允许不同算法在各个阶段无缝集成，确保每个阶段（如图构建、检索和生成）可以独立优化和重组。\n：通过调整检索阶段或交换组件，研究人员可以快速测试和实施新策略，显著加速检索增强模型的开发周期。\n：提供了一个标准化的方法来评估基于图的 RAG 方法，确保了可重复性，促进了公平的基准测试，并为未来的 RAG 基础 LLM 应用的创新提供了便利。\n如何才能让更多的优质内容以更短路径到达读者群体，缩短读者寻找优质内容的成本呢？\n总有一些你不认识的人，知道你想知道的东西。PaperWeekly 或许可以成为一座桥梁，促使不同背景、不同方向的学者和学术灵感相互碰撞，迸发出更多的可能性。\nPaperWeekly 鼓励高校实验室或个人，在我们的平台上分享各类优质内容，可以是\n等。我们的目的只有一个，让知识真正流动起来。\n，未曾在公开渠道发表，如为其他平台已发表或待发表的文章，请明确标注\n格式撰写，文中配图以附件形式发送，要求图片清晰，无版权问题\n• PaperWeekly 尊重原作者署名权，并将为每篇被采纳的原创首发稿件，提供\nhr@paperweekly.site\n• 来稿请备注即时联系方式（微信），以便我们在稿件选用的第一时间联系作者",
+      "web_content": "：该问题的研究相关工作有：RAG 技术在各种领域的广泛应用，如医疗保健、金融和教育；已有的基于图的 RAG 方法，如 RAPTOR、KGP、HippoRAG 等，但这些方法缺乏系统的比较和分析。\nIn-depth Analysis of Graph-based RAG in a Unified Framework\nhttps://arxiv.org/abs/2503.04338\nhttps://github.com/JayLZhou/GraphRAG\n这篇论文提出了一个统一的框架，用于解决基于图的 RAG 方法的系统比较和分析问题。具体来说：\n：首先，将大规模语料库分割成多个块，然后使用 LLM 或其他工具从这些块中提取节点和边，构建图。图的类型包括 passage graph、tree、knowledge graph、textual knowledge graph 和 rich knowledge graph。\n：为了支持高效的在线查询，构建索引以存储图中的实体或关系，并计算社区报告以实现高效的在线检索。索引类型包括节点索引、关系索引和社区索引。\n：在统一框架下，任何现有的基于图的 RAG 方法都可以通过选择特定的操作符并将其组合来实现。操作符分为节点类型、关系类型、块类型、子图类型和社区类型。\n：在检索与生成阶段，首先将用户输入的问题转换为检索原语，然后使用选定的操作符检索相关信息，并将其与问题一起输入 LLM 以生成答案。答案生成有两种范式：直接生成和 Map-Reduce。\n：实验使用了 11 个真实世界的数据集，包括特定问题和抽象问题的数据集。数据集如 MultihopQA、Quality、PopQA、MusiqueQA、HotpotQA、ALCE、Mix、MultihopSum、Agriculture、CS 和 Legal。\n：对于特定问题任务，使用准确率和召回率进行评估；对于抽象问题任务，使用包括全面性、多样性、赋能和总体质量在内的多维度比较方法进行评估。\n：所有算法在 Python 中实现，并使用提出的统一框架。实验在 350 集。数据集如 MultihopQA、Quality、PopQA、MusiqueQA、HotpotQA、ALCE、Mix、MultihopSum、Agriculture、CS 和 Legal。\n：对于需要 top-k 选择的每种方法（例如块或实体），设置 k=4 以适应令牌长度限制。使用最先进的文本编码模型 BGE-M3 生成图的节点和关系的嵌入向量。\n：RAG 技术显著提高了 LLM 在所有数据集上的性能，基于图的 RAG 方法通常比 Vanila RAG 具有更高的准确性。例如，在 Quality 数据集上，RAPTOR 相比 ZeroShot 提高了 53.80% 的准确性。然而，如果检索到的元素与给定问题不相关，RAG 可能会降低 LLM 的准确性。\n：构建树所需的令牌成本最低，而 TKG 和 RKG 的令牌成本最高。对于大型数据集，离线阶段的两种版本的 GraphRAG 通常比其他方法消耗更多的令牌。\n：ZeroShot 和 VanilaRAG 在时间和令牌消耗方面是最具成本效益的方法。KGP 和 ToG 是最昂贵的方法，因为它们依赖于 LLM 进行信息检索。\n复杂问题任务的新 SOTA 算法\n：基于上述分析，设计了新的 SOTA 方法 VGraphRAG，通过结合四种元素（实体、关系、社区和块）来有效地指导 LLM 生成准确的答案。在 ALCE 数据集上，VGraphRAG 在 STRREC、STREM 和 STRHIT 方面分别提高了 8.47%、13.18% 和 4.93%。\n：基于图的 RAG 方法通常优于 VanillaRAG，主要原因是它们有效地捕捉了块之间的相互连接。GGraphRAG 和 RAPTOR通常优于 HLightRAG 和 FastGraphRAG，因为它们将高层次的总结文本纳入提示中。\n：设计了一个成本效益更高的版本 CheapRAG，通过选择最有用的社区和块来显著减少令牌成本。在 MultihopSum 数据集上 CheapRAG 相比 GGraphRAG 减少了 100 倍的令牌成本，同时提高了答案质量。\n这篇论文提供了对现有基于图的 RAG 方法的深入实验评估和比较。首先，提出了一个新的统一框架，可以涵盖所有现有的基于图的 RAG 方法。然后，在统一框架下对各种基于图的 RAG 方法进行了深入分析和比较。\n此外，通过多种数据集从不同角度系统地评估了这些方法，并通过结合现有技术开发了变体，这些变体通常优于最先进的方法。\n：提出了一个新颖的统一框架，涵盖所有现有的基于图的检索增强生成（RAG）方法，从高层次角度抽象出几个关键操作。\n：在统一框架下系统地比较了 12 种代表性的基于图的 RAG 方法，提供了对这些方法的深入分析。\n：在多个广泛使用的问答（QA）数据集上进行了全面的实验，评估了这些方法处理不同类型查询的能力，并进行了深入分析。\n：框架的模块化设计允许不同算法在各个阶段无缝集成，确保每个阶段（如图构建、检索和生成）可以独立优化和重组。\n：通过调整检索阶段或交换组件，研究人员可以快速测试和实施新策略，显著加速检索增强模型的开发周期。\n：提供了一个标准化的方法来评估基于图的 RAG 方法，确保了可重复性，促进了公平的基准测试，并为未来的 RAG 基础 LLM 应用的创新提供了便利。\n如何才能让更多的优质内容以更短路径到达读者群体，缩短读者寻找优质内容的成本呢？\n总有一些你不认识的人，知道你想知道的东西。PaperWeekly 或许可以成为一座桥梁，促使不同背景、不同方向的学者和学术灵感相互碰撞，迸发出更多的可能性。\nPaperWeekly 鼓励高校实验室或个人，在我们的平台上分享各类优质内容，可以是\n等。我们的目的只有一个，让知识真正流动起来。\n，未曾在公开渠道发表，如为其他平台已发表或待发表的文章，请明确标注\n格式撰写，文中配图以附件形式发送，要求图片清晰，无版权问题\n• PaperWeekly 尊重原作者署名权，并将为每篇被采纳的原创首发稿件，提供\nhr@paperweekly.site\n• 来稿请备注即时联系方式（微信），以便我们在稿件选用的第一时间联系作者",
+      "fast_verification": {
+        "confidence_score": 46.38,
+        "confidence_level": {
+          "name": "完全支持",
+          "name_en": "Fully Supported",
+          "score_range": "92 - 100",
+          "description": "有多个独立的高质量来源强有力支持，几乎没有反证或反证质量极低",
+          "emoji": "✅✅",
+          "interpretation": "该主张由权威来源强力支持。可以非常有信心地认为该主张是准确的。",
+          "color": "#27ae60"
+        },
+        "verdict": "fully_supported",
+        "keywords": [
+          "(FQA)",
+          ".gitignore",
+          "1.《申博咨询规划一次》",
+          "2.《1000热门idea合集》",
+          "3.《往期大牛热点分析直播课》",
+          "4.《全方向顶会顶刊论文合集》",
+          "888",
+          "ANALYSIS",
+          "AND",
+          "Analyzer",
+          "Analyzing",
+          "Asked"
+        ]
+      },
+      "_relevance_threshold": 0.4,
+      "quant_metrics": {
+        "confidence_score": 70.01,
+        "confidence_level": {
+          "name": "中等支持",
+          "name_en": "Moderately Supported",
+          "score_range": "65 - 80",
+          "description": "有适当的支持证据，但存在某些疑虑或有限的反证",
+          "emoji": "⚠️",
+          "interpretation": "该主张有合理的支持，但存在一些不确定性。需要进一步验证可能更有帮助。",
+          "color": "#f39c12"
+        },
+        "verdict": "moderately_supported",
+        "support_ratio": 0.4,
+        "focus_coverage": 1.0,
+        "relevance_alignment": 1.0,
+        "keyword_count": 12,
+        "risk_flag_count": 1,
+        "key_point_count": 5
+      },
+      "focused_hl_content": [
+        "针对大模型知识更新难、答案透明度差、幻觉等问题的解决思路与系统架构。系统在Wikidata、DBpedia和本地KG等多知识库上验证了效果，并对问答管线、组件、实验结果及提升建议进行了全面阐述。适合专业知识图谱与LLM领域人士参考",
+        "究背景 近年来，大型语言模型（LLM, 如ChatGPT、Gemini、Copilot等）在信息检索与自然语言理解领域取得了重大突破，实现了问答、摘要等多项复杂任务。然而，LLM 仍然存在三大核心挑战： 知识更新难度大 ——模型知识难以动态追踪现实世界变化。 推理过程不透明 ——黑盒”操作难以",
+        "GraphRAG（Graph-based Retrieval-Augmented Generation）由微软研究院于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）构建同质无向加权图（节点=实体，边=关系，权重=关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化）生成层次化社区摘要（叶级社区→高层社区）",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims） 构建同质无向加权图（节点实体，边关系，权重关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化） 生成层次化社区摘要（叶级社区高层社区）",
+        "GraphRAG不仅仅是检索生成”，它引入了图结构，使得RAG具备以下关键能力： 能力 描述 结构化理解 构建文档内的实体-关系图谱 全局洞察 对文档中的知识点进行社区聚类和语义总结 精确查询 提供局部语义搜索与全局知识总结两种方式 可解释性强 每个结论都可以回溯原始实体、文本、社区 代码实战 代码",
+        "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。"
+      ],
+      "priority_focus_marks": [
+        "针对大模型知识更新难、答案透明度差、幻觉等问题的解决思路与系统架构。系统在Wikidata、DBpedia和本地KG等多知识库上验证了效果，并对问答管线、组件、实验结果及提升建议进行了全面阐述。适合专业知识图谱与LLM领域人士参考",
+        "究背景 近年来，大型语言模型（LLM, 如ChatGPT、Gemini、Copilot等）在信息检索与自然语言理解领域取得了重大突破，实现了问答、摘要等多项复杂任务。然而，LLM 仍然存在三大核心挑战： 知识更新难度大 ——模型知识难以动态追踪现实世界变化。 推理过程不透明 ——黑盒”操作难以",
+        "GraphRAG（Graph-based Retrieval-Augmented Generation）由微软研究院于2024年提出，是传统检索增强生成（RAG）技术的革新范式。其核心创新在于将知识图谱（Knowledge Graph）的结构化表示能力与LLM的生成能力结合，解决了传统RAG在处理全局性查询（如“数据集的主要主题是什么？”）和多跳推理（如“A事件如何间接导致C结果？”）时的固有缺陷。",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims）构建同质无向加权图（节点=实体，边=关系，权重=关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化）生成层次化社区摘要（叶级社区→高层社区）",
+        "Edge, D., Trinh, H., Cheng, N., et al. (2024). From Local to Global: A Graph RAG Approach to Query-Focused Summarization. arXiv preprint arXiv:2404.16130. 论文地址：https://arxiv.org/pdf/2404.16130 代码开源：https://github.com/microsoft/graphrag 该论文首次提出两阶段索引架构： 图构建阶段： 将文档分割为文本块（Text Chunks），通过LLM提取实体、关系及声明（claims） 构建同质无向加权图（节点实体，边关系，权重关系实例的标准化计数） 社区摘要阶段： 采用Leiden算法（Traag et al., 2019）检测图社区（基于模块度优化） 生成层次化社区摘要（叶级社区高层社区）",
+        "GraphRAG不仅仅是检索生成”，它引入了图结构，使得RAG具备以下关键能力： 能力 描述 结构化理解 构建文档内的实体-关系图谱 全局洞察 对文档中的知识点进行社区聚类和语义总结 精确查询 提供局部语义搜索与全局知识总结两种方式 可解释性强 每个结论都可以回溯原始实体、文本、社区 代码实战 代码",
+        "随着阿尔茨海默病患者人数不断攀升，Cedars-Sinai医学中心通过知识图谱和AI技术，打造了AlzKB阿尔茨海默病知识库，用以推动新型病因和药物的发现。本文详解这些前沿工具如何结合，赋能专业人士实现高效科研转化，为认知障碍领域带来突破 正文 据估计，690 万 65 岁及以上的美国人患有阿尔茨海默病。如果没有重大的医学突破，预计到 2060 年，美国这一数字将上升到 1380 万，到 2050 年全球将上升到 1.39 亿。"
+      ],
+      "secondary_focus_marks": []
+    }
+  ]
+}

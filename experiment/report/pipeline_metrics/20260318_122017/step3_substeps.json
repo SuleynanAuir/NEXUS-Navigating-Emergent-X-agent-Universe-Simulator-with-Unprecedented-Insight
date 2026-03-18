@@ -1,0 +1,70 @@
+{
+  "stage": "step3_substeps",
+  "timestamp": "2026-03-18T14:12:49",
+  "snapshot_json": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/pipeline_metrics/20260318_122017/step3_metrics_final.json",
+  "artifacts": {
+    "simulation_dir": "/Users/suleynan_suir/Desktop/NEXUS1/backend/uploads/simulations/sim_5b7f087aa9a2",
+    "report_dir": "/Users/suleynan_suir/Desktop/NEXUS1/backend/uploads/reports/report_9800231d2a91"
+  },
+  "substeps": {
+    "3.1_build_knowledge_graph": {
+      "status": "warn",
+      "graphrag_dir": "/Users/suleynan_suir/Desktop/NEXUS1/backend/uploads/simulations/sim_5b7f087aa9a2/graphrag",
+      "kg_quality": 0.983728813559322,
+      "entity_coverage": 1.0,
+      "relation_accuracy": 1.0,
+      "graph_connectivity": 0.5932203389830508
+    },
+    "3.2_configure_virtual_personas": {
+      "status": "warn",
+      "persona_files": [],
+      "persona_diversity": 0.8982369289732377,
+      "persona_domain_match": 0.09333333333333334,
+      "parameter_injection_completeness": 0.9249999999999999,
+      "environment_preparation_quality": 0.7751304366421052
+    },
+    "3.3_initialize_simulation_world": {
+      "status": "done",
+      "state_json": "/Users/suleynan_suir/Desktop/NEXUS1/backend/uploads/simulations/sim_5b7f087aa9a2/state.json",
+      "sim_status": "running",
+      "config_generated": true,
+      "profiles_count": 6,
+      "entities_count": 6
+    },
+    "3.4_run_iterative_simulation": {
+      "status": "done",
+      "run_state_json": "/Users/suleynan_suir/Desktop/NEXUS1/backend/uploads/simulations/sim_5b7f087aa9a2/run_state.json",
+      "current_round": 30,
+      "total_rounds": 30,
+      "agent_log_jsonl": "/Users/suleynan_suir/Desktop/NEXUS1/backend/uploads/reports/report_9800231d2a91/agent_log.jsonl",
+      "agent_log_lines": 40,
+      "simulation_quality": 0.6204644714704629,
+      "dynamic_adaptability": 0.9147058823529413,
+      "temporal_memory_consistency": 0.4911764705882353,
+      "simulation_stability": 0.7208823529411765,
+      "canyon_interaction_quality": 0.7770053073681374
+    },
+    "3.5_generate_simulation_report": {
+      "status": "done",
+      "full_report_md": "/Users/suleynan_suir/Desktop/NEXUS1/backend/uploads/reports/report_9800231d2a91/full_report.md",
+      "full_report_size": 15530,
+      "report_quality": 0.3806430920227163,
+      "report_process_quality": 0.9500000000000001,
+      "report_generation_completeness": 1.0,
+      "report_generation_success": 1.0
+    },
+    "3.6_generate_interview_reports": {
+      "status": "warn",
+      "interview_reports": [],
+      "interview_count": 0,
+      "deep_interaction_quality": 0.794695652173913,
+      "interview_coverage": 1.0,
+      "interview_diversity": 1.0,
+      "interview_grounding": 0.17878260869565216
+    }
+  },
+  "checks": {
+    "critical_ok": true,
+    "critical_failed": []
+  }
+}
