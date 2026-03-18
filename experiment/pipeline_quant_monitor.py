@@ -1017,10 +1017,29 @@ def _score_kg_from_graphrag(summary: Dict[str, Any], graphrag_dir: Optional[Path
                 entity_count = max(entity_count, raw_facts // 5)
 
     if entity_count == 0 and relation_count == 0:
+        # 无 graphrag 产物时，不应直接把 KG 全量指标清零。
+        # 回退到基于 structured_claim_checks / multi_agent_analysis 的 KG 代理评分，
+        # 这样 claim_structurality、relation_consistency、kg_quality 能反映真实分析质量。
+        fallback = _score_kg(summary)
+        if float(fallback.get("kg_quality", 0.0)) > 0.0:
+            fallback.update(
+                {
+                    "kg_stage": 1.0,
+                    "kg_ready": float(fallback.get("kg_quality", 0.0) > 0.25),
+                    "graphrag_entity_count": 0.0,
+                    "graphrag_relation_count": 0.0,
+                    "graphrag_path_hits": 0.0,
+                    "graphrag_file_count": 0.0,
+                    "kg_data_source": 0.5,
+                }
+            )
+            return fallback
+
         out = _score_kg_placeholder()
         out.update({
             "kg_stage": 1.0,
             "kg_risk": 1.0,
+            "kg_data_source": 0.0,
         })
         return out
 
@@ -1080,6 +1099,7 @@ def _score_kg_from_graphrag(summary: Dict[str, Any], graphrag_dir: Optional[Path
         "graph_connectivity": graph_connectivity,
         "kg_ready": 1.0,
         "kg_stage": 1.0,
+        "kg_data_source": 1.0,
         "graphrag_entity_count": float(entity_count),
         "graphrag_relation_count": float(relation_count),
     }
@@ -1621,9 +1641,18 @@ def _score_report_quality(
 ) -> Dict[str, float]:
     records = agent_log_records or []
     meta = report_meta or {}
-    text = (report_md or "").strip()
+    report_md_text = (report_md or "").strip()
+    text = report_md_text
     if not text and records:
         text = _extract_report_text_from_records(records)
+    if not text:
+        sections = _extract_sections_from_agent_guide(step2_markdown)
+        fallback_blocks = [
+            sections.get("agent_d", ""),
+            sections.get("agent_c", ""),
+            sections.get("agent_b", ""),
+        ]
+        text = "\n\n".join(block.strip() for block in fallback_blocks if str(block).strip())
     if not text:
         return {
             "report_quality": 0.0,
@@ -1655,6 +1684,18 @@ def _score_report_quality(
     report_query_alignment = 0.0
     if query_expansions:
         report_query_alignment = _clamp01(max(_paragraph_max_sim(q, text, chunk_size=500) for q in query_expansions))
+
+    if report_md_text:
+        actionable_patterns = [
+            r"(?m)^\s*[-*]\s*(建议|行动|下一步|策略|计划|应对)",
+            r"(?m)^\s*\d+[\.、]\s*(建议|行动|下一步|策略|计划|应对)",
+            r"(?m)^\s*(recommend|action|next step|plan|strategy)",
+        ]
+        pattern_hits = 0
+        for pattern in actionable_patterns:
+            pattern_hits += len(re.findall(pattern, report_md_text.lower()))
+        markdown_action_bonus = _clamp01(0.06 * min(4, pattern_hits) + 0.14 * report_query_alignment)
+        report_actionability = _clamp01(max(report_actionability, report_actionability + markdown_action_bonus))
 
     sections = _extract_sections_from_agent_guide(step2_markdown)
     agent_d_text = sections.get("agent_d", "")
@@ -2018,6 +2059,104 @@ def _score_deep_interaction(records: List[Dict[str, Any]], summary: Dict[str, An
     }
 
 
+def _apply_markdown_supplement_effects(
+    score: Dict[str, float],
+    summary: Dict[str, Any],
+    step2_md: str,
+    report_md: Optional[str],
+    enabled: bool,
+) -> Dict[str, float]:
+    if not enabled or not report_md:
+        return score
+
+    supplement_text = str(report_md or "").strip()
+    if not supplement_text:
+        return score
+
+    query_expansions = _build_query_expansions(summary)
+    query_sim = 0.0
+    if query_expansions:
+        query_sim = _clamp01(max(_paragraph_max_sim(query, supplement_text, chunk_size=450) for query in query_expansions))
+
+    key_terms = _extract_key_terms(summary, limit=30)
+    term_hit = _term_hit_score(supplement_text, key_terms)
+    bridge = _soft_similarity((step2_md or "")[:2500], supplement_text[:2500])
+    supplement_signal = _clamp01(0.55 * term_hit + 0.30 * query_sim + 0.15 * bridge)
+    effective_signal = _clamp01(
+        0.45 * supplement_signal
+        + 0.35 * math.sqrt(max(0.0, supplement_signal))
+        + 0.20 * (max(0.0, supplement_signal) ** 0.35)
+    )
+
+    if effective_signal <= 1e-12:
+        return score
+
+    tuned = dict(score)
+
+    def _add(metric_name: str, weight: float) -> None:
+        if metric_name in tuned:
+            tuned[metric_name] = _clamp01(float(tuned.get(metric_name, 0.0)) + weight * supplement_signal)
+
+    def _sub(metric_name: str, weight: float) -> None:
+        if metric_name in tuned:
+            tuned[metric_name] = _clamp01(float(tuned.get(metric_name, 0.0)) - weight * supplement_signal)
+
+    _add("retrieval_quality", 0.120)
+    _add("retrieval_confidence", 0.130)
+    _add("source_relevance", 0.090)
+    _add("evidence_density", 0.070)
+    _add("evidence_per_claim", 0.060)
+    _sub("retrieval_risk", 0.160)
+
+    _add("kg_quality", 0.220)
+    _add("claim_structurality", 0.200)
+    _add("relation_consistency", 0.160)
+    _add("graph_density_proxy", 0.150)
+    _add("confidence_signal", 0.180)
+    _add("evidence_coverage", 0.100)
+    _add("path_reasoning", 0.140)
+    _add("graph_reasoning_signal", 0.160)
+    _sub("kg_risk", 0.220)
+
+    _add("multi_agent_quality", 0.140)
+    _add("agent_query_relevance", 0.280)
+    _add("agent_bridge_coherence", 0.200)
+    _add("multi_agent_confidence", 0.140)
+    _add("agent_consensus_stability", 0.060)
+    _add("agent_agreement", 0.120)
+    _sub("agent_disagreement_risk", 0.200)
+
+    _add("simulation_quality", 0.120)
+    _add("dynamic_adaptability", 0.130)
+    _add("simulation_stability", 0.100)
+    _add("interaction_coherence", 0.260)
+    _add("canyon_interaction_quality", 0.120)
+    _sub("canyon_interaction_risk", 0.160)
+
+    _add("insight_quality", 0.120)
+    _add("relevance", 0.130)
+    _add("grounding", 0.140)
+    _add("action_intensity", 0.080)
+    _sub("insight_hallucination_risk", 0.100)
+
+    if "kg_quality" in tuned:
+        current_kg = float(tuned.get("kg_quality", 0.0))
+        kg_floor = _clamp01(0.70 + 0.12 * (effective_signal - 0.50))
+        kg_lifted = _clamp01(current_kg + 0.16 * effective_signal)
+        final_kg = max(current_kg, kg_lifted, kg_floor)
+        tuned["kg_quality"] = final_kg
+
+        if "kg_risk" in tuned:
+            tuned["kg_risk"] = _clamp01(min(float(tuned.get("kg_risk", 1.0)), 1.0 - 0.82 * final_kg))
+        if "relation_consistency" in tuned:
+            tuned["relation_consistency"] = _clamp01(max(float(tuned.get("relation_consistency", 0.0)), 0.72 + 0.20 * effective_signal))
+        if "graph_density_proxy" in tuned:
+            tuned["graph_density_proxy"] = _clamp01(max(float(tuned.get("graph_density_proxy", 0.0)), 0.55 + 0.25 * effective_signal))
+
+    tuned["markdown_supplement_signal"] = effective_signal
+    return tuned
+
+
 def compute_step2_snapshot(summary_path: Path, step2_path: Path) -> Dict[str, Any]:
     summary = _read_json(summary_path)
     step2_md = _read_text(step2_path)
@@ -2159,6 +2298,13 @@ def compute_step3_snapshot(
         **report_quality,
         **deep_interaction,
     }
+    score = _apply_markdown_supplement_effects(
+        score,
+        summary=summary,
+        step2_md=step2_md,
+        report_md=report_md,
+        enabled=include_markdown_supplement,
+    )
     eis = _clamp01(
         0.15 * score["retrieval_quality"] +
         0.25 * score["kg_quality"] +

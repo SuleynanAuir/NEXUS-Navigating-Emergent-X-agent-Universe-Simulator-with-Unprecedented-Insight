@@ -1,0 +1,1036 @@
+{
+  "meta": {
+    "generated_at": "2026-03-19T00:12:19",
+    "without_markdown_source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_001046_oneclick_dual/without/pipeline_metrics.json",
+    "with_markdown_source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_001046_oneclick_dual/with/pipeline_metrics.json",
+    "metrics_count": 110,
+    "focused_metrics_count": 72
+  },
+  "eis_comparison": {
+    "step2_eis_without_markdown": 0.38716108899932544,
+    "step2_eis_with_markdown": 0.38716108899932544,
+    "step3_eis_without_markdown": 0.578379037256258,
+    "step3_eis_with_markdown": 0.6682786235375242,
+    "delta_eis_without_markdown": 0.1912179482569326,
+    "delta_eis_with_markdown": 0.28111753453819877,
+    "step3_eis_delta": 0.08989958628126615,
+    "step3_eis_relative_change_pct": 15.543368706399885
+  },
+  "core_dimension_comparison": {
+    "retrieval_quality": {
+      "without_markdown": 0.8619619565217391,
+      "with_markdown": 0.8752755216342101,
+      "delta": 0.013313565112470949,
+      "relative_change_pct": 1.5445652806064618
+    },
+    "kg_quality": {
+      "without_markdown": 0.3520499573071243,
+      "with_markdown": 0.6710980607548327,
+      "delta": 0.3190481034477084,
+      "relative_change_pct": 90.62580376039487
+    },
+    "multi_agent_quality": {
+      "without_markdown": 0.670077586584491,
+      "with_markdown": 0.685610079215707,
+      "delta": 0.015532492631216033,
+      "relative_change_pct": 2.3180140542213943
+    },
+    "simulation_quality": {
+      "without_markdown": 0.6249241947286822,
+      "with_markdown": 0.6382377598411532,
+      "delta": 0.013313565112470949,
+      "relative_change_pct": 2.130428814370226
+    },
+    "insight_quality": {
+      "without_markdown": 0.5103594909429077,
+      "with_markdown": 0.5222160614615625,
+      "delta": 0.011856570518654852,
+      "relative_change_pct": 2.323180175752078
+    }
+  },
+  "all_metric_comparison": {
+    "action_balance": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "action_intensity": {
+      "without_markdown": 0.03333333333333333,
+      "with_markdown": 0.04220904340831394,
+      "delta": 0.008875710074980607,
+      "relative_change_pct": 26.62713022494182
+    },
+    "actions_per_round": {
+      "without_markdown": 0.20833333333333334,
+      "with_markdown": 0.20833333333333334,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "agent_agreement": {
+      "without_markdown": 0.528682266549273,
+      "with_markdown": 0.5419958316617439,
+      "delta": 0.013313565112470949,
+      "relative_change_pct": 2.518254527311657
+    },
+    "agent_bridge_coherence": {
+      "without_markdown": 0.6418998319143291,
+      "with_markdown": 0.6640891071017806,
+      "delta": 0.022189275187451507,
+      "relative_change_pct": 3.4568127430843436
+    },
+    "agent_citation_score": {
+      "without_markdown": 0.5,
+      "with_markdown": 0.5,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "agent_consensus_stability": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "agent_d_alignment": {
+      "without_markdown": 0.21975862872110366,
+      "with_markdown": 0.21975862872110366,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "agent_disagreement_risk": {
+      "without_markdown": 0.11111111111111097,
+      "with_markdown": 0.08892183592365945,
+      "delta": -0.02218927518745152,
+      "relative_change_pct": -19.970347668706395
+    },
+    "agent_diversity": {
+      "without_markdown": 0.5999999999999999,
+      "with_markdown": 0.5999999999999999,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "agent_diversity_fit": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "agent_log_density": {
+      "without_markdown": 0.05,
+      "with_markdown": 0.05,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "agent_perspective_coverage": {
+      "without_markdown": 0.5,
+      "with_markdown": 0.5,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "agent_query_relevance": {
+      "without_markdown": 0.5,
+      "with_markdown": 0.5310649852624322,
+      "delta": 0.031064985262432177,
+      "relative_change_pct": 6.212997052486435
+    },
+    "agent_section_completeness": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "bridge_rel": {
+      "without_markdown": 0.21975862872110366,
+      "with_markdown": 0.21975862872110366,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "canyon_interaction_quality": {
+      "without_markdown": 0.6122373953488371,
+      "with_markdown": 0.6255509604613081,
+      "delta": 0.013313565112470949,
+      "relative_change_pct": 2.1745756161929997
+    },
+    "canyon_interaction_risk": {
+      "without_markdown": 0.38776260465116286,
+      "with_markdown": 0.37001118450120163,
+      "delta": -0.017751420149961228,
+      "relative_change_pct": -4.57790925092704
+    },
+    "claim_structurality": {
+      "without_markdown": 0.15652173913043477,
+      "with_markdown": 0.17871101431788627,
+      "delta": 0.022189275187451507,
+      "relative_change_pct": 14.176481369760689
+    },
+    "claim_support_ratio": {
+      "without_markdown": 0.30434782608695654,
+      "with_markdown": 0.30434782608695654,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "completion": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "confidence_signal": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.019970347668706367,
+      "delta": 0.019970347668706367,
+      "relative_change_pct": 100.0
+    },
+    "contradiction_ratio": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "deep_interaction_missing": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "deep_interaction_quality": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "dialogue_turns": {
+      "without_markdown": 0.2,
+      "with_markdown": 0.2,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "dynamic_adaptability": {
+      "without_markdown": 0.75,
+      "with_markdown": 0.7644230288718434,
+      "delta": 0.014423028871843435,
+      "relative_change_pct": 1.9230705162457913
+    },
+    "entity_coverage": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "environment_preparation_missing": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "environment_preparation_quality": {
+      "without_markdown": 0.5218432320203132,
+      "with_markdown": 0.5218432320203132,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "evidence_balance": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "evidence_coverage": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "evidence_density": {
+      "without_markdown": 0.71875,
+      "with_markdown": 0.7265162463156081,
+      "delta": 0.007766246315608072,
+      "relative_change_pct": 1.080521226519384
+    },
+    "evidence_per_claim": {
+      "without_markdown": 0.3333333333333333,
+      "with_markdown": 0.3399901158895688,
+      "delta": 0.006656782556235474,
+      "relative_change_pct": 1.9970347668706423
+    },
+    "evidence_quality": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "graph_connectivity": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "graph_density_proxy": {
+      "without_markdown": 0.5030797101449276,
+      "with_markdown": 0.6147876265725681,
+      "delta": 0.11170791642764055,
+      "relative_change_pct": 22.204814500560886
+    },
+    "graph_reasoning_signal": {
+      "without_markdown": 0.3090961015597253,
+      "with_markdown": 0.3268475217096865,
+      "delta": 0.017751420149961228,
+      "relative_change_pct": 5.743010041338616
+    },
+    "graphrag_entity_count": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "graphrag_file_count": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "graphrag_path_hits": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "graphrag_relation_count": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "grounding": {
+      "without_markdown": 0.41,
+      "with_markdown": 0.42553249263121606,
+      "delta": 0.015532492631216088,
+      "relative_change_pct": 3.7884128368819727
+    },
+    "insight_anchor_density": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "insight_factual_anchor_score": {
+      "without_markdown": 0.6666666666666666,
+      "with_markdown": 0.6666666666666666,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "insight_hallucination_risk": {
+      "without_markdown": 0.6729098183257622,
+      "with_markdown": 0.6597661473123788,
+      "delta": -0.013143671013383429,
+      "relative_change_pct": -1.9532589145579162
+    },
+    "insight_length": {
+      "without_markdown": 0.036,
+      "with_markdown": 0.036,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "insight_quality": {
+      "without_markdown": 0.5103594909429077,
+      "with_markdown": 0.5222160614615625,
+      "delta": 0.011856570518654852,
+      "relative_change_pct": 2.323180175752078
+    },
+    "insight_quality_agentd": {
+      "without_markdown": 0.6192563910208321,
+      "with_markdown": 0.6163877442333113,
+      "delta": -0.0028686467875207455,
+      "relative_change_pct": -0.4632405622478659
+    },
+    "integrated_conf": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "interaction_coherence": {
+      "without_markdown": 0.06118697674418605,
+      "with_markdown": 0.09003303448787303,
+      "delta": 0.02884605774368698,
+      "relative_change_pct": 47.144113467622695
+    },
+    "interaction_density": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "interaction_reciprocity": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "interview_coverage": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "interview_diversity": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "interview_grounding": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "interview_quote_density": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "keyword_floor": {
+      "without_markdown": 0.5,
+      "with_markdown": 0.5,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "kg_data_source": {
+      "without_markdown": 0.5,
+      "with_markdown": 0.5,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "kg_quality": {
+      "without_markdown": 0.3520499573071243,
+      "with_markdown": 0.6710980607548327,
+      "delta": 0.3190481034477084,
+      "relative_change_pct": 90.62580376039487
+    },
+    "kg_ready": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "kg_risk": {
+      "without_markdown": 0.37826086956521743,
+      "with_markdown": 0.3538526668590207,
+      "delta": -0.024408202706196702,
+      "relative_change_pct": -6.4527432441669434
+    },
+    "kg_stage": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "markdown_supplement_signal": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.25915050629027236,
+      "delta": 0.25915050629027236,
+      "relative_change_pct": 100.0
+    },
+    "memory_pressure_signal": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "multi_agent_confidence": {
+      "without_markdown": 0.5619758628721104,
+      "with_markdown": 0.5775083555033265,
+      "delta": 0.015532492631216033,
+      "relative_change_pct": 2.7639074304425746
+    },
+    "multi_agent_quality": {
+      "without_markdown": 0.670077586584491,
+      "with_markdown": 0.685610079215707,
+      "delta": 0.015532492631216033,
+      "relative_change_pct": 2.3180140542213943
+    },
+    "novelty": {
+      "without_markdown": 0.9902013965029719,
+      "with_markdown": 0.9799562294046834,
+      "delta": -0.010245167098288488,
+      "relative_change_pct": -1.0346548827814888
+    },
+    "paragraph_rel": {
+      "without_markdown": 0.06948370927318295,
+      "with_markdown": 0.06948370927318295,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "parameter_injection_completeness": {
+      "without_markdown": 0.84975,
+      "with_markdown": 0.84975,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "path_reasoning": {
+      "without_markdown": 0.278911171865751,
+      "with_markdown": 0.2944436644969671,
+      "delta": 0.015532492631216088,
+      "relative_change_pct": 5.568974712383476
+    },
+    "persona_artifact_coverage": {
+      "without_markdown": 0.9375,
+      "with_markdown": 0.9375,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "persona_diversity": {
+      "without_markdown": 0.9093411601015662,
+      "with_markdown": 0.9093411601015662,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "persona_domain_match": {
+      "without_markdown": 0.2333333333333333,
+      "with_markdown": 0.2333333333333333,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "platform_balance_gap": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "progress": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "quant_signal": {
+      "without_markdown": 0.80508125,
+      "with_markdown": 0.80508125,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "query_rel": {
+      "without_markdown": 0.07369022556390978,
+      "with_markdown": 0.07369022556390978,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "reasoning_depth": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "reasoning_stability": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "relation_accuracy": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "relation_consistency": {
+      "without_markdown": 0.7217391304347827,
+      "with_markdown": 0.7718301012580544,
+      "delta": 0.05009097082327174,
+      "relative_change_pct": 6.940315234549699
+    },
+    "relevance": {
+      "without_markdown": 0.5,
+      "with_markdown": 0.5144230288718434,
+      "delta": 0.014423028871843435,
+      "relative_change_pct": 2.884605774368687
+    },
+    "report_actionability": {
+      "without_markdown": 0.5,
+      "with_markdown": 0.6938133333333334,
+      "delta": 0.1938133333333334,
+      "relative_change_pct": 38.762666666666675
+    },
+    "report_coherence": {
+      "without_markdown": 0.6818181818181818,
+      "with_markdown": 0.6692275221612495,
+      "delta": -0.01259065965693229,
+      "relative_change_pct": -1.846630083016736
+    },
+    "report_coverage": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "report_evidence_quality": {
+      "without_markdown": 0.08333333333333333,
+      "with_markdown": 0.08333333333333333,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "report_generation_completeness": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "report_generation_success": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "report_hallucination_risk": {
+      "without_markdown": 0.7754273284676618,
+      "with_markdown": 0.7655931194596877,
+      "delta": -0.00983420900797416,
+      "relative_change_pct": -1.2682309027472305
+    },
+    "report_length_score": {
+      "without_markdown": 0.02,
+      "with_markdown": 0.0075,
+      "delta": -0.0125,
+      "relative_change_pct": -62.5
+    },
+    "report_process_quality": {
+      "without_markdown": 0.2,
+      "with_markdown": 0.2,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "report_quality": {
+      "without_markdown": 0.30812239079819076,
+      "with_markdown": 0.3092870359926833,
+      "delta": 0.0011646451944925529,
+      "relative_change_pct": 0.37798135717288855
+    },
+    "report_query_alignment": {
+      "without_markdown": 0.05539375359264227,
+      "with_markdown": 0.09866666666666668,
+      "delta": 0.04327291307402441,
+      "relative_change_pct": 78.11875936815406
+    },
+    "report_structure_quality": {
+      "without_markdown": 0.5,
+      "with_markdown": 0.25,
+      "delta": -0.25,
+      "relative_change_pct": -50.0
+    },
+    "retrieval_confidence": {
+      "without_markdown": 0.8601739130434782,
+      "with_markdown": 0.8745969419153217,
+      "delta": 0.014423028871843435,
+      "relative_change_pct": 1.6767572990921908
+    },
+    "retrieval_quality": {
+      "without_markdown": 0.8619619565217391,
+      "with_markdown": 0.8752755216342101,
+      "delta": 0.013313565112470949,
+      "relative_change_pct": 1.5445652806064618
+    },
+    "retrieval_risk": {
+      "without_markdown": 0.13982608695652177,
+      "with_markdown": 0.12207466680656055,
+      "delta": -0.017751420149961214,
+      "relative_change_pct": -12.69535645053196
+    },
+    "score_breakdown_signal": {
+      "without_markdown": 0.0,
+      "with_markdown": 0.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "simulation_action_diversity": {
+      "without_markdown": 0.16666666666666666,
+      "with_markdown": 0.16666666666666666,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "simulation_platform_diversity": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "simulation_quality": {
+      "without_markdown": 0.6249241947286822,
+      "with_markdown": 0.6382377598411532,
+      "delta": 0.013313565112470949,
+      "relative_change_pct": 2.130428814370226
+    },
+    "simulation_stability": {
+      "without_markdown": 0.895,
+      "with_markdown": 0.9060946375937258,
+      "delta": 0.011094637593725754,
+      "relative_change_pct": 1.2396243121481287
+    },
+    "simulation_success_rate": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "source_relevance": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "speaker_coverage": {
+      "without_markdown": 1.0,
+      "with_markdown": 1.0,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "temporal_memory_consistency": {
+      "without_markdown": 0.55,
+      "with_markdown": 0.55,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "term_rel": {
+      "without_markdown": 0.08,
+      "with_markdown": 0.08,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "total_actions": {
+      "without_markdown": 0.02,
+      "with_markdown": 0.02,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    },
+    "unclear_ratio": {
+      "without_markdown": 0.6956521739130435,
+      "with_markdown": 0.6956521739130435,
+      "delta": 0.0,
+      "relative_change_pct": 0.0
+    }
+  },
+  "top_changed_metrics": [
+    {
+      "metric": "kg_quality",
+      "without_markdown": 0.3520499573071243,
+      "with_markdown": 0.6710980607548327,
+      "delta": 0.3190481034477084,
+      "relative_change_pct": 90.62580376039487
+    },
+    {
+      "metric": "markdown_supplement_signal",
+      "without_markdown": 0.0,
+      "with_markdown": 0.25915050629027236,
+      "delta": 0.25915050629027236,
+      "relative_change_pct": 100.0
+    },
+    {
+      "metric": "report_structure_quality",
+      "without_markdown": 0.5,
+      "with_markdown": 0.25,
+      "delta": -0.25,
+      "relative_change_pct": -50.0
+    },
+    {
+      "metric": "report_actionability",
+      "without_markdown": 0.5,
+      "with_markdown": 0.6938133333333334,
+      "delta": 0.1938133333333334,
+      "relative_change_pct": 38.762666666666675
+    },
+    {
+      "metric": "graph_density_proxy",
+      "without_markdown": 0.5030797101449276,
+      "with_markdown": 0.6147876265725681,
+      "delta": 0.11170791642764055,
+      "relative_change_pct": 22.204814500560886
+    },
+    {
+      "metric": "relation_consistency",
+      "without_markdown": 0.7217391304347827,
+      "with_markdown": 0.7718301012580544,
+      "delta": 0.05009097082327174,
+      "relative_change_pct": 6.940315234549699
+    },
+    {
+      "metric": "report_query_alignment",
+      "without_markdown": 0.05539375359264227,
+      "with_markdown": 0.09866666666666668,
+      "delta": 0.04327291307402441,
+      "relative_change_pct": 78.11875936815406
+    },
+    {
+      "metric": "agent_query_relevance",
+      "without_markdown": 0.5,
+      "with_markdown": 0.5310649852624322,
+      "delta": 0.031064985262432177,
+      "relative_change_pct": 6.212997052486435
+    },
+    {
+      "metric": "interaction_coherence",
+      "without_markdown": 0.06118697674418605,
+      "with_markdown": 0.09003303448787303,
+      "delta": 0.02884605774368698,
+      "relative_change_pct": 47.144113467622695
+    },
+    {
+      "metric": "kg_risk",
+      "without_markdown": 0.37826086956521743,
+      "with_markdown": 0.3538526668590207,
+      "delta": -0.024408202706196702,
+      "relative_change_pct": -6.4527432441669434
+    },
+    {
+      "metric": "agent_disagreement_risk",
+      "without_markdown": 0.11111111111111097,
+      "with_markdown": 0.08892183592365945,
+      "delta": -0.02218927518745152,
+      "relative_change_pct": -19.970347668706395
+    },
+    {
+      "metric": "agent_bridge_coherence",
+      "without_markdown": 0.6418998319143291,
+      "with_markdown": 0.6640891071017806,
+      "delta": 0.022189275187451507,
+      "relative_change_pct": 3.4568127430843436
+    },
+    {
+      "metric": "claim_structurality",
+      "without_markdown": 0.15652173913043477,
+      "with_markdown": 0.17871101431788627,
+      "delta": 0.022189275187451507,
+      "relative_change_pct": 14.176481369760689
+    },
+    {
+      "metric": "confidence_signal",
+      "without_markdown": 0.0,
+      "with_markdown": 0.019970347668706367,
+      "delta": 0.019970347668706367,
+      "relative_change_pct": 100.0
+    },
+    {
+      "metric": "canyon_interaction_risk",
+      "without_markdown": 0.38776260465116286,
+      "with_markdown": 0.37001118450120163,
+      "delta": -0.017751420149961228,
+      "relative_change_pct": -4.57790925092704
+    }
+  ],
+  "top_benefit_metrics": [
+    {
+      "metric": "kg_quality",
+      "without_markdown": 0.3520499573071243,
+      "with_markdown": 0.6710980607548327,
+      "delta": 0.3190481034477084,
+      "relative_change_pct": 90.62580376039487,
+      "benefit_delta": 0.3190481034477084,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "markdown_supplement_signal",
+      "without_markdown": 0.0,
+      "with_markdown": 0.25915050629027236,
+      "delta": 0.25915050629027236,
+      "relative_change_pct": 100.0,
+      "benefit_delta": 0.25915050629027236,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "report_actionability",
+      "without_markdown": 0.5,
+      "with_markdown": 0.6938133333333334,
+      "delta": 0.1938133333333334,
+      "relative_change_pct": 38.762666666666675,
+      "benefit_delta": 0.1938133333333334,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "graph_density_proxy",
+      "without_markdown": 0.5030797101449276,
+      "with_markdown": 0.6147876265725681,
+      "delta": 0.11170791642764055,
+      "relative_change_pct": 22.204814500560886,
+      "benefit_delta": 0.11170791642764055,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "relation_consistency",
+      "without_markdown": 0.7217391304347827,
+      "with_markdown": 0.7718301012580544,
+      "delta": 0.05009097082327174,
+      "relative_change_pct": 6.940315234549699,
+      "benefit_delta": 0.05009097082327174,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "report_query_alignment",
+      "without_markdown": 0.05539375359264227,
+      "with_markdown": 0.09866666666666668,
+      "delta": 0.04327291307402441,
+      "relative_change_pct": 78.11875936815406,
+      "benefit_delta": 0.04327291307402441,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "agent_query_relevance",
+      "without_markdown": 0.5,
+      "with_markdown": 0.5310649852624322,
+      "delta": 0.031064985262432177,
+      "relative_change_pct": 6.212997052486435,
+      "benefit_delta": 0.031064985262432177,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "interaction_coherence",
+      "without_markdown": 0.06118697674418605,
+      "with_markdown": 0.09003303448787303,
+      "delta": 0.02884605774368698,
+      "relative_change_pct": 47.144113467622695,
+      "benefit_delta": 0.02884605774368698,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "kg_risk",
+      "without_markdown": 0.37826086956521743,
+      "with_markdown": 0.3538526668590207,
+      "delta": -0.024408202706196702,
+      "relative_change_pct": -6.4527432441669434,
+      "benefit_delta": 0.024408202706196702,
+      "direction": "lower_better"
+    },
+    {
+      "metric": "agent_disagreement_risk",
+      "without_markdown": 0.11111111111111097,
+      "with_markdown": 0.08892183592365945,
+      "delta": -0.02218927518745152,
+      "relative_change_pct": -19.970347668706395,
+      "benefit_delta": 0.02218927518745152,
+      "direction": "lower_better"
+    }
+  ],
+  "top_tradeoff_metrics": [
+    {
+      "metric": "report_structure_quality",
+      "without_markdown": 0.5,
+      "with_markdown": 0.25,
+      "delta": -0.25,
+      "relative_change_pct": -50.0,
+      "benefit_delta": -0.25,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "report_coherence",
+      "without_markdown": 0.6818181818181818,
+      "with_markdown": 0.6692275221612495,
+      "delta": -0.01259065965693229,
+      "relative_change_pct": -1.846630083016736,
+      "benefit_delta": -0.01259065965693229,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "report_length_score",
+      "without_markdown": 0.02,
+      "with_markdown": 0.0075,
+      "delta": -0.0125,
+      "relative_change_pct": -62.5,
+      "benefit_delta": -0.0125,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "novelty",
+      "without_markdown": 0.9902013965029719,
+      "with_markdown": 0.9799562294046834,
+      "delta": -0.010245167098288488,
+      "relative_change_pct": -1.0346548827814888,
+      "benefit_delta": -0.010245167098288488,
+      "direction": "higher_better"
+    },
+    {
+      "metric": "insight_quality_agentd",
+      "without_markdown": 0.6192563910208321,
+      "with_markdown": 0.6163877442333113,
+      "delta": -0.0028686467875207455,
+      "relative_change_pct": -0.4632405622478659,
+      "benefit_delta": -0.0028686467875207455,
+      "direction": "higher_better"
+    }
+  ],
+  "theme_benefits": {
+    "knowledge_graph": {
+      "metrics_count": 24,
+      "positive_count": 8,
+      "negative_count": 0,
+      "benefit_sum": 0.5294982944595084,
+      "benefit_mean": 0.02206242893581285
+    },
+    "multi_agent": {
+      "metrics_count": 23,
+      "positive_count": 10,
+      "negative_count": 0,
+      "benefit_sum": 0.1941561578902008,
+      "benefit_mean": 0.008441572082182644
+    },
+    "simulation": {
+      "metrics_count": 17,
+      "positive_count": 7,
+      "negative_count": 0,
+      "benefit_sum": 0.10872744841851256,
+      "benefit_mean": 0.006395732259912503
+    },
+    "insight_report": {
+      "metrics_count": 18,
+      "positive_count": 6,
+      "negative_count": 4,
+      "benefit_sum": -0.0048739643025902425,
+      "benefit_mean": -0.0002707757945883468
+    }
+  },
+  "advantage_overview": {
+    "improved_metrics": 35,
+    "worsened_metrics": 5,
+    "unchanged_metrics": 70,
+    "improved_ratio": 0.3181818181818182,
+    "net_benefit": 1.142036739112103,
+    "gained_gates": 1,
+    "lost_gates": 0,
+    "risk_improvement": 0.018915662190266136,
+    "markdown_advantage_index": 24.110221479373624
+  },
+  "quality_gate_comparison": {
+    "insight_ge_0_60": {
+      "without_markdown": false,
+      "with_markdown": false
+    },
+    "kg_ge_0_60": {
+      "without_markdown": false,
+      "with_markdown": true
+    },
+    "multi_agent_ge_0_55": {
+      "without_markdown": true,
+      "with_markdown": true
+    },
+    "overall_eis_ge_0_70": {
+      "without_markdown": false,
+      "with_markdown": false
+    },
+    "retrieval_ge_0_75": {
+      "without_markdown": true,
+      "with_markdown": true
+    },
+    "simulation_ge_0_80": {
+      "without_markdown": false,
+      "with_markdown": false
+    }
+  },
+  "bottleneck_comparison": {
+    "without_markdown": "kg_quality",
+    "with_markdown": "insight_quality"
+  },
+  "overall_risk_comparison": {
+    "without_markdown": 0.3309228477373241,
+    "with_markdown": 0.312007185547058,
+    "delta": -0.018915662190266136,
+    "relative_change_pct": -5.7160339092938
+  }
+}

@@ -1,0 +1,32 @@
+[2026-03-17 16:39:43] INFO [nexus.create_app:38] ==================================================
+[2026-03-17 16:39:43] INFO [nexus.create_app:39] NEXUS Backend 启动中...
+[2026-03-17 16:39:43] INFO [nexus.create_app:40] ==================================================
+[2026-03-17 16:39:44] INFO [nexus.create_app:49] 已注册模拟进程清理函数
+[2026-03-17 16:39:44] INFO [nexus.create_app:77] NEXUS Backend 启动完成
+[2026-03-17 16:39:44] DEBUG [nexus.request.log_request:55] 请求: GET /api/simulation/history
+[2026-03-17 16:39:44] DEBUG [nexus.request.log_response:62] 响应: 200
+[2026-03-17 16:57:03] INFO [nexus.create_app:38] ==================================================
+[2026-03-17 16:57:03] INFO [nexus.create_app:39] NEXUS Backend 启动中...
+[2026-03-17 16:57:03] INFO [nexus.create_app:40] ==================================================
+[2026-03-17 16:57:03] INFO [nexus.create_app:49] 已注册模拟进程清理函数
+[2026-03-17 16:57:03] INFO [nexus.create_app:77] NEXUS Backend 启动完成
+[2026-03-17 16:57:04] DEBUG [nexus.request.log_request:55] 请求: GET /api/simulation/history
+[2026-03-17 16:57:04] DEBUG [nexus.request.log_response:62] 响应: 200
+[2026-03-17 16:57:06] DEBUG [nexus.request.log_request:55] 请求: GET /api/simulation/history
+[2026-03-17 16:57:06] DEBUG [nexus.request.log_response:62] 响应: 200
+[2026-03-17 17:34:33] DEBUG [nexus.request.log_request:55] 请求: GET /
+[2026-03-17 17:34:33] DEBUG [nexus.request.log_response:62] 响应: 404
+[2026-03-17 17:34:53] DEBUG [nexus.request.log_request:55] 请求: GET /api/simulation/history
+[2026-03-17 17:34:53] DEBUG [nexus.request.log_response:62] 响应: 200
+[2026-03-17 18:00:49] INFO [nexus.create_app:38] ==================================================
+[2026-03-17 18:00:49] INFO [nexus.create_app:39] NEXUS Backend 启动中...
+[2026-03-17 18:00:49] INFO [nexus.create_app:40] ==================================================
+[2026-03-17 18:00:49] INFO [nexus.create_app:49] 已注册模拟进程清理函数
+[2026-03-17 18:00:49] INFO [nexus.create_app:77] NEXUS Backend 启动完成
+[2026-03-17 21:50:37] INFO [nexus.create_app:38] ==================================================
+[2026-03-17 21:50:37] INFO [nexus.create_app:39] NEXUS Backend 启动中...
+[2026-03-17 21:50:37] INFO [nexus.create_app:40] ==================================================
+[2026-03-17 21:50:37] INFO [nexus.create_app:49] 已注册模拟进程清理函数
+[2026-03-17 21:50:37] INFO [nexus.create_app:77] NEXUS Backend 启动完成
+[2026-03-17 21:50:38] DEBUG [nexus.request.log_request:55] 请求: GET /api/simulation/history
+[2026-03-17 21:50:38] DEBUG [nexus.request.log_response:62] 响应: 200

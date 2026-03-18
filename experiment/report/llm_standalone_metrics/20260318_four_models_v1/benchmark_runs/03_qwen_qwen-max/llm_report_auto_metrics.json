@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "generated_at": "2026-03-18T20:55:39",
+    "provider": "qwen",
+    "model": "qwen-max",
+    "endpoint": "https://millionengine.com/v1/chat/completions",
+    "prompt": "未来三年内，生成式 AI 在临床诊断辅助领域的应用将如何发展？哪些细分方向可能最先突破？请你出一份深度分析报告",
+    "report_path": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/03_qwen_qwen-max/llm_generated_full_report.md",
+    "kb_paths": [
+      "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260318_full_step3_runtime_dual_v2/comparison"
+    ],
+    "response_usage": {
+      "prompt_tokens": 94,
+      "completion_tokens": 653,
+      "total_tokens": 747,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    }
+  },
+  "metrics": {
+    "novelty": 0.8995664480149925,
+    "relevance": 0.02324543500640084,
+    "grounding": 0.0,
+    "insight_length": 0.13714285714285715,
+    "insight_hallucination_risk": 1.0,
+    "report_structure_quality": 1.0,
+    "report_coherence": 0.04633524609813254,
+    "report_actionability": 1.0,
+    "insight_anchor_density": 0.0,
+    "insight_factual_anchor_score": 0.0,
+    "diagnostics": {
+      "token_count": 96,
+      "claim_count": 17,
+      "supported_claim_count": 0,
+      "section_hits": {
+        "摘要": true,
+        "分析": true,
+        "预测": true,
+        "结论": true
+      },
+      "paragraph_count": 8,
+      "anchor_hits": 0,
+      "total_tokens": 96,
+      "factual_supported_sentences": 0,
+      "factual_total_sentences": 21,
+      "kb_doc_count": 3
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "simulation_id": "sim_5f53c72bd940",
+  "runner_status": "completed",
+  "current_round": 6,
+  "total_rounds": 6,
+  "simulated_hours": 0,
+  "total_simulation_hours": 96,
+  "progress_percent": 100.0,
+  "twitter_current_round": 6,
+  "reddit_current_round": 6,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 5,
+  "reddit_actions_count": 5,
+  "total_actions_count": 10,
+  "started_at": "2026-03-18T15:39:48.284934",
+  "updated_at": "2026-03-18T15:40:00.458781",
+  "completed_at": "2026-03-18T15:40:00.458962",
+  "error": null,
+  "process_pid": 85193,
+  "recent_actions": [
+    {
+      "round_num": 0,
+      "timestamp": "2026-03-18T15:39:59.184888",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Developer",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "GraphRAG在医疗领域（如糖尿病治疗社区）展示潜力，但需解决图谱构建复杂度和社区结构剧变时的全量重建问题。"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-03-18T15:39:59.184841",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "厦门大学",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "厦门大学提出GraphRAG-Bench基准，旨在统一评估全局推理能力，促进技术发展和性能比较。"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-03-18T15:39:59.184800",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "neo4j",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "华为云与港中大（深圳）联合突破，首次提出GraphRAG统一框架，推动技术标准化和产业应用。"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-03-18T15:39:59.184751",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "GraphRAG Blog Post",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "微软GraphRAG项目通过知识图谱增强LLM推理能力，但在简单事实检索场景因高延迟（>300ms）面临挑战。需优化实时性和增量更新机制。"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-03-18T15:39:59.184693",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "研究人员",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "GraphRAG在航空安全报告分析中实现37%的事实错误率降低，结合自学习智能体提升检索精度45%。未来趋势包括动态决策系统和跨领域应用推进。"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-03-18T15:39:59.104091",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Developer",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "GraphRAG在医疗领域（如糖尿病治疗社区）展示潜力，但需解决图谱构建复杂度和社区结构剧变时的全量重建问题。"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-03-18T15:39:59.104053",
+      "platform": "twitter",
+      "agent_id": 11,
+      "agent_name": "厦门大学",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "厦门大学提出GraphRAG-Bench基准，旨在统一评估全局推理能力，促进技术发展和性能比较。"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-03-18T15:39:59.104014",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "neo4j",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "华为云与港中大（深圳）联合突破，首次提出GraphRAG统一框架，推动技术标准化和产业应用。"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-03-18T15:39:59.103969",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "GraphRAG Blog Post",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "微软GraphRAG项目通过知识图谱增强LLM推理能力，但在简单事实检索场景因高延迟（>300ms）面临挑战。需优化实时性和增量更新机制。"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-03-18T15:39:59.103924",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "研究人员",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "GraphRAG在航空安全报告分析中实现37%的事实错误率降低，结合自学习智能体提升检索精度45%。未来趋势包括动态决策系统和跨领域应用推进。"
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

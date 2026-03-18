@@ -1,0 +1,978 @@
+{
+  "meta": {
+    "generated_at": "2026-03-19T00:56:07",
+    "baseline_source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/without/pipeline_metrics.json"
+  },
+  "baseline": {
+    "name": "without_markdown",
+    "step3_eis": 0.5784358260498397,
+    "overall_risk": 0.3308364150819385
+  },
+  "variants": [
+    {
+      "variant": "full_markdown",
+      "step3_eis": 0.6683769138940422,
+      "step3_eis_delta": 0.08994108784420252,
+      "overall_risk": 0.31193095671619786,
+      "risk_delta": -0.018905458365740646,
+      "risk_improvement": 0.018905458365740646,
+      "core_metrics": {
+        "retrieval_quality": {
+          "baseline": 0.8619619565217391,
+          "value": 0.875312425846896,
+          "delta": 0.013350469325156822,
+          "benefit_delta": 0.013350469325156822
+        },
+        "kg_quality": {
+          "baseline": 0.3520499573071243,
+          "value": 0.6711448193739442,
+          "delta": 0.3190948620668199,
+          "benefit_delta": 0.3190948620668199
+        },
+        "multi_agent_quality": {
+          "baseline": 0.6700837945120383,
+          "value": 0.6856593420580546,
+          "delta": 0.01557554754601631,
+          "benefit_delta": 0.01557554754601631
+        },
+        "simulation_quality": {
+          "baseline": 0.6249241947286822,
+          "value": 0.638274664053839,
+          "delta": 0.013350469325156822,
+          "benefit_delta": 0.013350469325156822
+        },
+        "insight_quality": {
+          "baseline": 0.5106372269832683,
+          "value": 0.5225352197557155,
+          "delta": 0.011897992772447186,
+          "benefit_delta": 0.011897992772447186
+        },
+        "report_actionability": {
+          "baseline": 0.5,
+          "value": 0.6936212008895478,
+          "delta": 0.19362120088954782,
+          "benefit_delta": 0.19362120088954782
+        },
+        "report_quality": {
+          "baseline": 0.30975151515151517,
+          "value": 0.310129560192818,
+          "delta": 0.00037804504130284355,
+          "benefit_delta": 0.00037804504130284355
+        },
+        "markdown_supplement_signal": {
+          "baseline": 0.0,
+          "value": 0.2595401614495353,
+          "delta": 0.2595401614495353,
+          "benefit_delta": 0.2595401614495353
+        }
+      },
+      "gained_gates": [
+        "kg_ge_0_60"
+      ],
+      "top_benefits": [
+        {
+          "metric": "kg_quality",
+          "benefit_delta": 0.3190948620668199
+        },
+        {
+          "metric": "markdown_supplement_signal",
+          "benefit_delta": 0.2595401614495353
+        },
+        {
+          "metric": "report_actionability",
+          "benefit_delta": 0.19362120088954782
+        },
+        {
+          "metric": "graph_density_proxy",
+          "benefit_delta": 0.11180533021745631
+        },
+        {
+          "metric": "relation_consistency",
+          "benefit_delta": 0.05016890185512435
+        },
+        {
+          "metric": "report_query_alignment",
+          "benefit_delta": 0.03284984762375423
+        },
+        {
+          "metric": "agent_query_relevance",
+          "benefit_delta": 0.03115109509203262
+        },
+        {
+          "metric": "interaction_coherence",
+          "benefit_delta": 0.028926016871173105
+        }
+      ],
+      "source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/with/pipeline_metrics.json"
+    },
+    {
+      "variant": "short_excerpt",
+      "step3_eis": 0.6682497259358688,
+      "step3_eis_delta": 0.08981389988602917,
+      "overall_risk": 0.3120182540000911,
+      "risk_delta": -0.018818161081847418,
+      "risk_improvement": 0.018818161081847418,
+      "core_metrics": {
+        "retrieval_quality": {
+          "baseline": 0.8619619565217391,
+          "value": 0.8752590907859711,
+          "delta": 0.013297134264231958,
+          "benefit_delta": 0.013297134264231958
+        },
+        "kg_quality": {
+          "baseline": 0.3520499573071243,
+          "value": 0.671077227547022,
+          "delta": 0.31902727023989774,
+          "benefit_delta": 0.31902727023989774
+        },
+        "multi_agent_quality": {
+          "baseline": 0.6700837945120383,
+          "value": 0.685597117820309,
+          "delta": 0.01551332330827071,
+          "benefit_delta": 0.01551332330827071
+        },
+        "simulation_quality": {
+          "baseline": 0.6249241947286822,
+          "value": 0.6382213289929142,
+          "delta": 0.013297134264231958,
+          "benefit_delta": 0.013297134264231958
+        },
+        "insight_quality": {
+          "baseline": 0.5106372269832683,
+          "value": 0.5221393303428659,
+          "delta": 0.01150210335959756,
+          "benefit_delta": 0.01150210335959756
+        },
+        "report_actionability": {
+          "baseline": 0.5,
+          "value": 0.6938133333333334,
+          "delta": 0.1938133333333334,
+          "benefit_delta": 0.1938133333333334
+        },
+        "report_quality": {
+          "baseline": 0.30975151515151517,
+          "value": 0.3089797333333334,
+          "delta": -0.0007717818181817715,
+          "benefit_delta": -0.0007717818181817715
+        },
+        "markdown_supplement_signal": {
+          "baseline": 0.0,
+          "value": 0.25897689622518366,
+          "delta": 0.25897689622518366,
+          "benefit_delta": 0.25897689622518366
+        }
+      },
+      "gained_gates": [
+        "kg_ge_0_60"
+      ],
+      "top_benefits": [
+        {
+          "metric": "kg_quality",
+          "benefit_delta": 0.31902727023989774
+        },
+        {
+          "metric": "markdown_supplement_signal",
+          "benefit_delta": 0.25897689622518366
+        },
+        {
+          "metric": "report_actionability",
+          "benefit_delta": 0.1938133333333334
+        },
+        {
+          "metric": "graph_density_proxy",
+          "benefit_delta": 0.11166451391136833
+        },
+        {
+          "metric": "relation_consistency",
+          "benefit_delta": 0.050056248810254056
+        },
+        {
+          "metric": "report_query_alignment",
+          "benefit_delta": 0.03422222222222224
+        },
+        {
+          "metric": "agent_query_relevance",
+          "benefit_delta": 0.03102664661654131
+        },
+        {
+          "metric": "interaction_coherence",
+          "benefit_delta": 0.028810457572502682
+        }
+      ],
+      "source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/ablations/short_excerpt/pipeline_metrics.json"
+    },
+    {
+      "variant": "plain_text",
+      "step3_eis": 0.6622913011832121,
+      "step3_eis_delta": 0.08385547513337244,
+      "overall_risk": 0.3125512906220549,
+      "risk_delta": -0.018285124459883617,
+      "risk_improvement": 0.018285124459883617,
+      "core_metrics": {
+        "retrieval_quality": {
+          "baseline": 0.8619619565217391,
+          "value": 0.8748971617412551,
+          "delta": 0.012935205219515966,
+          "benefit_delta": 0.012935205219515966
+        },
+        "kg_quality": {
+          "baseline": 0.3520499573071243,
+          "value": 0.6706159612885548,
+          "delta": 0.31856600398143053,
+          "benefit_delta": 0.31856600398143053
+        },
+        "multi_agent_quality": {
+          "baseline": 0.6700837945120383,
+          "value": 0.6851748672681403,
+          "delta": 0.015091072756101997,
+          "benefit_delta": 0.015091072756101997
+        },
+        "simulation_quality": {
+          "baseline": 0.6249241947286822,
+          "value": 0.6378593999481982,
+          "delta": 0.012935205219515966,
+          "benefit_delta": 0.012935205219515966
+        },
+        "insight_quality": {
+          "baseline": 0.5106372269832683,
+          "value": 0.49397941578308674,
+          "delta": -0.01665781120018156,
+          "benefit_delta": -0.01665781120018156
+        },
+        "report_actionability": {
+          "baseline": 0.5,
+          "value": 0.5142143432715552,
+          "delta": 0.014214343271555241,
+          "benefit_delta": 0.014214343271555241
+        },
+        "report_quality": {
+          "baseline": 0.30975151515151517,
+          "value": 0.22916749932849853,
+          "delta": -0.08058401582301664,
+          "benefit_delta": -0.08058401582301664
+        },
+        "markdown_supplement_signal": {
+          "baseline": 0.0,
+          "value": 0.25513301073795736,
+          "delta": 0.25513301073795736,
+          "benefit_delta": 0.25513301073795736
+        }
+      },
+      "gained_gates": [
+        "kg_ge_0_60"
+      ],
+      "top_benefits": [
+        {
+          "metric": "kg_quality",
+          "benefit_delta": 0.31856600398143053
+        },
+        {
+          "metric": "markdown_supplement_signal",
+          "benefit_delta": 0.25513301073795736
+        },
+        {
+          "metric": "graph_density_proxy",
+          "benefit_delta": 0.11070354253956183
+        },
+        {
+          "metric": "relation_consistency",
+          "benefit_delta": 0.049287471712808784
+        },
+        {
+          "metric": "report_query_alignment",
+          "benefit_delta": 0.03708657892380697
+        },
+        {
+          "metric": "agent_query_relevance",
+          "benefit_delta": 0.030182145512203995
+        },
+        {
+          "metric": "interaction_coherence",
+          "benefit_delta": 0.028026277975618005
+        },
+        {
+          "metric": "kg_risk",
+          "benefit_delta": 0.023714542902446012
+        }
+      ],
+      "source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/ablations/plain_text/pipeline_metrics.json"
+    },
+    {
+      "variant": "action_only",
+      "step3_eis": 0.6489065882033718,
+      "step3_eis_delta": 0.0704707621535321,
+      "overall_risk": 0.3275166959206839,
+      "risk_delta": -0.0033197191612546195,
+      "risk_improvement": 0.0033197191612546195,
+      "core_metrics": {
+        "retrieval_quality": {
+          "baseline": 0.8619619565217391,
+          "value": 0.8641570784729586,
+          "delta": 0.002195121951219514,
+          "benefit_delta": 0.002195121951219514
+        },
+        "kg_quality": {
+          "baseline": 0.3520499573071243,
+          "value": 0.6525840534390991,
+          "delta": 0.3005340961319748,
+          "benefit_delta": 0.3005340961319748
+        },
+        "multi_agent_quality": {
+          "baseline": 0.6700837945120383,
+          "value": 0.6726447701217944,
+          "delta": 0.0025609756097561,
+          "benefit_delta": 0.0025609756097561
+        },
+        "simulation_quality": {
+          "baseline": 0.6249241947286822,
+          "value": 0.6271193166799017,
+          "delta": 0.002195121951219514,
+          "benefit_delta": 0.002195121951219514
+        },
+        "insight_quality": {
+          "baseline": 0.5106372269832683,
+          "value": 0.48092097856157,
+          "delta": -0.029716248421698288,
+          "benefit_delta": -0.029716248421698288
+        },
+        "report_actionability": {
+          "baseline": 0.5,
+          "value": 0.6799999999999999,
+          "delta": 0.17999999999999994,
+          "benefit_delta": 0.17999999999999994
+        },
+        "report_quality": {
+          "baseline": 0.30975151515151517,
+          "value": 0.2220666666666666,
+          "delta": -0.08768484848484856,
+          "benefit_delta": -0.08768484848484856
+        },
+        "markdown_supplement_signal": {
+          "baseline": 0.0,
+          "value": 0.10486711199249271,
+          "delta": 0.10486711199249271,
+          "benefit_delta": 0.10486711199249271
+        }
+      },
+      "gained_gates": [
+        "kg_ge_0_60"
+      ],
+      "top_benefits": [
+        {
+          "metric": "kg_quality",
+          "benefit_delta": 0.3005340961319748
+        },
+        {
+          "metric": "report_actionability",
+          "benefit_delta": 0.17999999999999994
+        },
+        {
+          "metric": "markdown_supplement_signal",
+          "benefit_delta": 0.10486711199249271
+        },
+        {
+          "metric": "graph_density_proxy",
+          "benefit_delta": 0.07313706785319563
+        },
+        {
+          "metric": "relation_consistency",
+          "benefit_delta": 0.019234291963715844
+        },
+        {
+          "metric": "agent_query_relevance",
+          "benefit_delta": 0.0051219512195122
+        },
+        {
+          "metric": "interaction_coherence",
+          "benefit_delta": 0.004756097560975614
+        },
+        {
+          "metric": "kg_risk",
+          "benefit_delta": 0.004024390243902443
+        }
+      ],
+      "source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/ablations/action_only/pipeline_metrics.json"
+    },
+    {
+      "variant": "title_only",
+      "step3_eis": 0.6427581724614155,
+      "step3_eis_delta": 0.06432234641157586,
+      "overall_risk": 0.3273856819222425,
+      "risk_delta": -0.003450733159696018,
+      "risk_improvement": 0.003450733159696018,
+      "core_metrics": {
+        "retrieval_quality": {
+          "baseline": 0.8619619565217391,
+          "value": 0.864403768368429,
+          "delta": 0.002441811846689901,
+          "benefit_delta": 0.002441811846689901
+        },
+        "kg_quality": {
+          "baseline": 0.3520499573071243,
+          "value": 0.6532304342246712,
+          "delta": 0.3011804769175469,
+          "benefit_delta": 0.3011804769175469
+        },
+        "multi_agent_quality": {
+          "baseline": 0.6700837945120383,
+          "value": 0.6729325749998432,
+          "delta": 0.002848780487804903,
+          "benefit_delta": 0.002848780487804903
+        },
+        "simulation_quality": {
+          "baseline": 0.6249241947286822,
+          "value": 0.6273660065753721,
+          "delta": 0.002441811846689901,
+          "benefit_delta": 0.002441811846689901
+        },
+        "insight_quality": {
+          "baseline": 0.5106372269832683,
+          "value": 0.44865141167470124,
+          "delta": -0.06198581530856706,
+          "benefit_delta": -0.06198581530856706
+        },
+        "report_actionability": {
+          "baseline": 0.5,
+          "value": 0.12766666666666668,
+          "delta": -0.3723333333333333,
+          "benefit_delta": -0.3723333333333333
+        },
+        "report_quality": {
+          "baseline": 0.30975151515151517,
+          "value": 0.12640857142857145,
+          "delta": -0.1833429437229437,
+          "benefit_delta": -0.1833429437229437
+        },
+        "markdown_supplement_signal": {
+          "baseline": 0.0,
+          "value": 0.11025361853892737,
+          "delta": 0.11025361853892737,
+          "benefit_delta": 0.11025361853892737
+        }
+      },
+      "gained_gates": [
+        "kg_ge_0_60"
+      ],
+      "top_benefits": [
+        {
+          "metric": "kg_quality",
+          "benefit_delta": 0.3011804769175469
+        },
+        {
+          "metric": "markdown_supplement_signal",
+          "benefit_delta": 0.11025361853892737
+        },
+        {
+          "metric": "graph_density_proxy",
+          "benefit_delta": 0.0744836944898043
+        },
+        {
+          "metric": "relation_consistency",
+          "benefit_delta": 0.020311593273002804
+        },
+        {
+          "metric": "agent_query_relevance",
+          "benefit_delta": 0.005697560975609806
+        },
+        {
+          "metric": "interaction_coherence",
+          "benefit_delta": 0.005290592334494776
+        },
+        {
+          "metric": "kg_risk",
+          "benefit_delta": 0.0044766550522648
+        },
+        {
+          "metric": "claim_structurality",
+          "benefit_delta": 0.004069686411149825
+        }
+      ],
+      "source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/ablations/title_only/pipeline_metrics.json"
+    }
+  ],
+  "rankings": {
+    "by_step3_eis_delta": [
+      {
+        "variant": "full_markdown",
+        "step3_eis": 0.6683769138940422,
+        "step3_eis_delta": 0.08994108784420252,
+        "overall_risk": 0.31193095671619786,
+        "risk_delta": -0.018905458365740646,
+        "risk_improvement": 0.018905458365740646,
+        "core_metrics": {
+          "retrieval_quality": {
+            "baseline": 0.8619619565217391,
+            "value": 0.875312425846896,
+            "delta": 0.013350469325156822,
+            "benefit_delta": 0.013350469325156822
+          },
+          "kg_quality": {
+            "baseline": 0.3520499573071243,
+            "value": 0.6711448193739442,
+            "delta": 0.3190948620668199,
+            "benefit_delta": 0.3190948620668199
+          },
+          "multi_agent_quality": {
+            "baseline": 0.6700837945120383,
+            "value": 0.6856593420580546,
+            "delta": 0.01557554754601631,
+            "benefit_delta": 0.01557554754601631
+          },
+          "simulation_quality": {
+            "baseline": 0.6249241947286822,
+            "value": 0.638274664053839,
+            "delta": 0.013350469325156822,
+            "benefit_delta": 0.013350469325156822
+          },
+          "insight_quality": {
+            "baseline": 0.5106372269832683,
+            "value": 0.5225352197557155,
+            "delta": 0.011897992772447186,
+            "benefit_delta": 0.011897992772447186
+          },
+          "report_actionability": {
+            "baseline": 0.5,
+            "value": 0.6936212008895478,
+            "delta": 0.19362120088954782,
+            "benefit_delta": 0.19362120088954782
+          },
+          "report_quality": {
+            "baseline": 0.30975151515151517,
+            "value": 0.310129560192818,
+            "delta": 0.00037804504130284355,
+            "benefit_delta": 0.00037804504130284355
+          },
+          "markdown_supplement_signal": {
+            "baseline": 0.0,
+            "value": 0.2595401614495353,
+            "delta": 0.2595401614495353,
+            "benefit_delta": 0.2595401614495353
+          }
+        },
+        "gained_gates": [
+          "kg_ge_0_60"
+        ],
+        "top_benefits": [
+          {
+            "metric": "kg_quality",
+            "benefit_delta": 0.3190948620668199
+          },
+          {
+            "metric": "markdown_supplement_signal",
+            "benefit_delta": 0.2595401614495353
+          },
+          {
+            "metric": "report_actionability",
+            "benefit_delta": 0.19362120088954782
+          },
+          {
+            "metric": "graph_density_proxy",
+            "benefit_delta": 0.11180533021745631
+          },
+          {
+            "metric": "relation_consistency",
+            "benefit_delta": 0.05016890185512435
+          },
+          {
+            "metric": "report_query_alignment",
+            "benefit_delta": 0.03284984762375423
+          },
+          {
+            "metric": "agent_query_relevance",
+            "benefit_delta": 0.03115109509203262
+          },
+          {
+            "metric": "interaction_coherence",
+            "benefit_delta": 0.028926016871173105
+          }
+        ],
+        "source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/with/pipeline_metrics.json"
+      },
+      {
+        "variant": "short_excerpt",
+        "step3_eis": 0.6682497259358688,
+        "step3_eis_delta": 0.08981389988602917,
+        "overall_risk": 0.3120182540000911,
+        "risk_delta": -0.018818161081847418,
+        "risk_improvement": 0.018818161081847418,
+        "core_metrics": {
+          "retrieval_quality": {
+            "baseline": 0.8619619565217391,
+            "value": 0.8752590907859711,
+            "delta": 0.013297134264231958,
+            "benefit_delta": 0.013297134264231958
+          },
+          "kg_quality": {
+            "baseline": 0.3520499573071243,
+            "value": 0.671077227547022,
+            "delta": 0.31902727023989774,
+            "benefit_delta": 0.31902727023989774
+          },
+          "multi_agent_quality": {
+            "baseline": 0.6700837945120383,
+            "value": 0.685597117820309,
+            "delta": 0.01551332330827071,
+            "benefit_delta": 0.01551332330827071
+          },
+          "simulation_quality": {
+            "baseline": 0.6249241947286822,
+            "value": 0.6382213289929142,
+            "delta": 0.013297134264231958,
+            "benefit_delta": 0.013297134264231958
+          },
+          "insight_quality": {
+            "baseline": 0.5106372269832683,
+            "value": 0.5221393303428659,
+            "delta": 0.01150210335959756,
+            "benefit_delta": 0.01150210335959756
+          },
+          "report_actionability": {
+            "baseline": 0.5,
+            "value": 0.6938133333333334,
+            "delta": 0.1938133333333334,
+            "benefit_delta": 0.1938133333333334
+          },
+          "report_quality": {
+            "baseline": 0.30975151515151517,
+            "value": 0.3089797333333334,
+            "delta": -0.0007717818181817715,
+            "benefit_delta": -0.0007717818181817715
+          },
+          "markdown_supplement_signal": {
+            "baseline": 0.0,
+            "value": 0.25897689622518366,
+            "delta": 0.25897689622518366,
+            "benefit_delta": 0.25897689622518366
+          }
+        },
+        "gained_gates": [
+          "kg_ge_0_60"
+        ],
+        "top_benefits": [
+          {
+            "metric": "kg_quality",
+            "benefit_delta": 0.31902727023989774
+          },
+          {
+            "metric": "markdown_supplement_signal",
+            "benefit_delta": 0.25897689622518366
+          },
+          {
+            "metric": "report_actionability",
+            "benefit_delta": 0.1938133333333334
+          },
+          {
+            "metric": "graph_density_proxy",
+            "benefit_delta": 0.11166451391136833
+          },
+          {
+            "metric": "relation_consistency",
+            "benefit_delta": 0.050056248810254056
+          },
+          {
+            "metric": "report_query_alignment",
+            "benefit_delta": 0.03422222222222224
+          },
+          {
+            "metric": "agent_query_relevance",
+            "benefit_delta": 0.03102664661654131
+          },
+          {
+            "metric": "interaction_coherence",
+            "benefit_delta": 0.028810457572502682
+          }
+        ],
+        "source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/ablations/short_excerpt/pipeline_metrics.json"
+      },
+      {
+        "variant": "plain_text",
+        "step3_eis": 0.6622913011832121,
+        "step3_eis_delta": 0.08385547513337244,
+        "overall_risk": 0.3125512906220549,
+        "risk_delta": -0.018285124459883617,
+        "risk_improvement": 0.018285124459883617,
+        "core_metrics": {
+          "retrieval_quality": {
+            "baseline": 0.8619619565217391,
+            "value": 0.8748971617412551,
+            "delta": 0.012935205219515966,
+            "benefit_delta": 0.012935205219515966
+          },
+          "kg_quality": {
+            "baseline": 0.3520499573071243,
+            "value": 0.6706159612885548,
+            "delta": 0.31856600398143053,
+            "benefit_delta": 0.31856600398143053
+          },
+          "multi_agent_quality": {
+            "baseline": 0.6700837945120383,
+            "value": 0.6851748672681403,
+            "delta": 0.015091072756101997,
+            "benefit_delta": 0.015091072756101997
+          },
+          "simulation_quality": {
+            "baseline": 0.6249241947286822,
+            "value": 0.6378593999481982,
+            "delta": 0.012935205219515966,
+            "benefit_delta": 0.012935205219515966
+          },
+          "insight_quality": {
+            "baseline": 0.5106372269832683,
+            "value": 0.49397941578308674,
+            "delta": -0.01665781120018156,
+            "benefit_delta": -0.01665781120018156
+          },
+          "report_actionability": {
+            "baseline": 0.5,
+            "value": 0.5142143432715552,
+            "delta": 0.014214343271555241,
+            "benefit_delta": 0.014214343271555241
+          },
+          "report_quality": {
+            "baseline": 0.30975151515151517,
+            "value": 0.22916749932849853,
+            "delta": -0.08058401582301664,
+            "benefit_delta": -0.08058401582301664
+          },
+          "markdown_supplement_signal": {
+            "baseline": 0.0,
+            "value": 0.25513301073795736,
+            "delta": 0.25513301073795736,
+            "benefit_delta": 0.25513301073795736
+          }
+        },
+        "gained_gates": [
+          "kg_ge_0_60"
+        ],
+        "top_benefits": [
+          {
+            "metric": "kg_quality",
+            "benefit_delta": 0.31856600398143053
+          },
+          {
+            "metric": "markdown_supplement_signal",
+            "benefit_delta": 0.25513301073795736
+          },
+          {
+            "metric": "graph_density_proxy",
+            "benefit_delta": 0.11070354253956183
+          },
+          {
+            "metric": "relation_consistency",
+            "benefit_delta": 0.049287471712808784
+          },
+          {
+            "metric": "report_query_alignment",
+            "benefit_delta": 0.03708657892380697
+          },
+          {
+            "metric": "agent_query_relevance",
+            "benefit_delta": 0.030182145512203995
+          },
+          {
+            "metric": "interaction_coherence",
+            "benefit_delta": 0.028026277975618005
+          },
+          {
+            "metric": "kg_risk",
+            "benefit_delta": 0.023714542902446012
+          }
+        ],
+        "source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/ablations/plain_text/pipeline_metrics.json"
+      },
+      {
+        "variant": "action_only",
+        "step3_eis": 0.6489065882033718,
+        "step3_eis_delta": 0.0704707621535321,
+        "overall_risk": 0.3275166959206839,
+        "risk_delta": -0.0033197191612546195,
+        "risk_improvement": 0.0033197191612546195,
+        "core_metrics": {
+          "retrieval_quality": {
+            "baseline": 0.8619619565217391,
+            "value": 0.8641570784729586,
+            "delta": 0.002195121951219514,
+            "benefit_delta": 0.002195121951219514
+          },
+          "kg_quality": {
+            "baseline": 0.3520499573071243,
+            "value": 0.6525840534390991,
+            "delta": 0.3005340961319748,
+            "benefit_delta": 0.3005340961319748
+          },
+          "multi_agent_quality": {
+            "baseline": 0.6700837945120383,
+            "value": 0.6726447701217944,
+            "delta": 0.0025609756097561,
+            "benefit_delta": 0.0025609756097561
+          },
+          "simulation_quality": {
+            "baseline": 0.6249241947286822,
+            "value": 0.6271193166799017,
+            "delta": 0.002195121951219514,
+            "benefit_delta": 0.002195121951219514
+          },
+          "insight_quality": {
+            "baseline": 0.5106372269832683,
+            "value": 0.48092097856157,
+            "delta": -0.029716248421698288,
+            "benefit_delta": -0.029716248421698288
+          },
+          "report_actionability": {
+            "baseline": 0.5,
+            "value": 0.6799999999999999,
+            "delta": 0.17999999999999994,
+            "benefit_delta": 0.17999999999999994
+          },
+          "report_quality": {
+            "baseline": 0.30975151515151517,
+            "value": 0.2220666666666666,
+            "delta": -0.08768484848484856,
+            "benefit_delta": -0.08768484848484856
+          },
+          "markdown_supplement_signal": {
+            "baseline": 0.0,
+            "value": 0.10486711199249271,
+            "delta": 0.10486711199249271,
+            "benefit_delta": 0.10486711199249271
+          }
+        },
+        "gained_gates": [
+          "kg_ge_0_60"
+        ],
+        "top_benefits": [
+          {
+            "metric": "kg_quality",
+            "benefit_delta": 0.3005340961319748
+          },
+          {
+            "metric": "report_actionability",
+            "benefit_delta": 0.17999999999999994
+          },
+          {
+            "metric": "markdown_supplement_signal",
+            "benefit_delta": 0.10486711199249271
+          },
+          {
+            "metric": "graph_density_proxy",
+            "benefit_delta": 0.07313706785319563
+          },
+          {
+            "metric": "relation_consistency",
+            "benefit_delta": 0.019234291963715844
+          },
+          {
+            "metric": "agent_query_relevance",
+            "benefit_delta": 0.0051219512195122
+          },
+          {
+            "metric": "interaction_coherence",
+            "benefit_delta": 0.004756097560975614
+          },
+          {
+            "metric": "kg_risk",
+            "benefit_delta": 0.004024390243902443
+          }
+        ],
+        "source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/ablations/action_only/pipeline_metrics.json"
+      },
+      {
+        "variant": "title_only",
+        "step3_eis": 0.6427581724614155,
+        "step3_eis_delta": 0.06432234641157586,
+        "overall_risk": 0.3273856819222425,
+        "risk_delta": -0.003450733159696018,
+        "risk_improvement": 0.003450733159696018,
+        "core_metrics": {
+          "retrieval_quality": {
+            "baseline": 0.8619619565217391,
+            "value": 0.864403768368429,
+            "delta": 0.002441811846689901,
+            "benefit_delta": 0.002441811846689901
+          },
+          "kg_quality": {
+            "baseline": 0.3520499573071243,
+            "value": 0.6532304342246712,
+            "delta": 0.3011804769175469,
+            "benefit_delta": 0.3011804769175469
+          },
+          "multi_agent_quality": {
+            "baseline": 0.6700837945120383,
+            "value": 0.6729325749998432,
+            "delta": 0.002848780487804903,
+            "benefit_delta": 0.002848780487804903
+          },
+          "simulation_quality": {
+            "baseline": 0.6249241947286822,
+            "value": 0.6273660065753721,
+            "delta": 0.002441811846689901,
+            "benefit_delta": 0.002441811846689901
+          },
+          "insight_quality": {
+            "baseline": 0.5106372269832683,
+            "value": 0.44865141167470124,
+            "delta": -0.06198581530856706,
+            "benefit_delta": -0.06198581530856706
+          },
+          "report_actionability": {
+            "baseline": 0.5,
+            "value": 0.12766666666666668,
+            "delta": -0.3723333333333333,
+            "benefit_delta": -0.3723333333333333
+          },
+          "report_quality": {
+            "baseline": 0.30975151515151517,
+            "value": 0.12640857142857145,
+            "delta": -0.1833429437229437,
+            "benefit_delta": -0.1833429437229437
+          },
+          "markdown_supplement_signal": {
+            "baseline": 0.0,
+            "value": 0.11025361853892737,
+            "delta": 0.11025361853892737,
+            "benefit_delta": 0.11025361853892737
+          }
+        },
+        "gained_gates": [
+          "kg_ge_0_60"
+        ],
+        "top_benefits": [
+          {
+            "metric": "kg_quality",
+            "benefit_delta": 0.3011804769175469
+          },
+          {
+            "metric": "markdown_supplement_signal",
+            "benefit_delta": 0.11025361853892737
+          },
+          {
+            "metric": "graph_density_proxy",
+            "benefit_delta": 0.0744836944898043
+          },
+          {
+            "metric": "relation_consistency",
+            "benefit_delta": 0.020311593273002804
+          },
+          {
+            "metric": "agent_query_relevance",
+            "benefit_delta": 0.005697560975609806
+          },
+          {
+            "metric": "interaction_coherence",
+            "benefit_delta": 0.005290592334494776
+          },
+          {
+            "metric": "kg_risk",
+            "benefit_delta": 0.0044766550522648
+          },
+          {
+            "metric": "claim_structurality",
+            "benefit_delta": 0.004069686411149825
+          }
+        ],
+        "source": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/ablations/title_only/pipeline_metrics.json"
+      }
+    ],
+    "best_variant": "full_markdown"
+  }
+}

@@ -6,6 +6,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
+from llm_deep_analysis_report import generate_llm_deep_analysis, generate_llm_multi_model_benchmark
+
 
 CORE_DIMENSIONS = [
     "retrieval_quality",
@@ -483,6 +485,15 @@ def main() -> None:
     parser.add_argument("--without-markdown", required=True, help="path to pipeline_metrics.json without markdown supplement")
     parser.add_argument("--with-markdown", required=True, help="path to pipeline_metrics.json with markdown supplement")
     parser.add_argument("--output-dir", required=True, help="output experiment folder")
+    parser.add_argument("--enable-llm-deep-analysis", action="store_true", help="Generate extra LLM-only deep analysis markdown")
+    parser.add_argument("--llm-provider", default="auto", choices=["auto", "openai", "deepseek"], help="Provider for LLM deep analysis")
+    parser.add_argument("--llm-model", default="", help="Override model for deep analysis")
+    parser.add_argument("--llm-temperature", type=float, default=0.2, help="LLM temperature")
+    parser.add_argument("--llm-max-tokens", type=int, default=1800, help="LLM max tokens")
+    parser.add_argument("--llm-timeout", type=int, default=60, help="LLM timeout seconds")
+    parser.add_argument("--enable-llm-benchmark", action="store_true", help="Benchmark multiple models for deep analysis quality")
+    parser.add_argument("--llm-benchmark-provider", default="", choices=["", "openai", "deepseek"], help="Provider used for benchmark models")
+    parser.add_argument("--llm-benchmark-models", default="", help="Comma-separated model list for benchmark")
     args = parser.parse_args()
 
     without_path = Path(args.without_markdown).expanduser().resolve()
@@ -494,10 +505,47 @@ def main() -> None:
 
     json_path = output_dir / "step3_markdown_comparison.json"
     md_path = output_dir / "step3_markdown_comparison.md"
+    llm_md_path = output_dir / "step3_markdown_llm_deep_analysis.md"
+    llm_meta_path = output_dir / "step3_markdown_llm_deep_analysis.meta.json"
+    llm_benchmark_json_path = output_dir / "step3_markdown_llm_model_benchmark.json"
+    llm_benchmark_md_path = output_dir / "step3_markdown_llm_model_benchmark.md"
     source_map_path = output_dir / "experiment_inputs.json"
 
     json_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     md_path.write_text(_build_report_markdown(result), encoding="utf-8")
+
+    llm_meta: Dict[str, Any] = {
+        "success": False,
+        "reason": "llm deep analysis disabled",
+    }
+    if args.enable_llm_deep_analysis:
+        llm_meta = generate_llm_deep_analysis(
+            result,
+            llm_md_path,
+            llm_meta_path,
+            provider=args.llm_provider,
+            model=args.llm_model,
+            temperature=args.llm_temperature,
+            max_tokens=args.llm_max_tokens,
+            timeout_sec=args.llm_timeout,
+        )
+
+    benchmark_result: Dict[str, Any] = {}
+    if args.enable_llm_benchmark:
+        models = [item.strip() for item in args.llm_benchmark_models.split(",") if item.strip()]
+        if not models:
+            models = [args.llm_model] if args.llm_model.strip() else []
+        benchmark_provider = args.llm_benchmark_provider.strip() or (args.llm_provider if args.llm_provider != "auto" else "openai")
+        benchmark_result = generate_llm_multi_model_benchmark(
+            result,
+            output_dir,
+            provider=benchmark_provider,
+            models=models,
+            temperature=args.llm_temperature,
+            max_tokens=args.llm_max_tokens,
+            timeout_sec=args.llm_timeout,
+        )
+
     source_map_path.write_text(
         json.dumps(
             {
@@ -505,6 +553,16 @@ def main() -> None:
                 "with_markdown": str(with_path),
                 "output_json": str(json_path),
                 "output_markdown": str(md_path),
+                "output_llm_deep_analysis_markdown": str(llm_md_path) if args.enable_llm_deep_analysis else "",
+                "output_llm_deep_analysis_meta": str(llm_meta_path) if args.enable_llm_deep_analysis else "",
+                "llm_deep_analysis_enabled": bool(args.enable_llm_deep_analysis),
+                "llm_deep_analysis_success": bool(llm_meta.get("success", False)) if args.enable_llm_deep_analysis else False,
+                "llm_benchmark_enabled": bool(args.enable_llm_benchmark),
+                "llm_benchmark_models": [item.strip() for item in args.llm_benchmark_models.split(",") if item.strip()],
+                "output_llm_benchmark_json": str(llm_benchmark_json_path) if args.enable_llm_benchmark else "",
+                "output_llm_benchmark_markdown": str(llm_benchmark_md_path) if args.enable_llm_benchmark else "",
+                "llm_benchmark_best_model": benchmark_result.get("best_model", "") if args.enable_llm_benchmark else "",
+                "llm_benchmark_best_quality_score": benchmark_result.get("best_quality_score", 0.0) if args.enable_llm_benchmark else 0.0,
             },
             ensure_ascii=False,
             indent=2,
@@ -514,6 +572,14 @@ def main() -> None:
 
     print(f"[OK] comparison json: {json_path}")
     print(f"[OK] comparison markdown: {md_path}")
+    if args.enable_llm_deep_analysis:
+        print(f"[OK] llm deep analysis markdown: {llm_md_path}")
+        print(f"[OK] llm deep analysis meta: {llm_meta_path}")
+        print(f"[INFO] llm deep analysis success: {bool(llm_meta.get('success', False))}")
+    if args.enable_llm_benchmark:
+        print(f"[OK] llm benchmark json: {llm_benchmark_json_path}")
+        print(f"[OK] llm benchmark markdown: {llm_benchmark_md_path}")
+        print(f"[INFO] llm benchmark best model: {benchmark_result.get('best_model')}")
     print(f"[OK] input mapping: {source_map_path}")
 
 

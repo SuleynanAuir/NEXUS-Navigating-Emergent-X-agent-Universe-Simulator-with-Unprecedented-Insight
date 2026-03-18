@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "generated_at": "2026-03-18T20:54:44",
+    "provider": "openai",
+    "model": "o1-preview",
+    "endpoint": "https://millionengine.com/v1/chat/completions",
+    "prompt": "未来三年内，生成式 AI 在临床诊断辅助领域的应用将如何发展？哪些细分方向可能最先突破？请你出一份深度分析报告",
+    "report_path": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/02_openai_o1-preview/llm_generated_full_report.md",
+    "kb_paths": [
+      "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260318_full_step3_runtime_dual_v2/comparison"
+    ],
+    "response_usage": {
+      "prompt_tokens": 111,
+      "completion_tokens": 2197,
+      "total_tokens": 2308,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 487,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "input_tokens_details": null
+    }
+  },
+  "metrics": {
+    "novelty": 0.9331488186829874,
+    "relevance": 0.25675717243244367,
+    "grounding": 0.0,
+    "insight_length": 0.2985714285714286,
+    "insight_hallucination_risk": 1.0,
+    "report_structure_quality": 0.75,
+    "report_coherence": 0.0140679811352971,
+    "report_actionability": 0.5161290322580645,
+    "insight_anchor_density": 0.10874293170943888,
+    "insight_factual_anchor_score": 0.0,
+    "diagnostics": {
+      "token_count": 209,
+      "claim_count": 20,
+      "supported_claim_count": 0,
+      "section_hits": {
+        "摘要": true,
+        "分析": true,
+        "预测": true,
+        "结论": false
+      },
+      "paragraph_count": 17,
+      "anchor_hits": 5,
+      "total_tokens": 209,
+      "factual_supported_sentences": 0,
+      "factual_total_sentences": 29,
+      "kb_doc_count": 3
+    }
+  }
+}

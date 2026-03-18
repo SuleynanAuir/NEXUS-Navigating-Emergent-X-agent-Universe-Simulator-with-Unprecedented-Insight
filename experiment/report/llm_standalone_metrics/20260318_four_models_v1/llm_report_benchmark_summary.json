@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-03-18T20:56:51",
+  "prompt": "未来三年内，生成式 AI 在临床诊断辅助领域的应用将如何发展？哪些细分方向可能最先突破？请你出一份深度分析报告",
+  "targets": [
+    "openai:gpt-4o",
+    "openai:o1-preview",
+    "qwen:qwen-max",
+    "deepseek:deepseek-chat"
+  ],
+  "rows": [
+    {
+      "target": "openai:gpt-4o",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "success": true,
+      "score": 0.292861,
+      "run_dir": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/01_openai_gpt-4o",
+      "report_path": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/01_openai_gpt-4o/llm_generated_full_report.md",
+      "metrics_json": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/01_openai_gpt-4o/llm_report_auto_metrics.json",
+      "metrics_markdown": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/01_openai_gpt-4o/llm_report_auto_metrics.md",
+      "metrics": {
+        "novelty": 0.8556475876925156,
+        "relevance": 0.12035971871028871,
+        "grounding": 0.0,
+        "insight_length": 0.5157142857142857,
+        "insight_hallucination_risk": 1.0,
+        "report_structure_quality": 1.0,
+        "report_coherence": 0.12327178153231536,
+        "report_actionability": 0.7652173913043478,
+        "insight_anchor_density": 0.2518257365902795,
+        "insight_factual_anchor_score": 0.0,
+        "diagnostics": {
+          "token_count": 361,
+          "claim_count": 20,
+          "supported_claim_count": 0,
+          "section_hits": {
+            "摘要": true,
+            "分析": true,
+            "预测": true,
+            "结论": true
+          },
+          "paragraph_count": 32,
+          "anchor_hits": 20,
+          "total_tokens": 361,
+          "factual_supported_sentences": 0,
+          "factual_total_sentences": 30,
+          "kb_doc_count": 3
+        }
+      }
+    },
+    {
+      "target": "openai:o1-preview",
+      "provider": "openai",
+      "model": "o1-preview",
+      "success": true,
+      "score": 0.244288,
+      "run_dir": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/02_openai_o1-preview",
+      "report_path": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/02_openai_o1-preview/llm_generated_full_report.md",
+      "metrics_json": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/02_openai_o1-preview/llm_report_auto_metrics.json",
+      "metrics_markdown": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/02_openai_o1-preview/llm_report_auto_metrics.md",
+      "metrics": {
+        "novelty": 0.9331488186829874,
+        "relevance": 0.25675717243244367,
+        "grounding": 0.0,
+        "insight_length": 0.2985714285714286,
+        "insight_hallucination_risk": 1.0,
+        "report_structure_quality": 0.75,
+        "report_coherence": 0.0140679811352971,
+        "report_actionability": 0.5161290322580645,
+        "insight_anchor_density": 0.10874293170943888,
+        "insight_factual_anchor_score": 0.0,
+        "diagnostics": {
+          "token_count": 209,
+          "claim_count": 20,
+          "supported_claim_count": 0,
+          "section_hits": {
+            "摘要": true,
+            "分析": true,
+            "预测": true,
+            "结论": false
+          },
+          "paragraph_count": 17,
+          "anchor_hits": 5,
+          "total_tokens": 209,
+          "factual_supported_sentences": 0,
+          "factual_total_sentences": 29,
+          "kb_doc_count": 3
+        }
+      }
+    },
+    {
+      "target": "qwen:qwen-max",
+      "provider": "qwen",
+      "model": "qwen-max",
+      "success": true,
+      "score": 0.253772,
+      "run_dir": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/03_qwen_qwen-max",
+      "report_path": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/03_qwen_qwen-max/llm_generated_full_report.md",
+      "metrics_json": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/03_qwen_qwen-max/llm_report_auto_metrics.json",
+      "metrics_markdown": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/03_qwen_qwen-max/llm_report_auto_metrics.md",
+      "metrics": {
+        "novelty": 0.8995664480149925,
+        "relevance": 0.02324543500640084,
+        "grounding": 0.0,
+        "insight_length": 0.13714285714285715,
+        "insight_hallucination_risk": 1.0,
+        "report_structure_quality": 1.0,
+        "report_coherence": 0.04633524609813254,
+        "report_actionability": 1.0,
+        "insight_anchor_density": 0.0,
+        "insight_factual_anchor_score": 0.0,
+        "diagnostics": {
+          "token_count": 96,
+          "claim_count": 17,
+          "supported_claim_count": 0,
+          "section_hits": {
+            "摘要": true,
+            "分析": true,
+            "预测": true,
+            "结论": true
+          },
+          "paragraph_count": 8,
+          "anchor_hits": 0,
+          "total_tokens": 96,
+          "factual_supported_sentences": 0,
+          "factual_total_sentences": 21,
+          "kb_doc_count": 3
+        }
+      }
+    },
+    {
+      "target": "deepseek:deepseek-chat",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "success": true,
+      "score": 0.268811,
+      "run_dir": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/04_deepseek_deepseek-chat",
+      "report_path": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/04_deepseek_deepseek-chat/llm_generated_full_report.md",
+      "metrics_json": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/04_deepseek_deepseek-chat/llm_report_auto_metrics.json",
+      "metrics_markdown": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/llm_standalone_metrics/20260318_four_models_v1/benchmark_runs/04_deepseek_deepseek-chat/llm_report_auto_metrics.md",
+      "metrics": {
+        "novelty": 0.8870777592505136,
+        "relevance": 0.0,
+        "grounding": 0.05,
+        "insight_length": 0.4785714285714286,
+        "insight_hallucination_risk": 0.95,
+        "report_structure_quality": 1.0,
+        "report_coherence": 0.005795265540033588,
+        "report_actionability": 0.7619047619047619,
+        "insight_anchor_density": 0.0,
+        "insight_factual_anchor_score": 0.0,
+        "diagnostics": {
+          "token_count": 335,
+          "claim_count": 20,
+          "supported_claim_count": 1,
+          "section_hits": {
+            "摘要": true,
+            "分析": true,
+            "预测": true,
+            "结论": true
+          },
+          "paragraph_count": 26,
+          "anchor_hits": 0,
+          "total_tokens": 335,
+          "factual_supported_sentences": 0,
+          "factual_total_sentences": 30,
+          "kb_doc_count": 3
+        }
+      }
+    }
+  ],
+  "success_count": 4,
+  "total_count": 4,
+  "best_target": "openai:gpt-4o",
+  "best_score": 0.292861
+}

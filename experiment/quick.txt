@@ -1,0 +1,8 @@
+bash experiment/run_dual_markdown_quant_oneclick.sh \
+  --search "你的主题" \
+  --summary-json assets/1_search/summary_report_20260312_170235.json
+
+
+# summary-json 任意进行修改...
+# 可以划分成两步进行运行
+

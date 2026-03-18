@@ -1,0 +1,82 @@
+cd /Users/suleynan_suir/Desktop/NEXUS1/experiment
+
+
+# step2：生成 step2 指标快照
+
+python3 pipeline_quant_monitor.py step2 \
+  --summary "/绝对路径/summary_report.json" \
+  --step2-output "/绝对路径/step2_output.json" \
+  --output "/绝对路径/step2_metrics.json"
+
+
+# step3-snapshot：生成一次 step3 快照
+
+python3 pipeline_quant_monitor.py step3-snapshot \
+  --summary "/绝对路径/summary_report.json" \
+  --step2-output "/绝对路径/step2_output.json" \
+  --backend-uploads-dir "/Users/suleynan_suir/Desktop/NEXUS1/backend/uploads" \
+  --output "/绝对路径/step3_snapshot.json"
+
+## step3-watch：禁用 markdown 补充
+
+python3 pipeline_quant_monitor.py step3-snapshot \
+  --summary "/绝对路径/summary_report.json" \
+  --step2-output "/绝对路径/step2_output.json" \
+  --backend-uploads-dir "/Users/suleynan_suir/Desktop/NEXUS1/backend/uploads" \
+  --output "/绝对路径/step3_snapshot.json" \
+  --disable-markdown-supplement
+
+
+## step3-watch：持续监控 step3 并输出 JSONL: 持续监控 step3 并输出 JSONL
+
+python3 pipeline_quant_monitor.py step3-watch \
+  --summary "/绝对路径/summary_report.json" \
+  --step2-output "/绝对路径/step2_output.json" \
+  --backend-uploads-dir "/Users/suleynan_suir/Desktop/NEXUS1/backend/uploads" \
+  --output-jsonl "/绝对路径/step3_watch.jsonl" \
+  --stop-file "/绝对路径/STOP" \
+  --interval-seconds 15
+
+
+# finalize：合并 step2/step3 输出成总指标
+
+python3 pipeline_quant_monitor.py finalize \
+  --step2-json "/绝对路径/step2_metrics.json" \
+  --step3-json "/绝对路径/step3_snapshot.json" \
+  --output "/绝对路径/pipeline_metrics.json"
+
+
+# 基础对比
+
+python3 compare_step3_markdown_experiment.py \
+  --without-markdown "/绝对路径/without/pipeline_metrics.json" \
+  --with-markdown "/绝对路径/with/pipeline_metrics.json" \
+  --output-dir "/绝对路径/comparison"
+
+
+# 附带 LLM 深度分析
+
+python3 compare_step3_markdown_experiment.py \
+  --without-markdown "/绝对路径/without/pipeline_metrics.json" \
+  --with-markdown "/绝对路径/with/pipeline_metrics.json" \
+  --output-dir "/绝对路径/comparison" \
+  --enable-llm-deep-analysis \
+  --llm-provider openai \
+  --llm-model "gpt-4o" \
+  --llm-temperature 0.2 \
+  --llm-max-tokens 1800 \
+  --llm-timeout 60
+
+
+# 多模型 benchmark 版
+
+python3 llm_deep_analysis_report.py \
+  --comparison-json "/绝对路径/step3_markdown_comparison.json" \
+  --provider openai \
+  --model "gpt-4o" \
+  --temperature 0.2 \
+  --max-tokens 1800 \
+  --timeout 60 \
+  --benchmark-provider openai \
+  --benchmark-models "gpt-4o,o1-preview,qwen-max" \
+  --output-dir "/绝对路径/benchmark_dir"

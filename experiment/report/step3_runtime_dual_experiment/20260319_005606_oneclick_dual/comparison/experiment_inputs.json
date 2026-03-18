@@ -1,0 +1,16 @@
+{
+  "without_markdown": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/without/pipeline_metrics.json",
+  "with_markdown": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/with/pipeline_metrics.json",
+  "output_json": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/comparison/step3_markdown_comparison.json",
+  "output_markdown": "/Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260319_005606_oneclick_dual/comparison/step3_markdown_comparison.md",
+  "output_llm_deep_analysis_markdown": "",
+  "output_llm_deep_analysis_meta": "",
+  "llm_deep_analysis_enabled": false,
+  "llm_deep_analysis_success": false,
+  "llm_benchmark_enabled": false,
+  "llm_benchmark_models": [],
+  "output_llm_benchmark_json": "",
+  "output_llm_benchmark_markdown": "",
+  "llm_benchmark_best_model": "",
+  "llm_benchmark_best_quality_score": 0.0
+}

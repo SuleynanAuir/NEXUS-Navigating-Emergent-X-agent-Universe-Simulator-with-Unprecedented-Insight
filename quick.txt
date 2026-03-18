@@ -5,3 +5,51 @@ cd .../NEXUS
 source backend/.venv/bin/activate
 chmod +x one_click_run.sh
 ./one_click_run.sh
+
+
+-----
+
+
+cd /Users/suleynan_suir/Desktop/NEXUS1
+./all_one_click_run.sh
+
+
+
+-----
+
+一键跑“完整 Step3 双实验”（推荐）
+功能：自动执行两次 runtime（无/有 Markdown）+ 自动量化 + 自动生成对比。
+
+python3 /Users/suleynan_suir/Desktop/NEXUS1/experiment/run_step3_runtime_dual_experiment.py \
+  --base-url http://127.0.0.1:5001 \
+  --simulation-id sim_5f53c72bd940 \
+  --max-rounds 6 \
+  --markdown-supplement-path /Users/suleynan_suir/Desktop/NEXUS1/container/enhanced_news/agent_guide_20260318_130844.md \
+  --output-dir /Users/suleynan_suir/Desktop/NEXUS1/experiment/report/step3_runtime_dual_experiment/20260318_full_step3_runtime_dual_v2
+
+
+
+只做 Step3 快照量化（不重跑 runtime）
+
+无 Markdown：
+python3 /Users/suleynan_suir/Desktop/NEXUS1/experiment/pipeline_quant_monitor.py step3-snapshot \
+  --summary <summary_report.json> \
+  --step2-output <step2_agent_guide.md> \
+  --backend-uploads-dir /Users/suleynan_suir/Desktop/NEXUS1/backend/uploads \
+  --output <step3_no_md.json> \
+  --disable-markdown-supplement
+
+有 Markdown（显式注入）：
+python3 /Users/suleynan_suir/Desktop/NEXUS1/experiment/pipeline_quant_monitor.py step3-snapshot \
+  --summary <summary_report.json> \
+  --step2-output <step2_agent_guide.md> \
+  --backend-uploads-dir /Users/suleynan_suir/Desktop/NEXUS1/backend/uploads \
+  --output <step3_with_md.json> \
+  --markdown-supplement-path /Users/suleynan_suir/Desktop/NEXUS1/container/enhanced_news/agent_guide_20260318_130844.md
+
+
+汇总
+python3 /Users/suleynan_suir/Desktop/NEXUS1/experiment/pipeline_quant_monitor.py finalize \
+  --step2-json <step2_metrics.json> \
+  --step3-json <step3_snapshot.json> \
+  --output <pipeline_metrics.json>
