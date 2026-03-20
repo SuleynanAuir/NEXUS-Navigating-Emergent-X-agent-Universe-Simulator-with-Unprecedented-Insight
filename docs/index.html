@@ -661,6 +661,149 @@
       .sec-title { font-size: 2.4rem; }
       footer { flex-direction: column; align-items: flex-start; }
     }
+
+    /* ---------- 新增：左侧表格 + 右侧图片区域样式 ---------- */
+    .evaluation-wrapper {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      align-items: flex-start;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .left-tables {
+      flex: 1.2;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .right-images {
+      flex: 0.8;
+      min-width: 380px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      position: sticky;
+      top: 100px;
+    }
+    .image-card {
+      background: white;
+      border: 1px solid var(--border-light);
+      border-radius: 20px;
+      padding: 15px 15px 10px 15px;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow 0.2s;
+    }
+    .image-card:hover {
+      box-shadow: var(--shadow-md);
+    }
+    .image-title {
+      font-weight: 700;
+      font-size: 1rem;
+      margin-bottom: 8px;
+      padding-left: 5px;
+      color: var(--text-primary);
+      border-left: 4px solid var(--brand-accent);
+    }
+    .image-card img {
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--border-light);
+      border-radius: 12px;
+      cursor: pointer;
+      transition: opacity 0.1s;
+    }
+    .image-card img:hover {
+      opacity: 0.9;
+    }
+    .image-note {
+      font-size: 0.8rem;
+      color: var(--text-tertiary);
+      margin-top: 6px;
+      text-align: right;
+    }
+
+    /* 表格容器样式（适配页面） */
+    .table-container {
+      background: white;
+      border-radius: 24px;
+      border: 1px solid var(--border-light);
+      padding: 16px 12px;
+      box-shadow: var(--shadow-sm);
+      overflow-x: auto;
+    }
+    .table-caption {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: var(--text-primary);
+    }
+    .academic-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      line-height: 1.4;
+      font-family: 'Inter', monospace;
+    }
+    .academic-table th {
+      border-top: 2px solid var(--border-focus);
+      border-bottom: 1px solid var(--border-light);
+      background: #f8fafc;
+      font-weight: 600;
+      padding: 8px 4px;
+      text-align: center;
+    }
+    .academic-table td {
+      padding: 6px 4px;
+      border-bottom: 1px solid var(--border-light);
+      text-align: center;
+    }
+    .academic-table tr:last-child td {
+      border-bottom: 2px solid var(--border-focus);
+    }
+    .academic-table .mono {
+      font-family: 'Courier New', monospace;
+    }
+    .academic-table .positive {
+      color: #0f6f6b;
+      font-weight: 600;
+    }
+    .academic-table .negative {
+      color: #b00020;
+      font-weight: 600;
+    }
+    .academic-table .arrow-up::before {
+      content: "↑";
+      margin-right: 2px;
+    }
+    .academic-table .arrow-down::before {
+      content: "↓";
+      margin-right: 2px;
+    }
+    .academic-table .section-row td {
+      background: #eef2f6;
+      font-weight: 700;
+      text-align: left;
+      padding-left: 8px;
+      border-top: 1px solid var(--border-focus);
+      border-bottom: 1px solid var(--border-focus);
+    }
+    .academic-table .change-cell {
+      line-height: 1.6;
+    }
+    .table-footnote {
+      font-size: 0.8rem;
+      color: var(--text-tertiary);
+      margin-top: 8px;
+      padding-top: 6px;
+      border-top: 1px dashed var(--border-light);
+    }
+
+    @media (max-width: 1100px) {
+      .evaluation-wrapper { flex-direction: column; }
+      .right-images { position: static; width: 100%; }
+    }
   </style>
 </head>
 <body>
@@ -710,7 +853,94 @@
   </header>
 
   <main class="wrap">
-    <!-- spotlight: 核心攻击点 -->
+    <!-- ========== 定量评估表格 + 图片区域 (移至最前) ========== -->
+    <section id="quantitative-eval" class="reveal">
+      <h2 class="sec-title">Quantitative Evaluation</h2>
+      <p class="sec-sub">Core metrics comparison between LLMs, baseline (Mirofish) and NEXUS, with supporting visualizations.</p>
+
+      <div class="evaluation-wrapper">
+        <!-- 左侧三个表格 -->
+        <div class="left-tables">
+          <!-- Table 1: Core Metrics -->
+          <div class="table-container">
+            <div class="table-caption">Table 1. Core Metrics – LLMs and Systems</div>
+            <table class="academic-table">
+              <thead><tr><th>System</th><th>EIS</th><th>Report Quality</th><th>Hallucination Risk</th><th>Relevance</th><th>Novelty</th><th>Grounding</th></tr></thead>
+              <tbody>
+                <tr><td>GPT-4o</td><td class="mono">-</td><td class="mono">0.2929</td><td class="mono">-</td><td class="mono">0.2016</td><td class="mono">0.3222</td><td class="mono">-</td></tr>
+                <tr><td>o1-preview</td><td class="mono">-</td><td class="mono">0.2443</td><td class="mono">-</td><td class="mono">0.2568</td><td class="mono">0.9331</td><td class="mono">-</td></tr>
+                <tr><td>qwen-max</td><td class="mono">-</td><td class="mono">0.2538</td><td class="mono">-</td><td class="mono">0.1728</td><td class="mono">0.4096</td><td class="mono">-</td></tr>
+                <tr><td>deepseek-chat</td><td class="mono">-</td><td class="mono">0.2688</td><td class="mono">-</td><td class="mono">0.1323</td><td class="mono">0.8928</td><td class="mono">-</td></tr>
+                <tr><td>Mirofish</td><td class="mono">0.5602</td><td class="mono">0.4861</td><td class="mono">0.5042</td><td class="mono">0.517</td><td class="mono">0.8932</td><td class="mono">0.51</td></tr>
+                <tr><td>NEXUS</td><td class="mono">0.6631 <span class="positive arrow-up">(+18.36%)</span></td><td class="mono">0.5216 <span class="positive arrow-up">(+7.29%)</span></td><td class="mono">0.4852 <span class="negative arrow-down">(-3.78%)</span></td><td class="mono">0.5418 <span class="positive arrow-up">(+4.79)</span></td><td class="mono">0.9774 <span class="positive arrow-up">(+9.4360%)</span></td><td class="mono">0.5367 <span class="positive arrow-up">(+5.23%)</span></td></tr>
+              </tbody>
+            </table>
+            <div class="table-footnote">“-” denotes missing. NEXUS % vs Mirofish. Green↑=gain, Red↓=reduction.</div>
+          </div>
+
+          <!-- Table 2: Retrieval & Multi-Agent -->
+          <div class="table-container">
+            <div class="table-caption">Table 2. Retrieval & Multi‑Agent Metrics</div>
+            <table class="academic-table">
+              <thead><tr><th>Metric</th><th>Mirofish</th><th>NEXUS</th><th>Absolute (pct)</th><th>Metric</th><th>Mirofish</th><th>NEXUS</th><th>Absolute (pct)</th></tr></thead>
+              <tbody>
+                <tr class="section-row"><td colspan="8">RETRIEVAL & MULTI‑AGENT</td></tr>
+                <tr><td>retrieval_quality</td><td class="mono">0.862</td><td class="mono">0.8848</td><td class="mono change-cell"><span class="positive arrow-up">+0.0228</span><br><span class="positive arrow-up">+2.65%</span></td><td>multi_agent_quality</td><td class="mono">0.6035</td><td class="mono">0.6302</td><td class="mono change-cell"><span class="positive arrow-up">+0.0267</span><br><span class="positive arrow-up">+2.67%</span></td></tr>
+                <tr><td>evidence_density</td><td class="mono">0.7188</td><td class="mono">0.7321</td><td class="mono change-cell"><span class="positive arrow-up">+0.0133</span><br><span class="positive arrow-up">+1.85%</span></td><td>agent_agreement</td><td class="mono">0.6693</td><td class="mono">0.6922</td><td class="mono change-cell"><span class="positive arrow-up">+0.0228</span><br><span class="positive arrow-up">+3.41%</span></td></tr>
+                <tr><td>evidence_per_claim</td><td class="mono">0.3333</td><td class="mono">0.3448</td><td class="mono change-cell"><span class="positive arrow-up">+0.0114</span><br><span class="positive arrow-up">+3.43%</span></td><td>agent_disagreement_risk</td><td class="mono">0.8056</td><td class="mono">0.7675</td><td class="mono change-cell"><span class="negative arrow-down">-0.0381</span><br><span class="negative arrow-down">-4.73%</span></td></tr>
+                <tr><td>retrieval_confidence</td><td class="mono">0.8602</td><td class="mono">0.8849</td><td class="mono change-cell"><span class="positive arrow-up">+0.0248</span><br><span class="positive arrow-up">+2.88%</span></td><td>agent_query_relevance</td><td class="mono">0.5</td><td class="mono">0.5533</td><td class="mono change-cell"><span class="negative arrow-down">-4.73%</span><br><span class="negative arrow-down">-4.73%</span></td></tr>
+                <tr><td>retrieval_risk</td><td class="mono">0.1398</td><td class="mono">0.1094</td><td class="mono change-cell"><span class="negative arrow-down">-0.0305</span><br><span class="negative arrow-down">-21.80%</span></td><td>agent_query_relevance</td><td class="mono">0.5</td><td class="mono">0.5533</td><td class="mono change-cell"><span class="positive arrow-up">+0.0533</span><br><span class="positive arrow-up">+10.66%</span></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td>multi_agent_confidence</td><td class="mono">0.7739</td><td class="mono">0.8005</td><td class="mono change-cell"><span class="positive arrow-up">+0.0267</span><br><span class="positive arrow-up">+2.67%</span></td></tr>
+              </tbody>
+            </table>
+            <div class="table-footnote">Green↑=gain, Red↓=reduction. Some cells two lines: absolute change & percentage.</div>
+          </div>
+
+          <!-- Table 3: Knowledge Graph & Insight -->
+          <div class="table-container">
+            <div class="table-caption">Table 3. Knowledge Graph & Insight Report Metrics</div>
+            <table class="academic-table">
+              <thead><tr><th>Metric</th><th>Mirofish</th><th>NEXUS</th><th>Absolute (pct)</th><th>Metric</th><th>Mirofish</th><th>NEXUS</th><th>Absolute (pct)</th></tr></thead>
+              <tbody>
+                <tr class="section-row"><td colspan="8">KNOWLEDGE GRAPH & INSIGHT REPORT</td></tr>
+                <tr><td>kg_quality</td><td class="mono">0.352</td><td class="mono">0.682</td><td class="mono change-cell"><span class="positive arrow-up">+0.33</span><br><span class="positive arrow-up">+93.74%</span></td><td>insight_quality</td><td class="mono">0.4861</td><td class="mono">0.5216</td><td class="mono change-cell"><span class="positive arrow-up">+0.0354</span><br><span class="positive arrow-up">+7.30%</span></td></tr>
+                <tr><td>kg_risk</td><td class="mono">0.3783</td><td class="mono">0.3364</td><td class="mono change-cell"><span class="positive arrow-up">-0.0419</span><br><span class="positive arrow-up">-11.07%</span></td><td>insight_hallucination risk</td><td class="mono">0.5042</td><td class="mono">0.4852</td><td class="mono change-cell"><span class="positive arrow-up">-0.0190</span><br><span class="positive arrow-up">-3.78%</span></td></tr>
+                <tr><td>relation_consistency</td><td class="mono">0.7217</td><td class="mono">0.7901</td><td class="mono change-cell"><span class="positive arrow-up">+0.0683</span><br><span class="positive arrow-up">+9.47%</span></td><td>relevance</td><td class="mono">0.517</td><td class="mono">0.5418</td><td class="mono change-cell"><span class="positive arrow-up">+0.0248</span><br><span class="positive arrow-up">+4.80%</span></td></tr>
+                <tr><td>claim_structurality</td><td class="mono">0.1565</td><td class="mono">0.1946</td><td class="mono change-cell"><span class="positive arrow-up">+0.0381</span><br><span class="positive arrow-up">+24.34%</span></td><td>grounding</td><td class="mono">0.51</td><td class="mono">0.5367</td><td class="mono change-cell"><span class="positive arrow-up">+0.0267</span><br><span class="positive arrow-up">+5.24%</span></td></tr>
+                <tr><td>graph_density_proxy</td><td class="mono">0.5031</td><td class="mono">0.6376</td><td class="mono change-cell"><span class="positive arrow-up">+0.1345</span><br><span class="positive arrow-up">+26.73%</span></td><td>report_coherence</td><td class="mono">0.0649</td><td class="mono">0.8648</td><td class="mono change-cell"><span class="positive arrow-up">+0.7999</span><br><span class="positive arrow-up">+1233.42%</span></td></tr>
+                <tr><td>graph_reasoning_signal</td><td class="mono">0.3091</td><td class="mono">0.3396</td><td class="mono change-cell"><span class="positive arrow-up">+0.0305</span><br><span class="positive arrow-up">+9.86%</span></td><td>report_length_score</td><td class="mono">0.1667</td><td class="mono">0.407</td><td class="mono change-cell"><span class="positive arrow-up">+0.2404</span><br><span class="positive arrow-up">+144.23%</span></td></tr>
+                <tr><td>path_reasoning</td><td class="mono">0.2789</td><td class="mono">0.3056</td><td class="mono change-cell"><span class="positive arrow-up">+0.0267</span><br><span class="positive arrow-up">+9.56%</span></td><td>report_quality</td><td class="mono">0.1919</td><td class="mono">0.4001</td><td class="mono change-cell"><span class="positive arrow-up">+0.2082</span><br><span class="positive arrow-up">+108.48%</span></td></tr>
+                <tr><td>additional_supplement_signal</td><td class="mono">-</td><td class="mono">0.3503</td><td class="mono change-cell"><span class="positive arrow-up">+0.3503</span><br>-</td><td>report_query_alignment</td><td class="mono">0.0763</td><td class="mono">0.0771</td><td class="mono change-cell"><span class="positive arrow-up">+0.0008</span><br><span class="positive arrow-up">+1.06%</span></td></tr>
+                <tr><td>confidence_signal</td><td class="mono">0.0343</td><td class="mono">0.0343</td><td class="mono change-cell"><span class="positive arrow-up">+0.0343</span><br>-</td><td>report_structure_quality</td><td class="mono">0.5034</td><td class="mono">0.8556</td><td class="mono change-cell"><span class="positive arrow-up">+0.3522</span><br><span class="positive arrow-up">+69.97%</span></td></tr>
+                <tr><td>confidence_signal (dup)</td><td class="mono">-</td><td class="mono">-</td><td class="mono change-cell"><span class="positive arrow-up">+69.97%</span></td><td></td><td></td><td></td><td></td></tr>
+              </tbody>
+            </table>
+            <div class="table-footnote">“-” zero/missing. Duplicate preserved as original.</div>
+          </div>
+        </div>
+
+        <!-- 右侧三张图片 -->
+        <div class="right-images">
+          <div class="image-card">
+            <div class="image-title">📊 Figure 1. 指标分布图 (distribution_figure)</div>
+            <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/distribution_figure.png" alt="distribution_figure" loading="lazy" onclick="openLightbox(this.src)">
+            <div class="image-note">点击图片放大</div>
+          </div>
+          <div class="image-card">
+            <div class="image-title">🛰️ Figure 2. 分组雷达图 (radar_grouped_academic)</div>
+            <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/radar_grouped_academic.png" alt="radar_grouped_academic" loading="lazy" onclick="openLightbox(this.src)">
+            <div class="image-note">点击图片放大</div>
+          </div>
+          <div class="image-card">
+            <div class="image-title">📈 Figure 3. 稳定性分析图 (stable_figure)</div>
+            <img src="https://raw.githubusercontent.com/SuleynanAuir/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/main/assets/stable_figure.png" alt="stable_figure" loading="lazy" onclick="openLightbox(this.src)">
+            <div class="image-note">点击图片放大</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- spotlight: 核心攻击点 (原第一个section) -->
     <section id="spotlight" class="reveal">
       <h2 class="sec-title" data-i18n="spotlightTitle"></h2>
       <p class="sec-sub" data-i18n="spotlightSub"></p>
@@ -908,42 +1138,32 @@
 
   <script>
     (function() {
-      // ----- 国际化文案 (优化版：更锋利、更用户导向，修复emoji乱码) -----
+      // 国际化文案（略，同原代码）
       const i18n = {
         zh: {
           navValue:"破局点", navArch:"架构", navFlow:"工作流", navGallery:"实况", navMetrics:"效率",
           badge:"NEXUS 认知推演",
-          heroKicker:"Navigating Emergent X-agent Universe Simulator with Unprecedented Insight",
-          heroTitle:"NEXUS：从信息的洪流，到可推演战局",
-          heroLead:"拒绝模板答案，拒绝泛泛分析。围绕你真正关注的内容，深度搜索 + GraphRAG + Canyon数智孪生，更低成本推演隐藏策略与未来格局。",
+          heroKicker:"Navigating Emergent X-agent Universe Simulator with Insight",
+          heroTitle:"NEXUS：洪流之中，「涌现」从此刻开始 🚀",
+          heroLead:"拒绝模板答案，拒绝泛泛分析。围绕你真正关注的内容，深度搜索 + GraphRAG + Canyon数智孪生，更低成本推演隐藏策略与未来格局 —— by Aiur Suleynan",
           heroMotto:'<span class="moon">🌙✨</span> <span class="line1">棋局未展先知手，月落星沉自有时 🌌</span>',
-          heroStat1:"✗ 拒绝模板废话",
-          heroStat2:"⬇ 成本直降 40%–60%",
-          heroStat3:"⚡ 30次模拟 → 18min高质洞察",
+          heroStat1:"❌ 拒绝模板废话｜say bye to 官话套话👋",
+          heroStat2:"⚡ 真正懂你的报告 | 结合用户关注点",
+          heroStat3:"⬇ 成本直降 40%–60% ｜30次模拟 → 18min高质洞察"  ,
           heroVisualTitle:"NEXUS 协同框架",
           heroVisualDesc:"领域调优 × 深度搜索 × 注意力锚点 × 多智能体推演",
           ctaRepo:"⚡ 查看 GitHub 仓库", ctaReadme:"📘 阅读完整 README",
-          spotlightTitle:"为什么 NEXUS 让你看得更深、更准",
+          spotlightTitle:"为什么 NEXUS 让你看得更广、更深、更准？",
           spotlightSub:"告别“正确废话”与平庸报告——每一个卖点都精准直击真实痛点。",
-          sp1Tag:"反模板",
-          sp1Title:"🚀 彻底告别“正确废话”",
-          sp1Desc:"围绕你个人真正关注的认知突破，生成只属于你的洞察地图——而非千篇一律的摘要。",
+          sp1Tag:"反模板", sp1Title:"🚀 彻底告别“正确废话”", sp1Desc:"围绕你个人真正关注的认知突破，生成只属于你的洞察地图——而非千篇一律的摘要。",
           sp1List:'<ul><li>深度搜索你<u>真正关心的内容</u>，主动过滤“大众化泛泛信息” 🙅</li><li>构建<u>用户独享 Cognitive Map</u>，拒绝千人一面的分析模式</li><li>📖 <a href="https://link.springer.com/article/10.1007/s11257-024-09398-x" target="_blank" rel="noopener">Farshidi et al. (2024)</a> · <a href="https://arxiv.org/abs/1804.04266" target="_blank" rel="noopener">Nguyen et al. (2018)</a></li></ul>',
-          sp2Tag:"信源进化",
-          sp2Title:"🔗 摆脱单一、重复数据，聚合高保真信源",
-          sp2Desc:"深度搜索 + 领域微调双重保障，在每条信息上确保相关性、时效性与证据质量。",
+          sp2Tag:"信源进化", sp2Title:"🔗 摆脱单一、重复数据，聚合高保真信源", sp2Desc:"深度搜索 + 领域微调双重保障，在每条信息上确保相关性、时效性与证据质量。",
           sp2List:'<ul><li>接入<u>领域专属微调模型</u>，NO <del>“通用LLMs模糊答案”</del> 🙅</li><li><strong>用户注意力锚点</strong>驱动信息理解机制，而非无差别信息处理</li></ul>',
-          sp3Tag:"动态推演",
-          sp3Title:"📈 不只是预测，而是推演未来的隐藏变量",
-          sp3Desc:"把现实动态因子真正融入数智孪生世界，拒绝静态理想化假设的廉价预测。",
+          sp3Tag:"动态推演", sp3Title:"📈 不只是预测，而是推演未来的隐藏变量", sp3Desc:"把现实动态因子真正融入数智孪生世界，拒绝静态理想化假设的廉价预测。",
           sp3List:'<ul><li>考虑<strong>现实的、实时的动态影响因子</strong> 🔥🔥，NO <del>“静态or理想化假设”</del> 🙅</li><li>构建<u>高保真数智孪生世界</u>，NO <del>“理想化假设的玩具环境”</del> 🙅</li><li>📖 <a href="https://arxiv.org/abs/2509.25530" target="_blank" rel="noopener">Guo et al. (2025)</a> · <a href="https://arxiv.org/abs/2506.19385" target="_blank" rel="noopener">Zhu et al. (2025)</a></li></ul>',
-          sp4Tag:"创意突破",
-          sp4Title:"💡 拒绝搬运常识，生产超预期的深度创新认知",
-          sp4Desc:"多视角呈现 + 仿生推演，帮你彻底跳出思维定势，挖掘别人看不到的洞察。",
+          sp4Tag:"创意突破", sp4Title:"💡 拒绝搬运常识，生产超预期的深度创新认知", sp4Desc:"多视角呈现 + 仿生推演，帮你彻底跳出思维定势，挖掘别人看不到的洞察。",
           sp4List:'<ul><li><strong>眼前一亮的新idea</strong> 🔥🔥，NO <del>“大道理的死板分析or老生常谈”</del> 🙅</li><li><strong>生动仿真的内心独白</strong> 🔥，NO <del>“表面化的虚情假意分析”</del> 🙅</li><li>📖 <a href="https://arxiv.org/html/2502.13925v1" target="_blank" rel="noopener">Zhong et al. (2023)</a> · <a href="https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/" target="_blank" rel="noopener">Saunders (2012)</a></li></ul>',
-          sp5Tag:"全维覆盖 · 极速",
-          sp5Title:"🌟 不堆次数，堆视角——提速保深度、省成本",
-          sp5Desc:"政策·企业·公众·研究者，四类主体同时推演；资源有限时依然抢占战略先机。",
+          sp5Tag:"全维覆盖 · 极速", sp5Title:"🌟 不堆次数，堆视角——提速保深度、省成本", sp5Desc:"政策·企业·公众·研究者，四类主体同时推演；资源有限时依然抢占战略先机。",
           sp5Quote:"这一优化不仅让高频建模成为可能，更让在资源有限的情况下，依然能快速获取深刻洞见，抢占决策先机。",
           sp5List:'<ul><li>全视角覆盖：政策机构⚖️ / 市场企业💰 / 舆论社群🧑‍🤝‍🧑 / 研究专家🧑‍🔬</li><li>相较原有 mirofish 架构：成本锐降 ~60%，模拟时间压缩至 1/3</li><li>深度融合<strong>背景知识先验</strong> + <strong>用户注意力聚焦机制</strong>，大幅降低推理令牌消耗</li><li><strong>智能加速配置</strong>：单次模拟成本 $5 → <strong>$2~3</strong>，降幅 40%–60%</li><li><strong>超快深度分析</strong>：仅需 <strong>30次模拟</strong>即可获得高质洞察，总时长 50min → <strong>18~20min</strong></li></ul>',
           valueTitle:"多面角色 · 同一推演场", valueSub:"政府、市场、舆论、研究者——在同一模拟框架中碰撞出真实的博弈格局。",
@@ -952,22 +1172,16 @@
           f3Title:"🧑‍🤝‍🧑 舆论 / KOL", f3Desc:"追踪情绪传播路径与社群放大机制，提前评估舆情爆发风险等级。",
           f4Title:"🧑‍🔬 专家 / 研究者", f4Desc:"将专业知识注入多智能体推演空间，获得学术与实战双重视角。",
           archTitle:"体系架构 · 一目了然", archSub:"NEXUS 核心管线架构图——支撑从信息采集到未来推演的全链路逻辑。",
-          flowTitle:"五步推演工作流",
-          flowSub:"从原始信息到可追问洞察的完整端到端管线——点击每一步查看详细实现机制。",
-          s1Title:"领域适配微调 · 构建知识底座",
-          s1Sub:"注入领域先验，让模型真正理解你的业务语境",
+          flowTitle:"NEXUS 全程推演工作流（点击查看）", flowSub:"从原始信息到可追问洞察的完整端到端管线——点击每一步查看详细实现机制。",
+          s1Title:"领域适配微调 · 构建知识底座", s1Sub:"注入领域先验，让模型真正理解你的业务语境",
           s1Body:'<p>在模拟开始前，系统首先根据用户关注锚点（Attention Anchors）对基础模型进行领域微调，确保后续所有分析都建立在任务相关的语义空间上。</p><ul><li>使用个人整合流程化 pipeline <a href="https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline" target="_blank" rel="noopener"><strong>LLaMa Foundary Pro</strong></a> 一站式完成：数据工程 → LoRA/QLoRA 微调 → 量化 → Ollama 本地部署</li><li>接入 <strong>EasyDataset</strong> 自动生成高质量问答对（QA-Pairs），大幅降低数据准备成本</li><li>支持托管云端存储（AWS S3 / Azure Blob）与模型版本追踪（Hugging Face Hub）</li><li>AutoDL 云平台在线监控微调效果，实时调整超参数配置</li></ul><div class="tag-row"><span class="step-tag green">精准微调</span><span class="step-tag green">私有化部署</span><span class="step-tag green">注意力锚点</span><span class="step-tag">LoRA/QLoRA</span><span class="step-tag">Ollama</span></div>',
-          s2Title:"客制化深度搜索 · 高保真信源采集",
-          s2Sub:"压力驱动迭代反思，确保每条信息都值得进入推演",
+          s2Title:"客制化深度搜索 · 高保真信源采集", s2Sub:"压力驱动迭代反思，确保每条信息都值得进入推演",
           s2Body:'<p>不依赖单一来源，通过<strong>压力驱动（Pressure-Driven）段落级迭代反思搜索架构</strong>主动优化检索路径，确保信息的相关性、时效性与证据可信度。</p><ul><li><a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank" rel="noopener"><strong>UPAIRS Agents</strong></a>：压力驱动迭代反思搜索，高 Factuality 事实保真，持续反思直至结果可信</li><li><a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank" rel="noopener"><strong>CognitiveTemp-DeepSearch</strong></a>：用户可自定义搜索策略，按需客制化深度搜索能力</li><li>核心机制：段落级迭代反思 / 不确定性量化 / 智能预算分配 / 信源质量评分 / 去噪重排序</li><li>动态阈值控制，避免搜索时间过长或置信度过低的双重问题</li></ul><div class="tag-row"><span class="step-tag">深度搜索</span><span class="step-tag">迭代反思</span><span class="step-tag green">高保真洞察</span><span class="step-tag purple">用户可控</span></div>',
-          s3Title:"用户注意力驱动 · 信息理解与先验生成",
-          s3Sub:"Google Hypothesis 实时标注 + 四智能体链式协作，把碎片变战略",
+          s3Title:"用户注意力驱动 · 信息理解与先验生成", s3Sub:"Google Hypothesis 实时标注 + 四智能体链式协作，把碎片变战略",
           s3Body:'<p>通过 Google Hypothesis 插件实时捕获用户在搜索结果中的高亮与标注（用户关注锚点），再经四个链式 Agent 协作深度分析，生成高质量系统先验供后续推演使用。</p><ul><li><strong>🤖 Agent-A（焦点-趋势信号解析师）</strong>：从用户高亮中提取趋势信号、演进脉络与关注热度</li><li><strong>🤖 Agent-B（内容-趋势证据评审师）</strong>：提炼页面内容中的技术演进证据、时间轴与关键节点</li><li><strong>🤖 Agent-C（事件-趋势关联推理师）</strong>：推断关联事件的技术扩散路径与行业采纳动态</li><li><strong>🤖 Agent-D（首席趋势战略整合师）</strong>：整合 A/B/C 输出，生成高相关性、高时效性战略报告</li><li>支持控制“分析模式”（极速 / 平衡 / 深度）与相关度阈值</li></ul><div class="tag-row"><span class="step-tag purple">注意力驱动</span><span class="step-tag">链式推理</span><span class="step-tag green">趋势战略</span><span class="step-tag">Hypothesis API</span></div>',
-          s4Title:"Canyon 数智孪生 · 多智能体仿真推演",
-          s4Sub:"GraphRAG 知识图谱 + 高保真虚拟世界，模拟真实舆情与事件演化",
+          s4Title:"Canyon 数智孪生 · 多智能体仿真推演", s4Sub:"GraphRAG 知识图谱 + 高保真虚拟世界，模拟真实舆情与事件演化",
           s4Body:'<p>基于前三步产出的高质量先验，初始化高保真虚拟世界 Canyon，生成具有独特认知结构的多个虚拟 Agent，模拟现实事件在不同利益主体下的传播与反应。</p><ul><li><strong>信息先验构建</strong>：融合用户锚点，通过 <a href="https://github.com/microsoft/graphrag" target="_blank" rel="noopener">GraphRAG</a> 提取实体与关系，构建可推理知识图谱，引入自环关系与多维联系</li><li><strong>虚拟 Agent 建模</strong>：每个 Agent 拥有独特的知识库、认知倾向、行为模式与影响力权重（年龄、职业、决策风格、风险偏好等）</li><li><strong>现实舆情复现</strong>：注入环境因子引导舆情走向，动态模拟信息传播路径与热点聚集规律</li><li><strong>多轮迭代仿真</strong>：支持 30+ 轮多智能体交互，生成事件爆发态势报告与关键节点分析</li><li><strong>仿真访谈（Face2Face-Talk）</strong>：与虚拟 Agent 进行深度对话，洞悉个体决策逻辑与内心关注</li></ul><div class="tag-row"><span class="step-tag green">数智孪生</span><span class="step-tag">GraphRAG</span><span class="step-tag purple">舆情推演</span><span class="step-tag">仿真访谈</span></div>',
-          s5Title:"报告生成 · 可追问的深度洞察交付",
-          s5Sub:"结构化输出 + 交互式解读，让每一份报告都能被追问与复盘",
+          s5Title:"报告生成 · 可追问的深度洞察交付", s5Sub:"结构化输出 + 交互式解读，让每一份报告都能被追问与复盘",
           s5Body:'<p>仿真完成后，系统输出多维度结构化报告，并支持用户与报告及虚拟 Agent 进行深度追问交互，确保洞察可理解、可验证、可用于决策。</p><ul><li><strong>多维结构化报告</strong>：研究主题 / 核心问题 / 发展阶段 / 关键驱动力 / 行业影响 / 长期趋势对比分析</li><li><strong>官方版 vs. 真心话</strong>：通过“内心独白”机制，揭示虚拟 Agent 对外表态与真实认知之间的差异</li><li><strong>Entity &amp; Question Level Insight</strong>：分别从实体层和问题层深度挖掘学术与舆论场景中的洞察</li><li><strong>交互式追问</strong>：用户可对任意分析结论继续提问，系统结合知识图谱给出可追溯的解释链路</li><li><strong>支持跨场景对比</strong>：如学术 GraphRAG 场景 vs. 社交舆论场景的认知差异可视化</li></ul><div class="tag-row"><span class="step-tag green">结构化报告</span><span class="step-tag">可追问交互</span><span class="step-tag purple">深度洞察</span><span class="step-tag">决策支持</span></div>',
           galleryTitle:"模块实况 · 所见即所得", gallerySub:"点击截图放大预览，感受真实推演界面。",
           g1Title:"⚙️ 深度搜索配置", g1Desc:"精细控制检索策略与信源质量。",
@@ -983,7 +1197,7 @@
         en: {
           navValue:"Highlights", navArch:"Architecture", navFlow:"Workflow", navGallery:"Gallery", navMetrics:"Metrics",
           badge:"NEXUS Cognitive Simulation",
-          heroKicker:"Navigating Emergent X-agent Universe Simulator with Unprecedented Insight",
+          heroKicker:"Navigating Emergent X-agent Universe Simulator with Unpreced-Insight",
           heroTitle:"NEXUS: From Information Streams to Simulatable Futures",
           heroLead:"No generic templates, no shallow summaries. Anchored to your real concerns — Deep Search + GraphRAG + Canyon digital twin simulate hidden strategies and future dynamics at 40–60% lower cost.",
           heroMotto:'<span class="moon">🌙✨</span> <span class="line1">Foresee the move before the board unfolds</span><br><span class="line2">When stars fade, the timing still arrives 🌌</span>',
@@ -995,25 +1209,15 @@
           ctaRepo:"⚡ Open GitHub Repo", ctaReadme:"📘 Read Full README",
           spotlightTitle:"Why NEXUS Cuts Deeper and Sharper",
           spotlightSub:"Every claim hits a real pain point — no more boilerplate reports, no more wasted analysis.",
-          sp1Tag:"Anti-Template",
-          sp1Title:"🚀 Goodbye to 'correct but useless' analysis",
-          sp1Desc:"Builds a cognitive map exclusive to your real concerns — not a one-size-fits-all summary recycled from generic data.",
+          sp1Tag:"Anti-Template", sp1Title:"🚀 Goodbye to 'correct but useless' analysis", sp1Desc:"Builds a cognitive map exclusive to your real concerns — not a one-size-fits-all summary recycled from generic data.",
           sp1List:'<ul><li>Deep-searches <u>what you actually care about</u>, actively filtering out generic mass-produced information 🙅</li><li>Builds a <u>user-exclusive Cognitive Map</u> — refuses the one-size-fits-all analysis trap</li><li>📖 <a href="https://link.springer.com/article/10.1007/s11257-024-09398-x" target="_blank" rel="noopener">Farshidi et al. (2024)</a> · <a href="https://arxiv.org/abs/1804.04266" target="_blank" rel="noopener">Nguyen et al. (2018)</a></li></ul>',
-          sp2Tag:"Source Fidelity",
-          sp2Title:"🔗 Escape single-source repetition, aggregate high-fidelity evidence",
-          sp2Desc:"Deep Search + domain fine-tuning together guarantee relevance, recency, and evidence quality on every retrieved piece of information.",
+          sp2Tag:"Source Fidelity", sp2Title:"🔗 Escape single-source repetition, aggregate high-fidelity evidence", sp2Desc:"Deep Search + domain fine-tuning together guarantee relevance, recency, and evidence quality on every retrieved piece of information.",
           sp2List:'<ul><li>Powered by <u>domain-specific fine-tuned models</u>, not generic LLM blur 🙅</li><li><strong>Attention-anchor-driven</strong> information understanding — not undifferentiated bulk processing</li></ul>',
-          sp3Tag:"Dynamic Simulation",
-          sp3Title:"📈 Not just forecasting — simulating hidden future variables",
-          sp3Desc:"Real-time dynamic factors are embedded into the digital twin world — no more cheap predictions built on static, idealized assumptions.",
+          sp3Tag:"Dynamic Simulation", sp3Title:"📈 Not just forecasting — simulating hidden future variables", sp3Desc:"Real-time dynamic factors are embedded into the digital twin world — no more cheap predictions built on static, idealized assumptions.",
           sp3List:'<ul><li>Incorporates <strong>real, real-time dynamic influence factors</strong> 🔥🔥, NOT <del>static or idealized assumptions</del> 🙅</li><li>Builds a <u>high-fidelity digital cognitive twin</u>, NOT <del>a toy idealized virtual world</del> 🙅</li><li>📖 <a href="https://arxiv.org/abs/2509.25530" target="_blank" rel="noopener">Guo et al. (2025)</a> · <a href="https://arxiv.org/abs/2506.19385" target="_blank" rel="noopener">Zhu et al. (2025)</a></li></ul>',
-          sp4Tag:"Creative Breakthrough",
-          sp4Title:"💡 Refuse recycled common sense — produce genuinely novel cognitive insight",
-          sp4Desc:"Multi-perspective presentation + bio-inspired agent simulation help you break out of conventional thinking frames entirely.",
+          sp4Tag:"Creative Breakthrough", sp4Title:"💡 Refuse recycled common sense — produce genuinely novel cognitive insight", sp4Desc:"Multi-perspective presentation + bio-inspired agent simulation help you break out of conventional thinking frames entirely.",
           sp4List:'<ul><li><strong>Genuinely surprising, eye-opening new ideas</strong> 🔥🔥, NOT <del>rigid cliché analysis</del> 🙅</li><li><strong>Vivid simulated inner monologues</strong> 🔥, NOT <del>shallow surface-level emotional summaries</del> 🙅</li><li>📖 <a href="https://arxiv.org/html/2502.13925v1" target="_blank" rel="noopener">Zhong et al. (2023)</a> · <a href="https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/" target="_blank" rel="noopener">Saunders (2012)</a></li></ul>',
-          sp5Tag:"Full Coverage · Speed",
-          sp5Title:"🌟 Stack perspectives, not repetitions — faster, deeper, cheaper",
-          sp5Desc:"Policy, enterprise, public opinion, researchers — all four stakeholder groups simulated simultaneously; strategic advantage even under resource constraints.",
+          sp5Tag:"Full Coverage · Speed", sp5Title:"🌟 Stack perspectives, not repetitions — faster, deeper, cheaper", sp5Desc:"Policy, enterprise, public opinion, researchers — all four stakeholder groups simulated simultaneously; strategic advantage even under resource constraints.",
           sp5Quote:"This optimization makes high-frequency modeling practical: ~60% cost reduction, runtime cut by two-thirds — without sacrificing analytical depth.",
           sp5List:'<ul><li>Full stakeholder coverage: policy/gov ⚖️ / enterprise/market 💰 / public/community 🧑‍🤝‍🧑 / research/expert 🧑‍🔬</li><li>vs. original mirofish architecture: cost down ~60%, runtime compressed to 1/3</li><li>Deep fusion of <strong>domain background priors</strong> + <strong>user attention-anchor focusing</strong> slashes token consumption</li><li><strong>Accelerated configuration</strong>: per-run cost drops from $5 → <strong>$2–3</strong> (40–60% reduction)</li><li><strong>Ultra-fast deep analysis</strong>: just <strong>30 simulation runs</strong> for high-quality insight, total time 50 min → <strong>18–20 min</strong></li></ul>',
           valueTitle:"Multi-Stakeholder · One Simulation Arena", valueSub:"Government, market actors, public communities, and researchers — all colliding in a single realistic simulation sandbox.",
@@ -1022,22 +1226,16 @@
           f3Title:"🧑‍🤝‍🧑 Public / KOL", f3Desc:"Track sentiment spread and community amplification paths; forecast public opinion crisis risk levels.",
           f4Title:"🧑‍🔬 Researcher / Expert", f4Desc:"Inject specialized domain knowledge into the multi-agent simulation space for academic and practical dual perspectives.",
           archTitle:"System Architecture · At a Glance", archSub:"NEXUS core pipeline diagram — powering the full chain from information ingestion to future scenario simulation.",
-          flowTitle:"Five-Step Simulation Workflow",
-          flowSub:"A complete end-to-end pipeline from raw information to interrogatable insight — click each step to explore the implementation details.",
-          s1Title:"Domain Fine-tuning · Build the Knowledge Foundation",
-          s1Sub:"Inject domain priors so the model truly understands your operational context",
+          flowTitle:"Five-Step Simulation Workflow", flowSub:"A complete end-to-end pipeline from raw information to interrogatable insight — click each step to explore the implementation details.",
+          s1Title:"Domain Fine-tuning · Build the Knowledge Foundation", s1Sub:"Inject domain priors so the model truly understands your operational context",
           s1Body:'<p>Before any simulation begins, the system fine-tunes the base model according to the user\'s Attention Anchors, ensuring all downstream analysis is grounded in a task-relevant semantic space.</p><ul><li>Uses the integrated pipeline <a href="https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline" target="_blank" rel="noopener"><strong>LLaMa Foundary Pro</strong></a>: data engineering → LoRA/QLoRA fine-tuning → quantization → Ollama local deployment, all in one pipeline</li><li>Integrates <strong>EasyDataset</strong> to auto-generate high-quality QA pairs, dramatically lowering data preparation cost</li><li>Supports hosted cloud storage (AWS S3 / Azure Blob) and model version tracking (Hugging Face Hub)</li><li>AutoDL cloud platform provides real-time training monitoring and live hyperparameter adjustment</li></ul><div class="tag-row"><span class="step-tag green">Precision Fine-tuning</span><span class="step-tag green">Private Deployment</span><span class="step-tag green">Attention Anchors</span><span class="step-tag">LoRA/QLoRA</span><span class="step-tag">Ollama</span></div>',
-          s2Title:"Custom Deep Search · High-Fidelity Evidence Harvesting",
-          s2Sub:"Pressure-driven iterative reflection — every retrieved item earns its place in the simulation",
+          s2Title:"Custom Deep Search · High-Fidelity Evidence Harvesting", s2Sub:"Pressure-driven iterative reflection — every retrieved item earns its place in the simulation",
           s2Body:'<p>Rather than relying on a single source, NEXUS employs a <strong>Pressure-Driven paragraph-level iterative reflection search architecture</strong> to actively optimize retrieval paths and guarantee relevance, recency, and evidence credibility.</p><ul><li><a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank" rel="noopener"><strong>UPAIRS Agents</strong></a>: pressure-driven iterative reflection search with high Factuality preservation — keeps refining until results are trustworthy</li><li><a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank" rel="noopener"><strong>CognitiveTemp-DeepSearch</strong></a>: fully user-customizable search strategy; tune depth and breadth on demand</li><li>Core mechanisms: paragraph-level iterative reflection / uncertainty quantification / intelligent budget allocation / source quality scoring / denoising re-ranking</li><li>Dynamic threshold control prevents both over-long searches and low-confidence results</li></ul><div class="tag-row"><span class="step-tag">Deep Search</span><span class="step-tag">Iterative Reflection</span><span class="step-tag green">High-Fidelity Insight</span><span class="step-tag purple">User-Controlled</span></div>',
-          s3Title:"Attention-Driven Understanding · Structured Prior Generation",
-          s3Sub:"Real-time Hypothesis annotations + four-agent chain — turn fragments into strategic intelligence",
+          s3Title:"Attention-Driven Understanding · Structured Prior Generation", s3Sub:"Real-time Hypothesis annotations + four-agent chain — turn fragments into strategic intelligence",
           s3Body:'<p>The Google Hypothesis plugin captures real-time user highlights and annotations in search results (user attention anchors). A chain of four specialized agents then collaboratively analyzes these anchors to generate high-quality system priors for downstream simulation.</p><ul><li><strong>🤖 Agent-A (Focus-Trend Signal Analyst)</strong>: extracts trend signals, evolutionary trajectories, and attention intensity from user highlights</li><li><strong>🤖 Agent-B (Content-Trend Evidence Reviewer)</strong>: distills technical evolution evidence, timelines, and key inflection points from page content</li><li><strong>🤖 Agent-C (Event-Trend Correlation Reasoner)</strong>: infers technology diffusion paths and industry adoption dynamics from related events</li><li><strong>🤖 Agent-D (Chief Strategic Integrator)</strong>: integrates A/B/C outputs into a high-relevance, high-recency strategic intelligence document</li><li>User controls: analysis mode (fast / balanced / deep) and relevance threshold</li></ul><div class="tag-row"><span class="step-tag purple">Attention-Driven</span><span class="step-tag">Chain Reasoning</span><span class="step-tag green">Trend Strategy</span><span class="step-tag">Hypothesis API</span></div>',
-          s4Title:"Canyon Digital Twin · Multi-Agent Simulation",
-          s4Sub:"GraphRAG knowledge graph + high-fidelity virtual world — simulate real public opinion and event dynamics",
+          s4Title:"Canyon Digital Twin · Multi-Agent Simulation", s4Sub:"GraphRAG knowledge graph + high-fidelity virtual world — simulate real public opinion and event dynamics",
           s4Body:'<p>Using the high-quality priors from Steps 1–3, NEXUS initializes Canyon — a high-fidelity digital twin world — populates it with virtual agents carrying distinct cognitive structures, and simulates how real-world events propagate and evolve across different stakeholder groups.</p><ul><li><strong>Information prior construction</strong>: fuses user anchors with <a href="https://github.com/microsoft/graphrag" target="_blank" rel="noopener">GraphRAG</a> entity-relation extraction to build a multi-dimensional reasoning knowledge graph with self-loop and cross-dimensional links</li><li><strong>Virtual agent modeling</strong>: each agent carries unique knowledge, cognitive tendencies, behavioral patterns, and influence weights (age, profession, decision style, risk preference, etc.)</li><li><strong>Real-world opinion reproduction</strong>: environment factors guide opinion dynamics, dynamically simulating information propagation paths and hot-topic clustering</li><li><strong>Multi-round iterative simulation</strong>: supports 30+ rounds of multi-agent interaction, generating event outbreak reports and key node analysis</li><li><strong>Simulated interviews (Face2Face-Talk)</strong>: deep dialogue with virtual agents to uncover individual decision logic and internal concerns</li></ul><div class="tag-row"><span class="step-tag green">Digital Twin</span><span class="step-tag">GraphRAG</span><span class="step-tag purple">Opinion Simulation</span><span class="step-tag">Agent Interviews</span></div>',
-          s5Title:"Report Generation · Interrogatable Deep Insight Delivery",
-          s5Sub:"Structured output + interactive follow-up — every report can be questioned, traced, and refined",
+          s5Title:"Report Generation · Interrogatable Deep Insight Delivery", s5Sub:"Structured output + interactive follow-up — every report can be questioned, traced, and refined",
           s5Body:'<p>After simulation, the system produces multi-dimensional structured reports and supports deep follow-up interaction between users, reports, and virtual agents — ensuring insights are understandable, verifiable, and decision-ready.</p><ul><li><strong>Multi-dimensional structured reports</strong>: research themes / core questions / development stage / key drivers / industry impact / long-term trend comparative analysis</li><li><strong>Official stance vs. inner voice</strong>: the "inner monologue" mechanism reveals the gap between a virtual agent\'s public position and its true cognitive state</li><li><strong>Entity- &amp; Question-Level Insight</strong>: deep mining of academic and public-opinion scenarios from both entity and question perspectives</li><li><strong>Interactive follow-up questioning</strong>: users can probe any analytical conclusion further; the system returns traceable explanation chains backed by the knowledge graph</li><li><strong>Cross-scenario comparison</strong>: e.g., academic GraphRAG scenario vs. social media opinion scenario — cognitive difference visualization</li></ul><div class="tag-row"><span class="step-tag green">Structured Reports</span><span class="step-tag">Interactive Q&amp;A</span><span class="step-tag purple">Deep Insight</span><span class="step-tag">Decision Support</span></div>',
           galleryTitle:"Live Modules · What You See Is What You Get", gallerySub:"Click any screenshot to preview full size — experience the real simulation interface.",
           g1Title:"⚙️ Deep Search Config", g1Desc:"Fine-grained control over retrieval strategy and source quality.",
@@ -1051,7 +1249,7 @@
           foot:"NEXUS · From real information streams to simulatable futures © 2026"
         }
       };
-      // 语言切换函数
+
       function setLang(lang){
         document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
         document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -1070,27 +1268,25 @@
       document.getElementById('langZh').addEventListener('click', ()=>setLang('zh'));
       document.getElementById('langEn').addEventListener('click', ()=>setLang('en'));
 
-      // 滚动揭示动画
       const observer = new IntersectionObserver((entries)=>{
         entries.forEach(e => { if(e.isIntersecting) { e.target.classList.add('on'); observer.unobserve(e.target); } });
       }, { threshold: 0.15, rootMargin: "0px 0px -40px 0px" });
       document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-      // 灯箱 - 支持所有 .step-img 和 .img-grid img
+      // 灯箱
       const lightbox = document.getElementById('lightbox');
       const lightboxImg = document.getElementById('lightboxImg');
       function openLightbox(src) {
         lightboxImg.src = src;
         lightbox.classList.add('on');
       }
-      document.querySelectorAll('.shot img, .step-img, .img-grid img').forEach(img => {
+      document.querySelectorAll('.shot img, .step-img, .img-grid img, .image-card img').forEach(img => {
         img.addEventListener('click', () => openLightbox(img.src));
       });
       function closeLightbox(){ lightbox.classList.remove('on'); }
       document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
       lightbox.addEventListener('click', e => { if(e.target === lightbox) closeLightbox(); });
 
-      // 初始语言
       const saved = localStorage.getItem('nexus_lang') || 'zh';
       setLang(saved);
     })();
