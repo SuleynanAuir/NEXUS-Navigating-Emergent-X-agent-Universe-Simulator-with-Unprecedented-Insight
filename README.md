@@ -75,6 +75,35 @@
 </div>
 
 
+<!-- 三张图片等宽度纵向排布 -->
+<!-- 使用仿照示例的居中容器与图片样式，确保清晰度与视觉一致性 -->
+
+<p align="center">
+  <!-- 图片1：分组雷达图（学术风格） -->
+  <!-- 固定宽度 1000 确保清晰，同时添加圆角与阴影，max-width 适配移动端 -->
+  <img src="assets/radar_grouped_academic.png" 
+       alt="Grouped Radar Chart - Academic Style" 
+       width="1000"
+       style="max-width:100%; height:auto; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,0.15);">
+</p>
+
+<p align="center">
+  <!-- 图片2：稳定性相关图表 -->
+  <img src="assets/stable_figure.png" 
+       alt="Stability Analysis Figure" 
+       width="1000"
+       style="max-width:100%; height:auto; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,0.15);">
+</p>
+
+<p align="center">
+  <!-- 图片3：分布相关图表 -->
+  <img src="assets/distribution_figure.png" 
+       alt="Data Distribution Figure" 
+       width="1000"
+       style="max-width:100%; height:auto; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,0.15);">
+</p>
+
+
 ## 📊 1. Preview
 
 > NEXUS 系统实现 从“信息分析” →“社会系统仿真” (融合现实世界的真实、经验证信息流)
