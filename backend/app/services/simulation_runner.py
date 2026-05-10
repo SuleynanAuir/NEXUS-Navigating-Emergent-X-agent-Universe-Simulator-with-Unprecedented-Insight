@@ -624,8 +624,18 @@ class SimulationRunner:
             
             # 进程结束
             exit_code = process.returncode
-            
-            if exit_code == 0:
+
+            # 重新读取最新状态，避免覆盖 stop_simulation() 已写入的 STOPPED
+            latest_state = cls.get_run_state(simulation_id)
+            if latest_state:
+                state = latest_state
+
+            if state.runner_status in (RunnerStatus.STOPPED, RunnerStatus.STOPPING):
+                # 用户主动停止（SIGTERM=-15 / SIGKILL=-9），不视为失败
+                state.runner_status = RunnerStatus.STOPPED
+                state.completed_at = state.completed_at or datetime.now().isoformat()
+                logger.info(f"模拟已被用户停止: {simulation_id}, exit_code={exit_code}")
+            elif exit_code == 0:
                 state.runner_status = RunnerStatus.COMPLETED
                 state.completed_at = datetime.now().isoformat()
                 logger.info(f"模拟完成: {simulation_id}")

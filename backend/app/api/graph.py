@@ -601,6 +601,17 @@ def get_graph_data(graph_id: str):
         })
         
     except Exception as e:
+        # Zep 404：图谱尚未创建或为空，返回空图谱而非 500
+        status_code = getattr(e, 'status_code', None)
+        body = getattr(e, 'body', None)
+        body_msg = (body or {}).get('message', '') if isinstance(body, dict) else str(body or '')
+        if status_code == 404 or 'not found' in body_msg.lower():
+            logger.info(f"图谱不存在或为空: graph_id={graph_id}, detail={body_msg}")
+            return jsonify({
+                "success": True,
+                "data": {"nodes": [], "edges": []},
+                "warning": f"图谱尚无数据（{body_msg}）"
+            })
         return jsonify({
             "success": False,
             "error": str(e),

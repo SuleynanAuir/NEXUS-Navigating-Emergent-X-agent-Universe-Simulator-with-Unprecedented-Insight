@@ -6,7 +6,7 @@ LLM客户端封装
 import json
 import time
 from typing import Optional, Dict, Any, List
-from openai import OpenAI, APIConnectionError, APITimeoutError, RateLimitError
+from openai import OpenAI, APIConnectionError, APITimeoutError, RateLimitError, APIStatusError
 
 from ..config import Config
 from .logger import get_logger
@@ -151,6 +151,39 @@ class LLMClient:
                     time.sleep(delay)
                 else:
                     logger.error(f"LLM 限流错误，已达最大重试次数: {str(e)}")
+
+            except APIStatusError as e:
+                last_error = e
+                status_code = getattr(e, 'status_code', None)
+                body = getattr(e, 'body', None)
+                body_text = str(body).lower() if body is not None else str(e).lower()
+
+                # 认证/余额/权限类错误不应重试，立即失败
+                if status_code in {401, 402, 403}:
+                    if status_code == 402 or 'insufficient balance' in body_text:
+                        error_kind = 'billing'
+                    elif status_code == 401:
+                        error_kind = 'auth'
+                    else:
+                        error_kind = 'forbidden'
+                    logger.error(
+                        f"LLM 请求不可重试错误 (status={status_code}): {str(e)}"
+                    )
+                    break
+
+                # 其他状态码沿用指数退避
+                error_kind = 'status_error'
+                logger.error(
+                    f"LLM 状态错误 (尝试 {attempt + 1}/{self.MAX_RETRIES}, status={status_code}): {str(e)}",
+                    exc_info=True
+                )
+                if attempt < self.MAX_RETRIES - 1:
+                    delay = min(
+                        self.INITIAL_RETRY_DELAY * (2 ** attempt),
+                        self.MAX_RETRY_DELAY
+                    )
+                    logger.info(f"将在 {delay} 秒后重试...")
+                    time.sleep(delay)
                     
             except Exception as e:
                 last_error = e
