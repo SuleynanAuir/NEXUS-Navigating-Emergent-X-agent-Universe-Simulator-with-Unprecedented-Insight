@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# all the step at one
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
