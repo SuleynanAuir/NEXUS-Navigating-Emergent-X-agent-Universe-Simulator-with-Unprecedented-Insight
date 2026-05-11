@@ -12,7 +12,6 @@
   </a>
   <img src="https://img.shields.io/badge/Deep%20Search-AI%20Driven-blueviolet" />
   <img src="https://img.shields.io/badge/Multi%20Agents-Collaboration-red" />
-  <img src="https://img.shields.io/badge/Simulation-Information%20Dynamics-green" />
 </div>
 
 <p align="center">
