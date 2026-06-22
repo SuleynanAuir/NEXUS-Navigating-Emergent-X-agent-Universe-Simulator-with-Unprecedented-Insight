@@ -1,0 +1,2 @@
+cd /Users/suleynan_suir/Desktop/NEXUS1
+bash one_click_run.sh
