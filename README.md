@@ -1,4 +1,6 @@
-# NEXUS: Navigating  Emergent X-agent Universe Simulator with Unprecedented Insight「涌现」！从 NEXUS 开始 🚀
+# NEXUS: Networked Emergent X-agent Universe Simulator
+
+> 🚀 Emergence Begins with NEXUS!
 
 <div style="border-left: 4px solid #4CAF50; padding-left: 15px; background-color: #f7fcf7; padding: 10px; border-radius: 5px;">
     <p style="margin: 0; font-size: 1.05em; color: #333;">
