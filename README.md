@@ -56,7 +56,7 @@
 
 
 <p align="center">
-  <img src="assets/framework.png" 
+  <img src="assets/framework.jpg" 
        alt="NEXUS Framework" 
        width="1000"
        style="max-width:100%; height:auto; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,0.15);">
