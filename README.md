@@ -217,7 +217,7 @@ NEXUS supports `multi-domain, multi-role, multi-perspective, and high-fidelity` 
 
 <p align="left">
   <a href="#step-4-multi-round-simulation-and-event-evolution-analysis">
-    <img src="https://img.shields.io/badge/Case_Study-Bilibili_Platform_Governance-orange?style=for-the-badge" alt="Bilibili Platform Governance">
+    <img src="https://img.shields.io/badge/Case%20Study-Bilibili%20Platform%20Governance-orange?style=for-the-badge">
   </a>
 </p>
 
