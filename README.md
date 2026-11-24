@@ -288,7 +288,7 @@ NEXUS supports `multi-domain, multi-role, multi-perspective, and high-fidelity` 
 </div>
 
 
-## 🧩 3.核心系统架构（Core Architecture）
+## 🧩 3.Core Architecture
 
 NEXUS 通过以下关键机制构建认知推演系统：
 
@@ -914,9 +914,6 @@ The full reports provide extended analysis, agent reasoning traces, and deeper i
 | ![GraphRAG Agent Mindset](assets/2_canyon/step4/report/mindset_graphrag1.png) | ![Qingyu Agent Mindset](assets/2_canyon/step4/report/mindset_qingyu1.png) |
 |:--:|:--:|
 | **Figure 15c:** GraphRAG Agent Mindset — 学术 Agent 在访谈后的内部思考与认知总结，展示其对 GraphRAG 技术未来发展的理解、潜在研究挑战及可能的技术突破。 | **Figure 15d:** Qingyu Agent Mindset — 社交舆论 Agent 对事件的情绪与认知反应记录，体现不同虚拟个体在舆论环境中的态度差异及对平台治理问题思考。 |
-
-
-下面是根据你提供的 **论文链接 + 代码仓库** 整理的一份专业格式的 **References / 参考文献与资源列表**，适合用于项目、论文或 README 中的引用部分。我采用较为规范的学术引用布局，并在必要的位置附上仓库说明。
 
 ---
 
