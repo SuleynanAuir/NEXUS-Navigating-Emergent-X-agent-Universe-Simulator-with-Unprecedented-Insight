@@ -346,39 +346,57 @@ NEXUS establishes a cognitive simulation system through the following core mecha
 | 🌍 **Digital Cognitive Twin — Canyon** 🏜️ | Construct a **high-fidelity virtual environment** to simulate real-world events, public opinion dynamics, and future scenarios by integrating complex real-world information streams. | - **Initialization:** Integrate high-quality knowledge priors and perform Entity & Relation (E&R) extraction to construct multidimensional knowledge graphs using [GraphRAG](https://github.com/microsoft/graphrag). 🌟<br>- **High-Fidelity Agent Modeling:** Generate diverse virtual agents with distinct knowledge bases, cognitive characteristics, and behavioral tendencies.<br>- **Public Opinion Dynamics Simulation:** Incorporate environmental factors to model information diffusion and the dynamic evolution of public opinion within Canyon.<br>- **Multi-Round Simulation & Event Evolution Reports:** Analyze public opinion propagation and virtual agent behavior, supporting in-depth **Simulated Interviews**. 🎤<br>- **Interactive Exploration & Insights:** Interact with simulation reports and individual virtual agents to explore potential future scenarios and support informed decision-making. |
 
 
-## 🛠 4.技术实现细节及展示（Implementation & Engineering）
+## 🛠 4. Implementation & Engineering
 
-### 🎯 4.1 模块一 : 领域适配微调模型
+### 🎯 4.1 Module I: Domain-Specific Fine-Tuning
 
-> `目标：`聚焦用户关注锚点（Attention Anchors），提升特定领域 / 内容（e.g: 时政热点、社交舆论）理解能力
+> `Objective:` Focus on User Attention Anchors to enhance domain-specific information understanding, particularly in areas such as current affairs and public opinion.
 
-> `一站式`：数据管理 → 数据增强 → 模型微调 → 模型量化 → 本地部署 ALL-IN-ONE 📦
-#### 4.1.1 实现路径
-- 运用的`个人流程化整合 pipeline 项目` [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 来进行快捷微调（接入数据增强与Ollama部署支持 🐑）
+> `All-in-One Pipeline:` Data Management → Data Augmentation → Model Fine-Tuning → Model Quantization → Local Deployment 📦
 
-    - > Input: 用户自定义输入数据（时政热点、社交舆论场、金融时报、政策法规…），`全程自动化完成`，仅输入非结构化数据，如工作文件PDF，即可自动生成强化数据。
-    - > Output: 增强模型微调，在线监管模型微调效果 + 部署
+#### 4.1.1 Implementation Approach
 
-#### 4.1.2 全流程 Pipeline
-- 1️⃣ 云平台[AutoDL](https://www.autodl.com/home) ☁️：提供自动化微调环境 (镜像配置) + 训练，.venv 一站式配置与管理, 支持托管云端数据存储 （如 AWS S3, Azure Blob Storage）和模型存储（如 Hugging Face Hub, Ollama Registry）
-    - 硬件配置：选择合适的LLMs微调硬件 & 特定领域模型 (非LLMs) 的微调要求
-                <p align="center">
-                <a href="assets/cite_material/AutoDL_config.md">
-                <img src="https://img.shields.io/badge/查看微调配置-AutoDL_Config-green?style=for-the-badge&logo=readthedocs&logoColor=white">
-                </a>
-                </p>
-    
-- 2️⃣ 数据工程：接入 [EasyDataset](https://github.com/ConardLi/easy-dataset), 自动检测多模态格式（文本/图像/混合）, 自动生成高质量且上下文相关问答对 (QA-Pairs)
-    - 详见：个人项目 LLaMA Foundary Pro 的数据准备与增强部分 [https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline)
+- Leverage the independently developed project [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline), an integrated pipeline designed for efficient model fine-tuning, incorporating data augmentation and Ollama-based deployment. 🐑
 
-- 3️⃣ 训练：根据需求搭配超参数 → AutoDL在线监督微调效果 → 训练完成后模型自动保存云端存储
-            <p align="center">
-            <a href="assets/cite_material/AutoDL_hyper_config.md">
-            <img src="https://img.shields.io/badge/训练超参数搭配-Hyperparams_Config-green?style=for-the-badge&logo=readthedocs&logoColor=white">
-            </a>
-            </p>
+    - > **Input:** User-defined data, including current affairs, social media discourse, financial news, policies, and regulations. The entire pipeline is `fully automated`, enabling the generation of augmented training data directly from unstructured sources such as PDF documents.
 
-- 4️⃣ 部署：应用模型本地部署（Ollama / llama.cpp）
+    - > **Output:** Fine-tuned models with enhanced domain-specific capabilities, real-time training performance monitoring, and deployment support.
+
+#### 4.1.2 End-to-End Pipeline
+
+- 1️⃣ **Cloud Infrastructure — [AutoDL](https://www.autodl.com/home)** ☁️
+
+    Provides automated fine-tuning environments, preconfigured container images, model training, and integrated virtual environment (`.venv`) configuration and management.
+
+    Supports cloud-based data storage (e.g., AWS S3 and Azure Blob Storage) and model repositories (e.g., Hugging Face Hub and Ollama Registry).
+
+    - **Hardware Configuration:** Select appropriate hardware resources according to the fine-tuning requirements of LLMs and specialized domain-specific models.
+
+    <p align="center">
+      <a href="assets/cite_material/AutoDL_config.md">
+        <img src="https://img.shields.io/badge/Fine--Tuning-AutoDL%20Configuration-green?style=for-the-badge&logo=readthedocs&logoColor=white">
+      </a>
+    </p>
+
+- 2️⃣ **Data Engineering — [EasyDataset](https://github.com/ConardLi/easy-dataset)**
+
+    - Automatically detect multimodal data formats, including text, images, and mixed-modality inputs.
+    - Generate high-quality, contextually relevant Question-Answer Pairs (QA Pairs).
+    - For further details, refer to the Data Preparation and Augmentation section of the independently developed project [LLaMA Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline).
+
+- 3️⃣ **Model Training & Fine-Tuning**
+
+    Configure task-specific hyperparameters → Monitor fine-tuning performance in real time via AutoDL → Automatically save trained models to cloud storage upon completion.
+
+    <p align="center">
+      <a href="assets/cite_material/AutoDL_hyper_config.md">
+        <img src="https://img.shields.io/badge/Training-Hyperparameter%20Configuration-green?style=for-the-badge&logo=readthedocs&logoColor=white">
+      </a>
+    </p>
+
+- 4️⃣ **Local Model Deployment**
+
+    Deploy fine-tuned models locally using [Ollama](https://github.com/ollama/ollama) or [llama.cpp](https://github.com/ggml-org/llama.cpp), supporting local inference and domain-specific applications.
 
 ---
 
