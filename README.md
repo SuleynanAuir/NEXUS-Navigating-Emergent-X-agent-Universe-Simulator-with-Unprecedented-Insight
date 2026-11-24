@@ -19,7 +19,7 @@
     </li>
     <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
         <span style="color: #4CAF50; font-size: 1.2em;">📧</span> 
-        <strong>Email:</strong> <code>t330034027@mail.uic.edu.cn, laybaeknim@gmail.com, t3300340017@mail.uic.edu.cn</code>
+        <strong>Email:</strong> <code>t330034027@mail.bnbu.edu.cn, laybaeknim@gmail.com, t3300340017@mail.bnbu.edu.cn</code>
     </li>
 </ul>
 
