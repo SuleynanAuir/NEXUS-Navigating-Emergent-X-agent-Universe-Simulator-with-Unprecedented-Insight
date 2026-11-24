@@ -641,27 +641,33 @@ Explore the detailed reports below 👉:
 
 ---
 
-### 🌍 4.4 模块四 : 沙盒模拟数智孪生世界 Cayon 🏜
-> 目标：在虚拟数智孪生环境中，通过多虚拟 Agents 模拟现实舆情、事件发展和用户关注点，实现深度洞察与预测。
+### 🌍 4.4 Module IV: Digital Cognitive Twin Sandbox — Canyon 🏜️
 
+> **Objective:** Within a virtual digital cognitive twin environment, this module employs multiple virtual agents to simulate real-world public opinion dynamics, event evolution, and user attention, enabling in-depth insight generation and future scenario forecasting.
 
-#### Step 1: 构建信息先验
-在本模块中，首先将用户自定义的关注锚点（包括关注的主题、关键人物或事物、特定事件）与多源信息进行融合。通过结构化提取和实体关系构建，生成增强的[GraphRAG表示](https://github.com/microsoft/graphrag)，额外引入自环关系和多维联系，以实现更复杂、更紧密的关系网络表达，从而提升信息的语义深度与可追溯性
+#### Step 1: Information Prior Construction
 
-> Query: GraphRAG 相关学术场景
+In this module, user-defined attention anchors, including topics of interest, key individuals or entities, and specific events, are first integrated with multi-source information streams.
+
+Through structured information extraction and entity-relation modeling, an enhanced [GraphRAG representation](https://github.com/microsoft/graphrag) is constructed. Additional self-loop relations and multidimensional connections are introduced to establish a more complex and interconnected relational network, thereby enhancing the semantic depth and traceability of information.
+
+> **Query:** GraphRAG-related Academic Research Scenario
 
 ```txt
 # Entity & Relation Extraction
-技术基础
+
+Technical Foundations
 ├─ RAG (Retrieval-Augmented Generation)
 ├─ Knowledge Graph
 │   ├─ is A ...
 │   └─ is Used In ...
-框架工具
+
+Framework Tools
 ├─ GraphRAG
 │   ├─ uses → RAG
 │   └─ built on → Knowledge Graph
-应用系统
+
+Application Systems
 ├─ MED-COPILOT
 │   ├─ uses → GraphRAG
 │   ├─ uses → Knowledge Graph
@@ -671,18 +677,19 @@ Explore the detailed reports below 👉:
 
 | ![Entity & Relation Extraction](assets/2_canyon/step1/entity_relation.png) | ![GraphRAG Construction](assets/2_canyon/step1/graphrag.png) |
 |:--:|:--:|
-| **Figure 9a:** Entity & Relation Extraction — 文本与事件流中提取实体与关系，为GraphRAG提供高质量先验。 | **Figure 9b:** GraphRAG 构建 — 将提取的实体与关系生成可推理的知识图谱，支持链接关系与多维联系。 |
+| **Figure 9a:** Entity & Relation Extraction — Extracting entities and relations from textual information and event streams to provide high-quality knowledge priors for GraphRAG. | **Figure 9b:** GraphRAG Construction — Transforming extracted entities and relations into a knowledge graph that supports relational reasoning and multidimensional connections. |
 
 
-<a style="color:#f77f00; text-decoration:none;" target="_blank">Graph 发展、构建过程：一步步构建 [entity & relation]</a>
+<a style="color:#f77f00; text-decoration:none;" target="_blank">Knowledge Graph Construction and Evolution: Step-by-Step Entity & Relation Modeling</a>
 
 | ![Graph Process Step 1](assets/2_canyon/step1/process1.png) | ![Graph Process Step 2](assets/2_canyon/step1/process2.png) |
 |:--:|:--:|
-| **Figure 10a:** Graph 构建初始阶段 — 导入实体和关系。 | **Figure 10b:** Graph 扩展阶段 — 添加链接与多维联系。 |
+| **Figure 10a:** Initial Graph Construction — Importing entities and relations into the knowledge graph. | **Figure 10b:** Graph Expansion — Incorporating additional relational links and multidimensional connections. |
 
 | ![Graph Process Step 3](assets/2_canyon/step1/overview1.png) | ![Graph Process Step 4](assets/2_canyon/step1/overview2.png) |
 |:--:|:--:|
-| **Figure 10c:** Graph 可视化阶段 — 展示全局所有节点与关系结构网络。 | **Figure 10d:** Graph 完整概览 — 完整的知识图谱，支持多维推理与查询。 |
+| **Figure 10c:** Graph Visualization — Visualizing the global network of nodes and relational structures. | **Figure 10d:** Complete Knowledge Graph Overview — Presenting the fully constructed knowledge graph, supporting multidimensional reasoning and querying. |
+
 
 #### Step 2: 构建虚拟数智孪生世界与虚拟 Agents
 基于 Step 1 的信息先验，初始化 高仿真虚拟世界 Canyon，包括热点话题、背景信息以及激活序列。随后生成多个虚拟个体的 Agents，每个 Agent 都拥有独特的知识库、认知结构、行为倾向和数据关联特性。用户可根据需求客制化 Agents 的知识、兴趣及行为模式，以精确模拟不同类型个体在虚拟环境中的认知行为。
