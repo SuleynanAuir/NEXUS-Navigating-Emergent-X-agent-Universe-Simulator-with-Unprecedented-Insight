@@ -28,7 +28,7 @@
   <a href="https://suleynanauir.github.io/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/">
     <img src="https://img.shields.io/badge/🚀%20Explore-NEXUS%20Simulation%20World-8A2BE2" />
   </a>
-  <a href="survey/NEXUS_report">
+  <a href="survey/NEXUS_report.pdf">
   <img src="https://img.shields.io/badge/📄%20Open-Paper%20Report-4c1" />
   </a>
   <a href="assets/demo/demo.pdf">
