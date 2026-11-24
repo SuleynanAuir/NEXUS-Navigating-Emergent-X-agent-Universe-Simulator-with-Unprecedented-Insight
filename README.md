@@ -1,5 +1,27 @@
 # NEXUS: Navigating  Emergent X-agent Universe Simulator with Unprecedented Insight「涌现」！从 NEXUS 开始 🚀
 
+<div style="border-left: 4px solid #4CAF50; padding-left: 15px; background-color: #f7fcf7; padding: 10px; border-radius: 5px;">
+    <p style="margin: 0; font-size: 1.05em; color: #333;">
+        📞 Contact us here and welcome your coming !
+    </p>
+</div>
+
+<ul style="list-style-type: none; padding-left: 0; margin-top: 15px;">
+    <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #4CAF50; font-size: 1.2em;">👤</span> 
+        <strong>Name:</strong> Minghao Li (Aiur), Yirui Liang (Loey)
+    </li>
+    <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #4CAF50; font-size: 1.2em;">🏫</span> 
+        <strong>Affiliation:</strong> Beijing Normal - Hong Kong Baptist University (BNBU)
+    </li>
+    <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #4CAF50; font-size: 1.2em;">📧</span> 
+        <strong>Email:</strong> <code>t330034027@mail.uic.edu.cn, laybaeknim@gmail.com</code>
+    </li>
+</ul>
+
+
 <div align="left">
   <a href="https://suleynanauir.github.io/NEXUS-Navigating-Emergent-X-agent-Universe-Simulator-with-Unprecedented-Insight/">
     <img src="https://img.shields.io/badge/🚀%20Explore-NEXUS%20Simulation%20World-8A2BE2" />
@@ -35,7 +57,7 @@
 <p align="center">
   <!-- 描述：用卡片式背景突出关键信息，关键词加粗 -->
   <span style="display:inline-block; background:#f8fafc; padding:1rem 2.2rem; border-radius:60px; font-size:1.2rem; color:#1e293b; border:1px solid #e2e8f0; box-shadow:0 4px 10px rgba(0,0,0,0.03);">
-    <b>NEXUS Framework:</b> : 领域精调 × 深度搜索 × 注意力驱动 × 数智孪生 多智能体协同框架, 打破官样文章，重塑智能内容
+    <b>NEXUS Framework:</b> 领域精调 × 深度搜索 × 注意力驱动 × 数智孪生 多智能体协同框架, 打破官样文章，重塑智能内容
   </span>
 </p>
 
