@@ -896,91 +896,72 @@ The full reports provide extended analysis, agent reasoning traces, and deeper i
 
 ## 💻 6. Code Repositories & Tools
 
-### 📌 Knowledge Augmented & Retrieval‑Based Models
+### 📌 Knowledge-Augmented & Retrieval-Based Models
 
-1. **Microsoft GraphRAG** – Knowledge Graph Enhanced Retrieval‑Augmented Generation
-   🔗 [https://github.com/microsoft/graphrag](https://github.com/microsoft/graphrag)
-   Description: GraphRAG 框架实现知识图谱 + RAG 结合，用于增强复杂推理与多跳检索。
-
-2. **Enterprise‑Enhanced LLaMA Factory Pro** – Advanced Fine‑Tuning Pipeline
-   🔗 [https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline)
-   Description: 集成数据增强、LoRA/QLoRA 微调、Ollama 部署的企业级 LLaMA 微调 pipeline。
-
-3. **CognitiveTemp DeepSearch Agents** – User Preference Driven Search Agents
-   🔗 [https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)
-   Description: 基于用户关注锚点驱动的深度搜索 Agents 实现。
-
-4. **UPAIRS‑Agents** – Pressure‑Driven Deep Search Agents
-   🔗 [https://github.com/SuleynanAuir/UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents)
-   Description: 实现压力驱动（Pressure‑Driven）的段落级迭代反思搜索架构。
-
-5. **DeepSearchAgent‑Demo**
-   🔗 [https://github.com/666ghj/DeepSearchAgent-Demo](https://github.com/666ghj/DeepSearchAgent-Demo)
-   Description: 深度搜索代理示例 Demo，实现多步搜索任务执行。
-
----
+| Repository | Focus | Description |
+| :--- | :--- | :--- |
+| [Microsoft GraphRAG](https://github.com/microsoft/graphrag) | Knowledge Graph-Enhanced RAG | Integrates knowledge graphs with retrieval-augmented generation to enhance complex reasoning and multi-hop retrieval. |
+| [Enterprise-Enhanced LLaMA Factory Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) | Advanced Fine-Tuning | An enterprise-oriented LLaMA fine-tuning pipeline integrating data augmentation, LoRA/QLoRA fine-tuning, and local deployment via Ollama. |
+| [CognitiveTemp DeepSearch Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents) | User Preference-Driven Search | Implements deep search agents guided by user attention anchors and personalized information needs. |
+| [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) | Pressure-Driven Deep Search | Implements a pressure-driven search architecture with paragraph-level iterative reflection. |
+| [DeepSearchAgent-Demo](https://github.com/666ghj/DeepSearchAgent-Demo) | Multi-Step Search | A demonstration of deep search agents capable of executing multi-step information retrieval tasks. |
 
 ### 🔍 Auxiliary Tools & Supporting Libraries
 
-6. **Hypothesis h‑api** – Web / PDF Annotation API
-   🔗 [https://github.com/hypothesis/h-api](https://github.com/hypothesis/h-api)
-   Description: 提供高亮、批注等接口，用于捕获用户关注点。
-
-7. **Ollama** – Local LLM Deployment Framework
-   🔗 [https://github.com/ollama/ollama](https://github.com/ollama/ollama)
-   Description: 支持本地部署各种大语言模型及其推理能力。
-
-8. **LoRAFusion** – Fusion LoRA Combining Toolkit
-   🔗 [https://github.com/ASU-ESIC-FAN-Lab/LoRAFusion](https://github.com/ASU-ESIC-FAN-Lab/LoRAFusion)
-   Description: 多 LoRA 权重融合工具，用于模型微调与扩展。
-
-9. **llama.cpp** – Lightweight LLaMA Inference Library
-   🔗 [https://github.com/ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
-   Description: 小型、高效 LLaMA 模型 C/C++ 推理实现。
-
-10. **easy‑dataset** – Simple Dataset Management
-    🔗 [https://github.com/ConardLi/easy-dataset](https://github.com/ConardLi/easy-dataset)
-    Description: 简化数据集构建、转换、切分等流程的轻量库。
+| Repository | Focus | Description |
+| :--- | :--- | :--- |
+| [Hypothesis h-api](https://github.com/hypothesis/h-api) | Web & PDF Annotation | Provides highlighting and annotation interfaces for capturing user interests and attention signals. |
+| [Ollama](https://github.com/ollama/ollama) | Local LLM Deployment | Supports the local deployment and inference of various large language models. |
+| [LoRAFusion](https://github.com/ASU-ESIC-FAN-Lab/LoRAFusion) | LoRA Weight Fusion | A toolkit for combining multiple LoRA weights to support model adaptation and extension. |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | Lightweight LLM Inference | A lightweight and efficient C/C++ implementation for large language model inference. |
+| [easy-dataset](https://github.com/ConardLi/easy-dataset) | Dataset Management | Simplifies dataset construction, transformation, and partitioning workflows. |
 
 ---
 
-## 📌 7. Citation Snippet (BibTeX)
+## 📚 7. Citation References (BibTeX)
 
+The following BibTeX entries provide references to the literature 
+related to this project, covering search personalization, user 
+intent modeling, GraphRAG, cognitive generation, and autonomous 
+creative systems.
+
+<details>
+<summary><b>Click to expand BibTeX references</b></summary>
 
 ```bibtex
 @article{nguyen2018capsule,
-  title={A Capsule Network‑based Embedding Model for Search Personalization},
-  author={Nguyen, Nam Tran and et al.},
+  title={A Capsule Network-based Embedding Model for Search Personalization},
+  author={Nguyen, Nam Tran and others},
   journal={arXiv preprint arXiv:1804.04266},
   year={2018}
 }
 
 @article{farshidi2024understanding,
   title={Understanding User Intent Modeling for Conversational Recommender Systems},
-  author={Farshidi, F. and et al.},
-  journal={User Modeling and User‑Adapted Interaction},
+  author={Farshidi, F. and others},
+  journal={User Modeling and User-Adapted Interaction},
   year={2024},
   doi={10.1007/s11257-024-09398-x}
 }
 
 @article{guo2025graphrag,
   title={Beyond Static Retrieval: Opportunities and Pitfalls of Iterative Retrieval in GraphRAG},
-  author={Guo, Q. and et al.},
+  author={Guo, Q. and others},
   journal={arXiv preprint arXiv:2509.25530},
   year={2025}
 }
 
 @article{zhu2025conversational,
-  title={Conversational Intent‑Driven GraphRAG},
-  author={Zhu, Y. and et al.},
+  title={Conversational Intent-Driven GraphRAG},
+  author={Zhu, Y. and others},
   journal={arXiv preprint arXiv:2506.19385},
   year={2025}
 }
 
 @article{zhong2025beyond,
-  title={Beyond Sentiment: Cognitive and Narrative Open‑Ended Generation},
-  author={Zhong, V. and et al.},
-  journal={arXiv:2502.13925v1},
+  title={Beyond Sentiment: Cognitive and Narrative Open-Ended Generation},
+  author={Zhong, V. and others},
+  journal={arXiv preprint arXiv:2502.13925v1},
   year={2025}
 }
 
@@ -990,15 +971,22 @@ The full reports provide extended analysis, agent reasoning traces, and deeper i
   journal={Cognitive Computation},
   volume={4},
   number={3},
-  pages={216–225},
+  pages={216--225},
   year={2012}
 }
 ```
 
+</details>
+
 ---
 
-### ✔ Usage Tips
+### ✔ Usage Guidelines
 
-* 在 **论文 /学术演示** 中引用文献时，可直接采用 BibTeX 片段。
-* 在 **项目 README** 中使用上面的引用列表，并按类别分组（Literature vs Tools）提升可读性。
-* 代码仓库部分可用小图标 badge + 链接方式更友好。
+- **Academic Writing & Presentations:** Use the provided BibTeX 
+  entries when citing relevant literature in research papers, 
+  technical reports, and academic presentations.
+- **Project Documentation:** Organize academic references and 
+  software resources into separate categories to improve readability 
+  and accessibility.
+- **Repository Navigation:** Use descriptive hyperlinks and optional 
+  badges to provide convenient access to related repositories.
