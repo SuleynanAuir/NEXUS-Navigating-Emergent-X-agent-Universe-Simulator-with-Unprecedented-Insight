@@ -691,117 +691,122 @@ Application Systems
 | **Figure 10c:** Graph Visualization — Visualizing the global network of nodes and relational structures. | **Figure 10d:** Complete Knowledge Graph Overview — Presenting the fully constructed knowledge graph, supporting multidimensional reasoning and querying. |
 
 
-#### Step 2: 构建虚拟数智孪生世界与虚拟 Agents
-基于 Step 1 的信息先验，初始化 高仿真虚拟世界 Canyon，包括热点话题、背景信息以及激活序列。随后生成多个虚拟个体的 Agents，每个 Agent 都拥有独特的知识库、认知结构、行为倾向和数据关联特性。用户可根据需求客制化 Agents 的知识、兴趣及行为模式，以精确模拟不同类型个体在虚拟环境中的认知行为。
+#### Step 2: Virtual Digital Cognitive Twin Construction and Virtual Agent Modeling
 
+Based on the knowledge priors established in Step 1, the high-fidelity virtual environment Canyon is initialized with trending topics, contextual information, and activation sequences.
 
-> 每个虚拟 Agents 人格包含：
->    - 基本属性：年龄、职业、专业知识背景等
->    - 认知特征：信息处理方式、决策风格、风险偏好等
->    - 行为倾向：社交倾向、信息分享习惯
->    - 影响力
+Multiple virtual agents are subsequently generated, each possessing a distinctive knowledge base, cognitive structure, behavioral tendencies, and data relationships. Users can customize the knowledge, interests, and behavioral patterns of these agents according to their specific requirements, enabling the simulation of cognitive behavior across different types of individuals within the virtual environment.
 
-以下截取了部分Agents人格进行展示 [assets/2_canyon/step2](assets/2_canyon/step2)：
+> Each virtual agent persona consists of:
+> - **Basic Attributes:** Age, occupation, professional background, etc.
+> - **Cognitive Characteristics:** Information processing preferences, decision-making styles, risk preferences, etc.
+> - **Behavioral Tendencies:** Social interaction preferences and information-sharing habits.
+> - **Influence:** Relative influence within the simulated information environment.
 
-<!-- - edged732 @Edge, D.
-[AI研究员，专注于图检索增强生成（GraphRAG）技术]
+Selected virtual agent personas are presented below. Additional examples are available in [assets/2_canyon/step2](assets/2_canyon/step2).
 
-- graphrag_arxiv_论文
-_953
-@Arxiv
-论文
-[GraphRAG的技术研究推广机构]
+<!--
+- edged732 @Edge, D.
+[AI researcher specializing in Graph Retrieval-Augmented Generation (GraphRAG)]
 
-- 开发者_808@开发者
-[大模型应用开发技术社群，专注于Al技术分享、开发者交流与项目实践支持]
+- graphrag_arxiv_paper_953 @Arxiv
+[Research and dissemination platform for GraphRAG technologies]
+
+- Developer_808 @Developer
+[Technical community specializing in LLM application development, AI knowledge sharing, developer communication, and practical project support]
 
 - neo4j_650 @neo4j
-[图数据库技术应用提供商，专注于知识图谱与AI应用支持]
+[Graph database technology provider specializing in knowledge graphs and AI applications]
 
-- 读者群体_792@读者群体
-[AI算法工程师] -->
+- Reader_Group_792 @Readers
+[AI algorithm engineer]
+-->
 
 
 <table>
   <thead>
     <tr>
-      <th style="background-color:#B3CDE0; color:#000; padding:6px;">虚拟 Agent</th>
-      <th style="background-color:#B3CDE0; color:#000; padding:6px;">身份描述</th>
-      <th style="background-color:#B3CDE0; color:#000; padding:6px;">基本属性</th>
-      <th style="background-color:#B3CDE0; color:#000; padding:6px;">认知特征</th>
-      <th style="background-color:#B3CDE0; color:#000; padding:6px;">行为倾向</th>
-      <th style="background-color:#B3CDE0; color:#000; padding:6px;">影响力</th>
+      <th style="background-color:#B3CDE0; color:#000; padding:6px;">Virtual Agent</th>
+      <th style="background-color:#B3CDE0; color:#000; padding:6px;">Identity Description</th>
+      <th style="background-color:#B3CDE0; color:#000; padding:6px;">Basic Attributes</th>
+      <th style="background-color:#B3CDE0; color:#000; padding:6px;">Cognitive Characteristics</th>
+      <th style="background-color:#B3CDE0; color:#000; padding:6px;">Behavioral Tendencies</th>
+      <th style="background-color:#B3CDE0; color:#000; padding:6px;">Influence</th>
     </tr>
   </thead>
   <tbody>
     <tr style="background-color:#E6F0FA; color:#000;">
       <td>edged732@Edge,D.</td>
-      <td>AI研究员，专注 GraphRAG</td>
-      <td>年龄 35岁，研究员</td>
-      <td>偏好逻辑推理与图结构分析，决策风格严谨，风险中</td>
-      <td>高度社交化，常分享学术资源，积极参与技术社区讨论</td>
-      <td>中高，GraphRAG 与知识图谱领域</td>
+      <td>AI researcher specializing in GraphRAG</td>
+      <td>35 years old; researcher</td>
+      <td>Prefers logical reasoning and graph-structured analysis; rigorous decision-making style; moderate risk preference</td>
+      <td>Highly socially engaged; frequently shares academic resources and actively participates in technical community discussions</td>
+      <td>Medium to high influence within the GraphRAG and knowledge graph domains</td>
     </tr>
     <tr style="background-color:#DFF2E1; color:#000;">
-      <td>graphragArXiv论文_953@Arxiv</td>
-      <td>GraphRAG 的研究推广平台</td>
-      <td>机构Agent，专注科研</td>
-      <td>信息处理方式偏文献整合，决策中立</td>
-      <td>推送研究成果，关注学术</td>
-      <td>高，面向 GraphRAG 社区</td>
+      <td>graphragArXiv_Paper_953@Arxiv</td>
+      <td>Research and dissemination platform for GraphRAG</td>
+      <td>Institutional agent focused on scientific research</td>
+      <td>Prioritizes literature integration and maintains a neutral decision-making approach</td>
+      <td>Disseminates research findings and follows academic developments</td>
+      <td>High influence within the GraphRAG research community</td>
     </tr>
     <tr style="background-color:#FFF7CC; color:#000;">
-      <td>开发808@开发者</td>
-      <td>大模型应用开发的技术社群</td>
-      <td>社群Agent，专注AI分享</td>
-      <td>重视实践与案例学习，偏向实验式决策</td>
-      <td>频繁互动，活跃分享代码、模型与项目</td>
-      <td>中高，社群技术传播效率高</td>
+      <td>Developer808@Developer</td>
+      <td>Technical community for large language model application development</td>
+      <td>Community-oriented agent focused on AI knowledge sharing</td>
+      <td>Emphasizes practical implementation and case-based learning; favors experimental decision-making</td>
+      <td>Frequently interacts with community members and actively shares code, models, and projects</td>
+      <td>Medium to high influence, with efficient technology dissemination within the community</td>
     </tr>
     <tr style="background-color:#FFE5D4; color:#000;">
       <td>neo4j_650 @neo4j</td>
-      <td>图数据库技术提供商</td>
-      <td>企业Agent，数据库专家</td>
-      <td>数据结构导向，重视知识图谱完整优化</td>
-      <td>分享实践，提供技术咨询与工具支持</td>
-      <td>高，影响力集中在知识图谱与企业应用场景</td>
+      <td>Graph database technology provider</td>
+      <td>Enterprise agent with database expertise</td>
+      <td>Data structure-oriented; emphasizes knowledge graph integrity and optimization</td>
+      <td>Shares practical experience and provides technical consultation and tool support</td>
+      <td>High influence in knowledge graph technologies and enterprise applications</td>
     </tr>
     <tr style="background-color:#F0F0F0; color:#000;">
-      <td>读者群_792 @读者</td>
-      <td>AI 算法工程师</td>
-      <td>面向用户型 Agent，聚焦算法研究</td>
-      <td>偏算法理解与工程实现，决策受技术驱动</td>
-      <td>关注技术资讯、参与讨论与学习</td>
-      <td>中，作为信息接收与反馈者，对生态影响间接</td>
+      <td>Reader_Group_792 @Readers</td>
+      <td>AI algorithm engineer</td>
+      <td>User-oriented agent focused on algorithm research</td>
+      <td>Prioritizes algorithmic understanding and engineering implementation; technology-driven decision-making</td>
+      <td>Follows technical developments and participates in discussions and learning activities</td>
+      <td>Medium influence, indirectly contributing to the ecosystem through information consumption and feedback</td>
     </tr>
   </tbody>
 </table>
 
-| Agent | 身份描述 | 基本属性 | 认知特征 | 行为倾向 | 影响力 |
+
+**Social Media Public Opinion Scenario — The Qingyu Tpor Account Destruction Incident on Bilibili (March 2026)**
+
+The following table presents simulated stakeholder personas derived from the case study. Their cognitive characteristics, behavioral tendencies, and influence assessments represent simulation configurations and should not be interpreted as independently verified psychological profiles or factual accounts of individual behavior.
+
+| Agent | Identity Description | Basic Attributes | Cognitive Characteristics | Behavioral Tendencies | Influence |
 |:---|:---|:---|:---|:---|:---|
-| **受害者（五月食伍）** | B站主播“清雨Tpor”的忠实粉丝，长期开通舰长的付费用户 | 粉丝牌20级，S1赛季资深玩家；付费开通舰长；库存有大量绝版装备；舰长于2月28日到期 | 延续“扫码上号”习惯，未察觉舰长过期；信任清雨，配好顶配装备供直播使用；认为主播是特殊朋友 | 弹幕中反复解释、央求，紧急续费舰长；事后发布长文揭露事件；联系律师启动法援，拒绝和解，坚持追责到底 | 事件起点与核心叙事主体；维权行为决定司法走向，若立案成功将成为虚拟财产保护标志性案例 |
-| **B站平台方** | B站官方直播平台，负责内容监管与用户权益保护 | 拥有账号封禁权、内容审核权、社区规则制定权的平台机构 | 关注平台内容合规性、商业合作风险与品牌声誉；通过举报与舆情监测感知事件严重性 | 封禁清雨B站账号（3月3日）；启动内部审核流程，配合警方调查 | 封禁是事件关键转折点；响应速度和处理力度影响公众对平台的信任度 |
-| **同行主播A（反对清雨）** | 游戏直播行业知名主播，公开声讨清雨者 | 拥有一定粉丝基础，具备行业影响力；多为其他游戏分区的主播 | 认为清雨行为“吃相太难看”，严重破坏行业潜规则，动摇主播与粉丝的情感关系根基 | 发布视频或动态公开谴责清雨；号召粉丝和行业抵制；集体“下团开喷”，既是表达愤怒，也是维护行业声誉与自身利益的“自救” | 引导粉丝情绪，形成行业联合压力，加速对清雨的“社会性封杀”；部分主播担忧事件引发的信任危机 |
-| **同行主播B（炫神，支持/同情清雨）** | LOL知名主播，公开力挺清雨，认为“乱扫码的就该毁” | 拥有大量粉丝的知名主播，以“坚持人设、唱反调”著称 | 认为毁号是执行直播间规则，扫码的活该被毁，将扫码与恶意混为一谈 | 公开发声支持清雨，挑衅“全网正义讨伐”氛围，引发更大舆论争议 | 逆势站队引发二次争议，转移部分舆论焦点，自身也面临舆论反噬风险，被指责引导舆论攻击普通玩家 |
-| **路人C（玩家/正义讨伐者）** | 《三角洲行动》玩家及被毁号行为激怒的普通网民 | 对公平公正有强烈诉求，具备一定组织力（联名控告、舆论发酵） | 认为清雨的行为是践踏玩家信任和肆意破坏虚拟财产；认为主播无权单方面执行“霸王条款”，虚拟财产应受法律保护 | 在评论区刷屏谴责清雨；对清雨进行“开盒”、邮寄丧葬用品；多位UP主在其动态下怒喷；发起联名控告征集 | 愤怒情绪是事件迅速发酵和扩散的关键推动力；激进维权行为在推动事件白热化的同时，也带来次生法律风险 |
-| **路人D（吃瓜群众）** | 被事件热度吸引的泛游戏圈或非游戏圈用户 | 大量涌入直播间的网络用户；对游戏了解程度不一；多通过热搜或推送接触事件 | 多数人被主播的嚣张态度和恶意行为吸引；对虚拟财产问题产生初步认知；部分人可能转化为深度参与 | 围观、转发、评论，推动事件热度持续上升；从围观中获得娱乐满足；少部分人会站队攻击特定对象，形成网络暴力风险 | 构成事件的“长尾热度”；关注度转移决定事件在公众视野的生命周期；大多数人关注会逐渐消散 |
+| **Affected Player (Wuyue Shiwu)** | A loyal fan of Bilibili streamer Qingyu Tpor and a long-term paying channel subscriber | Level-20 fan badge; experienced player since Season 1; paid channel membership; owns numerous discontinued in-game items; membership expired on February 28 | Continues the established practice of QR-code account login without noticing the membership expiration; trusts the streamer and prepares high-tier equipment for livestreaming; perceives a close relationship with the streamer | Repeatedly explains and appeals through live chat; urgently renews membership; publishes a detailed account of the incident; seeks legal assistance, rejects settlement, and pursues accountability | Central stakeholder and primary narrative source; legal action may influence the subsequent development of the case and broader discussions on virtual property protection |
+| **Bilibili Platform** | Official livestreaming platform responsible for content governance and user rights protection | Institutional agent with account suspension authority, content moderation capabilities, and community rule-making responsibilities | Prioritizes content compliance, commercial partnership risks, and brand reputation; assesses incident severity through user reports and public opinion monitoring | Simulates account suspension decisions, internal review procedures, and cooperation with relevant authorities, based on the case timeline, including March 3 | Platform responses represent key turning points; response speed and enforcement measures influence public trust |
+| **Fellow Streamer A (Opposing Qingyu)** | Gaming livestreamer publicly critical of Qingyu's reported conduct | Established follower base and industry influence; primarily associated with other gaming communities | Perceives the reported conduct as a violation of industry norms and a threat to trust between streamers and their audiences | Publishes critical videos and posts; encourages collective opposition; expresses dissatisfaction while seeking to protect industry reputation and professional interests | Mobilizes audience sentiment, generates collective industry pressure, and potentially amplifies concerns about trust within the livestreaming ecosystem |
+| **Fellow Streamer B (Xuan Shen — Supporting or Sympathetic to Qingyu)** | Well-known League of Legends streamer modeled as expressing support for Qingyu's position | Large follower base; publicly recognizable and associated with contrarian commentary | Interprets account destruction as enforcement of livestream rules and associates unauthorized QR-code login with inappropriate behavior | Publicly expresses support for Qingyu's position, challenging the prevailing public sentiment and potentially intensifying controversy | Contrarian positioning may trigger secondary controversy, redirect public attention, and expose the stakeholder to reputational backlash |
+| **Bystander C (Player / Accountability Advocate)** | Delta Force player or ordinary internet user concerned about the reported account destruction | Strong concern for fairness and accountability; potential capacity for collective organization, joint complaints, and public opinion mobilization | Perceives the reported conduct as a violation of player trust and virtual property rights; questions the unilateral enforcement of unfair livestream rules | Expresses criticism in comment sections, participates in collective complaints, and calls for accountability; extreme modeled responses may include privacy violations, harassment, and other harmful conduct | Public anger contributes to rapid information diffusion and controversy escalation; extreme responses introduce secondary social and legal risks |
+| **Bystander D (Casual Observer)** | Gaming or non-gaming internet user attracted by the growing popularity of the incident | Large and diverse online audience with varying levels of gaming knowledge; primarily encounters the incident through trending topics and algorithmic recommendations | Initially attracted by the controversy surrounding the reported conduct; develops preliminary awareness of virtual property rights; some may become more actively engaged | Observes, shares, and comments on the incident, contributing to its visibility; some may adopt opposing positions, potentially increasing the risk of online harassment | Contributes to the long-tail attention of the incident; shifts in audience interest influence its public visibility and lifecycle |
 
 ---
 
-> 接下来是逐渐建立虚拟Agents的人格特征、认知结构、行为模式的过程
+> The following figures illustrate the progressive construction of virtual agent personas, cognitive structures, and behavioral patterns.
 
 | ![Agent Personality Step 1](assets/2_canyon/step2/agent1.png) | ![Agent Personality Step 2](assets/2_canyon/step2/agent2.png) |
 |:--:|:--:|
-| **Figure 11a:** Agent 人格构建初始阶段 — 基础属性 | **Figure 11b:** Agent 人格扩展阶段 — 添加偏好与倾向 |
+| **Figure 11a:** Initial Agent Persona Construction — Establishing basic attributes. | **Figure 11b:** Agent Persona Expansion — Incorporating individual preferences and behavioral tendencies. |
 
 | ![Agent Personality Step 3](assets/2_canyon/step2/agent3.png) | ![Agent Personality Step 4](assets/2_canyon/step2/agent4.png) |
 |:--:|:--:|
-| **Figure 11c:** Agent 人格优化阶段 — 调整认知策略、人格认知倾向与交互方式 | **Figure 11d:** Agent 人格完成阶段 — 基于现实种子的完整认知与健全的行为模式 |
+| **Figure 11c:** Agent Persona Optimization — Refining cognitive strategies, personality-driven cognitive tendencies, and interaction patterns. | **Figure 11d:** Agent Persona Completion — Establishing comprehensive cognitive structures and coherent behavioral patterns grounded in real-world seed information. |
 
 | ![Agent Character Config](assets/2_canyon/step2/agent_char1.png) | ![Agent Character Lookup](assets/2_canyon/step2/agent_char2.png) |
 |:--:|:--:|
-| **Figure 11e:** Agent 人格配置 — 后期根据用户特殊需求设定属性与偏好 | **Figure 11f:** Agent 人格查阅 — 查看各个 Agent 的事件认知与行为特征 |
-
+| **Figure 11e:** Agent Persona Configuration — Customizing attributes and preferences according to specific user requirements. | **Figure 11f:** Agent Persona Inspection — Examining individual agents' event-related cognition and behavioral characteristics. |
 
 
 #### Step 3: 模拟虚拟环境 & 仿生交流
