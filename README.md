@@ -288,54 +288,62 @@ NEXUS supports `multi-domain, multi-role, multi-perspective, and high-fidelity` 
 </div>
 
 
-## 🧩 3.Core Architecture
+## 🧩 3. Core Architecture
 
-NEXUS 通过以下关键机制构建认知推演系统：
-
-<!-- ![ok]("assets/mermaid.png") -->
+NEXUS establishes a cognitive simulation system through the following core mechanisms:
 
 <p align="center">
-  <img src="assets/mermaid.png" alt="示例图片" width="1200", height="180" />
+  <img src="assets/mermaid.png" alt="NEXUS Core Architecture" width="1200" height="180" />
 </p>
 
-### 🚀 3.1 核心流程：从现实信息流到未来情境推演
+### 🚀 3.1 Core Workflow: From Real-World Information Streams to Future Scenario Simulation
 
-> 💡 **不止预测，更是推演——让认知快人一步，决策有据可依。**
+> 💡 **Beyond Prediction — Simulating Possible Futures for Proactive Insights and Informed Decision-Making.**
 
-- 🎯 **Step 1: 领域适配微调模型**  
-**聚焦用户关注锚点，精准提升特定领域理解能力**  `#精准微调` `#私有化部署` `#注意力锚点`
-运用 个人项目整合EasyDataset + LLaMa 微调 + 部署架构的 [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 快速微调，集成数据增强与 Ollama 部署，让模型更懂你的领域。  
+- 🎯 **Step 1: Domain-Specific Fine-Tuning**  
+**Focus on User Attention Anchors to enhance domain-specific understanding.**  
+`#Targeted Fine-Tuning` `#Private Deployment` `#Attention Anchors`
 
+    Leverage [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline), an integrated pipeline combining EasyDataset, LLaMA fine-tuning, and model deployment. By incorporating data augmentation and Ollama-based deployment, the pipeline enables efficient model adaptation to specific domains and user requirements.
 
-- 🤖 **Step 2: 客制化深度搜索 Agents**  
-**挖掘高度符合用户认知目标的深度洞察** `#深度搜索` `#用户可控` `#高保真洞察`
-接入 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 提升保真度、关联度、置信度；结合 [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents) 实现用户可控搜索，让信息深度与精准度兼得。  
+- 🤖 **Step 2: Customized Deep Search Agents**  
+**Discover in-depth insights closely aligned with users' cognitive objectives.**  
+`#Deep Search` `#User-Controlled Retrieval` `#High-Fidelity Insights`
 
+    Integrate [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) to enhance information fidelity, relevance, and confidence. Combine it with [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents) to enable user-controlled retrieval, balancing information depth and search precision.
 
-- 🤖 **Step 3: 用户注意力驱动的信息理解 Agents**  
-**实时勾取用户关注点，多Agent链式分析生成战略先验**  `#注意力驱动` `#链式推理` `#趋势战略`
-Google Hypothesis 实时标注用户焦点，四Agent协作（信号解析→证据评审→关联推理→战略整合），将碎片信息转为可执行趋势战略。  
+- 🤖 **Step 3: User Attention-Driven Information Understanding Agents**  
+**Capture user interests in real time and generate strategic knowledge priors through collaborative multi-agent reasoning.**  
+`#Attention-Driven Reasoning` `#Sequential Reasoning` `#Strategic Insights`
 
+    Leverage Hypothesis to capture user annotations and attention signals in real time. Four specialized agents collaborate through a sequential reasoning pipeline:
 
-- 🌍 **Step 4: 数智孪生世界 — Cayon 🏜**  
-**高仿真虚拟环境，模拟现实舆情与决策演化**  `#数智孪生` `#舆情推演` `#虚拟访谈`
-基于 [GraphRAG](https://github.com/microsoft/graphrag) 构建知识图谱，生成多样化虚拟 Agents，引入环境因子引导舆情走向。支持多轮仿真、事件发展报告，并可对虚拟个体进行深度访谈，洞悉未来决策逻辑。  
+    **Signal Analysis → Evidence Evaluation → Relational Reasoning → Strategic Integration**
 
-- 🔁 **Step 5: End-to-End 认知推理闭环**  
-**完整闭环实现从现实信息流到未来情境推演**  `#端到端` `#未来推演` `#决策预演`
-整合上述模块，支撑多角色、多视角认知推演，让每一次决策都能在虚拟世界中预演，在现实世界中制胜。  
+    This process transforms fragmented information into structured, actionable strategic insights.
 
+- 🌍 **Step 4: Digital Cognitive Twin — Canyon 🏜️**  
+**Construct a high-fidelity virtual environment to simulate public opinion dynamics and decision-making processes.**  
+`#Digital Cognitive Twin` `#Public Opinion Simulation` `#Simulated Interviews`
 
-### 📦 3.2 模块总览
+    Build knowledge graphs using [GraphRAG](https://github.com/microsoft/graphrag), generate diverse virtual agents, and incorporate environmental factors to model the evolution of public opinion.
 
-| 模块                                         | 功能描述                                             | 实现路径 + 个人项目结合                                                                                                                                                                                                                                                                            |
-| ------------------------------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🎯 **领域适配微调**                            | 聚焦 **用户关注锚点（Attention Anchors）** <br> - 提升 **特定领域信息理解能力**                | 运用的个人流程化整合pipeline [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline) 来进行快捷微调（接入数据增强与Ollama部署支持 🐑）                                                                                                                        |
-| 🤖 **客制化深度搜索 Agents协作框架** | 挖掘 **高度符合用户认知目标** 的深度洞察 | - 接入个人的 **深度搜索 Agents** 框架 [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) 提高关联度、置信度 <br> - 用户锚点驱动[CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents)，用户控制搜索 |
-| 🤖 **用户注意力驱动的信息理解 Agents** | User-Attention-Driven，实时勾取用户对于搜索结果的关注点, 完成了：`Agent-A/B/C 趋势链式分析 + Agent-D 战略整合架构, 协作深度分析生成系统先验 | - Google Hypethesis 实时勾取焦点✍️ <br>  - Agent-A  用户-趋势信号解析师🔥  → 从用户焦点挖掘趋势信号、关注热度 <br> - Agent-B  内容-关联证据评审师 🤔 → 集提炼演进过程、时间轴、及关联证据 <br> - Agent-C  事件-趋势关联推理师 🧠 → 从关联事件中推断扩散路径、行业动态 <br> -Agent-D  首席趋势战略整合师 ✅ → 整合生成供趋势预测使用的战略文档|                                                                                            |
-| 🌍 **数智孪生世界 Digital Cognitive Twin — Cayon 🏜**      | 构建高仿真虚拟环境（Canyon），模拟现实场景的多种事件发生, 并且结合现实复杂事件流，进行深度仿真推演 | - 初始化：融入高质量信息先验，提取 E&R 构建 🌟 **[GraphRAG](https://github.com/microsoft/graphrag)**, 支持多维联系 <br> - 建模高仿真Agents: 生成多样独特知识库、认知倾向的虚拟 Agents 个体 <br> - Canyon复现现实舆情流: 环境因子来引导舆情走向，实现动态演化模拟 <br> - 多轮仿真 + 事件发展报告: 结合事件舆论扩散，并分析虚拟 Agents 行为模式以提供现实推演的 **仿真 interview** 🎤  <br> - 深度互动与洞察: 与仿真报告及虚拟 Agents 个体交互，洞悉未来与决策                                                                                                                                                                                                 |
+    Canyon supports multi-round simulations, event evolution reports, and in-depth interviews with virtual agents, enabling users to explore potential future scenarios and underlying decision-making patterns.
 
+- 🔁 **Step 5: End-to-End Cognitive Reasoning Loop**  
+**Establish a complete reasoning loop from real-world information streams to future scenario simulation.**  
+`#End-to-End Pipeline` `#Future Scenario Simulation` `#Decision Simulation`
 
+    Integrate all preceding modules into a unified cognitive simulation framework that supports multi-role and multi-perspective reasoning. This enables users to explore potential outcomes, evaluate alternative strategies, and rehearse decisions in a virtual environment before implementing them in the real world.
+
+### 📦 3.2 Module Overview
+
+| Module | Functional Description | Implementation & Integrated Projects |
+| :--- | :--- | :--- |
+| 🎯 **Domain-Specific Fine-Tuning** | - Focus on **User Attention Anchors**.<br>- Enhance **domain-specific information understanding**. | Leverage [LLaMa Foundary Pro](https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline), an integrated pipeline for efficient model fine-tuning, incorporating data augmentation and Ollama-based local deployment. 🐑 |
+| 🤖 **Customized Deep Search Agents** | Discover **in-depth insights closely aligned with users' cognitive objectives**. | - Integrate [UPAIRS-Agents](https://github.com/SuleynanAuir/UPAIRS-Agents) to improve information relevance and confidence.<br>- Incorporate [CognitiveTemp-DeepSearch-Agents](https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents) to enable user-controlled search guided by User Attention Anchors. |
+| 🤖 **User Attention-Driven Information Understanding Agents** | Capture user interests in search results in real time.<br><br>Employ a collaborative reasoning architecture: **Agent-A/B/C Sequential Trend Analysis + Agent-D Strategic Integration**, generating structured knowledge priors for subsequent simulation. | - **Hypothesis:** Capture user attention signals and annotations in real time. ✍️<br>- **Agent-A — User Trend Signal Analyst** 🔥: Extract emerging trend signals and levels of user interest from attention anchors.<br>- **Agent-B — Contextual Evidence Evaluator** 🤔: Extract evolutionary processes, timelines, and relevant supporting evidence.<br>- **Agent-C — Event-Trend Relational Reasoner** 🧠: Infer information diffusion pathways and industry dynamics from related events.<br>- **Agent-D — Chief Strategic Integrator** ✅: Synthesize analytical outputs into strategic reports for trend forecasting. |
+| 🌍 **Digital Cognitive Twin — Canyon** 🏜️ | Construct a **high-fidelity virtual environment** to simulate real-world events, public opinion dynamics, and future scenarios by integrating complex real-world information streams. | - **Initialization:** Integrate high-quality knowledge priors and perform Entity & Relation (E&R) extraction to construct multidimensional knowledge graphs using [GraphRAG](https://github.com/microsoft/graphrag). 🌟<br>- **High-Fidelity Agent Modeling:** Generate diverse virtual agents with distinct knowledge bases, cognitive characteristics, and behavioral tendencies.<br>- **Public Opinion Dynamics Simulation:** Incorporate environmental factors to model information diffusion and the dynamic evolution of public opinion within Canyon.<br>- **Multi-Round Simulation & Event Evolution Reports:** Analyze public opinion propagation and virtual agent behavior, supporting in-depth **Simulated Interviews**. 🎤<br>- **Interactive Exploration & Insights:** Interact with simulation reports and individual virtual agents to explore potential future scenarios and support informed decision-making. |
 
 
 ## 🛠 4.技术实现细节及展示（Implementation & Engineering）
