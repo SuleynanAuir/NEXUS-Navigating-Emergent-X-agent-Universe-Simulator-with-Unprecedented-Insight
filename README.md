@@ -80,7 +80,7 @@
        width="900"
        style="max-width:100%; height:auto; border-radius:12px; box-shadow:0 8px 22px rgba(0,0,0,0.18);">
   <br><br>
-  <a href="#step-1-构建信息先验"
+  <a href="#step-1-information-prior-construction"
      style="display:inline-block;
             background:linear-gradient(135deg, #ff7a18, #ffb347, #ffa751);
             background-size:200% 200%;
@@ -207,49 +207,69 @@ Through real-world information collection, semantic understanding, and relationa
 By combining `Dynamic Simulation`, `Trend Projection`, and `Multi-Perspective Reasoning`, NEXUS aims to deliver deeper insights, explore emerging possibilities, and facilitate cognitive breakthroughs beyond conventional thinking.
 
 
-## 🧑‍🍳 2. What can NEXUS do?
+## 🌐 2. What Can NEXUS Do?
 
-### 🎭 多角色认知模拟：假如你身处如下...这些位置，借助🛸NEXUS✨会看到什么？
-支持`多领域、多角色、多视角、高保真`的复杂信息系统模拟与未来情境推演，帮助用户实现：
+### 🎭 Multi-Role Cognitive Simulation: Explore the World from Different Perspectives with NEXUS
 
-#### 1️⃣ 为-`规则制定者`-打造的决策推演引擎 ⚖️
-<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/🧠 且看案例_【规则制定者】B站官方就清雨Tpor事件_·_对主播的立规思考案例-orange?style=for-the-badge"> </a> </p>
+NEXUS supports `multi-domain, multi-role, multi-perspective, and high-fidelity` simulation of complex information systems and future scenarios, enabling users to explore the following application scenarios:
 
-- 🔮 **预见政策涟漪**：动态模拟发布后的经济、舆情与公共安全连锁反应
-- ⚠️ **暗礁早预警**：识别潜在社会冲突与舆情危机，输出干预策略
-- 📊 **科学回溯评估**：精准剖析政策调整的因果效应，让每一次决策都有据可依
+#### 1️⃣ Decision Simulation Engine for Policymakers ⚖️
 
-#### 2️⃣ 为-`企业与市场决策者`-打造的商业推演实验室 💰
-<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/📈 且看案例_【市场决策者】金融机构就GrapgRAG技术_·_预判竞争先机_+_风险-green?style=for-the-badge"> </a> </p>
+<p align="left">
+  <a href="#step-4-multi-round-simulation-and-event-evolution-analysis">
+    <img src="https://img.shields.io/badge/Case%20Study-Bilibili%20Platform%20Governance-orange?style=for-the-badge">
+  </a>
+</p>
 
-- 🔮 **趋势先知**：融合多源信息与用户锚点，*动态推演行业风口与消费者心智变迁*
-- ⚔️ **竞争透视**：实时模拟对手动作与市场反馈，*精准评估新品、定价、营销的引爆效应*
-- 🧪 **战略验真**：通过多方案市场仿真，<u>预演盈利、份额与口碑的真实博弈</u>
+- 🔮 **Policy Ripple Effect Simulation:** Dynamically simulate the potential economic, public opinion, and public safety consequences following policy implementation.
+- ⚠️ **Early Risk Identification:** Identify potential social conflicts and public opinion crises, and generate possible intervention strategies.
+- 📊 **Retrospective Policy Evaluation:** Analyze the potential effects and underlying causal relationships of policy adjustments to support evidence-informed decision-making.
 
-#### 3️⃣ 为-`公众与社群`-打造的舆论风向标 🧑‍🤝‍🧑
-<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/📡 且看案例_【社群及个体】清雨Tpor毁号事件_·_深入受害者心理_+_玩家社群情绪-blue?style=for-the-badge"> </a> </p>
+#### 2️⃣ Business Simulation Lab for Enterprises and Market Decision-Makers 💰
 
-- 📊 **情绪热力透视**：实时追踪社交媒体讨论热点与<u>公众情绪的动态演变过程</u>
-- 🎯 **关键声音识别**：锁定意见领袖（KOL）及其<u>对事件的真实影响力权重</u>
-- ⚡ **舆情风暴预警**：提前预判潜在爆发事件，<u>模拟传播规模、路径与风险等级</u>
+<p align="left">
+  <a href="#step-4-multi-round-simulation-and-event-evolution-analysis">
+    <img src="https://img.shields.io/badge/Case%20Study-GraphRAG%20Market%20Opportunities%20and%20Risks-green?style=for-the-badge">
+  </a>
+</p>
 
+- 🔮 **Emerging Trend Forecasting:** Integrate multi-source information and User Preference Anchors to *dynamically explore emerging industry trends and evolving consumer perceptions*.
+- ⚔️ **Competitive Intelligence:** Simulate competitor actions and market responses to *evaluate the potential impact of product launches, pricing strategies, and marketing campaigns*.
+- 🧪 **Strategic Scenario Evaluation:** Conduct market simulations across multiple scenarios to <u>explore trade-offs among profitability, market share, and brand reputation</u>.
 
-#### 4️⃣ 为-`研究者与专家`-打造的知识雷达网 🧑‍🔬
-<p align="left"> <a href="#step-4-多轮仿真与事件发展分析"> <img src="https://img.shields.io/badge/🔭 且看案例_【研究学者】GraphRAG技术爆发_·_预研未来应用风口-purple?style=for-the-badge"> </a> </p>
+#### 3️⃣ Public Opinion Intelligence for Individuals and Social Communities 🧑‍🤝‍🧑
 
-- 🧠 **知识图谱构建**：将学术论文、政策报告、技术前沿<u>融汇成可检索、可推理的动态知识网络</u>
-- 🔮 **前沿趋势预判**：基于历史数据与实时信息流，<u>精准捕捉新兴技术、市场机会与研究热点的萌芽</u>
+<p align="left">
+  <a href="#step-4-multi-round-simulation-and-event-evolution-analysis">
+    <img src="https://img.shields.io/badge/Case%20Study-Qingyu%20Tpor%20Incident%20and%20Community%20Sentiment-blue?style=for-the-badge">
+  </a>
+</p>
+
+- 📊 **Public Sentiment Analysis:** Track emerging social media discussions and <u>the dynamic evolution of public sentiment</u> in real time.
+- 🎯 **Key Opinion Leader Identification:** Identify Key Opinion Leaders (KOLs) and <u>estimate their relative influence on public discourse and event development</u>.
+- ⚡ **Public Opinion Crisis Early Warning:** Identify potentially escalating events and <u>simulate information diffusion patterns, propagation scale, and associated risk levels</u>.
+
+#### 4️⃣ Knowledge Intelligence Network for Researchers and Experts 🧑‍🔬
+
+<p align="left">
+  <a href="#step-4-multi-round-simulation-and-event-evolution-analysis">
+    <img src="https://img.shields.io/badge/Case%20Study-GraphRAG%20Technology%20and%20Future%20Applications-purple?style=for-the-badge">
+  </a>
+</p>
+
+- 🧠 **Knowledge Graph Construction:** Integrate academic publications, policy reports, and emerging technological developments into <u>a dynamic, searchable knowledge network that supports relational reasoning</u>.
+- 🔮 **Emerging Research Trend Identification:** Leverage historical data and real-time information streams to <u>identify emerging technologies, market opportunities, and evolving research topics</u>.
 
 
 <div align="center" style="margin:40px 0;">
-  <!-- 图片 -->
+  <!-- Highlight Image -->
   <img src="assets/highlight.png"
-       alt="Highlight Interface"
-       style="width:75%; max-width:900px; border-radius:12px; 
+       alt="NEXUS Highlight Interface"
+       style="width:75%; max-width:900px; border-radius:12px;
        box-shadow:0 8px 22px rgba(0,0,0,0.18);" />
   <br><br>
-  <!-- 按钮 -->
-  <a href="#step-1-构建信息先验">
+  <!-- Navigation Button -->
+  <a href="#step-1-information-prior-construction">
     <button style="
       background:linear-gradient(90deg,#ff7a18,#ffb347);
       color:white;
@@ -262,7 +282,7 @@ By combining `Dynamic Simulation`, `Trend Projection`, and `Multi-Perspective Re
       box-shadow:0 6px 16px rgba(0,0,0,0.18);
       transition:all 0.25s ease;
     ">
-      🔍 View Highlight Detail
+      🔍 Explore NEXUS Highlights
     </button>
   </a>
 </div>
