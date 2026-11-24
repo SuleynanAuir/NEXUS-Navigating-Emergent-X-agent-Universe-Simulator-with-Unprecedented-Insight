@@ -135,55 +135,79 @@
 
 ## 📊 1. Preview
 
-> NEXUS 系统实现 从“信息分析” →“社会系统仿真” (融合现实世界的真实、经验证信息流)
+> NEXUS bridges the gap between **Information Analysis** and **Social System Simulation** by integrating authentic, verified real-world information streams.
 
-### 🌟 NEXUS 新特点包括：
+### 🌟 Key Features of NEXUS
 
-- 🚀 **告别“正确废话”，NEXUS 拒绝大众模板** 🔥🔥🔥
-(基于用户个人真正关注的认知突破)
-    - 深度搜索<u>用户真正关心</u>的内容，NO <del>"大众化、泛泛而谈信息"</del> 🙅
-    - 建立 <u>"用户独享" Cognitive Map</u>，NO <del>"千人一面分析"</del> 
-    - 📖 optional material：
-        - Farshidi et al. (2024), *Understanding user intent modeling for conversational recommender systems*, [🔗 Springer Nature Link](https://link.springer.com/article/10.1007/s11257-024-09398-x)
-        - Nguyen et al. (2018), *A Capsule Network‑based Embedding Model for Search Personalization*, [🔗 arXiv](https://arxiv.org/abs/1804.04266) 
+- 🚀 **Beyond Generic Content — Personalized Cognitive Insights** 🔥🔥🔥
 
-- 🔗 **不依赖单一、重复数据，NEXUS 整合高质量信源** 🔥🔥
-(深度搜索高度贴合 + 保真度的信息源)
-    - <u>接入 domain-specific 的微调模型</u>，NO <del>"通用LLMs"</del> 🙅
-    - **用户关注锚点驱动**的信息理解机制，NO <del>"无差别信息处理"</del> 
+    Achieving cognitive breakthroughs based on users' genuine interests and information needs.
 
-- 📈 **不限于预测，NEXUS 在动态推演未来的隐藏趋势**
-    - **考虑现实的、实时的真实、动态影响因子**🔥🔥, NO <del>"静态 or 理想化假设"</del> 🙅
-    - 构建<u>高保真的数智孪生世界</u>，NO <del>"理想化假设的虚拟世界"</del> 🙅
-    - 📖 optional material：
-        - Guo et al. (2025), *Beyond Static Retrieval: Opportunities and Pitfalls of Iterative Retrieval in GraphRAG*, [🔗 arXiv](https://arxiv.org/abs/2509.25530)  
-        - Zhu et al. (2025), *Conversational Intent‑Driven GraphRAG*, [🔗 arXiv](https://arxiv.org/abs/2506.19385)  
+    - Conduct deep searches focused on <u>what users genuinely care about</u>, rather than <del>generic and superficial information</del>. 🙅
+    - Construct a <u>personalized Cognitive Map</u> for each user, rather than relying on <del>one-size-fits-all analysis</del>.
+    - 📖 **Related Literature:**
+        - Farshidi et al. (2024), *Understanding User Intent Modeling for Conversational Recommender Systems*, [🔗 Springer Nature](https://link.springer.com/article/10.1007/s11257-024-09398-x)
+        - Nguyen et al. (2018), *A Capsule Network-based Embedding Model for Search Personalization*, [🔗 arXiv](https://arxiv.org/abs/1804.04266)
 
-- 💡 **不搬运常识，NEXUS 生产深度创新认知, 卷！视角深度**
-(多视角呈现，支持 jump outside of the box 认知突破)
-    - **眼前一亮的新 idea**🔥🔥， NO <del>"大道理的死板分析 or 老生常谈的生硬"</del> 🙅
-    - **生动仿真的内心独白**🔥，NO <del>"表面化的虚情假意分析"</del> 🙅
-    - 📖 optional material:
-        - Zhong et al. (2023), *Beyond Sentiment: Cognitive and Narrative Open‑Ended Generation*, [🔗 arXiv](https://arxiv.org/html/2502.13925v1)
-        - Saunders (2012), *Towards Autonomous Creative Systems: A Computational Approach*, *Cognitive Computation*, 4(3), 216–225.  [🔗 Article link](https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/) :contentReference[oaicite:0]{index=0}
+- 🔗 **Beyond Redundant Data — High-Quality Information Integration** 🔥🔥
 
-- 💡 **不只一个视角，NEXUS 保真模拟多面未来** 🔥🔥🔥
-    - 政府与政策制定者 ⚖️ (e.g: 政策制定、监管机构 / 政策智库Think Tanks...)
-    - 企业与市场参与者 💰 (e.g: 投资机构 / Corp企业 / 商业分析机构 VC, PE...)
-    - 公众与社群舆论场 🧑‍🤝‍🧑 (e.g: 社媒用户KOL / 公众 / NGO / 舆论放大器...)
-    - 研究者与专家网络 🧑‍🔬 (e.g: researcher / 行业专家 / 独立研究者)
- 
-- 🌟 **不堆次数，NEXUS 堆视角、提速保深度** 🔥🔥🔥
-- > 这一优化不仅让高频建模成为可能，更让在资源有限的情况下，依然能快速获取深刻洞见，抢占决策先机。
-  - 相较于原来的 mirofish 架构，NEXUS得到了革命性效率提升：成本直降60%，模拟时间缩短至1/3
-  - 我们通过深度融合**背景知识先验**与**用户关注锚点聚焦机制（attention anchors）**，并结合优化智能体人格设置，在保证深度分析能力的同时，大幅降低了推理过程中的令牌消耗。 
-  - **智能加速配置**：采用 OpenAI GPT-4o 专属优化方案，显著减少计算开销，单次模拟成本从 $5 降至 **$2~3**，降幅达 **40%~60%**。  
-  - **超快深度分析**：仅需 **30 次模拟**即可获得高质量洞察，相比原方案（mirofish 模拟 96 次），总分析时间由 **50 分钟**骤减至 **18~20 分钟**，效率提升 **超过 60%**。  
+    Combining highly relevant deep search results with reliable information sources.
 
-So，`NEXUS` 是一个面向复杂现实信息系统的多智能体认知推演框架（Multi-Agents Cognitive Simulation）。基于`用户偏好锚点`（Preference Anchors），NEXUS `主动挖掘最符合用户认知目标的深度洞察`和策略方案。系统性地整合`真正高度关联、高保真的社交舆情、政策动态与金融资讯等多源信号`，构建端到端智能分析与推演能力的simulation pipeline。通过对现实世界复杂信息环境的采集、语义理解与关联推理，构建在高维空间中`还原关键事件之间的因果脉络`，+`动态模拟与趋势推演`，获得更好仿真deep insight + `多方面视角洞察`, 实现jump outside of the box 认知突破：
+    - Integrate <u>domain-specific fine-tuned models</u>, rather than relying solely on <del>general-purpose LLMs</del>. 🙅
+    - Implement a **User Attention Anchor-Driven Information Understanding Mechanism**, rather than <del>indiscriminate information processing</del>.
+
+- 📈 **Beyond Prediction — Dynamic Simulation of Emerging Trends**
+
+    - Incorporate **authentic, real-time, and dynamically evolving real-world factors** 🔥🔥, rather than <del>static or idealized assumptions</del>. 🙅
+    - Construct a <u>high-fidelity Digital Cognitive Twin</u>, rather than <del>virtual environments based on idealized assumptions</del>. 🙅
+    - 📖 **Related Literature:**
+        - Guo et al. (2025), *Beyond Static Retrieval: Opportunities and Pitfalls of Iterative Retrieval in GraphRAG*, [🔗 arXiv](https://arxiv.org/abs/2509.25530)
+        - Zhu et al. (2025), *Conversational Intent-Driven GraphRAG*, [🔗 arXiv](https://arxiv.org/abs/2506.19385)
+
+- 💡 **Beyond Conventional Knowledge — Innovative and In-Depth Insights**
+
+    Encouraging cognitive breakthroughs through diverse perspectives and out-of-the-box reasoning.
+
+    - Generate **novel and thought-provoking ideas** 🔥🔥, rather than <del>rigid analysis or repetitive conventional wisdom</del>. 🙅
+    - Generate **realistic simulated internal monologues and cognitive narratives** 🔥, rather than <del>superficial interpretations of individual behavior</del>. 🙅
+    - 📖 **Related Literature:**
+        - Zhong et al. (2023), *Beyond Sentiment: Cognitive and Narrative Open-Ended Generation*, [🔗 arXiv](https://arxiv.org/html/2502.13925v1)
+        - Saunders (2012), *Towards Autonomous Creative Systems: A Computational Approach*, *Cognitive Computation*, 4(3), 216–225. [🔗 Article](https://www.robsaunders.net/publication/towards-autonomous-creative-systems-a-computational-approach/)
+
+- 🌐 **Beyond a Single Perspective — Multi-Perspective Future Simulation** 🔥🔥🔥
+
+    NEXUS supports the simulation of complex information environments from multiple stakeholder perspectives:
+
+    - ⚖️ **Governments and Policymakers:** policymakers, regulatory authorities, and policy think tanks.
+    - 💰 **Enterprises and Market Participants:** investment institutions, corporations, business intelligence organizations, venture capital (VC), and private equity (PE) firms.
+    - 🧑‍🤝‍🧑 **Public Opinion and Social Communities:** social media users, key opinion leaders (KOLs), the general public, NGOs, and opinion amplifiers.
+    - 🧑‍🔬 **Researchers and Expert Networks:** academic researchers, industry experts, and independent researchers.
+
+- ⚡ **Beyond Simulation Volume — Greater Diversity, Higher Efficiency, and Deeper Insights** 🔥🔥🔥
+
+    > This optimization enables high-frequency simulation while facilitating rapid insight generation and timely decision-making under limited computational and financial resources.
+
+    - Compared with the original **MiroFish architecture**, NEXUS achieves substantial efficiency improvements, reducing simulation costs by up to **60%** and simulation time to approximately one-third of the original duration.
+    - By integrating **Background Knowledge Priors** with **User Attention Anchors**, together with optimized agent persona configurations, NEXUS substantially reduces token consumption while maintaining analytical depth.
+    - **Optimized Inference Configuration:** A tailored optimization strategy for OpenAI GPT-4o reduces computational overhead, lowering the cost per simulation from **$5 to $2–3**, representing a **40–60% cost reduction**.
+    - **Accelerated Deep Analysis:** NEXUS requires only **30 simulation rounds** to generate high-quality insights, compared with **96 rounds** in the original MiroFish framework. The total analysis time is reduced from **50 minutes to 18–20 minutes**, representing a **60–64% reduction in processing time**.
+
+---
+
+### 🧠 From Information Streams to Cognitive Simulation
+
+`NEXUS` is a **Multi-Agent Cognitive Simulation Framework** designed for the analysis and simulation of complex real-world information environments.
+
+Guided by `User Preference Anchors`, NEXUS proactively discovers in-depth insights and strategic solutions aligned with users' cognitive objectives.
+
+The framework systematically integrates highly relevant and reliable multi-source information, including **social media discourse, public opinion, policy developments, and financial intelligence**, establishing an end-to-end pipeline for intelligent information analysis and scenario simulation.
+
+Through real-world information collection, semantic understanding, and relational reasoning, NEXUS reconstructs the underlying relationships and potential causal pathways between key events within a high-dimensional knowledge space.
+
+By combining `Dynamic Simulation`, `Trend Projection`, and `Multi-Perspective Reasoning`, NEXUS aims to deliver deeper insights, explore emerging possibilities, and facilitate cognitive breakthroughs beyond conventional thinking.
 
 
-## 🧑‍🍳 2. NEXUS 可以做什么？(What can NEXUS do?)
+## 🧑‍🍳 2. What can NEXUS do?
 
 ### 🎭 多角色认知模拟：假如你身处如下...这些位置，借助🛸NEXUS✨会看到什么？
 支持`多领域、多角色、多视角、高保真`的复杂信息系统模拟与未来情境推演，帮助用户实现：
