@@ -809,161 +809,231 @@ The following table presents simulated stakeholder personas derived from the cas
 | **Figure 11e:** Agent Persona Configuration — Customizing attributes and preferences according to specific user requirements. | **Figure 11f:** Agent Persona Inspection — Examining individual agents' event-related cognition and behavioral characteristics. |
 
 
-#### Step 3: 模拟虚拟环境 & 仿生交流
-在 Canyon 数智孪生世界中，系统模拟现实舆情的发展过程，同时注入环境因子引导信息流和舆论走向，力求还原真实场景中的信息传播路径和舆论场动态。该步骤不仅考虑现实事件因素，还对舆情的演化、热点聚集和信息扩散规律进行建模，为后续趋势分析提供可靠基础。
+#### Step 3: Virtual Environment Simulation & Human-Like Agent Interaction
+
+Within the Canyon Digital Cognitive Twin environment, the system simulates the evolution of real-world public opinion while incorporating environmental factors to guide information flows and public discourse. It aims to reproduce realistic information propagation pathways and public opinion dynamics.
+
+This stage incorporates real-world event factors and models public opinion evolution, emerging topic aggregation, and information diffusion patterns, establishing a foundation for subsequent trend analysis.
 
 | ![Hot Topics Detection](assets/2_canyon/step3/hot_topic.png) | ![Simulation Overview](assets/2_canyon/step3/overview.png) |
 |:--:|:--:|
-| **Figure 12a:** 热点主题识别 — Canyon 虚拟世界中识别高关注话题。 | **Figure 12b:** Canyon 仿真概览 — 展示系统整体运行和事件流结构。 |
+| **Figure 12a:** Hot Topic Detection — Identifying topics receiving significant attention within the Canyon virtual environment. | **Figure 12b:** Canyon Simulation Overview — Presenting overall system operations and event-stream structures. |
 
 | ![Simulation Talk 1](assets/2_canyon/step3/sim_talk1.png) | ![Simulation Talk 2](assets/2_canyon/step3/sim_talk2.png) |
 |:--:|:--:|
-| **Figure 12c:** 虚拟 Agent 对话示例1 — 展现 Agent 间讨论热点主题的行为。 | **Figure 12d:** 虚拟 Agent 对话示例2 — 展示不同 Agent 对事件反应与认知推演。 |
+| **Figure 12c:** Virtual Agent Dialogue Example 1 — Demonstrating interactions between agents discussing trending topics. | **Figure 12d:** Virtual Agent Dialogue Example 2 — Illustrating different agents' simulated responses to events and cognitive reasoning processes. |
 
-#### Step 4: 多轮仿真与事件发展分析
-系统对虚拟世界进行多轮迭代仿真，生成事件发展报告，包括事件爆发态势、舆论扩散趋势及关键节点分析。同时记录每个虚拟 Agent 的反应和行为模式，提供深度洞察（deep insight）与交互式查询能力。通过仿真得到的多视角数据可用于预测未来可能走势，并生成多份基于现实推演的虚拟访谈（simulated interviews），帮助理解个体决策逻辑和信息响应模式。
 
-<span style="color:#f77f00;">本项目对比了两个不同的场景</a>：
+#### Step 4: Multi-Round Simulation and Event Evolution Analysis
 
-> ##### 🧑‍🏫 仿真Face2Face-Talk (Simulated Interview)：
+The system performs multiple rounds of iterative simulation within the virtual environment and generates event evolution reports covering emerging events, public opinion diffusion trends, and key turning points.
 
-- <span style="color:#f77f00;">学术场景</span>（以 GraphRAG 技术发展为例）和 <span style="color:#f77f00;">社交舆论场</span>（以近期 B站清雨 Tpor 毁号事件为例）。通过模拟访谈，我们观察了不同类型的虚拟 Agent 在面对同一事件时的认知差异、信息处理方式和行为反应，揭示了技术领域与社交舆论场在信息传播和个体反应上的显著差异，为后续的趋势分析和预测提供了重要参考。
+Meanwhile, the system records the simulated responses and behavioral patterns of individual virtual agents, providing deep insights and interactive querying capabilities.
 
-- Academics: GraphRAG Research
-- Social Media: B站清雨Tpor毁号事件
+The multi-perspective data generated through simulation can be used to explore potential future trends. The system also generates simulated interviews grounded in real-world contextual information, helping users explore individual decision-making patterns and information response mechanisms.
+
+<span style="color:#f77f00;">This project compares two distinct information environments:</span>
+
+> ##### 🧑‍🏫 Simulated Face-to-Face Interviews
+
+- <span style="color:#f77f00;">Academic Research Scenario</span> — using the technological development of GraphRAG as an example.
+
+- <span style="color:#f77f00;">Social Media Public Opinion Scenario</span> — using the Qingyu Tpor Account Destruction Incident on Bilibili (March 2026) as an example.
+
+Through simulated interviews, we examine differences in cognitive characteristics, information processing approaches, and behavioral responses among different types of virtual agents when exposed to the same event.
+
+The simulations illustrate potential differences in information propagation and individual responses between academic and social media environments, providing valuable references for subsequent trend analysis and scenario forecasting.
+
+- **Academics:** GraphRAG Research
+- **Social Media:** Qingyu Tpor Account Destruction Incident on Bilibili (March 2026)
 
 | ![Academic Interview 1](assets/2_canyon/step4/interview/interview_graphrag1.png) | ![Social Opinion Interview 1](assets/2_canyon/step4/interview/interview_qingyu1.png) |
 |:--:|:--:|
-| **Figure 13a:** Academic 技术领域-Agent Interview — 学术场景对话 1：未来五年GraphRAG技术发展趋势及受益场景 | **Figure 13b:** Social Opinion 主播-Agent Interview — 社交舆论 对话 1: 谈论平台培训必要性及技术层面防止主播违规行为的可能措施 |
+| **Figure 13a:** Academic Technology Expert Agent Interview — Exploring GraphRAG development trends and potential beneficiary application scenarios over the next five years. | **Figure 13b:** Social Opinion Streamer Agent Interview — Discussing the necessity of platform training and potential technical measures to prevent streamer misconduct. |
 
 | ![Academic Interview 2](assets/2_canyon/step4/interview/interview_graphrag2.png) | ![Social Opinion Interview 2](assets/2_canyon/step4/interview/interview_qingyu3.png) |
 |:--:|:--:|
-| **Figure 13c:** Academic 技术领域-Agent Interview — 学术场景对话 2: GraphRAG技术在医疗领域的挑战及业内专家优先关注RAG的哪方面技术 | **Figure 13d:** Social Opinion 受害者-Agent Interview — 社交舆论 对话 2: 用户对于主播的信任危机及保护虚拟财产政策制定的预热 |
+| **Figure 13c:** Academic Technology Expert Agent Interview — Exploring challenges associated with GraphRAG applications in healthcare and identifying RAG research priorities from an industry expert's perspective. | **Figure 13d:** Social Opinion Affected Player Agent Interview — Exploring the erosion of trust between users and streamers, alongside emerging discussions on virtual property protection policies. |
 
 | ![Academic Interview 3](assets/2_canyon/step4/interview/interview_graphrag3.png) | ![Social Opinion Interview 3](assets/2_canyon/step4/interview/interview_qingyu5.png) |
 |:--:|:--:|
-| **Figure 13e:** Academic 机构-Agent Interview — 学术场景对话示例 3: 金融机构的GraphRAG技术应用展望与潜在风险分析 | **Figure 13f:** Social Opinion 政策制定者-Agent Interview — 社交舆论 对话示例 3: 政策进一步明确虚拟道具所有权归属及物权、债权的定性问题 |
+| **Figure 13e:** Academic Institutional Agent Interview — Examining potential GraphRAG applications and associated risks in financial institutions. | **Figure 13f:** Social Opinion Policymaker Agent Interview — Exploring policy clarification concerning virtual item ownership and the legal distinction between property rights and contractual claims. |
 
 | ![Academic Interview 4](assets/2_canyon/step4/interview/interview_graphrag4.png) | ![Social Opinion Interview 4](assets/2_canyon/step4/interview/interview_qingyu6.png) |
 |:--:|:--:|
-| **Figure 13g:** Academic 机构-Agent Interview — 学术场景对话示例4: GraphRAG对信息领域的长期影响分析及推荐研究者优先考虑要素 | **Figure 13h:** Social Opinion 政策制定者-Agent Interview — Social Opinion 社交舆论 对话示例 4: 内容创作自由与平台责任的平衡问题及法务员评估责任划分 |
+| **Figure 13g:** Academic Institutional Agent Interview — Analyzing the potential long-term impact of GraphRAG on the information technology sector and identifying key research priorities. | **Figure 13h:** Social Opinion Policymaker Agent Interview — Exploring the balance between freedom of content creation and platform accountability, including the allocation of legal responsibilities. |
 
 
 ---
 
 
-> ##### 🔍 Deep Insight：
+> ##### 🔍 Deep Insight
 
-<span style="color:#f77f00;">学术研究场景</span>（以 **GraphRAG 技术研究发展** 为例）与 <span style="color:#f77f00;">社交舆论场</span>（以 **B站清雨 Tpor 毁号事件** 为例）构成了两种具有显著差异的信息生态环境。通过在 Canyon 模拟环境中对不同类型虚拟 Agent 进行 **访谈式交互模拟（Agent Interview Simulation）**，我们观察到各类 Agent 在面对同一主题或事件时，在 **认知框架、信息理解方式、推理路径以及行为反应模式** 上表现出明显差异。学术场景中的 Agent 更倾向于进行 **结构化知识整合、技术演进分析与理论推理**，而社交舆论场中的 Agent 则更关注 **事件情绪传播、群体反应以及舆论演化趋势**。这种对比式模拟不仅揭示了不同信息场域中的认知与传播机制差异，也为后续的 **趋势洞察与事件演化预测（Scenario Forecasting）** 提供了重要参考。
+<span style="color:#f77f00;">The Academic Research Scenario</span>, represented by **GraphRAG Technology Research and Development**, and <span style="color:#f77f00;">the Social Media Public Opinion Scenario</span>, represented by the **Qingyu Tpor Account Destruction Incident on Bilibili (March 2026)**, constitute two substantially different information ecosystems.
 
-* Academics: **GraphRAG Research**
+Through **Agent Interview Simulation** within the Canyon environment, we observe differences among virtual agents in their **cognitive frameworks, information understanding approaches, reasoning pathways, and behavioral response patterns** when addressing the same topic or event.
 
-* Social Media: **B站清雨 Tpor 毁号事件**
+Agents in academic research scenarios tend to prioritize **structured knowledge integration, technological evolution analysis, and theoretical reasoning**.
+
+In contrast, agents in social media public opinion scenarios tend to focus on **emotional diffusion, collective responses, and public opinion evolution**.
+
+This comparative simulation illustrates potential differences in cognitive and information propagation mechanisms across information environments, providing valuable references for subsequent **Trend Analysis and Scenario Forecasting**.
+
+- Academics: **GraphRAG Research**
+
+- Social Media: **Qingyu Tpor Account Destruction Incident on Bilibili (March 2026)**
 
 
 | ![Academic Entity Insight](assets/2_canyon/step4/deepinsight/deep_insight_entity_graphrag.png) | ![Social Entity Insight](assets/2_canyon/step4/deepinsight/deep_insight_entity_qingyu.png) |
 |:--:|:--:|
-| **Figure 14a:** Entity-Level Insight (Academic – GraphRAG). 在学术研究场景中，通过 GraphRAG 对关键实体及其关系进行分析，揭示研究主题之间的结构化知识关联与潜在研究脉络。 | **Figure 14b:** Entity-Level Insight (Social Opinion – 清雨). 在社交舆论环境中，通过实体级分析识别热点人物、事件或组织，并观察其在舆论传播中的影响力与关联关系。 |
+| **Figure 14a:** Entity-Level Insight (Academic — GraphRAG). Analyzing key entities and their relationships through GraphRAG to reveal structured knowledge connections and potential research pathways across academic topics. | **Figure 14b:** Entity-Level Insight (Social Opinion — Qingyu). Identifying prominent individuals, events, and organizations through entity-level analysis, and examining their influence and relationships within public opinion diffusion. |
 
 | ![Academic Question Insight](assets/2_canyon/step4/deepinsight/deep_insight_que_graphrag.png) | ![Social Question Insight](assets/2_canyon/step4/deepinsight/deep_insight_que_qingyu.png) |
 |:--:|:--:|
-| **Figure 14c:** Question-Level Insight (Academic – GraphRAG). 通过问题驱动的推理分析，对学术问题进行多跳知识检索与整合，从而得到更加深入的研究洞察与理论解释。 | **Figure 14d:** Question-Level Insight (Social Opinion – 清雨). 在社交舆论分析中，通过问题导向的推理来理解公众关注的核心议题，并分析不同观点之间的互动与传播趋势。 |
+| **Figure 14c:** Question-Level Insight (Academic — GraphRAG). Applying question-driven reasoning, multi-hop knowledge retrieval, and information integration to generate deeper academic insights and theoretical interpretations. | **Figure 14d:** Question-Level Insight (Social Opinion — Qingyu). Applying question-driven reasoning to identify key issues of public concern and analyze interactions and diffusion trends among different perspectives. |
 
 
-#### Step 5: 深度交互与洞察
-在仿真面试、深度分析完成后，用户可以与生成的虚拟世界报告以及单个虚拟 Agents 进行深度交互。通过多轮对话和策略探索，用户能够洞察每位虚拟个体的潜在思维路径、内心关注以及可能的行为趋势，为战略决策、风险预测和趋势分析提供高价值支持。
+#### Step 5: Interactive Exploration and Deep Insights
 
-> 📊 结构化数据整理：通过对仿真结果进行结构化整理，我们总结了学术技术场景（GraphRAG 技术演进）与社交舆论场（B站清雨 Tpor 事件）的核心分析维度:
-- 研究主题、核心问题
-- 发展阶段、关键驱动力
-- 行业影响、典型案例以及长期趋势等方面的对比分析
+Following simulated interviews and in-depth analysis, users can interact extensively with both generated simulation reports and individual virtual agents.
 
-| 分析维度 | Academic / GraphRAG 简约版 | Social Media / B站舆论 简约版 |
-|---|---|---|
-| **研究主题** | **[GraphRAG 技术演进]**<br>Knowledge Graph 与 LLM 的深度融合路径，探索复杂知识推理、多跳检索与可解释 AI 产业化落地。 | **[清雨 Tpor 毁号事件]**<br>虚拟财产损失引发的社交平台治理问题，舆论传播机制与平台责任边界的讨论。 |
-| **核心问题** | 如何通过 GraphRAG 架构实现结构化知识检索、多跳推理与推理可解释性，从而提升 LLM 在专业领域的决策辅助能力。 | 虚拟账号与数字资产的法律属性、主播行为规范以及平台治理责任如何界定。 |
-| **当前阶段** | 技术成熟度处于 **TRL 5–6 → TRL 6–7** 的过渡阶段，正从实验室验证逐步迈向企业级应用探索。 | 舆论从早期情绪化谴责逐渐转向 **制度与法律层面的深度讨论**。 |
-| **关键驱动力** | - 多模态知识整合能力提升<br>- 强化学习（RL）优化检索与推理路径<br>- 知识图谱增量更新与实时数据融合 | - 主播行为规范讨论<br>- 虚拟财产法律属性界定<br>- 平台治理责任与用户权益保护 |
-| **行业影响** | 优先在 **医疗、金融、法律** 等高知识密度领域实现应用，推动企业级知识系统与 AI 决策辅助平台的发展。 | 推动平台 **直播行为规范**，建立虚拟资产纠纷处理机制，强化用户权益保护。 |
-| **典型案例** | 某头部券商利用 **GraphRAG** 构建合规审查系统，通过自动检索监管规则与历史案例，显著提升审查效率。 | **清雨 Tpor 毁号事件** 导致粉丝账号数据清零，引发千万级舆论讨论。 |
-| **长期趋势** | GraphRAG 有望成为企业级 AI 知识系统的重要基础架构，推动 LLM 向 **可解释、可验证的专业决策系统** 演进。 | 推动虚拟资产保护与平台治理制度完善，使数字平台生态 **更规范化与制度化** 方向发展。 |
+Through multi-round conversations and strategic exploration, users can examine the simulated reasoning pathways, underlying concerns, and potential behavioral tendencies of individual virtual agents, providing valuable support for strategic decision-making, risk forecasting, and trend analysis.
+
+> 📊 **Structured Information Analysis:** By organizing simulation outputs into structured information, we summarize the key analytical dimensions of the academic technology scenario (GraphRAG Technology Evolution) and the social media public opinion scenario (Qingyu Tpor Incident on Bilibili, March 2026).
+
+- Research topics and core questions.
+- Development stages and key driving factors.
+- Comparative analysis of industry impact, representative cases, and long-term trends.
+
+The following comparison summarizes simulation-generated findings. Specific technology readiness estimates, business examples, and quantitative claims should be treated as analytical outputs requiring independent verification.
+
+| Analytical Dimension | Academic / GraphRAG — Summary | Social Media / Bilibili Public Opinion — Summary |
+|:---|:---|:---|
+| **Research Topic** | **GraphRAG Technology Evolution**<br>Exploring the integration of Knowledge Graphs and LLMs, with a focus on complex knowledge reasoning, multi-hop retrieval, and the industrial deployment of explainable AI. | **Qingyu Tpor Account Destruction Incident (March 2026)**<br>Exploring social platform governance issues arising from virtual property loss, public opinion propagation mechanisms, and the boundaries of platform accountability. |
+| **Core Questions** | How can GraphRAG enable structured knowledge retrieval, multi-hop reasoning, and reasoning explainability to enhance LLM-based decision support in specialized domains? | How should the legal status of virtual accounts and digital assets, streamer conduct standards, and platform governance responsibilities be defined? |
+| **Current Stage** | The simulation estimates a transition from **Technology Readiness Level (TRL) 5–6 to TRL 6–7**, representing a gradual shift from laboratory validation toward enterprise-level application exploration. | Public discourse gradually shifts from initial emotional condemnation toward **in-depth institutional and legal discussions**. |
+| **Key Driving Factors** | - Enhanced multimodal knowledge integration.<br>- Reinforcement Learning (RL) for retrieval and reasoning optimization.<br>- Incremental knowledge graph updates and real-time data integration. | - Discussions on streamer conduct standards.<br>- Legal classification of virtual property.<br>- Platform governance responsibilities and user rights protection. |
+| **Industry Impact** | Potential early adoption in knowledge-intensive sectors such as **healthcare, finance, and law**, facilitating the development of enterprise knowledge systems and AI-powered decision-support platforms. | Potential improvements in **livestreaming conduct standards**, virtual asset dispute resolution mechanisms, and user rights protection. |
+| **Representative Cases** | A simulation-generated example describes a leading securities firm applying **GraphRAG** to compliance review systems, improving review efficiency through automated retrieval of regulatory requirements and historical cases. | The **Qingyu Tpor Account Destruction Incident** is modeled as involving the loss of a fan's account data and widespread public discussion, with the simulation describing engagement on a scale of tens of millions. |
+| **Long-Term Trends** | GraphRAG has the potential to become a foundational infrastructure component of enterprise AI knowledge systems, supporting the evolution of LLMs toward **explainable and verifiable professional decision-support systems**. | Potential improvements in virtual asset protection and platform governance frameworks, contributing to a **more standardized and institutionalized digital platform ecosystem**. |
 
 ---
 
-> 官方版 V.S. 真心话（个人心路历程）\
-> 👀： 真正去洞悉真实情感
+> **Official Statements vs. Simulated Personal Reflections**
+>
+> 👀 Exploring deeper emotional, cognitive, and stakeholder perspectives beyond formal public statements.
+
+The following examples are generated through virtual agent simulation. Both the official-style responses and personal reflections are synthetic outputs rather than authentic interviews, verified institutional statements, or factual representations of real individuals' private thoughts. Numerical examples are illustrative and have not been independently validated.
 
 
 <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif;">
   <thead>
-    <tr style="background: linear-gradient(90deg, #a8cfff, #ffc899); color:white; text-align:center; font-weight:bold;">
-      <th style="padding:8px; width:25%;">模块对比</th>
-      <th style="padding:8px; width:37.5%;">官方版 (officials 对外)</th>
-      <th style="padding:8px; width:37.5%;">真心话（个人心路历程）</th>
+    <tr style="background:linear-gradient(90deg, #a8cfff, #ffc899); color:white; text-align:center; font-weight:bold;">
+      <th style="padding:8px; width:25%;">Scenario Comparison</th>
+      <th style="padding:8px; width:37.5%;">Official-Style Statement (Simulated)</th>
+      <th style="padding:8px; width:37.5%;">Personal Reflection (Simulated)</th>
     </tr>
   </thead>
   <tbody>
-    <!-- GraphRAG 金融案例 -->
-    <tr style="border-bottom:1px solid #ccc; transition: background 0.3s;" onmouseover="this.style.background='#f0f8ff';" onmouseout="this.style.background='';">
-      <td style="padding:10px; background:#79b0f5; color:white; font-weight:bold; text-align:center;">Academic / GraphRAG 官方 V.S 真心话 (洞悉更复杂内心💗)</td>
+    <!-- GraphRAG Financial Application Scenario -->
+    <tr style="border-bottom:1px solid #ccc; transition:background 0.3s;" onmouseover="this.style.background='#f0f8ff';" onmouseout="this.style.background='';">
+      <td style="padding:10px; background:#79b0f5; color:white; font-weight:bold; text-align:center;">
+        Academic / GraphRAG — Official Statements vs. Personal Reflections 💗
+      </td>
       <td style="padding:10px; vertical-align:top;">
-        从交易所数据的专业角度看，GraphRAG在金融领域确实有实际创收案例，但主要集中在头部机构。业内态度是谨慎乐观——看好技术潜力，但对大规模商业化落地持审慎态度。例如：某头部券商用GraphRAG优化合规审查系统，人工审查3-5天缩短为2小时，准确率从78%提升至92%，节省30%的人力成本。<br><br>
-        从我们接触的机构反馈看，专业态度分三层：1）技术团队最积极，已经在测试跨市场套利、产业链风险传导等场景；2）风控合规部门比较务实，关注准确率和可解释性，我们之前分享的那个“监管规则匹配准确率提升28%”的数据就是他们最看重的；3）业务部门相对保守，要看到明确的ROI才愿意投入。
+        From a professional exchange-data perspective, GraphRAG demonstrates potential revenue-generating applications in the financial sector, particularly among leading institutions. The industry remains cautiously optimistic about its technological potential while taking a prudent approach toward large-scale commercialization.
+        <br><br>
+        For example, an illustrative scenario involves a leading securities firm applying GraphRAG to optimize its compliance review system, reducing manual review time from 3–5 days to 2 hours, increasing accuracy from 78% to 92%, and reducing labor costs by 30%.
+        <br><br>
+        Institutional perspectives can be divided into three categories:
+        <br><br>
+        1. Technology teams are the most enthusiastic, actively exploring applications such as cross-market arbitrage and supply-chain risk propagation.
+        <br><br>
+        2. Risk management and compliance departments prioritize accuracy and explainability, placing particular emphasis on the reported 28% improvement in regulatory rule matching accuracy.
+        <br><br>
+        3. Business departments remain relatively conservative and require clear evidence of return on investment (ROI) before committing substantial resources.
       </td>
       <td style="padding:10px; vertical-align:top; color:#f77f00;">
-        说实话，看到这个问题我有点感慨😮‍💨。作为做交易所数据服务的，我们这行对新技术总是又爱又怕😨。<br><br>
-        <span style="color:#f77f00;">公司从去年开始就在内部测试GraphRAG，说实话直接说“创收”可能有点早，但确实看到了商业价值</span>。例如，中型券商部署后能快速识别上下游公司风险传导路径，分析师效率提升30%，这算间接创收。
-        <span style="color:#f77f00;">上个月参加金融科技闭门会，大家普遍觉得GraphRAG还在“技术验证期”</span>，有朋友说：“这东西概念很性感，但真要放进实盘交易系统，我晚上睡不着觉。” 我担心幻觉率问题——金融领域对准确率要求太高😓。
+        To be honest, this question makes me reflect on how our industry approaches emerging technologies. 😮‍💨 As a financial exchange data service provider, we often find ourselves both excited and concerned about technological innovation. 😨
+        <br><br>
+        <span style="color:#f77f00;">Our company began internally testing GraphRAG last year. It may still be too early to describe it as a direct revenue generator, but we have observed potential commercial value.</span>
+        <br><br>
+        For example, a simulated deployment at a mid-sized securities firm suggests that GraphRAG could help identify upstream and downstream corporate risk propagation pathways and potentially improve analyst efficiency by 30%.
+        <br><br>
+        <span style="color:#f77f00;">At a simulated financial technology roundtable, participants generally viewed GraphRAG as being at the technology validation stage.</span>
+        <br><br>
+        A hypothetical participant commented: “The concept is exciting, but integrating it into a live trading system would make me nervous.”
+        <br><br>
+        My main concern is model hallucination, given the exceptionally high accuracy requirements of financial applications. 😓
       </td>
     </tr>
-    <!-- 平台监管政策 -->
-    <tr style="border-bottom:1px solid #ccc; transition: background 0.3s;" onmouseover="this.style.background='#fff4e6';" onmouseout="this.style.background='';">
-      <td style="padding:10px; background:#ffad6e; color:white; font-weight:bold; text-align:center;">Social Media / B站官方 V.S 真心话 (洞悉更复杂内心💗)</td>
+    <!-- Platform Governance and Regulatory Policy Scenario -->
+    <tr style="border-bottom:1px solid #ccc; transition:background 0.3s;" onmouseover="this.style.background='#fff4e6';" onmouseout="this.style.background='';">
+      <td style="padding:10px; background:#ffad6e; color:white; font-weight:bold; text-align:center;">
+        Social Media / Bilibili — Official Statements vs. Personal Reflections 💗
+      </td>
       <td style="padding:10px; vertical-align:top;">
-        立场明确：不取消扫码上号，而是推动平台优化安全性，提升主播和用户风险意识。<br><br>
-        扫码上号便利，但存在风险。因此，建议增加风险提示弹窗、建立临时授权机制、提供操作记录追溯功能。所以一刀切取消不现实，但必须规范：我们正在和几家主流平台沟通，建议他们：第一，增加扫码前的风险提示弹窗，明确告知可能的风险；第二，建立“临时授权”机制，限制扫码后的操作权限；第三，为主播提供操作记录追溯功能。
+        The simulated policy position is clear: QR-code-based account login should not be eliminated entirely. Instead, platforms should strengthen security mechanisms and improve risk awareness among streamers and users.
+        <br><br>
+        Although QR-code-based login provides convenience, it also introduces potential security risks. Recommended measures include:
+        <br><br>
+        1. Introducing risk warning messages before QR-code authorization, clearly communicating potential risks to users.
+        <br><br>
+        2. Establishing temporary authorization mechanisms to restrict operational permissions following account access.
+        <br><br>
+        3. Providing operation logs and traceability mechanisms for streamer activities.
+        <br><br>
+        Rather than implementing a blanket prohibition, platforms should establish standardized governance mechanisms that balance convenience and security.
       </td>
       <td style="padding:10px; vertical-align:top; color:#ff9e3b;">
-        唉，说实话这个问题真的挺纠结的😮‍💨。
-        <span style="color:#ff9e3b;">所有打赏、粉丝数据一夜清零，哭都没地方哭</span>。我们当时发声明呼吁平台明确责任，但效果有限🏳️。<br><br>
-        我认识很多小主播，刚起步就靠扫码积累粉丝。<span style="color:#ff9e3b;">小薇说靠扫码互动一个月涨五千粉，这是她吃饭的本钱啊！</span><br><br>
-        我希望平台建立完善保护机制，而不是简单取消，保障虚拟财产安全。
+        This issue presents a difficult dilemma. 😮‍💨
+        <br><br>
+        <span style="color:#ff9e3b;">Imagine losing accumulated donations and fan-related data overnight, without an effective means of recovering them.</span>
+        <br><br>
+        Calls for clearer platform accountability may not always lead to immediate or satisfactory outcomes. 🏳️
+        <br><br>
+        Many small streamers depend on QR-code-based interactions to build their audiences during the early stages of their careers.
+        <br><br>
+        <span style="color:#ff9e3b;">In one illustrative scenario, a small streamer gains 5,000 followers in a month through QR-code-based interactions, making this feature important to their livelihood.</span>
+        <br><br>
+        I would prefer platforms to establish comprehensive protection mechanisms rather than simply eliminating the feature, ensuring that virtual property remains adequately protected.
       </td>
     </tr>
   </tbody>
 </table>
 
 
-
 ---
 
 
-<!-- Figure 15 图组下面的报告按钮 -->
+<!-- Detailed Analytical Report Links -->
 <p style="font-size:15px; color:#666; margin-top:10px;">
-📑 <b>Detailed analytical reports can be accessed below:</b><br>
-The full reports provide extended analysis, agent reasoning traces, and deeper insights into both the academic GraphRAG research scenario and the social media event simulation: 
+  📑 <b>Detailed Analytical Reports</b><br>
+  The full reports provide extended analysis, generated agent reasoning summaries, and deeper insights into both the academic GraphRAG research scenario and the social media public opinion simulation.
 </p>
 
 <div style="text-align:center; margin-top:10px; display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 
-  <a href="assets/ans_report_interview/ansInterview_GraphRAG.md" 
+  <a href="assets/ans_report_interview/ansInterview_GraphRAG.md"
      style="background:#2b7de9; color:white; padding:8px 16px; border-radius:8px; text-decoration:none; font-size:13px; display:inline-block;">
     📘 View Full Academic Report (GraphRAG)
   </a>
 
-  <a href="assets/ans_report_interview/ansInterview_Tpor.md" 
+  <a href="assets/ans_report_interview/ansInterview_Tpor.md"
      style="background:#ff7a18; color:white; padding:8px 16px; border-radius:8px; text-decoration:none; font-size:13px; display:inline-block;">
     🔥 View Full Social Analysis (Qingyu Event)
   </a>
 
+</div>
+
+
 | ![GraphRAG Analytical Report](assets/2_canyon/step4/report/report_graphrag.png) | ![Qingyu Event Report](assets/2_canyon/step4/report/report_qingyu.png) |
 |:--:|:--:|
-| **Figure 15a:** GraphRAG Analytical Report — 学术研究场景下生成的综合分析报告，结构化知识整合与多跳推理，对 GraphRAG 发展趋势、研究方向及应用领域系统总结。 | **Figure 15b:** Qingyu Event Report — 针对 B站“清雨 Tpor 毁号事件”的舆情分析报告，汇总事件背景、舆论传播及平台生态影响，对公众关注焦点结构化梳理。 |
+| **Figure 15a:** GraphRAG Analytical Report — A comprehensive report generated within the academic research scenario, integrating structured knowledge and multi-hop reasoning to summarize GraphRAG development trends, research directions, and potential application domains. | **Figure 15b:** Qingyu Event Report — A public opinion analysis report on the Qingyu Tpor Account Destruction Incident on Bilibili (March 2026), summarizing event context, information diffusion, platform ecosystem implications, and key issues of public concern. |
 
 | ![GraphRAG Agent Mindset](assets/2_canyon/step4/report/mindset_graphrag1.png) | ![Qingyu Agent Mindset](assets/2_canyon/step4/report/mindset_qingyu1.png) |
 |:--:|:--:|
-| **Figure 15c:** GraphRAG Agent Mindset — 学术 Agent 在访谈后的内部思考与认知总结，展示其对 GraphRAG 技术未来发展的理解、潜在研究挑战及可能的技术突破。 | **Figure 15d:** Qingyu Agent Mindset — 社交舆论 Agent 对事件的情绪与认知反应记录，体现不同虚拟个体在舆论环境中的态度差异及对平台治理问题思考。 |
-
+| **Figure 15c:** GraphRAG Agent Mindset — Generated cognitive reflections and analytical summaries following academic agent interviews, illustrating simulated interpretations of future GraphRAG development, research challenges, and potential technological breakthroughs. | **Figure 15d:** Qingyu Agent Mindset — Simulated emotional and cognitive responses to the incident, illustrating differences in attitudes among virtual agents and their perspectives on platform governance. |
 ---
 
 ## 📚 5. References
