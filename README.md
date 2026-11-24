@@ -11,7 +11,7 @@
 <ul style="list-style-type: none; padding-left: 0; margin-top: 15px;">
     <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
         <span style="color: #4CAF50; font-size: 1.2em;">👤</span> 
-        <strong>Name:</strong> Minghao Li (Aiur), Yirui Liang (Loey)
+        <strong>Name: Minghao Li (Aiur), Yirui Liang (Loey), Qianqi Chen (Kiki) </strong>
     </li>
     <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
         <span style="color: #4CAF50; font-size: 1.2em;">🏫</span> 
