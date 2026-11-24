@@ -401,155 +401,162 @@ NEXUS establishes a cognitive simulation system through the following core mecha
 ---
 
 
-### 🤖 4.2 模块二 : 客制化深度搜索 Agents (以近期B站清雨Tpor毁号事件为例)
-> 目标：该模块旨在为 NEXUS Cognitive Simulation System 提供高质量的分析先验，通过<a href="https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline" style="color:#f77f00; text-decoration:none;" target="_blank">深度搜索、用户焦点锚定、多智能体推理与结构化信息建模</a>构建可靠的信息基础。整体目标是从现实世界信息流中<a href="https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline" style="color:#f77f00; text-decoration:none;" target="_blank">提取与用户真正兴趣相关的高价值信息</a>，并将其转化为结构化知识输入后续的推演系统
+### 🤖 4.2 Module II: Customized Deep Search Agents — A Case Study of the Qingyu Tpor Account Destruction Incident on Bilibili (March 2026)
 
-> 该模块由两部分构成：
-> Pressure-driven & CongnitiveTemp-DeepSearch Agents
+> **Objective:** This module aims to provide high-quality analytical priors for the NEXUS Cognitive Simulation System by establishing a reliable information foundation through <a href="https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline" style="color:#f77f00; text-decoration:none;" target="_blank">deep search, user attention anchoring, multi-agent reasoning, and structured information modeling</a>. The overall objective is to <a href="https://github.com/SuleynanAuir/Enterprise-Enhanced-LLaMA-Factory-Pro-Advanced-FineTuning-Local-Deployment-Pipeline" style="color:#f77f00; text-decoration:none;" target="_blank">extract high-value information aligned with users' genuine interests</a> from real-world information streams and transform it into structured knowledge for subsequent cognitive simulation.
 
-- > UPARIS-DS 提出了一种基于压力驱动（Pressure-Driven）的段落级迭代反思搜索架构，结合用户关注点锚定机制，通过迭代反思不断优化搜索结果的相关性和深度
+> This module consists of two core components:
+> **Pressure-Driven Deep Search & CognitiveTemp-DeepSearch Agents**
+
+- > UPAIRS-DS introduces a **Pressure-Driven Paragraph-Level Iterative Reflection Search Architecture**. By integrating user attention anchoring with iterative reflection, the framework continuously optimizes the relevance and depth of search results.
 
 <table>
   <tr>
-    <!-- 左列：两张图片 -->
+    <!-- Left Column: Architecture Diagrams -->
     <td style="width:45%; vertical-align:top; padding-right:15px; text-align:center;">
-      <img src="assets/uparis_ds.png" 
-           alt="UPAIRS Deep Search Engine" 
+      <img src="assets/uparis_ds.png"
+           alt="UPAIRS Deep Search Engine"
            style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-bottom:12px;" />
-      <img src="assets/con_ds.png" 
-           alt="CognitiveTemp Deep Search" 
+      <img src="assets/con_ds.png"
+           alt="CognitiveTemp Deep Search"
            style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
     </td>
-    <!-- 右列：文字整合 -->
+    <!-- Right Column: Technical Description -->
     <td style="width:55%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
-      <strong>🔎 Deep Search Engine </strong><br><br>
-      该搜索模块基于本人项目  
-      <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank"><strong>UPAIRS Agents</strong></a>  
-      构建，采用 <strong>Pressure-Driven 段落级迭代反思搜索架构</strong>，能在复杂信息环境中持续反思与优化检索路径，高<strong>Factuality事实保真</strong>  
+      <strong>🔎 Deep Search Engine</strong><br><br>
+      This search module is built upon the independently developed personal project
+      <a href="https://github.com/SuleynanAuir/UPAIRS-Agents" target="_blank"><strong>UPAIRS Agents</strong></a>.
+      It adopts a <strong>Pressure-Driven Paragraph-Level Iterative Reflection Search Architecture</strong>, enabling continuous reflection and retrieval path optimization within complex information environments to enhance <strong>Factuality</strong>.
       <br><br>
-      <strong>🔎 CognitiveTemp-DeepSearch </strong><br><br>
-      用户还可以通过  
-      <a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank">CognitiveTemp-DeepSearch-Agents</a>  
-      自定义搜索策略，按需求客制化 Agents 的深度搜索能力，从而获得 <strong>关联性、可靠性与时效性更强</strong> 的信息结果
+      <strong>🔎 CognitiveTemp-DeepSearch</strong><br><br>
+      Users can further customize their search strategies through
+      <a href="https://github.com/SuleynanAuir/CognitiveTemp-DeepSearch-Agents" target="_blank">CognitiveTemp-DeepSearch-Agents</a>,
+      adapting the deep search capabilities of agents to their specific information needs and obtaining results with <strong>greater relevance, reliability, and timeliness</strong>.
       <br><br>
-      系统结合多种关键机制：
+      The system integrates several key mechanisms:
       <ul style="margin-top:6px;">
-        <li>🔄 段落级迭代反思（Iterative Reflection）</li>
-        <li>🎯 反思压力模型（Pressure Model）</li>
-        <li>🧠 多智能体协作推理</li>
-        <li>📊 不确定性量化</li>
-        <li>⚡ 智能预算分配</li>
-        <li>🎨 信息源质量评分</li>
-        <li>🔍 去噪重排序</li>
+        <li>🔄 Paragraph-Level Iterative Reflection</li>
+        <li>🎯 Reflection Pressure Model</li>
+        <li>🧠 Collaborative Multi-Agent Reasoning</li>
+        <li>📊 Uncertainty Quantification</li>
+        <li>⚡ Intelligent Budget Allocation</li>
+        <li>🎨 Information Source Quality Scoring</li>
+        <li>🔍 Noise Filtering and Re-Ranking</li>
       </ul>
-      上述机制，实现<strong>高质量</strong>深度搜索
+      Together, these mechanisms enable <strong>high-quality deep search</strong> across complex information environments.
     </td>
   </tr>
-  <!-- 第二行：效果图 -->
+  <!-- Second Row: Interface Demonstration -->
   <tr>
     <td colspan="2" style="text-align:center; padding-top:20px;">
-      <img src="assets/1_search/search_page.png" 
-           alt="Search Page" 
+      <img src="assets/1_search/search_page.png"
+           alt="Search Page"
            style="width:48%; height:200px; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); margin-right:12px;" />
-      <img src="assets/1_search/search_result.png" 
-           alt="Search Result" 
+      <img src="assets/1_search/search_result.png"
+           alt="Search Result"
            style="width:48%; height:200px; object-fit:contain; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
       <p style="font-size:12px; color:#555; margin-top:6px;">
-        <strong>Figure 3:</strong> Deep Search Interface (left) — Query Input and Search Result Exploration (right)
+        <strong>Figure 3:</strong> Deep Search Interface — Query Input (left) and Search Result Exploration (right).
       </p>
     </td>
   </tr>
 </table>
-
   
 ---
 
-### 🤖 4.3 模块三 : 用户注意力驱动的信息理解 Agents
+### 🤖 4.3 Module III: User Attention-Driven Information Understanding Agents
 
-系统由3个核心子模块构成：
+The system consists of three core submodules:
 
-(1) User Attention Anchoring → (2) Multi-Agent Deep Analysis → (3) Structured Knowledge Output
+**(1) User Attention Anchoring → (2) Multi-Agent Deep Analysis → (3) Structured Knowledge Output**
 
-#### 4.3.1 子模块一 :User Attention Anchoring
-- > 该模块通过 Google Hypothesis 实时勾取用户关注点及标注
+#### 4.3.1 Submodule I: User Attention Anchoring
 
+- > This module leverages Hypothesis to capture user attention anchors, highlights, and annotations in real time.
 
-(1) 初步深度搜索：分别针对 <a style="color:#f77f00; text-decoration:none;" target="_blank">学术场景（GraphRAG）和 社交舆论场（以近期B站清雨Tpor毁号事件为例）</a> 的搜索，用户可以自定义 "时效性、关联性（通过严格阈值控制）、搜索源" 的搜索策略，获得更符合用户认知目标的搜索结果
+**(1) Initial Deep Search:** NEXUS conducts deep searches across two distinct scenarios: <a style="color:#f77f00; text-decoration:none;" target="_blank">an academic research scenario (GraphRAG) and a social media public opinion scenario (the Qingyu Tpor Account Destruction Incident on Bilibili, March 2026)</a>.
+
+Users can customize their search strategies based on **timeliness, relevance (through strict threshold control), and information sources**, obtaining search results that are more closely aligned with their cognitive objectives.
+
 <div style="text-align:center; margin:20px 0;">
-  <!-- 图片行 -->
+  <!-- Image Row -->
   <div style="display:flex; justify-content:center; gap:12px;">
     <img src="assets/1_search/search_page.png"
-         alt="Search Page"
+         alt="GraphRAG Academic Search Page"
          style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
     <img src="assets/1_search/search_page_qingyu.png"
-         alt="Search Result"
+         alt="Qingyu Tpor Public Opinion Search Page"
          style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
   </div>
-  <!-- 图名 -->
+  <!-- Figure Caption -->
   <p style="font-size:12px; color:#555; margin-top:6px;">
-    <strong>Figure 4:</strong> GraphRAG 搜索(left) and 近期热点B站主播清雨Tpor毁号事件搜索(right)
+    <strong>Figure 4:</strong> GraphRAG Academic Search (left) and Public Opinion Search on the Qingyu Tpor Account Destruction Incident on Bilibili (March 2026) (right).
   </p>
 </div>
 
 
 <table style="width:100%; border-collapse:collapse;">
   <tr>
-    <!-- 左列：图片（去除上下留空） -->
+    <!-- Left Column: Search Result Visualization -->
     <td style="width:40%; vertical-align:top; padding-right:15px; line-height:0;">
       <img src="assets/1_search/search_result.png"
-           alt="search_result"
+           alt="Deep Search Quantitative Evaluation Results"
            style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18); display:block;" />
     </td>
-    <!-- 右列：文字（保持原样） -->
+    <!-- Right Column: Quantitative Metrics -->
     <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
-      <strong>初步深度搜索量化指标</strong><br><br>
-      Deepsearch高置信度与支持率、标签命中：<br>
+      <strong>Quantitative Evaluation Metrics for Initial Deep Search</strong><br><br>
+      Deep search results are evaluated based on confidence, evidence support rate, and tag hit rate.
+      <br>
       <ul style="margin-top:6px;">
-        <li>LLMs分析总结tags, 辅助标签准确命中</li>
-        <li>动态阈值，避免搜索时间长、置信度低问题</li>
-        <li><strong>置信度判断标准：</strong> 判断内容是否含有多元化资料支持？</li>
+        <li>LLM-based tag analysis and summarization to improve tag matching accuracy.</li>
+        <li>Dynamic threshold adjustment to mitigate excessive search time and low-confidence retrieval results.</li>
+        <li><strong>Confidence Assessment Criterion:</strong> Evaluate whether retrieved information is supported by multiple and diverse information sources.</li>
       </ul>
-      <strong>Figure 5:</strong> 深度搜索量化结果 — 定制 "时效性、严格阈值控制、搜索源"
+      <strong>Figure 5:</strong> Quantitative Deep Search Results — Customizable Timeliness, Strict Relevance Threshold Control, and Information Source Selection.
     </td>
   </tr>
 </table>
 
+**(2) User Attention Annotation:** NEXUS integrates the Hypothesis Chrome extension and the [Hypothesis API](https://github.com/hypothesis/h-api), which supports Web & PDF Annotation, to capture users' attention anchors within search results in real time.
 
-(2) 用户焦点标记：使用 hypethesis 的 Google Plugin，调用可进行 Web & PDF Annotation的Hypethesis API (https://github.com/hypothesis/h-api) 来实时勾取用户对于搜索结果的“关注点标记”（例如：用户可以高亮他们感兴趣的内容【并且做出任何用户自然语言的标注】 / 或者对某句话写下疑惑点），接下来系统均会实时勾取用户所有高亮的内容/人为标注，最后输出为结构化的 json/jsonl 数据
+Users can highlight content of interest, add free-form natural language annotations, or record questions and concerns about specific passages. The system automatically captures all user-generated highlights and annotations in real time and transforms them into structured `JSON / JSONL` data for subsequent multi-agent analysis.
 
 <table>
   <tr>
-    <!-- 左列：图片 -->
+    <!-- Left Column: User Annotation Interface -->
     <td style="width:40%; vertical-align:top; padding-right:15px; text-align:center;">
       <img src="assets/1_search/web_notation.png"
            alt="User Attention Annotation"
            style="width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
     </td>
-    <!-- 右列：文字 -->
+    <!-- Right Column: Functional Description -->
     <td style="width:60%; vertical-align:top; font-size:14px; line-height:1.6; padding-left:15px;">
       <strong>User Attention Annotation</strong><br><br>
-      Google Plugin调用  
-      <a href="https://github.com/hypothesis/h-api" target="_blank">Hypethesis API</a>，实时勾取用户对搜索结果关注
+      The Hypothesis Chrome extension integrates with the
+      <a href="https://github.com/hypothesis/h-api" target="_blank">Hypothesis API</a>
+      to capture users' attention signals within search results in real time.
       <ul style="margin-top:6px;">
-        <li>用户高亮感兴趣内容 & 系统实时捕获</li>
-        <li>针对选中句子做任意自然语言标注（注释、疑惑点等）</li>
-        <li>输出为结构化的 <strong>JSON / JSONL</strong>数据</li>
+        <li>Highlight content of interest with automatic real-time capture.</li>
+        <li>Add free-form natural language annotations to selected passages, including comments, questions, and concerns.</li>
+        <li>Transform user-generated highlights and annotations into structured <strong>JSON / JSONL</strong> data.</li>
       </ul>
-      <strong>Figure 6:</strong> Hypesis API
+      <strong>Figure 6:</strong> User Attention Annotation via the Hypothesis API.
     </td>
   </tr>
 </table>
 
 
-(3) 用户焦点整理：
-> 左 👈：搜索 “GraphRAG” 相关学术场景，得到 MED-COPILOT (3/11/2026, 最新资讯)
-> - 用户关注点：对于 “MED-COPILOT” 内容搜索的高亮，展现了用户对 患者数据的验证、模型幻觉风险、信心校准偏差以及支持度有较高的兴趣，<a style="color:#f77f00; text-decoration:none;" target="_blank">表明用户非常关注模型在医疗领域应用中的可靠性和安全性问题</a>，将为下面的多智能体分析提供重要的先验信息
-> 
-> 右 👉：搜索 “GraphRAG” 相关社交舆论场（以近期B站清雨Tpor毁号事件为例），得到  (3/7/2026)
-> - 用户关注点：对于 “帐户价值珍贵” 内容的高亮，展现了，<a style="color:#f77f00; text-decoration:none;" target="_blank">用户对虚拟游戏资产权益的关注，以及希望官方《永劫无间》、B站整治的诉求</a>。对于搜索内容 “炫神力挺” 的反常现象，用户表示一定的反对态度，并且希望官方出手整治相关主播的违规行为
+**(3) User Attention Summary:**
+
+> **Left 👈:** In the academic search scenario for “GraphRAG,” the system retrieved **MED-COPILOT** *(March 11, 2026, latest update)*.  
+> - **User Attention Insight:** The highlighted content related to “MED-COPILOT” indicates strong user interest in **patient data validation, model hallucination risks, confidence calibration bias, and evidence support**. This suggests that the user is particularly concerned with the **reliability and safety of model applications in the medical domain**, providing important prior knowledge for the subsequent multi-agent analysis.
+
+> **Right 👉:** In the social media public opinion search scenario for “GraphRAG” *(using the Qingyu Tpor Account Destruction Incident on Bilibili, March 2026, as an example)*, the system retrieved related search results *(March 7, 2026)*.  
+> - **User Attention Insight:** The highlighted content referring to the **high value of game accounts** reflects the user’s concern for **the protection of virtual game assets** and the expectation that both the official *Naraka: Bladepoint* platform and Bilibili should take corrective action. In addition, the highlighted content related to **“Xuan Shen’s public support”** reveals the user’s critical stance toward this reaction and a desire for stronger official intervention against improper behavior by streamers.
 
 <div style="text-align:center; margin:20px 0;">
-  <!-- 图片行 -->
+  <!-- Image Row -->
   <div style="display:flex; justify-content:center; gap:12px;">
     <img src="assets/1_search/search_detail_graphrag.png"
          alt="GraphRAG Search Detail"
@@ -558,34 +565,37 @@ NEXUS establishes a cognitive simulation system through the following core mecha
          alt="Qingyu Search Detail"
          style="width:48%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.18);" />
   </div>
-  <!-- 图名 -->
+  <!-- Figure Caption -->
   <p style="font-size:12px; color:#555; margin-top:6px;">
-    <strong>Figure 7:</strong> GraphRAG 搜索 Detail (left) — 学术场景搜索 Entity & Relation Visualization;  
-    Qingyu毁号 搜索 Detail (right) — 社交舆论搜索 Semantic & Context Highlight
+    <strong>Figure 7:</strong> GraphRAG Search Detail (left) — Entity & Relation Visualization in the Academic Search Scenario;  
+    Qingyu Incident Search Detail (right) — Semantic and Contextual Highlighting in the Social Media Public Opinion Search Scenario.
   </p>
 </div>
 
 
 
+#### 4.3.2 Submodule II: Multi-Agent Deep Analysis
 
-#### 4.3.2 子模块二：Multi-Agent Deep Analysis
-
-| Agent       | 角色           | 职责作用                                     | 输入            | 输出                           |
-| ----------- | ------------ | -------------------------------------- | ------------- | ---------------------------- |
-| **🤖-A** | 焦点-趋势信号解析师 | 从用户关注点中挖掘趋势信号、演进脉络、关注热度                | 用户关注点数据（JSON） | 趋势信号报告                       |
-| **🤖-B** | 内容-趋势证据评审师   | 提取页面内容中的技术演进证据、时间轴、关键节点                | 页面真实信息（JSON）  | 技术演进证据报告                     |
-| **🤖-C** | 事件-趋势关联推理师   | 推断关联事件中的技术扩散路径与行业采纳动态                  | 关联事件信息（JSON）  | 事件趋势关联报告                     |
-| **🤖-D** | 首席趋势战略整合师    | 整合 Agent-A/B/C 输出，生成战略文档供趋势预测使用 | 强化输出报告（A+B+C）   | 高质量战略报告（高相关性、高时效性、高真实度、高定制化） |
+| Agent | Role | Responsibilities | Input | Output |
+| :--- | :--- | :--- | :--- | :--- |
+| **🤖 Agent-A** | User Trend Signal Analyst | Extract emerging trend signals, evolutionary patterns, and levels of user interest from User Attention Anchors. | User Attention Data (JSON) | Trend Signal Report |
+| **🤖 Agent-B** | Contextual Evidence Evaluator | Extract evidence of technological evolution, timelines, and key milestones from retrieved web content. | Factual Web Content (JSON) | Technology Evolution Evidence Report |
+| **🤖 Agent-C** | Event-Trend Relational Reasoner | Infer technological diffusion pathways and industry adoption dynamics from related events. | Related Event Data (JSON) | Event-Trend Correlation Report |
+| **🤖 Agent-D** | Chief Strategic Integrator | Integrate the analytical outputs of Agent-A, Agent-B, and Agent-C into strategic documents for subsequent trend forecasting. | Enhanced Analytical Reports (A+B+C) | High-Quality Strategic Report (High Relevance, Timeliness, Factuality, and Personalization) |
 
 
-💡 **总结一句话**：
+💡 **In a Nutshell:**
 
-> `Agent-A/B/C 趋势链式分析 + Agent-D 战略整合 → 高相关性、高时效性、高真实度、高定制化报告`
+> `Agent-A/B/C Sequential Trend Analysis + Agent-D Strategic Integration → Highly Relevant, Timely, Factual, and Personalized Reports`
 
-经过架构操作：`Agent-A/B/C 趋势链式分析 + Agent-D 战略整合的架构, 协作深度分析生成系统先验`，系统<a style="color:#f77f00; text-decoration:none;" target="_blank">从用户关注点出发</a>，挖掘趋势信号、提炼技术演进证据、推断事件趋势关联，并最终整合生成高质量的战略报告，为后续的趋势预测和情境推演提供基础
+Through the collaborative architecture of `Agent-A/B/C Sequential Trend Analysis + Agent-D Strategic Integration`, the system generates structured knowledge priors through in-depth multi-agent analysis.
 
-- 控制 “分析模式”：极速 / 平衡 / 深度
-- 控制 “相关度阈值”
+Starting from <a style="color:#f77f00; text-decoration:none;" target="_blank">User Attention Anchors</a>, the system identifies emerging trend signals, extracts evidence of technological evolution, infers relationships between events and trends, and ultimately synthesizes these findings into high-quality strategic reports.
+
+These reports establish a structured knowledge foundation for subsequent trend forecasting and future scenario simulation.
+
+- **Customizable Analysis Mode:** Fast / Balanced / Deep
+- **Adjustable Relevance Threshold**
 
 <div style="text-align:center; margin:20px 0;">
   <!-- 图片行 -->
@@ -608,21 +618,22 @@ NEXUS establishes a cognitive simulation system through the following core mecha
 
 
 
-#### 4.3.3 子模块三：Structured Knowledge Output
-- > 该模块将 Agent-A/B/C 的分析结果进行整合，生成高质量的战略报告，供后续的趋势预测 Agent 使用
+#### 4.3.3 Submodule III: Structured Knowledge Output
 
-可以点击查看详细报告 👉：
+> This module integrates the analytical outputs of Agent-A, Agent-B, and Agent-C to generate high-quality strategic reports, providing structured knowledge priors for subsequent trend forecasting agents.
+
+Explore the detailed reports below 👉:
+
 <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin:20px 0;">
 
-
-  <!-- 左边按钮 -->
+  <!-- Left Button: Preliminary Quantitative Evaluation Report -->
   <a href="assets/1_search/summary_report_20260312_170235.json" target="_blank">
-    <img src="https://img.shields.io/badge/初步检验量化报告-JSON-blue?style=for-the-badge&logo=readthedocs&logoColor=white" alt="初步检验量化报告">
+    <img src="https://img.shields.io/badge/Quantitative%20Evaluation%20Report-JSON-blue?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Preliminary Quantitative Evaluation Report">
   </a>
 
-  <!-- 右边按钮 -->
+  <!-- Right Button: Enhanced Analysis Report -->
   <a href="assets/1_search/agent_guide_20260313_104312.md" target="_blank">
-    <img src="https://img.shields.io/badge/强化结果-MD-red?style=for-the-badge&logo=readthedocs&logoColor=white" alt="强化结果">
+    <img src="https://img.shields.io/badge/Enhanced%20Analysis%20Report-MD-red?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Enhanced Analysis Report">
   </a>
 
 </div>
